@@ -59,7 +59,7 @@
       "dataTitle": "One task for AI",
       "eyebrow": "One Task",
       "headline": "Hand AI a task, once the <em>light turns green</em>.",
-      "lead": "The plan's second line is a task you stop doing by hand. For your 90-day plan, pick a green task: public or generic, go. The full light still governs everything else you do: yellow is internal, approved VU tools only; red is private information about people, never.",
+      "lead": "The plan's second line is a task you stop doing by hand. For your plan, pick a green task: public or generic, go. The full light still governs the rest: yellow is internal, approved VU tools only; red is private information about people, never.",
       "group": "Breakout pairs: name the task you want to hand to AI and run it through the light out loud. Partner checks the call. 90 seconds each way.",
       "solo": "Name the task you want to hand to AI and run it through the light. Write the color next to it.",
       "interaction": {
