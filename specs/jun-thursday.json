@@ -1,0 +1,257 @@
+{
+  "slug": "jun-thursday",
+  "series": "Thrive Thursday",
+  "month": "June 2027",
+  "monthShort": "Jun",
+  "monthIndex": 9,
+  "theme": "From Insight to Action",
+  "goal": 3,
+  "title": "Enough to Move",
+  "titleHtml": "You know <em class=\"gold-text\">enough to move</em>.",
+  "tagline": "Decisiveness: moving from data to move.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff, and the finale of Anchor's Edge: learn to decide with enough information, use the 70 percent rule, and give one circling decision a real deadline.",
+  "heroLead": "Every session this year handed you information. The last skill is knowing when you have enough. This finale teaches the 70 percent rule, telling reversible calls from one-way doors, and putting a deadline on the decision you have been circling.",
+  "objectives": [
+    "Explain why deciding at 70 percent beats waiting for certainty",
+    "Tell reversible decisions from one-way doors, and pace each accordingly",
+    "Name one decision you have been circling and give it a deadline"
+  ],
+  "skills": [
+    {"label": "Decision Making", "core": true},
+    {"label": "Judgment"},
+    {"label": "Bias for Action"}
+  ],
+  "missionTie": "A university that intends to define the century will out-decide its peers, one timely call at a time. Decisiveness is what turns nine months of insight into Exceptional Core Operations, in every office and at every level.",
+  "goalLead": "Goal 3 ends where action begins: insights become workforce moves only when someone decides. This closing session builds the deciding muscle itself.",
+  "agenda": [
+    {"t": "The 70 percent rule", "d": "Decide when you have most of the picture; the last 30 percent arrives by acting."},
+    {"t": "Doors and speed", "d": "Reversible calls get speed; one-way doors get the extra care. Learn to tell them apart."},
+    {"t": "The circling decision", "d": "Name the call you have been orbiting and give it a deadline it cannot slip."}
+  ],
+  "manifesto": "More data feels like progress. Past 70 percent, it is usually just delay.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Rule",
+      "dataTitle": "The 70 percent rule",
+      "eyebrow": "The 70 Percent Rule",
+      "headline": "Certainty arrives <em>after the deadline</em>.",
+      "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: choosing the status quo while calling it research. Strong deciders move when they have around 70 percent of what they wish they knew, and they learn the rest by moving.",
+      "group": "In pairs: name a decision this year you delayed past the useful point. What was the wait actually buying? 90 seconds each way.",
+      "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The 70 percent rule",
+          "text": "Decide when you have about 70 percent of the information you wish you had. Below that, you are guessing; near 100, you are late, and the choice has usually been made for you. Acting generates the information that waiting never will."
+        },
+        "q": "Quick check: what does the 70 percent rule actually claim?",
+        "opts": [
+          {"t": "Most decisions deserve about 70 percent of your effort", "correct": false, "why": "The rule is about information sufficiency; effort is a different dial. Some 70 percent calls deserve your whole attention."},
+          {"t": "Decide once you have most of the picture; acting supplies the rest", "correct": true, "why": "Right. Past roughly 70 percent, new information arrives slower than the cost of waiting grows. Moving is how you learn the last 30."},
+          {"t": "Any decision made quickly is better than a slow one", "correct": false, "why": "Speed is a tool, and some doors are one-way. The rule licenses moving at sufficiency; it never licenses recklessness on irreversible calls."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Doors",
+      "dataTitle": "Doors and speed",
+      "eyebrow": "Doors and Speed",
+      "headline": "Most doors <em>swing both ways</em>.",
+      "lead": "The pace of a decision should match its door. Two-way doors open again: you can try, learn, and step back, so they deserve speed. One-way doors are hard to reopen, so they earn the extra data. Treating every door as one-way is where the delay lives.",
+      "group": "Breakout pairs: each name one live decision and call its door. Partner argues the other reading for 30 seconds. 90 seconds each way.",
+      "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Call the door",
+        "intro": "Three decisions people circled this year. Call each one: move now, earn more data, or route it to its real owner.",
+        "progressWord": "Decision",
+        "labels": ["Two-way door: decide now", "One-way door: earn more data", "Not yours: route it to its owner"],
+        "passAt": 2,
+        "passMsg": "You can read a door before walking through it. Speed for two-way, diligence for one-way, a memo for the ones that were never yours.",
+        "failMsg": "Close. Ask two questions of any decision: could I step back from it, and is it mine to make? The answers set the pace.",
+        "items": [
+          {"q": "You have piloted an approved AI tool on your own drafts for a month. Adopt it for your regular workflow, or keep evaluating?", "answer": 0, "why": "A two-way door: adopt it, watch for a month, step back if it disappoints. A month of piloting is well past 70 percent."},
+          {"q": "You are weighing a move to a different team through the internal portal. The posting closes in three weeks.", "answer": 1, "why": "Career moves sit close to one-way doors: reversing is slow and costly. This one earns real diligence, and the closing date still gives it a deadline."},
+          {"q": "You keep circling whether your whole unit should standardize on one meeting-notes tool. You have opinions and no authority over it.", "answer": 2, "why": "The circling is a symptom: the decision belongs to someone else. Package your 70 percent as a recommendation, send it, and put it down."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Deadline",
+      "dataTitle": "The circling decision",
+      "eyebrow": "The Deadline",
+      "headline": "Give the circling a <em>landing time</em>.",
+      "lead": "Everyone carries one decision they have been orbiting for months: the tool, the conversation, the move, the ask. Circling has a cost; it just bills quietly. Today it gets a name and a deadline, and you get the altitude back.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Land the decision",
+        "intro": "Take the decision you have been circling. Choose how you frame it and how you force the landing.",
+        "runLabel": "Land it",
+        "outcomeTag": "How it lands",
+        "slots": [
+          {
+            "key": "How you frame it",
+            "opts": [
+              {"t": "I need to think more about my whole situation before deciding anything.", "pts": 1, "coach": "A frame with no edges cannot be decided, only revisited. Vague frames are how decisions become hobbies."},
+              {"t": "I should decide about the team move sometime soon.", "pts": 2, "coach": "The decision has a name now, and 'sometime soon' is where deadlines go to blur. Add the options and a date."},
+              {"t": "By Friday the 18th I choose: apply for the posting, or commit here for a year.", "pts": 3, "coach": "Two named options and a date. A decision framed as a fork with a deadline practically decides itself; the 70 percent you hold is enough."}
+            ]
+          },
+          {
+            "key": "How you force the landing",
+            "opts": [
+              {"t": "Keep it in mind and trust the right moment to appear.", "pts": 1, "coach": "The right moment is a myth deadlines were invented to replace. Untracked decisions circle until the option quietly expires."},
+              {"t": "Set a private reminder for the deadline day.", "pts": 2, "coach": "Better: the date exists. But a private deadline negotiates with you. On the day, 'more research' will sound very reasonable."},
+              {"t": "Tell one colleague the fork and the date, and book 30 minutes on deadline day.", "pts": 3, "coach": "A witness plus protected time is how deadlines hold. The decision now has an appointment, and someone will ask how it went."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "Cleared for landing. A named fork, a real date, a witness, and time on the calendar to decide.",
+          "mid": "Descending, slowly. The decision has edges now; it still needs a witness and an appointment to land.",
+          "weak": "Still circling. Without a frame or a date, this decision will fly the same loop into next year."
+        },
+        "reactions": {
+          "strong": "Deadline day takes half an hour. Whichever way you chose, the lightness afterward tells you what the circling was costing. Your colleague asks what you will land next.",
+          "mid": "The reminder fires on a busy day and gets snoozed twice. The decision lands a week late, still at 70 percent, which it turns out was always enough.",
+          "weak": "In November you notice the same decision in the same orbit, one option now gone. The data you were waiting for never arrived; the deadline you never set would have."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "The 70 percent rule says decide when...",
+      "opts": ["You are certain of the outcome", "You have most of the picture and acting will teach the rest", "Someone forces a deadline", "You have consulted everyone involved"],
+      "correct": 1,
+      "why": "Near-certainty arrives late and expensive. At roughly 70 percent, moving generates better information than waiting does."
+    },
+    {
+      "q": "A decision is a two-way door. What pace does it deserve?",
+      "opts": ["The same care as any big decision", "Decide fast; you can step back and adjust", "Delegate it upward to be safe", "Wait for the next planning cycle"],
+      "correct": 1,
+      "why": "Reversible calls are cheap to test and cheap to undo. Save the slow diligence for one-way doors, which are rarer than they feel."
+    },
+    {
+      "q": "What finally lands a decision you have been circling for months?",
+      "opts": ["More research time", "A named fork, a date, and a witness", "Waiting for certainty", "Handing every such call to your manager"],
+      "correct": 1,
+      "why": "Frame it as a fork, give it a deadline, tell one person, and book the time to decide. Circling ends when the landing is scheduled."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The deciding muscle is warm. Point it at the decision on your mind.",
+    "mid": "Solid. Reread the door test, then build your card.",
+    "low": "One more pass through the rule and the doors before you set the deadline."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My landing",
+    "headline": "Name the decision. <em>Set the date.</em>",
+    "lead": "The decision you have been circling, in one line. If it touches people, roles only, never names. Nothing you type is saved or sent.",
+    "whoLabel": "The decision: the fork you are circling, in one line.",
+    "whoPlaceholder": "e.g. apply for the analyst posting, or commit to my current role for a year",
+    "practiceLabel": "How will you land it?",
+    "whoRow": "The decision",
+    "practices": [
+      {"id": "fork", "chip": "Frame the fork", "name": "Frame the fork", "move": "Write the decision as two named options and pick the deadline that keeps both options alive."},
+      {"id": "witness", "chip": "Tell a witness", "name": "Tell a witness", "move": "Tell one colleague the fork and the date today, and ask them to ask you about it afterward."},
+      {"id": "appointment", "chip": "Book the landing", "name": "Book the landing", "move": "Put 30 minutes on your calendar on deadline day with one job: decide at 70 percent and write down the call."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The deadline lands inside this week; the decision is made before Friday ends."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The deadline sits within two weeks, booked today so the circling has an end date."},
+      {"id": "day30", "chip": "With my 90-day plan", "out": "The deadline rides your 90-day plan from Tuesday and gets checked at the day-30 review."}
+    ],
+    "cardTitle": "My landing card",
+    "evidenceRow": "Afterward, one line: what did deciding free up that more research never would have?"
+  },
+  "closing": {
+    "headline": "Nine months. One habit: <em>see it, then move</em>.",
+    "lead": "This is the last session of Anchor's Edge. You started in October learning to see talent; you close in June deciding at 70 percent. Everything between was the same lesson at different altitudes: look clearly, then act.",
+    "nextTag": "Your one next step · Before the deadline",
+    "nextTitle": "Land the decision on your card",
+    "nextBody": "Hold the 30 minutes, decide at 70 percent, and write down the call. If the decision is a change you will help others through, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts is a worthy epilogue.",
+    "brandline": "Enough information. Enough waiting. Decide."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. This is the final session of the nine-month series; expect some ceremony and leave two extra beats for the close.",
+    "pulse": "Seven days out, send the pulse: 'Did the decision on your landing card get decided? What did moving at 70 percent teach you? What is circling next?' Count of landed decisions is the Level 3 metric, and the last one of the year.",
+    "s1": {
+      "title": "The 70 percent rule",
+      "purpose": "Reframe waiting as a decision with costs, and install deciding at sufficiency.",
+      "say": "Last session of the year, and it is about the skill underneath every other one we taught: deciding. Here is the quiet truth: waiting for complete information is itself a decision. It chooses the status quo and calls it diligence. The rule we are installing today is simpler and braver: at about 70 percent of what you wish you knew, decide. Acting brings the rest.",
+      "facilitate": [
+        "Read the rule card once, slowly.",
+        "Run the knowledge check; let everyone answer on their own screen.",
+        "Run the breakout: the decision you delayed past the useful point."
+      ],
+      "ask": {
+        "q": "What was your delayed decision actually waiting for?",
+        "expect": ["Certainty, honestly", "Permission, or someone else deciding first"],
+        "respond": "Both answers are the point: certainty rarely comes, and permission usually arrives after someone moves. The 70 percent rule is permission you give yourself."
+      },
+      "debrief": "Below 70, gather. Around 70, decide. Past 90, you are paying for comfort with time.",
+      "watchFor": "The room hearing 'be reckless'. Keep saying it: the rule is about sufficiency, and the next section adds the safety rail for one-way doors.",
+      "transition": "The rule needs one refinement: some doors only open once.",
+      "coreNote": "Core: skip the breakout; take two delayed-decision stories in chat."
+    },
+    "s2": {
+      "title": "Doors and speed",
+      "purpose": "Teach reversible versus one-way decisions and match the pace to the door.",
+      "say": "Here is the refinement that keeps the 70 percent rule honest. Decisions are doors. Most swing both ways: you can walk through, look around, and walk back. Those deserve speed. A few are one-way, and they earn your slow, careful diligence. The trap for smart people is treating every door as one-way, which feels rigorous and is really just circling.",
+      "facilitate": [
+        "Run Call the door live; everyone plays on their own screen.",
+        "After round three, pause on the third label: routing a decision to its owner counts as deciding.",
+        "Run the breakout: one live decision, call the door, argue the other side."
+      ],
+      "ask": {
+        "q": "Why does round three, the decision that was never yours, matter so much?",
+        "expect": ["A lot of circling is really unowned decisions", "Sending the recommendation is a relief"],
+        "respond": "Yes. Packaging your 70 percent as a recommendation and handing it to the owner closes the loop. Deciding includes deciding it is theirs."
+      },
+      "debrief": "Two questions set the pace: could I step back from this, and is it mine? Speed for two-way doors, diligence for one-way, a memo for the rest.",
+      "watchFor": "People classifying obviously reversible calls as one-way to justify the delay. Ask gently: what exactly could you never undo?",
+      "transition": "Now the one you came in carrying: the decision you have been circling.",
+      "coreNote": "Core: run the trainer, skip the breakout, one voice on the debrief."
+    },
+    "s3": {
+      "title": "The circling decision",
+      "purpose": "Convert one circled decision into a framed fork with a deadline, a witness, and booked time.",
+      "say": "Everyone in this room is circling something. A posting, a conversation, a tool, an ask. The circling feels like progress because the decision stays technically alive. So we end the year by landing one. The shape is simple: frame it as a fork, set a date, tell a witness, book the half hour. You already have your 70 percent; June is the deadline.",
+      "facilitate": [
+        "Run Land the decision; two minutes for both choices.",
+        "Invite one volunteer to share their fork, options only, no backstory.",
+        "Point at the pattern: named fork, real date, witness, appointment."
+      ],
+      "ask": {
+        "q": "What makes telling a witness so much stronger than a private deadline?",
+        "expect": ["Private deadlines negotiate with you", "Being asked about it later is gentle pressure that works"],
+        "respond": "Exactly. A witness converts a promise to yourself into a promise, full stop. Choose someone kind and reliable; that is all it takes."
+      },
+      "debrief": "Fork, date, witness, appointment. Any decision that fits that shape lands; the ones that resist the shape usually belong to someone else.",
+      "watchFor": "Backstory spirals when people share. Keep shares to the fork and the date; the room does not need the case file.",
+      "transition": "Quick recap, then your landing card, and then we close the year.",
+      "coreNote": "Core: everyone runs the builder solo; skip the volunteer share."
+    },
+    "capstoneSay": "Last capstone of the year. The decision you have been circling, one line, roles only if it touches people. Frame the fork, pick how you land it, set the window, build the card. Copy it somewhere you will see it on deadline day. Two minutes, quiet, and make this one count.",
+    "closeSay": "That is the week: Monday your managers learned the four workforce moves, Tuesday you built a 90-day plan, and today you set a deadline. And that is the year. Nine months ago Anchor's Edge opened by asking you to see the talent around you. Since then you have learned to read teams, coach, use AI inside the lines, and now to act on what you see. The series ends here; the habits have no end date. Land the decision on your card, run your 90 days, and if you want one more companion, Leading Your Team Through Change and the navigator-led action-planning lab are open all month. Thank you for nine months of showing up. Go decide something.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "The 70 percent rule sparks pushback from compliance-heavy roles", "then": "Agree with them out loud: regulated calls and one-way doors sit outside the rule. Then bring it back: most of what we circle is reversible and unregulated, and that is where the rule lives."},
+      {"if": "Emotions surface as the series closes", "then": "Let it breathe. Invite one-line reflections in chat on the year, read two aloud, and land the close warmly; a finale is allowed to feel like one."}
+    ],
+    "toughQuestions": [
+      {"q": "Isn't deciding at 70 percent risky in a university, where mistakes are visible?", "a": "The rule travels with the door test. One-way, high-visibility calls still earn full diligence. The everyday calls we circle, the tools, drafts, meetings, and asks, are two-way doors, and the visible mistake there is usually the six-month delay, which everyone notices too."},
+      {"q": "Can I use AI to help me decide?", "a": "As an input, yes, inside the light: green for public or generic questions, yellow for internal content in approved VU tools, and red, never, for private information about people. AI can widen your options and pressure test your reasoning; the call itself stays yours. Deciding is the habit we spent nine months protecting."},
+      {"q": "What happens to Anchor's Edge after this session?", "a": "The series ends; the rhythm you keep is up to you. Your 90-day plan from Tuesday carries you to September, the capstone lab and this month's LinkedIn Learning course run through June, and the dashboard stays open for revisits. The habits were always the product."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes, and the finale of Anchor's Edge. Bring the decision you have been circling; you will never be asked to share it. You will leave with a deadline you chose. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did it land? Three lines, reply whenever: 1) Did the decision on your landing card get decided? 2) What did moving at 70 percent teach you? 3) What is circling next, and when does it land?"}
+    ]
+  }
+}
