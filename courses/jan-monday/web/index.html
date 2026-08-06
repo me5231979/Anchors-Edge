@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Bench: Self-Paced | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for Vanderbilt managers: reframe succession as growth planning, open the conversation without triggering replacement fear, and start a real pipeline for your own role.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/web/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Bench | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for Vanderbilt managers: reframe succession as growth planning, open the conversation without triggering replacement fear, and start a real pipeline for your own role.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Reframe</a><a href="#s-two">The Opening</a><a href="#s-three">Your Pipeline</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A university built to define the century cannot wobble every time a key person moves on. Deep benches are Exceptional Core Operations in human form, and they are built one growth conversation at a time.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Workforce Intelligence &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="85" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:6%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>6% of BUs</b></span>
+          <span>Q4 target · <b>85% of BUs</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> Goal 1 asks leaders to strengthen succession across the university. That starts with managers who can say the word out loud without anyone flinching.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Manager Monday · The manager lens · Retain, Grow, Move</p>
+      <h1 class="h-hero" data-reveal>Succession is a <em class="gold-text">growth plan</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Say the word succession and half the room hears replacement. This session flips it: a bench is a gift to the person on it, the conversation can be opened without fear, and your own role needs a pipeline more than anyone's.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Reframe succession planning as growth planning for the people on the bench</li><li>Open a succession conversation without triggering replacement fear</li><li>Name the start of a successor pipeline for your own role</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Workforce Intelligence &amp; Transfer Portal · 6% of BUs to 85% of BUs by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Succession Planning</span><span class="skillpill">Talent Development</span><span class="skillpill">Retention</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The bench is a gift</h3><p>Why succession planning is growth planning wearing a scarier name.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The fearless opening</h3><p>How to open the conversation so people hear investment, never replacement.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Your own pipeline</h3><p>Start naming who could grow into your role, and what that gives them now.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The bench is a gift">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Reframe</p>
+      <h2 class="h2" data-reveal>Succession planning is <em>growth planning</em>.</h2>
+      <p class="lead" data-reveal>Strip the org-chart drama away and a succession plan is a list of people getting ready for bigger work. Being named to a bench means someone senior is betting on your growth. That is the version your team deserves to hear from you first.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The reframe</span>
+        <p style="margin:.5rem 0 0" class="measure">A succession plan answers one question: who is getting ready for bigger work, and what do they need next? Read it that way and the bench stops being about exits. It becomes the most concrete growth plan most people will ever be given.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: what does being named to a bench actually mean for the person on it?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is the fear talking. A bench names who is being grown, and growth is the opposite of an exit plan."><span class="mark">A</span><span>Their manager is planning to move them out</span></button><button class="opt" data-correct="1" data-why="Exactly. A bench seat comes with stretch work, visibility, and a named direction. Retention research calls those the levers that keep people."><span class="mark">B</span><span>Someone senior is investing in their growth toward bigger work</span></button><button class="opt" data-correct="0" data-why="The seat pays off now: stretch projects, new skills, and the confidence of being seen. Waiting for a vacancy wastes the whole point."><span class="mark">C</span><span>Nothing until the role actually opens up</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write the sentence 'you are on the bench for X' for one person on your team. Does it read as a gift or a threat?</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The fearless opening">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Conversation</p>
+      <h2 class="h2" data-reveal>Open it so they hear <em>investment</em>.</h2>
+      <p class="lead" data-reveal>The same news lands as a promotion or a pink slip depending on the first two sentences. Openings that start with the org chart trigger the fear. Openings that start with the person's growth earn the conversation you wanted.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Gift or threat?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Each opening is real manager language. Call how it lands in the listener's chest before any explaining starts.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write your opening line for a succession conversation, then reread it as the listener. What is the first thing you would feel?</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Your own pipeline">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Move</p>
+      <h2 class="h2" data-reveal>Your role needs a <em>pipeline</em> too.</h2>
+      <p class="lead" data-reveal>The bravest succession move is naming who could grow into your own chair. It signals security, models the reframe, and frees you for bigger work. Build the two decisions that start it: who goes on the bench and what you say to them.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Start your pipeline</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Two decisions start a pipeline for your own role. Choose how you pick and how you say it.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Start the pipeline</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A bench is a gift to the person on it.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My bench move</p>
+      <h2 class="h2" data-reveal>One seat on the bench, <em>offered this week</em>.</h2>
+      <p class="lead" data-reveal>Pick the succession move you will actually make. Role only, never a name; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Whose growth is this about? Role and the bigger work they could grow toward.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. program coordinator; could grow toward team lead" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move do you make?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="gift"><span>The gift conversation</span></button><button class="opt" data-id="ownbench"><span>My own pipeline</span></button><button class="opt" data-id="stretch"><span>The stretch handoff</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>At our next 1:1</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Grow the bench. <em>Keep the people.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You reframed the bench, built a fearless opening, and started a pipeline for your own chair. The rest of the week widens the same theme: retain, grow, move, without the fear.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the bench move on your card</h3>
+        <p>Run it as built: the opening, the growth framing, the named direction. For a warm-up, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, pairs with a navigator-led stay-interview practice lab.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="../">Classroom edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">A bench is a gift. Hand someone a seat.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Bench · Manager Monday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Opening",
+   "labels": [
+    "Lands as investment",
+    "Triggers replacement fear",
+    "Too vague to land at all"
+   ],
+   "passAt": 2,
+   "passMsg": "You can hear it. Lead with their growth, name what they get now, and the fear never gets a foothold.",
+   "failMsg": "Close. The tell: openings about the org chart raise fear, openings about their growth raise energy, and vague warmth raises nothing.",
+   "items": [
+    {
+     "q": "'HR needs a succession chart from me, so I have to put a name in the box for your role.'",
+     "answer": 1,
+     "why": "The person hears a box with their role in it and someone else's name going into the box. Compliance framing plus their role equals pure replacement fear."
+    },
+    {
+     "q": "'I think you could be ready for bigger work in two years. I want to build the plan with you.'",
+     "answer": 0,
+     "why": "It opens with their growth, gives a horizon, and hands them a seat at the planning table. That is the gift version of succession."
+    },
+    {
+     "q": "'You have a bright future here. Great things ahead. We should chat sometime.'",
+     "answer": 2,
+     "why": "Warm and weightless. Without a named direction or a next step, encouragement changes nothing and books nothing."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How it plays out",
+   "slots": [
+    {
+     "key": "How you pick",
+     "opts": [
+      {
+       "t": "Pick the person who has been here longest.",
+       "pts": 1,
+       "coach": "Tenure measures time, and your role runs on skills. A seniority pick tells everyone else the bench is a waiting line."
+      },
+      {
+       "t": "Pick the one person who works most like you do.",
+       "pts": 2,
+       "coach": "A mirror feels safe and shrinks the pool to one. Roles grow when a successor brings the skills the job needs next, which may look nothing like you."
+      },
+      {
+       "t": "List the skills your role really needs, then name two or three people growing toward them.",
+       "pts": 3,
+       "coach": "Skills first, then people, and more than one. A multi-person bench spreads the growth and takes the replacement pressure off any single name."
+      }
+     ]
+    },
+    {
+     "key": "What you say to them",
+     "opts": [
+      {
+       "t": "Nothing yet. Keep the bench to yourself until a vacancy is real.",
+       "pts": 1,
+       "coach": "A secret bench grows nobody. The stretch work, the visibility, the retention effect, all of it needs the person to know."
+      },
+      {
+       "t": "Tell them they are your backup if anything ever happens to you.",
+       "pts": 2,
+       "coach": "Honest, but backup language makes their growth depend on your exit. The plan should pay them now, whatever you do."
+      },
+      {
+       "t": "Tell them which skills you want to grow in them this year and what stretch work comes with it.",
+       "pts": 3,
+       "coach": "Growth now, named skills, real work. The role question can stay open while the development starts today. That is the gift version."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A pipeline that grows people. Your bench knows they are being invested in, and your role stops being a single point of failure.",
+    "mid": "A start with a wobble. The instinct is right; the framing still leans on exits instead of growth.",
+    "weak": "A name in a drawer. Nothing about anyone's week changed, and the role is exactly as fragile as it was."
+   },
+   "reactions": {
+    "strong": "A month later, one bench member runs a meeting you used to own, and runs it well. Your own manager notices your role no longer depends on you being in every room.",
+    "mid": "The person you told nods politely and quietly wonders about your health and your job search. Growth waits for clarity you have not given yet.",
+    "weak": "Six months on, a vacancy shows up somewhere else and the person in your drawer takes it. Benches that pay nothing lose to opportunities that pay now."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What is a succession plan, read the way this session reads it?",
+   "opts": [
+    "A contingency file for emergencies",
+    "A growth plan for the people on the bench",
+    "An org chart with backup names",
+    "A retirement countdown"
+   ],
+   "correct": 1,
+   "why": "A bench names who is being grown toward bigger work and what they need next. Exits are a side effect; growth is the point."
+  },
+  {
+   "q": "Which opening line keeps replacement fear out of a succession conversation?",
+   "opts": [
+    "'HR needs a name in the box for your role'",
+    "'If I ever leave, we need coverage'",
+    "'I think you're ready for bigger work; let's plan it together'",
+    "'You have a bright future here'"
+   ],
+   "correct": 2,
+   "why": "Openings that start with the person's growth earn the conversation. Org-chart and coverage framings put the fear in the room first."
+  },
+  {
+   "q": "What makes a bench for your own role actually work?",
+   "opts": [
+    "Keeping it confidential until needed",
+    "One trusted successor, chosen quietly",
+    "Skills first, several people, and telling them now",
+    "Waiting until you plan to leave"
+   ],
+   "correct": 2,
+   "why": "Skills before names, several people over one, and the growth starts today. A secret bench grows nobody and retains nobody."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The reframe is installed. Now open one bench conversation for real.",
+  "mid": "Solid. Reread the opening lines in section two, then build your card.",
+  "low": "Take a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The person and the direction",
+  "cardTitle": "My bench move card",
+  "copyTag": "The Bench · January 2027 · Anchor's Edge",
+  "goalRow": "Goal 1, Workforce Intelligence & Transfer Portal: 6% of BUs to 85% of BUs by Q4.",
+  "evidenceRow": "Afterward, one line: how did the growth framing land, and what did they say?",
+  "practices": [
+   {
+    "id": "gift",
+    "chip": "The gift conversation",
+    "name": "The gift conversation",
+    "move": "Open with the growth you see, name the bigger work, and build the plan with them in the room."
+   },
+   {
+    "id": "ownbench",
+    "chip": "My own pipeline",
+    "name": "My own pipeline",
+    "move": "List the skills your role needs, name two or three people growing toward them, and tell one of them this week."
+   },
+   {
+    "id": "stretch",
+    "chip": "The stretch handoff",
+    "name": "The stretch handoff",
+    "move": "Hand a bench member one piece of work you usually keep, with the why attached: this grows you toward bigger things."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The conversation happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "At our next 1:1",
+    "out": "The move opens your next scheduled 1:1, first item, before status updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

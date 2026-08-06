@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internal Bridges: Self-Paced | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: connect across departments with genuine curiosity, run the 20-minute virtual coffee, and keep your bridges warm with small, real follow-ups.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/web/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Internal Bridges | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: connect across departments with genuine curiosity, run the 20-minute virtual coffee, and keep your bridges warm with small, real follow-ups.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Reframe</a><a href="#s-two">The Coffee</a><a href="#s-three">The Warmth</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Radical Collaboration is a chancellor-level bet that Vanderbilt's best work happens across boundaries. Every bridge you build between departments is that bet paying off at human scale, one 20-minute coffee at a time.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Workforce Intelligence &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="85" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:6%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>6% of BUs</b></span>
+          <span>Q4 target · <b>85% of BUs</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> The Portal shows you postings; people tell you what is coming before it posts. Internal bridges are how opportunity reaches you early, and how your name comes up in rooms you are not in.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Thrive Thursday · The soft skill that carries it · The Transfer Portal in Practice</p>
+      <h1 class="h-hero" data-reveal>Build bridges <em class="gold-text">before you need them</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">If the word networking makes you cringe, good; the cringe means you have seen it done badly. This session rebuilds it on curiosity: real questions across departments, a 20-minute coffee format, and follow-ups small enough to actually send.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Swap transactional networking for curiosity-based connecting across departments</li><li>Run a 20-minute virtual coffee, from the invite to the thank-you</li><li>Keep a bridge warm with small, genuine follow-ups that take two minutes</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Workforce Intelligence &amp; Transfer Portal · 6% of BUs to 85% of BUs by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Networking</span><span class="skillpill">Collaboration</span><span class="skillpill">Communication</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Networking without the ick</h3><p>Curiosity is the whole trick: real questions beat working a room.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The 20-minute coffee</h3><p>The invite, the questions, and the close of a coffee worth taking.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Keeping bridges warm</h3><p>Two-minute follow-ups that keep a connection alive for years.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Networking without the ick">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Reframe</p>
+      <h2 class="h2" data-reveal>Curiosity is the <em>whole trick</em>.</h2>
+      <p class="lead" data-reveal>The ick comes from networking as extraction: collecting contacts you plan to use someday. Curiosity flips it. You reach out because you genuinely wonder how enrollment forecasts get made, or what facilities sees at 5am. Genuine interest carries no ick.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The curiosity test</span>
+        <p style="margin:.5rem 0 0" class="measure">Before reaching out, find the question you actually want answered about their work. If you have one, the outreach will feel natural to send and to receive. If you cannot find one, you picked the wrong person, and no script will fix it.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">What separates connecting from the networking that feels gross?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Frequency was never the problem. One extraction attempt feels worse than a dozen genuinely curious conversations."><span class="mark">A</span><span>Doing it less often</span></button><button class="opt" data-correct="1" data-why="Exactly. Curiosity makes the outreach honest, gives the conversation a spine, and leaves both people better off whether or not anything comes of it."><span class="mark">B</span><span>Leading with a question you genuinely want answered</span></button><button class="opt" data-correct="0" data-why="Curiosity travels in every direction. Some of the best bridges run to people whose work looks nothing like yours; that distance is the value."><span class="mark">C</span><span>Only connecting with people at your own level</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one Vanderbilt team you are genuinely curious about, and the question you would ask them.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The 20-minute coffee">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Coffee</p>
+      <h2 class="h2" data-reveal>Twenty minutes, <em>well spent</em>.</h2>
+      <p class="lead" data-reveal>The 20-minute virtual coffee is the unit of internal networking: short enough to say yes to, long enough to matter. The invite decides whether it happens; the questions decide whether it was worth it. Build both.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the coffee</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> You are inviting someone from another department to a 20-minute virtual coffee. Choose the invite and the twenty minutes.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the coffee</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Keeping bridges warm">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Warmth</p>
+      <h2 class="h2" data-reveal>Small follow-ups, <em>long bridges</em>.</h2>
+      <p class="lead" data-reveal>A bridge you never touch again quietly falls down. Keeping it warm takes two minutes: a link they would care about, a congratulations, a thank-you with a specific detail. Read each follow-up and call it.</p>
+      <div class="quiz trainer" id="s-three-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the follow-up</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Warm, transactional, or too much? Read each move and call it.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one contact in another department and the two-minute warm follow-up you could send this week.</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>Curiosity builds the bridge; small follow-ups keep it standing.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My first bridge</p>
+      <h2 class="h2" data-reveal>One bridge, started <em>this week</em>.</h2>
+      <p class="lead" data-reveal>Pick the bridge move you will actually make. Teams and roles, never names; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Where does the bridge go? A team or role, and your genuine question.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. analyst on the enrollment team; how do the fall forecasts get made?" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which bridge move do you make?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="coffee"><span>The curiosity coffee</span></button><button class="opt" data-id="warm"><span>The warm follow-up</span></button><button class="opt" data-id="map"><span>The bridge map</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="today"><span>Before I log off today</span></button><button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Build the bridge <em>before you need it</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You rebuilt networking on curiosity, packed it into twenty minutes, and learned the two-minute follow-up. With Monday's sending managers and Tuesday's Portal walkthrough, the month's whole map is in your hands.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the bridge move on your card</h3>
+        <p>Send the invite or the follow-up exactly as built. If growing a team is your next stretch, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="../">Classroom edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Small coffees. Long bridges.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>Internal Bridges · Thrive Thursday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-three-play",
+   "progressWord": "Move",
+   "labels": [
+    "Warm, send it",
+    "Transactional, rework it",
+    "Too much, let it breathe"
+   ],
+   "passAt": 2,
+   "passMsg": "You have the touch: specific, generous, occasional. Bridges kept that way hold for years.",
+   "failMsg": "Close. The tell: warm follow-ups are specific and ask for nothing. Asks after long silence read as extraction, and daily contact reads as pressure.",
+   "items": [
+    {
+     "q": "A month after your coffee, you spot an article on the system they said they were migrating to. You send the link with one line.",
+     "answer": 0,
+     "why": "Two minutes, specific to them, asks for nothing. This is the perfect warm follow-up: proof you listened, delivered with no invoice attached."
+    },
+    {
+     "q": "You have not spoken since October. A role opens on their team. Your first message in months is your resume and 'any chance of a referral?'",
+     "answer": 1,
+     "why": "Cold silence, then an ask: the extraction pattern that gave networking its ick. Warm the bridge first, or make the ask plainly without presuming a relationship."
+    },
+    {
+     "q": "Tuesday's coffee went great. You sent a thank-you Wednesday, a LinkedIn request Thursday, and are drafting a Friday check-in.",
+     "answer": 2,
+     "why": "The thank-you was perfect; the rest is crowding. Bridges are kept warm monthly, with moments that matter, and never by volume."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "How it lands",
+   "slots": [
+    {
+     "key": "The invite",
+     "opts": [
+      {
+       "t": "Hi! I'd love to pick your brain sometime. Coffee?",
+       "pts": 1,
+       "coach": "Vague ask, unbounded time, no reason. 'Pick your brain' tells them the meeting is work for them and a favor to you. Easy to ignore."
+      },
+      {
+       "t": "I'm trying to grow my network at Vanderbilt. Could we meet?",
+       "pts": 2,
+       "coach": "Honest, and it makes the coffee about your goals. The reason to say yes needs to include them, or at least their work."
+      },
+      {
+       "t": "I saw your team rebuilt orientation. I'm curious how you pulled it off. 20 minutes sometime?",
+       "pts": 3,
+       "coach": "Specific, flattering because it is true, and bounded at 20 minutes. You gave them a reason that is about their work. This one gets a yes."
+      }
+     ]
+    },
+    {
+     "key": "The twenty minutes",
+     "opts": [
+      {
+       "t": "Walk through your background and mention you are open to opportunities.",
+       "pts": 1,
+       "coach": "That turns a coffee into an audition nobody scheduled. The fastest way to make an internal contact go cold is to make them your job lead."
+      },
+      {
+       "t": "Keep it loose and see where the conversation goes.",
+       "pts": 2,
+       "coach": "Pleasant, and it drifts. Without a couple of real questions the twenty minutes evaporates and neither of you can say what it was for."
+      },
+      {
+       "t": "Ask your three real questions, listen hard, and end at twenty with a thank-you.",
+       "pts": 3,
+       "coach": "Questions carry the meeting, listening makes you memorable, and ending on time is what earns the second yes."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A coffee they would take again. You left with real insight and they left feeling interesting, which is rarer.",
+    "mid": "Pleasant and shapeless. Nobody regrets it; nobody remembers it either.",
+    "weak": "They saw the ask coming and went politely vague. The bridge is now harder to build than before you started."
+   },
+   "reactions": {
+    "strong": "Three weeks later they forward you a posting on their team with 'thought of you.' You did nothing but be curious and end on time. That is how bridges start carrying traffic.",
+    "mid": "A month later neither of you could say what the coffee was about. The next invite starts from scratch.",
+    "weak": "Your name now arrives with a small flinch attached. When a role opens on their team, they remember the audition, and they think of someone else for it."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What takes the ick out of internal networking?",
+   "opts": [
+    "Doing it only at official events",
+    "Leading with genuine curiosity about their work",
+    "Keeping every coffee under ten minutes",
+    "Only connecting within your division"
+   ],
+   "correct": 1,
+   "why": "Curiosity makes outreach honest. If you have a question you truly want answered, the connection carries itself."
+  },
+  {
+   "q": "What makes a virtual-coffee invite easy to say yes to?",
+   "opts": [
+    "Keeping it vague so they can shape it",
+    "Offering to buy them an actual coffee",
+    "A specific reason about their work, capped at 20 minutes",
+    "Copying their manager for visibility"
+   ],
+   "correct": 2,
+   "why": "Specific plus bounded gets the yes. 'Pick your brain sometime' is vague, unbounded, and all about you."
+  },
+  {
+   "q": "A month after a good coffee, the best bridge-warming move is...",
+   "opts": [
+    "A resume, in case something opens",
+    "A specific two-minute follow-up that asks for nothing",
+    "A daily stream of likes and comments",
+    "Waiting for them to reach out first"
+   ],
+   "correct": 1,
+   "why": "Specific and generous keeps the bridge warm. Extraction asks and radio silence both let it quietly fall down."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The bridge kit is complete. Now pick your first coffee.",
+  "mid": "Solid. Revisit the section you missed, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The bridge and the question",
+  "cardTitle": "My first bridge card",
+  "copyTag": "Internal Bridges · April 2027 · Anchor's Edge",
+  "goalRow": "Goal 1, Workforce Intelligence & Transfer Portal: 6% of BUs to 85% of BUs by Q4.",
+  "evidenceRow": "Afterward, one line: what did you learn about their work that you could never have guessed?",
+  "practices": [
+   {
+    "id": "coffee",
+    "chip": "The curiosity coffee",
+    "name": "The curiosity coffee",
+    "move": "Send one specific, bounded invite to someone in another department: their work, your genuine question, 20 minutes."
+   },
+   {
+    "id": "warm",
+    "chip": "The warm follow-up",
+    "name": "The warm follow-up",
+    "move": "Send one two-minute follow-up to a contact you already have: a link, a congratulations, or a thank-you with a specific detail."
+   },
+   {
+    "id": "map",
+    "chip": "The bridge map",
+    "name": "The bridge map",
+    "move": "List three teams your work touches but you have never met, and the one person you would ask for a coffee in each."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Before I log off today",
+    "out": "The move happens today, before you close this tab."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, sent by Friday."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

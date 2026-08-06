@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 90-Day Plan | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: build a personal 90-day AI action plan with one skill to build, one green-light task to hand to AI, and one habit to keep human.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The 90-Day Plan | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: build a personal 90-day AI action plan with one skill to build, one green-light task to hand to AI, and one habit to keep human.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Skill</a><a href="#s-two">The Handoff</a><a href="#s-three">The Human Habit</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · June 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan or click the chat link to bring this <em class="gold-text">to your screen</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Defining the great university of the 21st Century is the work of thousands of individual plans, yours included. Exceptional Core Operations happens when every staff member knows what AI takes, what they keep, and what they build next.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>By Q4, equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="25" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:5%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>5%</b></span>
+          <span>Q4 target · <b>25%</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> Goal 3 measures whether AI insight becomes practical action. Your 90-day plan is the smallest complete unit of that action: personal, dated, reviewable.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · From Insight to Action</p>
+      <h1 class="h-hero" data-reveal>Your next 90 days, <em class="gold-text">on one card</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Nine months of AI learning ends in a plan you can hold: one skill you will build, one green task you will hand to AI, one habit you will keep human. Small enough to finish, dated enough to check, yours enough to matter.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Choose one AI-adjacent skill to build in the next 90 days</li><li>Pick one green-light task to hand to AI, cleared through the traffic light</li><li>Name one habit you will deliberately keep human, with a review date</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness · 5% to 25% by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">AI Literacy</span><span class="skillpill">Planning and Prioritization</span><span class="skillpill">Adaptability</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>One skill to build</h3><p>Pick a skill that is small, near your real work, and finishable in 90 days.</p></div></li><li data-reveal><span class="num">02</span><div><h3>One task for AI</h3><p>Choose a green task to hand over, and run it through the traffic light first.</p></div></li><li data-reveal><span class="num">03</span><div><h3>One habit to keep human</h3><p>Name the thing you keep doing yourself, on purpose, and date the review.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="One skill to build">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · One Skill</p>
+      <h2 class="h2" data-reveal>Pick a skill you can <em>finish</em>.</h2>
+      <p class="lead" data-reveal>The best 90-day skill goal is embarrassingly small. Prompting AI well for your weekly report beats mastering AI. Reading one dashboard beats learning analytics. Small and finished builds more capability than ambitious and abandoned, every time.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The 90-day skill test</span>
+        <p style="margin:.5rem 0 0" class="measure">A good 90-day skill passes three questions: can I name the work I will use it on next week, can someone tell in September whether I built it, and can I practice it inside my actual job? If any answer is no, shrink the skill.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which of these is the strongest 90-day skill goal?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Nobody can tell in September whether this happened. It is a direction, and directions make honorable, unfinishable goals."><span class="mark">A</span><span>Become proficient in artificial intelligence</span></button><button class="opt" data-correct="1" data-why="Named work, checkable by September, practiced inside the job. This is what finishable looks like, and it compounds."><span class="mark">B</span><span>Use an approved VU AI tool to draft my monthly status report, every month</span></button><button class="opt" data-correct="0" data-why="Courses are fuel; fuel needs an engine. Pick one course aimed at one named task. This month's pick, Leading Your Team Through Change, fits if change is your work."><span class="mark">C</span><span>Take every AI course in the LinkedIn Learning library</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: trade one skill you could realistically build by September. Partner's job: shrink it until it honestly fits 90 days. 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write one skill you could realistically build by September. Then shrink it until it honestly fits 90 days.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="One task for AI">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · One Task</p>
+      <h2 class="h2" data-reveal>Hand AI a task, once the <em>light turns green</em>.</h2>
+      <p class="lead" data-reveal>The plan's second line is a task you stop doing by hand. For your plan, pick a green task: public or generic, go. The full light still governs the rest: yellow is internal, approved VU tools only; red is private information about people, never.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Clear the handoff</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three tasks people wanted to hand to AI this year. Run each through the traffic light before anything moves.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: name the task you want to hand to AI and run it through the light out loud. Partner checks the call. 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name the task you want to hand to AI and run it through the light. Write the color next to it.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="One habit to keep human">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · One Habit</p>
+      <h2 class="h2" data-reveal>Choose what stays <em>yours</em>.</h2>
+      <p class="lead" data-reveal>The third line is a quiet promise: one habit you keep doing yourself, on purpose. The thank-you written by hand, the hard message drafted alone, the first read of a colleague's work. Naming what stays human keeps you the one steering.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Assemble the plan</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> A plan survives on how it is written and how it is reviewed. Choose both.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the 90 days</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A 90-day plan beats a someday intention: one skill, one task, one habit, all dated.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My 90-day plan</p>
+      <h2 class="h2" data-reveal>Three lines. Ninety days. <em>Starts today.</em></h2>
+      <p class="lead" data-reveal>Write your three lines: the skill, the green-light handoff, the human habit. Keep everything task level, no names, no private details. Nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Your three lines: one skill, one green task for AI, one habit kept human.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. prompt drafts for weekly report; hand over public event blurbs; keep thank-yous handwritten" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which line do you start this week?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="skill"><span>Start the skill</span></button><button class="opt" data-id="handoff"><span>Make the handoff</span></button><button class="opt" data-id="habit"><span>Guard the habit</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="day30"><span>Day-30 review booked</span></button><button class="opt" data-id="buddy"><span>With a plan buddy</span></button><button class="opt" data-id="lab"><span>In the capstone lab</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Ninety days is <em>enough</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with three dated lines and a review that will actually happen. Thursday closes the whole year with the skill underneath every plan: deciding while the deciding is good.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Date all three lines and book the day-30 review</h3>
+        <p>Put the skill rep, the handoff, and the habit on real days, and send your plan to one colleague. If change is the water you are swimming in, this month's LinkedIn Learning pick, Leading Your Team Through Change, is a good companion.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">One skill. One handoff. One habit. Dated.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The 90-Day Plan · Take-Off Tuesday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Task",
+   "labels": [
+    "Green: go",
+    "Yellow: approved VU tools only",
+    "Red: never"
+   ],
+   "passAt": 2,
+   "passMsg": "The light is second nature now. For your plan's handoff line, pick the green task and hand it over.",
+   "failMsg": "Close. The light in one breath: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never.",
+   "items": [
+    {
+     "q": "Drafting a first version of a public event description from the date, location, and program details.",
+     "answer": 0,
+     "why": "Public or generic information headed for a public page: green, go. First drafts of public copy are exactly the kind of task worth handing over."
+    },
+    {
+     "q": "Summarizing an internal planning document into talking points for your own team meeting.",
+     "answer": 1,
+     "why": "Internal content stays inside the fence: yellow, approved VU tools only. Fine day to day; for the plan's handoff line, keep hunting for a green task."
+    },
+    {
+     "q": "Pasting notes about a colleague's performance concerns into an AI tool to draft feedback.",
+     "answer": 2,
+     "why": "Private information about a person: red, never, in any tool, however good the intention. Write that one yourself."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "September, when it arrives",
+   "slots": [
+    {
+     "key": "How the plan is written",
+     "opts": [
+      {
+       "t": "Three good intentions, kept in your head where they feel safe.",
+       "pts": 1,
+       "coach": "Heads are where plans go to feel finished. By August the three lines will have quietly become zero."
+      },
+      {
+       "t": "Three lines in a note on your desktop, no dates attached.",
+       "pts": 2,
+       "coach": "Written beats remembered. But undated lines read as suggestions, and suggestions lose to any busy week."
+      },
+      {
+       "t": "Three dated lines: the skill, the handoff, the habit, each with a when.",
+       "pts": 3,
+       "coach": "Dates turn lines into appointments. The plan now argues for itself every time you open your calendar."
+      }
+     ]
+    },
+    {
+     "key": "How the plan is reviewed",
+     "opts": [
+      {
+       "t": "You will remember to check it eventually.",
+       "pts": 1,
+       "coach": "Eventually has no date, and 90-day plans die precisely at the 30-day mark, when nobody is looking."
+      },
+      {
+       "t": "A calendar reminder at day 90 to see how it went.",
+       "pts": 2,
+       "coach": "One review at the end is an autopsy. You want a checkpoint early enough to fix the plan while it is alive."
+      },
+      {
+       "t": "A 30-minute review at day 30 with a colleague who has your plan.",
+       "pts": 3,
+       "coach": "An early date plus a witness is the strongest review there is. A teammate holding your plan doubles the odds either of you finishes."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A plan with a pulse. Dated lines and a day-30 witness make September a checkpoint you will actually pass.",
+    "mid": "A real plan with soft anchoring. The lines exist; give them dates and a witness before Friday.",
+    "weak": "Three intentions in the wind. By September this session will be a pleasant memory with no fingerprints."
+   },
+   "reactions": {
+    "strong": "At day 30 the review takes twenty minutes. The skill is underway, the handoff already saves you an hour a week, and your colleague has borrowed the format for their own plan.",
+    "mid": "In late July you find the note and feel the small sting of a plan half kept. The lines are still good; they just never met your calendar. Date them today and the 90 days restart cleanly.",
+    "weak": "September arrives and asks what changed. Colleagues who dated their three lines can answer in specifics; yours would take some remembering. The next 90 days are still available."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What makes a skill goal fit a 90-day plan?",
+   "opts": [
+    "It is ambitious enough to impress",
+    "It is named, checkable, and practiced in your real work",
+    "It requires a formal course",
+    "It covers AI broadly"
+   ],
+   "correct": 1,
+   "why": "Small, named, and checkable beats broad and inspiring. If September cannot verify it, shrink it."
+  },
+  {
+   "q": "You want AI to summarize an internal planning doc for your team meeting. The light says...",
+   "opts": [
+    "Green: any tool, go",
+    "Yellow: approved VU tools only",
+    "Red: never",
+    "No light needed for summaries"
+   ],
+   "correct": 1,
+   "why": "Internal content is yellow: fine inside approved VU tools. Green is public or generic; red is private information about people, never."
+  },
+  {
+   "q": "What is the strongest way to keep a 90-day plan alive?",
+   "opts": [
+    "Willpower and good intentions",
+    "A day-90 reminder",
+    "A day-30 review with a colleague who has your plan",
+    "Adding more goals"
+   ],
+   "correct": 2,
+   "why": "An early checkpoint plus a witness. A review at the end is an autopsy; day 30 is where a live plan gets fixed."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The plan logic is solid. Now write your three real lines.",
+  "mid": "Nearly there. Reread the traffic light, then build your card.",
+  "low": "Take one more pass through the three lines before you write yours."
+ },
+ "capstone": {
+  "whoRow": "The three lines",
+  "cardTitle": "My 90-day plan card",
+  "copyTag": "The 90-Day Plan · June 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness: 5% to 25% by Q4.",
+  "evidenceRow": "At day 30, one line: which of the three lines is alive, and what does it need?",
+  "practices": [
+   {
+    "id": "skill",
+    "chip": "Start the skill",
+    "name": "Start the skill",
+    "move": "Book the first practice rep this week: the named task, the approved tool, thirty minutes on the calendar."
+   },
+   {
+    "id": "handoff",
+    "chip": "Make the handoff",
+    "name": "Make the handoff",
+    "move": "Confirm the task is green, then do the first AI-assisted version this week and compare it honestly with your usual work."
+   },
+   {
+    "id": "habit",
+    "chip": "Guard the habit",
+    "name": "Guard the habit",
+    "move": "Do the human habit once this week, on purpose, and notice what it gives you that automation would miss."
+   }
+  ],
+  "whens": [
+   {
+    "id": "day30",
+    "chip": "Day-30 review booked",
+    "out": "A 30-minute review sits on your calendar about a month out, with a colleague who has your plan."
+   },
+   {
+    "id": "buddy",
+    "chip": "With a plan buddy",
+    "out": "You trade plans with one colleague this week; each of you holds the other's day-30 date."
+   },
+   {
+    "id": "lab",
+    "chip": "In the capstone lab",
+    "out": "You bring the plan to this month's navigator-led action-planning lab and leave with it sharpened."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

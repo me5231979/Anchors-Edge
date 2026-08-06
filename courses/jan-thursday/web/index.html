@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Sponsor: Self-Paced | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: learn the difference between mentoring and sponsorship, how to earn and ask for real advocacy, and how to give it by naming who you speak up for.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/web/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Sponsor | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: learn the difference between mentoring and sponsorship, how to earn and ask for real advocacy, and how to give it by naming who you speak up for.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Difference</a><a href="#s-two">Earning the Ask</a><a href="#s-three">Giving It</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Great universities run on trust that travels: people vouching for people across schools and units. Advocacy is Exceptional Core Operations at the human scale, and every staff member can practice it.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Workforce Intelligence &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="85" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:6%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>6% of BUs</b></span>
+          <span>Q4 target · <b>85% of BUs</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> Retention and internal mobility both run on advocacy: sponsors are how talent gets seen, moved, and kept. Today makes that skill teachable.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Thrive Thursday · The soft skill that carries it · Retain, Grow, Move</p>
+      <h1 class="h-hero" data-reveal>Advice helps. <em class="gold-text">Advocacy</em> moves you.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Most careers get plenty of advice and very little advocacy. A mentor talks with you; a sponsor talks about you, in rooms you are never in. This session teaches you to tell the two apart, to earn real backing, and to give it.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Tell mentoring (advice given to you) apart from sponsorship (credibility spent on you)</li><li>Earn and ask for advocacy with work a sponsor can safely stake their name on</li><li>Name one person whose work you will speak up for in rooms they are not in</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Workforce Intelligence &amp; Transfer Portal · 6% of BUs to 85% of BUs by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Advocacy</span><span class="skillpill">Influence</span><span class="skillpill">Relationship Building</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Advice versus advocacy</h3><p>The line between a mentor who guides you and a sponsor who backs you.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Earning and asking</h3><p>The work that makes you sponsorable, and the ask that gets it said out loud.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Giving it away</h3><p>Advocacy is a skill you give: whose name do you say when they are not in the room?</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Advice versus advocacy">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Difference</p>
+      <h2 class="h2" data-reveal>Mentors advise. Sponsors <em>spend</em>.</h2>
+      <p class="lead" data-reveal>Mentoring is advice given to you: guidance, feedback, a listening ear. Sponsorship is someone spending their credibility on you: naming you for a project, backing your move in a room you are not in. Both matter; careers stall with only the first.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Advice or advocacy?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> The two get called mentoring interchangeably, and they are wildly different currencies. Call each one.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Think of the last real help your career got. Write down whether it was advice or advocacy.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Earning and asking">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Ask</p>
+      <h2 class="h2" data-reveal>Sponsorship is earned, then <em>asked for</em>.</h2>
+      <p class="lead" data-reveal>Sponsors risk their reputation, so they back work they have seen and trust. That gives you two levers: make your work visible enough to stake a name on, and ask for the backing directly. Vague hoping does neither. Build both moves.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the ask</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Advocacy rarely arrives unrequested. Choose how you make your work sponsorable and how you ask.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Make the ask</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Giving it away">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Give</p>
+      <h2 class="h2" data-reveal>Advocacy is also a skill you <em>give</em>.</h2>
+      <p class="lead" data-reveal>You do not need a title to sponsor someone. Everyone sits in rooms a colleague is absent from: meetings, chats, hallway asks for a name. Speaking up there, with evidence, is sponsorship at any level. The test is whether you can name who you do it for.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The advocacy question</span>
+        <p style="margin:.5rem 0 0" class="measure">Whose name do you say in rooms they are not in? If the answer is nobody, you are holding credibility and spending none of it. Pick one colleague whose work you have seen, and say their name the next time the room asks who could do this.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: what turns a compliment into an act of sponsorship?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is encouragement, and it is kind. Sponsorship starts when the same words travel to someone who makes decisions."><span class="mark">A</span><span>Saying it directly to the person, warmly</span></button><button class="opt" data-correct="1" data-why="Exactly. The name, the work you have seen, and a decision-maker hearing it. That costs you a little credibility, which is what makes it real."><span class="mark">B</span><span>Repeating it, with evidence, to someone who decides</span></button><button class="opt" data-correct="0" data-why="Public praise helps, and it is unaimed. Sponsorship puts a specific name in front of a specific decision."><span class="mark">C</span><span>Posting public praise for their work</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write the role of one person whose work you have spoken up for lately. If nobody comes to mind, write that down too.</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A mentor talks with you. A sponsor talks about you, where it counts.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My advocacy move</p>
+      <h2 class="h2" data-reveal>Spend a little <em>credibility</em> this week.</h2>
+      <p class="lead" data-reveal>Pick one advocacy move: an ask for yourself or a give for a colleague. Roles only, never names; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Who is this about? The role, and the work you have seen or want seen.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. research coordinator; ran the event nobody else could have" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move do you make?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="show"><span>The showing</span></button><button class="opt" data-id="ask"><span>The direct ask</span></button><button class="opt" data-id="give"><span>The give</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="nextroom"><span>The next chance</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Advice is free. <em>Back somebody.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You can tell the currencies apart, you built a real ask, and the advocacy question is yours now. That closes the Retain, Grow, Move week: the same theme, from bench to Portal to backing.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the advocacy move on your card</h3>
+        <p>Run it as built: the showing, the ask, or the give. For a longer look at why being backed keeps people, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="../">Classroom edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Say their name where it counts.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Sponsor · Thrive Thursday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Call",
+   "labels": [
+    "Mentoring: advice given to you",
+    "Sponsorship: credibility spent on you",
+    "Kind words: neither one yet"
+   ],
+   "passAt": 2,
+   "passMsg": "You can tell the currencies apart. Advice is words to you; advocacy is risk taken for you.",
+   "failMsg": "Close. The tell: mentoring happens in conversations with you. Sponsorship happens in rooms without you, and it costs the sponsor something.",
+   "items": [
+    {
+     "q": "A senior analyst spends an hour helping a coordinator sharpen their presentation before a big meeting.",
+     "answer": 0,
+     "why": "Generous and valuable, and it is advice: given to the person, costing the giver only time. Nothing was staked in front of anyone else."
+    },
+    {
+     "q": "In a staffing meeting, a director says: 'Give the data project to the coordinator in my unit. I will vouch for their work.'",
+     "answer": 1,
+     "why": "Credibility on the table, in a room the coordinator will never see. If the project goes badly, the director pays too. That is sponsorship."
+    },
+    {
+     "q": "A colleague tells an advisor: 'You would be amazing in a leadership role someday.'",
+     "answer": 2,
+     "why": "Warm and costless. No advice to act on, no name said where it counts. Kind words become advocacy when they get repeated to someone with a decision to make."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What comes back",
+   "slots": [
+    {
+     "key": "How you become sponsorable",
+     "opts": [
+      {
+       "t": "Work hard and trust that good work speaks for itself.",
+       "pts": 1,
+       "coach": "Good work is silent. A sponsor can only stake their name on work they have actually seen, and seen is something you have to arrange."
+      },
+      {
+       "t": "Send your accomplishments upward in a monthly summary email.",
+       "pts": 2,
+       "coach": "Visible, at least. A list of wins reads as self-promotion; a sponsor needs to see the work itself and what it took."
+      },
+      {
+       "t": "Show one finished piece of work to someone senior and walk them through how you did it.",
+       "pts": 3,
+       "coach": "Evidence beats claims. Now there is something specific a sponsor can repeat in a room: I have seen this person's work, and it was good."
+      }
+     ]
+    },
+    {
+     "key": "How you ask",
+     "opts": [
+      {
+       "t": "Never ask; if they wanted to advocate for you, they would.",
+       "pts": 1,
+       "coach": "Sponsors are busy, and unspoken hopes are invisible. The people who get sponsored are overwhelmingly the people who asked."
+      },
+      {
+       "t": "Ask them to be your mentor and hope it grows into more.",
+       "pts": 2,
+       "coach": "Mentoring is a fine door, and it can stay advice forever. If what you want is backing, the ask has to name backing."
+      },
+      {
+       "t": "Name the room: 'When the project team forms, would you put my name forward?'",
+       "pts": 3,
+       "coach": "Specific, bounded, and easy to say yes to. You have told them exactly where their credibility would go and what for."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "An ask a sponsor can act on. They have seen the work, they know the room, and saying your name got easy.",
+    "mid": "Halfway to backed. Something was visible or something was asked, and the two never quite connected.",
+    "weak": "Silence, politely. Nobody saw the work, nobody heard an ask, and the backing went to someone who did both."
+   },
+   "reactions": {
+    "strong": "Two weeks later a project team forms and your name is on it. You find out afterward who said it, and in which meeting. That is what being sponsored feels like: news.",
+    "mid": "Your would-be sponsor thinks well of you in a general way. When the room asked for names, general goodwill produced a pause, and the pause produced someone else's name.",
+    "weak": "Months pass. The work stayed good and stayed invisible. The colleague who walked a director through one finished project is now leading the thing you wanted."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What separates sponsorship from mentoring?",
+   "opts": [
+    "Sponsors are always more senior than mentors",
+    "Mentoring is formal, sponsorship is informal",
+    "A sponsor spends their credibility on you where you are absent",
+    "There is no real difference"
+   ],
+   "correct": 2,
+   "why": "Mentoring is advice given to you. Sponsorship costs the sponsor something: their name staked on your work in rooms you never see."
+  },
+  {
+   "q": "What makes someone able to sponsor you safely?",
+   "opts": [
+    "Liking you personally",
+    "Having seen your finished work up close",
+    "Reading your monthly summary emails",
+    "Being asked repeatedly"
+   ],
+   "correct": 1,
+   "why": "Sponsors stake reputation on evidence. Show one finished piece of work and how you did it; that is what a sponsor can repeat in a room."
+  },
+  {
+   "q": "You want to give advocacy this month. What is the move?",
+   "opts": [
+    "Compliment a colleague directly",
+    "Post public praise for their work",
+    "Say their name, with evidence, where a decision is being made",
+    "Offer to mentor someone junior"
+   ],
+   "correct": 2,
+   "why": "The name plus the work you have seen, in front of someone who decides. Every staff member has rooms where that sentence is theirs to say."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You know the currency. Now spend a little of it on someone.",
+  "mid": "Solid. Reread the ask you built in section two, then make your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The person and the work",
+  "cardTitle": "My advocacy card",
+  "copyTag": "The Sponsor · January 2027 · Anchor's Edge",
+  "goalRow": "Goal 1, Workforce Intelligence & Transfer Portal: 6% of BUs to 85% of BUs by Q4.",
+  "evidenceRow": "Afterward, one line: what did it cost, and what came back?",
+  "practices": [
+   {
+    "id": "show",
+    "chip": "The showing",
+    "name": "The showing",
+    "move": "Walk someone senior through one finished piece of your work and how you did it, so backing you gets easy."
+   },
+   {
+    "id": "ask",
+    "chip": "The direct ask",
+    "name": "The direct ask",
+    "move": "Name the room: ask someone who has seen your work to put your name forward when a specific chance opens."
+   },
+   {
+    "id": "give",
+    "chip": "The give",
+    "name": "The give",
+    "move": "Say a colleague's name, with the work you have seen, in the next room where a decision needs one."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, done by Friday."
+   },
+   {
+    "id": "nextroom",
+    "chip": "The next chance",
+    "out": "The move happens the next time the right room or conversation opens, and you walk in ready."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, planned today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+</body>
+</html>
