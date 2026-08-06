@@ -1,0 +1,258 @@
+{
+  "slug": "mar-tuesday",
+  "series": "Take-Off Tuesday",
+  "month": "March 2027",
+  "monthShort": "Mar",
+  "monthIndex": 6,
+  "theme": "Spot AI-Exposed Work",
+  "goal": 3,
+  "title": "The Task Sort",
+  "titleHtml": "Sort the week, <em class=\"gold-text\">one task at a time</em>.",
+  "tagline": "Task-decomposition: automate, augment, or leave alone.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.",
+  "heroLead": "Your job will never fit in one AI bucket, and it was never meant to. This session teaches the sort that works: break the week into tasks, then call each one. AI does it and you check, AI helps and you drive, or it stays yours entirely.",
+  "objectives": [
+    "Break your working week into specific, repeatable tasks with outputs and rhythms",
+    "Sort each task into automate, augment, or leave alone, and know the tells for each",
+    "Test one sort call this week in an approved VU tool, checking step included"
+  ],
+  "skills": [
+    {"label": "Drives innovation", "core": true},
+    {"label": "AI Literacy"},
+    {"label": "Workflow Design"},
+    {"label": "Productivity"}
+  ],
+  "missionTie": "Defining the great university of the 21st Century takes staff who redesign their own work instead of waiting for it to be redesigned. Every well-sorted week feeds Discovery and Innovation with hours that used to go to formatting.",
+  "goalLead": "Goal 3 counts on every staff member knowing which parts of their own work are AI-exposed. The task sort is how that knowledge gets made, one week at a time.",
+  "agenda": [
+    {"t": "The decomposition", "d": "Break the blur of your week into tasks small enough to sort."},
+    {"t": "The three buckets", "d": "Automate, augment, or leave alone: the tells for each call, per task, never per job."},
+    {"t": "The first test", "d": "Pick one call and try it this week in an approved VU tool, checking step included."}
+  ],
+  "manifesto": "AI never gets your job. It gets tasks, one at a time, and you make the call.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Breakdown",
+      "dataTitle": "The decomposition",
+      "eyebrow": "The Breakdown",
+      "headline": "A week is just <em>tasks</em> wearing a blur.",
+      "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the queue, drafted the agenda. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
+      "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
+      "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The decomposition rule",
+          "text": "A sortable task names an output and a rhythm: the thing produced and how often. 'Communications' is a job. 'Draft the Thursday newsletter from submitted items' is a task, and a task can be sorted."
+        },
+        "q": "Quick check: which of these is ready to sort?",
+        "opts": [
+          {"t": "Managing our department's communications", "correct": false, "why": "That is a job description, and jobs never sort cleanly. Inside it live a dozen tasks, and each one may deserve a different call."},
+          {"t": "Compiling the Monday attendance summary from system exports", "correct": true, "why": "An output and a rhythm. You can ask exactly what AI could do with it, and the answer will be specific enough to test."},
+          {"t": "Being more efficient with email", "correct": false, "why": "A wish, and wishes resist sorting. Name the actual email tasks, like triaging the shared inbox or drafting the standard replies, and sort those."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Buckets",
+      "dataTitle": "The three buckets",
+      "eyebrow": "The Sort",
+      "headline": "Automate, augment, or <em>leave alone</em>.",
+      "lead": "Three calls, made per task. Automate: AI does it, you check the output. Augment: AI helps, you drive. Leave alone: human all the way, because the task runs on trust, judgment, or private information about people. The traffic light rides along on every call.",
+      "group": "Breakout pairs: each pick one task from your list and make the call out loud. Partner gets one challenge question. 90 seconds each way.",
+      "solo": "Pick one task from your list and make the call: automate, augment, or leave alone. Write one line on why.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Make the call",
+        "intro": "Three tasks from real Vanderbilt weeks. Sort each one.",
+        "progressWord": "Task",
+        "labels": ["Automate: AI does it, you check", "Augment: AI helps, you drive", "Leave alone: human all the way"],
+        "passAt": 2,
+        "passMsg": "You make the call cleanly. Per task, with the traffic light in view: that is the whole skill.",
+        "failMsg": "Close. The tells: fixed format on public content leans automate; internal drafting leans augment in approved VU tools; anything private about people stays human.",
+        "items": [
+          {"q": "Reformatting published event details into the standard newsletter layout every Thursday.", "answer": 0, "why": "Public content, fixed format, weekly rhythm: automate it and keep the checking pass. Green-light data makes this the easiest call on the board."},
+          {"q": "Writing the first draft of a project update that pulls from internal meeting notes.", "answer": 1, "why": "Internal content means yellow light: approved VU tools only. AI drafts fast; you drive, because you know what the update needs to land."},
+          {"q": "Responding to a colleague's message about a health situation affecting their work.", "answer": 2, "why": "Private information about a person: red light, never. Some tasks stay human because trust is the whole job, and this is one of them."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Test",
+      "dataTitle": "The first test",
+      "eyebrow": "The Move",
+      "headline": "One call earns a <em>test drive</em>.",
+      "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Set up the test",
+        "intro": "Your sort is only as good as its first real run. Choose the task and the checking step.",
+        "runLabel": "Run the test",
+        "outcomeTag": "How the week goes",
+        "slots": [
+          {
+            "key": "The task you test",
+            "opts": [
+              {"t": "All my email, starting Monday", "pts": 1, "coach": "Too big and too mixed: some email is automate, some is red-light human. Big-bang tests fail loudly and teach nothing you can reuse."},
+              {"t": "Something small, whenever I get a minute", "pts": 2, "coach": "The right size, and the wrong calendar. Tests without a named task and a named day become tests that never happen."},
+              {"t": "Thursday's newsletter formatting, this Thursday, in an approved VU tool", "pts": 3, "coach": "One task, one date, right tool. A test this specific either saves you an hour or teaches you exactly why it didn't, and both are wins."}
+            ]
+          },
+          {
+            "key": "How you check the output",
+            "opts": [
+              {"t": "Skim it; the tool is probably right", "pts": 1, "coach": "Probably is doing heavy lifting there. An automate call without a real checking step is how a small tool error becomes your error, with your name on it."},
+              {"t": "Read it fully before it goes anywhere", "pts": 2, "coach": "Solid instinct. Sharper still: know what you are checking for, because full reads without a target miss the same subtle errors every time."},
+              {"t": "Check names, numbers, and dates against the source before it ships", "pts": 3, "coach": "A named checklist beats a vague read. Names, numbers, and dates are where AI output fails quietly, and where your check earns its keep."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A real result by Friday. You know exactly what the tool saved you and exactly what your check caught.",
+          "mid": "A half-test. Some signal, some noise, and no clean answer on whether the call was right.",
+          "weak": "Either nothing ran or something shipped unchecked. Both cost more than the hour you hoped to save."
+        },
+        "reactions": {
+          "strong": "The hour you saved Thursday shows up again next Thursday, and the week after. One clean test becomes a standing redesign of your own week, and your checklist becomes the habit that makes the next automate call safe.",
+          "mid": "You have a feeling the tool helped and no evidence either way. Rerun it with a named task, a named day, and a named checking step; the evidence is one week away.",
+          "weak": "The unchecked draft with the wrong date reached the whole listserv, and now the tool has a bad reputation it only half earned. The check was the missing half of the call."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "The sort is always made...",
+      "opts": ["Per job, once a year", "Per task, one call at a time", "Per team, by the manager", "Per tool, by the vendor"],
+      "correct": 1,
+      "why": "Jobs never sort cleanly; tasks do. Every job is a mix of automate, augment, and leave alone, and that mix is the honest picture."
+    },
+    {
+      "q": "A first draft built from internal meeting notes is best sorted as...",
+      "opts": ["Automate with any handy tool", "Augment, in approved VU tools", "Leave alone forever", "Too risky to sort at all"],
+      "correct": 1,
+      "why": "Internal content is yellow light: approved VU tools only, with you driving. AI speeds the draft; your judgment makes it right."
+    },
+    {
+      "q": "What makes an automate call safe?",
+      "opts": ["Picking a well-reviewed tool", "Trusting output that looks clean", "A named checking step you actually run", "Automating only after others do"],
+      "correct": 2,
+      "why": "Automate means AI does it AND you check. Names, numbers, and dates against the source: the check is half of the call, every time."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The sort is yours. Point it at your real week today.",
+    "mid": "Solid. Revisit the bucket tells, then build your card.",
+    "low": "Run the three sections once more before you sort real work."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My task sort",
+    "headline": "Your week, sorted. <em>Starting now.</em>",
+    "lead": "Pick the task your sort points to first. Task language only, no names of people; nothing you type is saved or sent.",
+    "whoLabel": "Which task gets sorted and tested first? Name the output and the rhythm.",
+    "whoPlaceholder": "e.g. Monday attendance summary, compiled weekly from exports",
+    "practiceLabel": "Which call are you testing?",
+    "whoRow": "The task and its rhythm",
+    "practices": [
+      {"id": "automate", "chip": "The automate test", "name": "The automate test", "move": "Run the task through an approved VU tool once, then check names, numbers, and dates against the source before anything ships."},
+      {"id": "augment", "chip": "The augment test", "name": "The augment test", "move": "Use an approved VU tool for the first draft only, keep every decision yours, and note what the draft got wrong."},
+      {"id": "leavealone", "chip": "The leave-alone case", "name": "The leave-alone case", "move": "Write two lines on why this task stays human: the trust, judgment, or people data at its center. Naming that case is a skill too."}
+    ],
+    "whens": [
+      {"id": "thisweek", "chip": "This week", "out": "The test runs this week, on a named day, before Friday."},
+      {"id": "nextrun", "chip": "Next time the task comes up", "out": "The test runs the very next time the task appears on your calendar."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The test runs within two weeks, with the day picked today so it cannot slide."}
+    ],
+    "cardTitle": "My task sort card",
+    "evidenceRow": "Afterward, one line: what did the test teach you about the call you made?"
+  },
+  "closing": {
+    "headline": "Your job is a mix. <em>Now you hold the recipe.</em>",
+    "lead": "You broke the week into tasks, learned the three calls, and set up one honest test. Thursday sharpens the thinking that keeps every one of those calls honest.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Run the test on your card",
+    "nextBody": "One task, one call, one checking step, in an approved VU tool. Bring what it taught you to Thursday's session on sorting AI hype from real value.",
+    "brandline": "Sort the tasks. Keep the wheel."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month.",
+    "pulse": "Seven days out, send the pulse: 'Did the test on your card run? What did it teach you about the call? Which task gets sorted next?' Count of completed tests is the Level 3 metric for the month.",
+    "s1": {
+      "title": "The decomposition",
+      "purpose": "Teach staff to turn the blur of a week into named tasks with outputs and rhythms.",
+      "say": "This month is about seeing what is changing in your work before it changes you, and the unit of change is never the job title. It is the task. So before any talk of AI, we do something older: write down what your week is actually made of, the way Tuesday actually went.",
+      "facilitate": [
+        "Read the lead once, then run the knowledge check on everyone's own screen.",
+        "Ask what makes the attendance-summary answer sortable and the other two slippery.",
+        "Run the breakout: three real tasks, specific enough to picture."
+      ],
+      "ask": {
+        "q": "Why is it strangely hard to list your own tasks?",
+        "expect": ["We think in job titles and projects", "Routine work goes invisible", "Some will say their week never repeats"],
+        "respond": "If a week truly never repeats, sort the parts that do: nearly every role carries a repeating core, and that core is where the sort pays off first."
+      },
+      "debrief": "A sortable task has an output and a rhythm. That is the whole test, and most weeks hold ten of them once you look.",
+      "watchFor": "People writing job descriptions instead of tasks. Redirect: what did you produce, and how often does that repeat?",
+      "transition": "Tasks on the table. Now each one gets a call.",
+      "coreNote": "Core: skip the breakout; ask for one real task in chat instead."
+    },
+    "s2": {
+      "title": "The three buckets",
+      "purpose": "Install the three calls and their tells, with the traffic light riding along on every sort.",
+      "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
+      "facilitate": [
+        "Run Make the call live; everyone plays on their own screen.",
+        "After the health-situation task, pause: ask why leave alone is the only call there.",
+        "Run the breakout: one task, one call, one challenge question."
+      ],
+      "ask": {
+        "q": "Which bucket do you expect will be smallest when you sort your own week?",
+        "expect": ["Many guess automate is small", "Some fear the leave-alone pile is shrinking", "A few will say they have no idea yet"],
+        "respond": "Most weeks sort mostly into augment, and the leave-alone pile is where your distinctly human value lives. Naming it is worth as much as the automation."
+      },
+      "debrief": "Fixed format on public content leans automate. Internal drafting leans augment in approved VU tools. Trust, judgment, and people data stay human.",
+      "watchFor": "Anyone treating leave alone as failure or the lesser bucket. Reframe it: that pile is the case for the human in the role.",
+      "transition": "Calls made in your head are cheap. One of them earns a test.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "The first test",
+      "purpose": "Convert one sort call into a specific, checked, dated test in an approved VU tool.",
+      "say": "A sort that lives in your head is a nice opinion. It becomes a redesign of your week the first time you test a call: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
+      "facilitate": [
+        "Run Set up the test; give the room two minutes for both choices.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: named task, named day, named check."
+      ],
+      "ask": {
+        "q": "Why does the checking step stay even when the tool has been right ten times in a row?",
+        "expect": ["The eleventh time is the one that ships wrong", "The check is what makes automate safe", "The output still carries your name"],
+        "respond": "Right. Automate never means unattended. The output ships under your name, so the check is part of the task, permanently."
+      },
+      "debrief": "The test formula: one task, one date, one approved tool, one named check. Small enough to run, real enough to teach.",
+      "watchFor": "Big-bang testers trying to automate a whole workflow at once. Shrink it: one task, this week.",
+      "transition": "Quick recap, then your own test goes on a card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now make it real. One task from your actual week, the call you are testing, and the window it runs in. Task language only, no names of people. Build the card and copy it somewhere you will see it before the task next comes up. Two minutes, quiet, go.",
+    "closeSay": "You leave with your week in pieces and one test on the calendar, which is exactly where this month wants you. Thursday's Thrive Thursday gives you the other half of the skill: critical thinking that sorts AI hype from real value, so the claims about the next shiny tool meet three sharp questions before they meet your workflow. See you Thursday.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone asks which specific AI tools are approved right now", "then": "Point to the approved VU tools list on the Anchor's Edge dashboard rather than reciting from memory; the list moves, the traffic light does not."},
+      {"if": "Someone insists their whole job should be left alone", "then": "Agree that plenty of it may be, then ask for their most repetitive task and sort just that one together. One honest call usually unlocks the rest."}
+    ],
+    "toughQuestions": [
+      {"q": "If I automate parts of my job, am I automating myself out of it?", "a": "The sort is per task, and no job is one task. Staff who can decompose, sort, and check their own work are exactly what Goal 3 calls workforce readiness; the freed hours move to the augment and leave-alone work where your judgment shows. The risk sits with unsorted weeks, and yours is sorted."},
+      {"q": "My manager hasn't said anything about AI. Should I wait?", "a": "Sorting your own week needs nobody's permission, and testing inside approved VU tools on green and yellow work is already within the rules. Share your sort with your manager afterward; Monday's session gave them a team-level version of this exact map, so you will be speaking the same language."},
+      {"q": "How do I know if a task is yellow or red?", "a": "Ask what the content is about. Internal but institutional, like meeting notes or draft plans: yellow, approved VU tools only. About an identifiable person, their health, performance, or circumstances: red, never. When a task mixes both, the red parts come out before any tool sees it, or the whole task stays human."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on sorting your week before AI sorts it for you. Bring a rough sense of what last Tuesday was made of: the tasks, the outputs, the rhythms. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the test run? Three lines, reply whenever: 1) Did the test on your card run, in an approved VU tool? 2) What did it teach you about the call you made? 3) Which task gets sorted next?"}
+    ]
+  }
+}

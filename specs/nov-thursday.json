@@ -1,0 +1,257 @@
+{
+  "slug": "nov-thursday",
+  "series": "Thrive Thursday",
+  "month": "November 2026",
+  "monthShort": "Nov",
+  "monthIndex": 2,
+  "theme": "The Vanderbilt Manager Standard",
+  "goal": 2,
+  "title": "Clarity That Sticks",
+  "titleHtml": "Clarity that <em class=\"gold-text\">sticks</em>.",
+  "tagline": "Clarity as a two-way skill: ask, restate, and close the loop in writing.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: ask for clear expectations, restate them in your own words, and close the loop in writing so agreements survive the week.",
+  "heroLead": "Most dropped balls were never caught to begin with: two people left the same conversation carrying two different versions of it. Clarity is a skill with three moves anyone can run: ask, say it back, close the loop in writing. Today you learn all three.",
+  "objectives": [
+    "Ask the three clarity questions before accepting any significant task",
+    "Restate an expectation in your own words and surface the gaps early",
+    "Close the loop in writing the same day so the agreement survives"
+  ],
+  "skills": [
+    {"label": "Communicates with clarity", "core": true},
+    {"label": "Expectation Setting"},
+    {"label": "Collaboration"}
+  ],
+  "missionTie": "A university out to define the century loses more hours to fuzzy expectations than to hard problems. Every person who asks, restates, and closes the loop in writing is Exceptional Core Operations happening one handoff at a time.",
+  "goalLead": "The manager standard leans hard on expectation-setting, and that skill has two chairs. Clarity is the half everyone owns, whichever chair you sit in today.",
+  "agenda": [
+    {"t": "The clarity ask", "d": "Three questions that turn a vague request into a real expectation."},
+    {"t": "Say it back", "d": "Restating in your own words, and judging when a handoff is clear enough to act on."},
+    {"t": "Close the loop", "d": "The same-day written line that makes an agreement survive the week."}
+  ],
+  "manifesto": "If it only exists in the conversation, it does not exist yet.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Ask",
+      "dataTitle": "The clarity ask",
+      "eyebrow": "The Ask",
+      "headline": "Vague requests deserve <em>better questions</em>.",
+      "lead": "Make it better. Circle back soon. Own this going forward. Requests like these feel clear in the moment and dissolve by Tuesday. The fix is three questions anyone can ask anyone: what does done look like, when is it actually needed, and who makes the call?",
+      "group": "In pairs: name a current task where you could not describe what done looks like. What would you ask, and of whom? 90 seconds each way.",
+      "solo": "Name one current task where you cannot describe what done looks like. Write the clarity question you will ask, and to whom.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The three clarity questions",
+          "text": "Before accepting any significant task, get answers to three things: what does done look like, when is it actually needed, and who makes the final call? Asking them is a service to the requester; every one you skip becomes a guess you own."
+        },
+        "q": "Quick check: asking your manager what done looks like is...",
+        "opts": [
+          {"t": "Risky; it could read as pushback", "correct": false, "why": "Vagueness is the risky option; you inherit every wrong guess. A clarity question early costs seconds and reads as ownership."},
+          {"t": "A service to you both", "correct": true, "why": "Exactly. The requester usually discovers their own picture is fuzzy while answering. You just saved the rework."},
+          {"t": "Only worth it on big projects", "correct": false, "why": "Small fuzzy tasks pile up into the same rework as big ones. The questions take ten seconds; make them a reflex."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "Say It Back",
+      "dataTitle": "Say it back",
+      "eyebrow": "The Restate",
+      "headline": "The restate finds gaps while they are <em>cheap</em>.",
+      "lead": "Restating an expectation in your own words is the cheapest test it will ever get. If your version matches theirs, you start with confidence. If it differs, you found the gap while it costs minutes. The judgment call: act, say it back, or get it in writing.",
+      "group": "Breakout pairs: name a live handoff in your work that nobody has said back yet. What would your restate be? 90 seconds each way.",
+      "solo": "Name a live handoff nobody has said back yet. Write your one-sentence restate of it.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Clear enough?",
+        "intro": "Three handoffs from a normal week. Call whether you can act, need to say it back, or need it in writing.",
+        "progressWord": "Handoff",
+        "labels": ["Clear, start working", "Fuzzy, say it back", "Agreed, close the loop in writing"],
+        "passAt": 2,
+        "passMsg": "You can hear the difference. Clear gets action, fuzzy gets a restate, and every verbal agreement gets a written shadow.",
+        "failMsg": "Close. The tell: look for done, deadline, and decider. Missing any of them, say it back. Agreed out loud only, write it down.",
+        "items": [
+          {"q": "A colleague asks you to tighten up the proposal before it goes to the dean's office next month.", "answer": 1, "why": "Tighten up could mean trim the wording or rebuild the budget section. Say back your version of done and let them correct it while it is cheap."},
+          {"q": "Your manager asks for the three enrollment charts, in the shared deck, by Thursday at noon.", "answer": 0, "why": "Done, deadline, and destination are all named. Restating a fully clear request can read as stalling; this one you just do."},
+          {"q": "In a hallway chat, you and a peer split a project: you take the data pull, they take the writeup.", "answer": 2, "why": "Verbal splits evaporate by Friday. One same-day message naming who owns what turns a nice chat into an agreement."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "Close the Loop",
+      "dataTitle": "Close the loop",
+      "eyebrow": "The Close",
+      "headline": "Agreements survive <em>in writing</em>.",
+      "lead": "The last move happens after the conversation: a short written line, same day, saying what you heard and what happens next. Ninety seconds of typing is the difference between an agreement and a memory. Build the close you would actually send.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Write the close",
+        "intro": "You just left a planning conversation with real commitments in it. Choose how you restate and how you close the loop.",
+        "runLabel": "Send it",
+        "outcomeTag": "Two weeks later",
+        "slots": [
+          {
+            "key": "How you restate in the room",
+            "opts": [
+              {"t": "Got it, sounds good, will do.", "pts": 1, "coach": "Agreement noises test nothing. You can nod along to an expectation you heard completely differently, and people often do."},
+              {"t": "Repeat their exact words back to them.", "pts": 2, "coach": "Parroting proves you listened. Your own words prove you understood, and that is the version that exposes a gap."},
+              {"t": "So done means the draft to you by Friday, and I own the data section. Missing anything?", "pts": 3, "coach": "Own words, specifics, and an invitation to correct. This is the restate that finds the gap while fixing it is free."}
+            ]
+          },
+          {
+            "key": "How you close the loop",
+            "opts": [
+              {"t": "No follow-up; the conversation was clear enough.", "pts": 1, "coach": "Even a perfect conversation fades. In two weeks you will both trust your memories, and your memories will disagree."},
+              {"t": "A recap message sometime next week, when things calm down.", "pts": 2, "coach": "Right move, late clock. By next week you are writing what you remember instead of what was said. Same day is the whole trick."},
+              {"t": "A three-line message the same day: what I heard, what I own, by when.", "pts": 3, "coach": "Same day, short, and checkable. Anyone who misread the meeting now has a cheap moment to say so, in writing."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "An agreement with a paper trail. Everyone can point at the same words all month.",
+          "mid": "A good conversation with a slow echo. Most of it survived; the fuzzy edges did not.",
+          "weak": "A warm memory. Two people are now working from two different meetings."
+        },
+        "reactions": {
+          "strong": "Two weeks later a scope question pops up and gets settled in one minute by scrolling to your message. The project never even noticed the wobble.",
+          "mid": "Your late recap mostly matched their memory. The one line that did not is the deliverable currently being built twice.",
+          "weak": "The deadline arrives and so does the surprise: they expected the full draft, you finished the data section. The chat was pleasant; the rework is real."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "Before accepting a significant task, you should know...",
+      "opts": ["The requester's mood", "Done, deadline, and who decides", "Whether others got similar tasks", "The full project history"],
+      "correct": 1,
+      "why": "Those three answers turn a request into an expectation. Every one you skip becomes a guess you own later."
+    },
+    {
+      "q": "The best restate is...",
+      "opts": ["Their exact words, repeated back", "A quick yes to keep things moving", "Your own words, plus an invitation to correct", "A summary email next week"],
+      "correct": 2,
+      "why": "Your own words test understanding, and the invitation makes correcting you cheap. Gaps found now cost minutes."
+    },
+    {
+      "q": "A verbal agreement becomes durable when...",
+      "opts": ["Both people are experienced", "You write it down the same day", "The stakes are low enough", "Your manager was in the room"],
+      "correct": 1,
+      "why": "Same-day writing captures what was said instead of what got remembered. Ninety seconds now beats an argument later."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The three moves are loaded. Aim them at one real expectation.",
+    "mid": "Solid. Revisit the section you missed, then build your clarity card.",
+    "low": "Worth a second pass through the three moves before you pick your expectation."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My clarity move",
+    "headline": "One fuzzy expectation, <em>made solid.</em>",
+    "lead": "Pick a real expectation in your week that would fail the done test. Roles only, never names; nothing you type is saved or sent.",
+    "whoLabel": "Which expectation, and with whom? Roles only.",
+    "whoPlaceholder": "e.g. the dashboard refresh; my manager and the ops lead",
+    "practiceLabel": "Which move does it need first?",
+    "whoRow": "The expectation and the people",
+    "practices": [
+      {"id": "ask", "chip": "The clarity ask", "name": "The clarity ask", "move": "Ask the three questions out loud: what does done look like, when is it actually needed, who decides?"},
+      {"id": "restate", "chip": "The say-back", "name": "The say-back", "move": "Restate the expectation in your own words and end with: am I missing anything?"},
+      {"id": "close", "chip": "The written close", "name": "The written close", "move": "Send a three-line same-day message: what I heard, what I own, by when."}
+    ],
+    "whens": [
+      {"id": "today", "chip": "Today", "out": "The move happens today, while the expectation is still cheap to fix."},
+      {"id": "next", "chip": "At the next touchpoint", "out": "The move opens your next conversation about that work, first thing."},
+      {"id": "week", "chip": "This week", "out": "Done by Friday, before the fuzzy version does any damage."}
+    ],
+    "cardTitle": "My clarity card",
+    "evidenceRow": "Afterward, one line: what gap did the restate or the written close surface?"
+  },
+  "closing": {
+    "headline": "Clear is a <em>kindness</em>.",
+    "lead": "You have the ask, the say-back, and the written close: three small moves that spare everyone the expensive kind of surprise. That wraps the manager standard week.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Run your clarity card",
+    "nextBody": "Ask, restate, or close the loop on the expectation you named. Notice what the move surfaces; that gap was headed for your calendar anyway.",
+    "brandline": "Ask. Say it back. Write it down."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; pairs naturally with this week's Monday and Tuesday sessions.",
+    "pulse": "Seven days out, send the pulse: 'Did you run the move on your clarity card? What gap did it surface? Which of the three moves is becoming a reflex?' Count of completed clarity moves is the month's practice signal.",
+    "s1": {
+      "title": "The clarity ask",
+      "purpose": "Install the three clarity questions as a reflex before accepting significant work.",
+      "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, circle back soon, own this going forward. Those requests feel clear for about an hour. Three questions rescue them, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
+      "facilitate": [
+        "Read the concept card once; let it sit.",
+        "Run the knowledge check; everyone answers on their own screen.",
+        "Run the breakout on the task with no picture of done."
+      ],
+      "ask": {
+        "q": "What makes people swallow the clarity questions instead of asking them?",
+        "expect": ["Fear of looking slow", "Assuming it will become clear later", "Power distance with the requester"],
+        "respond": "All real. Here is the reframe: the requester usually has a fuzzy picture too, and your question does them a favor. Later never clarifies anything on its own."
+      },
+      "debrief": "Done, deadline, decider. Three answers turn a request into an expectation; skipped, they turn into guesses you own.",
+      "watchFor": "People treating this as manager-only material. Keep the framing two-way: peers hand each other fuzzy work constantly.",
+      "transition": "Asking is half the skill. The other half is proving you heard it right.",
+      "coreNote": "Core: skip the breakout; ask for one fuzzy task in chat instead."
+    },
+    "s2": {
+      "title": "Say it back",
+      "purpose": "Train the restate: judging when an expectation is clear enough to act on and testing it in your own words.",
+      "say": "The restate is the cheapest quality check in working life. You say the expectation back in your own words and end with: am I missing anything? Ninety percent of the time you get a nod and free confidence. The other ten percent you find a gap while it still costs minutes instead of weeks. Let's train the judgment call.",
+      "facilitate": [
+        "Run Clear enough? live; everyone plays on their own screen.",
+        "Pause after the hallway-agreement round; that one splits the room usefully.",
+        "Run the breakout on the handoff nobody has said back."
+      ],
+      "ask": {
+        "q": "Why can restating a fully clear request backfire?",
+        "expect": ["Reads as stalling", "Signals you were not listening", "Slows a fast moment"],
+        "respond": "Right, so the skill includes knowing when to just start. Restate when done, deadline, or decider is missing; act when all three are on the table."
+      },
+      "debrief": "Look for done, deadline, decider. Missing any, say it back in your own words. All present, start working.",
+      "watchFor": "Word-for-word parroting in the examples. Push for own words: parroting proves listening, restating proves understanding.",
+      "transition": "One move left: making the agreement survive the week.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "Close the loop",
+      "purpose": "Make the same-day written close a habit: what I heard, what I own, by when.",
+      "say": "Every agreement has a half-life. The conversation was perfect, everyone nodded, and two weeks later there are two honest, different memories of it. The written close stops the decay: three lines, same day. What I heard, what I own, by when. Ninety seconds of typing that replaces hours of rework, so let's build the one you would actually send.",
+      "facilitate": [
+        "Run Write the close; give the room two minutes for both choices.",
+        "Ask one volunteer to read their two-weeks-later outcome aloud.",
+        "Point at the pattern: own words in the room, written words the same day."
+      ],
+      "ask": {
+        "q": "Why same day, specifically?",
+        "expect": ["Memory decays fast", "Next week you write what you remember", "It keeps the correction cheap"],
+        "respond": "Exactly. The close documents the conversation while both memories still match. A week later you are writing fiction in good faith."
+      },
+      "debrief": "Three lines, same day: what I heard, what I own, by when. Short enough to always send, specific enough to settle arguments.",
+      "watchFor": "People drafting long formal recaps. Keep it to three lines; the habit survives only while it stays cheap.",
+      "transition": "Quick recap, then you pick your real expectation.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now aim it at something real. One expectation in your week that would fail the done test. Name it, roles only, pick your move and your window, and build the card. Copy it somewhere you will see it tomorrow. Two minutes, quiet, go.",
+    "closeSay": "That closes the manager standard week. Monday named the behaviors, Tuesday put the Oracle tools in your hands, and today you got the clarity moves that make expectations stick from either chair. If you want to keep pulling the thread this month, the LinkedIn Learning course New Manager Foundations with Todd Dewett is open to everyone, and the navigators are running a walk-through clinic on the standard itself. Next week the rhythm continues, and December opens a brand new theme. Go run your clarity card first.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone names a real colleague while describing a fuzzy expectation", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The moves work on any expectation; the room never needs to know whose."},
+      {"if": "A learner says the written close feels passive-aggressive in their team culture", "then": "Offer the friendly framing live: 'So I don't drop anything, here is what I have.' A close that reads as self-management lands well everywhere; tone is choosable."}
+    ],
+    "toughQuestions": [
+      {"q": "Won't constant clarity questions annoy busy senior people?", "a": "Three targeted questions asked once beat a week of guessing followed by rework they have to review. Busy people benefit most from your clarity. The annoying version is vague questions asked repeatedly, which is exactly what the three-question form prevents."},
+      {"q": "What if I restate and the other person gets impatient?", "a": "Keep it to one sentence and frame it as a service: quick check so I build the right thing. If a ten-second restate still lands badly, that tells you something about the expectation's real clarity, and you just learned it early."},
+      {"q": "Isn't putting things in writing a trust problem?", "a": "The close is written to help both people, and it reads that way when it is short, same-day, and framed as keeping yourself organized. Manager Monday taught the other chair to set expectations visibly; your written close is the matching half of the same standard."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on clarity that sticks. Bring one current task or handoff that feels fuzzier than anyone has admitted. You will never be asked to name people. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the clarity move happen? Three lines, reply whenever: 1) Did you run the move on your clarity card? 2) What gap did it surface? 3) Which of the three moves is closest to becoming a reflex?"}
+    ]
+  }
+}

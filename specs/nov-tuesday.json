@@ -1,0 +1,258 @@
+{
+  "slug": "nov-tuesday",
+  "series": "Take-Off Tuesday",
+  "month": "November 2026",
+  "monthShort": "Nov",
+  "monthIndex": 2,
+  "theme": "The Vanderbilt Manager Standard",
+  "goal": 2,
+  "title": "Own Your 1:1",
+  "titleHtml": "Your 1:1, <em class=\"gold-text\">your agenda</em>.",
+  "tagline": "The 1:1 templates and feedback tools inside Oracle, from your side of the table.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: drive your own 1:1s with the Oracle template, move feedback through the giving and requesting tools, and build a record that argues for your growth.",
+  "heroLead": "Your 1:1 is your meeting too. Oracle now carries a shared template for it, plus tools for giving and requesting feedback that put useful words on the record. Today you learn to drive all three, whether or not you manage anyone.",
+  "objectives": [
+    "Load your own agenda items into the Oracle 1:1 template before the meeting",
+    "Give and request feedback through the Oracle tools with specifics that help",
+    "Capture commitments in the shared record and make it argue for your growth"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Oracle HCM Tools"},
+    {"label": "Feedback"},
+    {"label": "Career Ownership"}
+  ],
+  "missionTie": "The great university of the 21st Century runs on conversations that go somewhere. When any staff member can steer a 1:1 and put feedback on the record, Exceptional Core Operations shows up one meeting at a time.",
+  "goalLead": "Goal 2 asks managers to demonstrate a standard, and much of it becomes visible inside Oracle's 1:1 and feedback tools. Today you learn your half of those tools.",
+  "agenda": [
+    {"t": "The template", "d": "The shared 1:1 agenda in Oracle, and the two items you type in the day before."},
+    {"t": "The feedback tools", "d": "Requesting feedback on your work, giving it to colleagues, and picking the right move."},
+    {"t": "The record", "d": "Capturing commitments so your growth has receipts by review season."}
+  ],
+  "manifesto": "A 1:1 you prepared for is a meeting you co-own.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Template",
+      "dataTitle": "The template",
+      "eyebrow": "The Template",
+      "headline": "The template has <em>two sides</em>.",
+      "lead": "Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Most of us leave it blank and inherit whatever the meeting becomes. Typing in your two items the day before changes the meeting you get.",
+      "group": "In pairs: what item have you been saving for the right moment instead of typing into a 1:1 agenda? 90 seconds each way.",
+      "solo": "Write down the one item you have been saving for the right moment. That is your first template entry.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "Your two items",
+          "text": "Before every 1:1, type two items into the shared template: the blocker you need cleared and the growth topic you want time on. Typed the day before, they shape the agenda; raised in the last five minutes, they get sympathy and no time."
+        },
+        "q": "Quick check: when does your agenda item do the most work?",
+        "opts": [
+          {"t": "Typed into the template the day before", "correct": true, "why": "Your manager sees it, thinks about it, and the meeting arrives ready. The template turns your priorities into part of the plan."},
+          {"t": "Raised live at the start of the meeting", "correct": false, "why": "Better than never, and it still catches the other person cold. A surprise topic gets a thinner answer than a prepared one."},
+          {"t": "Mentioned casually after the meeting ends", "correct": false, "why": "Hallway add-ons rarely make the record, so nothing gets tracked and nothing closes. Put it in the template for next time instead."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "Feedback Tools",
+      "dataTitle": "The feedback tools",
+      "eyebrow": "The Tools",
+      "headline": "Feedback now has a <em>front door</em>.",
+      "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
+      "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
+      "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Pick the move",
+        "intro": "Three moments from an ordinary week. Choose the move that turns each one into something on the record.",
+        "progressWord": "Moment",
+        "labels": ["Request feedback", "Give feedback", "Put it on your 1:1 agenda"],
+        "passAt": 2,
+        "passMsg": "You know the moves. Request when you need eyes on your work, give when someone earned it, agenda when it needs a conversation.",
+        "failMsg": "Close. The tell: request is about your work, give is about theirs, and anything that needs real discussion goes on the 1:1 agenda.",
+        "items": [
+          {"q": "You just led your first cross-department presentation and have no idea how it landed.", "answer": 0, "why": "Ask two people who were in the room, through the tool, same day. Specific and fresh beats a vague someday ask, and the answers live in your record."},
+          {"q": "An analyst in another unit stayed late untangling the data mess that saved your deadline.", "answer": 1, "why": "Give it through the tool so it reaches their record and their manager's eyes. A thank-you in chat evaporates; recorded feedback travels."},
+          {"q": "You suspect your role has drifted and your real work no longer matches your job description.", "answer": 2, "why": "That is a conversation, and it deserves scheduled time. Type it into the template so it opens the meeting instead of ambushing it."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Record",
+      "dataTitle": "The record",
+      "eyebrow": "The Record",
+      "headline": "Make the record <em>work for you</em>.",
+      "lead": "A year from now, the strongest case for your growth is a trail: agendas you set, commitments you closed, feedback you asked for. That trail gets built one meeting at a time, and it starts with how you set up the next one.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Set up your next 1:1",
+        "intro": "Your next 1:1 is already on the calendar. Choose what you bring in and what you carry out.",
+        "runLabel": "Run the 1:1",
+        "outcomeTag": "What the record shows",
+        "slots": [
+          {
+            "key": "What you bring in",
+            "opts": [
+              {"t": "Nothing; you will respond to whatever comes up.", "pts": 1, "coach": "An empty template hands the whole meeting to the other chair. You get their agenda, and yours waits another month."},
+              {"t": "A mental list of updates you plan to give.", "pts": 2, "coach": "Updates fill time and prove activity. The template rewards items that need a decision or a door opened, typed where your manager sees them coming."},
+              {"t": "One blocker and one growth ask, typed in the day before.", "pts": 3, "coach": "Two items, visible early. The blocker gets solved and the growth ask gets thought about before the call, which is when growth asks actually move."}
+            ]
+          },
+          {
+            "key": "What you carry out",
+            "opts": [
+              {"t": "A good conversation you both intend to remember.", "pts": 1, "coach": "Memory is the least reliable tool in Oracle. In a month, the two of you will remember two different meetings."},
+              {"t": "Your own notes, kept somewhere only you can see.", "pts": 2, "coach": "Better; at least your version exists. Shared commitments are stronger because both names sit next to the same words."},
+              {"t": "Commitments typed into the shared template, owners and dates attached.", "pts": 3, "coach": "Now the record works for you. The next 1:1 opens with what closed, and by review season your growth has receipts."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A meeting with a spine. Your items shaped it, and the commitments will still exist next month.",
+          "mid": "A pleasant hour that mostly happened to you. Some value, thin residue.",
+          "weak": "Thirty minutes of status. Nobody could say afterward what changes because of it."
+        },
+        "reactions": {
+          "strong": "Three 1:1s later there is a visible trail: the blocker cleared, the growth ask became a stretch task, and your review conversation starts from evidence instead of recollection.",
+          "mid": "Some of it stuck because you kept notes. But your growth ask never made the shared record, so it never made anyone's plans either.",
+          "weak": "A month later the same blocker resurfaces and neither of you can find where it was discussed. The meeting happened; the record says nothing."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "Your best move with an important 1:1 topic?",
+      "opts": ["Raise it live and see how it lands", "Type it into the shared template the day before", "Save it for the annual review", "Email it right after the meeting"],
+      "correct": 1,
+      "why": "Typed early, it shapes the agenda and gets a prepared answer. The template turns your priorities into part of the plan."
+    },
+    {
+      "q": "A colleague's work quietly saved your project. What travels furthest?",
+      "opts": ["A thank-you message in chat", "Telling your own manager about it", "Feedback given through the Oracle tool", "Mentioning it at the next team meeting"],
+      "correct": 2,
+      "why": "Recorded feedback reaches their record and their manager. Kind words in chat are lovely and gone by Friday."
+    },
+    {
+      "q": "What makes a 1:1 commitment real?",
+      "opts": ["Both people nodding on the call", "A note in your private notebook", "Good intentions and a follow-up ping", "Typed in the shared record with owner and date"],
+      "correct": 3,
+      "why": "Shared words with names and dates get checked next meeting. Everything else depends on memory, which is the weakest tool available."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The tools are yours. Load the real template before the glow fades.",
+    "mid": "Solid. Revisit the move you missed, then build your prep card.",
+    "low": "Worth a second pass through the three sections before you load the template."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My next 1:1",
+    "headline": "Your next 1:1, <em>loaded in advance.</em>",
+    "lead": "Pick your next scheduled 1:1 and load it now. Roles only, never names; nothing you type is saved or sent.",
+    "whoLabel": "Which 1:1, and what is the one item you have been sitting on?",
+    "whoPlaceholder": "e.g. my monthly 1:1 next Tuesday; the certification I want to start",
+    "practiceLabel": "Which move do you make first?",
+    "whoRow": "The meeting and the item",
+    "practices": [
+      {"id": "agenda", "chip": "The agenda load", "name": "The agenda load", "move": "Type one blocker and one growth ask into the Oracle template at least a day before the meeting."},
+      {"id": "request", "chip": "The feedback request", "name": "The feedback request", "move": "Send one Oracle feedback request about recent, specific work to someone who saw it up close."},
+      {"id": "give", "chip": "The feedback give", "name": "The feedback give", "move": "Give one piece of specific feedback through Oracle to a colleague whose work helped yours."}
+    ],
+    "whens": [
+      {"id": "today", "chip": "Today", "out": "The template entry or feedback goes in today, while the session is fresh."},
+      {"id": "before11", "chip": "Before my next 1:1", "out": "Loaded at least a day before the meeting, so it shapes the agenda."},
+      {"id": "week", "chip": "This week", "out": "Done by Friday, on the calendar so it cannot slide."}
+    ],
+    "cardTitle": "My 1:1 prep card",
+    "evidenceRow": "Afterward, one line: what changed because it was on the record?"
+  },
+  "closing": {
+    "headline": "Two chairs. <em>Bring yours.</em>",
+    "lead": "You can load an agenda, move feedback through the front door, and leave a trail that argues for your growth. Thursday sharpens the skill underneath all of it.",
+    "nextTag": "Your one next step · Before your next 1:1",
+    "nextTitle": "Load the template",
+    "nextBody": "Type your one saved-up item into your next 1:1 agenda in Oracle. Watch what a prepared meeting does with it.",
+    "brandline": "Your meeting too. Run it that way."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. Oracle access helps, and the session works fine watching the walkthrough.",
+    "pulse": "Seven days out, send the pulse: 'Did your item make it into a 1:1 template? Did you send or give one piece of feedback through Oracle? What changed because it was on the record?' Count of template entries and feedback events is the month's usage signal.",
+    "s1": {
+      "title": "The template",
+      "purpose": "Get every learner to load their own items into the Oracle 1:1 template before the meeting.",
+      "say": "Quick show of honesty in chat: when your last 1:1 started, whose agenda was it? For most of us the honest answer is my manager's, or nobody's. Oracle now gives that meeting a shared template both people can edit, and the single highest-leverage habit in this session is typing your two items into it the day before: one blocker, one growth topic.",
+      "facilitate": [
+        "Show the template fields on screen for thirty seconds; keep it to where your items go.",
+        "Run the knowledge check; everyone answers on their own screen.",
+        "Run the breakout on the saved-up item."
+      ],
+      "ask": {
+        "q": "What stops people from adding their own agenda items?",
+        "expect": ["Feels like overstepping", "Never occurred to them", "Assume the manager owns the meeting"],
+        "respond": "All common, all fixable. The template design is the permission: the field exists for you, and managers consistently say they want the items."
+      },
+      "debrief": "Two items, typed the day before: one blocker, one growth ask. That habit alone changes what 1:1s do for you.",
+      "watchFor": "Learners whose managers do not yet use the template. Acknowledge it and stay practical: your typed items work even when you are the only one typing.",
+      "transition": "The template covers the meeting. Feedback has its own front door.",
+      "coreNote": "Core: skip the breakout; ask for saved-up items in chat instead."
+    },
+    "s2": {
+      "title": "The feedback tools",
+      "purpose": "Teach when to request feedback, when to give it, and when a topic belongs on the 1:1 agenda instead.",
+      "say": "Oracle gives everyone two feedback moves. Request: you ask people who saw your work how it landed, and their answers join your record. Give: you put specific recognition or input into a colleague's record, where it travels further than chat ever will. The skill is matching the moment to the move, so let's practice on three.",
+      "facilitate": [
+        "Run Pick the move live; everyone plays on their own screen.",
+        "After round two, ask in chat who has ever received recorded feedback from a peer; notice the energy.",
+        "Run the breakout on the colleague whose work deserved a recorded give."
+      ],
+      "ask": {
+        "q": "Why does recorded feedback beat the same words in chat?",
+        "expect": ["It reaches their manager", "It survives to review season", "Chat scrolls away"],
+        "respond": "All three. The words might be identical; the address is different. Feedback in the record shows up when decisions about people get made."
+      },
+      "debrief": "Request when you need eyes on your work. Give when a colleague earned it. Anything needing real discussion goes on the 1:1 agenda.",
+      "watchFor": "Worry that requesting feedback signals weakness. Reframe it: asking specific people about specific work reads as someone serious about getting better.",
+      "transition": "Templates and feedback both feed one thing: a record. The last section makes it work for you.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the chat question."
+    },
+    "s3": {
+      "title": "The record",
+      "purpose": "Convert template and feedback habits into a growth trail: agendas in, commitments out.",
+      "say": "Play the long game for a second. A year from now, someone will ask what you have grown into, in a review or an internal interview. The strongest answer is a trail: agendas you set, commitments that closed, feedback you asked for and acted on. Trails get built one meeting at a time, so let's set up your next one properly.",
+      "facilitate": [
+        "Run Set up your next 1:1; give the room two minutes for both choices.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: typed beats mental, shared beats private."
+      ],
+      "ask": {
+        "q": "What does a shared commitment have that a private note does not?",
+        "expect": ["Both names on it", "It gets checked next meeting", "Nobody can misremember it alone"],
+        "respond": "Right. A private note protects your memory; a shared commitment obligates two calendars. Growth lives in the second kind."
+      },
+      "debrief": "The record is your career's paper trail. Feed it: items in before, commitments out after, feedback along the way.",
+      "watchFor": "Anyone treating the record as surveillance. The frame is ownership: this is your trail, built by you, arguing for you.",
+      "transition": "Quick recap, then you load your own next 1:1.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now load the real thing. Your next 1:1 is on a calendar somewhere. Name the item you have been sitting on, pick your first move, pick your window, and build the card. Roles only, never names. Two minutes, quiet, go.",
+    "closeSay": "You leave with a loaded template habit and two feedback moves that put your work on the record. Thursday's Thrive Thursday is the skill underneath every one of these tools: clarity, the kind of expectation-setting that sticks, whichever chair you sit in. Same time, same rhythm. See you there.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Learners lack Oracle access or cannot open it during the session", "then": "Nothing requires live Oracle. Demo from your own screen, and have people draft their agenda item and feedback lines in the deck; entering them takes two minutes after the call."},
+      {"if": "Someone starts naming a colleague while describing feedback they want to give", "then": "Redirect warmly: roles, never names. The specifics belong in the tool, addressed to the person; the room only needs the shape of the example."}
+    ],
+    "toughQuestions": [
+      {"q": "What if my manager never opens the template?", "a": "Your entry still works: it frames the meeting when you bring it up, and it timestamps that you raised it. Most managers start using the template the week their reports do. If it stays ignored, raise that kindly as its own agenda item."},
+      {"q": "Is feedback I give in Oracle visible to the person and their manager?", "a": "Treat everything in the tool as on the record; that is the point, because recorded recognition travels. Write anything you give as words you would happily say with the person in the room, since functionally you are."},
+      {"q": "I don't manage anyone. Is this month really for me?", "a": "Entirely. The manager standard tells you what to expect from your own manager, and the tools are two-sided by design; this month lands only if both chairs use them. If you are curious where the manager side goes, the New Manager Foundations course on LinkedIn Learning is open to everyone."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on making Oracle 1:1s work for you. Before the session, think of one item you keep meaning to raise with your manager. You will never be asked to share it. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did it make the record? Three lines, reply whenever: 1) Did your item make it into a 1:1 template? 2) Did you send or give one piece of feedback in Oracle? 3) What changed because it was on the record?"}
+    ]
+  }
+}

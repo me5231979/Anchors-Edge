@@ -1,0 +1,258 @@
+{
+  "slug": "dec-monday",
+  "series": "Manager Monday",
+  "month": "December 2026",
+  "monthShort": "Dec",
+  "monthIndex": 3,
+  "theme": "AI at Work: Start Where You Are",
+  "goal": 3,
+  "title": "Set the Tone",
+  "titleHtml": "Your team's AI use starts with <em class=\"gold-text\">your tone</em>.",
+  "tagline": "Framing AI as a leadership responsibility.",
+  "description": "A 45-minute virtual session for Vanderbilt managers: learn why safe AI adoption on a team is led, how to model one safe first use, and how to talk about AI with your team in a way that invites curiosity.",
+  "heroLead": "Teams take their cue on AI from their manager. Stay silent and the careful people freeze while the bold ones experiment without guardrails. This session makes tone-setting deliberate: permission, safety, and curiosity, starting with one use you model.",
+  "objectives": [
+    "Name the three signals a team reads from its manager about AI: permission, safety, curiosity",
+    "Choose one green-light task from your own week and model it for your team",
+    "Open a team conversation about AI that is honest about limits and free of hype"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "AI Fluency"},
+    {"label": "Change Leadership"},
+    {"label": "Psychological Safety"}
+  ],
+  "missionTie": "A university out to define the 21st Century will use AI well because its leaders taught their teams how. Exceptional Core Operations depends on managers who make safe experimentation normal, one team at a time.",
+  "goalLead": "AI-Enabled Workforce Readiness starts with managers who treat adoption as part of the job. Today you set the tone and model the first safe use your team will copy.",
+  "agenda": [
+    {"t": "The tone you set", "d": "What your team reads from your silence, your hype, and your curiosity."},
+    {"t": "Model one safe use", "d": "The traffic light, and picking a first use your team can watch you run."},
+    {"t": "The team conversation", "d": "Words that invite experiments and keep the guardrails visible."}
+  ],
+  "manifesto": "Your team will use AI the way they watched you use it.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Tone",
+      "dataTitle": "The tone you set",
+      "eyebrow": "The Tone",
+      "headline": "Silence is also a <em>signal</em>.",
+      "lead": "Ask a team why they avoid AI and you usually hear that the manager never brought it up. People read your tone whether you set it or drift into it, so this month you set it on purpose: clear permission, visible guardrails, and honest curiosity.",
+      "group": "In pairs: what tone has your team read from you about AI so far, on purpose or by accident? 90 seconds each way.",
+      "solo": "Write one line: what tone has your team read from you about AI so far, on purpose or by accident?",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The tone rule",
+          "text": "A team's AI behavior mirrors its manager's signals. They listen for three things: permission (may we?), safety (what is in bounds?), and curiosity (does trying count?). When all three are clear, safe experiments start."
+        },
+        "q": "Quick check: a manager has never mentioned AI to the team. What does the team most likely conclude?",
+        "opts": [
+          {"t": "AI is fine here as long as nobody asks", "correct": false, "why": "Some will quietly assume that, with zero guardrails. Silence produces shadow use by the bold and total avoidance by the careful."},
+          {"t": "The topic is off limits until the manager raises it", "correct": true, "why": "Most people default to caution and wait. Meanwhile a few experiment unguided, which is the riskiest mix a team can have."},
+          {"t": "Nothing; teams form AI habits on their own", "correct": false, "why": "Habits form around what leaders permit and model. In workplace tool adoption, the local manager is the strongest signal there is."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "First Use",
+      "dataTitle": "Model one safe use",
+      "eyebrow": "The Model",
+      "headline": "Model the first <em>green light</em>.",
+      "lead": "The shared traffic light keeps this simple. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Pick a boring green chore and let your team watch you run it, fixes and all.",
+      "group": "In pairs: name one green-light chore from your own week you could model for your team this month. 90 seconds each way.",
+      "solo": "Name one green-light chore from your own week you could model for your team this month.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Green, yellow, or red?",
+        "intro": "Your team will bring you cases exactly like these. Call each one before you have to answer theirs.",
+        "progressWord": "Case",
+        "labels": ["Green: public or generic, go", "Yellow: approved VU tools only", "Red: never"],
+        "passAt": 2,
+        "passMsg": "You can call the light. Model green ones openly, route yellow through approved VU tools, and hold the red line every time.",
+        "failMsg": "Close. The light follows the information: public or generic is green, internal work is yellow inside approved VU tools, and private information about people is always red.",
+        "items": [
+          {"q": "You want AI to draft a first version of a job posting using only the public role description.", "answer": 0, "why": "Public information, generic task. This is a perfect first use to model: low stakes, visible, and easy for the team to copy."},
+          {"q": "An analyst asks to summarize an internal budget planning document with an AI tool.", "answer": 1, "why": "Internal content is yellow: fine inside approved VU tools, off limits anywhere else. Your answer teaches the team where the boundary runs."},
+          {"q": "A coordinator wants AI help drafting feedback about a struggling employee, details pasted in.", "answer": 2, "why": "Private information about a person is red, always. AI can help with generic feedback structures; the specifics about a person never go in."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Conversation",
+      "dataTitle": "The team conversation",
+      "eyebrow": "The Talk",
+      "headline": "Talk about it like a <em>leader</em>.",
+      "lead": "Hype earns eye rolls; fear drives experiments underground. The conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Build the version you would actually say at your next team meeting.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Open the AI conversation",
+        "intro": "Your team meeting, five minutes on the agenda. Choose how you open and what you invite.",
+        "runLabel": "Run the meeting",
+        "outcomeTag": "How it lands",
+        "slots": [
+          {
+            "key": "How you open",
+            "opts": [
+              {"t": "AI is coming for every job, so we all need to get on board fast.", "pts": 1, "coach": "Fear opens mouths and closes minds. People nod along, then avoid the topic and hide whatever they try."},
+              {"t": "Leadership wants us using AI more, so have a look when you get a chance.", "pts": 2, "coach": "Permission by memo. It hands the tone to a distant voice and gives nobody a picture of what safe use looks like."},
+              {"t": "I used AI to draft the job posting this week. Here is what it did well and what I fixed.", "pts": 3, "coach": "A modeled green-light use, limits included. Showing your own work grants permission and teaches the guardrails in one move."}
+            ]
+          },
+          {
+            "key": "What you invite",
+            "opts": [
+              {"t": "Come to me first before anyone touches an AI tool.", "pts": 1, "coach": "A bottleneck reads as a warning. Experiments stop, or they continue quietly where you can never coach them."},
+              {"t": "Try it if you like; just be sensible about what you put in.", "pts": 2, "coach": "Sensible means something different to everyone. Without the traffic light, each person draws their own line."},
+              {"t": "Pick one green-light chore, try it, and bring what happened to next week's meeting.", "pts": 3, "coach": "A specific invitation with the guardrail built in. Sharing results out loud turns one experiment into a team habit."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A tone that travels. The team saw a real use, heard real limits, and got a specific invitation to try.",
+          "mid": "Permission was granted and never shaped. A few will try things; most will wait for a clearer signal.",
+          "weak": "The room went quiet. People heard pressure or a warning, and the experiments that happen next will be invisible ones."
+        },
+        "reactions": {
+          "strong": "Within two weeks, three people bring green-light experiments to the team meeting, including one you would never have thought of. The traffic light gets quoted back to you, which is how you know it stuck.",
+          "mid": "A month later, one adventurous person uses AI regularly and nobody else has started. Adoption became a personality trait on your team instead of a team practice.",
+          "weak": "Weeks later you learn someone has been pasting internal documents into a free tool at home. The conversation that would have prevented it never happened."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What do teams read most closely to decide how they will use AI?",
+      "opts": ["The university's written policy", "Their manager's signals: permission, safety, curiosity", "News coverage about AI", "What other departments are doing"],
+      "correct": 1,
+      "why": "Policy sets the outer boundary, but daily behavior mirrors the local manager. Your signals are the ones the team actually acts on."
+    },
+    {
+      "q": "An analyst wants to summarize an internal planning doc with AI. Your call?",
+      "opts": ["Green: any tool works", "Yellow: approved VU tools only", "Red: never", "Ask them to wait until next quarter"],
+      "correct": 1,
+      "why": "Internal content is yellow: fine inside approved VU tools, off limits everywhere else. The information decides the light every time."
+    },
+    {
+      "q": "What makes a manager's first modeled AI use land with the team?",
+      "opts": ["It is impressive and ambitious", "It is a boring green chore shown honestly, fixes included", "It is required for everyone", "It stays private until perfected"],
+      "correct": 1,
+      "why": "A visible, low-stakes use with its flaws shown grants permission and teaches checking in one move. Impressive demos mostly create distance."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The tone is yours to set. Now go model the first green light.",
+    "mid": "Solid. Revisit the traffic light, then build your card.",
+    "low": "Worth a second pass through the three sections before you commit."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My tone-setting move",
+    "headline": "One green light, modeled <em>out loud</em>.",
+    "lead": "Pick the chore you will model and the moment the team hears about it. Nothing you type is saved or sent.",
+    "whoLabel": "The green-light chore you will model, and where the team hears about it.",
+    "whoPlaceholder": "e.g. drafting the job posting; share at Tuesday staff meeting",
+    "practiceLabel": "Which move do you lead with?",
+    "whoRow": "The chore and the moment",
+    "practices": [
+      {"id": "model", "chip": "Model it live", "name": "Model it live", "move": "Run one green-light chore with AI, then show the team what it produced and what you fixed."},
+      {"id": "light", "chip": "Teach the traffic light", "name": "Teach the traffic light", "move": "Walk the team through green, yellow, and red with one real example of each from your own work."},
+      {"id": "invite", "chip": "The open invitation", "name": "The open invitation", "move": "Invite everyone to try one green-light chore and bring what happened to the next team meeting."}
+    ],
+    "whens": [
+      {"id": "thisweek", "chip": "This week", "out": "The move happens this week, on the team agenda by Friday."},
+      {"id": "nextmeeting", "chip": "At our next team meeting", "out": "The move opens your next team meeting, first item, before status updates."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, on the agenda today so it cannot slide."}
+    ],
+    "cardTitle": "My tone-setting card",
+    "evidenceRow": "Afterward, one line: what did your team try once they saw you go first?"
+  },
+  "closing": {
+    "headline": "Go first. <em>They will follow.</em>",
+    "lead": "You named the signals your team reads, picked a green light to model, and built the conversation. Tuesday and Thursday carry the same theme into every staff member's week.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Model the chore on your card",
+    "nextBody": "Run it, show the result, and say what you fixed. If you want the wider leader's view first, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh.",
+    "brandline": "Set the tone. Then watch it spread."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December opens the AI at Work theme, and this is many managers' first AI session.",
+    "pulse": "Seven days out, send the pulse: 'Did you model the chore on your card? What did the team say or try afterward? What is the next green light you will point at?' Count of modeled first uses is the Level 3 metric for the month.",
+    "s1": {
+      "title": "The tone you set",
+      "purpose": "Establish that team AI behavior mirrors the manager's signals: permission, safety, curiosity.",
+      "say": "Here is the finding this month is built on: teams take their AI cue from their manager, and silence is a cue too. Say nothing and the careful people freeze while the bold ones experiment with zero guardrails. The good news is that the tone is yours, so today we set it on purpose.",
+      "facilitate": [
+        "Read the lead once, then go straight to the knowledge check; everyone answers on their own screen.",
+        "Ask the room which answer they picked before revealing your own take.",
+        "Run the breakout: what tone has your team read so far, 90 seconds each way."
+      ],
+      "ask": {
+        "q": "What tone do you suspect your own team has read from you so far?",
+        "expect": ["Honest admissions of silence", "A few who have been enthusiastic without guardrails"],
+        "respond": "Both are common and both are fixable. The next two sections give you the model and the words."
+      },
+      "debrief": "Permission, safety, curiosity. When the team can answer all three without asking you, the tone is set.",
+      "watchFor": "Managers who feel behind because they have never used AI themselves. Name it early: this month assumes zero experience, and going first with a small chore counts double.",
+      "transition": "The tone gets set fastest by what you model. Here is how to pick the first use.",
+      "coreNote": "Core: skip the breakout; ask for one word in chat describing the team's current tone."
+    },
+    "s2": {
+      "title": "Model one safe use",
+      "purpose": "Install the traffic light and have every manager pick one green-light chore to model.",
+      "say": "The traffic light is the whole safety model, and it travels because it is short. Green is public or generic information: go. Yellow is internal work: approved VU tools only. Red is private information about people: never. Your first modeled use should be a boring green chore, because boring is copyable.",
+      "facilitate": [
+        "Run Green, yellow, or red? live; everyone plays on their own screen.",
+        "After the red case, pause: ask why a kind intention leaves the light red.",
+        "Run the breakout: one green-light chore from your own week."
+      ],
+      "ask": {
+        "q": "Why should your first modeled use be boring rather than impressive?",
+        "expect": ["Boring is easy to copy", "Impressive demos create distance", "Low stakes means mistakes teach cheaply"],
+        "respond": "Right. The goal is a team full of small safe experiments, and those start from a chore everyone recognizes."
+      },
+      "debrief": "The information decides the light every time. Green goes, yellow stays inside approved VU tools, red never goes in.",
+      "watchFor": "Managers inventing edge cases to postpone action. Park edge cases in chat for the tough-questions bank and bring the room back to their one green chore.",
+      "transition": "You have the use. Now the team needs to hear about it in the right tone.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "The team conversation",
+      "purpose": "Build an opening and an invitation that grant permission with the guardrails visible.",
+      "say": "Two tones kill this conversation: hype and fear. Hype gets eye rolls, fear gets hidden experiments, and hidden experiments are where the real risk lives. The version that works is plain: here is what I tried, here is the traffic light, and I want to hear what you try. Let's build yours.",
+      "facilitate": [
+        "Run Open the AI conversation; two minutes to make both choices and run it.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: a modeled use plus a specific invitation with the guardrail built in."
+      ],
+      "ask": {
+        "q": "What makes 'be sensible about what you put in' a weak guardrail?",
+        "expect": ["Everyone defines sensible differently", "It pushes the judgment onto the least informed person"],
+        "respond": "Exactly. The traffic light exists so nobody has to improvise the boundary. Give the rule, then invite the experiment."
+      },
+      "debrief": "The strong conversation has a shape: I tried this, here is the light system, bring me what you try.",
+      "watchFor": "Managers drafting a policy memo in their heads. Keep it spoken and small; the tone lives in the meeting, and the memo can follow.",
+      "transition": "Quick recap, then you build your own card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now make it real. One green-light chore from your own week, one moment where the team hears about it. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "closeSay": "You leave with a tone to set and a chore to model. Tomorrow's Take-Off Tuesday is the hands-on session: every staff member picks one safe AI use case and runs it, so send your whole team. Thursday's Thrive Thursday builds adaptability, the skill of leading through the ambiguity that arrives with any new tool. And if you want more depth, this month's LinkedIn Learning course is Generative AI for Business Leaders with Kian Katanforoosh, and the navigators are hosting a First-AI-Win sandbox session for anyone who wants a guided first run.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "A manager shares a story with private details about a named employee's AI mistake", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The lesson travels fine without the person attached."},
+      {"if": "The room splits between AI enthusiasts and skeptics", "then": "Give each side one sentence, then point at the traffic light: it gives enthusiasts a lane and skeptics a boundary, and it asks both for the same small move."}
+    ],
+    "toughQuestions": [
+      {"q": "I have never used an AI tool myself. How can I set the tone?", "a": "Start where you are; that is the month's theme. Pick one green-light chore, try it this week, and model it honestly, fixes and all. A manager learning out loud sets a better tone than an expert performing. The navigator-led First-AI-Win sandbox session is a guided place to do that first run."},
+      {"q": "What if someone on my team is already pasting internal content into free tools?", "a": "Treat it as a signal of appetite, and address the boundary without shaming the experiment. Teach the traffic light, route the yellow work into approved VU tools, and thank them for surfacing it. Curiosity is fuel you want; it just needs the guardrails."},
+      {"q": "Is AI adoption really my job? We have IT and a policy for that.", "a": "Policy and platforms set the outer boundary; daily behavior forms around what you permit and model. Your team builds its habits around you long before anyone reads a policy page. That is why this month treats adoption as a leadership responsibility, and why the ask is one modeled chore, small enough for any calendar."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on leading AI on your team. Bring one boring chore from your own week; you will leave knowing whether AI can safely take it. Zero AI experience needed. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did you model it? Three lines, reply whenever: 1) Did you model the green-light chore on your card? 2) What did the team say or try afterward? 3) What is the next green light you will point at?"}
+    ]
+  }
+}

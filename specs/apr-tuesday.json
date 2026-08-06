@@ -1,0 +1,258 @@
+{
+  "slug": "apr-tuesday",
+  "series": "Take-Off Tuesday",
+  "month": "April 2027",
+  "monthShort": "Apr",
+  "monthIndex": 7,
+  "theme": "The Transfer Portal in Practice",
+  "goal": 1,
+  "title": "The Open Door",
+  "titleHtml": "Walk through the <em class=\"gold-text\">open door</em>.",
+  "tagline": "Navigating the Transfer Portal, end to end.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: set up your Transfer Portal profile, find internal roles and gigs, raise your hand in the open, and know exactly what happens next.",
+  "heroLead": "The Transfer Portal is Vanderbilt's front door to internal opportunity: roles, projects, and gigs across the university. Today you walk it end to end on your own screen: your profile, your search, raising your hand, and what happens after you do.",
+  "objectives": [
+    "Build a Portal profile that shows your full skills, beyond your current title",
+    "Find internal roles, projects, and gigs by the skills you want to use",
+    "Express interest in the open, and know what happens next"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Career Development"},
+    {"label": "Internal Mobility"},
+    {"label": "Digital Fluency"}
+  ],
+  "missionTie": "A university that will define the century cannot let opportunity depend on who you happen to know. The Portal makes internal mobility part of Exceptional Core Operations: visible, open, and one profile away for every staff member.",
+  "goalLead": "Goal 1 promises to connect employees to internal opportunity. Today is that promise at ground level: your profile, your search, your raised hand.",
+  "agenda": [
+    {"t": "Your profile is the signal", "d": "What to put in it so opportunity can actually find you."},
+    {"t": "Search and raise your hand", "d": "Finding roles, projects, and gigs, and expressing interest well."},
+    {"t": "In the open, and what's next", "d": "Why there is no secrecy to keep, and what happens after you apply."}
+  ],
+  "manifesto": "Your next Vanderbilt role cannot find you if your profile only shows your last one.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Profile",
+      "dataTitle": "Your profile is the signal",
+      "eyebrow": "The Profile",
+      "headline": "Your profile is how opportunity <em>finds you</em>.",
+      "lead": "The Portal matches people to opportunities through skills. A profile that only repeats your job title hides most of what you can do. The ten minutes you spend listing real skills is the highest-leverage career move in this whole session.",
+      "group": "In pairs: name one skill you use every week that your job title would never suggest. One pair shares.",
+      "solo": "Write down one skill you use every week that your job title would never suggest.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The profile rule",
+          "text": "List what you can do, wherever you learned it: skills your role uses, skills it ignores, and skills you are building on your own. The Portal matches on skills, so every one you leave off is a door that stays shut."
+        },
+        "q": "Which profile gets found by the right opportunities?",
+        "opts": [
+          {"t": "Your job title and current duties, kept accurate", "correct": false, "why": "Accurate and invisible. The Portal already knows your title; matching runs on skills, and duties only cover the ones your role happens to use."},
+          {"t": "Every skill you have, in role or beyond it, plus what you want to build", "correct": true, "why": "Exactly. Skills from any part of your life count, and naming what you want to build lets the Portal surface stretch opportunities and lets navigators help."},
+          {"t": "Only skills you could prove with a certificate", "correct": false, "why": "Certificates help and are welcome, and most real skills have no paper. If you have done it, list it; the conversation later is where depth gets shown."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Search",
+      "dataTitle": "Search and raise your hand",
+      "eyebrow": "The Search",
+      "headline": "Search by the skills you <em>want to use</em>.",
+      "lead": "The Portal lists more than jobs: projects, gigs, and short assignments across the university. How you search and how you raise your hand decide what you find and how you are received. Build your first pass.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Build your first pass",
+        "intro": "Fifteen minutes in the Portal this week. Choose how you search and how you express interest.",
+        "runLabel": "Run the pass",
+        "outcomeTag": "How it lands",
+        "slots": [
+          {
+            "key": "How you search",
+            "opts": [
+              {"t": "Wait; if something fits, someone will probably send it to you.", "pts": 1, "coach": "Waiting outsources your career to luck. The Portal is a front door, and front doors work for the people who walk up to them."},
+              {"t": "Search job titles that match the one you already have.", "pts": 2, "coach": "You will find your current job in other buildings. Title search hides the projects and gigs where new skills actually get built."},
+              {"t": "Search by skills you want to use more, including gigs and projects.", "pts": 3, "coach": "Skill-first search surfaces opportunities that titles hide, and gigs let you test a direction in weeks rather than committing years."}
+            ]
+          },
+          {
+            "key": "How you raise your hand",
+            "opts": [
+              {"t": "Apply to several roles quietly and tell no one.", "pts": 1, "coach": "Secrecy adds stress the system never asked for. Internal mobility is encouraged here; hiding it just means nobody can help you."},
+              {"t": "Express interest in one role and wait to hear back.", "pts": 2, "coach": "A clean start. Adding one conversation, with your manager or a navigator, turns a submitted form into a supported move."},
+              {"t": "Express interest, tell your manager, and book 20 minutes with a navigator.", "pts": 3, "coach": "This is the move working in the open: the system has your hand up, your manager can back you, and a navigator can tell you how to strengthen it."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A real first pass. Your hand is up, in the open, with people positioned to help it succeed.",
+          "mid": "A decent start with the brakes on. The Portal knows you exist; the people who could help do not yet.",
+          "weak": "The Portal cannot find you and neither can anyone else. Nothing moved this week."
+        },
+        "reactions": {
+          "strong": "Ten days later a hiring manager mentions your profile listed exactly the skill her project needed. The navigator flagged one gig you would never have searched for. Working in the open did the work.",
+          "mid": "Two weeks on, the application sits at 'in review' and you are refreshing the page. One conversation with a navigator would tell you the stage and the next move.",
+          "weak": "A month later a colleague lands a gig you never saw, building the exact skill you wanted. It was posted the whole time. The door was open; nobody walked up."
+        }
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "In the Open",
+      "dataTitle": "In the open, and what's next",
+      "eyebrow": "In the Open",
+      "headline": "No secrecy <em>required</em>.",
+      "lead": "The old instinct says job searching means hiding. The Portal is built for the opposite: managers are expected to support moves, navigators exist to help, and every stage has a next step you can ask about. Read each situation and call the move.",
+      "group": "In pairs: which old job-search habit would be hardest for you to drop? 90 seconds each way.",
+      "solo": "Name the old job-search habit that would be hardest for you to drop.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Call the move",
+        "intro": "Three situations from the weeks after you raise your hand. Call each one.",
+        "progressWord": "Situation",
+        "labels": ["Open move, keep going", "Old habit, drop it", "Ask a navigator"],
+        "passAt": 2,
+        "passMsg": "You have the rhythm: move in the open, use the people built to help, and treat silence as a question to ask.",
+        "failMsg": "Close. The tell: secrecy is old habit, open moves are the design, and a navigator is the answer whenever you cannot see the next step.",
+        "items": [
+          {"q": "You found a great role in another school and plan to tell your manager only if you get an offer.", "answer": 1, "why": "External job search instinct, running on internal rails. Managers here are expected to support moves; telling yours early turns a secret into a backed application."},
+          {"q": "You told your manager you expressed interest, and they offered to put in a word with the hiring team.", "answer": 0, "why": "This is the system working as designed: an open move with a sending manager behind it. Say yes, and keep them posted as it progresses."},
+          {"q": "Two weeks after expressing interest, you have heard nothing and cannot tell what stage you are at.", "answer": 2, "why": "Silence is a question, and navigators are the answer: they can tell you the stage, the timeline, and whether a skill-profile tweak would strengthen you."}
+        ]
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What does the Portal use to match you with opportunities?",
+      "opts": ["Your job title", "Your tenure", "Your skills profile", "Your performance rating"],
+      "correct": 2,
+      "why": "Matching runs on skills. A profile that lists everything you can do, in role or beyond it, opens doors your title never will."
+    },
+    {
+      "q": "The strongest way to raise your hand for an internal role is...",
+      "opts": ["Apply quietly and wait", "Express interest, tell your manager, see a navigator", "Email the hiring manager your resume", "Ask HR to put in a word"],
+      "correct": 1,
+      "why": "Working in the open puts three forces behind you: the system, a sending manager, and a navigator who knows the process."
+    },
+    {
+      "q": "Two weeks of silence after expressing interest means...",
+      "opts": ["The answer is no", "You should apply elsewhere quickly", "Time to ask a navigator where it stands", "You should withdraw and reapply"],
+      "correct": 2,
+      "why": "Silence is a question, and navigators exist to answer it: the stage, the timeline, and how to strengthen your profile."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The path is mapped. Now walk it: fifteen minutes in the Portal this week.",
+    "mid": "Solid. Revisit the section you missed, then build your card.",
+    "low": "Worth a second pass through the three sections before you commit."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My Portal move",
+    "headline": "Fifteen minutes. One raised hand. <em>This week.</em>",
+    "lead": "Pick your first Portal move and put a window on it. Nothing you type is saved or sent.",
+    "whoLabel": "What are you looking for? The skills you want to use or build.",
+    "whoPlaceholder": "e.g. data visualization I use in side projects; want to build facilitation",
+    "practiceLabel": "Which move do you make first?",
+    "whoRow": "The skills in play",
+    "practices": [
+      {"id": "profile", "chip": "The profile refresh", "name": "The profile refresh", "move": "Ten minutes in your Portal profile: add the skills your title hides and one skill you want to build next."},
+      {"id": "search", "chip": "The open search", "name": "The open search", "move": "Fifteen minutes searching by skill, including gigs and projects, and save the three that pull at you."},
+      {"id": "hand", "chip": "The raised hand", "name": "The raised hand", "move": "Express interest in one role, project, or gig, tell your manager, and book 20 minutes with a navigator."}
+    ],
+    "whens": [
+      {"id": "today", "chip": "Before I log off today", "out": "The move happens today, before you close this tab."},
+      {"id": "week", "chip": "This week", "out": "The move happens this week, on the calendar by Friday."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
+    ],
+    "cardTitle": "My Portal move card",
+    "evidenceRow": "Afterward, one line: what did you find that you did not know existed?"
+  },
+  "closing": {
+    "headline": "The door is open. <em>Walk through it.</em>",
+    "lead": "You built a profile rule, a skill-first search, and an open way to raise your hand. Thursday's session builds the human side of the same map: the internal bridges that carry news of opportunity.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Make the Portal move on your card",
+    "nextBody": "Run it as built. If you want company, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+    "brandline": "Move to opportunity without moving out."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this is the hands-on walkthrough.",
+    "pulse": "Seven days out, send the pulse: 'Did the Portal move on your card happen? What did you find that you did not know existed? What is your next move?' Count of completed Portal moves is the Level 3 metric for the month.",
+    "s1": {
+      "title": "Your profile is the signal",
+      "purpose": "Get every profile past the title-only trap: skills from anywhere, plus what they want to build.",
+      "say": "Here is how the Portal actually works: it matches people to opportunity through skills. Which means your profile is an antenna. If it only repeats your job title, it can only pick up your current job. Most of what you can do never made it into a job description, and today's first move is getting it into your profile.",
+      "facilitate": [
+        "Read the profile rule card aloud once.",
+        "Run the knowledge check; ask in chat who has updated their profile this year.",
+        "Run the breakout: one skill your title would never suggest."
+      ],
+      "ask": {
+        "q": "What is a skill you almost left off because it felt unofficial?",
+        "expect": ["Skills from volunteer work or side projects", "People skills that feel too soft to list", "Tools learned outside any training"],
+        "respond": "Those unofficial skills are exactly the ones the Portal cannot guess from your title. Unofficial is where the matches come from."
+      },
+      "debrief": "The Portal reads skills, so an incomplete profile is a smaller career. Ten minutes fixes it.",
+      "watchFor": "People listing duties instead of skills. Redirect: what can you do, wherever you learned it?",
+      "transition": "The antenna is up. Now let's go find the signals.",
+      "coreNote": "Core: skip the breakout; ask for one hidden skill in chat instead."
+    },
+    "s2": {
+      "title": "Search and raise your hand",
+      "purpose": "Teach skill-first search across roles, gigs, and projects, and the open way to express interest.",
+      "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is the lowest-risk way to test a direction ever invented. Then, when something pulls at you, raise your hand in the open.",
+      "facilitate": [
+        "Run Build your first pass; two minutes to make both choices and run it.",
+        "Ask a volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: skill-first search, open hand."
+      ],
+      "ask": {
+        "q": "Why do gigs and projects matter so much for a first Portal move?",
+        "expect": ["Lower commitment than a full move", "A way to test a direction", "A way to be seen by another team"],
+        "respond": "All three. A gig is a working interview in both directions, and it builds the exact evidence your profile needs for the bigger move later."
+      },
+      "debrief": "Search by skill, include gigs, raise your hand where people can see it. That is the whole method.",
+      "watchFor": "Anyone treating express-interest as a binding commitment. It opens a conversation; it signs nothing.",
+      "transition": "The open hand raises one worry: who sees it? Straight into that.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "s3": {
+      "title": "In the open, and what's next",
+      "purpose": "Retire the secrecy instinct and give everyone the after-you-apply map, including navigators.",
+      "say": "Everything you know about job searching says be quiet about it. That habit came from a world where your manager finding out was a risk. Inside Vanderbilt the design is the opposite: internal mobility is encouraged, managers are expected to support moves, and there is a whole role, the navigator, whose job is helping yours succeed. So the last skill today is moving in the open and knowing what happens after you raise your hand.",
+      "facilitate": [
+        "Run Call the move live; everyone plays on their own screen.",
+        "After round one, pause: ask who felt the pull of keeping it secret anyway.",
+        "Run the breakout on the hardest habit to drop."
+      ],
+      "ask": {
+        "q": "What actually happens after you express interest?",
+        "expect": ["The hiring team sees your profile and interest", "There are stages you can ask about", "A navigator can tell you where it stands"],
+        "respond": "Right, and that last one is the habit to build: silence in the process is a question, and navigators are the people built to answer it."
+      },
+      "debrief": "Secrecy is an old habit from external searches. Here, the open move is the strong move, and navigators are the map.",
+      "watchFor": "Skeptics with a story about a manager who punished a move. Take it seriously: sending managers are this month's Monday session, and specifics belong with HR rather than a debate in the room.",
+      "transition": "Quick recap, then you pick your own Portal move.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "capstoneSay": "Now make it yours. One Portal move: the profile refresh, the open search, or the raised hand. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
+    "closeSay": "You leave with an antenna, a search method, and an open hand. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone asks a Portal question you cannot answer, like a specific stage or policy", "then": "Say so plainly, capture it in chat, tag it for the navigators, and send the answer in the 7-day pulse. Modeling 'ask a navigator' is itself the lesson."},
+      {"if": "Someone shares a story of a manager who blocked an internal move", "then": "Thank them for the honesty, restate the norm without debating their case, and point to Monday's sending-manager session as the fix in motion. Route the specific case to HR offline."}
+    ],
+    "toughQuestions": [
+      {"q": "Will my manager see that I expressed interest?", "a": "Assume yes, and lead with it: the design expectation is that you tell them yourself first. Managers here are trained as sending managers; the conversation is usually easier than the one you are imagining, and a navigator can help you plan it."},
+      {"q": "Is expressing interest a commitment to take the role?", "a": "No. It opens a conversation, and you can step back at any stage. Treat it like raising your hand in a meeting: it means 'tell me more,' and plenty of strong moves start with three raised hands and one real conversation."},
+      {"q": "I like my job. Why should I bother with a profile?", "a": "A current profile serves people who are staying too: it is how project leads find you for gigs, how your skills get seen beyond your team, and how the university plans. Opportunity finding you costs nothing; being invisible might."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes inside the Transfer Portal. Bring your login and one skill you use that your job title hides. Live and hands on; have the session link open on your own screen, with the Portal in a second tab if you can."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the Portal move happen? Three lines, reply whenever: 1) Did the move on your card happen? 2) What did you find that you did not know existed? 3) What is your next move, and would a navigator session help it?"}
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "slug": "jun-tuesday",
+  "series": "Take-Off Tuesday",
+  "month": "June 2027",
+  "monthShort": "Jun",
+  "monthIndex": 9,
+  "theme": "From Insight to Action",
+  "goal": 3,
+  "title": "The 90-Day Plan",
+  "titleHtml": "Your next 90 days, <em class=\"gold-text\">on one card</em>.",
+  "tagline": "Building a 90-day AI action plan.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: build a personal 90-day AI action plan with one skill to build, one green-light task to hand to AI, and one habit to keep human.",
+  "heroLead": "Nine months of AI learning ends in a plan you can hold: one skill you will build, one green task you will hand to AI, one habit you will keep human. Small enough to finish, dated enough to check, yours enough to matter.",
+  "objectives": [
+    "Choose one AI-adjacent skill to build in the next 90 days",
+    "Pick one green-light task to hand to AI, cleared through the traffic light",
+    "Name one habit you will deliberately keep human, with a review date"
+  ],
+  "skills": [
+    {"label": "AI Literacy", "core": true},
+    {"label": "Planning and Prioritization"},
+    {"label": "Adaptability"}
+  ],
+  "missionTie": "Defining the great university of the 21st Century is the work of thousands of individual plans, yours included. Exceptional Core Operations happens when every staff member knows what AI takes, what they keep, and what they build next.",
+  "goalLead": "Goal 3 measures whether AI insight becomes practical action. Your 90-day plan is the smallest complete unit of that action: personal, dated, reviewable.",
+  "agenda": [
+    {"t": "One skill to build", "d": "Pick a skill that is small, near your real work, and finishable in 90 days."},
+    {"t": "One task for AI", "d": "Choose a green task to hand over, and run it through the traffic light first."},
+    {"t": "One habit to keep human", "d": "Name the thing you keep doing yourself, on purpose, and date the review."}
+  ],
+  "manifesto": "A 90-day plan beats a someday intention: one skill, one task, one habit, all dated.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Skill",
+      "dataTitle": "One skill to build",
+      "eyebrow": "One Skill",
+      "headline": "Pick a skill you can <em>finish</em>.",
+      "lead": "The best 90-day skill goal is embarrassingly small. Prompting AI well for your weekly report beats mastering AI. Reading one dashboard beats learning analytics. Small and finished builds more capability than ambitious and abandoned, every time.",
+      "group": "In pairs: trade one skill you could realistically build by September. Partner's job: shrink it until it honestly fits 90 days. 90 seconds each way.",
+      "solo": "Write one skill you could realistically build by September. Then shrink it until it honestly fits 90 days.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The 90-day skill test",
+          "text": "A good 90-day skill passes three questions: can I name the work I will use it on next week, can someone tell in September whether I built it, and can I practice it inside my actual job? If any answer is no, shrink the skill."
+        },
+        "q": "Quick check: which of these is the strongest 90-day skill goal?",
+        "opts": [
+          {"t": "Become proficient in artificial intelligence", "correct": false, "why": "Nobody can tell in September whether this happened. It is a direction, and directions make honorable, unfinishable goals."},
+          {"t": "Use an approved VU AI tool to draft my monthly status report, every month", "correct": true, "why": "Named work, checkable by September, practiced inside the job. This is what finishable looks like, and it compounds."},
+          {"t": "Take every AI course in the LinkedIn Learning library", "correct": false, "why": "Courses are fuel; fuel needs an engine. Pick one course aimed at one named task. This month's pick, Leading Your Team Through Change, fits if change is your work."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Handoff",
+      "dataTitle": "One task for AI",
+      "eyebrow": "One Task",
+      "headline": "Hand AI a task, once the <em>light turns green</em>.",
+      "lead": "The plan's second line is a task you stop doing by hand. For your 90-day plan, pick a green task: public or generic, go. The full light still governs everything else you do: yellow is internal, approved VU tools only; red is private information about people, never.",
+      "group": "Breakout pairs: name the task you want to hand to AI and run it through the light out loud. Partner checks the call. 90 seconds each way.",
+      "solo": "Name the task you want to hand to AI and run it through the light. Write the color next to it.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Clear the handoff",
+        "intro": "Three tasks people wanted to hand to AI this year. Run each through the traffic light before anything moves.",
+        "progressWord": "Task",
+        "labels": ["Green: go", "Yellow: approved VU tools only", "Red: never"],
+        "passAt": 2,
+        "passMsg": "The light is second nature now. For your plan's handoff line, pick the green task and hand it over.",
+        "failMsg": "Close. The light in one breath: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never.",
+        "items": [
+          {"q": "Drafting a first version of a public event description from the date, location, and program details.", "answer": 0, "why": "Public or generic information headed for a public page: green, go. First drafts of public copy are exactly the kind of task worth handing over."},
+          {"q": "Summarizing an internal planning document into talking points for your own team meeting.", "answer": 1, "why": "Internal content stays inside the fence: yellow, approved VU tools only. Fine day to day; for the plan's handoff line, keep hunting for a green task."},
+          {"q": "Pasting notes about a colleague's performance concerns into an AI tool to draft feedback.", "answer": 2, "why": "Private information about a person: red, never, in any tool, however good the intention. Write that one yourself."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Human Habit",
+      "dataTitle": "One habit to keep human",
+      "eyebrow": "One Habit",
+      "headline": "Choose what stays <em>yours</em>.",
+      "lead": "The third line is a quiet promise: one habit you keep doing yourself, on purpose. The thank-you written by hand, the hard message drafted alone, the first read of a colleague's work. Naming what stays human keeps you the one steering.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Assemble the plan",
+        "intro": "A plan survives on how it is written and how it is reviewed. Choose both.",
+        "runLabel": "Run the 90 days",
+        "outcomeTag": "September, when it arrives",
+        "slots": [
+          {
+            "key": "How the plan is written",
+            "opts": [
+              {"t": "Three good intentions, kept in your head where they feel safe.", "pts": 1, "coach": "Heads are where plans go to feel finished. By August the three lines will have quietly become zero."},
+              {"t": "Three lines in a note on your desktop, no dates attached.", "pts": 2, "coach": "Written beats remembered. But undated lines read as suggestions, and suggestions lose to any busy week."},
+              {"t": "Three dated lines: the skill, the handoff, the habit, each with a when.", "pts": 3, "coach": "Dates turn lines into appointments. The plan now argues for itself every time you open your calendar."}
+            ]
+          },
+          {
+            "key": "How the plan is reviewed",
+            "opts": [
+              {"t": "You will remember to check it eventually.", "pts": 1, "coach": "Eventually has no date, and 90-day plans die precisely at the 30-day mark, when nobody is looking."},
+              {"t": "A calendar reminder at day 90 to see how it went.", "pts": 2, "coach": "One review at the end is an autopsy. You want a checkpoint early enough to fix the plan while it is alive."},
+              {"t": "A 30-minute review at day 30 with a colleague who has your plan.", "pts": 3, "coach": "An early date plus a witness is the strongest review there is. A teammate holding your plan doubles the odds either of you finishes."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A plan with a pulse. Dated lines and a day-30 witness make September a checkpoint you will actually pass.",
+          "mid": "A real plan with soft anchoring. The lines exist; give them dates and a witness before Friday.",
+          "weak": "Three intentions in the wind. By September this session will be a pleasant memory with no fingerprints."
+        },
+        "reactions": {
+          "strong": "At day 30 the review takes twenty minutes. The skill is underway, the handoff already saves you an hour a week, and your colleague has borrowed the format for their own plan.",
+          "mid": "In late July you find the note and feel the small sting of a plan half kept. The lines are still good; they just never met your calendar. Date them today and the 90 days restart cleanly.",
+          "weak": "September arrives and asks what changed. Colleagues who dated their three lines can answer in specifics; yours would take some remembering. The next 90 days are still available."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What makes a skill goal fit a 90-day plan?",
+      "opts": ["It is ambitious enough to impress", "It is named, checkable, and practiced in your real work", "It requires a formal course", "It covers AI broadly"],
+      "correct": 1,
+      "why": "Small, named, and checkable beats broad and inspiring. If September cannot verify it, shrink it."
+    },
+    {
+      "q": "You want AI to summarize an internal planning doc for your team meeting. The light says...",
+      "opts": ["Green: any tool, go", "Yellow: approved VU tools only", "Red: never", "No light needed for summaries"],
+      "correct": 1,
+      "why": "Internal content is yellow: fine inside approved VU tools. Green is public or generic; red is private information about people, never."
+    },
+    {
+      "q": "What is the strongest way to keep a 90-day plan alive?",
+      "opts": ["Willpower and good intentions", "A day-90 reminder", "A day-30 review with a colleague who has your plan", "Adding more goals"],
+      "correct": 2,
+      "why": "An early checkpoint plus a witness. A review at the end is an autopsy; day 30 is where a live plan gets fixed."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The plan logic is solid. Now write your three real lines.",
+    "mid": "Nearly there. Reread the traffic light, then build your card.",
+    "low": "Take one more pass through the three lines before you write yours."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My 90-day plan",
+    "headline": "Three lines. Ninety days. <em>Starts today.</em>",
+    "lead": "Write your three lines: the skill, the green-light handoff, the human habit. Keep everything task level, no names, no private details. Nothing you type is saved or sent.",
+    "whoLabel": "Your three lines: one skill, one green task for AI, one habit kept human.",
+    "whoPlaceholder": "e.g. prompt drafts for weekly report; hand over public event blurbs; keep thank-yous handwritten",
+    "practiceLabel": "Which line do you start this week?",
+    "whoRow": "The three lines",
+    "practices": [
+      {"id": "skill", "chip": "Start the skill", "name": "Start the skill", "move": "Book the first practice rep this week: the named task, the approved tool, thirty minutes on the calendar."},
+      {"id": "handoff", "chip": "Make the handoff", "name": "Make the handoff", "move": "Confirm the task is green, then do the first AI-assisted version this week and compare it honestly with your usual work."},
+      {"id": "habit", "chip": "Guard the habit", "name": "Guard the habit", "move": "Do the human habit once this week, on purpose, and notice what it gives you that automation would miss."}
+    ],
+    "whens": [
+      {"id": "day30", "chip": "Day-30 review booked", "out": "A 30-minute review sits on your calendar about a month out, with a colleague who has your plan."},
+      {"id": "buddy", "chip": "With a plan buddy", "out": "You trade plans with one colleague this week; each of you holds the other's day-30 date."},
+      {"id": "lab", "chip": "In the capstone lab", "out": "You bring the plan to this month's navigator-led action-planning lab and leave with it sharpened."}
+    ],
+    "cardTitle": "My 90-day plan card",
+    "evidenceRow": "At day 30, one line: which of the three lines is alive, and what does it need?"
+  },
+  "closing": {
+    "headline": "Ninety days is <em>enough</em>.",
+    "lead": "You leave with three dated lines and a review that will actually happen. Thursday closes the whole year with the skill underneath every plan: deciding while the deciding is good.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Date all three lines and book the day-30 review",
+    "nextBody": "Put the skill rep, the handoff, and the habit on real days, and send your plan to one colleague. If change is the water you are swimming in, this month's LinkedIn Learning pick, Leading Your Team Through Change, is a good companion.",
+    "brandline": "One skill. One handoff. One habit. Dated."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. June is the closing month, From Insight to Action; the traffic light from December and March carries straight in.",
+    "pulse": "Seven days out, send the pulse: 'Are your three lines dated? Did the first skill rep or handoff happen? Who holds your day-30 review?' Count of plans with a booked day-30 review is the Level 3 metric for the month.",
+    "s1": {
+      "title": "One skill to build",
+      "purpose": "Shrink skill ambitions into one named, checkable, 90-day goal.",
+      "say": "Nine months of AI learning could end with a shelf of good intentions. It is going to end with a plan instead, and the plan has exactly three lines. Line one is a skill, and the discipline is smallness: a skill you can name the work for, check by September, and practice inside your actual job.",
+      "facilitate": [
+        "Read the 90-day skill test card aloud, all three questions.",
+        "Run the knowledge check; let everyone answer on their own screen.",
+        "Run the breakout: trade skills, then shrink each other's until they fit."
+      ],
+      "ask": {
+        "q": "What is the smallest useful version of the skill you just thought of?",
+        "expect": ["A named task with a tool attached", "Some resistance; the ambitious version feels better"],
+        "respond": "Honor the ambition, then aim it: the big version is the direction, the small version is the plan. September can only check the small one."
+      },
+      "debrief": "Named work, checkable by September, practiced inside the job. Any skill that passes those three questions is plan-ready.",
+      "watchFor": "Goals stated as courses to take. Courses feed skills; ask what task the course serves.",
+      "transition": "Line two: the task you stop doing by hand.",
+      "coreNote": "Core: skip the breakout; collect three shrunken skills in chat."
+    },
+    "s2": {
+      "title": "One task for AI",
+      "purpose": "Choose a green handoff task and clear it through the traffic light.",
+      "say": "Line two is a task you hand to AI. For the plan we keep it green: public or generic, go. The rest of the light still governs your week: yellow means internal, approved VU tools only, and red means private information about people, never, in any tool, for any reason. The task can be small; the discipline cannot.",
+      "facilitate": [
+        "Run Clear the handoff live; everyone plays on their own screen.",
+        "After round three, restate red in one breath and let it land.",
+        "Run the breakout: each person's real task through the light, out loud."
+      ],
+      "ask": {
+        "q": "Where do well-meaning handoffs usually go wrong?",
+        "expect": ["Internal content in a personal tool", "People data hiding inside an innocent-looking task"],
+        "respond": "Both. The fix is the same: say the color out loud before the task moves. A handoff you cannot color is a handoff that waits."
+      },
+      "debrief": "The plan's second line is two decisions: the task and its color. For the plan, green only; write both on the card.",
+      "watchFor": "Anyone rationalizing a red task as anonymized. Names removed is still information about people: red, never.",
+      "transition": "Two lines down. The third line is the one you keep.",
+      "coreNote": "Core: run the trainer, skip the breakout, one voice on the debrief."
+    },
+    "s3": {
+      "title": "One habit to keep human",
+      "purpose": "Name a deliberate human habit and assemble the dated, reviewable plan.",
+      "say": "The third line is different: it is the thing you keep doing yourself, on purpose. Everyone has work where the doing is the point: the hard message, the handwritten thanks, the first read of a colleague's draft. Naming yours keeps the plan honest. Then we assemble all three lines into something with dates and a witness.",
+      "facilitate": [
+        "Ask for human-habit examples in chat before the builder; read two aloud.",
+        "Run Assemble the plan; two minutes for both choices.",
+        "Point at the pattern: dated lines, early review, a witness."
+      ],
+      "ask": {
+        "q": "Why does a plan about using AI more include a line about using it less?",
+        "expect": ["It keeps judgment sharp on the work that matters", "It makes each handoff a choice you made"],
+        "respond": "Right. The habit line is proof you are steering. People who name what stays human hand off the rest with much less anxiety."
+      },
+      "debrief": "Three lines, all dated, reviewed at day 30 with a witness. That is a plan a real September can grade.",
+      "watchFor": "Plans with five skills and three handoffs. More lines mean fewer finishes; hold them to three.",
+      "transition": "Quick recap, then you write the real one.",
+      "coreNote": "Core: skip the chat collection; run the builder solo."
+    },
+    "capstoneSay": "Now write yours. Three lines: the skill, the handoff with its color, the habit. Pick the line you start this week and how the day-30 review happens. Build the card, copy it somewhere permanent, and send it to one colleague today. Two minutes, quiet, go.",
+    "closeSay": "Nine months ago most of us were circling AI at a safe distance. Today you wrote a plan that names what you build, what you hand over, and what you keep. On Thursday, Thrive Thursday closes the whole year with decisiveness, the move from data to decision, and it is a fitting last word; be there for the landing. If you want company for the 90 days, this month's LinkedIn Learning course, Leading Your Team Through Change, and the navigator-led action-planning lab are both open to you.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone's chosen handoff task comes up yellow or red", "then": "Thank them for running the light honestly; that is the win. Yellow tasks can live in approved VU tools day to day; for the plan line, help them find the green task nearby: the generic template, the public draft, the reformat."},
+      {"if": "A participant says their job has no AI-touchable tasks", "then": "Go smaller: a first draft, a summary, a reformat. If the light and the tools truly rule everything out, their plan leans on the skill and habit lines, which is still a complete plan."}
+    ],
+    "toughQuestions": [
+      {"q": "Is it safe to put my 90-day plan into an AI tool to improve it?", "a": "Run the light. The plan as written here is generic, task-level text about your own work: green territory, and an approved VU tool is always the safer default. The moment a plan mentions colleagues, performance, or any private detail about a person, that part is red: never."},
+      {"q": "What if I hand a task to AI and the quality drops?", "a": "That is what the day-30 review is for: catch it while the plan is alive. Keep the handoff as a first-draft step with your own review on top; quality usually recovers when the human stays as editor. If it does not, swap the task, and the plan still stands."},
+      {"q": "Ninety days from June lands in September. Does the plan survive summer schedules?", "a": "That is exactly why the plan is three lines instead of ten, and why the review sits at day 30, before the heaviest vacation stretch. A small plan bends around a summer; an ambitious one breaks against it."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes to build your 90-day AI plan. Bring one task you are tired of doing by hand and one skill you keep meaning to build. You will leave with a three-line plan with real dates. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Are the three lines dated? Three lines, reply whenever: 1) Are your skill, handoff, and habit on real dates? 2) Did the first rep or handoff happen? 3) Who holds your day-30 review?"}
+    ]
+  }
+}

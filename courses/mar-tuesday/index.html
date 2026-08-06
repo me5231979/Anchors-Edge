@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Task Sort | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Task Sort | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Breakdown</a><a href="#s-two">The Buckets</a><a href="#s-three">The Test</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · March 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan or click the chat link to bring this <em class="gold-text">to your screen</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Defining the great university of the 21st Century takes staff who redesign their own work instead of waiting for it to be redesigned. Every well-sorted week feeds Discovery and Innovation with hours that used to go to formatting.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>By Q4, equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="25" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:5%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>5%</b></span>
+          <span>Q4 target · <b>25%</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> Goal 3 counts on every staff member knowing which parts of their own work are AI-exposed. The task sort is how that knowledge gets made, one week at a time.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · Spot AI-Exposed Work</p>
+      <h1 class="h-hero" data-reveal>Sort the week, <em class="gold-text">one task at a time</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Your job will never fit in one AI bucket, and it was never meant to. This session teaches the sort that works: break the week into tasks, then call each one. AI does it and you check, AI helps and you drive, or it stays yours entirely.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Break your working week into specific, repeatable tasks with outputs and rhythms</li><li>Sort each task into automate, augment, or leave alone, and know the tells for each</li><li>Test one sort call this week in an approved VU tool, checking step included</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness · 5% to 25% by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Drives innovation</span><span class="skillpill">AI Literacy</span><span class="skillpill">Workflow Design</span><span class="skillpill">Productivity</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The decomposition</h3><p>Break the blur of your week into tasks small enough to sort.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The three buckets</h3><p>Automate, augment, or leave alone: the tells for each call, per task, never per job.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The first test</h3><p>Pick one call and try it this week in an approved VU tool, checking step included.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The decomposition">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Breakdown</p>
+      <h2 class="h2" data-reveal>A week is just <em>tasks</em> wearing a blur.</h2>
+      <p class="lead" data-reveal>Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the queue, drafted the agenda. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The decomposition rule</span>
+        <p style="margin:.5rem 0 0" class="measure">A sortable task names an output and a rhythm: the thing produced and how often. 'Communications' is a job. 'Draft the Thursday newsletter from submitted items' is a task, and a task can be sorted.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which of these is ready to sort?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is a job description, and jobs never sort cleanly. Inside it live a dozen tasks, and each one may deserve a different call."><span class="mark">A</span><span>Managing our department's communications</span></button><button class="opt" data-correct="1" data-why="An output and a rhythm. You can ask exactly what AI could do with it, and the answer will be specific enough to test."><span class="mark">B</span><span>Compiling the Monday attendance summary from system exports</span></button><button class="opt" data-correct="0" data-why="A wish, and wishes resist sorting. Name the actual email tasks, like triaging the shared inbox or drafting the standard replies, and sort those."><span class="mark">C</span><span>Being more efficient with email</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write three real tasks from this week, specific enough that someone else could picture doing them.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The three buckets">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Sort</p>
+      <h2 class="h2" data-reveal>Automate, augment, or <em>leave alone</em>.</h2>
+      <p class="lead" data-reveal>Three calls, made per task. Automate: AI does it, you check the output. Augment: AI helps, you drive. Leave alone: human all the way, because the task runs on trust, judgment, or private information about people. The traffic light rides along on every call.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Make the call</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three tasks from real Vanderbilt weeks. Sort each one.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: each pick one task from your list and make the call out loud. Partner gets one challenge question. 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Pick one task from your list and make the call: automate, augment, or leave alone. Write one line on why.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The first test">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Move</p>
+      <h2 class="h2" data-reveal>One call earns a <em>test drive</em>.</h2>
+      <p class="lead" data-reveal>A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Set up the test</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your sort is only as good as its first real run. Choose the task and the checking step.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the test</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>AI never gets your job. It gets tasks, one at a time, and you make the call.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My task sort</p>
+      <h2 class="h2" data-reveal>Your week, sorted. <em>Starting now.</em></h2>
+      <p class="lead" data-reveal>Pick the task your sort points to first. Task language only, no names of people; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Which task gets sorted and tested first? Name the output and the rhythm.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. Monday attendance summary, compiled weekly from exports" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which call are you testing?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="automate"><span>The automate test</span></button><button class="opt" data-id="augment"><span>The augment test</span></button><button class="opt" data-id="leavealone"><span>The leave-alone case</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="thisweek"><span>This week</span></button><button class="opt" data-id="nextrun"><span>Next time the task comes up</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Your job is a mix. <em>Now you hold the recipe.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You broke the week into tasks, learned the three calls, and set up one honest test. Thursday sharpens the thinking that keeps every one of those calls honest.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Run the test on your card</h3>
+        <p>One task, one call, one checking step, in an approved VU tool. Bring what it taught you to Thursday's session on sorting AI hype from real value.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Sort the tasks. Keep the wheel.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Task Sort · Take-Off Tuesday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Task",
+   "labels": [
+    "Automate: AI does it, you check",
+    "Augment: AI helps, you drive",
+    "Leave alone: human all the way"
+   ],
+   "passAt": 2,
+   "passMsg": "You make the call cleanly. Per task, with the traffic light in view: that is the whole skill.",
+   "failMsg": "Close. The tells: fixed format on public content leans automate; internal drafting leans augment in approved VU tools; anything private about people stays human.",
+   "items": [
+    {
+     "q": "Reformatting published event details into the standard newsletter layout every Thursday.",
+     "answer": 0,
+     "why": "Public content, fixed format, weekly rhythm: automate it and keep the checking pass. Green-light data makes this the easiest call on the board."
+    },
+    {
+     "q": "Writing the first draft of a project update that pulls from internal meeting notes.",
+     "answer": 1,
+     "why": "Internal content means yellow light: approved VU tools only. AI drafts fast; you drive, because you know what the update needs to land."
+    },
+    {
+     "q": "Responding to a colleague's message about a health situation affecting their work.",
+     "answer": 2,
+     "why": "Private information about a person: red light, never. Some tasks stay human because trust is the whole job, and this is one of them."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How the week goes",
+   "slots": [
+    {
+     "key": "The task you test",
+     "opts": [
+      {
+       "t": "All my email, starting Monday",
+       "pts": 1,
+       "coach": "Too big and too mixed: some email is automate, some is red-light human. Big-bang tests fail loudly and teach nothing you can reuse."
+      },
+      {
+       "t": "Something small, whenever I get a minute",
+       "pts": 2,
+       "coach": "The right size, and the wrong calendar. Tests without a named task and a named day become tests that never happen."
+      },
+      {
+       "t": "Thursday's newsletter formatting, this Thursday, in an approved VU tool",
+       "pts": 3,
+       "coach": "One task, one date, right tool. A test this specific either saves you an hour or teaches you exactly why it didn't, and both are wins."
+      }
+     ]
+    },
+    {
+     "key": "How you check the output",
+     "opts": [
+      {
+       "t": "Skim it; the tool is probably right",
+       "pts": 1,
+       "coach": "Probably is doing heavy lifting there. An automate call without a real checking step is how a small tool error becomes your error, with your name on it."
+      },
+      {
+       "t": "Read it fully before it goes anywhere",
+       "pts": 2,
+       "coach": "Solid instinct. Sharper still: know what you are checking for, because full reads without a target miss the same subtle errors every time."
+      },
+      {
+       "t": "Check names, numbers, and dates against the source before it ships",
+       "pts": 3,
+       "coach": "A named checklist beats a vague read. Names, numbers, and dates are where AI output fails quietly, and where your check earns its keep."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A real result by Friday. You know exactly what the tool saved you and exactly what your check caught.",
+    "mid": "A half-test. Some signal, some noise, and no clean answer on whether the call was right.",
+    "weak": "Either nothing ran or something shipped unchecked. Both cost more than the hour you hoped to save."
+   },
+   "reactions": {
+    "strong": "The hour you saved Thursday shows up again next Thursday, and the week after. One clean test becomes a standing redesign of your own week, and your checklist becomes the habit that makes the next automate call safe.",
+    "mid": "You have a feeling the tool helped and no evidence either way. Rerun it with a named task, a named day, and a named checking step; the evidence is one week away.",
+    "weak": "The unchecked draft with the wrong date reached the whole listserv, and now the tool has a bad reputation it only half earned. The check was the missing half of the call."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "The sort is always made...",
+   "opts": [
+    "Per job, once a year",
+    "Per task, one call at a time",
+    "Per team, by the manager",
+    "Per tool, by the vendor"
+   ],
+   "correct": 1,
+   "why": "Jobs never sort cleanly; tasks do. Every job is a mix of automate, augment, and leave alone, and that mix is the honest picture."
+  },
+  {
+   "q": "A first draft built from internal meeting notes is best sorted as...",
+   "opts": [
+    "Automate with any handy tool",
+    "Augment, in approved VU tools",
+    "Leave alone forever",
+    "Too risky to sort at all"
+   ],
+   "correct": 1,
+   "why": "Internal content is yellow light: approved VU tools only, with you driving. AI speeds the draft; your judgment makes it right."
+  },
+  {
+   "q": "What makes an automate call safe?",
+   "opts": [
+    "Picking a well-reviewed tool",
+    "Trusting output that looks clean",
+    "A named checking step you actually run",
+    "Automating only after others do"
+   ],
+   "correct": 2,
+   "why": "Automate means AI does it AND you check. Names, numbers, and dates against the source: the check is half of the call, every time."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The sort is yours. Point it at your real week today.",
+  "mid": "Solid. Revisit the bucket tells, then build your card.",
+  "low": "Run the three sections once more before you sort real work."
+ },
+ "capstone": {
+  "whoRow": "The task and its rhythm",
+  "cardTitle": "My task sort card",
+  "copyTag": "The Task Sort · March 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness: 5% to 25% by Q4.",
+  "evidenceRow": "Afterward, one line: what did the test teach you about the call you made?",
+  "practices": [
+   {
+    "id": "automate",
+    "chip": "The automate test",
+    "name": "The automate test",
+    "move": "Run the task through an approved VU tool once, then check names, numbers, and dates against the source before anything ships."
+   },
+   {
+    "id": "augment",
+    "chip": "The augment test",
+    "name": "The augment test",
+    "move": "Use an approved VU tool for the first draft only, keep every decision yours, and note what the draft got wrong."
+   },
+   {
+    "id": "leavealone",
+    "chip": "The leave-alone case",
+    "name": "The leave-alone case",
+    "move": "Write two lines on why this task stays human: the trust, judgment, or people data at its center. Naming that case is a skill too."
+   }
+  ],
+  "whens": [
+   {
+    "id": "thisweek",
+    "chip": "This week",
+    "out": "The test runs this week, on a named day, before Friday."
+   },
+   {
+    "id": "nextrun",
+    "chip": "Next time the task comes up",
+    "out": "The test runs the very next time the task appears on your calendar."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The test runs within two weeks, with the day picked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

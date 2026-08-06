@@ -1,0 +1,258 @@
+{
+  "slug": "jan-monday",
+  "series": "Manager Monday",
+  "month": "January 2027",
+  "monthShort": "Jan",
+  "monthIndex": 4,
+  "theme": "Retain, Grow, Move",
+  "goal": 1,
+  "title": "The Bench",
+  "titleHtml": "Succession is a <em class=\"gold-text\">growth plan</em>.",
+  "tagline": "Succession conversations that don't scare people.",
+  "description": "A 45-minute virtual session for Vanderbilt managers: reframe succession as growth planning, open the conversation without triggering replacement fear, and start a real pipeline for your own role.",
+  "heroLead": "Say the word succession and half the room hears replacement. This session flips it: a bench is a gift to the person on it, the conversation can be opened without fear, and your own role needs a pipeline more than anyone's.",
+  "objectives": [
+    "Reframe succession planning as growth planning for the people on the bench",
+    "Open a succession conversation without triggering replacement fear",
+    "Name the start of a successor pipeline for your own role"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Succession Planning"},
+    {"label": "Talent Development"},
+    {"label": "Retention"}
+  ],
+  "missionTie": "A university built to define the century cannot wobble every time a key person moves on. Deep benches are Exceptional Core Operations in human form, and they are built one growth conversation at a time.",
+  "goalLead": "Goal 1 asks leaders to strengthen succession across the university. That starts with managers who can say the word out loud without anyone flinching.",
+  "agenda": [
+    {"t": "The bench is a gift", "d": "Why succession planning is growth planning wearing a scarier name."},
+    {"t": "The fearless opening", "d": "How to open the conversation so people hear investment, never replacement."},
+    {"t": "Your own pipeline", "d": "Start naming who could grow into your role, and what that gives them now."}
+  ],
+  "manifesto": "A bench is a gift to the person on it.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Reframe",
+      "dataTitle": "The bench is a gift",
+      "eyebrow": "The Reframe",
+      "headline": "Succession planning is <em>growth planning</em>.",
+      "lead": "Strip the org-chart drama away and a succession plan is a list of people getting ready for bigger work. Being named to a bench means someone senior is betting on your growth. That is the version your team deserves to hear from you first.",
+      "group": "In pairs: say the sentence 'you are on the bench for X' out loud. Does it land as a gift or a threat? 90 seconds each way.",
+      "solo": "Write the sentence 'you are on the bench for X' for one person on your team. Does it read as a gift or a threat?",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The reframe",
+          "text": "A succession plan answers one question: who is getting ready for bigger work, and what do they need next? Read it that way and the bench stops being about exits. It becomes the most concrete growth plan most people will ever be given."
+        },
+        "q": "Quick check: what does being named to a bench actually mean for the person on it?",
+        "opts": [
+          {"t": "Their manager is planning to move them out", "correct": false, "why": "That is the fear talking. A bench names who is being grown, and growth is the opposite of an exit plan."},
+          {"t": "Someone senior is investing in their growth toward bigger work", "correct": true, "why": "Exactly. A bench seat comes with stretch work, visibility, and a named direction. Retention research calls those the levers that keep people."},
+          {"t": "Nothing until the role actually opens up", "correct": false, "why": "The seat pays off now: stretch projects, new skills, and the confidence of being seen. Waiting for a vacancy wastes the whole point."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Opening",
+      "dataTitle": "The fearless opening",
+      "eyebrow": "The Conversation",
+      "headline": "Open it so they hear <em>investment</em>.",
+      "lead": "The same news lands as a promotion or a pink slip depending on the first two sentences. Openings that start with the org chart trigger the fear. Openings that start with the person's growth earn the conversation you wanted.",
+      "group": "In pairs: each of you says your opening line for a succession conversation. Partner answers with the first thing they would feel.",
+      "solo": "Write your opening line for a succession conversation, then reread it as the listener. What is the first thing you would feel?",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Gift or threat?",
+        "intro": "Each opening is real manager language. Call how it lands in the listener's chest before any explaining starts.",
+        "progressWord": "Opening",
+        "labels": ["Lands as investment", "Triggers replacement fear", "Too vague to land at all"],
+        "passAt": 2,
+        "passMsg": "You can hear it. Lead with their growth, name what they get now, and the fear never gets a foothold.",
+        "failMsg": "Close. The tell: openings about the org chart raise fear, openings about their growth raise energy, and vague warmth raises nothing.",
+        "items": [
+          {"q": "'HR needs a succession chart from me, so I have to put a name in the box for your role.'", "answer": 1, "why": "The person hears a box with their role in it and someone else's name going into the box. Compliance framing plus their role equals pure replacement fear."},
+          {"q": "'I think you could be ready for bigger work in two years. I want to build the plan with you.'", "answer": 0, "why": "It opens with their growth, gives a horizon, and hands them a seat at the planning table. That is the gift version of succession."},
+          {"q": "'You have a bright future here. Great things ahead. We should chat sometime.'", "answer": 2, "why": "Warm and weightless. Without a named direction or a next step, encouragement changes nothing and books nothing."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "Your Pipeline",
+      "dataTitle": "Your own pipeline",
+      "eyebrow": "The Move",
+      "headline": "Your role needs a <em>pipeline</em> too.",
+      "lead": "The bravest succession move is naming who could grow into your own chair. It signals security, models the reframe, and frees you for bigger work. Build the two decisions that start it: who goes on the bench and what you say to them.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Start your pipeline",
+        "intro": "Two decisions start a pipeline for your own role. Choose how you pick and how you say it.",
+        "runLabel": "Start the pipeline",
+        "outcomeTag": "How it plays out",
+        "slots": [
+          {
+            "key": "How you pick",
+            "opts": [
+              {"t": "Pick the person who has been here longest.", "pts": 1, "coach": "Tenure measures time, and your role runs on skills. A seniority pick tells everyone else the bench is a waiting line."},
+              {"t": "Pick the one person who works most like you do.", "pts": 2, "coach": "A mirror feels safe and shrinks the pool to one. Roles grow when a successor brings the skills the job needs next, which may look nothing like you."},
+              {"t": "List the skills your role really needs, then name two or three people growing toward them.", "pts": 3, "coach": "Skills first, then people, and more than one. A multi-person bench spreads the growth and takes the replacement pressure off any single name."}
+            ]
+          },
+          {
+            "key": "What you say to them",
+            "opts": [
+              {"t": "Nothing yet. Keep the bench to yourself until a vacancy is real.", "pts": 1, "coach": "A secret bench grows nobody. The stretch work, the visibility, the retention effect, all of it needs the person to know."},
+              {"t": "Tell them they are your backup if anything ever happens to you.", "pts": 2, "coach": "Honest, but backup language makes their growth depend on your exit. The plan should pay them now, whatever you do."},
+              {"t": "Tell them which skills you want to grow in them this year and what stretch work comes with it.", "pts": 3, "coach": "Growth now, named skills, real work. The role question can stay open while the development starts today. That is the gift version."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A pipeline that grows people. Your bench knows they are being invested in, and your role stops being a single point of failure.",
+          "mid": "A start with a wobble. The instinct is right; the framing still leans on exits instead of growth.",
+          "weak": "A name in a drawer. Nothing about anyone's week changed, and the role is exactly as fragile as it was."
+        },
+        "reactions": {
+          "strong": "A month later, one bench member runs a meeting you used to own, and runs it well. Your own manager notices your role no longer depends on you being in every room.",
+          "mid": "The person you told nods politely and quietly wonders about your health and your job search. Growth waits for clarity you have not given yet.",
+          "weak": "Six months on, a vacancy shows up somewhere else and the person in your drawer takes it. Benches that pay nothing lose to opportunities that pay now."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What is a succession plan, read the way this session reads it?",
+      "opts": ["A contingency file for emergencies", "A growth plan for the people on the bench", "An org chart with backup names", "A retirement countdown"],
+      "correct": 1,
+      "why": "A bench names who is being grown toward bigger work and what they need next. Exits are a side effect; growth is the point."
+    },
+    {
+      "q": "Which opening line keeps replacement fear out of a succession conversation?",
+      "opts": ["'HR needs a name in the box for your role'", "'If I ever leave, we need coverage'", "'I think you're ready for bigger work; let's plan it together'", "'You have a bright future here'"],
+      "correct": 2,
+      "why": "Openings that start with the person's growth earn the conversation. Org-chart and coverage framings put the fear in the room first."
+    },
+    {
+      "q": "What makes a bench for your own role actually work?",
+      "opts": ["Keeping it confidential until needed", "One trusted successor, chosen quietly", "Skills first, several people, and telling them now", "Waiting until you plan to leave"],
+      "correct": 2,
+      "why": "Skills before names, several people over one, and the growth starts today. A secret bench grows nobody and retains nobody."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The reframe is installed. Now open one bench conversation for real.",
+    "mid": "Solid. Reread the opening lines in section two, then build your card.",
+    "low": "Take a second pass through the three sections before you commit."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My bench move",
+    "headline": "One seat on the bench, <em>offered this week</em>.",
+    "lead": "Pick the succession move you will actually make. Role only, never a name; nothing you type is saved or sent.",
+    "whoLabel": "Whose growth is this about? Role and the bigger work they could grow toward.",
+    "whoPlaceholder": "e.g. program coordinator; could grow toward team lead",
+    "practiceLabel": "Which move do you make?",
+    "whoRow": "The person and the direction",
+    "practices": [
+      {"id": "gift", "chip": "The gift conversation", "name": "The gift conversation", "move": "Open with the growth you see, name the bigger work, and build the plan with them in the room."},
+      {"id": "ownbench", "chip": "My own pipeline", "name": "My own pipeline", "move": "List the skills your role needs, name two or three people growing toward them, and tell one of them this week."},
+      {"id": "stretch", "chip": "The stretch handoff", "name": "The stretch handoff", "move": "Hand a bench member one piece of work you usually keep, with the why attached: this grows you toward bigger things."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The conversation happens this week, on the calendar by Friday."},
+      {"id": "next11", "chip": "At our next 1:1", "out": "The move opens your next scheduled 1:1, first item, before status updates."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
+    ],
+    "cardTitle": "My bench move card",
+    "evidenceRow": "Afterward, one line: how did the growth framing land, and what did they say?"
+  },
+  "closing": {
+    "headline": "Grow the bench. <em>Keep the people.</em>",
+    "lead": "You reframed the bench, built a fearless opening, and started a pipeline for your own chair. The rest of the week widens the same theme: retain, grow, move, without the fear.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Make the bench move on your card",
+    "nextBody": "Run it as built: the opening, the growth framing, the named direction. For a warm-up, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, pairs with a navigator-led stay-interview practice lab.",
+    "brandline": "A bench is a gift. Hand someone a seat."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January opens the Retain, Grow, Move month on succession and internal mobility.",
+    "pulse": "Seven days out, send the pulse: 'Did the bench move on your card happen? How did the growth framing land? Who is on the pipeline for your own role now?' Count of opened bench conversations is the Level 3 metric for the month.",
+    "s1": {
+      "title": "The bench is a gift",
+      "purpose": "Install the reframe: succession planning is growth planning for the people named to the bench.",
+      "say": "Succession is the word managers whisper, because everyone in earshot hears replacement. Here is the reframe this whole month stands on: a bench is a list of people someone is betting on, and a seat on it is a gift. Growth work, visibility, a named direction. We whisper it, and we should be handing it over like good news.",
+      "facilitate": [
+        "Read the concept card aloud once, slowly; it carries the reframe.",
+        "Run the knowledge check; everyone answers on their own screen.",
+        "Run the breakout: say the bench sentence out loud, gift or threat, 90 seconds each way."
+      ],
+      "ask": {
+        "q": "When you were first put on a bench or a plan yourself, how did you hear it?",
+        "expect": ["Stories of it landing as a vote of confidence", "Stories of quiet panic about being managed out", "Some were never told, and found out later"],
+        "respond": "All three answers teach the same thing: the framing decided the feeling. That framing is yours to control for your team."
+      },
+      "debrief": "The plan is the same document either way. The framing decides whether it retains someone or scares them.",
+      "watchFor": "Managers treating succession as a form for HR. Redirect to the person: what does the seat give them this quarter?",
+      "transition": "The reframe only survives contact if the opening lines are right. That is next.",
+      "coreNote": "Core: skip the breakout; ask for gift-or-threat votes in chat instead."
+    },
+    "s2": {
+      "title": "The fearless opening",
+      "purpose": "Train ears to hear which openings land as investment, which trigger replacement fear, and which are too vague to land.",
+      "say": "Nobody remembers slide four of a succession conversation. They remember the first two sentences, and they decide in those two sentences whether this is a promotion track or a pink slip. So we are going to train on openings. Same news, three framings, and only one of them earns the conversation.",
+      "facilitate": [
+        "Run Gift or threat? live; everyone plays on their own screen.",
+        "After round one, pause: ask who called it differently and why.",
+        "Run the breakout: say your own opening line, partner reports the first feeling it raises."
+      ],
+      "ask": {
+        "q": "Why does the compliance opening, the HR-needs-a-name one, do so much damage?",
+        "expect": ["It makes the person a box to fill", "It suggests the decision already happened somewhere else", "It attaches their role to someone else's name"],
+        "respond": "Right. It contains no growth and no future for the listener. Every strong opening starts with the person, never the chart."
+      },
+      "debrief": "Openings about their growth raise energy. Openings about the org chart raise fear. Vague warmth raises nothing.",
+      "watchFor": "Managers drafting openings that promise a promotion. Growth language must stay honest: readiness and direction, never a guarantee.",
+      "transition": "You can open it for your team. Now the harder one: your own chair.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "Your own pipeline",
+      "purpose": "Get every manager to start a skills-first, multi-person pipeline for their own role and say it out loud.",
+      "say": "Here is the move that separates managers who talk succession from managers who build it: naming a pipeline for your own role. It feels risky, and it reads as the opposite. A leader with a bench looks secure, gets freed for bigger work, and models the exact reframe we just taught. Skills first, more than one name, and the people on it get told.",
+      "facilitate": [
+        "Run Start your pipeline; two minutes to make both choices and run it.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: skills first, several people, growth that starts now."
+      ],
+      "ask": {
+        "q": "What stops managers from naming successors for their own role?",
+        "expect": ["Fear of looking replaceable", "Fear the person will expect a promotion", "Nobody on the team feels ready"],
+        "respond": "Name the flip: a role only you can do is a role you can never be promoted out of. The bench is your own mobility plan too."
+      },
+      "debrief": "A secret bench grows nobody. Skills first, several names, and the growth conversation happens this quarter.",
+      "watchFor": "Managers picking one heir apparent. Push for two or three; a single name recreates the replacement drama on a new person.",
+      "transition": "Quick recap, then you build your own bench card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now make it real. One person whose growth this is about, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "closeSay": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday previews the Transfer Portal, the tool that will surface internal opportunities based on your skills, and Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. Same week, one theme: retain, grow, move, without the fear. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "A manager says naming a bench will make people expect promotions", "then": "Give the honest-language line: readiness and direction, never a guarantee. 'I want to grow you toward bigger work' promises development, and development is deliverable."},
+      {"if": "Someone names a real colleague while describing their bench", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' Bench membership is sensitive people data; it never gets discussed by name on a group call."}
+    ],
+    "toughQuestions": [
+      {"q": "Won't a succession conversation make my best person start job hunting?", "a": "The research runs the other way: people leave when growth is invisible, and a bench seat makes it visible. If the worry stays with you, the stay-interview practice lab attached to this month's LinkedIn Learning course, Retaining Your Best Talent, was built for exactly this."},
+      {"q": "What if I build a bench and the role never opens?", "a": "Then the person still got stretch work, new skills, and proof that someone invested in them, and the Transfer Portal gives those skills somewhere to go inside Vanderbilt. A bench that never gets promoted still retains and still grows."},
+      {"q": "Do I need my own manager's approval to build a pipeline for my role?", "a": "Loop them in, because a manager developing successors is good news upward. What needs no approval: growing skills on your team and being honest with people about direction. Start there."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on succession without the scare. Bring a quiet thought about one person you would trust with bigger work. You will never be asked to name them. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the bench move happen? Three lines, reply whenever: 1) Did the move on your card happen? 2) How did the growth framing land? 3) Who is on your own role's pipeline now?"}
+    ]
+  }
+}

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Standard | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for Vanderbilt managers: meet the Vanderbilt manager standard, learn the witness test that separates behavior from intention, and locate yourself against the standard honestly.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Standard | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for Vanderbilt managers: meet the Vanderbilt manager standard, learn the witness test that separates behavior from intention, and locate yourself against the standard honestly.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Standard</a><a href="#s-two">The Witness Test</a><a href="#s-three">The Self-Locate</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Manager Monday · November 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan or click the chat link to bring this <em class="gold-text">to your screen</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Defining the great university of the 21st Century takes managers who lead well on purpose. A shared, visible standard of leader behavior is Exceptional Core Operations made personal: every team gets a manager who knows what good looks like.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 2 of 3</p>
+      <h2 class="h2" data-reveal>Manager Effectiveness at <em>Scale</em>.</h2>
+      <p class="lead" data-reveal>By Q4, implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
+        <span class="tag">The measurable move · by Q4</span>
+        <div class="goalmeter__scale" data-meter="80" style="margin-top:.9rem">
+          <span></span>
+          <i class="goalmeter__base" style="left:15%" aria-hidden="true"></i>
+        </div>
+        <div class="goalmeter__labels">
+          <span>Baseline today · <b>15%</b></span>
+          <span>Q4 target · <b>80%</b></span>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> Goal 2 commits Vanderbilt to a manager standard that measures demonstrated leader behavior. Today you meet the standard itself, so demonstrated stops being an abstraction.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Manager Monday · The manager lens · The Vanderbilt Manager Standard</p>
+      <h1 class="h-hero" data-reveal>The standard you can <em class="gold-text">witness</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Vanderbilt has written down what a good manager does here, and every line is something a colleague could watch you do. This session walks the list, teaches the witness test that separates behavior from intention, and asks you to place yourself on it honestly.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Name the observable behaviors that define the Vanderbilt manager standard</li><li>Tell a demonstrable behavior apart from an intention or a personality trait</li><li>Locate yourself against the standard with evidence and pick one behavior to grow</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 2</b><span>Manager Effectiveness at Scale · 15% to 80% by Q4</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Manager Effectiveness</span><span class="skillpill">Self-Awareness</span><span class="skillpill">Leadership Behaviors</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Behaviors, on the record</h3><p>What the Vanderbilt manager standard lists, and why every line is something a colleague could watch.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Behavior or intention?</h3><p>The witness test: telling visible behaviors apart from intentions and personality traits.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The honest self-locate</h3><p>Place yourself against the standard with evidence, and pick one behavior to grow first.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Behaviors, on the record">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The List</p>
+      <h2 class="h2" data-reveal>Written so a colleague could <em>watch it happen</em>.</h2>
+      <p class="lead" data-reveal>Plenty of leadership models describe who a manager should be. The Vanderbilt standard does something more useful: it lists what a manager here does, in lines a colleague could watch happen. That design choice is the whole point of this section.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The witness test</span>
+        <p style="margin:.5rem 0 0" class="measure">Every line of the Vanderbilt manager standard passes one test: a colleague could watch you do it. Holding the 1:1, giving written feedback, naming the expectation out loud. If nobody could witness it, it is not on the list.</p>
+      </div>
+      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which of these is written the way the standard is written?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is a trait, and a lovely one. Nobody can watch caring; they can watch what caring does, and the standard names those doings."><span class="mark">A</span><span>Cares deeply about their team</span></button><button class="opt" data-correct="1" data-why="A colleague could witness it, a calendar could prove it, and a new manager could start it tomorrow. That is standard language."><span class="mark">B</span><span>Holds a scheduled 1:1 with each direct report every month</span></button><button class="opt" data-correct="0" data-why="Belief lives in your head. The standard's version names the visible act: feedback delivered, in words the person can use."><span class="mark">C</span><span>Believes feedback really matters</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: pick one line of the standard. When did a colleague last see you do it? 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Pick one line of the standard and write down when a colleague last saw you do it.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Behavior or intention?">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Test</p>
+      <h2 class="h2" data-reveal>Grade yourself on what they could <em>see</em>.</h2>
+      <p class="lead" data-reveal>Most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am approachable. The witness test cuts through: could a colleague have seen it happen? Run it on three ordinary claims and watch the categories separate.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Behavior or intention?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three claims managers make about themselves. Run the witness test on each one and call it.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: name one thing you give yourself credit for that fails the witness test. 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one thing you give yourself credit for that a colleague could never have witnessed.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The honest self-locate">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Mirror</p>
+      <h2 class="h2" data-reveal>The mirror works when you bring <em>evidence</em>.</h2>
+      <p class="lead" data-reveal>Nobody sees your answers and nothing you type is saved, so the only person you can fool here is you. An honest self-locate uses evidence: for each behavior, when did a colleague last see me do it? Then the biggest gap gets one visible move.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · The honest self-locate</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> You are alone with the standard for five minutes. Choose how you rate yourself and what you do with the gap you find.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the self-locate</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>The standard measures what you do where your team can see it.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My standard behavior</p>
+      <h2 class="h2" data-reveal>One behavior. First instance. <em>On the calendar.</em></h2>
+      <p class="lead" data-reveal>Pick the behavior your honest self-locate points to first. Roles only, never names; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Which behavior gets your November, and what gap did you find?</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. written feedback after milestones; none given since September" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move do you make first?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="witness"><span>The witness pass</span></button><button class="opt" data-id="first"><span>The first instance</span></button><button class="opt" data-id="mirror"><span>The mirror ask</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>Before my next 1:1</span></button><button class="opt" data-id="month"><span>By month end</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Lead where they can <em>see it</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You know the list, you can spot a real behavior, and you have located yourself honestly. The rest of this week arms both chairs of the same conversations.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Put the behavior on the calendar</h3>
+        <p>Schedule the first visible instance of your chosen behavior and hold it. Bring what a colleague could now witness to next Monday's session.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Meet the standard where it can be seen.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Standard · Manager Monday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Claim",
+   "labels": [
+    "Behavior, a colleague could see it",
+    "Intention, it lives in your head",
+    "Trait, a personality label"
+   ],
+   "passAt": 2,
+   "passMsg": "You have the witness test. Behaviors can be seen, intentions live in heads, traits live in adjectives.",
+   "failMsg": "Close. The tell: ask who could have watched it happen. Seen means behavior, planned means intention, described means trait.",
+   "items": [
+    {
+     "q": "A director says: after every project closes, I send each person two lines of written feedback.",
+     "answer": 0,
+     "why": "Witnessable and checkable: the feedback either arrived or it did not. Notice how the specifics are what make it a behavior."
+    },
+    {
+     "q": "A manager describes their leadership style as approachable, with a real open-door policy.",
+     "answer": 2,
+     "why": "Approachable is an adjective and open door describes a state. Reports only experience what happens when they walk through it; that part is the behavior."
+    },
+    {
+     "q": "A team lead plans to start monthly growth conversations once the busy season ends.",
+     "answer": 1,
+     "why": "A sincere plan is still invisible to the team. Intentions become behaviors the moment they hit a calendar, and this one has not."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "Where it leaves you",
+   "slots": [
+    {
+     "key": "How you self-locate",
+     "opts": [
+      {
+       "t": "Rate yourself high across the list; you meant well all year.",
+       "pts": 1,
+       "coach": "Intentions inflate every self-rating. You are grading the manager you meant to be, and your team only ever met the other one."
+      },
+      {
+       "t": "Go with your gut, quickly, line by line.",
+       "pts": 2,
+       "coach": "Gut feel beats avoidance, and it still leans on self-image. Evidence is the honest anchor: what happened, when, witnessed by whom."
+      },
+      {
+       "t": "For each behavior, ask: when did a colleague last see me do this?",
+       "pts": 3,
+       "coach": "The witness test, turned on yourself. Dates and instances replace impressions, and the gaps stop hiding."
+      }
+     ]
+    },
+    {
+     "key": "What you do with the gap",
+     "opts": [
+      {
+       "t": "Note it privately and resolve to be better.",
+       "pts": 1,
+       "coach": "A private resolution is an intention, and you just spent a session learning what those are worth to your team."
+      },
+      {
+       "t": "Tell your own manager you plan to work on leadership generally.",
+       "pts": 2,
+       "coach": "Saying it out loud helps. Generally is the leak: without one named behavior, there is nothing anyone could witness changing."
+      },
+      {
+       "t": "Pick one behavior and put its first visible instance on the calendar.",
+       "pts": 3,
+       "coach": "One behavior, one calendar entry, one thing a colleague could witness by Friday. That is how a standard becomes a habit."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "An honest read and a visible first move. The gap you found is now a calendar entry.",
+    "mid": "A real look with a soft landing. You saw the gap; the follow-through stayed vague.",
+    "weak": "A generous self-review. The standard stayed a document and the gap stayed invisible."
+   },
+   "reactions": {
+    "strong": "Two weeks in, the behavior has happened twice where the team could see it. Your next self-locate starts from evidence, and the evidence moved.",
+    "mid": "The intention was real, and busy weeks eat unspecific intentions first. Next month's self-locate finds the same gap waiting.",
+    "weak": "Nothing changed, which is the outcome high self-ratings quietly protect. The standard can only help a manager who lets it read them."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "The Vanderbilt manager standard is a list of...",
+   "opts": [
+    "Personality traits to hire for",
+    "Observable behaviors a colleague could witness",
+    "Values to believe in",
+    "Results your team must deliver"
+   ],
+   "correct": 1,
+   "why": "Every line passes the witness test: it can be seen, checked, and started tomorrow. That is what makes the standard usable and measurable."
+  },
+  {
+   "q": "Which of these passes the witness test?",
+   "opts": [
+    "I genuinely care about my team",
+    "I plan to start skip-level chats",
+    "I hold a monthly 1:1 with each report",
+    "I am known as approachable"
+   ],
+   "correct": 2,
+   "why": "A colleague could watch it happen and a calendar could confirm it. Caring is a trait, planning is an intention, approachable is an adjective."
+  },
+  {
+   "q": "An honest self-locate asks, for each behavior...",
+   "opts": [
+    "Do I agree this matters?",
+    "How would I like to be seen?",
+    "What would my team guess?",
+    "When did a colleague last see me do it?"
+   ],
+   "correct": 3,
+   "why": "Evidence over impression. Dates and witnessed instances tell you where you actually stand, which is the only useful starting point."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You can read the standard and yourself. Now pick the one behavior.",
+  "mid": "Solid. Revisit the witness test, then build your card.",
+  "low": "Worth a second pass through the three sections before you self-locate."
+ },
+ "capstone": {
+  "whoRow": "The behavior and the gap",
+  "cardTitle": "My standard behavior card",
+  "copyTag": "The Standard · November 2026 · Anchor's Edge",
+  "goalRow": "Goal 2, Manager Effectiveness at Scale: 15% to 80% by Q4.",
+  "evidenceRow": "Afterward, one line: what did the witness test change about how you see yourself?",
+  "practices": [
+   {
+    "id": "witness",
+    "chip": "The witness pass",
+    "name": "The witness pass",
+    "move": "Walk the standard line by line and mark each one: when did a colleague last see me do this? Honest dates only."
+   },
+   {
+    "id": "first",
+    "chip": "The first instance",
+    "name": "The first instance",
+    "move": "Take your biggest-gap behavior and schedule its first visible instance before Friday."
+   },
+   {
+    "id": "mirror",
+    "chip": "The mirror ask",
+    "name": "The mirror ask",
+    "move": "Ask one trusted colleague which behavior on the standard they see from you least. Listen, thank them, skip the defense."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "Before my next 1:1",
+    "out": "The move happens before your next 1:1, so the meeting shows the change."
+   },
+   {
+    "id": "month",
+    "chip": "By month end",
+    "out": "The move happens before November closes, scheduled today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

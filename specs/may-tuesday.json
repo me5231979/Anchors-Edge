@@ -1,0 +1,258 @@
+{
+  "slug": "may-tuesday",
+  "series": "Take-Off Tuesday",
+  "month": "May 2027",
+  "monthShort": "May",
+  "monthIndex": 8,
+  "theme": "Measured Leader Behavior",
+  "goal": 2,
+  "title": "Your Own Signal",
+  "titleHtml": "Learn to read your <em class=\"gold-text\">own signal</em>.",
+  "tagline": "Pulse and 360 tooling: reading your own signal.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: how pulse surveys and feedback tools actually work, why honest answers are protected, and how to read the feedback you receive as signal rather than verdict.",
+  "heroLead": "Twice a year a survey asks how work is going, and sometimes feedback arrives with your name on it. This session opens the hood on that tooling: how anonymity actually works, why your honest answer matters, and how to read your own results without dread.",
+  "objectives": [
+    "Explain how anonymization and aggregate reporting protect your answers",
+    "Take surveys honestly, knowing what is protected and what is shared",
+    "Read feedback you receive as signal to use rather than a verdict on you"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Feedback Literacy"},
+    {"label": "Data Literacy"},
+    {"label": "Psychological Safety"}
+  ],
+  "missionTie": "A university that intends to define the century has to hear itself clearly, and pulse data is how Vanderbilt listens at scale. Honest signal from every staff member is Exceptional Core Operations in its rawest form: the truth, on time.",
+  "goalLead": "Goal 2 measures the manager standard through data, and that data starts with you. Today you learn how the tooling protects your voice and what to do with the signal that comes back.",
+  "agenda": [
+    {"t": "How the tooling works", "d": "Anonymization, minimum group sizes, and aggregates: what the machine actually does."},
+    {"t": "Safe to say", "d": "Why honest answers are protected, and the myths that keep people quiet."},
+    {"t": "Signal, not verdict", "d": "Reading the feedback you receive as information you can use."}
+  ],
+  "manifesto": "Honest in, useful out: the whole system runs on people saying the true thing.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Machinery",
+      "dataTitle": "How the tooling works",
+      "eyebrow": "The Machinery",
+      "headline": "See what the machine <em>actually does</em>.",
+      "lead": "Pulse surveys and 360 tools follow strict plumbing: responses are stripped of names, results only appear when enough people answer, and what leaders see is the aggregate. Knowing the plumbing is what makes honesty feel as safe as it is.",
+      "group": "In pairs: what have you heard people say about who can see survey answers? True or myth? 90 seconds each way.",
+      "solo": "Write one thing you have heard about who can see survey answers. Mark it true or myth.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The protection rule",
+          "text": "Three protections stack: names come off responses, results stay hidden below a minimum group size, and leaders see aggregates and themes. Open comments are shared word for word, so write them about the work."
+        },
+        "q": "Your team has four people this cycle and the minimum reporting group is five. What happens to your answers?",
+        "opts": [
+          {"t": "Your manager sees them individually", "correct": false, "why": "The tooling shows no report at all before it shows a group that small. Below the minimum, results roll up to the next level or stay unreported."},
+          {"t": "They roll into a larger group or go unreported", "correct": true, "why": "Exactly. The minimum group size exists for this case: your voice still counts upward, and it can never be isolated back to you."},
+          {"t": "The survey skips your team entirely", "correct": false, "why": "You still get asked, and your answers still matter. They feed the bigger aggregate even when your small team gets no report of its own."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "Safe to Say",
+      "dataTitle": "Safe to say",
+      "eyebrow": "The Myths",
+      "headline": "Most silence is built on a <em>myth</em>.",
+      "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Some are myths the plumbing already handles. One is a real norm worth keeping. Telling them apart is the skill.",
+      "group": "Pairs: which myth have you half-believed at survey time, and what does the tooling actually do? 90 seconds each way.",
+      "solo": "Name the myth you have half-believed at survey time, and what the tooling actually does instead.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Myth or norm?",
+        "intro": "Three thoughts people have with the survey open. Call each one: protected honesty, a myth, or a real norm.",
+        "progressWord": "Call",
+        "labels": ["Protected, answer honestly", "Myth, the plumbing handles it", "Real norm, respect it"],
+        "passAt": 2,
+        "passMsg": "You know the plumbing. Honest answers are protected, myths lose their grip, and the one real norm keeps comments about the work.",
+        "failMsg": "Close. The tell: identification fears are myths the tooling already handles. The real norm is about what you write, never about how honest you are.",
+        "items": [
+          {"q": "An analyst wants to rate workload honestly but worries their manager will recognize the low score as theirs.", "answer": 1, "why": "The classic myth. Scores arrive as an aggregate with no names attached, and small groups never get their own report. The low score cannot be traced."},
+          {"q": "A coordinator drafts an open comment naming a colleague and describing that person's attitude problem in detail.", "answer": 2, "why": "Open comments travel word for word. The real norm: describe the work and the pattern, roles and situations, never a named colleague's character."},
+          {"q": "An advisor figures one response cannot change anything, so they plan to click neutral on every question.", "answer": 0, "why": "Neutral clicks are the only truly wasted answers. Aggregates are made of single voices, and a true answer is protected, so spend yours."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "Your Signal",
+      "dataTitle": "Signal, not verdict",
+      "eyebrow": "The Read",
+      "headline": "Feedback is a <em>signal</em>, once you read it that way.",
+      "lead": "Sooner or later feedback arrives about you: a 360 summary, a peer comment, a survey theme from a project you led. The verdict read asks what it says about your worth. The signal read asks what one adjustment it points to. Same words, very different week.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Read your results",
+        "intro": "A 360 summary lands in your inbox with one comment that stings. Choose your first read and your next move.",
+        "runLabel": "Run the week",
+        "outcomeTag": "How the week goes",
+        "slots": [
+          {
+            "key": "Your first read",
+            "opts": [
+              {"t": "This proves I am bad at this, like I suspected", "pts": 1, "coach": "That is the verdict read. One comment became a ruling on your worth, and rulings leave nothing to do except feel bad."},
+              {"t": "Whoever wrote this does not know my situation", "pts": 2, "coach": "Maybe true, and it closes the question. Dismissing the writer costs you whatever fraction of the comment was real signal."},
+              {"t": "One data point, from one angle. What is it pointing at?", "pts": 3, "coach": "The signal read. It keeps the comment its actual size: information about one moment, worth one honest look."}
+            ]
+          },
+          {
+            "key": "Your next move",
+            "opts": [
+              {"t": "Reread it all week and mention it to no one", "pts": 1, "coach": "Rumination is the verdict read on a loop. A week of rereading extracts nothing new; it just deepens the groove."},
+              {"t": "File it away and carry on exactly as before", "pts": 2, "coach": "Composed, and a little airtight. Signal you never act on was expensive to collect and free to waste."},
+              {"t": "Pick the one adjustment it suggests and try it for two weeks", "pts": 3, "coach": "One comment, one adjustment, one trial window. That is feedback doing its actual job: small course corrections, in motion."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "Signal received. The comment stayed its real size and bought you one experiment worth running.",
+          "mid": "You stayed on your feet, and the signal slipped past. The week is fine; the feedback changed nothing.",
+          "weak": "The verdict read won. One comment ran your whole week, and the useful part of it never got used."
+        },
+        "reactions": {
+          "strong": "Two weeks later, the adjustment feels normal and someone notices the difference. The next time feedback lands, you catch yourself reaching for the same question: what is this pointing at?",
+          "mid": "A month later, the same theme shows up in the next round of feedback, slightly louder. It was signal after all, and it kept broadcasting until someone listened.",
+          "weak": "The comment faded, and so did the confidence you spent on it. Nothing about your work changed, so the next summary reads the same, and stings the same."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "Below the minimum reporting group size, your survey answers...",
+      "opts": ["Go straight to your manager", "Are deleted entirely", "Roll into a larger aggregate or stay unreported", "Appear with your name attached"],
+      "correct": 2,
+      "why": "Small groups never get their own report. Your answers still count upward, and they can never be isolated back to you."
+    },
+    {
+      "q": "What is the one real norm for open survey comments?",
+      "opts": ["Never write comments at all", "Describe the work and the pattern, never a named colleague", "Only write positive things", "Sign your name so it counts"],
+      "correct": 1,
+      "why": "Comments travel word for word. Honesty is protected; the norm is aim: describe patterns and situations, and leave named colleagues out of it."
+    },
+    {
+      "q": "A stinging comment in your 360 summary is best read as...",
+      "opts": ["A verdict on your worth", "Proof the writer misunderstood you", "One data point suggesting one adjustment", "A reason to skip future surveys"],
+      "correct": 2,
+      "why": "The signal read keeps feedback its actual size: information from one angle, worth one honest look and maybe one two-week experiment."
+    }
+  ],
+  "recapMsgs": {
+    "high": "You know the plumbing and the read. Spend your next answer honestly.",
+    "mid": "Solid. Revisit the section you missed, then build your card.",
+    "low": "Worth a second pass through the three sections before you commit."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My signal plan",
+    "headline": "Honest in. <em>Useful out.</em>",
+    "lead": "Pick the next place your signal shows up, giving or receiving. Nothing you type is saved or sent; roles, never names.",
+    "whoLabel": "Where does your signal show up next? The survey, tool, or feedback moment.",
+    "whoPlaceholder": "e.g. spring pulse next month; 360 summary due after the project",
+    "practiceLabel": "Which move do you commit to?",
+    "whoRow": "The moment and the tool",
+    "practices": [
+      {"id": "honest", "chip": "The honest answer", "name": "The honest answer", "move": "Take the next pulse with zero softened answers, knowing exactly what the plumbing protects."},
+      {"id": "comment", "chip": "The useful comment", "name": "The useful comment", "move": "Write one open comment about the work: a pattern, a situation, a suggestion, no named colleagues."},
+      {"id": "signal", "chip": "The signal read", "name": "The signal read", "move": "When feedback lands, ask what it points at, pick one adjustment, and give it a two-week trial."}
+    ],
+    "whens": [
+      {"id": "nextpulse", "chip": "At the next pulse", "out": "The move happens at the next pulse or survey that reaches your inbox."},
+      {"id": "nextfb", "chip": "Next feedback I receive", "out": "The move runs the next time feedback with your name on it arrives."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "You create the moment within two weeks: ask one colleague for one piece of real feedback."}
+    ],
+    "cardTitle": "My signal card",
+    "evidenceRow": "Afterward, one line: what did the honest version tell you that the soft version would have hidden?"
+  },
+  "closing": {
+    "headline": "The system runs on <em>true answers</em>.",
+    "lead": "You know what the tooling protects, which myths to drop, and how to read your own results. That literacy is what turns feedback season from a threat into an instrument.",
+    "nextTag": "Your one next step · This month",
+    "nextTitle": "Spend your next answer honestly",
+    "nextBody": "When the next survey or piece of feedback arrives, run your card: honest in, signal read out. If the conversation side feels hard, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts lets you rehearse with its navigator role-play first.",
+    "brandline": "Say the true thing. Read the true thing."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so every example stays on a person's own work and voice. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",
+    "pulse": "Seven days out, send the pulse: 'Did you take a survey or receive feedback this week? Did the honest version go in? What signal did you read out?' Count of self-reported honest completions is the Level 3 signal for the month.",
+    "s1": {
+      "title": "How the tooling works",
+      "purpose": "Demystify the plumbing: anonymization, minimum group sizes, and aggregate reporting.",
+      "say": "Here is a thing almost nobody gets shown: what actually happens to a survey answer after you click submit. Your name comes off. Your answer joins a pool. If the pool is too small, no report exists at all. What a leader finally sees is a theme and a number, never a row with your name on it. We are opening the hood today, because people are only as honest as the plumbing lets them feel safe being.",
+      "facilitate": [
+        "Read the lead once, then run the knowledge check on learner screens.",
+        "Walk the three protections slowly: names off, minimum group size, aggregates only.",
+        "Run the breakout on what people have heard about who sees answers."
+      ],
+      "ask": {
+        "q": "What have you heard people say about who sees the answers?",
+        "expect": ["My manager can figure out who said what", "IT can look anything up"],
+        "respond": "Both common, both myths in this tooling. The design assumes nobody should have to trust good intentions; the plumbing does the protecting."
+      },
+      "debrief": "Three protections stack: no names, minimum group sizes, aggregates only. Comments travel word for word, so aim them at the work.",
+      "watchFor": "A learner describing a past workplace where anonymity was broken. Acknowledge it happened there, then return to how this tooling is built here.",
+      "transition": "Knowing the plumbing kills most of the myths. Let us test the rest.",
+      "coreNote": "Core: skip the breakout; take myths in chat instead."
+    },
+    "s2": {
+      "title": "Safe to say",
+      "purpose": "Separate identification myths from the one real norm, so honest participation feels as safe as it is.",
+      "say": "Every survey season, good people soften their answers for reasons that sound sensible. Someone will trace it back. One voice cannot matter. Honesty gets people in trouble. Two of those are myths the plumbing already handles. One points at a real norm: open comments travel word for word, so they should describe work, never named colleagues. Play the rounds and see if you can tell which is which.",
+      "facilitate": [
+        "Run Myth or norm? live on learner screens.",
+        "After round two, pause: ask what makes the comment norm different from the myths.",
+        "Run the breakout on the myth people have half-believed."
+      ],
+      "ask": {
+        "q": "Why do the identification myths survive even after people hear how the tooling works?",
+        "expect": ["A story from an old employer", "Distrust travels faster than plumbing diagrams"],
+        "respond": "True. Which is why the protections stay boring and mechanical on purpose: they hold whether or not anyone trusts anyone."
+      },
+      "debrief": "Honesty is protected by design. The one real norm is about aim: comments describe the work, never a named colleague.",
+      "watchFor": "The conversation sliding into whether leadership acts on results. Park it honestly: acting on signal is the leaders' half of the deal, and this month's manager sessions are exactly about that.",
+      "transition": "So your honest signal goes in. Next: what to do when signal about you comes back out.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "Signal, not verdict",
+      "purpose": "Teach the signal read for received feedback: right-sized, one adjustment, time-boxed.",
+      "say": "Now the harder direction. Sooner or later the tooling points at you: a 360 summary, a peer comment, a theme from a project you led. And one line will sting. The verdict read asks what that line says about your worth, and it will happily run your whole week. The signal read asks a smaller question: what is this pointing at, and what one adjustment would test it? Let us practice on a week you will recognize.",
+      "facilitate": [
+        "Run Read your results; two minutes to make both choices and run it.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Name the pattern: right-size the comment, pick one adjustment, time-box the trial."
+      ],
+      "ask": {
+        "q": "What makes the dismissive read, 'they do not know my situation,' so comfortable?",
+        "expect": ["It might genuinely be true", "It ends the discomfort instantly"],
+        "respond": "Both. The move is to let it be partly true and still ask what fraction of the comment is signal. Even a clumsy comment usually points at something."
+      },
+      "debrief": "The signal read in three steps: actual size, one adjustment, two-week trial.",
+      "watchFor": "Anyone visibly carrying a real stinging comment. Offer the frame gently and move on; this is a skills session, never a group therapy room.",
+      "transition": "Quick recap, then your card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Make it yours. Name the next moment your signal shows up, pick the move, pick the window, and build the card. Roles, never names, and nothing you type leaves your screen. Two minutes, quiet, go.",
+    "closeSay": "You leave knowing the plumbing, the myths, and the read. Spend your next answer honestly. On Thursday, Thrive Thursday takes the last step inward: self-awareness and closing the blind spots your feedback keeps pointing at. And if you want a rehearsal first, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a feedback role-play with its navigator in about twenty minutes.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone shares a story of anonymity being broken at a past employer", "then": "Honor it without debating it: that happened, and it is why this tooling uses hard minimums and aggregates. Return to the mechanics rather than defending anyone's intentions."},
+      {"if": "Someone asks pointed questions about a specific live survey or their own results", "then": "Take it offline warmly: specifics belong with HR or their leader. Keep the room on how the tooling works for everyone."}
+    ],
+    "toughQuestions": [
+      {"q": "If it is really anonymous, why do I have to log in to take the pulse?", "a": "Login proves you are eligible and stops duplicates; the response is then separated from your identity before any reporting. Authentication and attribution are different steps, and reporting only ever uses the stripped version."},
+      {"q": "What if my honest answer makes my manager look bad?", "a": "Aggregate signal about a manager is exactly what Goal 2 needs to work: managers are being taught this month to read it as behavior data, without defensiveness. A softened answer protects nobody; it hides the signal that could improve your own week."},
+      {"q": "Nobody ever seems to act on these surveys, so why bother?", "a": "Fair challenge, and this year is the answer: the manager standard is now measured partly through this data, which means your signal has somewhere to go. Give the honest answer and watch what leaders do with it; that visibility is new."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on the feedback machinery. Ever softened a survey answer just in case? This session shows exactly what happens after you click submit. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Honest in, useful out? Three lines, reply whenever: 1) Did a survey or piece of feedback reach you this week? 2) Did the honest version go in? 3) What signal did you read out of what came back?"}
+    ]
+  }
+}

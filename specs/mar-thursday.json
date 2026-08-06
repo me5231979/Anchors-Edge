@@ -1,0 +1,258 @@
+{
+  "slug": "mar-thursday",
+  "series": "Thrive Thursday",
+  "month": "March 2027",
+  "monthShort": "Mar",
+  "monthIndex": 6,
+  "theme": "Spot AI-Exposed Work",
+  "goal": 3,
+  "title": "The Hype Filter",
+  "titleHtml": "Run every claim through <em class=\"gold-text\">the filter</em>.",
+  "tagline": "Softskill · Critical thinking: sorting hype from value.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: three quick tests that sort AI hype from real value, built for tool decisions and sturdy enough for any workplace claim.",
+  "heroLead": "Every week brings a new claim: this tool will save you ten hours, this skill is obsolete, this feature changes everything. This session installs a three-question filter that sorts hype from value in about a minute, on AI claims and everything else.",
+  "objectives": [
+    "Run any claim through three tests: the evidence, the beneficiary, and the mind-changer",
+    "Spot the hype tells: big numbers, no baseline, urgency, and a seller in the byline",
+    "Apply the filter to one real tool-adoption decision this week"
+  ],
+  "skills": [
+    {"label": "Thinks critically", "core": true},
+    {"label": "Decision Making"},
+    {"label": "AI Literacy"},
+    {"label": "Information Evaluation"}
+  ],
+  "missionTie": "A university that will define the century cannot run on borrowed hype. Staff who test claims before believing them keep Radical Collaboration honest: shared decisions built on evidence rather than volume.",
+  "goalLead": "Goal 3 turns AI insight into practical workforce action, and every action starts with believing the right claims. The filter is quality control for the whole month.",
+  "agenda": [
+    {"t": "The three tests", "d": "What is the evidence, who benefits from my believing it, and what would change my mind."},
+    {"t": "The hype tells", "d": "Practice the filter on real-sounding claims and learn the patterns hype repeats."},
+    {"t": "The live decision", "d": "Aim the filter at an actual tool-adoption call and design the test that settles it."}
+  ],
+  "manifesto": "A claim you never tested is a bet you never noticed placing.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Tests",
+      "dataTitle": "The three tests",
+      "eyebrow": "The Filter",
+      "headline": "Three questions beat a <em>thousand opinions</em>.",
+      "lead": "The filter is three questions, asked fast. What is the evidence, and would it survive someone checking? Who benefits from my believing this? And what would change my mind, in either direction? A claim that survives all three has earned some trust.",
+      "group": "In pairs: recall one AI claim you heard this month, from anywhere. Run it through the three tests together. One pair shares.",
+      "solo": "Recall one AI claim you heard this month and run it through the three tests. Write down where it wobbled.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The filter",
+          "text": "Three tests, one minute. Evidence: what is it, would it survive checking? Beneficiary: who gains if I believe this? Mind-changer: what result would move me? No possible mind-changer means it is a belief, and beliefs resist evidence."
+        },
+        "q": "Quick check: why does the mind-changer test matter?",
+        "opts": [
+          {"t": "It proves the claim is false", "correct": false, "why": "The test never settles the claim by itself. It reveals whether you are actually reasoning: open questions have possible answers on both sides."},
+          {"t": "It names the evidence that would settle the question, before anyone argues", "correct": true, "why": "Exactly. Naming the mind-changer up front turns a debate into a checkable question, and it keeps you honest when the answer arrives."},
+          {"t": "It shows other people you are open minded", "correct": false, "why": "The filter is for your own thinking, run silently in a minute. Performing openness while deciding nothing is its own kind of hype."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Tells",
+      "dataTitle": "The hype tells",
+      "eyebrow": "The Patterns",
+      "headline": "Hype speaks with an <em>accent</em>.",
+      "lead": "Hype repeats itself: giant numbers with no baseline, urgency that never checks out, sellers quoted as judges. Value sounds different: specific tasks, named conditions, results someone could verify. Practice tunes your ear until the accent gives it away.",
+      "group": "Breakout pairs: one of you pitches a tool with pure hype, the other runs the filter out loud. 90 seconds, then swap.",
+      "solo": "Find one AI claim in your inbox or feed right now. Label it hype, value, or unproven, and note which tell decided it.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Hype or value?",
+        "intro": "Three claims that could land in your inbox this week. Run the filter on each.",
+        "progressWord": "Claim",
+        "labels": ["Hype: big claim, thin evidence", "Value: tested, checkable, specific", "Unproven: worth one small test"],
+        "passAt": 2,
+        "passMsg": "Your ear is tuned. Big and vague fails fast; specific and checkable earns a look; unclear earns a small test.",
+        "failMsg": "Close. The tells: hype pairs giant claims with thin evidence and an interested seller. Value names the task and invites checking. Unclear claims deserve a cheap test before belief.",
+        "items": [
+          {"q": "A vendor email: 'Teams using our AI assistant are 10x more productive. Book a demo before pricing changes Friday.'", "answer": 0, "why": "Every tell at once: giant number, no baseline, seller as judge, ticking clock. The filter fails it in seconds on evidence and beneficiary alike."},
+          {"q": "A colleague: 'The approved drafting tool cut my newsletter task from two hours to 40 minutes. Happy to show you the before and after.'", "answer": 1, "why": "Specific task, real numbers, an offer to verify, and a beneficiary who gains nothing from your belief. This is what value sounds like."},
+          {"q": "A headline: 'New study says AI summaries now match human quality for meeting notes.'", "answer": 2, "why": "Could be real, could be press release. The mind-changer is cheap: run one meeting's notes through an approved VU tool and compare. Test, then believe."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Decision",
+      "dataTitle": "The live decision",
+      "eyebrow": "The Move",
+      "headline": "Point the filter at a <em>real decision</em>.",
+      "lead": "The filter earns its keep on live decisions: should our team adopt this tool, should I change how I work because of that claim? The answer is rarely yes or no on the spot. It is usually a small, cheap test with the mind-changer named before it runs.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Design the deciding test",
+        "intro": "A tool claim has reached your team and people are excited. Choose your evidence and your bar.",
+        "runLabel": "Run the decision",
+        "outcomeTag": "How it plays out",
+        "slots": [
+          {
+            "key": "The evidence you ask for",
+            "opts": [
+              {"t": "The vendor's case studies and demo", "pts": 1, "coach": "That is asking the seller for the verdict. Case studies are marketing with a bibliography; the beneficiary test fails them before you finish reading."},
+              {"t": "Reviews and what peer universities chose", "pts": 2, "coach": "Better: outside voices. Still secondhand, and their tasks may look nothing like yours. Borrowed evidence beats seller evidence and loses to your own."},
+              {"t": "A trial on one of our real recurring tasks, checked against how we do it now", "pts": 3, "coach": "Evidence from your own work, with a baseline. Nobody benefits from the result except the decision, which is the point."}
+            ]
+          },
+          {
+            "key": "How you call it",
+            "opts": [
+              {"t": "Go with the room's excitement if the demo lands", "pts": 1, "coach": "Demos are theater, and shared excitement is the beneficiary test failing in real time. A room can be wrong together very efficiently."},
+              {"t": "Decide after the trial, based on how it felt", "pts": 2, "coach": "The trial is right; the felt is fuzzy. Without a mind-changer named up front, fans and skeptics will read the same trial as proof of what they already thought."},
+              {"t": "Name the bar first: it wins if it saves an hour with no accuracy loss", "pts": 3, "coach": "The bar is set before anyone is invested. Whatever the trial shows, the decision was made honest in advance, and everyone can see it."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A decision the whole team can trust. The test was real, the bar was public, and the result settled it either way.",
+          "mid": "A reasonable process with a mushy ending. The trial happened; the conclusion is still a matter of opinion.",
+          "weak": "A purchase powered by a demo. In three months, someone will quietly ask why nobody tested it first."
+        },
+        "reactions": {
+          "strong": "The tool cleared the bar and the adoption stuck, because the skeptics saw the same evidence the fans did. Better still, your team now has a reusable pattern for every claim that arrives after this one.",
+          "mid": "The debate resumed a week later with the same opinions and the same trial cited by both sides. Set the bar first next time; a mind-changer named in advance is what ends the loop.",
+          "weak": "The subscription renews quietly while the tool sits unused. The demo was the evidence, the vendor was the judge, and the filter stayed in the drawer the whole time."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "The three tests of the filter are...",
+      "opts": ["Price, features, and reviews", "Evidence, beneficiary, and mind-changer", "Speed, accuracy, and cost", "Vendor, peer, and pilot"],
+      "correct": 1,
+      "why": "What is the evidence, who benefits from my believing it, and what would change my mind. One minute, any claim, in either direction."
+    },
+    {
+      "q": "A claim pairs a giant number with a ticking clock and a seller as the source. That is...",
+      "opts": ["Value worth acting on fast", "Hype: the tells are stacked", "Unproven but promising", "A normal deadline to respect"],
+      "correct": 1,
+      "why": "Big number, no baseline, urgency, interested source: the classic stack. The filter fails it on evidence and beneficiary in seconds."
+    },
+    {
+      "q": "What makes a tool trial actually settle a decision?",
+      "opts": ["Running it on vendor sample data", "Team enthusiasm afterward", "A mind-changer named before it runs", "A long enough trial period"],
+      "correct": 2,
+      "why": "The bar set in advance turns a trial into evidence. Without it, fans and skeptics read the same result as proof of what they already thought."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The filter is installed. Aim it at a live claim today.",
+    "mid": "Solid. Revisit the tells, then build your card.",
+    "low": "Walk the three tests once more before you judge real claims."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My claim to test",
+    "headline": "One claim. Three tests. <em>One honest verdict.</em>",
+    "lead": "Pick a real claim currently circling your work: a tool pitch, a headline, a hallway certainty. Nothing you type is saved or sent.",
+    "whoLabel": "Which claim gets the filter first? The claim and where it came from.",
+    "whoPlaceholder": "e.g. 'this scheduling tool will save us hours', from a vendor email",
+    "practiceLabel": "How do you run the filter?",
+    "whoRow": "The claim on trial",
+    "practices": [
+      {"id": "oneminute", "chip": "The one-minute filter", "name": "The one-minute filter", "move": "Run the three tests on paper: the evidence, the beneficiary, the mind-changer. Keep the verdict where you will see it."},
+      {"id": "smalltest", "chip": "The small test", "name": "The small test", "move": "Design the cheapest real test: one recurring task, an approved VU tool, output checked against how you do it now."},
+      {"id": "outloud", "chip": "The filter out loud", "name": "The filter out loud", "move": "Bring the claim to one colleague and run the tests together. A second head catches the beneficiary you missed."}
+    ],
+    "whens": [
+      {"id": "today", "chip": "Today", "out": "The filter runs today, before the claim gets another day of free belief."},
+      {"id": "thisweek", "chip": "This week", "out": "Filter run and verdict written by Friday."},
+      {"id": "beforedecide", "chip": "Before the next decision", "out": "The filter runs before the next tool or workflow decision it touches."}
+    ],
+    "cardTitle": "My hype filter card",
+    "evidenceRow": "Afterward, one line: what was the verdict, and which test decided it?"
+  },
+  "closing": {
+    "headline": "Test the claim. <em>Trust the result.</em>",
+    "lead": "You leave March with a full kit: your manager can map exposure, you can sort your own tasks, and every claim about what AI will do now meets three questions first.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Run the filter on your card",
+    "nextBody": "One real claim, three tests, one written verdict. If the claim survives, design the small test. The AI for Leaders course on LinkedIn Learning is a good companion if you want the longer view.",
+    "brandline": "Three questions. Then belief."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month, and this session closes the week.",
+    "pulse": "Seven days out, send the pulse: 'Did the filter run on your claim? What was the verdict, and which test decided it? Which claim is next?' Count of completed filter runs is the Level 3 metric for the month.",
+    "s1": {
+      "title": "The three tests",
+      "purpose": "Install the filter: evidence, beneficiary, mind-changer, one minute per claim.",
+      "say": "This week your manager mapped exposure and Tuesday you sorted your own tasks. Today is the quality control for all of it, because every map and every sort rests on claims about what AI can do. Three questions, one minute: what is the evidence, who benefits from my believing this, and what would change my mind?",
+      "facilitate": [
+        "Read the three tests slowly, once each, then run the knowledge check.",
+        "Ask which of the three tests people have never consciously asked.",
+        "Run the breakout: one recent AI claim through all three tests."
+      ],
+      "ask": {
+        "q": "Which of the three tests do you skip most often?",
+        "expect": ["Most say the mind-changer", "Some admit the beneficiary test feels cynical", "A few say they rarely see the evidence at all"],
+        "respond": "The mind-changer is the one that separates reasoning from believing, and it is the cheapest: one honest sentence before you decide."
+      },
+      "debrief": "The filter is a habit, and habits need to be fast. One minute, three questions, any claim, in either direction: enthusiasm and dismissal both get filtered.",
+      "watchFor": "People aiming the filter only at claims they already dislike. The tests work on your favorite claims too, and that is where they earn the most.",
+      "transition": "The tests are simple. Hearing when to reach for them takes a tuned ear.",
+      "coreNote": "Core: skip the breakout; ask for one recent claim in chat instead."
+    },
+    "s2": {
+      "title": "The hype tells",
+      "purpose": "Tune learners' ears to the recurring patterns of hype and the sound of checkable value.",
+      "say": "Hype is lazy; it repeats itself. Giant numbers with no baseline. Urgency that evaporates when you check the calendar. Sellers quoted as judges of their own product. Value sounds different: a named task, a real number with a before and after, and an invitation to check. Let's tune your ear on three claims.",
+      "facilitate": [
+        "Run Hype or value? live; everyone plays on their own screen.",
+        "After the colleague claim, pause: ask what makes it so much more credible than the vendor's.",
+        "Run the breakout: one pitches pure hype, one filters out loud, then swap."
+      ],
+      "ask": {
+        "q": "Why does the colleague's claim pass the beneficiary test so cleanly?",
+        "expect": ["They gain nothing from your belief", "They offered the before and after", "The task is specific and close to yours"],
+        "respond": "Right. And notice that the offer to show the work is itself a tell: value invites checking, hype discourages it."
+      },
+      "debrief": "Hype stacks its tells: big, vague, urgent, interested. Value is specific, checkable, and calm. The unclear middle deserves a cheap test before belief.",
+      "watchFor": "Cynics using the session to dismiss every AI claim. The filter passes real value too; the colleague claim exists so the room feels the difference.",
+      "transition": "A tuned ear is good. A decision method is better.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "The live decision",
+      "purpose": "Turn the filter into a decision method: own-work evidence and a mind-changer named in advance.",
+      "say": "Here is where the filter stops being commentary and starts making decisions. When a tool claim reaches your team, the answer is rarely an instant yes or no. It is a small test on your own real work, with the bar named before the test runs: it wins if it saves an hour with no accuracy loss. Set the bar first and the result settles it, whichever way it lands.",
+      "facilitate": [
+        "Run Design the deciding test; give the room two minutes for both choices.",
+        "Ask one volunteer to read a weak outcome aloud; let the room name the missing test.",
+        "Point at the pattern: own-work evidence, bar set in advance."
+      ],
+      "ask": {
+        "q": "Why does naming the mind-changer before the trial change the whole decision?",
+        "expect": ["It stops both sides claiming victory", "It makes the trial evidence instead of theater", "It protects the decision from the loudest voice"],
+        "respond": "All three. A bar set in advance is the cheapest honesty mechanism a team can buy, and it works on far more than AI tools."
+      },
+      "debrief": "The deciding test: one real recurring task, an approved VU tool, output checked against today's way, and the winning condition written down first.",
+      "watchFor": "People designing trials on vendor sample data. Redirect to their own recurring tasks; borrowed data proves nothing about their week.",
+      "transition": "Quick recap, then a real claim goes on your card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "capstoneSay": "Now pick your claim. Something actually circling your work: a tool pitch, a headline, a hallway certainty. Choose how you run the filter, pick the window, build the card, and copy it somewhere you will see it. Two minutes, quiet, go.",
+    "closeSay": "That closes the March week: your manager can map exposure, your week is sorted into tasks, and every claim now meets three questions before it meets your belief. If you want to keep pulling the thread, the LinkedIn Learning course AI for Leaders by Doug Rose is this month's companion, and the navigator-led exposure mapping workshop takes whole teams through Monday's map together. Next week, Anchor's Edge rolls on: same rhythm, next skill. See you Monday.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "The room turns the session into complaints about a specific vendor or product", "then": "Steer back to the pattern: no verdicts on named products here. The filter is the takeaway, and it outlives any one tool. Keep the examples generic."},
+      {"if": "Someone argues the beneficiary test makes them distrust colleagues", "then": "Reframe warmly: the test is about incentives, never character. A colleague can be sincere and wrong at the same time; the evidence test catches that, and the beneficiary test simply asks who is selling."}
+    ],
+    "toughQuestions": [
+      {"q": "Isn't this just teaching us to be cynical about AI?", "a": "The filter fails hype and passes value, and it runs in both directions: dismissing a genuinely useful tool is exactly as unfiltered as buying the demo. The colleague claim in the trainer passes cleanly. Skepticism that names its own mind-changer is called judgment."},
+      {"q": "What if leadership has already decided to adopt a tool the filter would fail?", "a": "The filter still helps: it tells you what evidence to gather during rollout. Name the mind-changer, run your own tasks through the tool, and report what you find. Honest evidence from real use is valuable to leadership in both directions, and Goal 3 explicitly asks for it."},
+      {"q": "Where does the traffic light fit into testing new tools?", "a": "Every test rides the light. A trial uses public or generic content freely; internal content only inside approved VU tools; and private information about people never goes into a test, no matter how promising the tool. An unapproved tool gets tested with green content only, if at all."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on sorting AI hype from real value. Bring one claim you have heard about AI this month, from any source; you will run it through a three-question filter. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: What was the verdict? Three lines, reply whenever: 1) Did the filter run on the claim from your card? 2) What was the verdict, and which test decided it? 3) Which claim gets filtered next?"}
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "slug": "nov-monday",
+  "series": "Manager Monday",
+  "month": "November 2026",
+  "monthShort": "Nov",
+  "monthIndex": 2,
+  "theme": "The Vanderbilt Manager Standard",
+  "goal": 2,
+  "title": "The Standard",
+  "titleHtml": "The standard you can <em class=\"gold-text\">witness</em>.",
+  "tagline": "Unpacking the manager standard: the observable behaviors.",
+  "description": "A 45-minute virtual session for Vanderbilt managers: meet the Vanderbilt manager standard, learn the witness test that separates behavior from intention, and locate yourself against the standard honestly.",
+  "heroLead": "Vanderbilt has written down what a good manager does here, and every line is something a colleague could watch you do. This session walks the list, teaches the witness test that separates behavior from intention, and asks you to place yourself on it honestly.",
+  "objectives": [
+    "Name the observable behaviors that define the Vanderbilt manager standard",
+    "Tell a demonstrable behavior apart from an intention or a personality trait",
+    "Locate yourself against the standard with evidence and pick one behavior to grow"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Manager Effectiveness"},
+    {"label": "Self-Awareness"},
+    {"label": "Leadership Behaviors"}
+  ],
+  "missionTie": "Defining the great university of the 21st Century takes managers who lead well on purpose. A shared, visible standard of leader behavior is Exceptional Core Operations made personal: every team gets a manager who knows what good looks like.",
+  "goalLead": "Goal 2 commits Vanderbilt to a manager standard that measures demonstrated leader behavior. Today you meet the standard itself, so demonstrated stops being an abstraction.",
+  "agenda": [
+    {"t": "Behaviors, on the record", "d": "What the Vanderbilt manager standard lists, and why every line is something a colleague could watch."},
+    {"t": "Behavior or intention?", "d": "The witness test: telling visible behaviors apart from intentions and personality traits."},
+    {"t": "The honest self-locate", "d": "Place yourself against the standard with evidence, and pick one behavior to grow first."}
+  ],
+  "manifesto": "The standard measures what you do where your team can see it.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Standard",
+      "dataTitle": "Behaviors, on the record",
+      "eyebrow": "The List",
+      "headline": "Written so a colleague could <em>watch it happen</em>.",
+      "lead": "Plenty of leadership models describe who a manager should be. The Vanderbilt standard does something more useful: it lists what a manager here does, in lines a colleague could watch happen. That design choice is the whole point of this section.",
+      "group": "In pairs: pick one line of the standard. When did a colleague last see you do it? 90 seconds each way.",
+      "solo": "Pick one line of the standard and write down when a colleague last saw you do it.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The witness test",
+          "text": "Every line of the Vanderbilt manager standard passes one test: a colleague could watch you do it. Holding the 1:1, giving written feedback, naming the expectation out loud. If nobody could witness it, it is not on the list."
+        },
+        "q": "Quick check: which of these is written the way the standard is written?",
+        "opts": [
+          {"t": "Cares deeply about their team", "correct": false, "why": "That is a trait, and a lovely one. Nobody can watch caring; they can watch what caring does, and the standard names those doings."},
+          {"t": "Holds a scheduled 1:1 with each direct report every month", "correct": true, "why": "A colleague could witness it, a calendar could prove it, and a new manager could start it tomorrow. That is standard language."},
+          {"t": "Believes feedback really matters", "correct": false, "why": "Belief lives in your head. The standard's version names the visible act: feedback delivered, in words the person can use."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Witness Test",
+      "dataTitle": "Behavior or intention?",
+      "eyebrow": "The Test",
+      "headline": "Grade yourself on what they could <em>see</em>.",
+      "lead": "Most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am approachable. The witness test cuts through: could a colleague have seen it happen? Run it on three ordinary claims and watch the categories separate.",
+      "group": "Breakout pairs: name one thing you give yourself credit for that fails the witness test. 90 seconds each way.",
+      "solo": "Name one thing you give yourself credit for that a colleague could never have witnessed.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Behavior or intention?",
+        "intro": "Three claims managers make about themselves. Run the witness test on each one and call it.",
+        "progressWord": "Claim",
+        "labels": ["Behavior, a colleague could see it", "Intention, it lives in your head", "Trait, a personality label"],
+        "passAt": 2,
+        "passMsg": "You have the witness test. Behaviors can be seen, intentions live in heads, traits live in adjectives.",
+        "failMsg": "Close. The tell: ask who could have watched it happen. Seen means behavior, planned means intention, described means trait.",
+        "items": [
+          {"q": "A director says: after every project closes, I send each person two lines of written feedback.", "answer": 0, "why": "Witnessable and checkable: the feedback either arrived or it did not. Notice how the specifics are what make it a behavior."},
+          {"q": "A manager describes their leadership style as approachable, with a real open-door policy.", "answer": 2, "why": "Approachable is an adjective and open door describes a state. Reports only experience what happens when they walk through it; that part is the behavior."},
+          {"q": "A team lead plans to start monthly growth conversations once the busy season ends.", "answer": 1, "why": "A sincere plan is still invisible to the team. Intentions become behaviors the moment they hit a calendar, and this one has not."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Self-Locate",
+      "dataTitle": "The honest self-locate",
+      "eyebrow": "The Mirror",
+      "headline": "The mirror works when you bring <em>evidence</em>.",
+      "lead": "Nobody sees your answers and nothing you type is saved, so the only person you can fool here is you. An honest self-locate uses evidence: for each behavior, when did a colleague last see me do it? Then the biggest gap gets one visible move.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "The honest self-locate",
+        "intro": "You are alone with the standard for five minutes. Choose how you rate yourself and what you do with the gap you find.",
+        "runLabel": "Run the self-locate",
+        "outcomeTag": "Where it leaves you",
+        "slots": [
+          {
+            "key": "How you self-locate",
+            "opts": [
+              {"t": "Rate yourself high across the list; you meant well all year.", "pts": 1, "coach": "Intentions inflate every self-rating. You are grading the manager you meant to be, and your team only ever met the other one."},
+              {"t": "Go with your gut, quickly, line by line.", "pts": 2, "coach": "Gut feel beats avoidance, and it still leans on self-image. Evidence is the honest anchor: what happened, when, witnessed by whom."},
+              {"t": "For each behavior, ask: when did a colleague last see me do this?", "pts": 3, "coach": "The witness test, turned on yourself. Dates and instances replace impressions, and the gaps stop hiding."}
+            ]
+          },
+          {
+            "key": "What you do with the gap",
+            "opts": [
+              {"t": "Note it privately and resolve to be better.", "pts": 1, "coach": "A private resolution is an intention, and you just spent a session learning what those are worth to your team."},
+              {"t": "Tell your own manager you plan to work on leadership generally.", "pts": 2, "coach": "Saying it out loud helps. Generally is the leak: without one named behavior, there is nothing anyone could witness changing."},
+              {"t": "Pick one behavior and put its first visible instance on the calendar.", "pts": 3, "coach": "One behavior, one calendar entry, one thing a colleague could witness by Friday. That is how a standard becomes a habit."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "An honest read and a visible first move. The gap you found is now a calendar entry.",
+          "mid": "A real look with a soft landing. You saw the gap; the follow-through stayed vague.",
+          "weak": "A generous self-review. The standard stayed a document and the gap stayed invisible."
+        },
+        "reactions": {
+          "strong": "Two weeks in, the behavior has happened twice where the team could see it. Your next self-locate starts from evidence, and the evidence moved.",
+          "mid": "The intention was real, and busy weeks eat unspecific intentions first. Next month's self-locate finds the same gap waiting.",
+          "weak": "Nothing changed, which is the outcome high self-ratings quietly protect. The standard can only help a manager who lets it read them."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "The Vanderbilt manager standard is a list of...",
+      "opts": ["Personality traits to hire for", "Observable behaviors a colleague could witness", "Values to believe in", "Results your team must deliver"],
+      "correct": 1,
+      "why": "Every line passes the witness test: it can be seen, checked, and started tomorrow. That is what makes the standard usable and measurable."
+    },
+    {
+      "q": "Which of these passes the witness test?",
+      "opts": ["I genuinely care about my team", "I plan to start skip-level chats", "I hold a monthly 1:1 with each report", "I am known as approachable"],
+      "correct": 2,
+      "why": "A colleague could watch it happen and a calendar could confirm it. Caring is a trait, planning is an intention, approachable is an adjective."
+    },
+    {
+      "q": "An honest self-locate asks, for each behavior...",
+      "opts": ["Do I agree this matters?", "How would I like to be seen?", "What would my team guess?", "When did a colleague last see me do it?"],
+      "correct": 3,
+      "why": "Evidence over impression. Dates and witnessed instances tell you where you actually stand, which is the only useful starting point."
+    }
+  ],
+  "recapMsgs": {
+    "high": "You can read the standard and yourself. Now pick the one behavior.",
+    "mid": "Solid. Revisit the witness test, then build your card.",
+    "low": "Worth a second pass through the three sections before you self-locate."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My standard behavior",
+    "headline": "One behavior. First instance. <em>On the calendar.</em>",
+    "lead": "Pick the behavior your honest self-locate points to first. Roles only, never names; nothing you type is saved or sent.",
+    "whoLabel": "Which behavior gets your November, and what gap did you find?",
+    "whoPlaceholder": "e.g. written feedback after milestones; none given since September",
+    "practiceLabel": "Which move do you make first?",
+    "whoRow": "The behavior and the gap",
+    "practices": [
+      {"id": "witness", "chip": "The witness pass", "name": "The witness pass", "move": "Walk the standard line by line and mark each one: when did a colleague last see me do this? Honest dates only."},
+      {"id": "first", "chip": "The first instance", "name": "The first instance", "move": "Take your biggest-gap behavior and schedule its first visible instance before Friday."},
+      {"id": "mirror", "chip": "The mirror ask", "name": "The mirror ask", "move": "Ask one trusted colleague which behavior on the standard they see from you least. Listen, thank them, skip the defense."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The move happens this week, on the calendar by Friday."},
+      {"id": "next11", "chip": "Before my next 1:1", "out": "The move happens before your next 1:1, so the meeting shows the change."},
+      {"id": "month", "chip": "By month end", "out": "The move happens before November closes, scheduled today so it cannot slide."}
+    ],
+    "cardTitle": "My standard behavior card",
+    "evidenceRow": "Afterward, one line: what did the witness test change about how you see yourself?"
+  },
+  "closing": {
+    "headline": "Lead where they can <em>see it</em>.",
+    "lead": "You know the list, you can spot a real behavior, and you have located yourself honestly. The rest of this week arms both chairs of the same conversations.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Put the behavior on the calendar",
+    "nextBody": "Schedule the first visible instance of your chosen behavior and hold it. Bring what a colleague could now witness to next Monday's session.",
+    "brandline": "Meet the standard where it can be seen."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November opens the Manager Effectiveness theme and this session introduces the standard itself.",
+    "pulse": "Seven days out, send the pulse: 'Which behavior did you pick? Has a colleague been able to witness it yet? What did the honest self-locate change?' Count of managers with one behavior visibly underway is the month's Level 3 signal.",
+    "s1": {
+      "title": "Behaviors, on the record",
+      "purpose": "Establish that every line of the Vanderbilt manager standard is an observable, demonstrable behavior.",
+      "say": "Vanderbilt wrote down what good managing looks like here, and the writing choice matters more than it seems. Every line is a behavior a colleague could watch you do: hold the 1:1, give the written feedback, name the expectation out loud. Nothing on the list asks you to be a certain kind of person. It asks you to do certain visible things, and that difference is the whole month.",
+      "facilitate": [
+        "Read the concept card aloud once, slowly.",
+        "Run the knowledge check; everyone answers on their own screen.",
+        "Run the breakout: one line of the standard, and when a colleague last saw you do it."
+      ],
+      "ask": {
+        "q": "Why do you think the standard was written as behaviors instead of qualities?",
+        "expect": ["Behaviors can be measured", "Qualities are arguable, behaviors are checkable", "It tells new managers exactly what to do"],
+        "respond": "All of it. A quality invites debate; a behavior invites a calendar entry. Goal 2 can only measure what can be witnessed."
+      },
+      "debrief": "If no colleague could witness it, it is not on the list. That single design choice is what makes the standard usable.",
+      "watchFor": "Managers reading the list as an accusation. Frame it as a map: it tells you exactly what good looks like, which most of us were never told.",
+      "transition": "So what counts as a behavior? That line is blurrier than it sounds.",
+      "coreNote": "Core: skip the breakout; ask for one surprising line of the standard in chat instead."
+    },
+    "s2": {
+      "title": "Behavior or intention?",
+      "purpose": "Train the witness test: separating observable behaviors from intentions and personality traits.",
+      "say": "Here is the trap this section exists to spring: most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am an approachable person. The witness test cuts through all of it with one question: could a colleague have seen it happen? If the answer is no, it may be a lovely quality, and it is invisible to your team.",
+      "facilitate": [
+        "Run Behavior or intention? live; everyone plays on their own screen.",
+        "After round two, pause and ask who chose trait versus intention; the distinction sparks the best discussion.",
+        "Run the breakout on credit that fails the witness test."
+      ],
+      "ask": {
+        "q": "What is something managers commonly claim that fails the witness test?",
+        "expect": ["Having an open door", "Caring about development", "Being available anytime"],
+        "respond": "Open door is the classic: it describes a state, and reports only experience what happens when they walk through it. The behavior version is scheduled, visible time."
+      },
+      "debrief": "Intentions live in your head, traits live in adjectives, behaviors live on calendars and in records. The standard counts only the third kind.",
+      "watchFor": "Cynicism about box-checking. Acknowledge it: a behavior done emptily is still weak managing. The standard is the floor that makes the rest possible.",
+      "transition": "Which brings us to the uncomfortable part: where do you actually stand on it?",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "s3": {
+      "title": "The honest self-locate",
+      "purpose": "Teach an evidence-based self-locate against the standard and convert the biggest gap into one visible move.",
+      "say": "Now the mirror. Nobody sees your answers and nothing is saved, so there is no audience to perform for. The only way to waste the next five minutes is to be generous with yourself. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
+      "facilitate": [
+        "Run the builder; give the room two minutes to make both choices and run it.",
+        "Ask one volunteer to share which slot was harder to answer honestly.",
+        "Point at the pattern: evidence over gut feel, one named behavior over a vague vow."
+      ],
+      "ask": {
+        "q": "Why does picking one behavior beat vowing to improve across the board?",
+        "expect": ["One thing actually happens", "Broad vows dissolve by Wednesday", "You can put one thing on a calendar"],
+        "respond": "Exactly. The standard has many lines; your November needs one. A single visible behavior, repeated, moves your read on the whole list."
+      },
+      "debrief": "Honest self-locates run on evidence: when a colleague last saw it. The output is one behavior with its first instance on the calendar.",
+      "watchFor": "Managers who self-locate low on everything and spiral. Redirect to the one gap that matters most; the standard is a growth map and everyone starts somewhere on it.",
+      "transition": "Quick recap, then you build your own card.",
+      "coreNote": "Core: everyone runs the builder solo; skip the share-out."
+    },
+    "capstoneSay": "Now make it yours. One behavior from the standard, the honest gap you found, and the first move you will make. Behavior and roles only, never names. Build the card, copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "closeSay": "You leave knowing the standard and where you honestly stand on it. Tomorrow's Take-Off Tuesday is for everyone on your team, you included: the 1:1 templates and feedback tools inside Oracle that make several of these behaviors visible. Thursday's Thrive Thursday works the clarity skill behind expectation-setting. And if you want a companion this month, the LinkedIn Learning course New Manager Foundations by Todd Dewett pairs well with the navigator-led walk-through clinic on the standard. Both optional, both worth your time.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "A manager gets defensive about self-locating in a group setting", "then": "Remind the room nothing typed is saved or shared, and self-locates stay private unless someone volunteers. Today is a mirror, nothing more; the standard measures behavior going forward."},
+      {"if": "Someone asks whether their self-locate feeds their performance review", "then": "Be direct: nothing from this session is captured anywhere. Goal 2 measurement runs through the formal process your HR partner owns; today is private practice at looking honestly."}
+    ],
+    "toughQuestions": [
+      {"q": "Will my self-locate or anything from this session feed my performance review?", "a": "No. Nothing typed today is saved or sent, and the session has no reporting behind it. Goal 2 measurement runs through the formal process your HR partner owns; today is private practice at looking honestly before anyone else looks."},
+      {"q": "My team is huge and my calendar is brutal. Are these behaviors realistic for me?", "a": "The standard names behaviors, and behaviors scale: a monthly 1:1 exists whether you have three reports or fifteen, even if the shape differs. If a specific line truly cannot fit your context, that is a real conversation to have with your own leader, out loud, rather than a quiet exemption."},
+      {"q": "How is this different from the competency models we have seen before?", "a": "Competencies describe qualities and invite debate about whether you have them. The standard names witnessable behaviors, which ends the debate: either the 1:1 happened or it did not. That is also what makes Goal 2 measurable. The New Manager Foundations course on LinkedIn Learning walks the same ground if you want a deeper pass."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on the Vanderbilt manager standard. If you have seen the standard, skim it beforehand; if you have not, come as you are and we walk it together. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Is the behavior on your calendar? Three lines, reply whenever: 1) Which behavior did you pick? 2) Has a colleague been able to witness it yet? 3) What did the honest self-locate change for you?"}
+    ]
+  }
+}
