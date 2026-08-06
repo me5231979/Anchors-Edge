@@ -1,0 +1,284 @@
+{
+ "meta": {
+  "program": "On the Map · Take-Off Tuesday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the profile move on your card happen? What skill is visible now that was not before? What line will you add next?' Count of completed profile updates feeds the month's Goal 1 story.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 1, Workforce Intelligence & Transfer Portal. Baseline 6% of BUs, Q4 target 85% of BUs.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone worries the profile data will be used against them",
+    "then": "Answer plainly and without hedging: the profile is not a performance tool and reviews never read it. It matches skills to opportunities. Skills and roles, never ratings."
+   },
+   {
+    "if": "Someone says their job has no skills worth listing",
+    "then": "Ask the room what that person's colleagues come to them for. Every role carries named skills; that question usually surfaces two inside a minute."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Is this system going to be used to cut jobs or monitor productivity?",
+    "a": "No. Workforce Intelligence reads the skills profile you keep, nothing else: not email, not activity, not output. Its purpose under Goal 1 is retention and internal mobility, which is the opposite of a cut list. A visible skill makes you harder to overlook, not easier to replace."
+   },
+   {
+    "q": "If I make my skills visible, will my manager think I am trying to leave?",
+    "a": "A current profile is the university norm this year, not a leaving signal; this month's Manager Monday session asks managers to make talent visible on their own teams for the same reason. Internal mobility keeps people at Vanderbilt. The riskier move is staying invisible."
+   },
+   {
+    "q": "I am not sure what counts as a skill worth listing. Where do I start?",
+    "a": "Start with what people come to you for. If colleagues bring you their scheduling messes or their unreadable drafts, those are named skills. The Know-Your-Team lab and the Talent Management course on LinkedIn Learning both help you name more, if you want the extra rep."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes on the system that makes your skills visible. Bring nothing but one thing you are good at that your job title does not mention. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is the skill on the map? Three lines, reply whenever: 1) Did the profile move on your card happen? 2) What skill is visible now that was not before? 3) What line will you add next?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Workforce Intelligence: what it shows and how to use it.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university that intends to define the century cannot let talent stay invisible inside it. Workforce Intelligence makes skills part of Exceptional Core Operations, and your profile is where the university's map of talent begins.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves and the measurable move it needs.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Workforce Intelligence & Transfer Portal: By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university. Today's baseline is 6% of BUs; the Q4 target is 85% of BUs. Goal 1 launches Workforce Intelligence this year, and the system can only see the skills people make visible. Today is about putting yours on the map.",
+   "facilitate": [
+    "Let the meter animate before you speak to the number.",
+    "One line, not a lecture: this session is one of the moves that closes the gap."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: explain what workforce intelligence shows: skills, needs, and opportunities across the university; describe what a current skills profile does for you, and what a stale one quietly costs; rewrite one duty from your job into a named, searchable skill on your profile. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: what the system sees, what you gain, make your skills legible. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "What the system sees",
+   "purpose": "Establish what Workforce Intelligence is: a talent map built from skills profiles, never a surveillance or evaluation tool.",
+   "say": "Let's clear the air first, because a system named Workforce Intelligence has earned a little suspicion. It does not read your email and it does not grade you. It reads one thing: the skills profile you keep. It is a map of what Vanderbilt's people can do, and the only question that matters today is whether you are on it accurately.",
+   "facilitate": [
+    "Read the concept card aloud once, then run the knowledge check on everyone's own screen.",
+    "Ask the room which answer they picked before revealing your own take.",
+    "Run the breakout: one skill nobody outside your team knows about, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "What was your honest first reaction to the phrase Workforce Intelligence?",
+    "expect": [
+     "Suspicion about monitoring",
+     "Curiosity about what it shows",
+     "Assumption it is a tool for managers or HR only"
+    ],
+    "respond": "Take the suspicion seriously and answer it plainly: profile in, matching out, nothing else. The 'for managers' assumption is the one to break; the profile is the staff member's asset first."
+   },
+   "debrief": "One idea to carry out of this section: the system sees exactly what you show it. That makes your profile a lever, not a form.",
+   "watchFor": "Anyone treating this as a managers-only topic. Keep every example on the learner's own skills and career.",
+   "transition": "So what do you actually get for keeping it current? Stop two.",
+   "coreNote": "Core: skip the breakout; ask for one invisible skill in chat instead.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "What you gain",
+   "purpose": "Show the payoff of a current profile: visibility, and internal opportunities that find you.",
+   "say": "Here is the trade the system offers. You keep an honest, current profile; in return, opportunity searches start running toward you instead of past you. Internal projects, stretch roles, committees: today they go to whoever heard about them in a hallway. A current profile means they can find you on merit, whoever you know.",
+   "facilitate": [
+    "Run What just happened? live; everyone plays on their own screen.",
+    "After round two, pause: ask who has ever missed an internal opportunity they only heard about later.",
+    "Run the breakout on the opportunity that got away."
+   ],
+   "ask": {
+    "q": "Why do internal opportunities so often go to whoever happened to hear about them?",
+    "expect": [
+     "Word of mouth travels through networks",
+     "Nobody can search for skills they cannot see"
+    ],
+    "respond": "Both right, and that is the fairness case for the profile: a searchable skill beats a lucky hallway conversation. Visibility is how the playing field levels."
+   },
+   "debrief": "The system gives back what profiles put in. Current profile, working map. Stale profile, invisible you.",
+   "watchFor": "Cynicism that nothing ever comes of systems like this. Do not overpromise; anchor on the ten-minute cost against the missed-opportunity cost.",
+   "transition": "The catch: the map can only match what it can read. Stop three is the writing.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Make your skills legible",
+   "purpose": "Teach the craft of naming skills instead of duties, and the habit that keeps a profile current.",
+   "say": "Most profiles fail quietly for one reason: they are written like job descriptions. 'Supports departmental events' tells the map nothing. 'Event logistics for groups of 200 plus' is a skill someone can search for and find. We are going to write one line the legible way, then set the habit that keeps it true.",
+   "facilitate": [
+    "Run Write yourself onto the map; give the room two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: named skill, real scale, fresh update."
+   ],
+   "ask": {
+    "q": "Why do adjectives like dedicated or detail-oriented do nothing on a profile?",
+    "expect": [
+     "Everyone claims them",
+     "There is nothing to search or match on"
+    ],
+    "respond": "Both right. A matching system, and honestly a busy human too, can only work with named skills. Kind words about yourself are not data."
+   },
+   "debrief": "Legible means named, specific, and current: the skill inside the duty, in words someone would actually search.",
+   "watchFor": "People underselling themselves. If someone says they have no skills worth listing, ask what colleagues come to them for; that answer is the profile line.",
+   "transition": "Quick recap, then you build your card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A skill the university cannot see is a skill it cannot use, grow, or promote.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One skill you will make visible, named the legible way. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave with a profile move and ten minutes of work between you and being findable. Make the update this week. Thursday's Thrive session takes on curiosity, the skill that makes all of this month's talent conversations work; come with one role at Vanderbilt you have quietly wondered about. And if you want more this month, the navigator-led Know-Your-Team lab runs in person and Don Phin's Talent Management course is on LinkedIn Learning, both optional, both good.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}
