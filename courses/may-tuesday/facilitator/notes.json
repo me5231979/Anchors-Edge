@@ -1,0 +1,283 @@
+{
+ "meta": {
+  "program": "Your Own Signal · Take-Off Tuesday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so every example stays on a person's own work and voice. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did you take a survey or receive feedback this week? Did the honest version go in? What signal did you read out?' Count of self-reported honest completions is the Level 3 signal for the month.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale. Baseline 15%, Q4 target 80%.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone shares a story of anonymity being broken at a past employer",
+    "then": "Honor it without debating it: that happened, and it is why this tooling uses hard minimums and aggregates. Return to the mechanics rather than defending anyone's intentions."
+   },
+   {
+    "if": "Someone asks pointed questions about a specific live survey or their own results",
+    "then": "Take it offline warmly: specifics belong with HR or their leader. Keep the room on how the tooling works for everyone."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "If it is really anonymous, why do I have to log in to take the pulse?",
+    "a": "Login proves you are eligible and stops duplicates; the response is then separated from your identity before any reporting. Authentication and attribution are different steps, and reporting only ever uses the stripped version."
+   },
+   {
+    "q": "What if my honest answer makes my manager look bad?",
+    "a": "Aggregate signal about a manager is exactly what Goal 2 needs to work: managers are being taught this month to read it as behavior data, without defensiveness. A softened answer protects nobody; it hides the signal that could improve your own week."
+   },
+   {
+    "q": "Nobody ever seems to act on these surveys, so why bother?",
+    "a": "Fair challenge, and this year is the answer: the manager standard is now measured partly through this data, which means your signal has somewhere to go. Give the honest answer and watch what leaders do with it; that visibility is new."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes on the feedback machinery. Ever softened a survey answer just in case? This session shows exactly what happens after you click submit. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Honest in, useful out? Three lines, reply whenever: 1) Did a survey or piece of feedback reach you this week? 2) Did the honest version go in? 3) What signal did you read out of what came back?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Pulse and 360 tooling: reading your own signal.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university that intends to define the century has to hear itself clearly, and pulse data is how Vanderbilt listens at scale. Honest signal from every staff member is Exceptional Core Operations in its rawest form: the truth, on time.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves and the measurable move it needs.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: By Q4, implement a Vanderbilt manager standard that measures demonstrated leader behavior. Today's baseline is 15%; the Q4 target is 80%. Goal 2 measures the manager standard through data, and that data starts with you. Today you learn how the tooling protects your voice and what to do with the signal that comes back.",
+   "facilitate": [
+    "Let the meter animate before you speak to the number.",
+    "One line, not a lecture: this session is one of the moves that closes the gap."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: explain how anonymization and aggregate reporting protect your answers; take surveys honestly, knowing what is protected and what is shared; read feedback you receive as signal to use rather than a verdict on you. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: how the tooling works, safe to say, signal, not verdict. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "How the tooling works",
+   "purpose": "Demystify the plumbing: anonymization, minimum group sizes, and aggregate reporting.",
+   "say": "Here is a thing almost nobody gets shown: what actually happens to a survey answer after you click submit. Your name comes off. Your answer joins a pool. If the pool is too small, no report exists at all. What a leader finally sees is a theme and a number, never a row with your name on it. We are opening the hood today, because people are only as honest as the plumbing lets them feel safe being.",
+   "facilitate": [
+    "Read the lead once, then run the knowledge check on learner screens.",
+    "Walk the three protections slowly: names off, minimum group size, aggregates only.",
+    "Run the breakout on what people have heard about who sees answers."
+   ],
+   "ask": {
+    "q": "What have you heard people say about who sees the answers?",
+    "expect": [
+     "My manager can figure out who said what",
+     "IT can look anything up"
+    ],
+    "respond": "Both common, both myths in this tooling. The design assumes nobody should have to trust good intentions; the plumbing does the protecting."
+   },
+   "debrief": "Three protections stack: no names, minimum group sizes, aggregates only. Comments travel word for word, so aim them at the work.",
+   "watchFor": "A learner describing a past workplace where anonymity was broken. Acknowledge it happened there, then return to how this tooling is built here.",
+   "transition": "Knowing the plumbing kills most of the myths. Let us test the rest.",
+   "coreNote": "Core: skip the breakout; take myths in chat instead.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Safe to say",
+   "purpose": "Separate identification myths from the one real norm, so honest participation feels as safe as it is.",
+   "say": "Every survey season, good people soften their answers for reasons that sound sensible. Someone will trace it back. One voice cannot matter. Honesty gets people in trouble. Two of those are myths the plumbing already handles. One points at a real norm: open comments travel word for word, so they should describe work, never named colleagues. Play the rounds and see if you can tell which is which.",
+   "facilitate": [
+    "Run Myth or norm? live on learner screens.",
+    "After round two, pause: ask what makes the comment norm different from the myths.",
+    "Run the breakout on the myth people have half-believed."
+   ],
+   "ask": {
+    "q": "Why do the identification myths survive even after people hear how the tooling works?",
+    "expect": [
+     "A story from an old employer",
+     "Distrust travels faster than plumbing diagrams"
+    ],
+    "respond": "True. Which is why the protections stay boring and mechanical on purpose: they hold whether or not anyone trusts anyone."
+   },
+   "debrief": "Honesty is protected by design. The one real norm is about aim: comments describe the work, never a named colleague.",
+   "watchFor": "The conversation sliding into whether leadership acts on results. Park it honestly: acting on signal is the leaders' half of the deal, and this month's manager sessions are exactly about that.",
+   "transition": "So your honest signal goes in. Next: what to do when signal about you comes back out.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Signal, not verdict",
+   "purpose": "Teach the signal read for received feedback: right-sized, one adjustment, time-boxed.",
+   "say": "Now the harder direction. Sooner or later the tooling points at you: a 360 summary, a peer comment, a theme from a project you led. And one line will sting. The verdict read asks what that line says about your worth, and it will happily run your whole week. The signal read asks a smaller question: what is this pointing at, and what one adjustment would test it? Let us practice on a week you will recognize.",
+   "facilitate": [
+    "Run Read your results; two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Name the pattern: right-size the comment, pick one adjustment, time-box the trial."
+   ],
+   "ask": {
+    "q": "What makes the dismissive read, 'they do not know my situation,' so comfortable?",
+    "expect": [
+     "It might genuinely be true",
+     "It ends the discomfort instantly"
+    ],
+    "respond": "Both. The move is to let it be partly true and still ask what fraction of the comment is signal. Even a clumsy comment usually points at something."
+   },
+   "debrief": "The signal read in three steps: actual size, one adjustment, two-week trial.",
+   "watchFor": "Anyone visibly carrying a real stinging comment. Offer the frame gently and move on; this is a skills session, never a group therapy room.",
+   "transition": "Quick recap, then your card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Honest in, useful out: the whole system runs on people saying the true thing.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Make it yours. Name the next moment your signal shows up, pick the move, pick the window, and build the card. Roles, never names, and nothing you type leaves your screen. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave knowing the plumbing, the myths, and the read. Spend your next answer honestly. On Thursday, Thrive Thursday takes the last step inward: self-awareness and closing the blind spots your feedback keeps pointing at. And if you want a rehearsal first, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a feedback role-play with its navigator in about twenty minutes.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

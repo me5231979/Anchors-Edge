@@ -60,7 +60,7 @@
       "dataTitle": "What goes where",
       "eyebrow": "The Sort",
       "headline": "Some notes belong in the system. Some <em>never will</em>.",
-      "lead": "You will sit in career conversations all year: your own 1:1s, mentoring chats, peer feedback. Some of what you hear belongs on your visible record, some belongs in your private notes, and some should never be written anywhere. The sort takes five seconds once you know it.",
+      "lead": "You will sit in career conversations all year: 1:1s, mentoring chats, peer feedback. Some of what you hear belongs on your visible record, some in your private notes, and some should never be written anywhere. The sort takes five seconds once you know it.",
       "group": "In pairs: one thing you would happily put on your visible record, and one thing you would keep in private notes. Compare sorts.",
       "solo": "Write one thing you would put on your visible record and one thing you would keep in private notes.",
       "interaction": {
@@ -85,7 +85,7 @@
       "dataTitle": "Write the entry",
       "eyebrow": "The Entry",
       "headline": "Write it so a reader can <em>act</em>.",
-      "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to respond to. A goal with a direction and a dated first step, and a note with the date and the agreement, turn your record into something projects and people can answer.",
+      "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to act on. A goal with a direction and a dated first step, and a note that holds the agreement, turn your record into something projects and people can answer.",
       "interaction": {
         "type": "builder",
         "playTitle": "Build your entry",
