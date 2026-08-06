@@ -1,0 +1,285 @@
+{
+ "meta": {
+  "program": "The Second Channel · Thrive Thursday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session closes the week in February's Coaching as the Core Manager Behavior month.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the check-in on your card happen? What did you learn that the words never said? Whose baseline are you learning now?' Share-backs feed the month's story bank for the coaching theme.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale. Baseline 15%, Q4 target 80%.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone shares a heavy personal situation live on the call",
+    "then": "Receive it with one warm sentence, then protect them from the group: 'Thank you for trusting us with that; let's talk after.' Follow up privately and point to support resources where it fits."
+   },
+   {
+    "if": "Someone objects that reading tone is mind-reading or overstepping",
+    "then": "Agree with the caution: the skill is noticing a change and asking, never diagnosing. The check-in hands the meaning back to the person, which is the opposite of mind-reading."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't this asking me to be my colleagues' therapist?",
+    "a": "No. The move is a thirty-second check-in and one feeling-first sentence, both ordinary collegial behavior. Anything heavier gets a warm handoff toward real support, and knowing that limit is part of the skill. You are a colleague who listens well; that is the whole job."
+   },
+   {
+    "q": "What if I check in and I'm wrong, and it gets awkward?",
+    "a": "A light, open check-in has a built-in exit: 'all good' ends it with no harm done. People remember being noticed kindly far longer than they remember a guess that missed. The awkwardness lives in naming feelings for people, which is exactly what the check-in avoids."
+   },
+   {
+    "q": "What about tone in email and chat, where there is no voice?",
+    "a": "Baselines still work: message length, response speed, punctuation, the emoji that went missing. Read the change against that person's normal, the same rule as voice. Then move the check-in itself somewhere richer; a shift noticed in chat rarely untangles in chat."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on hearing what isn't said. Bring the memory of one moment a colleague's tone told you more than their words. You will never be asked to name anyone. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the check-in happen? Three lines, reply whenever: 1) Did the check-in on your card happen? 2) What did you learn that the words never said? 3) Whose baseline are you learning now?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Thrive Thursday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Empathy at work: hearing what isn't said.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A century-defining university is built on thousands of working relationships, and empathy is what keeps them working. Hearing colleagues well is everyday culture work, the human layer of Exceptional Core Operations.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves and the measurable move it needs.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: By Q4, implement a Vanderbilt manager standard that measures demonstrated leader behavior. Today's baseline is 15%; the Q4 target is 80%. The manager standard runs on coaching, and coaching runs on listening. This session builds the listening for everyone, because every colleague shapes how heard people feel at work.",
+   "facilitate": [
+    "Let the meter animate before you speak to the number.",
+    "One line, not a lecture: this session is one of the moves that closes the gap."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: notice tone and energy shifts that carry more information than the words; check in with a light, open question instead of assuming what a shift means; answer the feeling in a message before answering its content. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: the second channel, the check-in, feeling before content. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "The second channel",
+   "purpose": "Teach shift-noticing against a personal baseline: tone, pace, and energy over words.",
+   "say": "Think about the last time a colleague said 'fine' and you knew it was anything but. You were reading the second channel: tone, pace, energy, everything around the words. Everyone broadcasts on it, and most of us only listen when it gets loud. The skill starts smaller than that: knowing a person's normal well enough to notice when it changes.",
+   "facilitate": [
+    "Read the baseline rule from the card; it reframes quiet colleagues immediately.",
+    "Run the knowledge check; everyone answers on their own screen.",
+    "Run the breakout on the 'tell' they have learned to read, roles only."
+   ],
+   "ask": {
+    "q": "Whose baseline do you know best, and what is their tell?",
+    "expect": [
+     "Quick answers about close collaborators",
+     "A realization that they only know a few baselines"
+    ],
+    "respond": "Both are useful. Baselines come free with attention, so you already own several. The gap is usually the colleagues you only ever meet in meetings."
+   },
+   "debrief": "Shifts read against a baseline, and a shift is a hypothesis, never a verdict.",
+   "watchFor": "Diagnosis creep: 'quiet means disengaged.' Pull it back every time. Noticing is the skill; the meaning belongs to the person.",
+   "transition": "You noticed the shift. The next move decides whether noticing helps.",
+   "coreNote": "Core: skip the breakout; collect two 'tells' in chat and move on.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The check-in",
+   "purpose": "Replace assuming and ignoring with the light, private, open check-in.",
+   "say": "A noticed shift puts three moves on the table. You can assume, which is a guess wearing certainty. You can ignore, which the person reads as an answer anyway. Or you can check in: private, light, open, easy to decline. 'You went quiet back there, anything you'd add?' costs thirty seconds, and it is the difference between guessing at people and asking them.",
+   "facilitate": [
+    "Run Assume, ignore, or check in? live on everyone's screens.",
+    "After round one, linger: the guess was private and kind and still a guess.",
+    "Run the breakout: say a check-in line aloud in your own voice."
+   ],
+   "ask": {
+    "q": "What makes 'no need to answer' such a strong ending for a check-in?",
+    "expect": [
+     "It removes the pressure to perform an answer",
+     "It makes declining safe",
+     "It proves the door is real"
+    ],
+    "respond": "Right. An exit ramp makes honesty cheaper. Half the value of a check-in lands even when the answer is 'all good.'"
+   },
+   "debrief": "Private, light, open, easy to decline. The check-in hands the meaning back to the person instead of guessing it for them.",
+   "watchFor": "Scripted-sounding lines in the breakout. Push for their own voice; a borrowed phrase reads as a technique, and techniques get polite answers.",
+   "transition": "Check-ins cover the shifts you see. The last section covers the feelings that arrive in writing.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one line from chat.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Feeling before content",
+   "purpose": "Train the feeling-first reply: one plain sentence answering the emotion before any facts or fixes.",
+   "say": "Sometimes the second channel arrives in writing: capital letters in the middle of a message and a 'whatever, I'll figure it out' at the end. The reflex is to answer the content, because the content has an answer. A frustrated message is two messages, though, and if you only answer the facts, the person heard you ignore the other one. One plain sentence for the feeling first. Then the facts land as help.",
+   "facilitate": [
+    "Run Answer the whole message; two minutes for both lines, then send it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: name the frustration plainly, then relief with a clock on it."
+   ],
+   "ask": {
+    "q": "Why does the quick apology in slot one still land badly?",
+    "expect": [
+     "It is generic; it could answer any message",
+     "It skips what they actually said",
+     "Speed without acknowledgment reads as brush-off"
+    ],
+    "respond": "Yes. The apology answers that a message arrived; the strong line answers what the message carried. People can tell which one they got."
+   },
+   "debrief": "Feeling first, one plain sentence, then concrete help with a time attached. That order is the whole skill.",
+   "watchFor": "Overwrought feeling-lines that sound like a script. One plain sentence beats a paragraph of validation; this is workplace listening, kept light.",
+   "transition": "Quick recap, then you pick your person and build the check-in card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: People tell you how they are before they tell you what they think. Listen in that order.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One colleague whose second channel has shifted, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "That closes the coaching week. Monday gave managers the coaching moment, Tuesday put growth on the record for everyone, and today built the listening underneath both. Run the check-in on your card, and bring what the second channel taught you into next week's sessions. If you want to keep pulling the thread, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, and the navigator-led GROW practicum is a friendly place to practice this kind of listening out loud. Same rhythm next week; a new month and a new goal arrive in March.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}
