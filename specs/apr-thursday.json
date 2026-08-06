@@ -1,0 +1,258 @@
+{
+  "slug": "apr-thursday",
+  "series": "Thrive Thursday",
+  "month": "April 2027",
+  "monthShort": "Apr",
+  "monthIndex": 7,
+  "theme": "The Transfer Portal in Practice",
+  "goal": 1,
+  "title": "Internal Bridges",
+  "titleHtml": "Build bridges <em class=\"gold-text\">before you need them</em>.",
+  "tagline": "Networking without the ick: building internal bridges.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff: connect across departments with genuine curiosity, run the 20-minute virtual coffee, and keep your bridges warm with small, real follow-ups.",
+  "heroLead": "If the word networking makes you cringe, good; the cringe means you have seen it done badly. This session rebuilds it on curiosity: real questions across departments, a 20-minute coffee format, and follow-ups small enough to actually send.",
+  "objectives": [
+    "Swap transactional networking for curiosity-based connecting across departments",
+    "Run a 20-minute virtual coffee, from the invite to the thank-you",
+    "Keep a bridge warm with small, genuine follow-ups that take two minutes"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Networking"},
+    {"label": "Collaboration"},
+    {"label": "Communication"}
+  ],
+  "missionTie": "Radical Collaboration is a chancellor-level bet that Vanderbilt's best work happens across boundaries. Every bridge you build between departments is that bet paying off at human scale, one 20-minute coffee at a time.",
+  "goalLead": "The Portal shows you postings; people tell you what is coming before it posts. Internal bridges are how opportunity reaches you early, and how your name comes up in rooms you are not in.",
+  "agenda": [
+    {"t": "Networking without the ick", "d": "Curiosity is the whole trick: real questions beat working a room."},
+    {"t": "The 20-minute coffee", "d": "The invite, the questions, and the close of a coffee worth taking."},
+    {"t": "Keeping bridges warm", "d": "Two-minute follow-ups that keep a connection alive for years."}
+  ],
+  "manifesto": "Curiosity builds the bridge; small follow-ups keep it standing.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Reframe",
+      "dataTitle": "Networking without the ick",
+      "eyebrow": "The Reframe",
+      "headline": "Curiosity is the <em>whole trick</em>.",
+      "lead": "The ick comes from networking as extraction: collecting contacts you plan to use someday. Curiosity flips it. You reach out because you genuinely wonder how enrollment forecasts get made, or what facilities sees at 5am. Genuine interest carries no ick.",
+      "group": "In pairs: name one Vanderbilt team whose work you are genuinely curious about, and the question you would ask them. 90 seconds each.",
+      "solo": "Name one Vanderbilt team you are genuinely curious about, and the question you would ask them.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The curiosity test",
+          "text": "Before reaching out, find the question you actually want answered about their work. If you have one, the outreach will feel natural to send and to receive. If you cannot find one, you picked the wrong person, and no script will fix it."
+        },
+        "q": "What separates connecting from the networking that feels gross?",
+        "opts": [
+          {"t": "Doing it less often", "correct": false, "why": "Frequency was never the problem. One extraction attempt feels worse than a dozen genuinely curious conversations."},
+          {"t": "Leading with a question you genuinely want answered", "correct": true, "why": "Exactly. Curiosity makes the outreach honest, gives the conversation a spine, and leaves both people better off whether or not anything comes of it."},
+          {"t": "Only connecting with people at your own level", "correct": false, "why": "Curiosity travels in every direction. Some of the best bridges run to people whose work looks nothing like yours; that distance is the value."}
+        ]
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Coffee",
+      "dataTitle": "The 20-minute coffee",
+      "eyebrow": "The Coffee",
+      "headline": "Twenty minutes, <em>well spent</em>.",
+      "lead": "The 20-minute virtual coffee is the unit of internal networking: short enough to say yes to, long enough to matter. The invite decides whether it happens; the questions decide whether it was worth it. Build both.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Build the coffee",
+        "intro": "You are inviting someone from another department to a 20-minute virtual coffee. Choose the invite and the twenty minutes.",
+        "runLabel": "Run the coffee",
+        "outcomeTag": "How it lands",
+        "slots": [
+          {
+            "key": "The invite",
+            "opts": [
+              {"t": "Hi! I'd love to pick your brain sometime. Coffee?", "pts": 1, "coach": "Vague ask, unbounded time, no reason. 'Pick your brain' tells them the meeting is work for them and a favor to you. Easy to ignore."},
+              {"t": "I'm trying to grow my network at Vanderbilt. Could we meet?", "pts": 2, "coach": "Honest, and it makes the coffee about your goals. The reason to say yes needs to include them, or at least their work."},
+              {"t": "I saw your team rebuilt orientation. I'm curious how you pulled it off. 20 minutes sometime?", "pts": 3, "coach": "Specific, flattering because it is true, and bounded at 20 minutes. You gave them a reason that is about their work. This one gets a yes."}
+            ]
+          },
+          {
+            "key": "The twenty minutes",
+            "opts": [
+              {"t": "Walk through your background and mention you are open to opportunities.", "pts": 1, "coach": "That turns a coffee into an audition nobody scheduled. The fastest way to make an internal contact go cold is to make them your job lead."},
+              {"t": "Keep it loose and see where the conversation goes.", "pts": 2, "coach": "Pleasant, and it drifts. Without a couple of real questions the twenty minutes evaporates and neither of you can say what it was for."},
+              {"t": "Ask your three real questions, listen hard, and end at twenty with a thank-you.", "pts": 3, "coach": "Questions carry the meeting, listening makes you memorable, and ending on time is what earns the second yes."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A coffee they would take again. You left with real insight and they left feeling interesting, which is rarer.",
+          "mid": "Pleasant and shapeless. Nobody regrets it; nobody remembers it either.",
+          "weak": "They saw the ask coming and went politely vague. The bridge is now harder to build than before you started."
+        },
+        "reactions": {
+          "strong": "Three weeks later they forward you a posting on their team with 'thought of you.' You did nothing but be curious and end on time. That is how bridges start carrying traffic.",
+          "mid": "A month later neither of you could say what the coffee was about. The next invite starts from scratch.",
+          "weak": "Your name now arrives with a small flinch attached. When a role opens on their team, they remember the audition, and they think of someone else for it."
+        }
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Warmth",
+      "dataTitle": "Keeping bridges warm",
+      "eyebrow": "The Warmth",
+      "headline": "Small follow-ups, <em>long bridges</em>.",
+      "lead": "A bridge you never touch again quietly falls down. Keeping it warm takes two minutes: a link they would care about, a congratulations, a thank-you with a specific detail. Read each follow-up and call it.",
+      "group": "In pairs: name one contact in another department you could send a two-minute warm follow-up to this week. What would it say?",
+      "solo": "Name one contact in another department and the two-minute warm follow-up you could send this week.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Call the follow-up",
+        "intro": "Warm, transactional, or too much? Read each move and call it.",
+        "progressWord": "Move",
+        "labels": ["Warm, send it", "Transactional, rework it", "Too much, let it breathe"],
+        "passAt": 2,
+        "passMsg": "You have the touch: specific, generous, occasional. Bridges kept that way hold for years.",
+        "failMsg": "Close. The tell: warm follow-ups are specific and ask for nothing. Asks after long silence read as extraction, and daily contact reads as pressure.",
+        "items": [
+          {"q": "A month after your coffee, you spot an article on the system they said they were migrating to. You send the link with one line.", "answer": 0, "why": "Two minutes, specific to them, asks for nothing. This is the perfect warm follow-up: proof you listened, delivered with no invoice attached."},
+          {"q": "You have not spoken since October. A role opens on their team. Your first message in months is your resume and 'any chance of a referral?'", "answer": 1, "why": "Cold silence, then an ask: the extraction pattern that gave networking its ick. Warm the bridge first, or make the ask plainly without presuming a relationship."},
+          {"q": "Tuesday's coffee went great. You sent a thank-you Wednesday, a LinkedIn request Thursday, and are drafting a Friday check-in.", "answer": 2, "why": "The thank-you was perfect; the rest is crowding. Bridges are kept warm monthly, with moments that matter, and never by volume."}
+        ]
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What takes the ick out of internal networking?",
+      "opts": ["Doing it only at official events", "Leading with genuine curiosity about their work", "Keeping every coffee under ten minutes", "Only connecting within your division"],
+      "correct": 1,
+      "why": "Curiosity makes outreach honest. If you have a question you truly want answered, the connection carries itself."
+    },
+    {
+      "q": "What makes a virtual-coffee invite easy to say yes to?",
+      "opts": ["Keeping it vague so they can shape it", "Offering to buy them an actual coffee", "A specific reason about their work, capped at 20 minutes", "Copying their manager for visibility"],
+      "correct": 2,
+      "why": "Specific plus bounded gets the yes. 'Pick your brain sometime' is vague, unbounded, and all about you."
+    },
+    {
+      "q": "A month after a good coffee, the best bridge-warming move is...",
+      "opts": ["A resume, in case something opens", "A specific two-minute follow-up that asks for nothing", "A daily stream of likes and comments", "Waiting for them to reach out first"],
+      "correct": 1,
+      "why": "Specific and generous keeps the bridge warm. Extraction asks and radio silence both let it quietly fall down."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The bridge kit is complete. Now pick your first coffee.",
+    "mid": "Solid. Revisit the section you missed, then build your card.",
+    "low": "Worth a second pass through the three sections before you commit."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My first bridge",
+    "headline": "One bridge, started <em>this week</em>.",
+    "lead": "Pick the bridge move you will actually make. Teams and roles, never names; nothing you type is saved or sent.",
+    "whoLabel": "Where does the bridge go? A team or role, and your genuine question.",
+    "whoPlaceholder": "e.g. analyst on the enrollment team; how do the fall forecasts get made?",
+    "practiceLabel": "Which bridge move do you make?",
+    "whoRow": "The bridge and the question",
+    "practices": [
+      {"id": "coffee", "chip": "The curiosity coffee", "name": "The curiosity coffee", "move": "Send one specific, bounded invite to someone in another department: their work, your genuine question, 20 minutes."},
+      {"id": "warm", "chip": "The warm follow-up", "name": "The warm follow-up", "move": "Send one two-minute follow-up to a contact you already have: a link, a congratulations, or a thank-you with a specific detail."},
+      {"id": "map", "chip": "The bridge map", "name": "The bridge map", "move": "List three teams your work touches but you have never met, and the one person you would ask for a coffee in each."}
+    ],
+    "whens": [
+      {"id": "today", "chip": "Before I log off today", "out": "The move happens today, before you close this tab."},
+      {"id": "week", "chip": "This week", "out": "The move happens this week, sent by Friday."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
+    ],
+    "cardTitle": "My first bridge card",
+    "evidenceRow": "Afterward, one line: what did you learn about their work that you could never have guessed?"
+  },
+  "closing": {
+    "headline": "Build the bridge <em>before you need it</em>.",
+    "lead": "You rebuilt networking on curiosity, packed it into twenty minutes, and learned the two-minute follow-up. With Monday's sending managers and Tuesday's Portal walkthrough, the month's whole map is in your hands.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Make the bridge move on your card",
+    "nextBody": "Send the invite or the follow-up exactly as built. If growing a team is your next stretch, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.",
+    "brandline": "Small coffees. Long bridges."
+  },
+  "facilitator": {
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this session builds its human network.",
+    "pulse": "Seven days out, send the pulse: 'Did the bridge move on your card happen? What did you learn that you could never have guessed? Which bridge is next?' Count of sent invites and follow-ups is the Level 3 metric for the month.",
+    "s1": {
+      "title": "Networking without the ick",
+      "purpose": "Replace networking-as-extraction with curiosity-based connecting.",
+      "say": "Let's name it: for most people, the word networking triggers a small full-body cringe. Good. The cringe is accurate; it is what extraction feels like from the outside. Today we throw that version out. The replacement runs on one fuel: genuine curiosity about how other people's work actually happens. You will never need a script again, because a real question is the script.",
+      "facilitate": [
+        "Read the curiosity test card aloud once.",
+        "Run the knowledge check; ask in chat for a one-word answer to 'what makes networking feel gross?'",
+        "Run the breakout: one team you are curious about and the question you would ask."
+      ],
+      "ask": {
+        "q": "Which Vanderbilt team's work are you genuinely curious about?",
+        "expect": ["Often a team they collaborate with but have never really met", "Sometimes something completely unrelated to their role"],
+        "respond": "Notice how easy that question was. That is the whole reframe: your curiosity already exists; networking is just letting it out of the building."
+      },
+      "debrief": "The curiosity test does the filtering: a real question means the right person, and no question means the wrong one.",
+      "watchFor": "Self-identified introverts opting out early. Name it: this model favors them; one genuine question beats an hour of working a room.",
+      "transition": "Curiosity needs a container. Ours is twenty minutes long.",
+      "coreNote": "Core: skip the breakout; take three curiosity targets in chat."
+    },
+    "s2": {
+      "title": "The 20-minute coffee",
+      "purpose": "Give everyone a repeatable format: the specific bounded invite and the question-led twenty minutes.",
+      "say": "The unit of internal networking is the 20-minute virtual coffee. Twenty minutes is short enough that a stranger says yes and long enough to actually learn something. But the coffee is won or lost in the invite: specific about their work, honest about your curiosity, and bounded in time. Then the twenty minutes themselves: your questions, their answers, your full attention, and a clean ending.",
+      "facilitate": [
+        "Run Build the coffee; two minutes to choose both slots and run it.",
+        "Ask one volunteer to read their outcome aloud, weak or strong.",
+        "Point at the pattern: specific bounded invite, question-led minutes."
+      ],
+      "ask": {
+        "q": "Why does ending at twenty minutes matter so much?",
+        "expect": ["It respects their calendar", "It proves you meant the invite", "It leaves them wanting more"],
+        "respond": "All three, and it compounds: the person who ends on time is the person whose next invite gets accepted within the hour."
+      },
+      "debrief": "Specific invite, real questions, clean ending. The format is small on purpose; small is what makes it repeatable.",
+      "watchFor": "People drafting invites that are secretly job inquiries. Redirect to the curiosity test: the coffee is for learning, and opportunity follows on its own.",
+      "transition": "One good coffee is a plank. Keeping it warm is what makes it a bridge.",
+      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+    },
+    "s3": {
+      "title": "Keeping bridges warm",
+      "purpose": "Install the two-minute warm follow-up habit and the instincts for cadence.",
+      "say": "Here is where most bridges die: the coffee goes great, everyone means to stay in touch, and eleven months later the connection is too cold to use. The fix costs two minutes: a link about something they mentioned, a congratulations on their project, a thank-you with one specific detail. Specific, generous, occasional. That cadence keeps a bridge warm for years, and it is the difference between a contact list and a network.",
+      "facilitate": [
+        "Run Call the follow-up live; everyone plays on their own screen.",
+        "After round two, pause on the resume-after-silence pattern; ask why it lands so badly.",
+        "Run the breakout: one contact and the two-minute follow-up you could send."
+      ],
+      "ask": {
+        "q": "What makes the article-link follow-up in round one so effective?",
+        "expect": ["It proves you listened", "It asks for nothing", "It takes two minutes"],
+        "respond": "Right. Generosity at two-minute scale is the most underpriced move in professional life. Nobody forgets the person who remembered."
+      },
+      "debrief": "Warm follow-ups are specific, generous, and occasional. The bridge you keep warm is the one that carries opportunity later.",
+      "watchFor": "People turning the follow-up into a scheduled campaign. Keep it human: when you genuinely think of them, send the two minutes.",
+      "transition": "Quick recap, then you pick your first bridge.",
+      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+    },
+    "capstoneSay": "Now make it real. One bridge: a team, your genuine question, and the move you will make. Teams and roles, never names. Build the card and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "closeSay": "You leave with a curiosity test, a coffee format, and a two-minute habit. That closes the Transfer Portal week: Monday gave managers the sending mindset, Tuesday walked the Portal end to end, and today built the bridges that carry the news. If you want more this month, the navigators are running a live Portal walkthrough and a skill-profile clinic, and the LinkedIn Learning pick is Building Your Team by Chris Croft. Next week Anchor's Edge turns to May and a new theme; same time, same rhythm.",
+    "contingencies": [
+      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
+      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
+      {"if": "Someone says they have no time for networking", "then": "Do the math aloud: one 20-minute coffee and two 2-minute follow-ups a month is under half an hour. Compare that with the cost of starting every search, project, and question from cold."},
+      {"if": "A participant wants to network only for a specific job they are chasing", "then": "Honor the goal and widen the frame: a live application is Portal work, and a navigator can help today. Bridges are the long game that means the next opportunity finds them."}
+    ],
+    "toughQuestions": [
+      {"q": "Isn't this just politics with better branding?", "a": "Politics is managing impressions; this is trading genuine curiosity. The test is simple: if the other person got nothing from the exchange, it was politics. A good coffee leaves them feeling interesting and you knowing more. Both sides gained."},
+      {"q": "I'm an introvert. Is there a version of this for me?", "a": "This is the introvert version: one person, twenty minutes, prepared questions, and listening as the main event. The model that requires working a room is the one we threw out in section one."},
+      {"q": "What if I invite someone senior and they ignore me?", "a": "Expect some silence; senior calendars eat invites. A specific, bounded, curious invite lands better than you fear, and one gentle nudge after two weeks is fine. After that, pick another door; curiosity has plenty of targets."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on networking without the ick. Bring one team at Vanderbilt you are genuinely curious about. That is the only homework. Live and interactive; have the session link open on your own screen."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the bridge move happen? Three lines, reply whenever: 1) Did the invite or follow-up on your card go out? 2) What did you learn that you could never have guessed? 3) Which bridge is next?"}
+    ]
+  }
+}
