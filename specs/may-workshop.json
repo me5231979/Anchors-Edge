@@ -99,7 +99,11 @@
    "dataTitle": "The live rounds",
    "eyebrow": "The Rounds",
    "headline": "Give the line, then <em>receive one</em>.",
-   "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.",
+   "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. ATD's transfer research puts active practice among the few design choices that carry a skill to the job. Receive cleanly: thanks, then one question.",
+   "source": {
+    "label": "Active practice, design tactics for training transfer (ATD)",
+    "url": "https://www.td.org/magazines/td-magazine/design-tactics-for-training-transfer"
+   },
    "group": "Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.",
    "interaction": {
     "type": "check",

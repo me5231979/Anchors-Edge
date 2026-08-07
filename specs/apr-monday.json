@@ -154,7 +154,11 @@
    "dataTitle": "The team talk",
    "eyebrow": "The Move",
    "headline": "Bring the map to the <em>team</em>.",
-   "lead": "Share the map with your team early, before rumor fills the gap. Shared, it becomes a redesign the team helps write: which tasks move to a tool, what the freed hours become. Two choices decide how it lands: the line you open with and the promise you make.",
+   "lead": "Share the map early, before rumor fills the gap. Gallup finds people feel far readier for AI when a manager has explained the plan and how it touches their work. Two choices decide how it lands: your opening line and the promise you make.",
+   "source": {
+    "label": "Manager support drives employee AI adoption (Gallup)",
+    "url": "https://www.gallup.com/workplace/694682/manager-support-drives-employee-adoption.aspx"
+   },
    "deeper": {
     "title": "Keep the map alive after the talk",
     "body": "The opening meeting is the easy part; the promise gets kept in what happens next. Put the map where the team can see and edit it, and treat every task they add as a gift. Then keep the redesign promise visibly the first time it is tested: when the first task moves to a tool, let the team decide in the open what fills the freed hour. One kept promise buys more trust than a season of reassurance.",

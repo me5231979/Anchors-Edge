@@ -37,7 +37,8 @@
       "dataTitle": "The two maps meet",
       "eyebrow": "The Overlay",
       "headline": "Lay both maps <em>side by side</em>.",
-      "lead": "Physically spread both artifacts: the exposure map that says which work is changing, and the skills read that says who could grow. The plan lives where they touch: an exposed task next to a hidden strength. Roles only, never names, even on your own worksheet.",
+      "lead": "Spread both artifacts: the exposure map of work that is changing, and the skills read of who could grow. The plan lives where they touch. Deloitte's skills-based research matches work to skills, never to job titles. Roles only, never names.",
+      "source": {"label": "The skills-based organization, a new model for work (Deloitte)", "url": "https://www.deloitte.com/us/en/insights/topics/talent/organizational-skill-based-hiring.html"},
       "group": "Point a neighbor at one place your maps touch: an exposed task near an underused strength, roles only. The neighbor says the move they see before you say yours.",
       "interaction": {
         "type": "check",

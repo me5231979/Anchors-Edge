@@ -104,8 +104,8 @@
    "group": "Pairs: name one live decision and call its door. 60 seconds each.",
    "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
    "source": {
-    "label": "Two-way doors, Bezos 2015 shareholder letter",
-    "url": "https://www.aboutamazon.com/news/company-news/2015-letter-to-shareholders"
+    "label": "Two-way doors, Jeff Bezos 2015 shareholder letter (Amazon)",
+    "url": "https://ir.aboutamazon.com/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF"
    },
    "deeper": {
     "title": "Doors that look one-way",
@@ -153,7 +153,11 @@
    "dataTitle": "The circling decision",
    "eyebrow": "The Deadline",
    "headline": "Give the decision a <em>deadline</em>.",
-   "lead": "Everyone carries one decision they have been circling for months: a posting, a conversation, an ask. Name it, frame it as a fork with two options, and give it a deadline that one witness knows about. Then book 30 minutes on deadline day to make the call.",
+   "lead": "Everyone carries one decision they have been circling: a posting, a conversation, an ask. McKinsey's decision research says the fix is an owner and a firm date. Name the fork, set the deadline, tell one witness, book 30 minutes to decide.",
+   "source": {
+    "label": "Decision making in the age of urgency (McKinsey)",
+    "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/decision-making-in-the-age-of-urgency"
+   },
    "deeper": {
     "title": "After the landing",
     "body": "Two things deciders do that circlers skip. First, they write the call down with the date and top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, it shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen only if your written exit condition fires. The lightness after the wobble passes is the real payoff.",

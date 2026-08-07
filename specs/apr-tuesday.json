@@ -54,7 +54,11 @@
    "dataTitle": "The decomposition",
    "eyebrow": "The Breakdown",
    "headline": "Break the week into <em>sortable</em> tasks.",
-   "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the intake queue. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
+   "lead": "Asked what you do, you say your title. The sort works a level down. Harvard's field experiment with consultants found AI lifted some tasks and degraded others for the same people, so write your week the way Tuesday actually went, task by task.",
+   "source": {
+    "label": "The jagged technological frontier, Dell'Acqua et al. (HBS)",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+   },
    "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
    "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
    "deeper": {

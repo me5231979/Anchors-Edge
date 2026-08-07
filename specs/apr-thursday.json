@@ -152,7 +152,11 @@
    "dataTitle": "The live decision",
    "eyebrow": "The Move",
    "headline": "Point the filter at a <em>real decision</em>.",
-   "lead": "The filter earns its keep on live decisions: should our team adopt this tool, should I change how I work because of that claim? The answer is rarely yes or no on the spot. It is usually a small, cheap test with the mind-changer named before it runs.",
+   "lead": "Most claims arrive as pressure to adopt. Forbes reported MIT's finding that about 95 percent of enterprise AI pilots showed no measurable return, so answer a claim with a small, cheap test on your own work, mind-changer named before it runs.",
+   "source": {
+    "label": "Why 95 percent of AI pilots fail, Andrea Hill (Forbes)",
+    "url": "https://www.forbes.com/sites/andreahill/2025/08/21/why-95-of-ai-pilots-fail-and-what-business-leaders-should-do-instead/"
+   },
    "deeper": {
     "title": "A bar you can actually judge",
     "body": "The weak point of most trials is the missing baseline. Before the tool touches anything, time the task the way you do it now and keep one recent output as the comparison copy. Then write the bar where the team can see it, with a number and a quality condition. Decide in advance what a near miss means: a tool that almost clears the bar earns one revision of the test, and only one, or the trial quietly becomes a subscription.",

@@ -103,7 +103,11 @@
    "dataTitle": "The match",
    "eyebrow": "The Match",
    "headline": "One insight, <em>one move</em>.",
-   "lead": "The skill of this month is a clean match: read what the AI signal actually says about the work, then call the move it asks for. Most mismatches come from jumping straight to hire, or straight to training, before asking what the work itself now needs.",
+   "lead": "Read what the AI signal says about the work, then call the move it asks for. Hire is the reflex, and it is the slowest door in higher ed: CUPA-HR finds filling positions is supervisors' top challenge. Ask what the work needs before you post.",
+   "source": {
+    "label": "Higher ed supervisors on filling positions (CUPA-HR)",
+    "url": "https://www.cupahr.org/surveys/research-briefs/higher-ed-employee-retention-survey-focus-on-supervisors-january-2023/"
+   },
    "group": "Breakout pairs: name one insight from your own team, role only, and call its move. Partner challenges the call. 90 seconds each way.",
    "solo": "Name one insight from your own team, role only, and call the move you would make. Then argue for a different move for a moment.",
    "deeper": {

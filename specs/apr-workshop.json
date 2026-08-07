@@ -55,7 +55,11 @@
    "dataTitle": "The grid goes up",
    "eyebrow": "The Grid",
    "headline": "Write one row per <em>recurring task</em>.",
-   "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits in front of you, the gaps show, like the invisible cleanup and the work only one person knows.",
+   "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. MIT Sloan Management Review puts the gains in redesigning work at that level, never in buying the tool.",
+   "source": {
+    "label": "Want AI-driven productivity? Redesign work (MIT SMR)",
+    "url": "https://sloanreview.mit.edu/article/want-ai-driven-productivity-redesign-work/"
+   },
    "group": "Write the first eight rows of your grid, then trade sheets with a neighbor. They circle any row a stranger couldn't picture doing; you rewrite it on the spot.",
    "interaction": {
     "type": "check",
