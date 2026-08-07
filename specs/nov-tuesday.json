@@ -81,6 +81,16 @@
       "correct": false,
       "why": "Certificates help and are welcome, and most real skills have no paper. If you have done it, list it; the conversation later is where depth gets shown."
      }
+    ],
+    "context": "Last month's theme was seeing the talent around you. Your profile is the other half of that: it is how your talent gets seen. The Portal matches people to opportunity through skills, so a profile that only repeats your title hides most of what you can do, wherever you learned to do it.",
+    "discuss": "Why do so many of our strongest skills never make it into a job description? What would change for you if the rest of the university could see yours?"
+   },
+   "deeper": {
+    "title": "Writing skills the Portal can match",
+    "body": "There is a craft to naming a skill. 'Good with people' matches nothing; 'onboarding new hires' or 'de-escalating frustrated callers' matches real postings. Name the activity and keep it specific, splitting big skills into the pieces you actually do. Then add what you want to build next: that short list is how a stretch gig or a navigator finds you before you knew to look.",
+    "steps": [
+     "Draft ten skills as activities: what you do, for whom, with what. The hidden ones show up after the first five.",
+     "Pick two skills you want to grow next and add them to your profile as the direction you are building."
     ]
    }
   },
@@ -149,6 +159,14 @@
      "mid": "Two weeks on, the application sits at 'in review' and you are refreshing the page. One conversation with a navigator would tell you the stage and the next move.",
      "weak": "A month later a colleague lands a gig you never saw, building the exact skill you wanted. It was posted the whole time. The door was open; nobody walked up."
     }
+   },
+   "deeper": {
+    "title": "The case for a six-week gig",
+    "body": "A gig deserves more respect than it gets. Six weeks on another team answers questions no posting can: whether you enjoy the work daily, whether the team's rhythm suits you, whether the skill belongs at the center of your job. It also leaves evidence, a finished project and a manager in another building who has seen your work. Some of the strongest internal moves start as a gig both sides wanted to continue.",
+    "steps": [
+     "Run one skill-first search filtered to gigs and short projects. Save anything that pulls at you, even slightly.",
+     "For your favorite, write the question a navigator could answer about fitting the time alongside your current role."
+    ]
    }
   },
   {
@@ -189,6 +207,14 @@
       "answer": 2,
       "why": "Silence is a question, and navigators are the answer: they can tell you the stage, the timeline, and whether a skill-profile tweak would strengthen you."
      }
+    ]
+   },
+   "deeper": {
+    "title": "What happens after you raise your hand",
+    "body": "After you express interest, the hiring team sees your profile and your raised hand, and the process moves through stages you are allowed to ask about: review, conversations, decision. None of it is secret and none of it is binding. Navigators sit outside the hiring team, so they can tell you the stage, coach your skills profile, and help you plan the manager conversation, with nothing counted against you for asking.",
+    "steps": [
+     "Book 20 minutes with a navigator this month, even without a live application. Ask what strong first moves look like.",
+     "Write the sentence you would use to tell your manager you expressed interest, and say it out loud once."
     ]
    }
   }
@@ -290,7 +316,7 @@
   "brandline": "Move to opportunity without moving out."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this is the hands-on walkthrough.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November is the Transfer Portal in Practice month, and this is the hands-on walkthrough, building on last month's See the Talent Around You.",
   "pulse": "Seven days out, send the pulse: 'Did the Portal move on your card happen? What did you find that you did not know existed? What is your next move?' Count of completed Portal moves is the Level 3 metric for the month.",
   "s1": {
    "title": "Your profile is the signal",
@@ -298,7 +324,8 @@
    "say": "Here is how the Portal actually works: it matches people to opportunity through skills. Which means your profile is an antenna. If it only repeats your job title, it can only pick up your current job. Most of what you can do never made it into a job description, and today's first move is getting it into your profile.",
    "facilitate": [
     "Read the profile rule card aloud once.",
-    "Run the knowledge check; ask in chat who has updated their profile this year.",
+    "Show the in-the-room card in place of the quiz; ask in chat who has updated their profile this year.",
+    "Open the discussion: why do strong skills never make the job description? Take two or three voices.",
     "Run the breakout: one skill your title would never suggest."
    ],
    "ask": {
@@ -313,7 +340,7 @@
    "debrief": "The Portal reads skills, so an incomplete profile is a smaller career. Ten minutes fixes it.",
    "watchFor": "People listing duties instead of skills. Redirect: what can you do, wherever you learned it?",
    "transition": "The antenna is up. Now let's go find the signals.",
-   "coreNote": "Core: skip the breakout; ask for one hidden skill in chat instead."
+   "coreNote": "Core: skip the breakout; run the context card and take one hidden skill in chat."
   },
   "s2": {
    "title": "Search and raise your hand",

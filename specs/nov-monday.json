@@ -32,7 +32,7 @@
   }
  ],
  "missionTie": "Managers who send talent well make Vanderbilt a place people can build a whole career. That is Destination Vanderbilt at work: a university that will define the century keeps its people by letting them move toward their best work.",
- "goalLead": "Goal 1 built the Transfer Portal; managers decide whether it gets used. This session makes sending talent a management skill, starting with the moment someone tells you they applied.",
+ "goalLead": "Goal 1 built the Transfer Portal; last month taught managers to see the talent around them. Now the Portal needs senders: this session makes releasing talent a management skill, starting with the moment someone says they applied.",
  "agenda": [
   {
    "t": "The sending mindset",
@@ -81,6 +81,17 @@
       "correct": false,
       "why": "Usually the opposite. Teams watch how moves are treated. A supported move tells everyone that growth is real here."
      }
+    ],
+    "context": "Last month trained your eye to see the talent already around you. The sending mindset is what that seeing is for. When your strongest coordinator becomes a finalist in another school, Vanderbilt keeps a proven person and your team gets a gap. The gap can be hired; walked-out talent cannot.",
+    "discuss": "Think of a time holding someone in place felt like retention. Looking back, what did it actually cost the person, your team, or Vanderbilt?"
+   },
+   "deeper": {
+    "title": "The hard case: the person you cannot spare",
+    "body": "The mindset gets tested hardest with the person you truly cannot spare this quarter. The trade stays the same: a supported move on a negotiated timeline keeps them at Vanderbilt and keeps your credibility, while a blocked one starts an external search you will never see. The Portal expects transition planning, so timing is always a fair conversation. Whether is the thing you never negotiate, and people can tell the difference.",
+    "steps": [
+     "List who on your team is ready for more than their role offers. Roles on paper, never names.",
+     "For each, note the internal move that would keep them at Vanderbilt if it opened tomorrow.",
+     "Write the one handoff risk you would need to plan for, so your timing talk stays honest."
     ]
    }
   },
@@ -122,6 +133,14 @@
       "answer": 2,
       "why": "The support is real; the secrecy undoes it. The Portal works in the open, and asking for quiet tells them mobility is still something to hide."
      }
+    ]
+   },
+   "deeper": {
+    "title": "Two harder cousins of the moment",
+    "body": "The rehearsed minute has two harder cousins. First: you hear about the application from someone else. Open with the same gratitude anyway; a defensive first line confirms every reason they stayed quiet. Second: they do not get the role. The week after a miss decides whether they ever raise a hand again, so treat it as career data: debrief what the hiring team wanted and name the skill to build next.",
+    "steps": [
+     "Write your opening sentence for each cousin: the day you hear it secondhand, and the week after a miss.",
+     "Say both out loud once. Your mouth finds the stiff phrases faster than your eyes do."
     ]
    }
   },
@@ -190,6 +209,15 @@
      "mid": "The move went fine and vanished from memory. Your team learned nothing about how you see growth, so the next person who wants a move will still be nervous telling you.",
      "weak": "The mover tells the story of their awkward exit at their new team's lunch. Two people who might have applied to your open role hear it. Hoarding has a longer reach than it looks."
     }
+   },
+   "deeper": {
+    "title": "The alumni ledger",
+    "body": "A sending reputation compounds through alumni. Everyone who leaves your team well becomes a standing bridge: they route collaborations back, vouch for your openings, and flag work headed your way before the org chart knows. A manager with a few well-sent alumni across the university hears things months early. The send-off is where that ledger gets its first entry, and it is cheap to write.",
+    "steps": [
+     "List everyone who left your team in recent years and where they landed. Departments and roles, never names.",
+     "Mark the ones you could comfortably call today. That count is your sending reputation so far.",
+     "For one bridge gone cold, draft the two-minute message that reopens the door."
+    ]
    }
   }
  ],
@@ -290,7 +318,7 @@
   "brandline": "Move people to opportunity without moving them out."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this session opens it from the manager's side.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November is the Transfer Portal in Practice month, and this session opens it from the manager's side, building on last month's See the Talent Around You.",
   "pulse": "Seven days out, send the pulse: 'Did the sending move on your card happen? What did your team's reaction tell you? Who on your team might the Portal serve next?' Count of completed sending moves is the Level 3 metric for the month.",
   "s1": {
    "title": "The sending mindset",
@@ -298,7 +326,8 @@
    "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps the person, the knowledge, and the relationships. When you hold someone in place past their growth, you do not keep them. You delay them, and their next move is usually out the front door. Hoarding feels like retention. It is the leak.",
    "facilitate": [
     "Read the sending math card aloud once; it is the section's whole argument.",
-    "Run the knowledge check; ask for a show of hands on who picked 'lost a coordinator' first.",
+    "Show the in-the-room card; it carries the frame in place of the quiz. Let it land for a beat.",
+    "Open the discussion: what did holding someone actually cost? Take two or three voices.",
     "Run the breakout: someone who left, and whether an internal move would have kept them."
    ],
    "ask": {
@@ -312,7 +341,7 @@
    "debrief": "The gap on your team is real and temporary. The talent that walks out the front door is gone. That trade is the whole mindset.",
    "watchFor": "Managers doing the math only from their team's side. Keep pulling the frame up to the university level, where the move is a win.",
    "transition": "The mindset gets tested in one specific minute. Here it is.",
-   "coreNote": "Core: skip the breakout; ask for one 'where are they now' answer in chat."
+   "coreNote": "Core: skip the breakout; run the context card and take one discussion voice in chat."
   },
   "s2": {
    "title": "The moment they tell you",
