@@ -137,6 +137,48 @@ must feel different:
   gets instead of the quiz) and `discuss` (limit 170; the facilitator's
   discussion prompt).
 
+## Get to the point (the opening is one minute)
+
+The deck now runs: welcome (classroom only) > ONE "why" slide (mission
+line + goal, generated) > objectives > agenda > sections. Nothing you
+write should delay the objectives: `heroLead` is capped at 170 chars
+(one or two working sentences, no throat-clearing), `missionTie` is one
+sentence that earns its place, and agenda descriptions are plain.
+
+## Humanizer rules (kill the AI tells)
+
+Copy must read like a sharp colleague wrote it, not a model. Beyond the
+existing bans (em dashes, negative parallelisms, marketing filler),
+audit for and remove:
+- Rule-of-three stacks and perfectly parallel sentence trios.
+- Repeated sentence shapes across sections ("X is Y. Z is W." punch
+  endings everywhere; every lead built the same way).
+- Fragment tics ("The result? ...", "Here's the thing.", "That's the
+  whole section/course/move.") and rhetorical-question openers.
+- Stock AI vocabulary: journey, landscape, unlock, leverage, robust,
+  seamless, delve, foster, empower, elevate, supercharge, dive deep.
+- Colons doing a sentence's job more than once per slide.
+- Anything you can hear a keynote voice saying. Vary sentence length;
+  prefer one concrete example over two abstractions; let some sentences
+  just end.
+
+## Ground it in real thinking (required)
+
+Each course carries 1 or 2 REAL frameworks or research findings from
+reputable sources: HBR, ATD, SHRM, Ethan Mollick, Deloitte, McKinsey,
+Gallup, Harvard, Stanford, Vanderbilt, CCL, Gartner, LinkedIn Workplace
+Learning research, and peers of that caliber. Requirements:
+- Attach via the optional section field
+  `"source": {"label": "...", "url": "https://..."}` (label limit 110,
+  e.g. "Stay interviews, Beverly Kaye and Sharon Jordan-Evans (SHRM)").
+  It renders as a one-line "Grounded in:" citation on the slide.
+- The URL must be real and load (verify with WebFetch before using;
+  prefer stable publisher pages over paywalled deep links).
+- The framework must genuinely shape the section's teaching (name it in
+  the lead, the facilitator say, or the deeper block), never be
+  decoration. Misattributed or invented citations are worse than none.
+- One source line per section maximum; 1-2 per course total.
+
 ## Workshop specs (format: "workshop")
 
 Each month also has an IN-PERSON navigator-led workshop. Its spec sets

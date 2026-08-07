@@ -38,22 +38,22 @@ SERIES_SUB = {
 }
 
 # fixed session timing, identical across courses (sums checked below)
-FULL_MIN = {"s-welcome": 2, "s-mission": 2, "s-goal": 2, "s-hero": 1, "s-agenda": 1,
-            "s-one": 8, "s-two": 10, "s-three": 9, "s-belief": 1,
+FULL_MIN = {"s-welcome": 2, "s-mission": 2, "s-hero": 1, "s-agenda": 1,
+            "s-one": 9, "s-two": 11, "s-three": 9, "s-belief": 1,
             "s-recap": 4, "s-plan": 4, "s-close": 1}
-CORE_MIN = {"s-welcome": 1, "s-mission": 1, "s-goal": 1, "s-hero": 1, "s-agenda": 0,
-            "s-one": 6, "s-two": 7, "s-three": 6, "s-belief": 0,
+CORE_MIN = {"s-welcome": 1, "s-mission": 1, "s-hero": 1, "s-agenda": 0,
+            "s-one": 6, "s-two": 8, "s-three": 6, "s-belief": 0,
             "s-recap": 3, "s-plan": 3, "s-close": 1}
 assert sum(FULL_MIN.values()) == 45, sum(FULL_MIN.values())
 assert sum(CORE_MIN.values()) == 30, sum(CORE_MIN.values())
 
 # in-person navigator workshops run 90 full / 60 core
-WS_FULL = {"s-welcome": 3, "s-mission": 3, "s-goal": 3, "s-hero": 2, "s-agenda": 2,
-           "s-one": 20, "s-two": 22, "s-three": 20, "s-belief": 2,
-           "s-recap": 5, "s-plan": 6, "s-close": 2}
-WS_CORE = {"s-welcome": 2, "s-mission": 2, "s-goal": 2, "s-hero": 1, "s-agenda": 1,
-           "s-one": 13, "s-two": 15, "s-three": 13, "s-belief": 1,
-           "s-recap": 4, "s-plan": 4, "s-close": 2}
+WS_FULL = {"s-welcome": 3, "s-mission": 4, "s-hero": 2, "s-agenda": 2,
+           "s-one": 21, "s-two": 23, "s-three": 21, "s-belief": 2,
+           "s-recap": 5, "s-plan": 5, "s-close": 2}
+WS_CORE = {"s-welcome": 2, "s-mission": 2, "s-hero": 1, "s-agenda": 1,
+           "s-one": 14, "s-two": 16, "s-three": 14, "s-belief": 1,
+           "s-recap": 4, "s-plan": 3, "s-close": 2}
 assert sum(WS_FULL.values()) == 90, sum(WS_FULL.values())
 assert sum(WS_CORE.values()) == 60, sum(WS_CORE.values())
 
@@ -65,7 +65,7 @@ def timing(spec):
 
 # ---------------------------------------------------------------- validation
 LIMITS = {
-    "heroLead": 260, "missionTie": 250, "goalLead": 230, "lead": 260,
+    "heroLead": 170, "missionTie": 250, "goalLead": 230, "lead": 260,
     "manifesto": 90, "objective": 110, "agenda_d": 110, "trainer_q": 150,
     "trainer_why": 170, "opt_t": 100, "coach": 180, "card_text": 240,
     "recap_opt": 80, "recap_why": 170, "practice_move": 170, "group": 170,
@@ -86,7 +86,7 @@ def validate(spec, errors):
         check_len(val, LIMITS[key], path, errors)
     for f in ("slug", "series", "month", "monthShort", "theme", "goal", "title",
               "titleHtml", "tagline", "description", "heroLead", "objectives",
-              "skills", "missionTie", "goalLead", "agenda", "manifesto",
+              "skills", "missionTie", "agenda", "manifesto",
               "sections", "recap", "capstone", "closing", "facilitator"):
         if f not in spec:
             errors.append("missing field: " + f)
@@ -94,7 +94,8 @@ def validate(spec, errors):
         return
     L("heroLead", spec["heroLead"], "heroLead")
     L("missionTie", spec["missionTie"], "missionTie")
-    L("goalLead", spec["goalLead"], "goalLead")
+    if spec.get("goalLead"):
+        L("goalLead", spec["goalLead"], "goalLead")
     L("manifesto", spec["manifesto"], "manifesto")
     if len(spec["objectives"]) != 3:
         errors.append("need exactly 3 objectives")
@@ -119,6 +120,11 @@ def validate(spec, errors):
             L("group", sec["group"], p + ".group")
         if sec.get("solo"):
             L("group", sec["solo"], p + ".solo")
+        src = sec.get("source")
+        if src:
+            check_len(src.get("label", ""), 110, p + ".source.label", errors)
+            if not (src.get("url", "").startswith("http")):
+                errors.append(p + ".source needs a full url")
         d = sec.get("deeper")
         if not d:
             if spec.get("format") != "workshop":
@@ -276,6 +282,12 @@ def section_html(sec, num):
     if sec.get("solo"):
         solo = ('\n      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem">'
                 '<b>On your own:</b> %s</p>' % esc(sec["solo"]))
+    source = ""
+    if sec.get("source"):
+        src = sec["source"]
+        source = ('\n      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> '
+                  '<a href="%s" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">%s</a></p>'
+                  % (esc(src["url"]), esc(src["label"])))
     deeper = ""
     if sec.get("deeper"):
         d = sec["deeper"]
@@ -295,12 +307,12 @@ def section_html(sec, num):
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section %(num)02d · %(eyebrow)s</p>
       <h2 class="h2" data-reveal>%(headline)s</h2>
-      <p class="lead" data-reveal>%(lead)s</p>%(inter)s%(group)s%(solo)s%(deeper)s
+      <p class="lead" data-reveal>%(lead)s</p>%(inter)s%(source)s%(group)s%(solo)s%(deeper)s
     </div>
   </section>''' % {"num": num, "tone": tone, "id": sec["id"], "dataTitle": esc(sec["dataTitle"]),
                    "eyebrow": esc(sec["eyebrow"]), "headline": sec["headline"],
                    "lead": esc(sec["lead"]), "inter": inter, "group": group, "solo": solo,
-                   "deeper": deeper}
+                   "deeper": deeper, "source": source}
 
 
 def course_config_js(spec):
@@ -362,7 +374,7 @@ def build_course(spec):
         "goalNum": spec["goal"], "goalName": esc(g["name"]), "goalShort": esc(g["short"]),
         "goalShortHtml": (lambda w: esc(" ".join(w[:-1])) + " <em>" + esc(w[-1]) + "</em>")(g["short"].split()),
         "goalDesc": esc(g["desc"]),
-        "goalLead": esc(spec["goalLead"]),
+        "goalLead": esc(spec.get("goalLead", "")),
         "titleHtml": spec["titleHtml"],
         "tagline": esc(spec["tagline"]),
         "heroLead": esc(spec["heroLead"]),
@@ -429,18 +441,12 @@ def std_notes(spec):
               "State the norm once: type into your own screen, nothing you enter is saved or sent."]),
             {"watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
              "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."}),
-        sec("s-mission", "The mission",
-            "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-            "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. " + spec["missionTie"],
-            ["Read the mission line slowly, once.",
-             "Point at the tie-in line and let it sit; no discussion needed here."],
-            {"transition": "That is the why. Here is the number we are moving."}),
-        sec("s-goal", "The goal we are targeting",
-            "Name the enterprise goal this month serves.",
-            "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal %d, %s: %s %s" % (
-                spec["goal"], g["short"], g["desc"], spec["goalLead"]),
-            ["Read the goal once, plainly.",
-             "One line, not a lecture: this session is one of the moves that serves it."],
+        sec("s-mission", "Why we're here",
+            "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+            "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. %s This month serves Goal %d, %s." % (
+                spec["missionTie"], spec["goal"], g["short"]),
+            ["Read the mission line slowly, once; name the goal, once.",
+             "No discussion here; the whole slide is under a minute."],
             {"transition": "Here is what you will be able to do in %d minutes." % F_TOT}),
         sec("s-hero", "Objectives",
             "Set the contract for the session in under a minute.",
