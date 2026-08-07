@@ -360,6 +360,9 @@ body.fac-hide .facnote { display: none !important; }
   background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
   padding: .5rem .75rem; cursor: pointer; }
 body.fac-hide .facshow { display: inline-flex; }
+/* the notes rail narrows the column; keep the closing slide on one screen */
+body.fac #s-close img[width="120"] { width: 72px !important; margin-bottom: 1rem !important; }
+body.fac #s-close .vidcard--feature p { font-size: .85rem; }
 </style>
 
 '''
