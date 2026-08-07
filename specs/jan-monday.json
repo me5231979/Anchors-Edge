@@ -103,7 +103,11 @@
    "dataTitle": "Model one safe use",
    "eyebrow": "The Model",
    "headline": "Model the first <em>green light</em>.",
-   "lead": "The shared traffic light keeps this simple. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Pick a boring green chore and let your team watch you run it, fixes and all.",
+   "lead": "Your team copies what it watches you do. The traffic light keeps this simple. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Pick a boring green chore, fixes and all.",
+   "source": {
+    "label": "Leaders set the tone for AI at work, Dennis Kozak (Forbes)",
+    "url": "https://www.forbes.com/councils/forbesbusinesscouncil/2026/06/05/leaders-need-to-set-the-tone-for-ai-at-work-heres-how/"
+   },
    "group": "In pairs: name one green-light chore from your own week you could model for your team this month. 90 seconds each way.",
    "solo": "Name one green-light chore from your own week you could model for your team this month.",
    "deeper": {

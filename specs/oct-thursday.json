@@ -1,284 +1,441 @@
 {
-  "slug": "oct-thursday",
-  "series": "Thrive Thursday",
-  "month": "October 2026",
-  "monthShort": "Oct",
-  "monthIndex": 1,
-  "theme": "See the Talent Around You",
-  "goal": 1,
-  "title": "The Better Question",
-  "titleHtml": "Curiosity is a <em class=\"gold-text\">career skill</em>.",
-  "tagline": "Softskill · Curiosity: asking better career questions.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: practice curiosity as a career skill by asking better questions about your own path, opening career curiosity conversations with colleagues, and turning good answers into concrete next steps.",
-  "heroLead": "This session treats curiosity as a practiced skill: asking specific, answerable questions about your own path and about the work of the people around you.",
-  "objectives": [
-    "Trade vague career wondering for questions specific enough to answer this week",
-    "Open a career curiosity conversation with a colleague and keep it generous",
-    "Turn one curiosity into one small, dated next step"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Curiosity"},
-    {"label": "Career Development"},
-    {"label": "Communication"}
-  ],
-  "missionTie": "Curiosity is Educating the Whole Human applied to staff; the university grows when its people keep growing.",
-  "agenda": [
-    {"t": "Questions for your own path", "d": "Trade 'what is next for me' for questions that actually open doors."},
-    {"t": "Curiosity conversations", "d": "Ask a colleague about their work in a way that makes talent visible."},
-    {"t": "From curious to concrete", "d": "Turn one good answer into one small step with a date on it."}
-  ],
-  "manifesto": "Ask one specific question about work you are curious about, then act on the answer.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "Your Path",
-      "dataTitle": "Questions for your own path",
-      "eyebrow": "Your Path",
-      "headline": "Ask questions small enough to <em>answer</em>.",
-      "lead": "Asked in the abstract, 'what is next for me' has no answer. Harvard's Francesca Gino finds curiosity is a skill you can build, and it starts with smaller questions: what work makes me lose track of time, which of my skills do people keep borrowing?",
-      "group": "In pairs: which task in your week makes time move fastest? What does that say about your skills? 90 seconds each way.",
-      "solo": "Write down the task in your week that makes time move fastest, and what it says about your skills.",
-      "source": {"label": "The Business Case for Curiosity, Francesca Gino (HBR)", "url": "https://hbr.org/2018/09/the-business-case-for-curiosity"},
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The better-question test",
-          "text": "A better career question passes two tests: someone could answer it this week, and the answer would change what you do. 'Which of my skills do people keep borrowing?' passes both. 'What is next for me?' fails both, gracefully, forever."
-        },
-        "q": "Quick check: which question passes the better-question test?",
-        "opts": [
-          {"t": "Where do I see myself in five years?", "correct": false, "why": "Nobody can answer it this week, and the answer changes nothing on Monday. It is a mission statement pretending to be a question."},
-          {"t": "What skill do colleagues keep coming to me for?", "correct": true, "why": "Answerable this week, by you or by asking around, and the answer points at a real move: a skill worth naming, feeding, and putting on your profile."},
-          {"t": "Am I falling behind my peers?", "correct": false, "why": "Comparison questions produce anxiety, not information. Aim curiosity at your work and your skills, where the answers are usable."}
-        ],
-        "context": "Career fog is normal: most of us can describe next week's workload in detail and next year's direction not at all. The fix is not a grander plan; it is a smaller question. The test has two parts: could someone actually answer your career question this week, and would the answer change what you do?",
-        "discuss": "What is the last question you asked about your own career, out loud or in your head? Does it pass the two tests, and if not, how would you shrink it?"
-      },
-      "deeper": {
-        "title": "Shrinking a question until it can answer you",
-        "body": "There is a reliable way to fix a foggy career question: shrink the time frame and name who could answer it. 'What is next for me' becomes 'what did I do last month that I want more of', which becomes 'who could give me more of it, and what would I ask them'. Each shrink trades inspiration for information. The five-year question is not wrong, just downstream: you answer it by stacking small answers, not by staring at it harder.",
-        "steps": [
-          "Write your current career question, however foggy. Shrink it twice: once by time frame, once by naming a person who could answer it.",
-          "Answer the smallest version this week, then note what it tells you about the bigger one."
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Conversations",
-      "dataTitle": "Curiosity conversations",
-      "eyebrow": "The Conversations",
-      "headline": "Ask about work you <em>don't do</em>.",
-      "lead": "The fastest way to see the talent around you is to ask about it. A career curiosity conversation is 15 minutes with a colleague about their work, what it actually takes and what nobody sees. One good question makes two people's talent visible.",
-      "group": "Pairs: whose work at Vanderbilt are you quietly curious about? Say the role and the question you would open with.",
-      "solo": "Name a role at Vanderbilt you are quietly curious about, and write the question you would open with.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Door or dead end?",
-        "intro": "Read each moment and call it: real curiosity, a dead end, or judgment. A question that is specific, generous, and about the other person is what gets honest answers.",
-        "progressWord": "Moment",
-        "labels": ["Real curiosity, opens the door", "A dead end, rework it", "Judgment dressed as a question"],
-        "passAt": 2,
-        "passMsg": "You can hear the difference. Real curiosity is specific, generous, and about them, and it opens doors in both directions.",
-        "failMsg": "Close. Real curiosity asks about their work on its own terms. Fishing for reassurance is a dead end, and a verdict with a question mark on it is still a verdict.",
-        "items": [
-          {"q": "At a cross-team meeting, an analyst asks a facilities planner: what is the hardest part of your job that nobody sees?", "answer": 0, "why": "Specific, generous, about them. Questions like this get real answers, and the asker learns what that path actually takes."},
-          {"q": "In a career chat, a coordinator asks their supervisor: do you think I am doing okay?", "answer": 1, "why": "A yes-or-no that invites reassurance instead of information. Rework it: which of my skills would you borrow for another team, and why?"},
-          {"q": "Over coffee, a colleague asks: why would anyone choose to work in procurement?", "answer": 2, "why": "A verdict with a question mark on it. Real curiosity would ask what the work rewards; this version closes the door it pretends to knock on."}
-        ]
-      },
-      "deeper": {
-        "title": "The second question is where the door opens",
-        "body": "First answers are usually rehearsed; everyone has a polished line about their job. The craft of a curiosity conversation is the second question, the one that follows their answer instead of your script: what surprised you about that, when did it last go wrong, what would make it easier. Follow-ups prove you were listening, and being listened to is what makes people show you the real work. The real work is where the talent is.",
-        "steps": [
-          "In your next conversation about anyone's work, ask one planned question, then only follow-ups for five minutes. Notice where it goes.",
-          "Afterward, write down the one thing you learned that a scripted list of questions would have missed."
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Next Step",
-      "dataTitle": "From curious to concrete",
-      "eyebrow": "The Move",
-      "headline": "Turn the answer into a <em>next step</em>.",
-      "lead": "An answer starts helping your career when it becomes a step small enough to happen: an hour of shadowing or one doc to read. In this lab you build the step you would take and put a date on it.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Book the next step",
-        "intro": "You just had a great career curiosity conversation. Choose what you do with the answer, and when.",
-        "runLabel": "Take the step",
-        "outcomeTag": "Where it leads",
-        "slots": [
-          {
-            "key": "What you do with the answer",
-            "opts": [
-              {"t": "File it away as good to know", "pts": 1, "coach": "Interesting-and-filed is where curiosity goes to die. Unacted answers evaporate in about a week."},
-              {"t": "Tell them how fascinating their work sounds", "pts": 2, "coach": "Kind, and they will remember it warmly. But admiration is a feeling, and you leave with a feeling instead of a foothold."},
-              {"t": "Ask for the smallest real taste: an hour shadowing, or one doc to read", "pts": 3, "coach": "Small asks get yes. An hour inside real work teaches more than a month of wondering, and it costs them almost nothing."}
-            ]
-          },
-          {
-            "key": "When it happens",
-            "opts": [
-              {"t": "Someday, when work calms down", "pts": 1, "coach": "Work does not calm down. Someday is the polite name for never; the curiosity will fade before the calendar clears."},
-              {"t": "You will raise it at your annual review", "pts": 2, "coach": "Better than someday, but months away and dressed up as a formal request. Curiosity moves faster than review cycles."},
-              {"t": "On the calendar within a week, invite sent before you log off", "pts": 3, "coach": "A step with a date is real. Sent-before-you-log-off is the whole trick; tomorrow-you is no braver than today-you."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A curiosity with a date on it. You leave the conversation holding a foothold in work you want to understand.",
-          "mid": "A warm conversation that stayed a conversation. Pleasant, memorable, and stationary.",
-          "weak": "The answer was great and nothing happened. In a month you will barely remember what caught your interest."
-        },
-        "reactions": {
-          "strong": "The shadow hour happens, and two things become visible: their talent, which you can now vouch for, and yours, because you showed up asking real questions. Internal moves start exactly like this.",
-          "mid": "Weeks later you still bring up that conversation as the interesting one. The door is technically open; nobody has walked through it, and doors like that quietly swing shut.",
-          "weak": "A month later the curiosity is gone and the path is exactly where it was. The cost stayed invisible: nothing broke, and nothing opened either."
-        }
-      },
-      "deeper": {
-        "title": "Why small asks get yes",
-        "body": "Small asks work because they price the favor honestly. An hour of shadowing costs the other person almost nothing and honors the work you are asking about; a formal rotation request costs approvals, cover, and risk. Small steps also generate their own sequel: the shadow hour surfaces one doc worth reading; the doc surfaces one meeting worth sitting in. Careers move on chains of small yeses more often than on single big ones.",
-        "steps": [
-          "Draft the one-message ask for your curiosity: one hour, one meeting, or one doc. Cut it until it fits in three sentences.",
-          "Send it, and put a placeholder hold on your own calendar so the yes has somewhere to land."
-        ]
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "What makes a career question a better question?",
-      "opts": ["It is big and inspiring", "Answerable this week, and the answer changes what you do", "It comes from your manager", "It compares you to your peers"],
-      "correct": 1,
-      "why": "Specific and actionable beats grand. If nobody can answer it this week, it is a mood, not a question."
-    },
-    {
-      "q": "A coordinator asks their supervisor: do you think I am doing okay? That question is...",
-      "opts": ["Real curiosity at work", "A strong career opener", "A dead end that invites reassurance", "Judgment in disguise"],
-      "correct": 2,
-      "why": "Yes-or-no questions about worth produce comfort, not information. Rework toward specifics: which skills, borrowed for what, and why."
-    },
-    {
-      "q": "What turns curiosity into career fuel?",
-      "opts": ["Collecting interesting answers", "Waiting for the right moment", "A small step with a date on it", "Complimenting people's work"],
-      "correct": 2,
-      "why": "An hour of shadowing on the calendar beats a year of wondering. Small and dated is what makes it real."
-    }
-  ],
-  "recapMsgs": {
-    "high": "Strong recall. Pick one real person and build your card.",
-    "mid": "Nearly there. Revisit the one that got you, then pick your move.",
-    "low": "Walk the three sections once more; the questions get easier the second time."
+ "slug": "oct-thursday",
+ "series": "Thrive Thursday",
+ "month": "October 2026",
+ "monthShort": "Oct",
+ "monthIndex": 1,
+ "theme": "See the Talent Around You",
+ "goal": 1,
+ "title": "The Better Question",
+ "titleHtml": "Curiosity is a <em class=\"gold-text\">career skill</em>.",
+ "tagline": "Softskill · Curiosity: asking better career questions.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: practice curiosity as a career skill by asking better questions about your own path, opening career curiosity conversations with colleagues, and turning good answers into concrete next steps.",
+ "heroLead": "This session treats curiosity as a practiced skill: asking specific, answerable questions about your own path and about the work of the people around you.",
+ "objectives": [
+  "Trade vague career wondering for questions specific enough to answer this week",
+  "Open a career curiosity conversation with a colleague and keep it generous",
+  "Turn one curiosity into one small, dated next step"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My curiosity move",
-    "headline": "One question. <em>One real step.</em>",
-    "lead": "Pick where your curiosity points first. Role only, never a name; nothing you type is saved or sent.",
-    "whoLabel": "Where does your curiosity point? A role, a path, or a skill.",
-    "whoPlaceholder": "e.g. research core manager; how grants actually get built",
-    "practiceLabel": "Which move do you make?",
-    "whoRow": "Where my curiosity points",
-    "practices": [
-      {"id": "selfq", "chip": "The self question", "name": "The self question", "move": "Answer one better question about your own path this week: which skill do people keep borrowing from you? Write the answer down."},
-      {"id": "convo", "chip": "The curiosity conversation", "name": "The curiosity conversation", "move": "Invite one colleague to fifteen minutes about their work. Open with what nobody sees about it, and mostly listen."},
-      {"id": "taste", "chip": "The small taste", "name": "The small taste", "move": "Ask for the smallest real taste of work you are curious about: an hour of shadowing, one meeting, one doc."}
-    ],
-    "whens": [
-      {"id": "week", "chip": "This week", "out": "The move happens this week, invite sent by Friday."},
-      {"id": "coffee", "chip": "At my next coffee or 1:1", "out": "The move opens your next coffee or 1:1, first thing, before the usual updates."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
-    ],
-    "cardTitle": "My curiosity move card",
-    "evidenceRow": "Afterward, one line: what did asking show you that waiting never would have?"
+  {
+   "label": "Curiosity"
   },
-  "closing": {
-    "headline": "Ask the question. Book the <em>step</em>.",
-    "lead": "You practiced shrinking career questions, asking colleagues about their work, and putting a date on the next step. The move on your card is where the practice reaches your real week.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the curiosity move on your card",
-    "nextBody": "Send the invite or write the answer down while it is warm. If you want company doing it, the navigator-led Know-Your-Team lab runs in person this month, and Don Phin's Talent Management course on LinkedIn Learning goes deeper. Optional, always.",
-    "brandline": "Send the invite while the curiosity is fresh."
+  {
+   "label": "Career Development"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
-    "pulse": "Seven days out, send the pulse: 'Did the curiosity move on your card happen? What did asking show you that waiting would not have? What is your next question?' Count of completed moves feeds the month's Goal 1 story.",
-    "s1": {
-      "title": "Questions for your own path",
-      "purpose": "Replace vague career wondering with specific, answerable questions about the learner's own skills and path.",
-      "say": "We tend to treat curiosity as a personality trait that you either have or you don't. The research disagrees. Francesca Gino at Harvard, in a piece called The Business Case for Curiosity, found it behaves like a skill: it can be built, and people who exercise it make fewer bad calls and collaborate with less friction. She also found leaders praise it and then quietly stifle it. So today we practice the technique, starting with the question you aim at your own career: specific enough to answer this week, honest enough that the answer changes what you do.",
-      "facilitate": [
-        "Put the In the room card on screen and read it aloud; let the two-part test land for a beat.",
-        "Run the discussion prompt and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only. Ask who has caught themselves asking the five-year question.",
-        "Run the breakout: the task that makes time move fastest, 90 seconds each way."
-      ],
-      "ask": {
-        "q": "Honestly, what is the last question you asked about your own career?",
-        "expect": ["Am I doing okay", "What is next for me", "Often silence: no question at all"],
-        "respond": "All normal. The silence is the finding: most of us go months without asking our career a single answerable question. Today fixes the question first, then the habit."
-      },
-      "debrief": "A better question is answerable this week and changes what you do. Everything else is fog.",
-      "watchFor": "People turning the prompt into self-criticism. Keep it at curiosity about skills, never a verdict on progress.",
-      "transition": "Curiosity aimed inward is half the skill. Now aim it at the talent around you.",
-      "coreNote": "Core: skip the breakout; ask for the time-flies task in chat instead."
-    },
-    "s2": {
-      "title": "Curiosity conversations",
-      "purpose": "Equip learners to open generous career curiosity conversations and to hear the difference between curiosity, dead ends, and judgment.",
-      "say": "This month is called See the Talent Around You, and the mechanism is almost embarrassingly simple: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms, no agenda, nothing to get. What does the work actually take? What does nobody see? Let's train your ear for what real curiosity sounds like.",
-      "facilitate": [
-        "Run Door or dead end? live; everyone plays on their own screen.",
-        "After round two, pause: ask who has been on the receiving end of a dead-end question and felt the difference.",
-        "Run the breakout on the role they are quietly curious about."
-      ],
-      "ask": {
-        "q": "Why does 'what does nobody see about your work' open people up so reliably?",
-        "expect": ["Everyone has an invisible part of their job", "It signals respect for the real work", "Nobody ever asks it"],
-        "respond": "All three. It hands someone the microphone for the part of their work that goes unthanked. You learn the truth of the role, they feel seen, and both halves serve this month's theme."
-      },
-      "debrief": "Real curiosity is specific, generous, and about them. Dead ends fish for reassurance; judgment closes the doors it knocks on.",
-      "watchFor": "People framing the conversation as networking for advantage. Keep it generous; the visibility payoff is mutual and arrives on its own.",
-      "transition": "A good answer is the beginning, though. Stop three turns one into a step.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
-    },
-    "s3": {
-      "title": "From curious to concrete",
-      "purpose": "Convert one curiosity into a small next step with a date on it.",
-      "say": "Curiosity usually dies right after the good conversation. The answer was fascinating, everyone meant to follow up, and nothing happened. The fix costs almost nothing. Ask for the smallest real taste of the thing, then put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
-      "facilitate": [
-        "Run Book the next step; give the room two minutes to make both choices and run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: smallest real taste, date before you log off."
-      ],
-      "ask": {
-        "q": "Why does 'someday, when work calms down' feel so reasonable and work so badly?",
-        "expect": ["Work never calms down", "The curiosity fades before the calendar clears"],
-        "respond": "Both. Someday is a real decision disguised as a delay. The small dated step is how you outvote your own busyness."
-      },
-      "debrief": "Small enough to get a yes, dated enough to be real. Nothing else converts an answer into a career move.",
-      "watchFor": "People sizing the step too big, like requesting a formal rotation. Shrink it until the ask fits in one message.",
-      "transition": "Quick recap, then you build your card.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Last piece of work. Where does your curiosity point? Role only, as always. Choose the move and the window, build the card, and copy it somewhere it will catch your eye before Friday. Quiet couple of minutes.",
-    "closeSay": "That closes the first week of Anchor's Edge. Monday gave managers the talent read, Tuesday put your skills on the map, and today gave you the questions that make talent visible, yours and everyone else's. Make the curiosity move on your card this week; the Know-Your-Team lab with your navigator and the Talent Management course on LinkedIn Learning are there if you want to keep pulling the thread. The rhythm picks back up next Monday, and next month's theme, The Transfer Portal in Practice, turns this month's visibility into real internal moves. See you then.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "A breakout pair drifts from curiosity questions into venting about their own roles", "then": "Redirect warmly: one better question about your path counts as the exercise. Park the venting with the offer of a different forum for it."},
-      {"if": "Someone says asking colleagues about their work feels intrusive or fake", "then": "Offer the opener live: 'I am trying to understand how work happens outside my corner; can I ask you about yours?' Fifteen minutes, their terms. Almost nobody says no to being asked well."}
-    ],
-    "toughQuestions": [
-      {"q": "Isn't this just networking with a nicer name?", "a": "Networking optimizes for contacts; curiosity conversations optimize for understanding. You ask about the work on its own terms with nothing attached. The career payoff is real, and it arrives as a side effect of paying genuine attention, which is exactly why it works."},
-      {"q": "What if my curiosity points somewhere my manager would rather I not look?", "a": "Curiosity is not a transfer request. An hour of shadowing commits you to nothing, and this month's manager sessions ask managers to make exactly this kind of exploration normal. If it grows into a real move, the Talent Marketplace and the Transfer Portal exist so that it becomes a Vanderbilt move instead of an exit."},
-      {"q": "I asked a better question and got a shallow answer. Now what?", "a": "One shallow answer is data about the moment, not the method. Follow up once with the invisible-work question, which almost always deepens things. If it stays shallow, aim the same curiosity at a different person; the skill is the asking, and it compounds."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on curiosity as a career skill. Bring nothing but one role at Vanderbilt you have quietly wondered about. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did you ask? Three lines, reply whenever: 1) Did the curiosity move on your card happen? 2) What did asking show you that waiting would not have? 3) What is your next question?"}
-    ]
+  {
+   "label": "Communication"
   }
+ ],
+ "missionTie": "Curiosity is Educating the Whole Human applied to staff; the university grows when its people keep growing.",
+ "agenda": [
+  {
+   "t": "Questions for your own path",
+   "d": "Trade 'what is next for me' for questions that actually open doors."
+  },
+  {
+   "t": "Curiosity conversations",
+   "d": "Ask a colleague about their work in a way that makes talent visible."
+  },
+  {
+   "t": "From curious to concrete",
+   "d": "Turn one good answer into one small step with a date on it."
+  }
+ ],
+ "manifesto": "Ask one specific question about work you are curious about, then act on the answer.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "Your Path",
+   "dataTitle": "Questions for your own path",
+   "eyebrow": "Your Path",
+   "headline": "Ask questions small enough to <em>answer</em>.",
+   "lead": "Asked in the abstract, 'what is next for me' has no answer. Harvard research on questioning finds the useful ones are specific and answerable: what work makes me lose track of time, which of my skills do people keep borrowing?",
+   "group": "In pairs: which task in your week makes time move fastest? What does that say about your skills? 90 seconds each way.",
+   "solo": "Write down the task in your week that makes time move fastest, and what it says about your skills.",
+   "source": {
+    "label": "The Surprising Power of Questions (Brooks and John, HBR)",
+    "url": "https://hbr.org/2018/05/the-surprising-power-of-questions"
+   },
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The better-question test",
+     "text": "A better career question passes two tests: someone could answer it this week, and the answer would change what you do. 'Which of my skills do people keep borrowing?' passes both. 'What is next for me?' fails both, gracefully, forever."
+    },
+    "q": "Quick check: which question passes the better-question test?",
+    "opts": [
+     {
+      "t": "Where do I see myself in five years?",
+      "correct": false,
+      "why": "Nobody can answer it this week, and the answer changes nothing on Monday. It is a mission statement pretending to be a question."
+     },
+     {
+      "t": "What skill do colleagues keep coming to me for?",
+      "correct": true,
+      "why": "Answerable this week, by you or by asking around, and the answer points at a real move: a skill worth naming, feeding, and putting on your profile."
+     },
+     {
+      "t": "Am I falling behind my peers?",
+      "correct": false,
+      "why": "Comparison questions produce anxiety, not information. Aim curiosity at your work and your skills, where the answers are usable."
+     }
+    ],
+    "context": "Career fog is normal: most of us can describe next week's workload in detail and next year's direction not at all. The fix is not a grander plan; it is a smaller question. The test has two parts: could someone actually answer your career question this week, and would the answer change what you do?",
+    "discuss": "What is the last question you asked about your own career, out loud or in your head? Does it pass the two tests, and if not, how would you shrink it?"
+   },
+   "deeper": {
+    "title": "Shrinking a question until it can answer you",
+    "body": "There is a reliable way to fix a foggy career question: shrink the time frame and name who could answer it. 'What is next for me' becomes 'what did I do last month that I want more of', which becomes 'who could give me more of it, and what would I ask them'. Each shrink trades inspiration for information. The five-year question is not wrong, just downstream: you answer it by stacking small answers, not by staring at it harder.",
+    "steps": [
+     "Write your current career question, however foggy. Shrink it twice: once by time frame, once by naming a person who could answer it.",
+     "Answer the smallest version this week, then note what it tells you about the bigger one."
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Conversations",
+   "dataTitle": "Curiosity conversations",
+   "eyebrow": "The Conversations",
+   "headline": "Ask about work you <em>don't do</em>.",
+   "lead": "The fastest way to see the talent around you is to ask about it. A career curiosity conversation is 15 minutes with a colleague about their work, what it actually takes and what nobody sees. One good question makes two people's talent visible.",
+   "group": "Pairs: whose work at Vanderbilt are you quietly curious about? Say the role and the question you would open with.",
+   "solo": "Name a role at Vanderbilt you are quietly curious about, and write the question you would open with.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Door or dead end?",
+    "intro": "Read each moment and call it: real curiosity, a dead end, or judgment. A question that is specific, generous, and about the other person is what gets honest answers.",
+    "progressWord": "Moment",
+    "labels": [
+     "Real curiosity, opens the door",
+     "A dead end, rework it",
+     "Judgment dressed as a question"
+    ],
+    "passAt": 2,
+    "passMsg": "You can hear the difference. Real curiosity is specific, generous, and about them, and it opens doors in both directions.",
+    "failMsg": "Close. Real curiosity asks about their work on its own terms. Fishing for reassurance is a dead end, and a verdict with a question mark on it is still a verdict.",
+    "items": [
+     {
+      "q": "At a cross-team meeting, an analyst asks a facilities planner: what is the hardest part of your job that nobody sees?",
+      "answer": 0,
+      "why": "Specific, generous, about them. Questions like this get real answers, and the asker learns what that path actually takes."
+     },
+     {
+      "q": "In a career chat, a coordinator asks their supervisor: do you think I am doing okay?",
+      "answer": 1,
+      "why": "A yes-or-no that invites reassurance instead of information. Rework it: which of my skills would you borrow for another team, and why?"
+     },
+     {
+      "q": "Over coffee, a colleague asks: why would anyone choose to work in procurement?",
+      "answer": 2,
+      "why": "A verdict with a question mark on it. Real curiosity would ask what the work rewards; this version closes the door it pretends to knock on."
+     }
+    ]
+   },
+   "deeper": {
+    "title": "The second question is where the door opens",
+    "body": "First answers are usually rehearsed; everyone has a polished line about their job. The craft of a curiosity conversation is the second question, the one that follows their answer instead of your script: what surprised you about that, when did it last go wrong, what would make it easier. Follow-ups prove you were listening, and being listened to is what makes people show you the real work. The real work is where the talent is.",
+    "steps": [
+     "In your next conversation about anyone's work, ask one planned question, then only follow-ups for five minutes. Notice where it goes.",
+     "Afterward, write down the one thing you learned that a scripted list of questions would have missed."
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Next Step",
+   "dataTitle": "From curious to concrete",
+   "eyebrow": "The Move",
+   "headline": "Turn the answer into a <em>next step</em>.",
+   "lead": "An answer starts helping your career once it shrinks to a step you can take this week. ATD's learning transfer research finds the step people write down and date is the one they take.",
+   "source": {
+    "label": "Practical learning transfer techniques (ATD)",
+    "url": "https://www.td.org/insights/practical-learning-transfer-techniques-to-bridge-learning-to-performance"
+   },
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Book the next step",
+    "intro": "You just had a great career curiosity conversation. Choose what you do with the answer, and when.",
+    "runLabel": "Take the step",
+    "outcomeTag": "Where it leads",
+    "slots": [
+     {
+      "key": "What you do with the answer",
+      "opts": [
+       {
+        "t": "File it away as good to know",
+        "pts": 1,
+        "coach": "Interesting-and-filed is where curiosity goes to die. Unacted answers evaporate in about a week."
+       },
+       {
+        "t": "Tell them how fascinating their work sounds",
+        "pts": 2,
+        "coach": "Kind, and they will remember it warmly. But admiration is a feeling, and you leave with a feeling instead of a foothold."
+       },
+       {
+        "t": "Ask for the smallest real taste: an hour shadowing, or one doc to read",
+        "pts": 3,
+        "coach": "Small asks get yes. An hour inside real work teaches more than a month of wondering, and it costs them almost nothing."
+       }
+      ]
+     },
+     {
+      "key": "When it happens",
+      "opts": [
+       {
+        "t": "Someday, when work calms down",
+        "pts": 1,
+        "coach": "Work does not calm down. Someday is the polite name for never; the curiosity will fade before the calendar clears."
+       },
+       {
+        "t": "You will raise it at your annual review",
+        "pts": 2,
+        "coach": "Better than someday, but months away and dressed up as a formal request. Curiosity moves faster than review cycles."
+       },
+       {
+        "t": "On the calendar within a week, invite sent before you log off",
+        "pts": 3,
+        "coach": "A step with a date is real. Sent-before-you-log-off is the whole trick; tomorrow-you is no braver than today-you."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A curiosity with a date on it. You leave the conversation holding a foothold in work you want to understand.",
+     "mid": "A warm conversation that stayed a conversation. Pleasant, memorable, and stationary.",
+     "weak": "The answer was great and nothing happened. In a month you will barely remember what caught your interest."
+    },
+    "reactions": {
+     "strong": "The shadow hour happens, and two things become visible: their talent, which you can now vouch for, and yours, because you showed up asking real questions. Internal moves start exactly like this.",
+     "mid": "Weeks later you still bring up that conversation as the interesting one. The door is technically open; nobody has walked through it, and doors like that quietly swing shut.",
+     "weak": "A month later the curiosity is gone and the path is exactly where it was. The cost stayed invisible: nothing broke, and nothing opened either."
+    }
+   },
+   "deeper": {
+    "title": "Why small asks get yes",
+    "body": "Small asks work because they price the favor honestly. An hour of shadowing costs the other person almost nothing and honors the work you are asking about; a formal rotation request costs approvals, cover, and risk. Small steps also generate their own sequel: the shadow hour surfaces one doc worth reading; the doc surfaces one meeting worth sitting in. Careers move on chains of small yeses more often than on single big ones.",
+    "steps": [
+     "Draft the one-message ask for your curiosity: one hour, one meeting, or one doc. Cut it until it fits in three sentences.",
+     "Send it, and put a placeholder hold on your own calendar so the yes has somewhere to land."
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What makes a career question a better question?",
+   "opts": [
+    "It is big and inspiring",
+    "Answerable this week, and the answer changes what you do",
+    "It comes from your manager",
+    "It compares you to your peers"
+   ],
+   "correct": 1,
+   "why": "Specific and actionable beats grand. If nobody can answer it this week, it is a mood, not a question."
+  },
+  {
+   "q": "A coordinator asks their supervisor: do you think I am doing okay? That question is...",
+   "opts": [
+    "Real curiosity at work",
+    "A strong career opener",
+    "A dead end that invites reassurance",
+    "Judgment in disguise"
+   ],
+   "correct": 2,
+   "why": "Yes-or-no questions about worth produce comfort, not information. Rework toward specifics: which skills, borrowed for what, and why."
+  },
+  {
+   "q": "What turns curiosity into career fuel?",
+   "opts": [
+    "Collecting interesting answers",
+    "Waiting for the right moment",
+    "A small step with a date on it",
+    "Complimenting people's work"
+   ],
+   "correct": 2,
+   "why": "An hour of shadowing on the calendar beats a year of wondering. Small and dated is what makes it real."
+  }
+ ],
+ "recapMsgs": {
+  "high": "Strong recall. Pick one real person and build your card.",
+  "mid": "Nearly there. Revisit the one that got you, then pick your move.",
+  "low": "Walk the three sections once more; the questions get easier the second time."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My curiosity move",
+  "headline": "One question. <em>One real step.</em>",
+  "lead": "Pick where your curiosity points first. Role only, never a name; nothing you type is saved or sent.",
+  "whoLabel": "Where does your curiosity point? A role, a path, or a skill.",
+  "whoPlaceholder": "e.g. research core manager; how grants actually get built",
+  "practiceLabel": "Which move do you make?",
+  "whoRow": "Where my curiosity points",
+  "practices": [
+   {
+    "id": "selfq",
+    "chip": "The self question",
+    "name": "The self question",
+    "move": "Answer one better question about your own path this week: which skill do people keep borrowing from you? Write the answer down."
+   },
+   {
+    "id": "convo",
+    "chip": "The curiosity conversation",
+    "name": "The curiosity conversation",
+    "move": "Invite one colleague to fifteen minutes about their work. Open with what nobody sees about it, and mostly listen."
+   },
+   {
+    "id": "taste",
+    "chip": "The small taste",
+    "name": "The small taste",
+    "move": "Ask for the smallest real taste of work you are curious about: an hour of shadowing, one meeting, one doc."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, invite sent by Friday."
+   },
+   {
+    "id": "coffee",
+    "chip": "At my next coffee or 1:1",
+    "out": "The move opens your next coffee or 1:1, first thing, before the usual updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My curiosity move card",
+  "evidenceRow": "Afterward, one line: what did asking show you that waiting never would have?"
+ },
+ "closing": {
+  "headline": "Ask the question. Book the <em>step</em>.",
+  "lead": "You practiced shrinking career questions, asking colleagues about their work, and putting a date on the next step. The move on your card is where the practice reaches your real week.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the curiosity move on your card",
+  "nextBody": "Send the invite or write the answer down while it is warm. If you want company doing it, the navigator-led Know-Your-Team lab runs in person this month, and Don Phin's Talent Management course on LinkedIn Learning goes deeper. Optional, always.",
+  "brandline": "Send the invite while the curiosity is fresh."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
+  "pulse": "Seven days out, send the pulse: 'Did the curiosity move on your card happen? What did asking show you that waiting would not have? What is your next question?' Count of completed moves feeds the month's Goal 1 story.",
+  "s1": {
+   "title": "Questions for your own path",
+   "purpose": "Replace vague career wondering with specific, answerable questions about the learner's own skills and path.",
+   "say": "We tend to treat curiosity as a personality trait you either have or you don't. It works better as a technique, and the technique is the question you ask. Alison Wood Brooks and Leslie John at Harvard studied what separates questions that open something up from questions that go nowhere, and the pattern is specificity: broad questions get polite non-answers, while narrow ones get real information. So today we practice on the question you aim at your own career, specific enough to answer this week and honest enough that the answer changes what you do.",
+   "facilitate": [
+    "Put the In the room card on screen and read it aloud; let the two-part test land for a beat.",
+    "Run the discussion prompt and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only. Ask who has caught themselves asking the five-year question.",
+    "Run the breakout: the task that makes time move fastest, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "Honestly, what is the last question you asked about your own career?",
+    "expect": [
+     "Am I doing okay",
+     "What is next for me",
+     "Often silence: no question at all"
+    ],
+    "respond": "All normal. The silence is the finding: most of us go months without asking our career a single answerable question. Today fixes the question first, then the habit."
+   },
+   "debrief": "A better question is answerable this week and changes what you do. Everything else is fog.",
+   "watchFor": "People turning the prompt into self-criticism. Keep it at curiosity about skills, never a verdict on progress.",
+   "transition": "Curiosity aimed inward is half the skill. Now aim it at the talent around you.",
+   "coreNote": "Core: skip the breakout; ask for the time-flies task in chat instead."
+  },
+  "s2": {
+   "title": "Curiosity conversations",
+   "purpose": "Equip learners to open generous career curiosity conversations and to hear the difference between curiosity, dead ends, and judgment.",
+   "say": "This month is called See the Talent Around You, and the mechanism is almost embarrassingly simple: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms, no agenda, nothing to get. What does the work actually take? What does nobody see? Let's train your ear for what real curiosity sounds like.",
+   "facilitate": [
+    "Run Door or dead end? live; everyone plays on their own screen.",
+    "After round two, pause: ask who has been on the receiving end of a dead-end question and felt the difference.",
+    "Run the breakout on the role they are quietly curious about."
+   ],
+   "ask": {
+    "q": "Why does 'what does nobody see about your work' open people up so reliably?",
+    "expect": [
+     "Everyone has an invisible part of their job",
+     "It signals respect for the real work",
+     "Nobody ever asks it"
+    ],
+    "respond": "All three. It hands someone the microphone for the part of their work that goes unthanked. You learn the truth of the role, they feel seen, and both halves serve this month's theme."
+   },
+   "debrief": "Real curiosity is specific, generous, and about them. Dead ends fish for reassurance; judgment closes the doors it knocks on.",
+   "watchFor": "People framing the conversation as networking for advantage. Keep it generous; the visibility payoff is mutual and arrives on its own.",
+   "transition": "A good answer is the beginning, though. Stop three turns one into a step.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "s3": {
+   "title": "From curious to concrete",
+   "purpose": "Convert one curiosity into a small next step with a date on it.",
+   "say": "Curiosity usually dies right after the good conversation. The answer was fascinating, everyone meant to follow up, and nothing happened. ATD's work on learning transfer puts a number on the fix: when people leave a session with a written, dated next step, they are roughly twice as likely to actually do it. Same mechanism here. Ask for the smallest real taste of the thing, write it down, and put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
+   "facilitate": [
+    "Run Book the next step; give the room two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: smallest real taste, date before you log off."
+   ],
+   "ask": {
+    "q": "Why does 'someday, when work calms down' feel so reasonable and work so badly?",
+    "expect": [
+     "Work never calms down",
+     "The curiosity fades before the calendar clears"
+    ],
+    "respond": "Both. Someday is a real decision disguised as a delay. The small dated step is how you outvote your own busyness."
+   },
+   "debrief": "Small enough to get a yes, dated enough to be real. Nothing else converts an answer into a career move.",
+   "watchFor": "People sizing the step too big, like requesting a formal rotation. Shrink it until the ask fits in one message.",
+   "transition": "Quick recap, then you build your card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Last piece of work. Where does your curiosity point? Role only, as always. Choose the move and the window, build the card, and copy it somewhere it will catch your eye before Friday. Quiet couple of minutes.",
+  "closeSay": "That closes the first week of Anchor's Edge. Monday gave managers the talent read, Tuesday put your skills on the map, and today gave you the questions that make talent visible, yours and everyone else's. Make the curiosity move on your card this week; the Know-Your-Team lab with your navigator and the Talent Management course on LinkedIn Learning are there if you want to keep pulling the thread. The rhythm picks back up next Monday, and next month's theme, The Transfer Portal in Practice, turns this month's visibility into real internal moves. See you then.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A breakout pair drifts from curiosity questions into venting about their own roles",
+    "then": "Redirect warmly: one better question about your path counts as the exercise. Park the venting with the offer of a different forum for it."
+   },
+   {
+    "if": "Someone says asking colleagues about their work feels intrusive or fake",
+    "then": "Offer the opener live: 'I am trying to understand how work happens outside my corner; can I ask you about yours?' Fifteen minutes, their terms. Almost nobody says no to being asked well."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't this just networking with a nicer name?",
+    "a": "Networking optimizes for contacts; curiosity conversations optimize for understanding. You ask about the work on its own terms with nothing attached. The career payoff is real, and it arrives as a side effect of paying genuine attention, which is exactly why it works."
+   },
+   {
+    "q": "What if my curiosity points somewhere my manager would rather I not look?",
+    "a": "Curiosity is not a transfer request. An hour of shadowing commits you to nothing, and this month's manager sessions ask managers to make exactly this kind of exploration normal. If it grows into a real move, the Talent Marketplace and the Transfer Portal exist so that it becomes a Vanderbilt move instead of an exit."
+   },
+   {
+    "q": "I asked a better question and got a shallow answer. Now what?",
+    "a": "One shallow answer is data about the moment, not the method. Follow up once with the invisible-work question, which almost always deepens things. If it stays shallow, aim the same curiosity at a different person; the skill is the asking, and it compounds."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on curiosity as a career skill. Bring nothing but one role at Vanderbilt you have quietly wondered about. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did you ask? Three lines, reply whenever: 1) Did the curiosity move on your card happen? 2) What did asking show you that waiting would not have? 3) What is your next question?"
+   }
+  ]
+ }
 }

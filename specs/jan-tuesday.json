@@ -103,7 +103,11 @@
    "dataTitle": "Write the ask",
    "eyebrow": "The Ask",
    "headline": "Ask like you would ask a <em>colleague</em>.",
-   "lead": "Plain English works; talking to AI takes no special training. Tell the tool the job, give it the details that matter, and say what shape you want back. The same sentences you would use to brief a helpful colleague are the ones that work here.",
+   "lead": "Plain English works; the ask takes no special training. Stanford's AI Index reports that AI narrows the gap between lower and higher skilled workers. Tell the tool the job, the details that matter, and the shape you want back.",
+   "source": {
+    "label": "The AI Index 2025, economy chapter (Stanford HAI)",
+    "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/economy"
+   },
    "group": "In pairs: say the plain-English ask for the chore you named in section one. Does your partner know exactly what you want back? 90 seconds each way.",
    "solo": "Write the plain-English ask for the chore you named in section one: the job, the details, the shape.",
    "deeper": {

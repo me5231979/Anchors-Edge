@@ -99,7 +99,11 @@
    "dataTitle": "The 20-minute coffee",
    "eyebrow": "The Coffee",
    "headline": "Run the 20-minute <em>coffee</em>.",
-   "lead": "The 20-minute virtual coffee is the unit of internal networking: short enough to say yes to, long enough to matter. The invite decides whether it happens; the questions decide whether it was worth it. Build both.",
+   "lead": "The 20-minute virtual coffee is the unit of internal networking. Stanford's weak ties experiment found the useful leads sit one ring outside your circle, so invite someone from there. Build the ask.",
+   "source": {
+    "label": "The real strength of weak ties (Stanford Report)",
+    "url": "https://news.stanford.edu/stories/2022/09/real-strength-weak-ties"
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Build the coffee",
@@ -176,7 +180,7 @@
    "headline": "Follow up small and <em>specific</em>.",
    "lead": "Connections go quiet without contact, though the dormant-ties research finds the trust survives long silences. A warm follow-up is specific, asks for nothing, and takes two minutes. This section covers when to send one and what it says.",
    "source": {
-    "label": "Dormant ties research, Levin, Walter, and Murnighan (MIT Sloan Management Review)",
+    "label": "The power of reconnection, dormant ties (MIT Sloan Review)",
     "url": "https://sloanreview.mit.edu/article/the-power-of-reconnection-how-dormant-ties-can-surprise-you/"
    },
    "group": "In pairs: name one contact in another department you could send a two-minute warm follow-up to this week. What would it say?",
@@ -347,7 +351,7 @@
   "s2": {
    "title": "The 20-minute coffee",
    "purpose": "Give everyone a repeatable format: the specific bounded invite and the question-led twenty minutes.",
-   "say": "The unit of internal networking is the 20-minute virtual coffee. Twenty minutes is short enough that a stranger says yes and long enough to actually learn something. The coffee is won or lost in the invite, though. Name the thing about their work you are curious about and cap the time; that is the whole formula. Then spend the minutes on your questions and their answers, and end when you said you would.",
+   "say": "The unit of internal networking is the 20-minute virtual coffee. Twenty minutes is short enough that a stranger says yes and long enough to actually learn something. Before you pick who to ask, one finding worth having. Stanford researchers ran a five-year experiment with LinkedIn covering twenty million people, and the connections that moved careers were not the close ones. They were the people a ring or two out, who know things your daily circle already told you. So aim the invite outside your building. The coffee is won or lost in the invite, though. Name the thing about their work you are curious about and cap the time; that is the whole formula. Then spend the minutes on your questions and their answers, and end when you said you would.",
    "facilitate": [
     "Run Build the coffee; two minutes to choose both slots and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

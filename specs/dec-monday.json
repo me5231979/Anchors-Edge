@@ -103,7 +103,11 @@
    "dataTitle": "Behavior or intention?",
    "eyebrow": "The Test",
    "headline": "Telling a behavior from an <em>intention</em>.",
-   "lead": "The witness test separates a behavior from an intention or a trait: could a colleague have seen it happen? A plan nobody saw yet is an intention, and an adjective is usually a trait. Practice the call on three ordinary claims managers make about themselves.",
+   "lead": "The witness test separates a behavior from an intention or a trait: could a colleague have seen it happen? CCL's feedback model holds the same line, keeping the behavior step to what was actually observed. Practice the call on three claims.",
+   "source": {
+    "label": "The SBI model: behavior is what was observed (CCL)",
+    "url": "https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/"
+   },
    "group": "Breakout pairs: name one thing you give yourself credit for that fails the witness test. 90 seconds each way.",
    "solo": "Name one thing you give yourself credit for that a colleague could never have witnessed.",
    "deeper": {

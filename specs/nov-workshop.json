@@ -167,7 +167,11 @@
    "dataTitle": "Hand up or barrier named",
    "eyebrow": "The Exit Ticket",
    "headline": "Leave with a hand up or a <em>barrier named</em>.",
-   "lead": "Two good ways out of this room: interest expressed on something real, or the honest obstacle written down and handed to a navigator. Both move you. The only exit that goes nowhere is a vague intention to look again later.",
+   "lead": "Two good ways out of this room: interest expressed on something real, or the honest obstacle written down for a navigator. ATD's transfer research is blunt about vague intentions, so nobody leaves with one.",
+   "source": {
+    "label": "Straight talk about learning transfer, Emma Weber (ATD)",
+    "url": "https://www.td.org/insights/straight-talk-about-learning-transfer"
+   },
    "group": "Around the table, one sentence each: the opening you explored and which exit you are taking, hand up or barrier named. Navigators are listening for the barriers.",
    "interaction": {
     "type": "check",
@@ -347,7 +351,7 @@
   "s3": {
    "title": "Hand up or barrier named",
    "purpose": "Everyone leaves through one of the two doors: interest expressed in the room, or a barrier written and handed to a navigator.",
-   "say": "Here is the exit ticket. Two doors out of this clinic. Door one: express interest on the thing you explored, right now, in the room, remembering it opens a conversation and signs nothing. Door two: if something real is in the way, write the barrier down honestly and hand it to a navigator before you leave. Timing, a skill gap, a conversation you are dreading. Barriers named in this room get worked; barriers carried home just get heavier.",
+   "say": "Here is the exit ticket. ATD's learning transfer research is where this comes from: most of what people learn in a room never reaches the job, and what survives is the specific commitment made before they walk out. So we make one. Two doors out of this clinic. Door one: express interest on the thing you explored, right now, in the room, remembering it opens a conversation and signs nothing. Door two: if something real is in the way, write the barrier down honestly and hand it to a navigator before you leave. Timing, a skill gap, a conversation you are dreading. Barriers named in this room get worked; barriers carried home just get heavier.",
    "facilitate": [
     "Show the two-door card and run the discussion from the front; take voices on what the real barriers are.",
     "Give quiet time for the choice; navigators circulate for barrier conversations at the tables.",

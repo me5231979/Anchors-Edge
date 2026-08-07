@@ -100,7 +100,11 @@
    "dataTitle": "Say it back",
    "eyebrow": "The Restate",
    "headline": "The restate finds gaps while they are <em>cheap</em>.",
-   "lead": "Restating an expectation in your own words is the cheapest test it will ever get. A match buys you confidence, and a mismatch finds the gap while fixing it still costs minutes. The judgment call is knowing which handoffs need it.",
+   "lead": "Restating an expectation in your own words is the cheapest test it gets. SHRM's rule for a message you have to carry: say what you understood, then ask if you have it right. The judgment call is which handoffs need one.",
+   "source": {
+    "label": "Repeat back what you heard to catch gaps early (SHRM)",
+    "url": "https://www.shrm.org/topics-tools/news/managing-smart/don-t-blame-the-messenger"
+   },
    "group": "Breakout pairs: name a live handoff in your work that nobody has said back yet. What would your restate be? 90 seconds each way.",
    "solo": "Name a live handoff nobody has said back yet. Write your one-sentence restate of it.",
    "deeper": {

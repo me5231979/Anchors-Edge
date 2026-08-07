@@ -103,7 +103,11 @@
    "dataTitle": "The feedback tools",
    "eyebrow": "The Tools",
    "headline": "Pick the right <em>feedback move</em>.",
-   "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
+   "lead": "Oracle gives you two moves anyone can make. Request feedback from people who saw your work, or give feedback into a colleague's record. SHRM's case for frequent informal feedback fits both: keep it specific, and close to the moment.",
+   "source": {
+    "label": "Frequent, informal feedback, Paul Falcone (SHRM)",
+    "url": "https://www.shrm.org/topics-tools/news/employee-relations/developing-a-habit-of-delivering-frequent-but-informal-feedback"
+   },
    "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
    "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
    "deeper": {

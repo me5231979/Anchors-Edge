@@ -56,7 +56,7 @@
    "headline": "Your profile is how opportunity <em>finds you</em>.",
    "lead": "The Portal matches people to opportunity through skills. A profile that only repeats your job title keeps most of your range invisible, and ten minutes of honest listing fixes that.",
    "source": {
-    "label": "Internal mobility and retention, LinkedIn Workplace Learning Report (2022)",
+    "label": "Internal mobility and retention (LinkedIn Workplace Learning)",
     "url": "https://learning.linkedin.com/resources/workplace-learning-report-2022"
    },
    "group": "In pairs: name one skill you use every week that your job title would never suggest. One pair shares.",
@@ -103,7 +103,11 @@
    "dataTitle": "Search and raise your hand",
    "eyebrow": "The Search",
    "headline": "Search by the skills you <em>want to use</em>.",
-   "lead": "The Portal lists more than jobs: projects, gigs, and short assignments across the university. How you search and how you raise your hand decide what you find and how you are received. Build your first pass.",
+   "lead": "The Portal lists projects and short gigs alongside jobs. The World Economic Forum expects 39 percent of key skills to change by 2030, so search by the skills you want to use rather than your title.",
+   "source": {
+    "label": "Future of Jobs Report 2025, skills outlook (WEF)",
+    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/"
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Build your first pass",
@@ -348,7 +352,7 @@
   "s2": {
    "title": "Search and raise your hand",
    "purpose": "Teach skill-first search across roles, gigs, and projects, and the open way to express interest.",
-   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is a low-risk way to test a direction. Then, when something pulls at you, raise your hand in the open.",
+   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. There is a second reason titles are a weak search term. The World Economic Forum's Future of Jobs Report has employers expecting 39 percent of the skills a job needs to change by 2030, so the title stays put while the work underneath it moves. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is a low-risk way to test a direction. Then, when something pulls at you, raise your hand in the open.",
    "facilitate": [
     "Run Build your first pass; two minutes to make both choices and run it.",
     "Ask a volunteer to read their outcome aloud, weak or strong.",

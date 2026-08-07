@@ -54,7 +54,11 @@
    "dataTitle": "Known, unknown, assumed",
    "eyebrow": "The Sort",
    "headline": "Ambiguity shrinks when you <em>sort it</em>.",
-   "lead": "When a change feels overwhelming, sort it into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. A named question can be answered; an unsorted worry cannot. The piles are always smaller than the fog.",
+   "lead": "The World Economic Forum now ranks resilience, flexibility and agility near the top of the skills employers need. Here is the practice behind it. Sort a change into three piles: what is known, what is unknown, and what you have been assuming.",
+   "source": {
+    "label": "Future of Jobs 2025, skills outlook (World Economic Forum)",
+    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/"
+   },
    "group": "In pairs: name one workplace change on your mind, then each find one assumption you have been treating as a fact. 90 seconds each way.",
    "solo": "Name one workplace change on your mind, then write one assumption you have been treating as a fact.",
    "deeper": {

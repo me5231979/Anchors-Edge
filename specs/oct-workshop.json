@@ -106,7 +106,8 @@
       "dataTitle": "The first conversation",
       "eyebrow": "Pass Three",
       "headline": "Circle <em>one</em> conversation.",
-      "lead": "A finished map points at more conversations than one week can hold. The last pass is triage: read every marked line and circle the one that gets the first conversation. The circle is a promise, so it needs a reason and a window.",
+      "lead": "A finished map points at more conversations than one week can hold. CUPA-HR finds feeling valued predicts staying better than pay does, and that is what one conversation buys. Circle the line that gets it first.",
+      "source": {"label": "CUPA-HR 2025 Higher Education Employee Retention Survey", "url": "https://www.cupahr.org/resource/higher-ed-employee-retention-survey-findings-september-2025/"},
       "group": "Around the table, each manager reads their circled line, role only, with the reason in one sentence. Every table mate gets one challenge question: why this one first?",
       "interaction": {
         "type": "trainer",
@@ -224,7 +225,7 @@
     "s3": {
       "title": "The first conversation",
       "purpose": "Triage the finished map: one circled line, a reason, and a window.",
-      "say": "Your map now points at four or five conversations, and a list of five is how zero happen. So the last pass is one circle. Read your marked lines and ask two questions: where is the evidence strongest, and where is the cost of being wrong highest? Where those two meet, that is your circle. Monday's session built the conversation itself; today decides who it is for and when.",
+      "say": "Your map now points at four or five conversations, and a list of five is how zero happen. So the last pass is one circle. Read your marked lines and ask two questions: where is the evidence strongest, and where is the cost of being wrong highest? Where those two meet, that is your circle. And keep the stakes in view. CUPA-HR surveys the higher ed workforce every year, and in the 2025 retention survey a quarter of staff said they were likely to look for another job. Pay was what they named, but feeling valued and a sense of belonging predicted staying better than pay did. One conversation is how a person finds out they are valued. Monday's session built the conversation itself; today decides who it is for and when.",
       "facilitate": [
         "Run Who gets the circle? from the front; the room calls each line aloud before you reveal.",
         "Quiet minute: everyone circles one line on their own map.",

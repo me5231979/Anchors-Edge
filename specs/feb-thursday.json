@@ -107,11 +107,7 @@
    "dataTitle": "Earning and asking",
    "eyebrow": "The Ask",
    "headline": "Sponsorship is earned, then <em>asked for</em>.",
-   "lead": "Sponsors back work they have seen; their reputation rides on it. In the research behind HBR's The Real Benefit of Finding a Sponsor, people with sponsors were far likelier to ask for stretch work and raises, and to get them. Your levers: be seen, then ask.",
-   "source": {
-    "label": "The Real Benefit of Finding a Sponsor, Sylvia Ann Hewlett (Harvard Business Review)",
-    "url": "https://hbr.org/2011/01/the-real-benefit-of-finding-a"
-   },
+   "lead": "Sponsors back work they have seen; their reputation rides on it. Hewlett's research is blunt about what follows: people with a sponsor ask for stretch work and raises far more often, and get them far more often. Be seen, then ask.",
    "interaction": {
     "type": "builder",
     "playTitle": "Build the ask",
@@ -186,7 +182,11 @@
    "dataTitle": "Giving it away",
    "eyebrow": "The Give",
    "headline": "Advocacy is also a skill you <em>give</em>.",
-   "lead": "You do not need a title to sponsor someone. Everyone sits in rooms a colleague is absent from: meetings, chats, hallway asks for a name. Speaking up there, with evidence, is sponsorship at any level. The test is whether you can name who you do it for.",
+   "lead": "You do not need a title to sponsor someone. SHRM describes sponsorship as explicit advocacy, saying a person's name in rooms they are not in. You sit in those rooms weekly, so the test is whether you can name who you spend that credibility on.",
+   "source": {
+    "label": "Mentorship and Sponsorship: Core Tools for Talent Growth (SHRM)",
+    "url": "https://www.shrm.org/topics-tools/news/linkage/mentorship-sponsorship-core-tools-talent-growth"
+   },
    "group": "In pairs: whose work have you actually spoken up for lately, role only? If nobody comes to mind, say that. 90 seconds each way.",
    "solo": "Write the role of one person whose work you have spoken up for lately. If nobody comes to mind, write that down too.",
    "interaction": {
@@ -374,7 +374,7 @@
   "s3": {
    "title": "Giving it away",
    "purpose": "Land the advocacy question and get every person to name, role only, who they advocate for.",
-   "say": "Advocacy is a skill you give at any level, whatever your title. You sit in rooms other people are absent from every week: team meetings, chats, a hallway ask for a name. When someone asks who could take this on, you have a name you could say and evidence you could attach. Most of us hold that credibility and spend none of it. So the question this section leaves you with is simple: whose name do you say in rooms they are not in?",
+   "say": "Advocacy is a skill you give at any level, whatever your title. SHRM puts the definition plainly: sponsorship is explicit advocacy, the person who says your name in rooms you are not in. You sit in rooms other people are absent from every week: team meetings, chats, a hallway ask for a name. When someone asks who could take this on, you have a name you could say and evidence you could attach. Most of us hold that credibility and spend none of it. So the question this section leaves you with is simple: whose name do you say in rooms they are not in?",
    "facilitate": [
     "Read the concept card aloud; let the advocacy question sit for a beat.",
     "Show the In the room card, then open the discussion prompt: whose name do you say, roles only? An honest nobody counts; take two or three voices.",
