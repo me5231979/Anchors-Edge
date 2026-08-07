@@ -365,7 +365,7 @@ page = f'''<!DOCTYPE html>
     </div>
     <div class="footer__legal">
       <span>© <span id="year">2026</span> Vanderbilt University. Anchor's Edge · The Apply arm of CHART.</span>
-      <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a> · Futures Learning Hub <button class="admindot" id="adminDot" type="button" aria-label="Toggle admin view">&#9875;</button></span>
+      <span>Futures Learning Hub <button class="admindot" id="adminDot" type="button" aria-label="Toggle admin view">&#9875;</button></span>
     </div>
   </div>
 </footer>
