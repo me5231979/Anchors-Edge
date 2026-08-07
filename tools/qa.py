@@ -33,7 +33,7 @@ def find_chromium():
     raise SystemExit('no chromium found')
 
 
-def check_page(page, url, label, interactions=True):
+def check_page(page, url, label, interactions=True, strict_fit=True):
     errors = []
     console = []
     page.on('console', lambda m: console.append(m) if m.type in ('error', 'warning') else None)
@@ -44,7 +44,7 @@ def check_page(page, url, label, interactions=True):
     slides = page.eval_on_selector_all('.slide', '''els => els.map(e => ({
         id: e.id, over: e.scrollHeight - e.clientHeight }))''')
     for s in slides:
-        if s['over'] > 56 and s['id'] != 's-briefing':
+        if strict_fit and s['over'] > 56 and s['id'] != 's-briefing':
             errors.append('%s: slide %s overflows by %dpx' % (label, s['id'], s['over']))
 
     if interactions:
@@ -137,7 +137,9 @@ def main():
             all_errors += check_page(page, BASE + '/index.html', 'dashboard', interactions=False)
         for slug in slugs:
             all_errors += check_page(page, BASE + '/courses/%s/' % slug, slug + ':class')
-            all_errors += check_page(page, BASE + '/courses/%s/web/' % slug, slug + ':web')
+            if os.path.exists(os.path.join(ROOT, 'courses', slug, 'web', 'index.html')):
+                all_errors += check_page(page, BASE + '/courses/%s/web/' % slug,
+                                         slug + ':web', strict_fit=False)
             all_errors += check_page(page, BASE + '/courses/%s/facilitator/' % slug,
                                      slug + ':fac', interactions=False)
             print('checked', slug)

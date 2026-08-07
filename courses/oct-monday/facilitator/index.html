@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Talent Read, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for Vanderbilt managers: learn to read your team's skills, spot the gaps that matter, and catch flight risk while there is still time to act.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Talent Read | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for Vanderbilt managers: learn to read your team's skills, spot the gaps that matter, and catch flight risk while there is still time to act.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Inventory</a><a href="#s-two">Flight Risk</a><a href="#s-three">The Conversation</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (45 min) or Core (30 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 1, Talent Marketplace &amp; Transfer Portal.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If Screen share or the site fails mid-session:</b> Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share.</div><div class="brief__row"><b>If Breakout rooms are unavailable:</b> Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud.</div><div class="brief__row"><b>If Someone names a real colleague while describing a flight risk:</b> Protect them warmly and immediately: 'Hold that. Roles, never names.' The read works on patterns, not on people's reputations in a group call.</div><div class="brief__row"><b>If A manager says they have no time for stay interviews:</b> Do the math out loud: one conversation is 30 minutes; one backfill is four to six months. The conversation is the cheap option.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Isn't watching for flight risk just spying on my team?</summary><p>No tools, no monitoring, no message-reading. This is about patterns you already see in the normal course of managing: who volunteers, who owns, who asks about growth. The response to a signal is a conversation, which is the opposite of surveillance.</p></details><details class="brief__q"><summary>What if the stay interview surfaces a problem I can't fix, like pay?</summary><p>Name what you control and what you don't, honestly. Most stay research shows people leave over growth, visibility, and manager attention more often than pay alone, and those are yours. For the rest, carry it upward visibly; being advocated for retains people too.</p></details><details class="brief__q"><summary>What do I do with the skills inventory once I have it?</summary><p>Three uses this month: match one hidden skill to one real task, feed one growth ask, and hold one conversation. Later months connect it to the Talent Marketplace and the Transfer Portal, where the inventory becomes the university's map, not just yours.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: Monday, 45 minutes on reading your team. Bring nothing but a quiet thought about one person on your team you would hate to lose. You will never be asked to name them. Live and interactive; have the session link open on your own screen.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did the conversation happen? Three lines, reply whenever: 1) Did the talent conversation on your card happen? 2) What did you learn that the org chart never showed you? 3) What is your next talent read?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the conversation on your card happen? What did you learn that the org chart never showed you? What is your next talent read?' Count of held conversations is the Level 3 metric for the month.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Manager Monday · October 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Learners scan this code or use the chat link; your screen keeps <em class="gold-text">the notes</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to Manager Monday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Reading your team's skills, gaps, and flight risk.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide up as people join; link pasted in chat every few minutes.</li><li>State the norm once: type into your own screen, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A university that aims to define the century needs leaders who know exactly what talent they have. Seeing your team clearly is where Exceptional Core Operations starts, one manager at a time.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university that aims to define the century needs leaders who know exactly what talent they have. Seeing your team clearly is where Exceptional Core Operations starts, one manager at a time.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Talent Marketplace &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">The Talent Marketplace only works if managers can read their own teams first. Today builds that habit, one team at a time.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace &amp; Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. The Talent Marketplace only works if managers can read their own teams first. Today builds that habit, one team at a time.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 45 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Manager Monday · The manager lens · See the Talent Around You</p>
+      <h1 class="h-hero" data-reveal>Read the talent <em class="gold-text">around you</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Most managers can name their busiest person faster than their most skilled one. This session gives you a working read of your team: what people can do, where the gaps are, and who might be halfway out the door.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Inventory the skills on your team beyond current job titles</li><li>Distinguish real flight-risk signals from everyday noise</li><li>Choose one talent conversation to hold this week</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Talent Marketplace &amp; Transfer Portal</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Talent Management</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Retention</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: inventory the skills on your team beyond current job titles; distinguish real flight-risk signals from everyday noise; choose one talent conversation to hold this week. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The skills you can't see</h3><p>Why titles hide talent, and what an inventory actually looks like.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The flight-risk read</h3><p>Signals worth acting on, noise worth ignoring.</p></div></li><li data-reveal><span class="num">03</span><div><h3>One conversation</h3><p>Turn the read into a talk you hold this week.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the skills you can't see, the flight-risk read, one conversation. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The skills you can't see">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Inventory</p>
+      <h2 class="h2" data-reveal>Titles tell you the job. Not the <em>talent</em>.</h2>
+      <p class="lead" data-reveal>Every team carries skills that never appear on an org chart: the analyst who writes beautifully, the coordinator who de-escalates anyone. A talent read starts by listing what people can do, not what they were hired to do.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The inventory question</span>
+        <p style="margin:.5rem 0 0" class="measure">For each person, ask: what do they do well that the role does not require? Answers to that question are where succession plans, stretch projects, and internal moves come from.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Think about the last person you hired. You read a resume full of skills, and then the org chart reduced them to one title. Every team on this call carries skills that came up in interviews and have never been used since. The inventory question recovers what the title erased.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Whose resume surprised you when you first read it? What did they bring that their current role never touches, and what would it take to finally use it?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which of these belongs in a skills inventory?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is the role, not the person. The inventory captures what they CAN do, which is always bigger than what the job asks."><span class="mark">A</span><span>Their current job description</span></button><button class="opt" data-correct="1" data-why="Exactly. The point is the full picture: skills the role uses, skills it ignores, and skills they are building on their own."><span class="mark">B</span><span>Skills they use anywhere, in or outside the role</span></button><button class="opt" data-correct="0" data-why="Your observation is one source. Ask them; people know skills they have never had the chance to show you."><span class="mark">C</span><span>Only skills you have personally observed</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: name one hidden skill someone on your team has that their job never uses. One pair shares.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write down one hidden skill someone on your team has that their job never uses.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Three sources feed one honest inventory</h4><p>Your own observation is the weakest source, because it only samples the skills the current workload happens to exercise. Triangulate three: what you have watched them do, what colleagues borrow them for, and what they say when asked directly. The third source is where the surprises live. Most people carry a skill from a past role or a side interest nobody has asked about, and will name it the first time someone does.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Pick one person on your team and write three lines, one per source: seen, borrowed, self-reported. Leave the third blank until you have actually asked them.</li><li>Reread the resume or Oracle record they were hired with. Note one skill it mentions that the role has never used.</li><li>Bring the inventory line to your next 1:1 and let them correct it; their edits are the most accurate data you will get.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Install the inventory question: what can each person do beyond what the role requires.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Here is the uncomfortable truth this month is built on: most of us can describe our team's workload in detail and their skills only vaguely. Titles tell you the job someone was hired for. The talent read starts with what they can actually do, and half of that never shows up in the role. Think about the last resume you hired from: it was full of skills, and then the org chart shrank that person to a title.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the lead, then put the In the room card on screen and let the resume-to-title idea land for a beat.</li><li>Run the discussion prompt aloud and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.</li><li>Run the breakout: one hidden skill per person, 90 seconds each way.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Whose resume surprised you when you first read it, and what did they bring that the role never touches?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Usually a story about a skill mentioned at hire and never used since</li><li>Sometimes silence, which is itself the point</li></ul><p class="facnote__mini">Respond: If the room goes quiet: that silence is the gap this month closes. If stories flow: notice how fast they came once someone asked.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The inventory question costs nothing and most managers have never asked it. That is the whole section.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers listing job duties instead of skills. Redirect: what could this person do that the job never asks for?</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Skills are half the read. The other half is knowing who might leave.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the breakout; ask for one hidden skill in chat instead.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The flight-risk read">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Signals</p>
+      <h2 class="h2" data-reveal>Flight risk has a <em>sound</em>.</h2>
+      <p class="lead" data-reveal>People rarely announce they are leaving. They go quiet in meetings they used to own, stop volunteering, or ask questions about growth and get no good answer. The skill is telling those signals apart from ordinary busy-season noise.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Signal or noise?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Five second calls decide whether you act early or write the farewell card. Read each situation and call it.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: which signal on your team have you been calling noise? 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one signal on your own team you may have been calling noise.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Read against their baseline, not the team's</h4><p>The common mistake is comparing a person to the rest of the team: your quietest analyst looks fine next to your loudest coordinator. Flight-risk signals only mean anything against a person's own baseline, which is why long-tenured managers miss them; the baseline drifted slowly. The fix is a small discipline: know what normal ownership looks like for each person, then notice departures from that, in either direction.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Write one sentence per team member describing their normal: what they volunteer for, what they own without being asked.</li><li>Flag anyone whose last month departs from their own sentence. That is a watch list, not a verdict.</li><li>For one flagged person, book a light check-in this week. The conversation is how you test the read.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Teach the difference between actionable flight-risk signals, ordinary noise, and growth asks.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Nobody resigns out of nowhere. They resign after months of signals that were easy to read as something else. The skill is not surveillance; it is pattern literacy: noticing when ownership behavior changes, and telling that apart from busy-season weather.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Signal or noise? live; everyone plays on their own screen.</li><li>After round two, pause: ask who called it noise and why. The disagreement is the teaching.</li><li>Run the breakout on the signal they have been calling noise.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What makes the growth ask in round three so easy to miss?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>It sounds like a budget question</li><li>It arrives when you are busy</li><li>It is flattering, so it feels safe to postpone</li></ul><p class="facnote__mini">Respond: All true. The reframe: a growth ask is talent telling you the retention lever. Postponing it is declining it.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Signals are pattern changes around ownership and growth. Noise is workload weather. When unsure, one light conversation settles it.</p></div><p class="facnote__meta"><b>Watch for:</b> Anyone treating this as monitoring individuals. Frame stays on patterns you observe in the normal course of managing, never on surveillance.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;You have the read. Now it has to earn a conversation.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, skip the breakout, take one voice on the debrief question.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="One conversation">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Move</p>
+      <h2 class="h2" data-reveal>The read earns a <em>conversation</em>.</h2>
+      <p class="lead" data-reveal>A talent read that stays in your head changes nothing. It becomes retention the moment you hold the conversation: a stay interview, a growth check-in, or a skills ask. Build the opening you would actually use.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the conversation</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> One person on your team deserves this talk first. Choose how you open it and what you ask.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the conversation</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>The follow-through is the retention</h4><p>The conversation itself retains nobody; the follow-through does. Whatever you learn creates a small debt: a stretch task to find, a course to fund, a hidden skill to write into your inventory. Pay it visibly within two weeks, even partially, and the person learns that talking to you moves things. Miss it, and your next stay interview earns exactly the polite yes it was designed to avoid.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>After the conversation, write one line: the skill or want you heard, and the smallest visible action it points to.</li><li>Take the action within two weeks: forward the course link, propose the stretch task, or update your inventory and say so.</li><li>At the following 1:1, name what you did with what they told you. The closed loop is the retention lever.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the read into a specific conversation with a strong opening and one real question.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;A talent read that stays in your head is trivia. It becomes retention the moment someone hears it. The difference between a box-checking stay interview and one that actually retains is the opening line and the question, so we are going to build both.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Build the conversation; give the room two minutes to make both choices and run it.</li><li>Ask one volunteer to read their outcome aloud, weak or strong.</li><li>Point at the pattern: specific opening, forward-looking question.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Why does the compliance framing ('HR wants me to do stay interviews') kill the conversation?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>It makes the talk about the process, not the person</li><li>It signals the manager would not be here otherwise</li></ul><p class="facnote__mini">Respond: Right. The same questions land completely differently when the opening proves you noticed them specifically.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Strong talent conversations have a shape: I noticed you, here is what I see, what do you want to build next?</p></div><p class="facnote__meta"><b>Watch for:</b> Managers who want a script. Give the shape, not a script; their own words are the credibility.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Quick recap, then you build your own card.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: everyone runs the builder solo; skip the read-aloud.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>You cannot retain, grow, or move talent you have never seen.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: You cannot retain, grow, or move talent you have never seen.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My talent conversation</p>
+      <h2 class="h2" data-reveal>One person. One conversation. <em>This week.</em></h2>
+      <p class="lead" data-reveal>Pick the person your read points to first. Role only, never a name; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Who gets the conversation? Role and the signal you noticed.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. senior coordinator; stopped volunteering since August" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which conversation do you open?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="stay"><span>The stay interview</span></button><button class="opt" data-id="growth"><span>The growth check-in</span></button><button class="opt" data-id="skills"><span>The skills ask</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>At our next 1:1</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now make it real. One person your read points to, role only. Pick the conversation, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">See them clearly. <em>Keep them longer.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You built an inventory question, a flight-risk ear, and one real conversation. The rest of this week's sessions deepen the same theme: seeing the talent around you.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Hold the conversation on your card</h3>
+        <p>Run it exactly as built: the opening, the question, and one line afterward about what you learned. Bring that line to next Monday's session.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Read the team. Then act on the read.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Talent Read · Manager Monday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/oct-monday/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You leave with a read and a conversation. Hold it this week; bring what you learned to next Monday. Tomorrow's Take-Off Tuesday shows your people the Talent Marketplace, the system side of the same picture, and Thursday's session sharpens the curiosity that makes these conversations work.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Read",
+   "labels": [
+    "Flight-risk signal, act",
+    "Noise, let it be",
+    "Growth signal, feed it"
+   ],
+   "passAt": 2,
+   "passMsg": "You can hear the difference. Signals get a conversation this week; noise gets patience; growth gets fuel.",
+   "failMsg": "Close. The tell: signals are changes in pattern around ownership and growth. Noise is workload weather. Growth asks are gifts.",
+   "items": [
+    {
+     "q": "Your strongest analyst, who used to fight for projects, has passed on the last three without comment.",
+     "answer": 0,
+     "why": "A pattern change around ownership is the classic early signal. It costs one conversation to check and months to replace them."
+    },
+    {
+     "q": "A steady performer is quieter than usual during the two busiest weeks of the semester.",
+     "answer": 1,
+     "why": "Same person, same pattern, heavier season. Watch it, but busy-season quiet on its own is weather, not a warning."
+    },
+    {
+     "q": "A coordinator asks whether the department would fund a data course that is not part of their job.",
+     "answer": 2,
+     "why": "That is talent telling you where it wants to grow. Fund it or find an alternative; ignored growth asks become exit interviews."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How it lands",
+   "slots": [
+    {
+     "key": "How you open",
+     "opts": [
+      {
+       "t": "So, are you happy here? Any complaints?",
+       "pts": 1,
+       "coach": "A yes-or-no question about happiness gets a polite yes and nothing else. Vague openings produce vague answers."
+      },
+      {
+       "t": "HR wants me to do stay interviews, so here we are.",
+       "pts": 2,
+       "coach": "Honest, but it frames the talk as compliance. The person hears a form being filled in, not a manager who noticed them."
+      },
+      {
+       "t": "I have been thinking about what you are great at, and I want to make sure this role uses it.",
+       "pts": 3,
+       "coach": "Specific, personal, and about them. This opening earns real answers because it proves you were paying attention."
+      }
+     ]
+    },
+    {
+     "key": "What you ask",
+     "opts": [
+      {
+       "t": "Nothing planned; let the conversation flow.",
+       "pts": 1,
+       "coach": "Unstructured goodwill fades fast. Without one real question, the talk stays pleasant and changes nothing."
+      },
+      {
+       "t": "What would make you leave?",
+       "pts": 2,
+       "coach": "Better than nothing, but it puts the person on the spot and invites a rehearsed answer. Ask toward growth, not exits."
+      },
+      {
+       "t": "What skill do you have that this role never uses, and what would you like to build next?",
+       "pts": 3,
+       "coach": "The inventory question, aimed forward. It surfaces hidden skills and growth wants in one pass, and both are retention levers."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A conversation that retains. They left feeling seen, and you left with a talent read you can act on.",
+    "mid": "A decent talk that could have been a great one. The intent was right; the questions left value on the table.",
+    "weak": "A box got checked. The person answered politely and told a friend later that nothing will change."
+   },
+   "reactions": {
+    "strong": "Two weeks later they mention the conversation to a colleague, unprompted. The stretch project you found for their hidden skill is the reason they stopped watching job boards.",
+    "mid": "The conversation was pleasant and a little forgettable. Nothing broke, and nothing moved either. The signals you noticed are still there, waiting for a sharper question.",
+    "weak": "The polite yes you got was the same one every departing employee gives in their last six months. The read was right; the conversation wasted it."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What belongs in a team skills inventory?",
+   "opts": [
+    "Current job descriptions",
+    "What each person can do, in role or beyond it",
+    "Performance ratings",
+    "Tenure and titles"
+   ],
+   "correct": 1,
+   "why": "The inventory captures capability, not paperwork. Hidden skills are where succession and internal mobility come from."
+  },
+  {
+   "q": "Your best performer stops volunteering for projects they used to fight for. That is most likely...",
+   "opts": [
+    "Ordinary busy-season noise",
+    "A growth signal to feed",
+    "A flight-risk signal worth one conversation",
+    "A performance problem"
+   ],
+   "correct": 2,
+   "why": "A pattern change around ownership is the classic early flight-risk signal, and it costs one conversation to check."
+  },
+  {
+   "q": "What turns a talent read into retention?",
+   "opts": [
+    "Recording it in a spreadsheet",
+    "Holding the conversation it points to",
+    "Waiting for the annual review",
+    "Sharing it with HR"
+   ],
+   "correct": 1,
+   "why": "The read only changes anything when the person hears it: a stay interview, a growth check-in, or a skills ask, this week."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The read is loaded. Now aim it at one real person on your team.",
+  "mid": "Solid. Revisit the section you missed, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The person and the signal",
+  "cardTitle": "My talent conversation card",
+  "copyTag": "The Talent Read · October 2026 · Anchor's Edge",
+  "goalRow": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "evidenceRow": "Afterward, one line: what did you learn that the org chart never showed you?",
+  "practices": [
+   {
+    "id": "stay",
+    "chip": "The stay interview",
+    "name": "The stay interview",
+    "move": "Open with what they are great at, then ask what would make the next year worth staying for."
+   },
+   {
+    "id": "growth",
+    "chip": "The growth check-in",
+    "name": "The growth check-in",
+    "move": "Ask what skill they want to build next and find one real way the team can feed it."
+   },
+   {
+    "id": "skills",
+    "chip": "The skills ask",
+    "name": "The skills ask",
+    "move": "Ask what they can do that the role never uses, and write the answer into your team inventory."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The conversation happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "At our next 1:1",
+    "out": "The conversation opens your next scheduled 1:1, first item, before status updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The conversation happens within two weeks, booked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

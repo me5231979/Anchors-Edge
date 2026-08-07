@@ -34,6 +34,7 @@ SERIES_SUB = {
     "Manager Monday": "The manager lens",
     "Take-Off Tuesday": "Tools and tech, hands on",
     "Thrive Thursday": "The soft skill that carries it",
+    "Navigator Workshop": "In person, hands on",
 }
 
 # fixed session timing, identical across courses (sums checked below)
@@ -45,6 +46,22 @@ CORE_MIN = {"s-welcome": 1, "s-mission": 1, "s-goal": 1, "s-hero": 1, "s-agenda"
             "s-recap": 3, "s-plan": 3, "s-close": 1}
 assert sum(FULL_MIN.values()) == 45, sum(FULL_MIN.values())
 assert sum(CORE_MIN.values()) == 30, sum(CORE_MIN.values())
+
+# in-person navigator workshops run 90 full / 60 core
+WS_FULL = {"s-welcome": 3, "s-mission": 3, "s-goal": 3, "s-hero": 2, "s-agenda": 2,
+           "s-one": 20, "s-two": 22, "s-three": 20, "s-belief": 2,
+           "s-recap": 5, "s-plan": 6, "s-close": 2}
+WS_CORE = {"s-welcome": 2, "s-mission": 2, "s-goal": 2, "s-hero": 1, "s-agenda": 1,
+           "s-one": 13, "s-two": 15, "s-three": 13, "s-belief": 1,
+           "s-recap": 4, "s-plan": 4, "s-close": 2}
+assert sum(WS_FULL.values()) == 90, sum(WS_FULL.values())
+assert sum(WS_CORE.values()) == 60, sum(WS_CORE.values())
+
+
+def timing(spec):
+    if spec.get("format") == "workshop":
+        return WS_FULL, WS_CORE, 90, 60
+    return FULL_MIN, CORE_MIN, 45, 30
 
 # ---------------------------------------------------------------- validation
 LIMITS = {
@@ -104,7 +121,8 @@ def validate(spec, errors):
             L("group", sec["solo"], p + ".solo")
         d = sec.get("deeper")
         if not d:
-            errors.append(p + ": missing deeper block (self-paced dive)")
+            if spec.get("format") != "workshop":
+                errors.append(p + ": missing deeper block (self-paced dive)")
         else:
             L("deeper_title", d["title"], p + ".deeper.title")
             L("deeper_body", d["body"], p + ".deeper.body")
@@ -364,6 +382,14 @@ def build_course(spec):
         "config": course_config_js(spec),
         "slideCount": "12",
     }
+    _, _, f_tot, _ = timing(spec)
+    ws = spec.get("format") == "workshop"
+    values["fmtMinutes"] = str(f_tot)
+    values["fmtModeLabel"] = "Minutes, in person" if ws else "Minutes, live"
+    values["welcomeH1"] = ("Welcome. Scan the code to bring this workshop <em class=\"gold-text\">to your seat</em>." if ws else
+                           "Welcome. Scan or click the chat link to bring this <em class=\"gold-text\">to your screen</em>.")
+    values["selfPacedBtn"] = "" if ws else '<a class="btn btn--ghost" href="web/">Self-paced edition</a>'
+
     html = COURSE_TEMPLATE
     for k, v in values.items():
         html = html.replace("[[%s]]" % k, str(v))
@@ -380,10 +406,12 @@ def std_notes(spec):
     g = GOALS[spec["goal"]]
     fac = spec["facilitator"]
     series = spec["series"]
+    F_MIN, C_MIN, F_TOT, C_TOT = timing(spec)
+    ws = spec.get("format") == "workshop"
 
     def sec(id_, title, purpose, say, facilitate, extra=None):
-        d = {"id": id_, "title": title, "minutes": FULL_MIN[id_],
-             "coreMinutes": CORE_MIN[id_], "purpose": purpose, "say": say,
+        d = {"id": id_, "title": title, "minutes": F_MIN[id_],
+             "coreMinutes": C_MIN[id_], "purpose": purpose, "say": say,
              "facilitate": facilitate}
         if extra:
             d.update(extra)
@@ -391,10 +419,14 @@ def std_notes(spec):
 
     out = [
         sec("s-welcome", "Welcome / QR",
+            ("Get everyone into the deck on their own device and set the tone: %d minutes, in person, hands on." % F_TOT) if ws else
             "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+            ("Welcome to the %s. Scan the code so this session runs on your device too. %d minutes, one focus: %s" % (series, F_TOT, spec["tagline"].rstrip(".") + ".")) if ws else
             "Welcome to %s. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: %s" % (series, spec["tagline"].rstrip(".") + "."),
-            ["Slide up as people join; link pasted in chat every few minutes.",
-             "State the norm once: type into your own screen, nothing you enter is saved or sent."],
+            (["Slide projected as people arrive; phones up before you speak.",
+              "State the norm once: type into your own device, nothing you enter is saved or sent."] if ws else
+             ["Slide up as people join; link pasted in chat every few minutes.",
+              "State the norm once: type into your own screen, nothing you enter is saved or sent."]),
             {"watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
              "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."}),
         sec("s-mission", "The mission",
@@ -409,7 +441,7 @@ def std_notes(spec):
                 spec["goal"], g["short"], g["desc"], spec["goalLead"]),
             ["Read the goal once, plainly.",
              "One line, not a lecture: this session is one of the moves that serves it."],
-            {"transition": "Here is what you will be able to do in 45 minutes."}),
+            {"transition": "Here is what you will be able to do in %d minutes." % F_TOT}),
         sec("s-hero", "Objectives",
             "Set the contract for the session in under a minute.",
             "By the end of this session: " + "; ".join(o.rstrip(".").lower() for o in spec["objectives"]) + ". That is the whole contract.",
@@ -463,18 +495,23 @@ def std_notes(spec):
 def build_notes(spec):
     g = GOALS[spec["goal"]]
     fac = spec["facilitator"]
+    F_MIN, C_MIN, F_TOT, C_TOT = timing(spec)
+    ws = spec.get("format") == "workshop"
     return {
         "meta": {
             "program": "%s · %s · Anchor's Edge · Vanderbilt" % (spec["title"], spec["series"]),
-            "totalMinutes": 45,
+            "totalMinutes": F_TOT,
             "audience": fac["audience"],
-            "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+            "roomSetup": ("In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent." if ws else
+                          "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent."),
             "postSession": fac["pulse"],
             "paths": {
-                "full": {"minutes": 45,
-                         "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."},
-                "core": {"minutes": 30,
-                         "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."},
+                "full": {"minutes": F_TOT,
+                         "description": ("The full %d-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to %d including transitions." % (F_TOT, F_TOT)) if ws else
+                         "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."},
+                "core": {"minutes": C_TOT,
+                         "description": ("The %d-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone." % C_TOT) if ws else
+                         "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."},
             },
             "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
             "goal": "Goal %d, %s." % (spec["goal"], g["short"]),

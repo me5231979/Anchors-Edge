@@ -24,55 +24,55 @@ GOALS = {
 }
 
 MONTHS = [
-    {"n": 1, "slug": "oct", "date": "October 2026", "goal": 1,
+    {"n": 1, "slug": "oct", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857465640", "date": "October 2026", "goal": 1,
      "theme": "See the Talent Around You",
      "tagline": "Make talent, skill, and opportunity visible across the team.",
      "nod": "Psychological safety enables talent honesty.",
      "lil": "LinkedIn Learning: Talent Management, Don Phin",
      "lab": "Know-Your-Team talent-mapping lab (in person, navigator led)"},
-    {"n": 2, "slug": "nov", "date": "November 2026", "goal": 1,
+    {"n": 2, "slug": "nov", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857214466", "date": "November 2026", "goal": 1,
      "theme": "The Transfer Portal in Practice",
      "tagline": "Move people to opportunity without moving them out.",
      "nod": "Belonging travels: supporting movers and stayers.",
      "lil": "LinkedIn Learning: Building Your Team, Chris Croft",
      "lab": "Portal walkthrough and skill-profile clinic (in person, navigator led)"},
-    {"n": 3, "slug": "dec", "date": "December 2026", "goal": 2,
+    {"n": 3, "slug": "dec", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857233710", "date": "December 2026", "goal": 2,
      "theme": "The Vanderbilt Manager Standard",
      "tagline": "Name the observable behaviors that define a Vanderbilt manager.",
      "nod": "Sustainable pace as a leader behavior.",
      "lil": "LinkedIn Learning: New Manager Foundations, Todd Dewett",
      "lab": "Manager Standard walk-through clinic (in person, navigator led)"},
-    {"n": 4, "slug": "jan", "date": "January 2027", "goal": 3,
+    {"n": 4, "slug": "jan", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300003109162241", "date": "January 2027", "goal": 3,
      "theme": "AI at Work: Start Where You Are",
      "tagline": "Demystify AI and lead one safe first use case.",
      "nod": "Cognitive load: when to lean on AI, and when to rest.",
      "lil": "LinkedIn Learning: Generative AI for Business Leaders, Kian Katanforoosh",
      "lab": "First-AI-Win sandbox session (in person, navigator led)"},
-    {"n": 5, "slug": "feb", "date": "February 2027", "goal": 1,
+    {"n": 5, "slug": "feb", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002856953346", "date": "February 2027", "goal": 1,
      "theme": "Retain, Grow, Move",
      "tagline": "Succession and internal mobility, without the fear.",
      "nod": "Career wellness: growth as a wellbeing driver.",
-     "lil": "LinkedIn Learning: Retaining Your Best Talent, Roberta Matuson",
+     "lil": "LinkedIn Learning: Finding and Retaining High Potentials",
      "lab": "Stay-interview practice lab (in person, navigator led)"},
-    {"n": 6, "slug": "mar", "date": "March 2027", "goal": 2,
+    {"n": 6, "slug": "mar", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857610240", "date": "March 2027", "goal": 2,
      "theme": "Coaching as the Core Manager Behavior",
      "tagline": "Coach the person, manage the task.",
      "nod": "Active listening lowers stress on both sides.",
      "lil": "LinkedIn Learning: Coaching Skills for Leaders and Managers, Sara Canaday",
      "lab": "GROW-model coaching practicum (in person, navigator led)"},
-    {"n": 7, "slug": "apr", "date": "April 2027", "goal": 3,
+    {"n": 7, "slug": "apr", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857350568", "date": "April 2027", "goal": 3,
      "theme": "Spot AI-Exposed Work",
      "tagline": "See what's changing on your team before it changes you.",
      "nod": "Change fatigue: pacing team-level AI adoption.",
-     "lil": "LinkedIn Learning: AI for Leaders, Doug Rose",
+     "lil": "LinkedIn Learning: AI and the Future of Work: Workflows and Modern Tools for Tech Leaders",
      "lab": "Team AI-exposure mapping workshop (in person, navigator led)"},
-    {"n": 8, "slug": "may", "date": "May 2027", "goal": 2,
+    {"n": 8, "slug": "may", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857240584", "date": "May 2027", "goal": 2,
      "theme": "Measured Leader Behavior",
      "tagline": "The standard becomes visible, and measurable.",
      "nod": "Receiving feedback without depleting yourself.",
      "lil": "LinkedIn Learning: Giving and Receiving Feedback, Gemma Leigh Roberts",
      "lab": "Feedback role-play and development-plan build (in person, navigator led)"},
-    {"n": 9, "slug": "jun", "date": "June 2027", "goal": 3,
+    {"n": 9, "slug": "jun", "lil_url": "https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&learningItemId=300002857416915", "date": "June 2027", "goal": 3,
      "theme": "From Insight to Action",
      "tagline": "Translate AI signals into reskill, redeploy, redesign, or hire.",
      "nod": "Closing the year: recovery before the next sprint.",
@@ -122,7 +122,7 @@ def session_row(m, day, label, aud):
           <div class="session__body"><h4>{esc(spec["title"])}</h4><p>{esc(spec["tagline"])}</p></div>
           <span class="session__cta">
             <a class="btn btn--dark" href="courses/{slug}/">Launch</a>
-            <a class="btn btn--ghost-dark" href="courses/{slug}/facilitator/">Facilitator</a>
+            <a class="btn btn--ghost-dark session__fac" href="courses/{slug}/facilitator/">Facilitator</a>
             <a class="btn btn--ghost-dark" href="courses/{slug}/web/">Self-paced</a>
           </span>
         </div>'''
@@ -133,9 +133,31 @@ AVAIL = {1: "2026-10-01", 2: "2026-11-01", 3: "2026-12-01", 4: "2027-01-01",
          9: "2027-06-01"}
 
 
+def workshop_row(m):
+    slug = m["slug"] + "-workshop"
+    spec = load_spec(slug)
+    if spec is None:
+        return f"""
+        <div class="session session--adminonly">
+          <span class="session__day">Navigator Workshop<small>In person · 90 min · admin</small></span>
+          <div class="session__body"><h4>In build</h4><p>{esc(m["lab"])}</p></div>
+          <span class="session__cta"><span class="btn btn--soon">Coming soon</span></span>
+        </div>"""
+    return f"""
+        <div class="session session--adminonly">
+          <span class="session__day">Navigator Workshop<small>In person · 90 min · admin</small></span>
+          <div class="session__body"><h4>{esc(spec["title"])}</h4><p>{esc(spec["tagline"])}</p></div>
+          <span class="session__cta">
+            <a class="btn btn--dark" href="courses/{slug}/">Launch</a>
+            <a class="btn btn--ghost-dark session__fac" href="courses/{slug}/facilitator/">Facilitator</a>
+          </span>
+        </div>"""
+
+
 def month_card(m):
     g = GOALS[m["goal"]]
     rows = "".join(session_row(m, d, lbl, aud) for d, lbl, aud in DAYS)
+    rows += workshop_row(m)
     return f'''
       <article class="month" data-goal="{m["goal"]}" data-avail="{AVAIL[m["n"]]}" data-reveal id="m{m["n"]}">
         <div class="month__head">
@@ -149,8 +171,7 @@ def month_card(m):
         <div class="sessions">{rows}
         </div>
         <div class="month__extras">
-          <span><b>Course of the month:</b> {esc(m["lil"])}</span>
-          <span><b>Navigator led:</b> {esc(m["lab"])}</span>
+          <span><b>Course of the month:</b> <a href="{m["lil_url"]}" target="_blank" rel="noopener">{esc(m["lil"])}</a> <span class="cotm-note">(opens in Oracle Learning)</span></span>
         </div>
       </article>'''
 

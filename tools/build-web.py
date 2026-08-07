@@ -9,12 +9,22 @@ QR welcome slide is dropped, every element tagged data-classroom (the
 breakout prompts) is removed, and every data-webonly element (the solo
 variants) is unhidden.
 """
-import re, os, sys
+import json, re, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+def is_workshop(slug):
+    p = os.path.join(ROOT, 'specs', slug + '.json')
+    if not os.path.exists(p):
+        return False
+    return json.load(open(p)).get('format') == 'workshop'
+
+
 def build(slug):
+    if is_workshop(slug):
+        print('skip courses/%s (workshop: no self-paced edition)' % slug)
+        return
     src = os.path.join(ROOT, 'courses', slug, 'index.html')
     s = open(src).read()
 
@@ -39,7 +49,7 @@ def build(slug):
     s = s.replace('"../../assets/', '"../../../assets/')
     s = s.replace('href="../../index.html', 'href="../../../index.html')
     s = s.replace('<a class="btn btn--ghost" href="web/">Self-paced edition</a>',
-                  '<a class="btn btn--ghost" href="../">Classroom edition</a>')
+                  '<a class="btn btn--ghost" href="../">Classroom edition</a>')  # no-op for workshops
     s = s.replace('<li><a href="web/">Self-paced version</a></li>',
                   '<li><a href="../">Classroom edition (for facilitators)</a></li>')
 

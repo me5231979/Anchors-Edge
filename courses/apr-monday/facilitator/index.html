@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Exposure Map, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for Vanderbilt managers: map your team's recurring work, sort it honestly by AI exposure, and open the team conversation about what changes without fear.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Exposure Map | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for Vanderbilt managers: map your team's recurring work, sort it honestly by AI exposure, and open the team conversation about what changes without fear.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Map</a><a href="#s-two">The Sort</a><a href="#s-three">The Talk</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (45 min) or Core (30 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 3, AI-Enabled Workforce Readiness.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If Screen share or the site fails mid-session:</b> Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share.</div><div class="brief__row"><b>If Breakout rooms are unavailable:</b> Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud.</div><div class="brief__row"><b>If A manager names a specific employee while sorting a task:</b> Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' Exposure belongs to work, and the norm only holds if you hold it every time.</div><div class="brief__row"><b>If The room turns anxious about their own manager roles:</b> Name it honestly: manager work is heavy with low-exposure tasks like coaching and judgment calls, and the mapping skill itself is exactly the kind of work that stays valuable.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Isn't this just building the case for cutting my team?</summary><p>The map is a redesign tool, and Goal 3 is workforce readiness: freed hours moving to higher-value work, skills growing before the change arrives. A team that sorts its own work shapes what comes next; a team that waits gets sorted by someone else's spreadsheet.</p></details><details class="brief__q"><summary>What if a task sorts as high exposure but the approved tools can't do it yet?</summary><p>Then the map is ahead of the tooling, which is the good direction. Log the task, note what the tool would need, and revisit quarterly. High exposure is a signal about the shape of the work, and the redesign can start before the automation does.</p></details><details class="brief__q"><summary>Should I share the map with HR or leadership?</summary><p>Share the task-level map, yes; that is exactly the insight Goal 3 asks managers to surface. Keep it in task language with no names attached, and pair every high-exposure call with your redesign intent so it reads as a plan, never as a cut list.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: Monday, 45 minutes on seeing AI-exposed work before it changes your team. Bring a rough sense of the five tasks your team repeats every week. No prep documents, no names. Live and interactive; have the session link open on your own screen.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Does the map exist? Three lines, reply whenever: 1) Does your ten-task map exist, with exposure calls? 2) Which call surprised you? 3) Has the team seen it, and what did they add?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Does your ten-task map exist? Which exposure call surprised you? Has the team seen it yet?' Count of completed team maps is the Level 3 metric for the month.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Manager Monday · April 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Learners scan this code or use the chat link; your screen keeps <em class="gold-text">the notes</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to Manager Monday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Walking your team's work through an AI-exposure lens.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide up as people join; link pasted in chat every few minutes.</li><li>State the norm once: type into your own screen, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A university out to define the century cannot let AI redraw its work unnoticed. Managers who can map exposure and redesign around it keep Exceptional Core Operations exceptional while the tools underneath keep changing.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university out to define the century cannot let AI redraw its work unnoticed. Managers who can map exposure and redesign around it keep Exceptional Core Operations exceptional while the tools underneath keep changing.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 3 asks managers to identify AI-exposed work on their teams and turn that insight into action. Today you build the map that everything else in the goal stands on.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 asks managers to identify AI-exposed work on their teams and turn that insight into action. Today you build the map that everything else in the goal stands on.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 45 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Manager Monday · The manager lens · Spot AI-Exposed Work</p>
+      <h1 class="h-hero" data-reveal>Map the work <em class="gold-text">before it moves</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">AI is already reshaping some of the work your team repeats every week. This session gives you a manager's map of it: which tasks are exposed, which stay human, and how to talk about the difference so your team sees the change before it sees them.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Map your team's recurring work as tasks, separate from the people who hold them</li><li>Sort each task honestly by AI exposure: high, partial, or low</li><li>Open one team conversation that frames exposure as redesign the team helps write</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Leads through change</span><span class="skillpill">AI Literacy</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Team Communication</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: map your team's recurring work as tasks, separate from the people who hold them; sort each task honestly by ai exposure: high, partial, or low; open one team conversation that frames exposure as redesign the team helps write. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The task map</h3><p>List the team's recurring work as tasks, because exposure lives in tasks, never in job titles.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The honest sort</h3><p>Call each task's AI exposure straight: high, partial, or low, without flattery or panic.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The team talk</h3><p>Bring the map to your team as a redesign conversation they help write.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the task map, the honest sort, the team talk. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The task map">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Map</p>
+      <h2 class="h2" data-reveal>AI meets your team one <em>task</em> at a time.</h2>
+      <p class="lead" data-reveal>Nobody's whole job is exposed to AI; pieces of it are. The map starts with a plain list of your team's recurring tasks: the weekly report, the intake queue, the scheduling. Write tasks, hold the people out of it, and the picture gets honest fast.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The mapping rule</span>
+        <p style="margin:.5rem 0 0" class="measure">Map the work, never the people. List each recurring task on its own line: what gets produced, how often, from what inputs. A task-level map lets you redesign work without putting anyone's job on trial.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Map this work by role and the month becomes a quiet argument about whose job is safe, with honesty as the first casualty. Map it by task and the same team can study the same work in the open. A task on the board puts nobody on trial, so people tell the truth about what the week is made of.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Name one task your team repeats weekly, in task language: output, rhythm, inputs. What gets easier to say once the name is off it?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which entry belongs on an AI-exposure map?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That maps a person, and it poisons every conversation that follows. Exposure belongs to tasks; people hold portfolios of tasks, most of which stay human."><span class="mark">A</span><span>Our data analyst might be replaceable</span></button><button class="opt" data-correct="1" data-why="A named task with a rhythm and inputs. Now you can ask how exposed it is and what the hour it frees up should become."><span class="mark">B</span><span>Weekly enrollment summary, compiled every Friday from system exports</span></button><button class="opt" data-correct="0" data-why="Too big to sort and too vague to redesign. Break it into the tasks the office actually repeats and the map becomes useful."><span class="mark">C</span><span>The whole front office, since AI changes everything</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: name two recurring tasks your team does every week, in task language, no names attached. One pair shares their list.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> List five recurring tasks your team does every week, in task language, no names attached.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Write the task like a recipe</h4><p>A sortable task line has three parts: the output, the rhythm, and the inputs. 'Board report, monthly, from three spreadsheets' sorts in seconds; 'reporting' never will. The entries worth hunting are the invisible ones: work living in one person's head, or the cleanup nobody calls a task. Unlisted tasks are often the most exposed, because nobody has ever looked at them straight.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Rewrite one recurring task as output, rhythm, inputs. If a colleague could picture doing it from your line, it is ready to sort.</li><li>Add two invisible tasks to your map: work only one person knows, or cleanup nobody names. Write them in the same format.</li><li>Keep the list where you plan your week and add one task line a day until you reach ten.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Install the mapping rule: exposure lives in recurring tasks, never in people or titles.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;April is about seeing what is changing on your team before it changes you. The instinct is to ask which jobs are safe, and that question maps people, which poisons everything downstream. We start smaller and more honest: what tasks does this team repeat every week?&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the lead, then bring up the In the room card and let it land for a beat.</li><li>Run the discussion prompt: one recurring task in task language, name off it. Take two or three voices.</li><li>Run the breakout: two recurring tasks in task language, no names attached.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What changes when you write down the weekly summary instead of a person's name?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>The conversation stops being about someone's job</li><li>You can sort it without anyone getting defensive</li><li>It gets specific enough to actually redesign</li></ul><p class="facnote__mini">Respond: All of it. Task language is what lets you do this month in the open instead of in a locked spreadsheet.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The map is a list of tasks with rhythms and inputs. People hold portfolios of tasks, and no portfolio is all one color.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers drifting into naming people or rating roles. Redirect every time: tasks on the map, people in your care.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;A list is a start. The sort is where honesty gets tested.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the breakout; ask for one recurring task in chat instead.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The honest sort">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Sort</p>
+      <h2 class="h2" data-reveal>Sort it straight, without <em>flattery or panic</em>.</h2>
+      <p class="lead" data-reveal>Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the exposure</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three tasks from real Vanderbilt weeks. Read each one and make the exposure call.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: pick one task from your list and call its exposure. Does your partner agree? 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Pick one task from your list and call its exposure: high, partial, or low. Write one line on why.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>When a task refuses to sort</h4><p>Some tasks resist a single call because they are bundles. The monthly newsletter is drafting from public content, choosing the lead story, and replying to an upset reader, and each piece sorts differently. When a call feels impossible, split the task into steps and sort the steps; the argument usually dissolves. A sort is also a snapshot: tools improve, so a low call today deserves a fresh look next quarter.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Take the task that was hardest to call. Break it into three or four steps and give each step its own exposure call.</li><li>Mark any step touching private information about people. Those stay human, whatever you decide about the rest of the bundle.</li><li>Date the sort and set a reminder to rerun it in a quarter.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Teach the three exposure calls and their tells, inside the shared traffic light rules.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now sort it straight. High means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human. And the sort lives inside the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Call the exposure live; everyone plays on their own screen.</li><li>After the coaching task, pause: ask why it stays human even though AI could draft the words.</li><li>Run the breakout: one task, one exposure call, partner challenges it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Which pull is stronger in your own sort: calling everything exposed, or calling nothing exposed?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Panic sorters who see exposure everywhere</li><li>Comfort sorters who protect every task</li><li>Some will admit they flatter their team's work</li></ul><p class="facnote__mini">Respond: Both pulls are fear in different clothes. The honest sort is the kind thing; it is what makes the redesign real instead of cosmetic.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Repetitive and rule-based leans high. Judgment over internal work leans partial, in approved VU tools. Trust and private people data stay human, always.</p></div><p class="facnote__meta"><b>Watch for:</b> Anyone suggesting AI for red-light work like coaching notes or performance concerns. Restate the light: private information about people, never.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;You have a sorted map. Now it has to survive contact with the team.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, skip the breakout, take one voice on the debrief question.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The team talk">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Move</p>
+      <h2 class="h2" data-reveal>Bring the map to the <em>team</em>.</h2>
+      <p class="lead" data-reveal>A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write: what gets automated, what gets augmented, where the freed hours go. How you open that conversation decides whether it lands as invitation or verdict.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Open the team conversation</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your team will hear about AI exposure from someone. Choose how they hear it from you.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the conversation</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Keep the map alive after the talk</h4><p>The opening meeting is the easy part; the promise gets kept in what happens next. Put the map where the team can see and edit it, and treat every task they add as a gift. Then keep the redesign promise visibly the first time it is tested: when the first task moves to a tool, let the team decide in the open what fills the freed hour. One kept promise buys more trust than a season of reassurance.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Draft the two sentences you will open with: the invitation to sort the map together and the freed-hours promise. Say them aloud once before the meeting.</li><li>Choose where the shared map will live and add a recurring slot on the team agenda to revisit it.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Equip managers to open the exposure conversation as invitation and redesign, with a keepable promise.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Your team will hear about AI exposure from somewhere: a headline, a rumor, or you. The version they hear from you can come with tasks on the table and a promise you can keep, which is that the people who do the work help decide what fills the freed hours. We are going to build that opening.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Open the team conversation; give the room two minutes for both choices.</li><li>Ask one volunteer to read a weak outcome aloud; let the room name what went wrong.</li><li>Point at the pattern: task map on the table, redesign promise out loud.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Why is 'nobody's job changes' the wrong promise even though it feels kind?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Work will change, so the promise breaks</li><li>It spends credibility you will need later</li><li>The team hears a manager who has not looked closely</li></ul><p class="facnote__mini">Respond: Right. Promise the thing you control: change arrives as redesign, with their voice in it. That one holds.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The strong open has a shape: here is our task map, here is my honest sort, help me decide what the freed hours become.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers rehearsing reassurance instead of invitation. Push them toward the ask: what is your read on this map?</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Quick recap, then your own map goes on a card.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: everyone runs the builder solo; skip the read-aloud.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>Exposure you can see becomes a redesign. Exposure you ignore arrives as a surprise.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: Exposure you can see becomes a redesign. Exposure you ignore arrives as a surprise.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My exposure map</p>
+      <h2 class="h2" data-reveal>Ten tasks. One sort. <em>One conversation.</em></h2>
+      <p class="lead" data-reveal>Commit to the first pass of your team's map. Tasks and roles only, never a name; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Which slice of your team's work do you map first? Name the task cluster.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. weekly reporting cycle; intake and scheduling tasks" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · How do you take the first pass?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="solomap"><span>Map it myself first</span></button><button class="opt" data-id="teammap"><span>Map it with the team</span></button><button class="opt" data-id="workshop"><span>Book the navigator workshop</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="teammeet"><span>At the next team meeting</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now commit to the first pass. Pick the slice of your team's work you map first, choose how you take the pass, pick the window, and copy the card somewhere you will see it before Friday. Tasks and roles only, never a name. Two minutes, quiet, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">See the change coming. <em>Shape it first.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You built a task map, an honest sort, and a team conversation that lands as invitation. The rest of the week hands the same lens to every member of your team.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Take the first pass at your map</h3>
+        <p>Ten recurring tasks, each sorted high, partial, or low. The LinkedIn Learning course AI for Leaders by Doug Rose pairs well with the mapping workshop.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Map the work. Then lead the redesign.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Exposure Map · Manager Monday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/apr-monday/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You leave with a lens and a map to build. Tomorrow's Take-Off Tuesday hands every member of your team the same skill at the task level: automate, augment, or leave alone, one task at a time. Thursday's Thrive Thursday sharpens the critical thinking that keeps the whole month honest, sorting AI hype from real value. If you want to go deeper, the LinkedIn Learning course AI for Leaders by Doug Rose pairs with the navigator-led mapping workshop.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Task",
+   "labels": [
+    "High exposure, redesign candidate",
+    "Partial exposure, pair with AI",
+    "Low exposure, stays human"
+   ],
+   "passAt": 2,
+   "passMsg": "You sort straight. High gets a redesign, partial gets a pairing, low gets protected and valued.",
+   "failMsg": "Close. The tells: repetitive and rule-based leans high; judgment over internal work leans partial; anything built on trust or private people data stays human.",
+   "items": [
+    {
+     "q": "Reformatting the same public event listings into the newsletter template every week.",
+     "answer": 0,
+     "why": "Repetitive, rule-based, built on public content: green-light work AI handles well. The redesign question is what the freed hours should become."
+    },
+    {
+     "q": "Drafting the annual program review, which blends internal data with judgment calls about priorities.",
+     "answer": 1,
+     "why": "AI can draft and summarize inside approved VU tools, since the data is internal. The priority calls stay with the person driving."
+    },
+    {
+     "q": "Coaching a struggling team member through a rough semester.",
+     "answer": 2,
+     "why": "This runs on trust and private knowledge of a person. That is red-light territory for AI and the heart of the job for a manager."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How it lands",
+   "slots": [
+    {
+     "key": "How you open",
+     "opts": [
+      {
+       "t": "Leadership wants an AI plan, so I made a list of what could be automated.",
+       "pts": 1,
+       "coach": "Opening with leadership pressure and automation tells the room this is being done to them. Expect quiet nodding in the meeting and loud anxiety after it."
+      },
+      {
+       "t": "AI is coming either way, so let's get ahead of it before it gets ahead of us.",
+       "pts": 2,
+       "coach": "Energetic, and it still frames AI as a threat to outrun. Fear gets attention; it rarely gets honest task lists."
+      },
+      {
+       "t": "Here's a map of our recurring tasks. I want your read on what AI should take off our plates.",
+       "pts": 3,
+       "coach": "Tasks on the table, people invited to sort them. Asking for their read turns the map into shared work instead of a verdict."
+      }
+     ]
+    },
+    {
+     "key": "What you promise",
+     "opts": [
+      {
+       "t": "No promises; we'll see where this goes.",
+       "pts": 1,
+       "coach": "Uncertainty from the manager becomes dread in the team. Without a commitment, every high-exposure task reads as a threat to someone."
+      },
+      {
+       "t": "Nobody's job changes because of this exercise.",
+       "pts": 2,
+       "coach": "Comforting today and hard to keep. Work will change; promising it won't spends your credibility on the wrong sentence."
+      },
+      {
+       "t": "Exposed tasks mean redesign, and the people who do the work help decide what fills the hours.",
+       "pts": 3,
+       "coach": "A promise you can keep: change comes with a voice in it. That is what turns exposure from threat into a growth conversation."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A team that leans in. The map is on the table and the people who know the tasks best are sorting them with you.",
+    "mid": "A mixed landing. Some heard opportunity, some heard threat, and the rumor mill got the leftovers.",
+    "weak": "A quiet meeting and a loud week after. The map became a rumor about cuts before Friday."
+   },
+   "reactions": {
+    "strong": "Within two weeks, a team member brings you a task you missed, with their own exposure call attached. The map belongs to the team now, and Tuesday's task sort gives each of them the same lens for their own week.",
+    "mid": "A few people run with it; a few quietly update their resumes. The difference was one promise you did not quite make. Reopen the talk with the freed-hours commitment said out loud.",
+    "weak": "The word automated traveled faster than the word redesign. You spend the month rebuilding trust the opening line spent in five minutes."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What goes on an AI-exposure map?",
+   "opts": [
+    "The people most at risk",
+    "The team's recurring tasks, one per line",
+    "Whole roles and job titles",
+    "Only tasks you would automate"
+   ],
+   "correct": 1,
+   "why": "Exposure lives in tasks. People hold portfolios of tasks, and mapping tasks keeps redesign honest while keeping anyone's job off trial."
+  },
+  {
+   "q": "A task blends internal data with judgment calls. Its exposure is most likely...",
+   "opts": [
+    "High: hand it to AI end to end",
+    "Zero: AI never touches it",
+    "Partial: AI helps in approved VU tools",
+    "Unknowable until a vendor demos it"
+   ],
+   "correct": 2,
+   "why": "Internal work is yellow-light territory: approved VU tools can draft and summarize while the judgment stays with the person driving."
+  },
+  {
+   "q": "What turns high exposure into something other than a threat?",
+   "opts": [
+    "Keeping the map confidential",
+    "Promising nothing will change",
+    "A redesign the team helps write",
+    "Waiting for an enterprise directive"
+   ],
+   "correct": 2,
+   "why": "Change with a voice in it reads as redesign. The commitment that the team helps decide what fills the freed hours is the fear antidote."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The lens is fitted. Now walk your real task list through it.",
+  "mid": "Solid. Revisit the sort tells, then build your card.",
+  "low": "Take the three sections once more before you map real work."
+ },
+ "capstone": {
+  "whoRow": "The work I am mapping",
+  "cardTitle": "My exposure map card",
+  "copyTag": "The Exposure Map · April 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness.",
+  "evidenceRow": "Afterward, one line: which task's exposure call surprised you most?",
+  "practices": [
+   {
+    "id": "solomap",
+    "chip": "Map it myself first",
+    "name": "Map it myself first",
+    "move": "List ten recurring tasks, sort each high, partial, or low, and pressure-test the sort with one trusted peer manager."
+   },
+   {
+    "id": "teammap",
+    "chip": "Map it with the team",
+    "name": "Map it with the team",
+    "move": "Bring a blank task list to the next team meeting and build the map together, exposure calls and all."
+   },
+   {
+    "id": "workshop",
+    "chip": "Book the navigator workshop",
+    "name": "Book the navigator workshop",
+    "move": "Schedule the navigator-led AI-exposure mapping workshop and arrive with your ten-task list as the raw material."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first pass exists by Friday: ten tasks, each with an exposure call."
+   },
+   {
+    "id": "teammeet",
+    "chip": "At the next team meeting",
+    "out": "The map opens your next team meeting, first item, before status updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "Map and team conversation both happen within two weeks, booked today."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

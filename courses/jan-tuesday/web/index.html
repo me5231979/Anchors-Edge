@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your First Win: Self-Paced | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute hands-on virtual session for all Vanderbilt staff: pick one safe chore from your own week, write a plain-English ask, and check the result before you use it. No AI experience needed.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/web/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your First Win | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute hands-on virtual session for all Vanderbilt staff: pick one safe chore from your own week, write a plain-English ask, and check the result before you use it. No AI experience needed.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Chore</a><a href="#s-two">The Ask</a><a href="#s-three">The Check</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century gets built in ordinary workweeks. Every staff member who hands a chore to AI safely puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 3 measures a workforce that is ready for AI, and readiness starts with one real use each. Today you run yours: one chore, one ask, one check.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · AI at Work: Start Where You Are</p>
+      <h1 class="h-hero" data-reveal>Your first AI win is <em class="gold-text">one chore away</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">This hour assumes you have never opened an AI tool. Bring one chore from your regular week; you will learn the traffic light that keeps it safe, ask for help in plain English, and check the result like an editor. That is a complete first win.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Pick one green-light chore from your own week that AI can safely draft</li><li>Write a plain-English ask that gives the tool the job, the details, and the shape you want</li><li>Check the result for accuracy and voice before anything leaves your hands</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Personal Effectiveness</span><span class="skillpill">AI Fluency</span><span class="skillpill">Written Communication</span><span class="skillpill">Attention to Detail</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Pick the chore</h3><p>The traffic light, and finding one green-light task in your own week.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Write the ask</h3><p>Plain English works: the job, the details, and the shape you want back.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Check before you use</h3><p>You are the editor. What to verify before the draft goes anywhere.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Pick the chore">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Green Light</p>
+      <h2 class="h2" data-reveal>Your week is full of <em>green lights</em>.</h2>
+      <p class="lead" data-reveal>AI is at its best on chores: first drafts, tidy summaries, notes turned into clean sentences. The traffic light decides what is safe. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the light</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Every use case starts with this call. Read each chore and pick its light.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one chore from your own week and call its light: green, yellow, or red.</p>
+      <details class="deeper" data-webonly data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Green inside a yellow week</h4><p>Two refinements make the light easy on real work. Mixed content first: the most sensitive piece in a chore decides the light for the whole task, so one student's name in a page of public text makes the page red. Second, chores can change color. Strip out the internal or personal specifics, run the generic remainder as green, and add the sensitive parts back yourself. Even confidential roles hold a green generic layer.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>List five recurring chores from your calendar and inbox, and mark each one green, yellow, or red.</li><li>Take one yellow chore and write its green version: the same task with the specifics stripped out.</li></ol></div>
+        </div>
+      </details>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Write the ask">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Ask</p>
+      <h2 class="h2" data-reveal>Ask like you would ask a <em>colleague</em>.</h2>
+      <p class="lead" data-reveal>There is a myth that talking to AI takes special training. Plain English works. Tell the tool the job, give it the details that matter, and say what shape you want back. The same sentences you would use to brief a helpful colleague are the ones that work here.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the ask</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your chore: a first draft of a thank-you note to volunteers after a public campus event. Choose what you tell the tool.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Send the ask</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write the plain-English ask for the chore you named in section one: the job, the details, the shape.</p>
+      <details class="deeper" data-webonly data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>The second ask</h4><p>The ask keeps going after the first draft. When it comes back close, say what to change the way you would to a colleague: warmer, shorter, lead with the thanks, drop the last line. Two or three follow-ups usually beat one giant opening ask. One quiet trick: paste in a short sample of something you wrote and ask the tool to match that voice. It mirrors what it is shown, and your own writing is the best voice instruction.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Run your capstone chore, then send one follow-up that changes a single thing: tone, length, or the opening.</li><li>Paste in a paragraph of your own writing, ask for the draft in that voice, and compare the two results.</li></ol></div>
+        </div>
+      </details>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Check before you use">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Check</p>
+      <h2 class="h2" data-reveal>You are the <em>editor</em>.</h2>
+      <p class="lead" data-reveal>AI drafts with total confidence and zero guarantee. Sometimes it invents a detail, gets a name wrong, or strikes a tone you would never use. The rule that keeps you safe is simple: the draft ships after you have read every line and can stand behind every fact.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The editor's rule</span>
+        <p style="margin:.5rem 0 0" class="measure">Before an AI draft goes anywhere, check facts (every name, date, and number), fit (is this what you meant to say?), and voice (does it sound like you?). If you cannot verify a detail, cut it or confirm it yourself.</p>
+      </div>
+      <div class="quiz" data-webonly data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">The tool's draft includes a detail you did not provide and cannot verify. What do you do?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="The tool writes what sounds likely, and likely-sounding details are sometimes wrong. Anything you cannot verify has no place in your work."><span class="mark">A</span><span>Keep it; the tool probably knows</span></button><button class="opt" data-correct="1" data-why="Exactly. You are the editor, and your name goes on the result. Verified details stay; everything else goes."><span class="mark">B</span><span>Cut it or confirm it yourself before the draft moves</span></button><button class="opt" data-correct="0" data-why="A disclaimer hands the checking to your reader. The check is your job, and it takes two minutes on a chore-sized draft."><span class="mark">C</span><span>Send it with a note that AI wrote it</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Recall a time a confident-sounding document turned out to be wrong. What would have caught it?</p>
+      <details class="deeper" data-webonly data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>The two-pass check</h4><p>Make the check a routine and it stays quick. Pass one is facts: touch every name, date, number, and claim, and confirm each against a source you trust; anything you cannot verify gets cut or confirmed by you. Pass two is fit and voice: read the draft aloud once, because your ear catches the sentence you would never say faster than your eye does. On a chore-sized draft the whole routine takes about two minutes.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Run both passes on your first-win draft and keep a tally of what pass one caught.</li><li>Read the final version aloud and rewrite any sentence that does not sound like you.</li></ol></div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>Start where you are: one chore, one ask, one check.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My first win</p>
+      <h2 class="h2" data-reveal>One chore. One ask. <em>One check.</em></h2>
+      <p class="lead" data-reveal>Pick the chore from your own week and the moment you will run it. Nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · The green-light chore, and the ask you will make in plain English.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. draft the newsletter blurb about the public lecture series" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which first win do you run?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="draft"><span>The first draft</span></button><button class="opt" data-id="tidy"><span>The tidy-up</span></button><button class="opt" data-id="explain"><span>The plain explainer</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="today"><span>Today</span></button><button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="sandbox"><span>At the sandbox session</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">One chore down. <em>A habit begun.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You called the light, wrote the ask, and learned the editor's rule. Thursday's Thrive Thursday builds the adaptability that keeps you steady while tools like this keep changing.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Run the chore on your card</h3>
+        <p>Run it exactly as built: the ask, the check, and one line about what the check caught. If you would rather try with company, the navigator-led First-AI-Win sandbox session is open to everyone this month.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="../">Classroom edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Start where you are. Check before it ships.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>Your First Win · Take-Off Tuesday · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Chore",
+   "labels": [
+    "Green: public or generic, go",
+    "Yellow: approved VU tools only",
+    "Red: never"
+   ],
+   "passAt": 2,
+   "passMsg": "You can call the light. Green chores are your starting lane; yellow waits for approved VU tools; red stays out, every time.",
+   "failMsg": "Close. The light follows the information in the chore: public or generic is green, internal work is yellow inside approved VU tools, and private information about people is always red.",
+   "items": [
+    {
+     "q": "Drafting a friendly reminder about a campus event that is already on the public calendar.",
+     "answer": 0,
+     "why": "Public event, generic wording. A perfect first win: the tool drafts in seconds, and you polish the details you know."
+    },
+    {
+     "q": "Summarizing notes from an internal team meeting so you can share highlights with the group.",
+     "answer": 1,
+     "why": "Internal content is yellow: fine inside approved VU tools, off limits in anything else. The chore is great; the venue matters."
+    },
+    {
+     "q": "Writing a sensitive email about a student's health situation, with the details pasted in.",
+     "answer": 2,
+     "why": "Private information about a person is red, always. AI can suggest a generic structure for hard emails; the specifics never go in."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What comes back",
+   "slots": [
+    {
+     "key": "The job you give it",
+     "opts": [
+      {
+       "t": "Write something nice about volunteers.",
+       "pts": 1,
+       "coach": "The tool can only work with what you said. A vague job gets a vague draft that could be about anyone, anywhere."
+      },
+      {
+       "t": "Write a thank-you note to our event volunteers.",
+       "pts": 2,
+       "coach": "Clear job, thin details. The draft will be usable and generic; you will spend your time adding everything that made the event yours."
+      },
+      {
+       "t": "Write a warm, short thank-you to the 20 volunteers who ran Saturday's campus book fair.",
+       "pts": 3,
+       "coach": "Job, tone, length, and the details that matter, in one plain sentence. Specific asks come back sounding close to done."
+      }
+     ]
+    },
+    {
+     "key": "The shape you ask for",
+     "opts": [
+      {
+       "t": "Say nothing and take whatever comes back.",
+       "pts": 1,
+       "coach": "The tool will guess: maybe three paragraphs, maybe a formal letter. Every guess it makes is an edit you make later."
+      },
+      {
+       "t": "Keep it under 150 words.",
+       "pts": 2,
+       "coach": "Length is a good start. Adding the format and the sign-off you want saves another round of fixes."
+      },
+      {
+       "t": "One short paragraph, warm tone, ending with an invite to next spring's fair.",
+       "pts": 3,
+       "coach": "Now the tool knows exactly what done looks like. Describing the shape you want is the easiest skill in this whole hour."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A draft you would nearly send. Two small edits and it sounds like you on a good day.",
+    "mid": "A usable draft with generic bones. Ten minutes of editing, which still beats a blank page.",
+    "weak": "A draft about nobody in particular. You will rewrite most of it, and the tool takes the blame for a thin ask."
+   },
+   "reactions": {
+    "strong": "You send the note twenty minutes after the event wrap-up instead of next Thursday. Two volunteers reply that it was the nicest thank-you they have gotten, and the hour you saved went to work that needed you.",
+    "mid": "The note goes out a day later after real editing. Next time you add the details up front and discover the editing almost disappears.",
+    "weak": "The draft sits in your folder because fixing it feels like starting over. The lesson is cheap: the tool answers the ask it was given."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Which chore is a green light for your first AI use?",
+   "opts": [
+    "Summarizing an internal meeting in a free tool",
+    "Drafting a note about a public campus event",
+    "An email with details about a person's health",
+    "Anything, as long as you check the result"
+   ],
+   "correct": 1,
+   "why": "The light follows the information. Public or generic goes; internal waits for approved VU tools; private information about people never goes in."
+  },
+  {
+   "q": "What belongs in a good plain-English ask?",
+   "opts": [
+    "Special technical wording",
+    "The job, the details that matter, and the shape you want",
+    "As few words as possible",
+    "A request to make it sound impressive"
+   ],
+   "correct": 1,
+   "why": "The same brief you would give a helpful colleague. Specific asks come back close to done; vague asks come back vague."
+  },
+  {
+   "q": "What must happen before an AI draft leaves your hands?",
+   "opts": [
+    "Nothing, if the chore was green",
+    "A colleague signs off on it",
+    "You verify every fact and make it sound like you",
+    "You add a note saying AI helped"
+   ],
+   "correct": 2,
+   "why": "The green light covers what goes in; the editor's rule covers what comes out. Facts verified, voice yours, then it ships."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You have the whole loop: chore, ask, check. Go run it on your real week.",
+  "mid": "Solid. Reread the editor's rule, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The chore and the ask",
+  "cardTitle": "My first-win card",
+  "copyTag": "Your First Win · January 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness.",
+  "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time free you to do?",
+  "practices": [
+   {
+    "id": "draft",
+    "chip": "The first draft",
+    "name": "The first draft",
+    "move": "Hand the tool one green-light writing chore with a specific ask, then edit the draft into your own voice."
+   },
+   {
+    "id": "tidy",
+    "chip": "The tidy-up",
+    "name": "The tidy-up",
+    "move": "Give the tool your rough notes on something public or generic and ask for clean, short sentences."
+   },
+   {
+    "id": "explain",
+    "chip": "The plain explainer",
+    "name": "The plain explainer",
+    "move": "Ask the tool to explain a public topic you need to understand, then verify the pieces you plan to use."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The first win happens today, while the ask is still fresh in your head."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first win happens this week, tied to a real deadline already on your list."
+   },
+   {
+    "id": "sandbox",
+    "chip": "At the sandbox session",
+    "out": "The first win happens at the navigator-led First-AI-Win sandbox session, with help in the room."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

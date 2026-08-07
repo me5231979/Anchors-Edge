@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Next Move, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: point the talent systems you already know at your own career, name the direction you want next, and treat an internal move as a career path the university wants you to take.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Next Move | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: point the talent systems you already know at your own career, name the direction you want next, and treat an internal move as a career path the university wants you to take.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Plan</a><a href="#s-two">Get Findable</a><a href="#s-three">Moving Is Normal</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (45 min) or Core (30 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 1, Talent Marketplace &amp; Transfer Portal.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If Screen share or the site fails mid-session:</b> Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share.</div><div class="brief__row"><b>If Breakout rooms are unavailable:</b> Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud.</div><div class="brief__row"><b>If Someone asks a Portal or Marketplace mechanics question beyond today's scope:</b> Park it visibly: 'Good question, logging it for the program team.' Point them to the Transfer Portal month materials in the series library and send parked questions upward with the pulse.</div><div class="brief__row"><b>If A participant says their manager punishes people for looking internally:</b> Take it seriously and keep it roles-only: 'If that is happening, there are channels for it, and I will point you to them after.' Restate the policy plainly; never litigate a specific manager on the call.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Will my manager be notified if I update my profile or get matched?</summary><p>Your profile is yours, and keeping it current is normal professional upkeep, expected of everyone this month. Best practice is to bring your named direction to your manager yourself; a manager who knows your direction can advocate for it.</p></details><details class="brief__q"><summary>Is this just a way to move people into jobs nobody wants?</summary><p>The matching starts from your skills and your named direction, and you can always say no. Surfacing is an offer; nothing about these systems drafts anyone anywhere.</p></details><details class="brief__q"><summary>I have been in the same role for fifteen years. Is this really for me?</summary><p>Especially for you. Long tenure usually means a deep skill set and a thin profile. The skills sweep is where fifteen years of capability finally gets written down, and stretch projects surface for exactly that depth.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: Tuesday, 45 minutes to plan your next move. You know the Transfer Portal; now point it and the Talent Marketplace at your own growth. Bring one open question: what do I want next? Live and interactive; have the session link open on your own screen.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did the next-move plan start? Three lines, reply whenever: 1) Did the move on your card happen? 2) What direction did you name? 3) What did your profile claim that your title never showed?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the move on your card happen? What direction did you name? What did your profile claim that your title never showed?' Count of started next-move plans is the Level 3 metric for the month.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · February 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Learners scan this code or use the chat link; your screen keeps <em class="gold-text">the notes</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide up as people join; link pasted in chat every few minutes.</li><li>State the norm once: type into your own screen, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Defining the great university of the 21st Century takes talent that keeps growing here. Destination Vanderbilt means people choose to come; a staff member with a real plan for their next internal move is someone who keeps choosing to stay.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes talent that keeps growing here. Destination Vanderbilt means people choose to come; a staff member with a real plan for their next internal move is someone who keeps choosing to stay.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Talent Marketplace &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 1 connects employees to internal opportunities across the university. The systems exist and you know them; today is about pointing them at your own growth and your own next move.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace &amp; Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 connects employees to internal opportunities across the university. The systems exist and you know them; today is about pointing them at your own growth and your own next move.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 45 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · Retain, Grow, Move</p>
+      <h1 class="h-hero" data-reveal>Your next move, <em class="gold-text">planned on purpose</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">You learned the Transfer Portal earlier in the series. This session points it, and the Talent Marketplace, at the career that matters most to you: your own. Name a direction, make your profile match it, and plan the move you would say yes to.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Use the Talent Marketplace and the Transfer Portal together to plan your own growth and next move</li><li>Name a specific direction and bring your skills profile current enough to match it</li><li>Treat an internal move as a normal, encouraged Vanderbilt career path</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Talent Marketplace &amp; Transfer Portal</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Career Development</span><span class="skillpill">Internal Mobility</span><span class="skillpill">Workforce Agility</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: use the talent marketplace and the transfer portal together to plan your own growth and next move; name a specific direction and bring your skills profile current enough to match it; treat an internal move as a normal, encouraged vanderbilt career path. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The tools, pointed at you</h3><p>What the Talent Marketplace and the Transfer Portal each do for your own plan.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Getting findable</h3><p>The current profile and the named direction that let the matching work for you.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Moving is normal</h3><p>Retiring the old myths about applying internally at Vanderbilt.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the tools, pointed at you, getting findable, moving is normal. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The tools, pointed at you">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Follow-Up</p>
+      <h2 class="h2" data-reveal>Point the tools at <em>your own career</em>.</h2>
+      <p class="lead" data-reveal>Earlier in the series you learned the Transfer Portal as a system. Today it gets personal. The Talent Marketplace holds your skills profile and surfaces growth work; the Portal carries internal moves. Together they are a planning kit for what you do next.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The planning kit</span>
+        <p style="margin:.5rem 0 0" class="measure">Read the two systems as one kit. The Talent Marketplace grows you where you are: skills profile, stretch projects, growth work. The Transfer Portal moves you when you are ready: internal roles across Vanderbilt. A real plan uses both.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Everyone in this room already knows the Transfer Portal; the series taught it in depth. What most people have never done is sit down with the Marketplace and the Portal open and ask the selfish question: what is my plan? Today is that hour, with the university's explicit blessing.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> When you learned the Portal earlier in the series, what did you privately wonder about your own next move? Say the honest version out loud.</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: you want a growth plan, not just a job search. Where does it start?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That is a job search with extra steps. Roles are the last mile; the plan starts with the skills and direction that make a role a fit."><span class="mark">A</span><span>Watching the Transfer Portal until a role you like appears</span></button><button class="opt" data-correct="1" data-why="Exactly. The Marketplace grows you toward the direction you named, and by the time a Portal role fits, you are ready for it."><span class="mark">B</span><span>A current skills profile and a named direction in the Talent Marketplace</span></button><button class="opt" data-correct="0" data-why="Managers coach and advocate, and the plan is yours. Nobody else can name the direction you would say yes to."><span class="mark">C</span><span>Waiting for your manager to build a development plan for you</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: what do you want these systems working on for you this year, a skill, a project, a move? One pair shares.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write down what you want these systems working on for you this year: a skill, a project, or a move.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Growth first, move second</h4><p>The commonest planning mistake is starting with a destination role and working backward. Roles change, get frozen, or go to someone readier. Directions are sturdier than destinations: name the kind of work and the skills it runs on, then let the Marketplace grow you toward it while the Portal watches for openings shaped like it. When a role finally surfaces, you are applying from readiness instead of hope.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Write your direction as one sentence: the kind of work, not a job title. Test it: would three different real roles fit inside it?</li><li>List the two skills that direction runs on which you cannot evidence yet. Those are your Marketplace growth targets.</li><li>Open the Transfer Portal once this week and note which current openings rhyme with your direction, even ones you are not ready for.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Reconnect the room to the two talent systems and turn them from things people know into a personal planning kit.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your growth, your direction, your next move, planned on purpose.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the concept card once; the two-jobs split is the whole slide.</li><li>Show the In the room card, then open the discussion prompt: what did you privately wonder about your own next move? Take two or three voices.</li><li>Run the breakout: what do you want these systems working on for you this year?</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What is the difference between watching the Portal and having a plan?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Watching is passive; a plan has a direction</li><li>A plan includes growth before the move</li><li>Honestly nothing, until today</li></ul><p class="facnote__mini">Respond: Right. Watching waits for luck. A plan names a direction, grows toward it in the Marketplace, and lets the Portal handle the last mile.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The systems are one kit: grow where you are, move when you are ready. The whole game is the direction you name, which is where section two goes.</p></div><p class="facnote__meta"><b>Watch for:</b> System how-to questions pulling the session into mechanics. Park them: the Portal month covered the how; today is what you do with it.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;So the plan runs on your profile and your direction. Time to build both.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the breakout; take answers to the discussion prompt in chat.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Getting findable">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Readiness</p>
+      <h2 class="h2" data-reveal>Findable is a <em>choice</em>.</h2>
+      <p class="lead" data-reveal>Matching is only as good as what it can read. Two moves keep you findable: a Talent Marketplace profile that says what you can actually do, and a direction named in writing. Build both here.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build your findability</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Two entries decide what the matching can see. Choose how you write your skills and how you name your direction.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the match</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>The evidence line</h4><p>A skill without an evidence line is a keyword, and keywords are cheap. The strongest lines have three parts: what you did, the scale or the stakes, and what it produced. 'Process mapping: redesigned intake during our busiest cycle and cleared the backlog' is credible, findable, and easy for an advocate to repeat. Skills from past roles count in full; the matching has no way to discount where a capability came from.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Take your three strongest skills and write the three-part evidence line for each: the thing, the stakes, the result.</li><li>Add one skill from a past role or outside work that your current job never uses, with its own evidence line.</li><li>Read each line as a stranger. If it could describe anyone with your title, sharpen it until it could only describe you.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get every person to draft a full skills entry and a specific named direction in the Talent Marketplace.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Matching engines are honest machines: they can only see what you wrote. A profile that copies your job description makes you findable for the job you already have. The skills sweep and the named direction make you findable for the work you want next. And the skills your current role never uses are exactly where the interesting matches come from.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Build your findability; two minutes for both choices, then run it.</li><li>Ask one volunteer to read their outcome aloud, weak or strong.</li><li>Point at the pattern: full inventory with evidence, one specific direction.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Why do people leave the direction field blank?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Fear of seeming disloyal or restless</li><li>Honestly not knowing what they want yet</li><li>Assuming nobody reads it</li></ul><p class="facnote__mini">Respond: That first fear is exactly what section three retires. For the second: name whatever is true this year. A draft direction beats a blank every time.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Findable is a choice: every usable skill with evidence, one specific direction. Blank fields match nothing.</p></div><p class="facnote__meta"><b>Watch for:</b> People underclaiming, especially long-tenured staff writing only current duties. Push the question: what can you do that this role never asks for?</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Profiles ready. One thing left: believing it is safe to use them.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: everyone runs the builder solo; skip the read-aloud.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Moving is normal">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Culture</p>
+      <h2 class="h2" data-reveal>An internal move is a <em>career path</em>.</h2>
+      <p class="lead" data-reveal>The systems only work if people believe using them is safe. So hear the policy out loud: internal mobility is a normal, encouraged career path at Vanderbilt. Keeping talent inside the university is the point of Goal 1. Some old myths need retiring first.</p>
+      <div class="quiz trainer" id="s-three-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Myth or normal?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> How people talk about internal moves decides whether anyone makes them. Call each one; the systems live or die inside that culture.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: what have you heard, in any workplace, about what happens to people who apply internally? Myth or real, 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write down one thing you have believed about applying internally. After this section, decide: myth or real?</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>The manager conversation, scripted</h4><p>The myths mostly die in one specific conversation: telling your manager you are looking at a move. Plan it in three beats. The direction: what you are growing toward and why. The timing: nothing is decided, you are being deliberate, not restless. The continuity: what you would do to land your current work well. Managers who hear all three usually turn into advocates, because you have just shown them exactly how to support you.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Draft the three beats for your own manager conversation: direction, timing, continuity. Two sentences each.</li><li>Say the direction beat out loud once. If it sounds like an apology, rewrite it until it sounds like a plan.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Retire the loyalty myths and state internal mobility as a normal, encouraged Vanderbilt career path.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. A move across the university keeps your talent, your relationships, and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Myth or normal? live; everyone plays on their own screen.</li><li>After round one, pause: ask who has heard that myth somewhere, show of hands or chat.</li><li>Run the breakout on what people have heard about applying internally.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What would make you hesitate to make an internal move, honestly?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>My manager's reaction</li><li>Feeling disloyal to my team</li><li>Not feeling qualified enough</li></ul><p class="facnote__mini">Respond: Name each one back to the room. The manager fear is the myth we just retired; the qualification fear is why matching runs on skills, never titles.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Myths punish ambition, and they only survive in silence. Vanderbilt is saying the opposite out loud: move, grow, stay.</p></div><p class="facnote__meta"><b>Watch for:</b> Anyone hearing this as a promise of promotions. The commitment is visibility of opportunity and safety to pursue it, never a guaranteed yes.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Quick recap, then you build your next-move card.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, skip the breakout, take one voice on the ask question.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>You know the tools. Now point them at your own next move.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: You know the tools. Now point them at your own next move.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My next-move plan</p>
+      <h2 class="h2" data-reveal>A plan, <em>not a wish</em>.</h2>
+      <p class="lead" data-reveal>Pick the move that starts your plan. Your own words, your own career; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · What direction is this plan about? The kind of work or growth you would say yes to.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. student-facing project work; growing toward process improvement lead" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move starts the plan?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="sweep"><span>The skills sweep</span></button><button class="opt" data-id="direction"><span>The named direction</span></button><button class="opt" data-id="scan"><span>The Portal scan</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>At my next 1:1</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now make it real. One direction, in your own words: the kind of work you would say yes to. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Plan the growth. <em>Make the move.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You pointed the tools at your own career, built a findable profile, and retired the old myths. Thursday deepens the same theme with the skill that moves careers fastest: advocacy.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the move on your card</h3>
+        <p>Run it as built: one honest hour, one named direction, or one deliberate Portal scan. Curious what makes people stay and grow? This month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">A direction written down is a plan in motion.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>Your Next Move · Take-Off Tuesday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/feb-tuesday/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You leave with a plan started; make it real this week. Thursday's Thrive Thursday takes the next step: advocacy, the difference between a mentor who gives you advice and a sponsor who spends their credibility on you. A plan gets you moving; a sponsor gets you chosen. And if you want to go deeper this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab. See you Thursday.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-three-play",
+   "progressWord": "Call",
+   "labels": [
+    "An old myth, retire it",
+    "A normal move, support it",
+    "A readiness gap, fix it"
+   ],
+   "passAt": 2,
+   "passMsg": "You can hear the difference. Retire the myths out loud; they only survive in silence.",
+   "failMsg": "Close. The tell: myths punish ambition, normal moves grow careers inside Vanderbilt, and readiness gaps are just profiles waiting to be written.",
+   "items": [
+    {
+     "q": "'Don't let your manager see you looking at internal postings. They'll take it personally.'",
+     "answer": 0,
+     "why": "This is the myth the Transfer Portal is built to kill. A move inside Vanderbilt keeps the talent here, and managers are measured on growing people, never on holding them."
+    },
+    {
+     "q": "An advisor sees a program role in another college that fits their skills, tells their manager, and applies.",
+     "answer": 1,
+     "why": "This is the path working as designed. The manager conversation is a courtesy and a coaching chance; the application needs nobody's permission."
+    },
+    {
+     "q": "A financial analyst wants project work badly, but their profile lists nothing beyond their current job title.",
+     "answer": 2,
+     "why": "No myth and no move here, just a matching engine with nothing to read. One honest hour on the profile fixes it."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What surfaces",
+   "slots": [
+    {
+     "key": "Your skills entry",
+     "opts": [
+      {
+       "t": "Copy the duties list from your job description.",
+       "pts": 1,
+       "coach": "The systems already know your job exists. Duties describe the role; the matching needs the skills, including the ones your role never uses."
+      },
+      {
+       "t": "List your strongest skills from this role only.",
+       "pts": 2,
+       "coach": "Good start, half the picture. Skills from past roles, volunteer work, and side projects match real openings too. Claim all of it."
+      },
+      {
+       "t": "List every skill you can actually use, from any role, with a line on how you have used it.",
+       "pts": 3,
+       "coach": "Full inventory plus evidence. The how-I-used-it line is what turns a keyword into a credible match."
+      }
+     ]
+    },
+    {
+     "key": "Your named direction",
+     "opts": [
+      {
+       "t": "Leave it blank; you don't want to seem restless.",
+       "pts": 1,
+       "coach": "A blank field gives the matching nowhere to aim. Naming a direction signals ambition, and Vanderbilt is asking for exactly that signal."
+      },
+      {
+       "t": "Write something broad like 'open to opportunities.'",
+       "pts": 2,
+       "coach": "Broad interest matches everything, which means it matches nothing well. The matching can act on 'project work in student-facing units'; it cannot act on 'open.'"
+      },
+      {
+       "t": "Name a direction: the kind of work, the skills you want to grow, what you would say yes to.",
+       "pts": 3,
+       "coach": "Specific and forward-looking. This is the entry that surfaces a stretch project before it is posted anywhere."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "Findable. Your profile gives the matching real material, and the surfaced fits will look like you on your best day.",
+    "mid": "Partially visible. The systems can see the role you have; they still cannot see the person you are.",
+    "weak": "Invisible. The matching has nothing to read, so the opportunities will keep going to people who wrote things down."
+   },
+   "reactions": {
+    "strong": "A few weeks later, a project in another school surfaces on your dashboard, matched to a skill your current role never uses. It looks interesting. It found you.",
+    "mid": "The matches that surface look a lot like your current job in different buildings. Accurate, and underwhelming. The missing half of your profile was the interesting half.",
+    "weak": "Months pass. A colleague with your exact skills gets surfaced for a project you would have loved. The difference between you was a written-down profile."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "How do the Talent Marketplace and the Transfer Portal fit together in your plan?",
+   "opts": [
+    "They are two names for the same system",
+    "The Marketplace grows you; the Portal carries the move when you are ready",
+    "The Portal is for managers; the Marketplace is for staff",
+    "You pick one and ignore the other"
+   ],
+   "correct": 1,
+   "why": "One kit, two jobs: grow where you are through the Marketplace, move when ready through the Portal. A plan uses both, and starts with the growing."
+  },
+  {
+   "q": "What makes a skills profile genuinely findable?",
+   "opts": [
+    "A copy of your job description",
+    "All your usable skills, any role, with how you used them",
+    "Only skills your manager has signed off on",
+    "Keeping it short so it is easy to read"
+   ],
+   "correct": 1,
+   "why": "Full inventory plus evidence, past roles included. The interesting matches usually come from the skills your current job never uses."
+  },
+  {
+   "q": "A colleague applies for an internal role in another school. What is that at Vanderbilt?",
+   "opts": [
+    "A risky move to keep quiet",
+    "Disloyalty to their current team",
+    "A normal, encouraged career path",
+    "Something needing manager approval"
+   ],
+   "correct": 2,
+   "why": "Internal mobility keeps talent inside the university, which is the point of Goal 1. Managers coach the move; they never gate the application."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The plan is in reach. Now write the profile and the direction down for real.",
+  "mid": "Solid. Take another look at the findability section, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The direction",
+  "cardTitle": "My next-move card",
+  "copyTag": "Your Next Move · February 2027 · Anchor's Edge",
+  "goalRow": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "evidenceRow": "Afterward, one line: what direction did you name, and what surprised you writing it down?",
+  "practices": [
+   {
+    "id": "sweep",
+    "chip": "The skills sweep",
+    "name": "The skills sweep",
+    "move": "Spend one honest hour bringing your Talent Marketplace profile current: every usable skill, any role, one evidence line each."
+   },
+   {
+    "id": "direction",
+    "chip": "The named direction",
+    "name": "The named direction",
+    "move": "Write the direction you would say yes to: the kind of work, the skills you want to grow. Then bring it to your manager."
+   },
+   {
+    "id": "scan",
+    "chip": "The Portal scan",
+    "name": "The Portal scan",
+    "move": "Browse the Transfer Portal once, on purpose, and note one role or project that rhymes with your direction and why."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, done by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "At my next 1:1",
+    "out": "You bring it to your next 1:1: here is my direction, and here is the plan I am starting."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, time blocked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

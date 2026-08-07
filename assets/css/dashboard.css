@@ -345,3 +345,13 @@ body.admin .adminbar { display: inline-flex; }
   letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); }
 .adminbar .btn { padding: .4rem .8rem; font-size: .78rem; }
 .adminbar a.btn--ghost { color: #fff; }
+
+/* facilitator edition links are admin-only */
+.session__fac { display: none; }
+body.admin .session__fac { display: inline-block; }
+
+/* navigator workshop rows are admin-only; CotM note */
+.session--adminonly { display: none; border-style: dotted; }
+body.admin .session--adminonly { display: grid; }
+.cotm-note { font-size: .78rem; color: var(--ink-soft); }
+.month__extras a { color: var(--vu-oak); font-weight: 600; }

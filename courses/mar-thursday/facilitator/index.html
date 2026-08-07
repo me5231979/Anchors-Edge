@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Second Channel, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: notice the tone and energy shifts colleagues actually communicate with, check in instead of assuming, and answer the feeling in a message before its content.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Second Channel | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: notice the tone and energy shifts colleagues actually communicate with, check in instead of assuming, and answer the feeling in a message before its content.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Shift</a><a href="#s-two">The Check-In</a><a href="#s-three">Feeling First</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (45 min) or Core (30 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 2, Manager Effectiveness at Scale.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If Screen share or the site fails mid-session:</b> Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share.</div><div class="brief__row"><b>If Breakout rooms are unavailable:</b> Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud.</div><div class="brief__row"><b>If Someone shares a heavy personal situation live on the call:</b> Receive it with one warm sentence, then protect them from the group: 'Thank you for trusting us with that; let's talk after.' Follow up privately and point to support resources where it fits.</div><div class="brief__row"><b>If Someone objects that reading tone is mind-reading or overstepping:</b> Agree with the caution: the skill is noticing a change and asking, never diagnosing. The check-in hands the meaning back to the person, which is the opposite of mind-reading.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Isn't this asking me to be my colleagues' therapist?</summary><p>No. The move is a thirty-second check-in and one feeling-first sentence, both ordinary collegial behavior. Anything heavier gets a warm handoff toward real support, and knowing that limit is part of the skill. You are a colleague who listens well; that is the whole job.</p></details><details class="brief__q"><summary>What if I check in and I'm wrong, and it gets awkward?</summary><p>A light, open check-in has a built-in exit: 'all good' ends it with no harm done. People remember being noticed kindly far longer than they remember a guess that missed. The awkwardness lives in naming feelings for people, which is exactly what the check-in avoids.</p></details><details class="brief__q"><summary>What about tone in email and chat, where there is no voice?</summary><p>Baselines still work: message length, response speed, punctuation, the emoji that went missing. Read the change against that person's normal, the same rule as voice. Then move the check-in itself somewhere richer; a shift noticed in chat rarely untangles in chat.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: Thursday, 45 minutes on hearing what isn't said. Bring the memory of one moment a colleague's tone told you more than their words. You will never be asked to name anyone. Live and interactive; have the session link open on your own screen.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did the check-in happen? Three lines, reply whenever: 1) Did the check-in on your card happen? 2) What did you learn that the words never said? 3) Whose baseline are you learning now?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the check-in on your card happen? What did you learn that the words never said? Whose baseline are you learning now?' Share-backs feed the month's story bank for the coaching theme.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Thrive Thursday · March 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Learners scan this code or use the chat link; your screen keeps <em class="gold-text">the notes</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to Thrive Thursday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Empathy at work: hearing what isn't said.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide up as people join; link pasted in chat every few minutes.</li><li>State the norm once: type into your own screen, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A century-defining university is built on thousands of working relationships, and empathy is what keeps them working. Hearing colleagues well is everyday culture work, the human layer of Exceptional Core Operations.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A century-defining university is built on thousands of working relationships, and empathy is what keeps them working. Hearing colleagues well is everyday culture work, the human layer of Exceptional Core Operations.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 2 of 3</p>
+      <h2 class="h2" data-reveal>Manager Effectiveness at <em>Scale</em>.</h2>
+      <p class="lead" data-reveal>Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">The manager standard runs on coaching, and coaching runs on listening. This session builds the listening for everyone, because every colleague shapes how heard people feel at work.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. The manager standard runs on coaching, and coaching runs on listening. This session builds the listening for everyone, because every colleague shapes how heard people feel at work.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 45 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Thrive Thursday · The soft skill that carries it · Coaching as the Core Manager Behavior</p>
+      <h1 class="h-hero" data-reveal>Hear what <em class="gold-text">isn't said</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Colleagues rarely say the important thing straight out. It arrives as a flat 'fine', a camera that stays off, a joke with an edge. This session trains your ear for those shifts, and the small check-in that answers them.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Notice tone and energy shifts that carry more information than the words</li><li>Check in with a light, open question instead of assuming what a shift means</li><li>Answer the feeling in a message before answering its content</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 2</b><span>Manager Effectiveness at Scale</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Communicates effectively</span><span class="skillpill">Empathy</span><span class="skillpill">Active Listening</span><span class="skillpill">Collaboration</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: notice tone and energy shifts that carry more information than the words; check in with a light, open question instead of assuming what a shift means; answer the feeling in a message before answering its content. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The second channel</h3><p>Tone, pace, and energy carry the message the words leave out.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The check-in</h3><p>What a light, open check-in sounds like, and why guessing goes wrong.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Feeling before content</h3><p>Answering the frustration first is what makes the facts land.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the second channel, the check-in, feeling before content. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The second channel">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Shift</p>
+      <h2 class="h2" data-reveal>The message rides the <em>tone</em>.</h2>
+      <p class="lead" data-reveal>Every conversation runs on two channels: the words, and everything around them. When a chatty teammate answers in one line, or a steady voice speeds up, the second channel is broadcasting. The skill starts with noticing the change from that person's normal.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The baseline rule</span>
+        <p style="margin:.5rem 0 0" class="measure">Shifts only mean something against a baseline. Quiet is no signal from a quiet person; it is a loud one from a talker. Read the change from this person's normal, and hold your first guess about what it means loosely.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Set the scene for the room: a teammate who usually fills every call writes 'fine, whatever works' about a plan they built themselves. Nobody reacts, because the words are agreeable. But from this person, flatness is the loudest part of the message, and it is the part most threads never answer.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Whose 'fine' have you learned to distrust, and what taught you? Roles, never names. And when has your own second channel said more than your words did?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">A teammate who usually fills the room writes 'fine, whatever works' about a plan they built. What matters most here?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="The words say yes; the shift says something else. Proceeding on the words alone spends trust you may want later."><span class="mark">A</span><span>The words: they agreed, so the plan proceeds</span></button><button class="opt" data-correct="1" data-why="Right. From this person, flatness is loud. You do not yet know what it means, and that is exactly what a check-in is for."><span class="mark">B</span><span>The shift from their normal: that is the message</span></button><button class="opt" data-correct="0" data-why="Their inner life is theirs, and the working signal still touches the work. Noticing a shift is attention, and it costs one small check-in."><span class="mark">C</span><span>Nothing; moods are private and work is work</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: what is one 'tell' you have learned to read in a colleague, a shift in tone, pace, or energy? Roles, never names.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one 'tell' you have learned to read in a colleague: a shift in tone, pace, or energy. Roles, never names.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Baselines in a hybrid week</h4><p>A baseline is built from the small details of one person's normal: message length, response speed, camera habits, how often they joke, whether they push back. In hybrid work you hold a few baselines per person, one per channel. A shift in one channel while the others hold steady usually means workload. A shift across every channel at once earns a check-in. Either way it is a signal, never a diagnosis; the meaning stays theirs.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Write a one-line 'normal' for two colleagues you work with weekly: tone, pace, camera, chat style. Roles, never names.</li><li>For one week, log shifts against those lines instead of guessing moods. Note what the baseline changed about your read.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Teach shift-noticing against a personal baseline: tone, pace, and energy over words.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Think about the last time a colleague said 'fine' and you knew it was anything but. You were reading the second channel: tone, pace, energy, everything around the words. Everyone broadcasts on it, and most of us only listen when it gets loud. The skill starts smaller than that: knowing a person's normal well enough to notice when it changes.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the baseline rule from the card; it reframes quiet colleagues immediately.</li><li>Share the In the room card; let the 'fine, whatever works' moment land before you say anything.</li><li>Run the discussion prompt, then the breakout on the 'tell' they have learned to read, roles only.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Whose baseline do you know best, and what is their tell?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Quick answers about close collaborators</li><li>A realization that they only know a few baselines</li></ul><p class="facnote__mini">Respond: Both are useful. Baselines come free with attention, so you already own several. The gap is usually the colleagues you only ever meet in meetings.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Shifts read against a baseline, and a shift is a hypothesis, never a verdict.</p></div><p class="facnote__meta"><b>Watch for:</b> Diagnosis creep: 'quiet means disengaged.' Pull it back every time. Noticing is the skill; the meaning belongs to the person.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;You noticed the shift. The next move decides whether noticing helps.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the breakout; collect two 'tells' in chat and move on.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The check-in">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Check-In</p>
+      <h2 class="h2" data-reveal>Ask the shift, <em>lightly</em>.</h2>
+      <p class="lead" data-reveal>A noticed shift is a hypothesis. Guessing turns it into a verdict ('you're clearly upset') and ignoring lets it harden on its own. The move in between is a light, private, open check-in that lets the person tell you what is true, including 'all good'.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Assume, ignore, or check in?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> You noticed a shift. Read what happens next and call the move.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: say a check-in line out loud that you could actually use tomorrow. Trade lines and keep the better one.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write one check-in line you could actually use tomorrow, in your own voice.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Timing, channel, and the second ask</h4><p>Two quiet choices decide whether a check-in lands: where and when. Private, always; an audience turns care into a spotlight. Soon beats perfect; within a day reads as attention, three weeks late reads as an audit. Move up a channel too: a shift noticed in chat untangles better in a call. If 'all good' comes back while the shift continues, offer the door once more a few days later; twice is care, a campaign is pressure.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Write two check-in lines in your own voice: one for chat, one for the start of a call. Light, private, easy to decline.</li><li>Recall a check-in that landed badly on you. Name what was off: the channel, the timing, or a guess dressed as a question.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Replace assuming and ignoring with the light, private, open check-in.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;A noticed shift puts three moves on the table. You can assume, which is a guess wearing certainty. You can ignore, which the person reads as an answer anyway. Or you can check in: private, light, open, easy to decline. 'You went quiet back there, anything you'd add?' costs thirty seconds, and it is the difference between guessing at people and asking them.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Assume, ignore, or check in? live on everyone's screens.</li><li>After round one, linger: the guess was private and kind and still a guess.</li><li>Run the breakout: say a check-in line aloud in your own voice.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What makes 'no need to answer' such a strong ending for a check-in?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>It removes the pressure to perform an answer</li><li>It makes declining safe</li><li>It proves the door is real</li></ul><p class="facnote__mini">Respond: Right. An exit ramp makes honesty cheaper. Half the value of a check-in lands even when the answer is 'all good.'</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Private, light, open, easy to decline. The check-in hands the meaning back to the person instead of guessing it for them.</p></div><p class="facnote__meta"><b>Watch for:</b> Scripted-sounding lines in the breakout. Push for their own voice; a borrowed phrase reads as a technique, and techniques get polite answers.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Check-ins cover the shifts you see. The last section covers the feelings that arrive in writing.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, skip the breakout, take one line from chat.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Feeling before content">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Response</p>
+      <h2 class="h2" data-reveal>Answer the feeling, then the <em>facts</em>.</h2>
+      <p class="lead" data-reveal>When a message arrives carrying frustration, most of us answer the content and skip the feeling, and the sender hears half a reply. Answering the feeling takes one plain sentence, and it is the sentence that makes the rest of your answer land as help.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Answer the whole message</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> A colleague writes: 'The data STILL isn't ready. I've asked three times and my report is due Friday. Whatever, I'll figure it out.' Build your reply.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Send the reply</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Acknowledge without diagnosing</h4><p>There is a line between answering a feeling and assigning one. 'Three asks with Friday looming? Genuinely frustrating' answers; 'you are angry' assigns. Keep the sentence about the situation: three asks and a deadline would frustrate anyone, and saying so labels nobody. When a message runs hot, let the content wait a beat: acknowledge, then offer a call. Keep it to one sentence; a paragraph of validation reads as performance.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Find a charged message you answered facts-first. Rewrite the reply: one plain sentence for the feeling, then help with a time on it.</li><li>Draft two reusable feeling-first openers about situations: one for a delay, one for being overruled in a meeting.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Train the feeling-first reply: one plain sentence answering the emotion before any facts or fixes.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Sometimes the second channel arrives in writing: capital letters in the middle of a message and a 'whatever, I'll figure it out' at the end. The reflex is to answer the content, because the content has an answer. A frustrated message is two messages, though, and if you only answer the facts, the person heard you ignore the other one. One plain sentence for the feeling first. Then the facts land as help.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Answer the whole message; two minutes for both lines, then send it.</li><li>Ask one volunteer to read their outcome aloud, weak or strong.</li><li>Point at the pattern: name the frustration plainly, then relief with a clock on it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Why does the quick apology in slot one still land badly?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>It is generic; it could answer any message</li><li>It skips what they actually said</li><li>Speed without acknowledgment reads as brush-off</li></ul><p class="facnote__mini">Respond: Yes. The apology answers that a message arrived; the strong line answers what the message carried. People can tell which one they got.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Feeling first, one plain sentence, then concrete help with a time attached. That order is the whole skill.</p></div><p class="facnote__meta"><b>Watch for:</b> Overwrought feeling-lines that sound like a script. One plain sentence beats a paragraph of validation; this is workplace listening, kept light.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Quick recap, then you pick your person and build the check-in card.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: everyone runs the builder solo; skip the read-aloud.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>People tell you how they are before they tell you what they think. Listen in that order.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: People tell you how they are before they tell you what they think. Listen in that order.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My check-in</p>
+      <h2 class="h2" data-reveal>One shift you noticed. <em>One check-in.</em></h2>
+      <p class="lead" data-reveal>Think of a colleague whose second channel has changed lately. Role only, never a name; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Whose shift have you noticed? Role and the change.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. project teammate; camera off and one-line answers for two weeks" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move fits?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="checkin"><span>The quiet check-in</span></button><button class="opt" data-id="feeling"><span>The feeling-first reply</span></button><button class="opt" data-id="baseline"><span>The baseline read</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="today"><span>Today</span></button><button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="nextmsg"><span>Next charged message</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now make it real. One colleague whose second channel has shifted, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Heard people <em>hear better</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You built a baseline ear, a light check-in, and a feeling-first reply. That listening is the ground floor of this month's coaching theme, whichever side of a coaching conversation you sit on.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the check-in on your card</h3>
+        <p>Run it as built: private, light, easy to decline. Then watch what the second channel does next; being heard changes it.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Listen to the whole message.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Second Channel · Thrive Thursday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/mar-thursday/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;That closes the coaching week. Monday gave managers the coaching moment, Tuesday put growth on the record for everyone, and today built the listening underneath both. Run the check-in on your card, and bring what the second channel taught you into next week's sessions. If you want to keep pulling the thread, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, and the navigator-led GROW practicum is a friendly place to practice this kind of listening out loud. Same rhythm next week, still inside the coaching month; then April opens a new goal with Spot AI-Exposed Work.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Read",
+   "labels": [
+    "Assuming: a guess wearing certainty",
+    "Ignoring: the shift goes unanswered",
+    "Checking in: open, light, private"
+   ],
+   "passAt": 2,
+   "passMsg": "You have the move. Notice the shift, keep your guess loose, and offer an easy open door in private.",
+   "failMsg": "Close. The tell: a real check-in is private, easy to decline, and open about what the shift means. Guesses tell; check-ins ask.",
+   "items": [
+    {
+     "q": "A colleague goes quiet in a planning call. Afterward you message: 'You seemed annoyed we cut your item. You okay?'",
+     "answer": 0,
+     "why": "Private and kind, and still a guess. Naming their feeling for them means they now have to manage your theory. Try: 'You went quiet back there. Anything you'd add?'"
+    },
+    {
+     "q": "A teammate's messages have been short and flat for a week. You figure it will pass, and say nothing.",
+     "answer": 1,
+     "why": "Maybe it passes; meanwhile they spent the week reading your silence too. A week-long shift has earned thirty seconds of 'how are you doing, actually?'"
+    },
+    {
+     "q": "After a tense meeting you message privately: 'That got heated. How are you landing? No need to answer.'",
+     "answer": 2,
+     "why": "Private, open, and easy to decline. It answers the shift without naming feelings for them, and the exit ramp makes honesty cheaper."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How it lands",
+   "slots": [
+    {
+     "key": "Your first line",
+     "opts": [
+      {
+       "t": "'The data pipeline runs Wednesdays, so it should be there tomorrow.'",
+       "pts": 1,
+       "coach": "Accurate and deaf. The frustration went unanswered, so the facts arrive sounding like a shrug."
+      },
+      {
+       "t": "'Sorry for the delay! Let me look into it right away.'",
+       "pts": 2,
+       "coach": "Polite and quick, and it skips what they actually said: three asks, a deadline, and giving up. Speed reads as brush-off when the feeling goes unnamed."
+      },
+      {
+       "t": "'Three asks with Friday looming? That's genuinely frustrating.'",
+       "pts": 3,
+       "coach": "The feeling, answered plainly and first. One sentence of being heard changes how every fact after it sounds."
+      }
+     ]
+    },
+    {
+     "key": "Your second line",
+     "opts": [
+      {
+       "t": "'For what it's worth, my part was done on time.'",
+       "pts": 1,
+       "coach": "A defense they did not ask for. Now the thread is about fault, and Friday is still coming."
+      },
+      {
+       "t": "'I'll chase the data team and get back to you.'",
+       "pts": 2,
+       "coach": "Helpful and vague. Without a time attached, 'I'll get back to you' is one more thing for them to chase."
+      },
+      {
+       "t": "'I'm on it now. You'll have the data or a workaround by 3pm today.'",
+       "pts": 3,
+       "coach": "Concrete relief with a clock on it. The 'whatever, I'll figure it out' just stopped being true."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A whole reply. They felt heard in the first line and helped by the second, and the edge went out of the thread.",
+    "mid": "A half reply. Useful content over an unanswered feeling; workable, and the frustration is still looking for a door.",
+    "weak": "A miss. The facts were fine, the person felt managed, and Friday's report now comes with a grudge attached."
+   },
+   "reactions": {
+    "strong": "They write back 'thank you, seriously.' Next time something slips they come to you early and calm, because being heard once made asking feel safe.",
+    "mid": "The data arrives, the report ships, and the colleague quietly starts copying your manager on requests. Content without acknowledgment taught them to escalate.",
+    "weak": "Friday's report ships late with a pointed footnote about data availability. The relationship now runs on receipts."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A normally lively colleague gives one-word answers all morning. The signal is...",
+   "opts": [
+    "Their words: everything is fine",
+    "The shift from their normal baseline",
+    "Proof that something is badly wrong",
+    "Nothing; moods are private"
+   ],
+   "correct": 1,
+   "why": "Shifts read against a baseline. You know something changed; you do not yet know what, and that is what a check-in is for."
+  },
+  {
+   "q": "The best response to a noticed shift is...",
+   "opts": [
+    "Name the feeling you think they have",
+    "Wait for them to bring it up",
+    "A light, private, open check-in",
+    "Ask a mutual colleague what is up"
+   ],
+   "correct": 2,
+   "why": "Open and easy to decline beats a confident guess, and asking a third party turns a check-in into gossip."
+  },
+  {
+   "q": "A frustrated message deserves a reply that starts with...",
+   "opts": [
+    "The correct facts, delivered quickly",
+    "One plain sentence answering the feeling",
+    "A defense of your own part in it",
+    "Forwarding it to the right team"
+   ],
+   "correct": 1,
+   "why": "Feeling first, then content. Being heard is what makes the facts land as help instead of a shrug."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The ear is tuned. Now point it at one real shift you have noticed.",
+  "mid": "Solid. Revisit the section you missed, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "whoRow": "The person and the shift",
+  "cardTitle": "My check-in card",
+  "copyTag": "The Second Channel · March 2027 · Anchor's Edge",
+  "goalRow": "Goal 2, Manager Effectiveness at Scale.",
+  "evidenceRow": "Afterward, one line: what did you learn that the words alone never told you?",
+  "practices": [
+   {
+    "id": "checkin",
+    "chip": "The quiet check-in",
+    "name": "The quiet check-in",
+    "move": "Privately and lightly: 'I noticed you've been quieter lately. How are you doing, actually? No need to answer.'"
+   },
+   {
+    "id": "feeling",
+    "chip": "The feeling-first reply",
+    "name": "The feeling-first reply",
+    "move": "Next charged message you get, answer the feeling in your first sentence and the content in your second."
+   },
+   {
+    "id": "baseline",
+    "chip": "The baseline read",
+    "name": "The baseline read",
+    "move": "For one week, learn one colleague's normal: tone, pace, energy. Baselines are what make shifts readable."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The check-in happens today, while the shift is fresh and the door is easy to open."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The check-in happens this week, in private, at a moment with no audience."
+   },
+   {
+    "id": "nextmsg",
+    "chip": "Next charged message",
+    "out": "The next frustrated message you receive gets the feeling-first treatment before anything else."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

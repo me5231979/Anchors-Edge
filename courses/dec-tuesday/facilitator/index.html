@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Own Your 1:1, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="A 45-minute virtual session for all Vanderbilt staff: drive your own 1:1s with the Oracle template, move feedback through the giving and requesting tools, and build a record that argues for your growth.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Own Your 1:1 | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="A 45-minute virtual session for all Vanderbilt staff: drive your own 1:1s with the Oracle template, move feedback through the giving and requesting tools, and build a record that argues for your growth.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Template</a><a href="#s-two">Feedback Tools</a><a href="#s-three">The Record</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (45 min) or Core (30 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 2, Manager Effectiveness at Scale.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If Screen share or the site fails mid-session:</b> Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share.</div><div class="brief__row"><b>If Breakout rooms are unavailable:</b> Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud.</div><div class="brief__row"><b>If Learners lack Oracle access or cannot open it during the session:</b> Nothing requires live Oracle. Demo from your own screen, and have people draft their agenda item and feedback lines in the deck; entering them takes two minutes after the call.</div><div class="brief__row"><b>If Someone starts naming a colleague while describing feedback they want to give:</b> Redirect warmly: roles, never names. The specifics belong in the tool, addressed to the person; the room only needs the shape of the example.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>What if my manager never opens the template?</summary><p>Your entry still works: it frames the meeting when you bring it up, and it timestamps that you raised it. Most managers start using the template the week their reports do. If it stays ignored, raise that kindly as its own agenda item.</p></details><details class="brief__q"><summary>Is feedback I give in Oracle visible to the person and their manager?</summary><p>Treat everything in the tool as on the record; that is the point, because recorded recognition travels. Write anything you give as words you would happily say with the person in the room, since functionally you are.</p></details><details class="brief__q"><summary>I don't manage anyone. Is this month really for me?</summary><p>Entirely. The manager standard tells you what to expect from your own manager, and the tools are two-sided by design; this month lands only if both chairs use them. If you are curious where the manager side goes, the New Manager Foundations course on LinkedIn Learning is open to everyone.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: Tuesday, 45 minutes on making Oracle 1:1s work for you. Before the session, think of one item you keep meaning to raise with your manager. You will never be asked to share it. Live and interactive; have the session link open on your own screen.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did it make the record? Three lines, reply whenever: 1) Did your item make it into a 1:1 template? 2) Did you send or give one piece of feedback in Oracle? 3) What changed because it was on the record?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did your item make it into a 1:1 template? Did you send or give one piece of feedback through Oracle? What changed because it was on the record?' Count of template entries and feedback events is the month's usage signal.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · December 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Learners scan this code or use the chat link; your screen keeps <em class="gold-text">the notes</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>45</b> Minutes, live</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: The 1:1 templates and feedback tools inside Oracle, from your side of the table.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide up as people join; link pasted in chat every few minutes.</li><li>State the norm once: type into your own screen, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century runs on conversations that go somewhere. When any staff member can steer a 1:1 and put feedback on the record, Exceptional Core Operations shows up one meeting at a time.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century runs on conversations that go somewhere. When any staff member can steer a 1:1 and put feedback on the record, Exceptional Core Operations shows up one meeting at a time.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 2 of 3</p>
+      <h2 class="h2" data-reveal>Manager Effectiveness at <em>Scale</em>.</h2>
+      <p class="lead" data-reveal>Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 2 asks managers to demonstrate a standard, and much of it becomes visible inside Oracle's 1:1 and feedback tools. Today you learn your half of those tools.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 asks managers to demonstrate a standard, and much of it becomes visible inside Oracle's 1:1 and feedback tools. Today you learn your half of those tools.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 45 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · The Vanderbilt Manager Standard</p>
+      <h1 class="h-hero" data-reveal>Your 1:1, <em class="gold-text">your agenda</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Your 1:1 is your meeting too. Oracle now carries a shared template for it, plus tools for giving and requesting feedback that put useful words on the record. Today you learn to drive all three, whether or not you manage anyone.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Load your own agenda items into the Oracle 1:1 template before the meeting</li><li>Give and request feedback through the Oracle tools with specifics that help</li><li>Capture commitments in the shared record and make it argue for your growth</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 2</b><span>Manager Effectiveness at Scale</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Oracle HCM Tools</span><span class="skillpill">Feedback</span><span class="skillpill">Career Ownership</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: load your own agenda items into the oracle 1:1 template before the meeting; give and request feedback through the oracle tools with specifics that help; capture commitments in the shared record and make it argue for your growth. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The template</h3><p>The shared 1:1 agenda in Oracle, and the two items you type in the day before.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The feedback tools</h3><p>Requesting feedback on your work, giving it to colleagues, and picking the right move.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The record</h3><p>Capturing commitments so your growth has receipts by review season.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the template, the feedback tools, the record. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The template">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Template</p>
+      <h2 class="h2" data-reveal>The template has <em>two sides</em>.</h2>
+      <p class="lead" data-reveal>Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Most of us leave it blank and inherit whatever the meeting becomes. Typing in your two items the day before changes the meeting you get.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">Your two items</span>
+        <p style="margin:.5rem 0 0" class="measure">Before every 1:1, type two items into the shared template: the blocker you need cleared and the growth topic you want time on. Typed the day before, they shape the agenda; raised in the last five minutes, they get sympathy and no time.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Think about your last three 1:1s: who typed the agenda, if anyone did? Oracle's shared template gives both chairs the same editable page, and the habit that changes the meeting is small. Two items, typed the day before: one blocker you need cleared, one growth topic you want real time on.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Why do so few of us type our own items into a shared agenda, and what would change in your 1:1s if you always did?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: when does your agenda item do the most work?</p>
+        <div class="quiz__options"><button class="opt" data-correct="1" data-why="Your manager sees it, thinks about it, and the meeting arrives ready. The template turns your priorities into part of the plan."><span class="mark">A</span><span>Typed into the template the day before</span></button><button class="opt" data-correct="0" data-why="Better than never, and it still catches the other person cold. A surprise topic gets a thinner answer than a prepared one."><span class="mark">B</span><span>Raised live at the start of the meeting</span></button><button class="opt" data-correct="0" data-why="Hallway add-ons rarely make the record, so nothing gets tracked and nothing closes. Put it in the template for next time instead."><span class="mark">C</span><span>Mentioned casually after the meeting ends</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: what item have you been saving for the right moment instead of typing into a 1:1 agenda? 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write down the one item you have been saving for the right moment. That is your first template entry.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Wording items your manager can prepare for</h4><p>The wording of an item changes what the meeting can do with it. Career development is a topic; time on the grants project rotation and what it would take is an item your manager can prepare an answer for. For a sensitive subject you would rather not spell out in the record, type the headline and hold the detail: ten minutes on team workload. The template needs enough to prepare on, and nothing more.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Draft your two items for your next 1:1: the blocker with the decision it needs, and the growth ask with a concrete next step attached.</li><li>Reread each item as your manager. Could they prepare an answer from the words alone? Sharpen until yes, then type both into Oracle.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get every learner to load their own items into the Oracle 1:1 template before the meeting.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Quick show of honesty in chat: when your last 1:1 started, whose agenda was it? For most of us the honest answer is my manager's, or nobody's. Oracle now gives that meeting a shared template both people can edit, and the single highest-leverage habit in this session is typing your two items into it the day before: one blocker, one growth topic.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Show the template fields on screen for thirty seconds; keep it to where your items go.</li><li>Walk the In the room context; let the whose-agenda question sit. No quiz in the live room.</li><li>Open the discussion prompt; take two or three voices before moving on.</li><li>Run the breakout on the saved-up item.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What stops people from adding their own agenda items?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Feels like overstepping</li><li>Never occurred to them</li><li>Assume the manager owns the meeting</li></ul><p class="facnote__mini">Respond: All common, all fixable. The template design is the permission: the field exists for you, and managers consistently say they want the items.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Two items, typed the day before: one blocker, one growth ask. That habit alone changes what 1:1s do for you.</p></div><p class="facnote__meta"><b>Watch for:</b> Learners whose managers do not yet use the template. Acknowledge it and stay practical: your typed items work even when you are the only one typing.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The template covers the meeting. Feedback has its own front door.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the breakout; ask for saved-up items in chat instead.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The feedback tools">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Tools</p>
+      <h2 class="h2" data-reveal>Feedback now has a <em>front door</em>.</h2>
+      <p class="lead" data-reveal>Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Pick the move</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three moments from an ordinary week. Choose the move that turns each one into something on the record.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.</p>
+      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.</p>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>Specific enough to act on</h4><p>Both tools live or die on specificity. A request that asks any feedback on my presentation? invites politeness. One that asks was the budget section clear enough to decide from? gets an answer you can use. Gives work the same way: name the exact work and its effect. Your data cleanup saved the Friday deadline travels further than great job, because anyone reading the record later can see what actually happened.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Draft one feedback request about specific recent work: the piece of work, the person who saw it up close, and the one question you want answered.</li><li>Draft one give, role only for now: the exact thing a colleague did and the effect it had on your work. Send both through Oracle this week.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Teach when to request feedback, when to give it, and when a topic belongs on the 1:1 agenda instead.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Oracle gives everyone two feedback moves. Request: you ask people who saw your work how it landed, and their answers join your record. Give: you put specific recognition or input into a colleague's record, where it travels further than chat ever will. The skill is matching the moment to the move, so let's practice on three.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Pick the move live; everyone plays on their own screen.</li><li>After round two, ask in chat who has ever received recorded feedback from a peer; notice the energy.</li><li>Run the breakout on the colleague whose work deserved a recorded give.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Why does recorded feedback beat the same words in chat?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>It reaches their manager</li><li>It survives to review season</li><li>Chat scrolls away</li></ul><p class="facnote__mini">Respond: All three. The words might be identical; the address is different. Feedback in the record shows up when decisions about people get made.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Request when you need eyes on your work. Give when a colleague earned it. Anything needing real discussion goes on the 1:1 agenda.</p></div><p class="facnote__meta"><b>Watch for:</b> Worry that requesting feedback signals weakness. Reframe it: asking specific people about specific work reads as someone serious about getting better.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Templates and feedback both feed one thing: a record. The last section makes it work for you.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, skip the breakout, take one voice on the chat question.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The record">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Record</p>
+      <h2 class="h2" data-reveal>Make the record <em>work for you</em>.</h2>
+      <p class="lead" data-reveal>A year from now, the strongest case for your growth is a trail: agendas you set, commitments you closed, feedback you asked for. That trail gets built one meeting at a time, and it starts with how you set up the next one.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Set up your next 1:1</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your next 1:1 is already on the calendar. Choose what you bring in and what you carry out.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the 1:1</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>What the trail proves later</h4><p>Picture the record after a few months of the habit. Agenda items show what you pushed for and when. Closed commitments show follow-through with dates attached. Requested feedback shows you invited scrutiny before anyone required it. Each entry is small on its own. Together they answer the review conversation before it starts, and they make the same case when a Transfer Portal opportunity gets serious.</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps"><li>Find the one commitment from your last 1:1 that should have made a shared record. Write it as a line with an owner and a date.</li><li>Type it into the template for your next 1:1 as the first check-in item, so your trail starts with something that closes.</li></ol></div>
+        </div>
+      </details>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert template and feedback habits into a growth trail: agendas in, commitments out.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Play the long game for a second. A year from now, someone will ask what you have grown into, in a review or an internal interview. The strongest answer is a trail: agendas you set, commitments that closed, feedback you asked for and acted on. Trails get built one meeting at a time, so let's set up your next one properly.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Set up your next 1:1; give the room two minutes for both choices.</li><li>Ask one volunteer to read their outcome aloud, weak or strong.</li><li>Point at the pattern: typed beats mental, shared beats private.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What does a shared commitment have that a private note does not?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Both names on it</li><li>It gets checked next meeting</li><li>Nobody can misremember it alone</li></ul><p class="facnote__mini">Respond: Right. A private note protects your memory; a shared commitment obligates two calendars. Growth lives in the second kind.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The record is your career's paper trail. Feed it: items in before, commitments out after, feedback along the way.</p></div><p class="facnote__meta"><b>Watch for:</b> Anyone treating the record as surveillance. The frame is ownership: this is your trail, built by you, arguing for you.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Quick recap, then you load your own next 1:1.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: everyone runs the builder solo; skip the read-aloud.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A 1:1 you prepared for is a meeting you co-own.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: A 1:1 you prepared for is a meeting you co-own.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My next 1:1</p>
+      <h2 class="h2" data-reveal>Your next 1:1, <em>loaded in advance.</em></h2>
+      <p class="lead" data-reveal>Pick your next scheduled 1:1 and load it now. Roles only, never names; nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Which 1:1, and what is the one item you have been sitting on?</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. my monthly 1:1 next Tuesday; the certification I want to start" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which move do you make first?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="agenda"><span>The agenda load</span></button><button class="opt" data-id="request"><span>The feedback request</span></button><button class="opt" data-id="give"><span>The feedback give</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="today"><span>Today</span></button><button class="opt" data-id="before11"><span>Before my next 1:1</span></button><button class="opt" data-id="week"><span>This week</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 4 min · Core 3</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now load the real thing. Your next 1:1 is on a calendar somewhere. Name the item you have been sitting on, pick your first move, pick your window, and build the card. Roles only, never names. Two minutes, quiet, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Two chairs. <em>Bring yours.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You can load an agenda, move feedback through the front door, and leave a trail that argues for your growth. Thursday sharpens the skill underneath all of it.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · Before your next 1:1</span></div>
+        <h3>Load the template</h3>
+        <p>Type your one saved-up item into your next 1:1 agenda in Oracle. Watch what a prepared meeting does with it.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Your meeting too. Run it that way.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>Own Your 1:1 · Take-Off Tuesday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/dec-tuesday/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You leave with a loaded template habit and two feedback moves that put your work on the record. Thursday's Thrive Thursday is the skill underneath every one of these tools: clarity, the kind of expectation-setting that sticks, whichever chair you sit in. Same time, same rhythm. See you there.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Moment",
+   "labels": [
+    "Request feedback",
+    "Give feedback",
+    "Put it on your 1:1 agenda"
+   ],
+   "passAt": 2,
+   "passMsg": "You know the moves. Request when you need eyes on your work, give when someone earned it, agenda when it needs a conversation.",
+   "failMsg": "Close. The tell: request is about your work, give is about theirs, and anything that needs real discussion goes on the 1:1 agenda.",
+   "items": [
+    {
+     "q": "You just led your first cross-department presentation and have no idea how it landed.",
+     "answer": 0,
+     "why": "Ask two people who were in the room, through the tool, same day. Specific and fresh beats a vague someday ask, and the answers live in your record."
+    },
+    {
+     "q": "An analyst in another unit stayed late untangling the data mess that saved your deadline.",
+     "answer": 1,
+     "why": "Give it through the tool so it reaches their record and their manager's eyes. A thank-you in chat evaporates; recorded feedback travels."
+    },
+    {
+     "q": "You suspect your role has drifted and your real work no longer matches your job description.",
+     "answer": 2,
+     "why": "That is a conversation, and it deserves scheduled time. Type it into the template so it opens the meeting instead of ambushing it."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "What the record shows",
+   "slots": [
+    {
+     "key": "What you bring in",
+     "opts": [
+      {
+       "t": "Nothing; you will respond to whatever comes up.",
+       "pts": 1,
+       "coach": "An empty template hands the whole meeting to the other chair. You get their agenda, and yours waits another month."
+      },
+      {
+       "t": "A mental list of updates you plan to give.",
+       "pts": 2,
+       "coach": "Updates fill time and prove activity. The template rewards items that need a decision or a door opened, typed where your manager sees them coming."
+      },
+      {
+       "t": "One blocker and one growth ask, typed in the day before.",
+       "pts": 3,
+       "coach": "Two items, visible early. The blocker gets solved and the growth ask gets thought about before the call, which is when growth asks actually move."
+      }
+     ]
+    },
+    {
+     "key": "What you carry out",
+     "opts": [
+      {
+       "t": "A good conversation you both intend to remember.",
+       "pts": 1,
+       "coach": "Memory is the least reliable tool in Oracle. In a month, the two of you will remember two different meetings."
+      },
+      {
+       "t": "Your own notes, kept somewhere only you can see.",
+       "pts": 2,
+       "coach": "Better; at least your version exists. Shared commitments are stronger because both names sit next to the same words."
+      },
+      {
+       "t": "Commitments typed into the shared template, owners and dates attached.",
+       "pts": 3,
+       "coach": "Now the record works for you. The next 1:1 opens with what closed, and by review season your growth has receipts."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A meeting with a spine. Your items shaped it, and the commitments will still exist next month.",
+    "mid": "A pleasant hour that mostly happened to you. Some value, thin residue.",
+    "weak": "Thirty minutes of status. Nobody could say afterward what changes because of it."
+   },
+   "reactions": {
+    "strong": "Three 1:1s later there is a visible trail: the blocker cleared, the growth ask became a stretch task, and your review conversation starts from evidence instead of recollection.",
+    "mid": "Some of it stuck because you kept notes. But your growth ask never made the shared record, so it never made anyone's plans either.",
+    "weak": "A month later the same blocker resurfaces and neither of you can find where it was discussed. The meeting happened; the record says nothing."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Your best move with an important 1:1 topic?",
+   "opts": [
+    "Raise it live and see how it lands",
+    "Type it into the shared template the day before",
+    "Save it for the annual review",
+    "Email it right after the meeting"
+   ],
+   "correct": 1,
+   "why": "Typed early, it shapes the agenda and gets a prepared answer. The template turns your priorities into part of the plan."
+  },
+  {
+   "q": "A colleague's work quietly saved your project. What travels furthest?",
+   "opts": [
+    "A thank-you message in chat",
+    "Telling your own manager about it",
+    "Feedback given through the Oracle tool",
+    "Mentioning it at the next team meeting"
+   ],
+   "correct": 2,
+   "why": "Recorded feedback reaches their record and their manager. Kind words in chat are lovely and gone by Friday."
+  },
+  {
+   "q": "What makes a 1:1 commitment real?",
+   "opts": [
+    "Both people nodding on the call",
+    "A note in your private notebook",
+    "Good intentions and a follow-up ping",
+    "Typed in the shared record with owner and date"
+   ],
+   "correct": 3,
+   "why": "Shared words with names and dates get checked next meeting. Everything else depends on memory, which is the weakest tool available."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The tools are yours. Load the real template before the glow fades.",
+  "mid": "Solid. Revisit the move you missed, then build your prep card.",
+  "low": "Worth a second pass through the three sections before you load the template."
+ },
+ "capstone": {
+  "whoRow": "The meeting and the item",
+  "cardTitle": "My 1:1 prep card",
+  "copyTag": "Own Your 1:1 · December 2026 · Anchor's Edge",
+  "goalRow": "Goal 2, Manager Effectiveness at Scale.",
+  "evidenceRow": "Afterward, one line: what changed because it was on the record?",
+  "practices": [
+   {
+    "id": "agenda",
+    "chip": "The agenda load",
+    "name": "The agenda load",
+    "move": "Type one blocker and one growth ask into the Oracle template at least a day before the meeting."
+   },
+   {
+    "id": "request",
+    "chip": "The feedback request",
+    "name": "The feedback request",
+    "move": "Send one Oracle feedback request about recent, specific work to someone who saw it up close."
+   },
+   {
+    "id": "give",
+    "chip": "The feedback give",
+    "name": "The feedback give",
+    "move": "Give one piece of specific feedback through Oracle to a colleague whose work helped yours."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The template entry or feedback goes in today, while the session is fresh."
+   },
+   {
+    "id": "before11",
+    "chip": "Before my next 1:1",
+    "out": "Loaded at least a day before the meeting, so it shapes the agenda."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "Done by Friday, on the calendar so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

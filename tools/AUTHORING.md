@@ -137,6 +137,21 @@ must feel different:
   gets instead of the quiz) and `discuss` (limit 170; the facilitator's
   discussion prompt).
 
+## Workshop specs (format: "workshop")
+
+Each month also has an IN-PERSON navigator-led workshop. Its spec sets
+`"format": "workshop"` and `"series": "Navigator Workshop"`, slug
+`<mon>-workshop`. Differences from weekly sessions: 90 minutes full /
+60 core (timing is automatic); there is NO self-paced edition, so
+`deeper` blocks are NOT required (omit them) and `solo` lines are
+optional; `context`/`discuss` are still required on check sections
+(the room replaces the quiz with discussion). Write for a physical
+room: tables, pairs, flip charts, printed cards, walking to another
+table. The workshop is the month's hands-on lab: bias every section
+toward DOING (drafting, mapping, role-play) over presenting. Group
+prompts are table exercises. The welcome slide QR brings the deck to
+learner phones in the room.
+
 ## The deeper block (required on every section)
 
 `sections[*].deeper = {"title": ..., "body": ..., "steps": [...]}`.
