@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Action Lab, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led capstone lab for Vanderbilt managers: bring your exposure map and your skills read, build a concrete workforce action plan with one reskill and one redeploy or redesign candidate, owners and dates attached, and pressure-test it at the table before it goes home.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Action Lab | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led capstone lab for Vanderbilt managers: bring your exposure map and your skills read, build a concrete workforce action plan with one reskill and one redeploy or redesign candidate, owners and dates attached, and pressure-test it at the table before it goes home.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jun-workshop/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Two Maps</a><a href="#s-two">The Two Lines</a><a href="#s-three">The Table Test</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (90 min) or Core (60 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 3, AI-Enabled Workforce Readiness.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If The projector or room screen fails:</b> The lab survives it: everything runs on paper and learner devices via the welcome QR. Read the cards aloud from your own screen and keep the builds moving.</div><div class="brief__row"><b>If A manager arrives without their exposure map or skills notes:</b> The blank templates rebuild the essentials fast: five recurring tasks, three strengths, one gap. A rough fresh map beats a polished absent one, and the table test works on either.</div><div class="brief__row"><b>If A manager names a real employee while testing a plan:</b> Protect them warmly and immediately: 'Hold that. Roles, never names.' The plan works on work; the person hears it first in private, which is exactly what the plan schedules.</div><div class="brief__row"><b>If End-of-year emotion surfaces at the tables:</b> Let it breathe; a capstone is allowed to feel like one. Invite one-line reflections on the year at the close, take a few aloud, and land the room on the plans going home in warm hands.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>My plan needs budget or an HR process I don't control. Is it stuck?</summary><p>Then the ask is step one, owned and dated like everything else. Two checkable lines with owners are exactly what gets funded and fast-tracked; fog is what gets deferred. Book your HR consultant the way you booked the investment conversation, plan in hand.</p></details><details class="brief__q"><summary>What if the person whose work changes doesn't want the reskill?</summary><p>That answer is data, and it usually points at redeploy: the strength is real even when the appetite isn't. Hold the conversation as a genuine question, and let the Talent Marketplace surface options you can't see from inside one team. A move chosen lands better than a move assigned, every time.</p></details><details class="brief__q"><summary>The series year is ending. Who checks whether these plans actually happen?</summary><p>You built the answer today: an owner per step, a peer check-in with this table, and a team that hears the plan early. The pulse follows in a week, the dashboard stays open, and the rhythm returns with room to grow. The plan reports to its owners now, which was the year's whole lesson.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: In person: the capstone lab, with your navigator. Bring the AI-exposure map you built this spring and any skills notes from the year, in whatever shape they are in; blank templates will be waiting if the originals stayed home. You leave with a plan that has owners and dates. Roles only, never names, and nothing you write is collected.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Is the plan in motion? Three lines, reply whenever: 1) Did the investment conversation happen? 2) Which of your two moves is in motion, and what has it taught you? 3) When is the peer check-in, and what will you bring to it?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the investment conversation happen? Which of your two moves is in motion? When is the peer check-in?' Count of plans with step one held is the month's Level 3 metric, and the year's last.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · June 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/jun-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The workforce action-planning capstone lab: the year's insight becomes a plan.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Defining the great university of the 21st Century is, in the end, a set of kept plans. Managers leaving this room with owners and dates are Exceptional Core Operations turning a year of seeing into a season of doing.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century is, in the end, a set of kept plans. Managers leaving this room with owners and dates are Exceptional Core Operations turning a year of seeing into a season of doing.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 3 ends at action: AI insight translated into practical workforce moves. This capstone lab is the translation done in company, with witnesses.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 ends at action: AI insight translated into practical workforce moves. This capstone lab is the translation done in company, with witnesses.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · From Insight to Action</p>
+      <h1 class="h-hero" data-reveal>The year lands <em class="gold-text">on one page</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Your year's work comes to one table: the skills read from the fall, the exposure map from the spring. This lab turns them into a plan: one reskill, one redeploy or redesign, owners and dates attached, pressure-tested by managers who ask hard questions kindly.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Lay your exposure map and skills read side by side and find the insight worth acting on</li><li>Write two plan lines, one reskill and one redeploy or redesign, each with an owner and a date</li><li>Pressure-test the plan at the table and leave with the first conversation booked</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Leads through change</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Decision Making</span><span class="skillpill">AI Literacy</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: lay your exposure map and skills read side by side and find the insight worth acting on; write two plan lines, one reskill and one redeploy or redesign, each with an owner and a date; pressure-test the plan at the table and leave with the first conversation booked. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The two maps meet</h3><p>Exposure map and skills read, side by side, until an insight worth acting on appears.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Two lines, owners, dates</h3><p>Write the reskill line and the redeploy or redesign line, specific enough to check.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The table test</h3><p>Read your plan to managers who probe it, then book the first conversation.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the two maps meet, two lines, owners, dates, the table test. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The two maps meet">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Overlay</p>
+      <h2 class="h2" data-reveal>Lay the year <em>on the table</em>.</h2>
+      <p class="lead" data-reveal>Physically spread both artifacts: the exposure map that says which work is changing, and the skills read that says who could grow. The plan lives where they touch: an exposed task next to a hidden strength. Roles only, never names, even on your own worksheet.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The overlay rule</span>
+        <p style="margin:.5rem 0 0" class="measure">An action-ready insight has two coordinates: a task whose shape is changing, and a strength or gap on the team it points at. One coordinate makes a slide. Two make a move you can hand an owner.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done, which is why today can be all verbs.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Where do your two maps touch first? Name the task and the strength, roles only, and let the table say what move they see.</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which of these is action-ready?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="One blurry coordinate. Nothing to hand an owner, nothing to date. It needs the named task and the strength or gap it points at."><span class="mark">A</span><span>AI will change a lot of our routine work this year</span></button><button class="opt" data-correct="1" data-why="Two coordinates: a changing task and a strength to grow into it. That sentence is one owner and one date away from being a move."><span class="mark">B</span><span>Routine casework shrinks; a coordinator's untapped data skill fits the analysis gap</span></button><button class="opt" data-correct="0" data-why="Hire is the last move, after reskill, redeploy, and redesign have been honestly tried. The maps on your table usually contain the earlier answer."><span class="mark">C</span><span>We should hire an AI specialist to sort this out</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Point a neighbor at one place your maps touch: an exposed task near an underused strength, roles only. The neighbor says the move they see before you say yours.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get both artifacts physically on the table and locate each manager's action-ready insight, roles never names.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to the last room of the series year, and the one everything else was furniture for. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give quiet time for spreading out and reacquainting; walk the room and admire the maps out loud, it sets the tone.</li><li>Show the overlay card, then run the discussion: one touchpoint per manager, the table says the move they see.</li><li>Run the neighbor exercise; listen for a clean task-plus-strength pairing to quote at the debrief.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What surprised you, seeing both maps at once?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Strengths sitting right next to exposed tasks</li><li>Gaps with no strength anywhere near them</li><li>Some maps aged; the work changed faster than expected</li></ul><p class="facnote__mini">Respond: All three are findings. A strength beside an exposed task is a plan; a gap with no strength nearby is also a plan, just a different verb.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">One coordinate is a slide; two are a move. Every manager here just found at least one pair.</p></div><p class="facnote__meta"><b>Watch for:</b> Names sneaking onto worksheets as the maps get personal. The rule holds hardest in the capstone: roles only, on paper and out loud.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;You have the insight. Now it becomes two lines with owners and dates.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the neighbor exercise; each manager marks one touchpoint solo and says it in one sentence at the table.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Two lines, owners, dates">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Build</p>
+      <h2 class="h2" data-reveal>Write the moves <em>you can check</em>.</h2>
+      <p class="lead" data-reveal>The worksheet asks for two lines. The reskill line: who grows, toward what work, starting when. The redeploy or redesign line: which strength moves, or which role gets rebuilt around what stays human. Each line ends the same way: an owner and a date.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Grade the line</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three plan lines from tables like this one. Grade each before it goes home.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Write both lines, then read them to your table partner exactly as written. Anywhere they ask 'meaning what?', the line is still fog: rewrite it on the spot.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Draft the reskill line and the redeploy or redesign line, checkable, owned, and dated.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;The plan is deliberately small: two lines. Line one is a reskill: who grows, toward what work, starting when. Line two is a redeploy or a redesign: a strength pointed at new work, or a role rebuilt around what stays human. If a redeploy points past your own team, that is what the Talent Marketplace and the Transfer Portal are for; the university built the doors, and your line can walk through them. Both lines end the same way: an owner and a date. If you cannot check it later, it is not written yet.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Grade the line on learner devices first, so the holds, fog, and wrong-verb tells are shared.</li><li>Quiet drafting on the worksheet; walk the room and ask 'meaning what?' at any fog.</li><li>Run the partner read-aloud; rewrites happen at the table with the marker, never later.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Which line came harder, the reskill or the redeploy and redesign?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Reskill easier; training feels familiar</li><li>Redesign harder; rebuilding a role feels above a manager's desk</li><li>Dates harder than either</li></ul><p class="facnote__mini">Respond: Redesign feels big because it is honest. Start the line anyway; the table test will tell you whether it needs a partner in HR, and that ask becomes step one.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Two lines, four properties each: a verb, a role, an owner, a date. The whole year fits in two sentences, which was always the point.</p></div><p class="facnote__meta"><b>Watch for:</b> Hire creeping in as a first verb. Run the order aloud: reskill, redeploy, redesign, then hire, when the first three have honestly failed.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The lines exist. Time to let other managers bend them.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: draft the reskill line fully; the second line can leave as a labeled stub with its owner and date set at the peer check-in.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The table test">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Send-Off</p>
+      <h2 class="h2" data-reveal>Plans get strong in <em>other people's hands</em>.</h2>
+      <p class="lead" data-reveal>Last build of the year, out loud. Your plan meets the table: managers who don't run your team, asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked here, on a real calendar.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Send the plan home</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> A plan survives on who hears it first and how its dates hold. Choose both.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the season</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Read your two lines to the table. Listeners ask the card questions: what does the owner need, what will the person hear, what slips first? Revise on the spot.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Pressure-test each plan aloud at the table, then convert momentum into a booked first conversation and peer check-in.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Here is why this lab is in person: plans get strong in other people's hands. You will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Send the plan home on learner devices; the who-hears-it-first pattern sets up the read-alouds.</li><li>Run the table test: each manager reads, card questions fly, revisions happen on the spot; keep tables moving so everyone gets tested.</li><li>Calendars open: first conversations booked, peer check-ins traded across the table; confirm out loud as they land.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What did the table hear in your plan that you couldn't?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>The person's likely first reaction to the move</li><li>A date that was really a hope</li><li>A redesign that needs an HR partner from day one</li></ul><p class="facnote__mini">Respond: That is the lab doing its one job. Every question you just answered is one your team and your leadership no longer get to ask first.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Tested, revised, booked: the plan leaves this room already in motion, which is the difference between a capstone and a keepsake.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers booking the leadership pitch before the investment conversation. Reorder it gently: the person whose work changes hears it first; that order is the message.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Recap, the card, and then we close the year properly.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: the table test runs one line per manager instead of two; the second line gets tested at the peer check-in.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A year of insight earns its keep the day it becomes somebody's owned, dated move.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: A year of insight earns its keep the day it becomes somebody's owned, dated move.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 5 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My workforce plan</p>
+      <h2 class="h2" data-reveal>Two moves, two owners, <em>two dates</em>.</h2>
+      <p class="lead" data-reveal>Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Your two lines: the reskill, and the redeploy or redesign, with owners and dates.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. reskill senior coordinator toward exceptions, talk booked Friday; redesign intake role around what stays human" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What happens first?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="invest"><span>The investment conversation</span></button><button class="opt" data-id="portal"><span>The wider move</span></button><button class="opt" data-id="peer"><span>The peer check-in</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="staff"><span>At my next staff meeting</span></button><button class="opt" data-id="month"><span>Before the month ends</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 6 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;The last card of the year. Two lines, owners, dates, roles never names. Write what happens first and when the peer check-in lands, then copy the card somewhere that survives the summer: the front of a notebook, a photo where you plan your week. This card is the year, folded small enough to carry. Quiet writing time, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">You saw it all year. <em>Now move it.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">The year opened with reading the talent around you, and it closes with you holding a plan built from everything since. The season wraps; the habits and the plan keep going, and the rhythm comes back around.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Hold the investment conversation</h3>
+        <p>The person whose work is changing hears it from you first, this week, framed as growth. This month's LinkedIn Learning course, Leading Your Team Through Change, is a warm companion for that conversation and the season after it, there whenever you want it.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Insight, owned and dated, is action.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Action Lab · Navigator Workshop · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-workshop/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/jun-workshop/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Before you go, look at what this room built: a year of seeing, folded into plans with owners and dates. The month's weekly sessions carry the same push. Monday gave you the four moves you just used, Tuesday has your whole team drafting their own 90-day plans, and Thursday closes the season on deciding while the deciding is good. The season wraps here, warmly. The habits have no end date, the Talent Marketplace and the Transfer Portal stay open, and the rhythm comes back around with room to grow. If you want company through the change you just planned, this month's LinkedIn Learning course, Leading Your Team Through Change, is there whenever you want it, never homework. Thank you for bringing your year to this table. Go hold the conversation.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Line",
+   "labels": [
+    "Holds: owner, date, checkable",
+    "Fog: sharpen the specifics",
+    "Wrong verb: resort the move"
+   ],
+   "passAt": 2,
+   "passMsg": "You can grade a plan line at a glance, which means you can write one. Owners, dates, and checkable verbs travel.",
+   "failMsg": "Close. The tells: a line holds when someone could verify it happened; fog hides the who or the when; the wrong verb usually means hire crept in ahead of the cheaper moves.",
+   "items": [
+    {
+     "q": "Reskill our program coordinator toward exception handling; I own the first conversation, booked Friday.",
+     "answer": 0,
+     "why": "A role, a skill, an owner, a date. Anyone can tell in a month whether this happened, and that is the whole test of a plan line."
+    },
+    {
+     "q": "The team will build AI capabilities over the coming months as the tools mature.",
+     "answer": 1,
+     "why": "No who, no what, no when: fog in a confident font. Nobody could ever say whether it happened. Name the role, the skill, and the date."
+    },
+    {
+     "q": "Hire a new analyst to take the reporting work AI has been freeing up on the scheduling desk.",
+     "answer": 2,
+     "why": "Freed capacity plus existing people is redeploy territory; hire comes after the cheaper moves fail honestly. Resort this one before it spends money."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How the season goes",
+   "slots": [
+    {
+     "key": "Who hears the plan first",
+     "opts": [
+      {
+       "t": "Nobody yet; it needs polishing first",
+       "pts": 1,
+       "coach": "Polish is how plans hide. A plan nobody has heard has no witnesses, and unwitnessed dates negotiate themselves away by July."
+      },
+      {
+       "t": "Leadership, so it arrives pre-approved",
+       "pts": 2,
+       "coach": "Sometimes needed, rarely first. A plan that reaches the team as an announcement reads as a verdict, and this year taught the cost of verdicts."
+      },
+      {
+       "t": "The person whose work changes, framed as growth",
+       "pts": 3,
+       "coach": "They hear it from you, early, as a growth story: what you saw change, what you want to grow, what stays theirs. That conversation is the plan's real launch."
+      }
+     ]
+    },
+    {
+     "key": "How the dates hold through summer",
+     "opts": [
+      {
+       "t": "They're on the plan; that should do it",
+       "pts": 1,
+       "coach": "Paper holds ink, never dates. Summer schedules eat undefended plans, and September will ask what happened."
+      },
+      {
+       "t": "You keep the whole plan on your own to-do list",
+       "pts": 2,
+       "coach": "Now one busy manager is the single point of failure. Owners exist so the plan survives your week; give each step back to its owner."
+      },
+      {
+       "t": "Each step sits on its owner's calendar, with a peer check-in booked from this table",
+       "pts": 3,
+       "coach": "Calendars plus a witness from this room. The plan now has more defenders than obstacles, which is the winning ratio for any summer."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A plan in motion before the room empties. The right person hears it first, and the dates have defenders.",
+    "mid": "A good plan waiting on a first conversation. Every week it waits, the word draft fades a little.",
+    "weak": "A worksheet, going home to a drawer. The year's insight deserved a calendar and got a folder."
+   },
+   "reactions": {
+    "strong": "The first conversation lands as investment, and the person whose work is changing adds a step you hadn't seen. At the peer check-in you report motion, and borrow one idea back.",
+    "mid": "August arrives and the plan is intact and unstarted. The fix is unchanged: one conversation, booked. The table that tested your plan would still take your call.",
+    "weak": "By fall the role changed anyway, on nobody's terms. The plan was right; it just never met a calendar, and insight that misses its window reads later like hindsight."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "An insight is action-ready when it has...",
+   "opts": [
+    "A compelling slide",
+    "A changing task and a strength or gap it points at",
+    "Leadership sign-off",
+    "A vendor quote"
+   ],
+   "correct": 1,
+   "why": "Two coordinates: the changing task and the team strength or gap it points at. With both, the line is an owner and a date away from a move."
+  },
+  {
+   "q": "A plan line holds when...",
+   "opts": [
+    "It sounds ambitious",
+    "It mentions AI",
+    "Someone could verify later that it happened",
+    "It fits on one slide"
+   ],
+   "correct": 2,
+   "why": "Owner, date, checkable verb. A role and a skill anyone can check in a month is a move; anything less is still an insight."
+  },
+  {
+   "q": "Who should hear the plan first?",
+   "opts": [
+    "Nobody, until it is polished",
+    "The person whose work changes",
+    "A vendor",
+    "The whole department at once"
+   ],
+   "correct": 1,
+   "why": "Hearing it early, from you, framed as growth, is what makes the move land as investment. The order of conversations is itself a message."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The plan is real. Book the first conversation before the room empties.",
+  "mid": "Close. Sharpen the fog line, then book the conversation.",
+  "low": "Walk the overlay once more, then let the table test you again."
+ },
+ "capstone": {
+  "whoRow": "The two lines",
+  "cardTitle": "My workforce plan card",
+  "copyTag": "The Action Lab · June 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness.",
+  "evidenceRow": "At the peer check-in, one line: which move is in motion, and what did it already teach you?",
+  "practices": [
+   {
+    "id": "invest",
+    "chip": "The investment conversation",
+    "name": "The investment conversation",
+    "move": "Hold the first conversation with the person whose work changes: what you saw, what you want to grow, what stays theirs."
+   },
+   {
+    "id": "portal",
+    "chip": "The wider move",
+    "name": "The wider move",
+    "move": "If the redeploy points beyond your team, open the Talent Marketplace and the Transfer Portal and walk the move through the university's own doors."
+   },
+   {
+    "id": "peer",
+    "chip": "The peer check-in",
+    "name": "The peer check-in",
+    "move": "Book the check-in with a manager from this table and trade one line each: what moved, what needs help."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "Step one is on a calendar this week, before the plan cools."
+   },
+   {
+    "id": "staff",
+    "chip": "At my next staff meeting",
+    "out": "The plan is named out loud at your next staff meeting, owners and dates included."
+   },
+   {
+    "id": "month",
+    "chip": "Before the month ends",
+    "out": "Both first steps land before the month ends, with the peer check-in booked beyond it."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

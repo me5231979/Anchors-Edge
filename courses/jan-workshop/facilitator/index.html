@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Sandbox, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person, navigator-led workshop for all Vanderbilt staff: bring one real chore from your week, write the ask, run it live in an approved VU tool with a navigator nearby, and leave with a first AI win you actually shipped.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Sandbox | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person, navigator-led workshop for all Vanderbilt staff: bring one real chore from your week, write the ask, run it live in an approved VU tool with a navigator nearby, and leave with a first AI win you actually shipped.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/jan-workshop/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Pick</a><a href="#s-two">The Run</a><a href="#s-three">The Ship</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (90 min) or Core (60 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 3, AI-Enabled Workforce Readiness.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If The projector or room screen fails:</b> The deck already lives on learner phones via the welcome QR; narrate from your own device and keep the room moving. Nothing in the session needs the big screen.</div><div class="brief__row"><b>If The venue wifi drops or logins to the tool fail at a table:</b> Phones on cellular still reach the deck, and navigators carry the login help. Pair anyone still locked out with a neighbor to co-run one chore on one screen; two names on one win is still two wins.</div><div class="brief__row"><b>If Someone reads out a chore full of details about a real person:</b> Protect them warmly and immediately: 'Hold that. Roles, never names, and the private details stay out of the tool.' Then help them strip it to the green core in front of the table; the save is the teaching.</div><div class="brief__row"><b>If A table finishes early and gets restless:</b> Hand them the stretch: run the same chore with a differently shaped ask, compare the two drafts, and pick the better opening line to share when the room reconvenes.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Which tool are we using, exactly?</summary><p>The approved VU tool set up for this room; navigators have the current list from the Anchor's Edge dashboard. The loop you are learning is portable: the light, the ask, the follow-up, and the check work the same in every approved tool.</p></details><details class="brief__q"><summary>My whole job is confidential. What is my green chore?</summary><p>Every role holds a generic layer: announcements, outlines, plain explainers, tidying your own phrasing. Strip the specifics and the skeleton is green. The navigators love this puzzle; wave one over and you will have a chore before the section ends.</p></details><details class="brief__q"><summary>Is shipping work the tool drafted honest?</summary><p>You read every line, verified every fact, and made it sound like you; the judgment and the responsibility stayed yours. That is how templates and spell-checkers have always worked. What would cross a line is shipping anything you never checked, with or without a tool.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: The First-AI-Win sandbox, in person. Bring a laptop or a phone and one boring chore from your real week: a draft, a summary, notes to tidy. No AI experience needed; you will run your first win in the room with a navigator nearby, and you will leave with it shipped.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did the second win ship? Three lines, reply whenever: 1) Did the next-win chore on your card run? 2) What did the check catch? 3) Who have you shown your first win?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the next win on your card ship? What did the check catch? Who have you shown?' Count of shipped second wins is the Level 3 metric for the workshop.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · January 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/jan-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The First-AI-Win sandbox: run one real chore, live, with help in the room.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · AI at Work: Start Where You Are</p>
+      <h1 class="h-hero" data-reveal>Your first win ships <em class="gold-text">in this room</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Plans do not count as wins. This room does one thing: you pick a real chore from your own week, write the ask, run it in an approved VU tool with a navigator at your elbow, and check what comes back. When you walk out, the work is done and it is yours.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Pick one green-light chore from your own real week and confirm its light at your table</li><li>Write the ask, run it live in an approved VU tool, and improve the draft with one follow-up</li><li>Check the result like an editor, with a neighbor's eyes on it, and ship it as real work</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Personal Effectiveness</span><span class="skillpill">AI Fluency</span><span class="skillpill">Attention to Detail</span><span class="skillpill">Peer Learning</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: pick one green-light chore from your own real week and confirm its light at your table; write the ask, run it live in an approved vu tool, and improve the draft with one follow-up; check the result like an editor, with a neighbor's eyes on it, and ship it as real work. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Pick and call it</h3><p>One real chore from your own week, its light confirmed at the table before anything runs.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Run it live</h3><p>The ask goes into the tool, the draft comes back, and one follow-up makes it sound like you.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Check and ship</h3><p>A neighbor checks your draft, you check theirs, and the work leaves the room shipped.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: pick and call it, run it live, check and ship. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Pick and call it">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Pick</p>
+      <h2 class="h2" data-reveal>The right first chore is <em>small and green</em>.</h2>
+      <p class="lead" data-reveal>A first win is chore-sized: something you can finish today and check quickly. Then the light gets the final say. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Strip it or skip it</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Real chores arrive mixed, and the most sensitive piece decides the light for the whole task. Call each one before you run anything.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> At your table: read your chore aloud and let the table call its light together. Anything mixed gets stripped to its green core before it runs.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get one real, chore-sized, green task chosen per person, with the light confirmed at the table before anything runs.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Everything today happens for real: a real chore, a real tool, real shipped work. So the first job is picking well. Chore-sized means you can finish it today and check it before you forget you wrote it. Then the light rules everything: green, public or generic, go. Yellow, internal, approved VU tools only. Red, private information about people, never. Your table is your safety net; nobody runs a chore the table has not called.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Tables of four to six, one printed traffic-light card per table; point at it as you teach the light, and leave it face up all day.</li><li>Run Strip it or skip it on learner devices; after the third chore, hold the room for a beat: the kind intention did not change the light.</li><li>Then the table round: each person reads their chore aloud and the table calls the light together. Circulate with the navigators and listen for mixed chores.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Who has a chore the table could not agree on?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Mixed chores with one sensitive detail</li><li>Whole weeks that feel yellow</li><li>Someone whose chore is really a project</li></ul><p class="facnote__mini">Respond: Perfect material. Strip the sensitive piece and call what is left; shrink the project to its first chore-sized slice. The table plus the light settles almost everything.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Chore-sized, green, and called out loud at the table. That pick is half of today's win.</p></div><p class="facnote__meta"><b>Watch for:</b> People choosing an impressive chore to justify the trip. Shrink it warmly: boring ships, impressive stalls.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Chores picked and called. Now they go into the tool.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, then one chore read aloud per table instead of the full round.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="Run it live">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Run</p>
+      <h2 class="h2" data-reveal>The draft is a start. The follow-up makes it <em>yours</em>.</h2>
+      <p class="lead" data-reveal>Write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then run it, right now, in the approved VU tool in front of you. When the draft returns close but not right, you do not start over. You ask again.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · The follow-up</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> The first draft came back stiff and a little generic. Choose what you do next.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Send the follow-up</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Run your ask in the tool now; wave a navigator over anytime. When the draft lands, tell a neighbor the one change you would make, then say exactly that to the tool.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Every person writes the ask, runs it in the approved VU tool, and practices one real follow-up on the draft that returns.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. You are going to practice the move that separates people who use these tools well: the follow-up. Tell it what to change, plainly, and watch the second draft.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room the go and let it get quiet; drafting is the session working. Navigators move table to table for login trouble and thin asks.</li><li>When most drafts are back, run The follow-up on learner devices; it names the move everyone is about to make on their own draft.</li><li>Then the neighbor beat: say the one change aloud to a neighbor, then type exactly that to the tool. If a volunteer offers one, read a strong before-and-after to the room.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What did your follow-up change that your first ask never mentioned?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Tone and length, most often</li><li>The audience it was for</li><li>The shape: a list, a paragraph, a subject line</li></ul><p class="facnote__mini">Respond: Notice the pattern: everything the tool guessed wrong was something the ask never said. The follow-up is how you find out what your asks leave out.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The ask is a brief, the draft is a start, and the follow-up is the skill. Plain sentences, both times.</p></div><p class="facnote__meta"><b>Watch for:</b> Someone quietly pasting internal or personal content to make the chore work better. Redirect warmly, and loudly enough to teach: keep it green today, and yellow work lives in approved VU tools on its own time.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Drafts are close. The last stop makes them real.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the neighbor beat; everyone sends one follow-up solo while you narrate the pattern.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Check and ship">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Ship</p>
+      <h2 class="h2" data-reveal>A win is checked, then <em>shipped</em>.</h2>
+      <p class="lead" data-reveal>The tool drafts with total confidence and zero guarantee, so the last step never changes: verify every name, date, and number, and make it sound like you. Then do the part most first tries skip. Send it, file it, use it. Shipped is what makes it a win.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The ship test</span>
+        <p style="margin:.5rem 0 0" class="measure">A first win has three parts: the check (every fact verified, the voice yours), the ship (the work sent, filed, or used), and the story (you can say what the check caught). A perfect draft sitting in a folder is a rehearsal.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Look around the room: every screen holds a draft that did not exist when you sat down. This is the moment first wins usually die. The draft feels done, the day moves on, and the folder keeps it forever. What comes next is the finishing: check it with a neighbor, then ship it for real.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> What did the check catch on your draft or your neighbor's? And where exactly is your draft about to go: sent to whom, filed where, used for what?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Your draft is checked and it reads well. What makes it a first win?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="A draft in a folder is a rehearsal. Nothing about your work changed until the draft goes where the work goes."><span class="mark">A</span><span>It exists; the tool did the job</span></button><button class="opt" data-correct="1" data-why="Exactly. Shipped work is the whole point of the sandbox, and the time it saved is now yours to spend on work that needs a human."><span class="mark">B</span><span>It ships: sent, filed, or used as real work today</span></button><button class="opt" data-correct="0" data-why="Green-light chores are yours to ship; the check was the approval. Save the show-and-tell for telling your team what the check caught."><span class="mark">C</span><span>You show it to your manager for approval first</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Swap seats with a neighbor and check each other's drafts: facts first, then one sentence that does not sound like the author. Then take your seat back and ship yours.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Install the editor's check with a partner's eyes, then have every person actually ship the checked work before the capstone.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Here is the honest warning that keeps you safe: the tool writes with total confidence whether it is right or wrong. So the check never gets skipped. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pair neighbors across the table; swap seats or swap devices, author's choice. Facts first, then the voice read.</li><li>Show the ship test card and let the folder line land; the room will recognize it.</li><li>Run the discussion, then call the ship: everyone sends, files, or schedules their work now. Ask for hands as pieces ship; count aloud and let the room hear the number grow.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What did the check catch on your draft or your neighbor's?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>An invented or unverifiable detail</li><li>A wrong name or date</li><li>A sentence that sounded like nobody at the table</li></ul><p class="facnote__mini">Respond: Every catch is the lesson working: errors hide inside polish. The check is quick, and it is what makes the shipping safe.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Checked, shipped, and a story about what the check caught. That is a complete first win, and everyone in the room has one.</p></div><p class="facnote__meta"><b>Watch for:</b> Perfectionists polishing instead of shipping. Name it kindly: a shipped decent draft beats a perfect one in a folder, and the polish can continue after it ships.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Everyone shipped. Now the card that makes it a habit.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pair check runs on facts only; the ship call happens whole-room, hands up as pieces go.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>You do not leave with a plan. You leave with a win you shipped.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: You do not leave with a plan. You leave with a win you shipped.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 5 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My next win</p>
+      <h2 class="h2" data-reveal>The second win happens <em>back at your desk</em>.</h2>
+      <p class="lead" data-reveal>You shipped the first one in this room. Name the next green-light chore and when it runs. Nothing you type is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · The next green-light chore, and the ask you will open with.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. tidy my notes from the public planning forum into clean sentences" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · Which next win do you run?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="repeat"><span>The repeat</span></button><button class="opt" data-id="second"><span>The second chore</span></button><button class="opt" data-id="tell"><span>The show and tell</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="tomorrow"><span>Tomorrow</span></button><button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="recurs"><span>When the chore recurs</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 6 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">One win shipped. <em>The habit starts now.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You picked, ran, checked, and shipped, with a room around you. The weekly sessions this month carry the same theme to your screen, and the loop you just ran works the same at your desk.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Run the next win on your card</h3>
+        <p>Same loop, no room needed: the light, the ask, the follow-up, the check, the ship. Tell someone what the check caught; that story is how first wins spread.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Start where you are. Ship what you check.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Sandbox · Navigator Workshop · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-workshop/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/jan-workshop/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Chore",
+   "labels": [
+    "Green as it stands: run it",
+    "Yellow inside: approved VU tools only",
+    "Red inside: the private piece never goes in"
+   ],
+   "passAt": 2,
+   "passMsg": "You can call a mixed chore. The most sensitive piece decides the light, and stripping it can change the call.",
+   "failMsg": "Close. The light follows the most sensitive piece: public or generic is green, internal stays inside approved VU tools, and private information about people never goes in.",
+   "items": [
+    {
+     "q": "A welcome blurb for the department's public open house, built from the flyer and your own rough phrasing.",
+     "answer": 0,
+     "why": "Public event, generic wording, your own notes. Nothing sensitive anywhere in it, so this one runs as it stands. A perfect sandbox chore."
+    },
+    {
+     "q": "Turning your notes from an internal planning meeting into a tidy summary for the people who were there.",
+     "answer": 1,
+     "why": "Internal content makes it yellow: fine in the approved VU tool in front of you, off limits in anything else. The venue is the whole ruling."
+    },
+    {
+     "q": "An award nomination for a colleague that includes details about the personal hardship they worked through.",
+     "answer": 2,
+     "why": "The hardship details are private information about a person, and they never go in. Strip them out, run the generic frame, and add the heart back yourself."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "The second draft",
+   "slots": [
+    {
+     "key": "What you say next",
+     "opts": [
+      {
+       "t": "Scrap it and retype the whole ask from scratch.",
+       "pts": 1,
+       "coach": "Starting over throws away everything the first draft got right. The tool remembers the conversation; use it."
+      },
+      {
+       "t": "Take the draft and rewrite it yourself by hand.",
+       "pts": 2,
+       "coach": "You will get there, slowly, and the tool learns nothing about what you wanted. The next chore starts from zero again."
+      },
+      {
+       "t": "Tell it what to change, like a colleague: shorter, warmer, lead with the thanks.",
+       "pts": 3,
+       "coach": "One plain sentence of direction. Follow-ups are cheap, and two or three of them usually beat one giant opening ask."
+      }
+     ]
+    },
+    {
+     "key": "How you get your voice",
+     "opts": [
+      {
+       "t": "Ask it to make the draft sound better.",
+       "pts": 1,
+       "coach": "Better is not a direction. The tool will guess at fancier, and fancier is usually further from you."
+      },
+      {
+       "t": "Ask for a friendlier, less formal tone.",
+       "pts": 2,
+       "coach": "A real instruction, and still a guess at what you sound like. Your own writing says it more precisely than any adjective."
+      },
+      {
+       "t": "Paste in a short public thing you wrote and ask it to match that voice.",
+       "pts": 3,
+       "coach": "The tool mirrors what it is shown, and your own writing is the best voice instruction there is. Keep the sample green: public or generic only."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A second draft that sounds like you on a good day. Two small edits and it is ready for the check.",
+    "mid": "Closer, after real effort. The draft improved; the skill of steering the tool stayed unpracticed.",
+    "weak": "A fresh start that landed in the same place. The tool answered the same thin ask a second time."
+   },
+   "reactions": {
+    "strong": "Next week the follow-up move is a habit: you stop accepting first drafts everywhere, and each chore takes one round less than the one before.",
+    "mid": "The chore shipped and the editing stayed heavy. The day you try one plain follow-up sentence, most of that editing disappears.",
+    "weak": "Back at your desk, the first-draft problem repeats and starting over still feels like the only move. The fix was one sentence away the whole time."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A chore mixes public content with one detail about a person's private situation. The call?",
+   "opts": [
+    "Green, because most of it is public",
+    "Yellow, because some of it is internal",
+    "The private piece never goes in; strip it or skip it",
+    "Any light is fine if you check the output"
+   ],
+   "correct": 2,
+   "why": "Private information about people is red, always, and the most sensitive piece decides. Stripped to its generic core, the chore can run green."
+  },
+  {
+   "q": "The first draft comes back close but stiff. The strongest next move?",
+   "opts": [
+    "Start over with a longer ask",
+    "Rewrite it yourself by hand",
+    "Tell the tool what to change, plainly",
+    "Accept it; drafts are drafts"
+   ],
+   "correct": 2,
+   "why": "Follow-ups are the cheapest skill in the room. Say what to change the way you would to a colleague, and the second draft arrives nearly done."
+  },
+  {
+   "q": "What turns today's draft into a first win?",
+   "opts": [
+    "Saving it somewhere safe",
+    "Checking it and shipping it as real work",
+    "Showing it at a team meeting",
+    "Running it in a second tool to compare"
+   ],
+   "correct": 1,
+   "why": "Checked, then shipped: sent, filed, or used. The win is the work leaving your hands, plus the story of what the check caught."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The whole loop is in your hands. The next win is whatever chore lands tomorrow.",
+  "mid": "Solid. Reread the ship test, then build your card.",
+  "low": "Take another look at the three stops before you build your card."
+ },
+ "capstone": {
+  "whoRow": "The chore and the ask",
+  "cardTitle": "My next-win card",
+  "copyTag": "The Sandbox · January 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness.",
+  "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time go to?",
+  "practices": [
+   {
+    "id": "repeat",
+    "chip": "The repeat",
+    "name": "The repeat",
+    "move": "Run today's chore again the next time it recurs, follow-up included, and watch it get faster."
+   },
+   {
+    "id": "second",
+    "chip": "The second chore",
+    "name": "The second chore",
+    "move": "Pick a different green-light chore, write the ask cold, and run the whole loop without the room."
+   },
+   {
+    "id": "tell",
+    "chip": "The show and tell",
+    "name": "The show and tell",
+    "move": "Show a colleague your shipped win, what the check caught included, and help them pick their first chore."
+   }
+  ],
+  "whens": [
+   {
+    "id": "tomorrow",
+    "chip": "Tomorrow",
+    "out": "The next win runs tomorrow, while the loop is still fresh in your hands."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The next win runs this week, tied to a real deadline already on your list."
+   },
+   {
+    "id": "recurs",
+    "chip": "When the chore recurs",
+    "out": "The next win runs the next time the chore naturally lands, with the ask already drafted."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Talent Map Lab, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Talent Map Lab | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Inventory Pass</a><a href="#s-two">The Signal Pass</a><a href="#s-three">The First Conversation</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (90 min) or Core (60 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 1, Talent Marketplace &amp; Transfer Portal.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If The projector or room screen fails:</b> The lab survives it: everything runs on paper and learner devices. Read the cards aloud from your own screen and keep the passes moving.</div><div class="brief__row"><b>If Tables come out uneven or a manager arrives alone:</b> Fold singles into a neighboring table as a third voice for the swaps; a trio challenges evidence even better than a pair.</div><div class="brief__row"><b>If Someone names a real colleague while defending a mark:</b> Protect them warmly and immediately: 'Hold that. Roles, never names.' Then restate the norm to the room once, without spotlighting the table.</div><div class="brief__row"><b>If A manager finishes the map early and stalls:</b> Give them the second lap: run the stranger test on every line, then draft the opening sentence for their circled conversation.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Where should this map live after today? It feels sensitive.</summary><p>With you, and only you: a notebook or a private file. It is a manager's working note, never a system record, and nothing about it uploads anywhere. The roles-never-names rule is what keeps it safe to keep, even seen mid-scribble.</p></details><details class="brief__q"><summary>What if my read is wrong and I mark someone unfairly?</summary><p>The map judges nobody; it queues conversations. A wrong risk mark costs one warm check-in that turns out to be unneeded, which is the cheapest mistake in management. That is also why every mark carries evidence and a date: wrong reads get corrected on the next refresh.</p></details><details class="brief__q"><summary>My team is twelve people. Do I really map everyone?</summary><p>Yes, and the hard-to-write lines are the point: they show you where your attention has not been. Spread the finishing over the week if the room runs out. A blank line is more honest than a guessed one, and it tells you what to ask at the next 1:1.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: In person this month: the Know-Your-Team lab, with your navigator. Bring your team's roster in your head and something to write with; we draw your first talent map in the room. Roles, never names, and nothing you write is collected.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Is the map working? Three lines, reply whenever: 1) Did the circled conversation happen? 2) What did acting on the map show you that drawing it did not? 3) When is your next map refresh?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the circled conversation happen? What did acting on the map show you that drawing it did not? When is your next map refresh?' Count of held first conversations is the month's Level 3 signal.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · October 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The Know-Your-Team lab: build your first talent map.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A university out to define the century needs every manager to know the talent in the building. The map you draw today is Exceptional Core Operations at table level: one page that helps you retain, grow, and move real people.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university out to define the century needs every manager to know the talent in the building. The map you draw today is Exceptional Core Operations at table level: one page that helps you retain, grow, and move real people.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Talent Marketplace &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 1 needs managers who can see their teams before any system can. This lab turns the month's talent read into an artifact you keep: your first map, drawn by hand, ready to act on.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace &amp; Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 needs managers who can see their teams before any system can. This lab turns the month's talent read into an artifact you keep: your first map, drawn by hand, ready to act on.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · See the Talent Around You</p>
+      <h1 class="h-hero" data-reveal>Leave with your team <em class="gold-text">on one page</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">The weekly sessions gave you the talent read. This lab is where it lands on paper. You leave the room holding a first talent map of your own team: skills beyond titles, marks you can defend, and the first conversation circled.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Build a one-page talent map of your team: one line per role, capability beyond the job title</li><li>Mark flight-risk and growth signals on the map with evidence beside every mark</li><li>Circle the first conversation the map earns and put a window on it</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Talent Marketplace &amp; Transfer Portal</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Talent Management</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Succession Planning</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: build a one-page talent map of your team: one line per role, capability beyond the job title; mark flight-risk and growth signals on the map with evidence beside every mark; circle the first conversation the map earns and put a window on it. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The inventory pass</h3><p>One line per role: what each person can do, beyond what the job asks.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The signal pass</h3><p>Mark the map: risk, growth, and the evidence that earns each mark.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The first conversation</h3><p>Read the finished map and circle the conversation it earns first.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the inventory pass, the signal pass, the first conversation. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The inventory pass">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · Pass One</p>
+      <h2 class="h2" data-reveal>One line per role, written for a <em>stranger</em>.</h2>
+      <p class="lead" data-reveal>Draw the grid: a line for each person on your team, role only, never a name. In each line, what they can do, in the role and beyond it. The test of a good line: a stranger reading it could find that person a stretch project.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The stranger test</span>
+        <p style="margin:.5rem 0 0" class="measure">A map line works when a stranger could act on it. 'Senior analyst, solid' offers nothing. 'Senior analyst: grant budgeting, plain writing, wants facilitation' hands a stranger three moves. Write every line to that standard.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">In the weekly session you practiced the inventory question one person at a time. The lab scales it: every role on your team gets a line, on one page, in the same sitting. The page is the discipline. If a line will not compress into capabilities, you do not yet know that person's skills.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Which line on your team will be hardest to write, and what does that tell you about where your attention has been going?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which line belongs on your talent map?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Kind words, no capability. Nobody could match this person to a project. Name what they can do, and the map starts working."><span class="mark">A</span><span>Program coordinator: reliable, hardworking, great attitude</span></button><button class="opt" data-correct="1" data-why="Capabilities plus a growth want, in role-only language. A stranger could staff a project, feed the growth, or plan succession from this line."><span class="mark">B</span><span>Program coordinator: event logistics, de-escalation, wants data skills</span></button><button class="opt" data-correct="0" data-why="Tenure and a rating, which the map never carries. The map holds capability; ratings stay in the systems built for them."><span class="mark">C</span><span>Program coordinator: five years in role, meets expectations</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> At your table: read one of your map lines aloud, role only. The table calls it: could a stranger act on this line? Sharpen it together until the answer is yes.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get every manager's grid drawn: one line per role, capability language, the stranger test as the quality bar.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This is a working session, so paper up. One line for every person on your team, role only, never a name, and in that line what they can actually do: skills the job uses, skills it ignores, skills they are building. The bar for each line is the stranger test: could someone who has never met your team read the line and find that person a project? We write first and polish after.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Hand out the map sheets, or point tables to the template on their devices; the flip chart carries the two rules: roles never names, capabilities never duties.</li><li>Give the room quiet drawing time; walk the tables and read over shoulders for duty-list lines.</li><li>Show the In the room card and run the discussion prompt from the front; two or three voices.</li><li>Run the table exercise: one line read aloud per manager, table sharpens it against the stranger test.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Which line on your team was hardest to write?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>The newest hire, still unknown</li><li>The quiet steady performer</li><li>Often their strongest person: familiarity hides specifics</li></ul><p class="facnote__mini">Respond: Name the pattern: hard-to-write lines mark where your attention has not been. That is a finding, and those people get your next 1:1 questions.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Every blank or vague line is a person whose talent the university cannot yet use. The map shows you exactly where to look next.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers writing names or duty lists. Walk the room and catch both early: roles only, capabilities only.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The lines say what people can do. The second pass says what is moving.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: cut the read-alouds; each table sharpens one line together instead of one per manager.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The signal pass">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · Pass Two</p>
+      <h2 class="h2" data-reveal>Mark only what you can <em>evidence</em>.</h2>
+      <p class="lead" data-reveal>Second pass over the map: a risk mark where ownership behavior has changed, a growth mark where someone has asked to build. Every mark needs its evidence written beside it, because marks without evidence turn a map into gossip.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Mark the line</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> One line of your map is whispering at you. Choose what earns the mark and what you write beside it.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Make the mark</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Table swap: trade one marked line with a neighbor, roles only. They challenge the evidence: is that a pattern change or one bad week? Defend it or downgrade it.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Add risk and growth marks with written evidence, and calibrate the evidence bar through a table swap.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Second pass. Go back over your lines and mark two things: risk, where ownership behavior has changed against that person's own baseline, and growth, where someone has asked to build something. Here is the discipline that makes the map trustworthy: every mark gets its evidence written beside it, with a date. A mark you cannot evidence is a mood, and moods do not belong on a document you will act from.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Mark the line from the front; managers choose on their own devices, then mark their real maps.</li><li>Walk the room during marking; quietly ask for the evidence behind any mark you see land fast.</li><li>Run the table swap: trade one marked line with a neighbor, challenge the evidence, defend or downgrade.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What happened when your neighbor challenged your evidence?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Some marks got downgraded to watching</li><li>Some got stronger under questioning</li><li>A few managers realized the evidence was secondhand</li></ul><p class="facnote__mini">Respond: All three are the exercise working. A mark that survives a colleague's challenge is one you can act on; a mark that folds just saved you from acting on a hunch.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Evidence beside every mark is what separates a talent map from a rumor page. Dated patterns, their own baseline, roles only.</p></div><p class="facnote__meta"><b>Watch for:</b> Tables slipping into naming or story-swapping about real colleagues. Reset warmly: roles and patterns, never names and anecdotes.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;A marked map wants more than one week can give. The last pass is choosing.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the table swap; each manager self-challenges their weakest mark instead.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The first conversation">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · Pass Three</p>
+      <h2 class="h2" data-reveal>The map earns <em>one circle</em>.</h2>
+      <p class="lead" data-reveal>A finished map points at more conversations than one week can hold. The last pass is triage: read every marked line and circle the one that gets the first conversation. The circle is a promise, so it needs a reason and a window.</p>
+      <div class="quiz trainer" id="s-three-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Who gets the circle?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three marked lines from three finished maps. Call what each one earns first.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Around the table, each manager reads their circled line, role only, with the reason in one sentence. Every table mate gets one challenge question: why this one first?</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Triage the finished map: one circled line, a reason, and a window.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Your map now points at four or five conversations, and a list of five is how zero happen. So the last pass is one circle. Read your marked lines and ask two questions: where is the evidence strongest, and where is the cost of being wrong highest? Where those two meet, that is your circle. Monday's session built the conversation itself; today decides who it is for and when.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Who gets the circle? from the front; the room calls each line aloud before you reveal.</li><li>Quiet minute: everyone circles one line on their own map.</li><li>Run the table round: circled line and one-sentence reason, one challenge question per table mate.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What made you pick your circle over the runner-up?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Stronger evidence</li><li>The cost of losing that person</li><li>Sometimes honesty: the runner-up talk feels harder</li></ul><p class="facnote__mini">Respond: If the real answer is that the other talk feels harder, say so out loud at the table. The uncomfortable circle is usually the right one, and the room is where to admit it.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">Evidence times cost picks the circle. One booked conversation beats five intended ones.</p></div><p class="facnote__meta"><b>Watch for:</b> Managers circling the easiest conversation instead of the most needed one. The table challenge question exists to surface this; let peers do the pushing.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Cards next: the map's first move goes on paper before the map leaves the room.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: cut the table round to one volunteer per table sharing the circle and reason.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A talent read becomes management the day it fits on one page you act from.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: A talent read becomes management the day it fits on one page you act from.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 5 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My map, off the page</p>
+      <h2 class="h2" data-reveal>The map leaves the room <em>working</em>.</h2>
+      <p class="lead" data-reveal>The map in your hands is a draft until it changes a week. Roles only, never names; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Your circled line: the role, the mark, and the evidence.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. senior analyst; risk mark; three declined projects this term" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What does the map do first?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="book"><span>The booked conversation</span></button><button class="opt" data-id="finish"><span>The finished map</span></button><button class="opt" data-id="refresh"><span>The standing refresh</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>Before my next 1:1</span></button><button class="opt" data-id="month"><span>By month end</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 6 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Last build. Your circled line goes on the card: role, mark, evidence, and the first move the map makes this week. Copy it onto your phone or fold it into your bag, and book the conversation before you leave the building if you can. Quiet couple of minutes, then a few read-alouds.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">One page. One circle. <em>One week.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You drew the map, defended the marks, and circled the first conversation. That page is the month's teaching made physical: keep it where you plan your week.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Hold the circled conversation</h3>
+        <p>Run it with the opening you built on Monday, and let what you learn update the map. If the mapping habit catches, Don Phin's Talent Management course on LinkedIn Learning walks the same ground; there if you want it, never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Draw the team. Act on the drawing.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Talent Map Lab · Navigator Workshop · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/oct-workshop/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;You walked in with a read and you are walking out with a map. This is what the month's weekly sessions were building toward: Monday gave you the talent read and the conversation, Tuesday put your own skills on the Talent Marketplace, and Thursday gave you the questions that surface what the map needs. Keep the page and refresh it monthly. And if the mapping habit caught, Don Phin's Talent Management course on LinkedIn Learning goes further whenever you want it. Never homework, always there.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-three-play",
+   "progressWord": "Line",
+   "labels": [
+    "Circle it, conversation this week",
+    "Growth move, feed it soon",
+    "Keep reading, no conversation yet"
+   ],
+   "passAt": 2,
+   "passMsg": "You can triage a map. Risk with evidence gets the circle, growth asks get fed, thin marks get watched.",
+   "failMsg": "Close. The tell: evidence plus cost decides the circle. Strong evidence on someone costly to lose goes first; thin evidence earns watching, never a talk.",
+   "items": [
+    {
+     "q": "Senior analyst: three declined projects, dated; the only person who knows the grant system.",
+     "answer": 0,
+     "why": "Strong evidence and the highest cost on the page. Waiting a month to check this read could cost you the person and the grant system with them."
+    },
+    {
+     "q": "Coordinator: dated growth mark, asked twice about facilitation training, work still strong.",
+     "answer": 1,
+     "why": "No risk pattern, a live ask. Feed it soon: fund it or find them a room to run. Ignored growth asks are how growth marks turn into risk marks."
+    },
+    {
+     "q": "Advisor: one quiet week during the busiest stretch of the term, no other change.",
+     "answer": 2,
+     "why": "One data point in a heavy season. Note the date, watch the baseline, and save the circle for a line with real evidence behind it."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What the map says now",
+   "slots": [
+    {
+     "key": "What earns a risk mark",
+     "opts": [
+      {
+       "t": "A gut feeling that someone seems off lately",
+       "pts": 1,
+       "coach": "Feelings start the look, but a mark needs a pattern you could describe. Marks without evidence make the map unreadable in a month, even to you."
+      },
+      {
+       "t": "One skipped meeting and a quiet week",
+       "pts": 2,
+       "coach": "One data point in a busy season. Watch it, note the date, and mark it only if the pattern holds against their own baseline."
+      },
+      {
+       "t": "Three passed-up projects from someone who used to fight for them",
+       "pts": 3,
+       "coach": "A pattern change around ownership, against their own baseline. That is evidence. Write it beside the mark so future-you knows why it is there."
+      }
+     ]
+    },
+    {
+     "key": "What you write beside a growth mark",
+     "opts": [
+      {
+       "t": "Nothing; you will remember what it meant",
+       "pts": 1,
+       "coach": "You will not. An unlabeled mark is a mystery by next month. The map only outlives the meeting if the evidence travels with it."
+      },
+      {
+       "t": "The word growth and today's date",
+       "pts": 2,
+       "coach": "The date helps. But growth toward what? Name the direction, or the mark can never become a move."
+      },
+      {
+       "t": "The ask, dated: requested the data course, wants analysis work",
+       "pts": 3,
+       "coach": "The ask, the direction, the date. This mark is now a to-do: fund it, find a stretch task, or say honestly why not yet."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A map you can defend. Every mark carries its evidence, so every mark can become an action.",
+    "mid": "A half-marked map. Some marks will still make sense next month; the rest will be riddles.",
+    "weak": "A mood board. The marks record how you felt today, and nobody, including you, can act on a feeling."
+   },
+   "reactions": {
+    "strong": "A month from now you reread the map and every mark still argues for itself. Two marks have become conversations, and one growth ask is funded. The map is managing with you.",
+    "mid": "A month from now half the marks have gone stale. You remember the strong ones; the vague ones get quietly erased, along with whatever they were trying to tell you.",
+    "weak": "A month from now the map contradicts your memory and you trust neither. The one real signal on the team is still unmarked, and it is getting louder."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What makes a talent map line usable?",
+   "opts": [
+    "It lists tenure and ratings",
+    "A stranger could act on it: capabilities, roles only",
+    "It matches the job description",
+    "It records how hard the person works"
+   ],
+   "correct": 1,
+   "why": "The stranger test. Capability in role-only language turns a page of notes into a map someone can staff, grow, and plan succession from."
+  },
+  {
+   "q": "What does every mark on the map need beside it?",
+   "opts": [
+    "A color code",
+    "Your confidence level",
+    "The evidence and the date",
+    "The person's initials"
+   ],
+   "correct": 2,
+   "why": "Marks decay without evidence. The pattern and the date keep the map readable next month, and initials break the roles-never-names rule."
+  },
+  {
+   "q": "Which marked line gets the first conversation?",
+   "opts": [
+    "The longest one",
+    "The one marked most recently",
+    "Strong evidence plus the highest cost of being wrong",
+    "Whoever you see most often"
+   ],
+   "correct": 2,
+   "why": "Triage runs on evidence and cost. The clearest pattern on the person you can least afford to lose gets the circle and the calendar slot."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The map is drawn and the circle is real. Book the conversation before the ink cools.",
+  "mid": "Solid. Reread the pass you missed, then finish your card.",
+  "low": "Worth one more walk through the three passes before the map leaves the room."
+ },
+ "capstone": {
+  "whoRow": "The circled line",
+  "cardTitle": "My talent map card",
+  "copyTag": "The Talent Map Lab · October 2026 · Anchor's Edge",
+  "goalRow": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "evidenceRow": "Afterward, one line: what did acting on the map show you that drawing it did not?",
+  "practices": [
+   {
+    "id": "book",
+    "chip": "The booked conversation",
+    "name": "The booked conversation",
+    "move": "Put the circled conversation on the calendar before you leave the building, using the opening you built in this month's Monday session."
+   },
+   {
+    "id": "finish",
+    "chip": "The finished map",
+    "name": "The finished map",
+    "move": "Complete the lines you ran out of room for: every role gets a line that passes the stranger test, within the week."
+   },
+   {
+    "id": "refresh",
+    "chip": "The standing refresh",
+    "name": "The standing refresh",
+    "move": "Put a monthly hold on your calendar to rewalk the map: marks re-evidenced, stale ones erased, one new circle."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The map's first move happens this week, booked before Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "Before my next 1:1",
+    "out": "The map's first move happens before your next 1:1, so the meeting shows it."
+   },
+   {
+    "id": "month",
+    "chip": "By month end",
+    "out": "The map's first move happens before the month closes, scheduled today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

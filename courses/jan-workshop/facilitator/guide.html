@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facilitator Guide (printable) · The Sandbox · Navigator Workshop · Anchor&#x27;s Edge · Vanderbilt</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-weight: 400;
+    src: url('../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400;
+    src: url('../../../assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600;
+    src: url('../../../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-weight: 700;
+    src: url('../../../assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 12.5px; line-height: 1.5; }
+  .sheet { max-width: 860px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 16px; }
+  header img { width: 150px; }
+  h1 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  h2 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 18px;
+    margin: 0 0 4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  h3 { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; font-size: 12px; color: #946E24; margin: 14px 0 4px; }
+  .mins { font-family: 'Antonio', Impact, sans-serif; font-size: 11px; color: #946E24;
+    letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .sec { border: 1px solid #E4E4E4; border-left: 3px solid #CFAE70; border-radius: 4px;
+    padding: 12px 16px; margin-bottom: 12px; break-inside: avoid;
+    display: grid; grid-template-columns: 290px 1fr; gap: 16px; align-items: start; }
+  .sec.noimg { grid-template-columns: 1fr; }
+  .sec.noimg .sec__shot { display: none; }
+  .sec__shot { position: sticky; top: 12px; }
+  .sec__shot img { width: 100%; border: 1px solid #E4E4E4; border-radius: 3px; display: block; }
+  .sec__notes { min-width: 0; }
+  @media (max-width: 700px) { .sec { grid-template-columns: 1fr; } .sec__shot { position: static; max-width: 340px; } }
+  @media print { .sec { grid-template-columns: 240px 1fr; } .sec__shot { position: static; } }
+  .purpose { font-weight: 600; margin: 2px 0 8px; }
+  .tagline { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; margin: 10px 0 2px; color: #1C1C1C;
+    background: #CFAE70; display: inline-block; padding: 2px 7px; border-radius: 2px; }
+  .tagline.ask { background: #8BA18E; }
+  .script { font-family: 'Libre Caslon Display', serif; font-style: italic; font-size: 13.5px;
+    margin: 4px 0 6px; }
+  .mini { margin: 4px 0; color: #444; }
+  .mini.core { border-top: 1px dashed #CFAE70; padding-top: 6px; }
+  ol, ul { margin: 2px 0 8px; padding-left: 20px; }
+  li { margin-bottom: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; }
+  th, td { border: 1px solid #E4E4E4; padding: 5px 9px; text-align: left; }
+  th { font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .06em;
+    font-size: 10px; color: #946E24; }
+  .front { border: 1px solid #E4E4E4; border-radius: 4px; padding: 12px 16px; margin-bottom: 12px;
+    break-inside: avoid; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } body { font-size: 11px; } .sheet { padding: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Anchor's Edge · ATD facilitator guide · print edition</p>
+      <h1>The Sandbox, the <em>facilitator guide</em></h1>
+    </div>
+    <img src="../../../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+
+  <div class="front">
+    <h3>Run of show</h3>
+    <table><tr><th>Screen</th><th>Full (min)</th><th>Core (min)</th></tr><tr><td>Welcome / QR</td><td>3</td><td>2</td></tr><tr><td>The mission</td><td>3</td><td>2</td></tr><tr><td>The goal we are targeting</td><td>3</td><td>2</td></tr><tr><td>Objectives</td><td>2</td><td>1</td></tr><tr><td>Agenda</td><td>2</td><td>1</td></tr><tr><td>Pick and call it</td><td>8</td><td>6</td></tr><tr><td>Run it live</td><td>10</td><td>7</td></tr><tr><td>Check and ship</td><td>9</td><td>6</td></tr><tr><td>The core idea</td><td>2</td><td>1</td></tr><tr><td>Recap quiz</td><td>5</td><td>4</td></tr><tr><td>Capstone commitment</td><td>6</td><td>4</td></tr><tr><td>Closing</td><td>2</td><td>2</td></tr>
+    <tr><th>Total</th><th>55</th><th>38</th></tr></table>
+    <h3>The goal this month serves</h3><p>Goal 3, AI-Enabled Workforce Readiness.</p>
+    <h3>Audience</h3><p>All Vanderbilt staff, no AI experience assumed; many will run their first tool in this room. In person at tables of four to six, learners on their own devices via the welcome QR, navigators circulating; works from a dozen people to a full room.</p>
+    <h3>Room setup</h3><p>In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.</p>
+    <h3>Materials</h3><ul><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul>
+    <h3>A week before</h3><ol><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol><h3>The day before</h3><ol><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol><h3>30 minutes before</h3><ol><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol>
+    <h3>When things go sideways</h3><p><b>If The projector or room screen fails:</b> The deck already lives on learner phones via the welcome QR; narrate from your own device and keep the room moving. Nothing in the session needs the big screen.</p><p><b>If The venue wifi drops or logins to the tool fail at a table:</b> Phones on cellular still reach the deck, and navigators carry the login help. Pair anyone still locked out with a neighbor to co-run one chore on one screen; two names on one win is still two wins.</p><p><b>If Someone reads out a chore full of details about a real person:</b> Protect them warmly and immediately: 'Hold that. Roles, never names, and the private details stay out of the tool.' Then help them strip it to the green core in front of the table; the save is the teaching.</p><p><b>If A table finishes early and gets restless:</b> Hand them the stretch: run the same chore with a differently shaped ask, compare the two drafts, and pick the better opening line to share when the room reconvenes.</p>
+    <h3>Tough questions, ready answers</h3><p><b>Q: Which tool are we using, exactly?</b><br>The approved VU tool set up for this room; navigators have the current list from the Anchor's Edge dashboard. The loop you are learning is portable: the light, the ask, the follow-up, and the check work the same in every approved tool.</p><p><b>Q: My whole job is confidential. What is my green chore?</b><br>Every role holds a generic layer: announcements, outlines, plain explainers, tidying your own phrasing. Strip the specifics and the skeleton is green. The navigators love this puzzle; wave one over and you will have a chore before the section ends.</p><p><b>Q: Is shipping work the tool drafted honest?</b><br>You read every line, verified every fact, and made it sound like you; the judgment and the responsibility stayed yours. That is how templates and spell-checkers have always worked. What would cross a line is shipping anything you never checked, with or without a tool.</p>
+    <h3>Copy-paste templates</h3><p><b>Pre-work invite (paste into the calendar invite)</b><br>Subject: The First-AI-Win sandbox, in person. Bring a laptop or a phone and one boring chore from your real week: a draft, a summary, notes to tidy. No AI experience needed; you will run your first win in the room with a navigator nearby, and you will leave with it shipped.</p><p><b>7-day pulse (send one week after)</b><br>Subject: Did the second win ship? Three lines, reply whenever: 1) Did the next-win chore on your card run? 2) What did the check catch? 3) Who have you shown your first win?</p>
+    <h3>After the session</h3><p>Seven days out, send the pulse: 'Did the next win on your card ship? What did the check catch? Who have you shown?' Count of shipped second wins is the Level 3 metric for the workshop.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-welcome.jpg" alt="Slide: Welcome / QR" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Welcome / QR <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The First-AI-Win sandbox: run one real chore, live, with help in the room.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-mission.jpg" alt="Slide: The mission" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The mission <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;That is the why. Here is the number we are moving.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-goal.jpg" alt="Slide: The goal we are targeting" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The goal we are targeting <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Name the enterprise goal this month serves.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-hero.jpg" alt="Slide: Objectives" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Objectives <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Set the contract for the session in under a minute.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;By the end of this session: pick one green-light chore from your own real week and confirm its light at your table; write the ask, run it live in an approved vu tool, and improve the draft with one follow-up; check the result like an editor, with a neighbor's eyes on it, and ship it as real work. That is the whole contract.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the three objectives briskly; do not elaborate yet.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Three stops to get there.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-agenda.jpg" alt="Slide: Agenda" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Agenda <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Show the path so the room can pace itself.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three stops: pick and call it, run it live, check and ship. Each one has something to play with, so keep the deck open.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point once at each stop; ten seconds each.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Stop one.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the read-through, gesture at the slide in passing.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-one.jpg" alt="Slide: Pick and call it" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Pick and call it <span class="mins">Full 8 min · Core 6</span></h2>
+    <p class="purpose">Get one real, chore-sized, green task chosen per person, with the light confirmed at the table before anything runs.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Everything today happens for real: a real chore, a real tool, real shipped work. So the first job is picking well. Chore-sized means you can finish it today and check it before you forget you wrote it. Then the light rules everything: green, public or generic, go. Yellow, internal, approved VU tools only. Red, private information about people, never. Your table is your safety net; nobody runs a chore the table has not called.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Tables of four to six, one printed traffic-light card per table; point at it as you teach the light, and leave it face up all day.</li><li>Run Strip it or skip it on learner devices; after the third chore, hold the room for a beat: the kind intention did not change the light.</li><li>Then the table round: each person reads their chore aloud and the table calls the light together. Circulate with the navigators and listen for mixed chores.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Who has a chore the table could not agree on?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Mixed chores with one sensitive detail</li><li>Whole weeks that feel yellow</li><li>Someone whose chore is really a project</li></ul><p class='mini'><b>Respond:</b> Perfect material. Strip the sensitive piece and call what is left; shrink the project to its first chore-sized slice. The table plus the light settles almost everything.</p>
+    <p class="mini"><b>Debrief:</b> Chore-sized, green, and called out loud at the table. That pick is half of today's win.</p>
+    
+    <p class="mini"><b>Watch for:</b> People choosing an impressive chore to justify the trip. Shrink it warmly: boring ships, impressive stalls.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Chores picked and called. Now they go into the tool.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: run the trainer, then one chore read aloud per table instead of the full round.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-two.jpg" alt="Slide: Run it live" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Run it live <span class="mins">Full 10 min · Core 7</span></h2>
+    <p class="purpose">Every person writes the ask, runs it in the approved VU tool, and practices one real follow-up on the draft that returns.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. You are going to practice the move that separates people who use these tools well: the follow-up. Tell it what to change, plainly, and watch the second draft.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room the go and let it get quiet; drafting is the session working. Navigators move table to table for login trouble and thin asks.</li><li>When most drafts are back, run The follow-up on learner devices; it names the move everyone is about to make on their own draft.</li><li>Then the neighbor beat: say the one change aloud to a neighbor, then type exactly that to the tool. If a volunteer offers one, read a strong before-and-after to the room.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;What did your follow-up change that your first ask never mentioned?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Tone and length, most often</li><li>The audience it was for</li><li>The shape: a list, a paragraph, a subject line</li></ul><p class='mini'><b>Respond:</b> Notice the pattern: everything the tool guessed wrong was something the ask never said. The follow-up is how you find out what your asks leave out.</p>
+    <p class="mini"><b>Debrief:</b> The ask is a brief, the draft is a start, and the follow-up is the skill. Plain sentences, both times.</p>
+    
+    <p class="mini"><b>Watch for:</b> Someone quietly pasting internal or personal content to make the chore work better. Redirect warmly, and loudly enough to teach: keep it green today, and yellow work lives in approved VU tools on its own time.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Drafts are close. The last stop makes them real.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the neighbor beat; everyone sends one follow-up solo while you narrate the pattern.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-three.jpg" alt="Slide: Check and ship" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Check and ship <span class="mins">Full 9 min · Core 6</span></h2>
+    <p class="purpose">Install the editor's check with a partner's eyes, then have every person actually ship the checked work before the capstone.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Here is the honest warning that keeps you safe: the tool writes with total confidence whether it is right or wrong. So the check never gets skipped. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Pair neighbors across the table; swap seats or swap devices, author's choice. Facts first, then the voice read.</li><li>Show the ship test card and let the folder line land; the room will recognize it.</li><li>Run the discussion, then call the ship: everyone sends, files, or schedules their work now. Ask for hands as pieces ship; count aloud and let the room hear the number grow.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;What did the check catch on your draft or your neighbor's?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>An invented or unverifiable detail</li><li>A wrong name or date</li><li>A sentence that sounded like nobody at the table</li></ul><p class='mini'><b>Respond:</b> Every catch is the lesson working: errors hide inside polish. The check is quick, and it is what makes the shipping safe.</p>
+    <p class="mini"><b>Debrief:</b> Checked, shipped, and a story about what the check caught. That is a complete first win, and everyone in the room has one.</p>
+    
+    <p class="mini"><b>Watch for:</b> Perfectionists polishing instead of shipping. Name it kindly: a shipped decent draft beats a perfect one in a folder, and the polish can continue after it ships.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Everyone shipped. Now the card that makes it a habit.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: pair check runs on facts only; the ship call happens whole-room, hands up as pieces go.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-belief.jpg" alt="Slide: The core idea" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The core idea <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Land the one sentence the session exists to install.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: You do not leave with a plan. You leave with a win you shipped.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Pause two beats after reading; the word animation carries it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;The recap makes it stick.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: pass through in stride; the sentence reads itself.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-recap.jpg" alt="Slide: Recap quiz" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Recap quiz <span class="mins">Full 5 min · Core 4</span></h2>
+    <p class="purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Now point it at your real week.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-plan.jpg" alt="Slide: Capstone commitment" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Capstone commitment <span class="mins">Full 6 min · Core 4</span></h2>
+    <p class="purpose">Convert the session into one named, dated action per person.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Last slide.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-close.jpg" alt="Slide: Closing" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Closing <span class="mins">Full 2 min · Core 2</span></h2>
+    <p class="purpose">End with the next step and where this thread continues.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol>
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+  <p class="mini" style="margin-top:14px;color:#777">Generated from facilitator/notes.json. The on-screen facilitator edition lives at ./ alongside this guide.</p>
+</div>
+</body>
+</html>

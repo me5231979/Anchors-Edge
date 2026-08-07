@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facilitator Guide (printable) · The Team Grid · Navigator Workshop · Anchor&#x27;s Edge · Vanderbilt</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-weight: 400;
+    src: url('../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400;
+    src: url('../../../assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600;
+    src: url('../../../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-weight: 700;
+    src: url('../../../assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 12.5px; line-height: 1.5; }
+  .sheet { max-width: 860px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 16px; }
+  header img { width: 150px; }
+  h1 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  h2 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 18px;
+    margin: 0 0 4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  h3 { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; font-size: 12px; color: #946E24; margin: 14px 0 4px; }
+  .mins { font-family: 'Antonio', Impact, sans-serif; font-size: 11px; color: #946E24;
+    letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .sec { border: 1px solid #E4E4E4; border-left: 3px solid #CFAE70; border-radius: 4px;
+    padding: 12px 16px; margin-bottom: 12px; break-inside: avoid;
+    display: grid; grid-template-columns: 290px 1fr; gap: 16px; align-items: start; }
+  .sec.noimg { grid-template-columns: 1fr; }
+  .sec.noimg .sec__shot { display: none; }
+  .sec__shot { position: sticky; top: 12px; }
+  .sec__shot img { width: 100%; border: 1px solid #E4E4E4; border-radius: 3px; display: block; }
+  .sec__notes { min-width: 0; }
+  @media (max-width: 700px) { .sec { grid-template-columns: 1fr; } .sec__shot { position: static; max-width: 340px; } }
+  @media print { .sec { grid-template-columns: 240px 1fr; } .sec__shot { position: static; } }
+  .purpose { font-weight: 600; margin: 2px 0 8px; }
+  .tagline { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; margin: 10px 0 2px; color: #1C1C1C;
+    background: #CFAE70; display: inline-block; padding: 2px 7px; border-radius: 2px; }
+  .tagline.ask { background: #8BA18E; }
+  .script { font-family: 'Libre Caslon Display', serif; font-style: italic; font-size: 13.5px;
+    margin: 4px 0 6px; }
+  .mini { margin: 4px 0; color: #444; }
+  .mini.core { border-top: 1px dashed #CFAE70; padding-top: 6px; }
+  ol, ul { margin: 2px 0 8px; padding-left: 20px; }
+  li { margin-bottom: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; }
+  th, td { border: 1px solid #E4E4E4; padding: 5px 9px; text-align: left; }
+  th { font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .06em;
+    font-size: 10px; color: #946E24; }
+  .front { border: 1px solid #E4E4E4; border-radius: 4px; padding: 12px 16px; margin-bottom: 12px;
+    break-inside: avoid; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } body { font-size: 11px; } .sheet { padding: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Anchor's Edge · ATD facilitator guide · print edition</p>
+      <h1>The Team Grid, the <em>facilitator guide</em></h1>
+    </div>
+    <img src="../../../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+
+  <div class="front">
+    <h3>Run of show</h3>
+    <table><tr><th>Screen</th><th>Full (min)</th><th>Core (min)</th></tr><tr><td>Welcome / QR</td><td>3</td><td>2</td></tr><tr><td>The mission</td><td>3</td><td>2</td></tr><tr><td>The goal we are targeting</td><td>3</td><td>2</td></tr><tr><td>Objectives</td><td>2</td><td>1</td></tr><tr><td>Agenda</td><td>2</td><td>1</td></tr><tr><td>The grid goes up</td><td>8</td><td>6</td></tr><tr><td>The sort and the challenge</td><td>10</td><td>7</td></tr><tr><td>The opener</td><td>9</td><td>6</td></tr><tr><td>The core idea</td><td>2</td><td>1</td></tr><tr><td>Recap quiz</td><td>5</td><td>4</td></tr><tr><td>Capstone commitment</td><td>6</td><td>4</td></tr><tr><td>Closing</td><td>2</td><td>2</td></tr>
+    <tr><th>Total</th><th>55</th><th>38</th></tr></table>
+    <h3>The goal this month serves</h3><p>Goal 3, AI-Enabled Workforce Readiness.</p>
+    <h3>Audience</h3><p>Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; every exercise runs on flip charts, the printed grid worksheet, or the manager's own device. Best after the month's weekly sessions, and it stands alone for anyone who missed them.</p>
+    <h3>Room setup</h3><p>In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.</p>
+    <h3>Materials</h3><ul><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul>
+    <h3>A week before</h3><ol><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol><h3>The day before</h3><ol><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol><h3>30 minutes before</h3><ol><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol>
+    <h3>When things go sideways</h3><p><b>If The projector or room screen fails:</b> The workshop survives it: everything runs on paper and learner devices via the welcome QR. Read the cards aloud from your own screen and keep the builds moving.</p><p><b>If Flip charts or easels run short:</b> Tape printed grid worksheets together or use any large paper flat on the table. The lab needs big, shared, writable surfaces, nothing fancier.</p><p><b>If A manager names a specific employee while sorting or challenging:</b> Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' In a shared room the norm matters double, because the walls have more readers than a spreadsheet.</p><p><b>If A pair finishes the challenge early or a table runs cold:</b> Send early finishers to a slow table as guest challengers. A fresh stranger reading a grid finds the row its owner stopped seeing.</p>
+    <h3>Tough questions, ready answers</h3><p><b>Q: What stops this wall of grids from becoming a cut list?</b><br>The unit of the grid is the task, and the promise that travels with it: exposed tasks mean redesign, with the people who do the work deciding what fills the freed hours. Goal 3 is workforce readiness. A team that sorts its own work in the open shapes what changes, and roles and names never touch the wall.</p><p><b>Q: My partner and I disagreed on a call and neither budged. Who wins?</b><br>Nobody has to. Write both readings on the row and take the disagreement to the people who actually do the task; they hold the missing evidence. A grid that carries an honest open question is stronger than one that papered over it.</p><p><b>Q: Can I photograph my grid and ask an AI tool for a second opinion?</b><br>Run the light first. A grid in task language with no names is internal content: yellow, approved VU tools only. If any row slipped toward people details, rewrite it before any photo. And keep the sort decision human; the tool can question your calls, never make them.</p>
+    <h3>Copy-paste templates</h3><p><b>Pre-work invite (paste into the calendar invite)</b><br>Subject: In person this month: your team's AI-exposure grid, built by hand with your navigator. Bring a rough list of the tasks your team repeats every week, or just bring the week in your head. Paper, markers, and a table partner provided. Tasks and roles only, never names, and nothing you write is collected.</p><p><b>7-day pulse (send one week after)</b><br>Subject: Where is the grid now? Three lines, reply whenever: 1) Has your team seen the grid? 2) What did they add or flip? 3) When is the sort conversation, and what will you ask first?</p>
+    <h3>After the session</h3><p>Seven days out, send the pulse: 'Has the team seen the grid? What did they add or flip? When is the sort conversation?' Count of grids that reached a team is the month's Level 3 metric.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-welcome.jpg" alt="Slide: Welcome / QR" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Welcome / QR <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The team AI-exposure mapping workshop: the whole grid, built by hand.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-mission.jpg" alt="Slide: The mission" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The mission <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets redesigned one team at a time, by managers who can see the change on paper. A room full of finished grids is Exceptional Core Operations doing its own forward planning.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;That is the why. Here is the number we are moving.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-goal.jpg" alt="Slide: The goal we are targeting" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The goal we are targeting <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Name the enterprise goal this month serves.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 asks managers to identify AI-exposed work and turn the insight into action. This workshop is where the identifying happens at full scale: your whole team's work, mapped and sorted in one sitting.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-hero.jpg" alt="Slide: Objectives" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Objectives <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Set the contract for the session in under a minute.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;By the end of this session: build a physical grid of your team's recurring tasks, in task language, tasks never names; sort every task automate, augment, or leave alone, and defend each call under a partner's challenge; draft and rehearse the opener that brings the grid to your team as shared work. That is the whole contract.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the three objectives briskly; do not elaborate yet.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Three stops to get there.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-agenda.jpg" alt="Slide: Agenda" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Agenda <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Show the path so the room can pace itself.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three stops: the grid goes up, the sort and the challenge, the opener. Each one has something to play with, so keep the deck open.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point once at each stop; ten seconds each.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Stop one.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the read-through, gesture at the slide in passing.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-one.jpg" alt="Slide: The grid goes up" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The grid goes up <span class="mins">Full 8 min · Core 6</span></h2>
+    <p class="purpose">Get every manager's team work physically on paper, in task language, before any sorting starts.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Everything this month has been building toward the thing on your table: a big blank grid and a marker. Your team's recurring work goes on it today, one row per task, tasks only, never names. Writing by hand is the point. The rows that come slowly are the ones worth having, because work that resists naming has usually never been looked at straight.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Hand out markers and sheets; the flip chart at the front carries the two rules: tasks never names, output plus rhythm plus inputs.</li><li>Give the room quiet drawing time; walk the tables and read over shoulders for people-language rows without correcting them aloud yet.</li><li>Show the In the room card when most charts hold five or six rows, and run the discussion on stalls.</li><li>Run the sheet trade at each table: neighbors circle rows a stranger couldn't picture, owners rewrite on the spot.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Which row stalled you, and why that one?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Work that lives in one person's head</li><li>Cleanup nobody has ever called a task</li><li>Some managers realize they don't know a task's inputs</li></ul><p class='mini'><b>Respond:</b> Name the pattern back: the stalled rows are the exposure blind spots. Not knowing a task's inputs is itself a finding worth writing down.</p>
+    <p class="mini"><b>Debrief:</b> A grid is honest when a stranger could run the week from it. Every chart in this room just got more honest than the org chart.</p>
+    
+    <p class="mini"><b>Watch for:</b> Managers writing role names or people descriptions into rows. Redirect warmly every time: tasks on the grid, people in your care.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;The grid is up. Now every row gets a call, and every call gets a witness.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: cap the grid at eight rows and skip the sheet trade; circle your own suspect rows as you walk the tables.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-two.jpg" alt="Slide: The sort and the challenge" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The sort and the challenge <span class="mins">Full 10 min · Core 7</span></h2>
+    <p class="purpose">Sort every row automate, augment, or leave alone, then pressure-test the calls in pairs, inside the traffic light.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three marks, straight from this month's Tuesday session, now applied at team scale. Automate: AI does it and a person checks. Augment: AI helps and a person drives. Leave alone: human all the way. And the light we share all year rides every mark: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never. Mark your rows, then find your partner, because a sort nobody challenged is just a mood.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room quiet marking time; sticky dots or marker initials both work fine.</li><li>Run Survive the challenge on learner devices before the pairing, so the three endings are fresh.</li><li>Pair managers across teams, never within one, and let the challenges run; listen for flips and splits to quote at the debrief.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Who had a call flip, and what did the challenge show you?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Rule-following that had felt like judgment</li><li>A bundle hiding a red thread</li><li>A few will admit they flattered their team's work</li></ul><p class='mini'><b>Respond:</b> Flips are the receipts. A grid that leaves this room unchanged probably wasn't challenged hard enough.</p>
+    <p class="mini"><b>Debrief:</b> Stands, flips, splits: all three are wins. The only losing call is the one nobody questioned.</p>
+    
+    <p class="mini"><b>Watch for:</b> Anyone marking automate on work that touches private information about people. Restate the light on the spot: red, never, whatever the efficiency.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Your grid is sorted and it survived a stranger. The harder audience is your team, so the opener comes next.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: mark the top six rows only; run one challenge each way instead of the full grid walk.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-three.jpg" alt="Slide: The opener" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The opener <span class="mins">Full 9 min · Core 6</span></h2>
+    <p class="purpose">Draft and rehearse the words that bring the grid to the team as a draft and an invitation.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;The grid you are holding can land two ways at home: verdict or draft. The difference is mostly staging: what you physically carry in, and the first sentence out of your mouth. So we draft the opener here, out loud, where the stakes are low and the feedback is free. You will deliver it to a stranger before you ever deliver it to your team.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Run Bring the grid home on learner devices; give the room time for both choices.</li><li>Run the cross-table rehearsal: openers delivered standing, to someone from another table playing a skeptical team member.</li><li>Take one strong opener aloud for the whole room and name the pattern: draft framing, marker on the table, the which-row-is-wrong ask.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;What did your skeptical stranger do that you didn't expect?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Asked whose job the automate rows are</li><li>Went quiet, which felt worse than pushback</li><li>Someone will say the rehearsal changed their opener completely</li></ul><p class='mini'><b>Respond:</b> That is why the rehearsal happens here. Every reaction you just survived is one your team can no longer surprise you with.</p>
+    <p class="mini"><b>Debrief:</b> The opener has a shape: this is a draft, here is the marker, which row is wrong, which task did I miss.</p>
+    
+    <p class="mini"><b>Watch for:</b> Openers that lead with leadership pressure or the word efficiency. Steer back to invitation: the team helps decide what fills the freed hours.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Recap, then the grid gets its date.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the cross-table round; rehearse once with the sort partner instead.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-belief.jpg" alt="Slide: The core idea" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The core idea <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Land the one sentence the session exists to install.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: A map on a wall gets argued with. A map in a drawer gets feared.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Pause two beats after reading; the word animation carries it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;The recap makes it stick.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: pass through in stride; the sentence reads itself.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-recap.jpg" alt="Slide: Recap quiz" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Recap quiz <span class="mins">Full 5 min · Core 4</span></h2>
+    <p class="purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Now point it at your real week.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-plan.jpg" alt="Slide: Capstone commitment" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Capstone commitment <span class="mins">Full 6 min · Core 4</span></h2>
+    <p class="purpose">Convert the session into one named, dated action per person.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Last build, and it is the one that matters: the grid needs a date. Pick the rows your team sees first, how the reveal happens, and the window, then write the card. Tasks and roles only, never a name. When you leave, the grid travels rolled, never filed. Quiet writing time, then a few read-alouds.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Last slide.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-close.jpg" alt="Slide: Closing" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Closing <span class="mins">Full 2 min · Core 2</span></h2>
+    <p class="purpose">End with the next step and where this thread continues.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Look at these walls: that is the month's theme made physical. Monday's session gave you the mapping lens, Tuesday gave every member of your team the same sort for their own week, and Thursday's hype filter keeps the claims about these tools honest. The grid you are carrying is those three sessions with a marker in hand. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, goes further whenever you want it; there if you want it, never homework. Now go put the grid on a wall your team walks past.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol>
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+  <p class="mini" style="margin-top:14px;color:#777">Generated from facilitator/notes.json. The on-screen facilitator edition lives at ./ alongside this guide.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Practice Room, Facilitator Edition | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Practice Room | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/">
+<link rel="icon" href="../../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+
+<style>
+/* ============ facilitator edition ============ */
+.fac__badge { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-black); background: var(--vu-gold-flat);
+  padding: .3rem .55rem; border-radius: 3px; margin-left: .9rem; white-space: nowrap; }
+@media (min-width: 1200px) {
+  body.fac .slide { display: grid; grid-template-columns: minmax(0,1fr) 350px; align-items: center; column-gap: 0; overflow-y: auto; overflow-x: hidden; }
+  body.fac .slide > .wrap { grid-column: 1; }
+  body.fac .slide > .hero__canvas, body.fac .slide > .hero__scrim { grid-column: 1 / -1; }
+  body.fac .facnote { grid-column: 2; align-self: start; position: sticky; top: calc(var(--nav-h) + 16px);
+    margin: 0 18px 0 0; }
+  body.fac .dots { display: none; }
+}
+.facnote {
+  background: rgba(20,20,20,.96); color: rgba(255,255,255,.85); border: 1px solid rgba(207,174,112,.45);
+  border-left: 3px solid var(--vu-gold-flat); border-radius: 6px; padding: 1rem 1.1rem;
+  font-size: .82rem; line-height: 1.5; max-height: calc(100vh - var(--nav-h) - 48px); overflow: auto; z-index: 5;
+}
+@media (max-width: 1199px) { .facnote { margin: 1.5rem var(--pad-x) 0; } }
+.facnote__head { display: flex; justify-content: space-between; gap: .5rem; align-items: baseline;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+  font-size: .68rem; color: var(--vu-gold-flat); border-bottom: 1px solid rgba(207,174,112,.3);
+  padding-bottom: .5rem; margin-bottom: .6rem; }
+.facnote__purpose { margin: 0 0 .6rem; color: #fff; font-weight: 500; }
+.facnote__steps { margin: 0 0 .6rem; padding-left: 1.05rem; display: grid; gap: .35rem; }
+.facnote__meta { margin: .35rem 0 0; color: rgba(255,255,255,.75); }
+.facnote__meta b { color: var(--vu-gold-flat); font-weight: 600; }
+.facnote__core { border-top: 1px dashed rgba(207,174,112,.35); padding-top: .5rem; }
+.facnote__blk { margin: .55rem 0 0; }
+.facnote__tag { display: inline-block; font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .6rem; padding: .15rem .4rem; border-radius: 2px; margin-bottom: .25rem; }
+.t-say { background: var(--vu-gold-flat); color: var(--vu-black); }
+.t-do  { background: rgba(179,201,205,.9); color: var(--vu-black); }
+.t-ask { background: rgba(139,161,142,.9); color: var(--vu-black); }
+.t-deb { background: rgba(236,183,72,.9); color: var(--vu-black); }
+.t-tra { background: rgba(255,255,255,.25); color: #fff; }
+.facnote__script { margin: 0; font-family: var(--font-serif); font-style: italic; font-size: .88rem; color: #fff; }
+.facnote__mini { margin: .25rem 0 0; font-size: .78rem; color: rgba(255,255,255,.75); }
+.brief__grid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1.5rem; }
+@media (min-width: 980px) { .brief__grid { grid-template-columns: repeat(2, 1fr); } }
+.brief__box { background: #262626; border: 1px solid rgba(207,174,112,.3); border-radius: 6px; padding: 1.1rem 1.25rem; font-size: .92rem; }
+.brief__box h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8rem; color: var(--vu-gold-flat); margin-bottom: .6rem; }
+.brief__box ol, .brief__box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .4rem; color: rgba(255,255,255,.85); }
+.brief__wide { grid-column: 1 / -1; }
+.brief__row { padding: .45rem 0; border-bottom: 1px solid rgba(255,255,255,.08); color: rgba(255,255,255,.85); }
+.brief__row b { color: var(--vu-gold-flat); }
+.brief__q { border-bottom: 1px solid rgba(255,255,255,.08); padding: .4rem 0; }
+.brief__q summary { cursor: pointer; font-weight: 500; color: #fff; }
+.brief__q p { margin: .4rem 0 .2rem; color: rgba(255,255,255,.8); font-size: .9rem; }
+.brief__youarehere { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
+.brief__sub { font-weight: 600; color: #fff; margin: 0 0 .6rem; font-size: 1rem; }
+.brief__printnote { color: rgba(255,255,255,.7); font-size: .9rem; max-width: 62ch; margin-top: .75rem; }
+.brief__box ol.checks, .brief__box ul.checks { list-style: none; padding-left: 0; }
+.brief__box .checks li { position: relative; padding-left: 1.4rem; }
+.brief__box .checks li::before { content: "\2713"; position: absolute; left: 0; color: var(--vu-gold-flat); font-weight: 700; }
+/* hide/show the facilitator script */
+.facnote__hide { font-family: var(--font-body, Inter, sans-serif); font-weight: 600; font-size: .72rem;
+  color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.3);
+  border-radius: 5px; padding: .3rem .7rem; cursor: pointer; text-transform: none; letter-spacing: 0; }
+.facnote__hide:hover { border-color: var(--vu-gold-flat); }
+body.fac-hide .facnote { display: none !important; }
+@media (min-width: 1200px) { body.fac.fac-hide .slide { grid-template-columns: 1fr; } }
+.facshow { position: fixed; right: clamp(14px, 2vw, 28px); top: calc(var(--nav-h) + 14px); z-index: 96;
+  display: none; align-items: center; gap: .45rem;
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .09em; font-size: .68rem; color: var(--vu-gold-flat);
+  background: rgba(20,20,20,.92); border: 1px solid rgba(207,174,112,.45); border-radius: 4px;
+  padding: .5rem .75rem; cursor: pointer; }
+body.fac-hide .facshow { display: inline-flex; }
+</style>
+
+</head>
+<body class="fac">
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+    <span class="fac__badge">Facilitator Edition</span>
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">Camera-True</a><a href="#s-two">The Rounds</a><a href="#s-three">The Plan</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <section class="slide on-dark" id="s-briefing" data-title="Facilitator briefing">
+    <div class="wrap wrap-wide">
+      <p class="brief__youarehere">You are here: the facilitator prep page. Learners start on the next page.</p>
+      <p class="eyebrow">Run this course / 00 · Facilitator only</p>
+      <h2 class="h2">Before the room <em>fills</em>.</h2>
+      <p class="lead">Two paths: Full (90 min) or Core (60 min). Every page ahead carries your script in the right rail: Say, Do, Ask with expected answers, Debrief, and a Transition into the next page, with the Core cut named at the bottom of each card. This page is everything that happens before and around the session. Learners never see this edition; the welcome QR on the next page sends them to their own.</p>
+      <p class="why" style="margin-top:1rem"><b>The goal on the wall:</b> Goal 2, Manager Effectiveness at Scale.</p>
+      <div class="hero__cta" style="margin-top:1.25rem"><a class="btn" href="guide.html" target="_blank" rel="noopener">Print the facilitator guide &#128424;</a></div>
+      <p class="brief__printnote">One paper packet: this prep page, the run of show, the tough-questions bank, and every section script with its slide pictured beside the notes. Print it or choose Save as PDF.</p>
+      <div class="brief__grid"><div class="brief__box"><h3>01 · A week before</h3><p class="brief__sub">Learn the course by taking it</p><ol class="checks"><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol></div><div class="brief__box"><h3>02 · The day before</h3><p class="brief__sub">Test everything a learner touches</p><ol class="checks"><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol></div><div class="brief__box"><h3>03 · 30 minutes before</h3><p class="brief__sub">Set the room, set the tone</p><ol class="checks"><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol></div>
+        <div class="brief__box"><h3>04 · Materials</h3><p class="brief__sub">Have these in hand</p><ul class="checks"><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul></div>
+        <div class="brief__box brief__wide"><h3>05 · When things go sideways</h3><p class="brief__sub">If it breaks, you have a move</p><div class="brief__row"><b>If The projector or room screen fails:</b> The workshop survives it: the rounds, the cards, and the page are all paper and voices. Read the interactions aloud from your own device via the welcome QR and keep the rounds moving.</div><div class="brief__row"><b>If The room count is odd and a pair can't form:</b> Make one trio: two givers take turns, one receiver, then rotate the odd role each round. Trios also give shy participants a softer first round.</div><div class="brief__row"><b>If Someone uses a round to relitigate real feedback about a real colleague:</b> Protect the room warmly: 'Hold that one for a private conversation. In here, scenario cards and roles, never names.' Then restart the round on the card.</div><div class="brief__row"><b>If A live round lands hard and a participant goes quiet:</b> Offer the exit ramp: sit out one rotation as an observer with a job, noticing duet moves to report back. Check in privately at the next transition.</div></div>
+        <div class="brief__box brief__wide"><h3>06 · Tough questions, ready answers</h3><p class="brief__sub">Say each answer out loud once before you teach</p><details class="brief__q"><summary>Isn't role-play artificial? Real feedback is messier.</summary><p>It is, and that is the design. Musicians rehearse slower than the concert. The camera test, the clean receipt, and the pressure question are exactly the parts that survive contact with mess, and this room is where they become reflex instead of theory.</p></details><details class="brief__q"><summary>I'm not a manager. Whose behavior is this month measuring, if not mine?</summary><p>The measurement reads managers; the muscle belongs to everyone. Every career runs on feedback given and received well, and a development plan is how anyone, at any level, turns a true sentence into a visible change. The room was full for a reason.</p></details><details class="brief__q"><summary>Can I use an AI tool to tidy up my development plan?</summary><p>Run the light. A plan about your own behavior in generic terms is fine in an approved VU tool. The moment it quotes feedback about identifiable colleagues, that part is private information about people: red, never. And keep the commitment in your own voice; your peer pressure-tested those words, and the next feedback round will too.</p></details></div>
+        <div class="brief__box brief__wide"><h3>07 · Copy-paste templates</h3><p class="brief__sub">Copy, swap the brackets, send</p><details class="brief__q"><summary>Pre-work invite (paste into the calendar invite)</summary><p>Subject: In person this month: feedback, practiced on real faces, with your navigator. Bring one piece of real feedback you have received this year, held privately; you will never be asked to read it aloud. Scenario cards, worksheets, and brave company provided. Nothing you write is collected.</p></details><details class="brief__q"><summary>7-day pulse (send one week after)</summary><p>Subject: Did the first rep run? Three lines, reply whenever: 1) Did the first rep on your plan happen? 2) What did the pressure test change before you left? 3) Who holds your date, and have they asked yet?</p></details></div>
+      </div>
+      <p class="why" style="margin-top:1.5rem"><b>After the session:</b> Seven days out, send the pulse: 'Did the first rep on your plan run? What did the pressure test change? Who holds your date?' Count of plans with a completed first rep is the month's Level 3 signal.</p>
+    </div>
+  </section>
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · May 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The feedback role-play and development-plan build, live and in person.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century runs on people who can say the true thing kindly and hear it without armor. A room practicing both out loud is Exceptional Core Operations rehearsing itself.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century runs on people who can say the true thing kindly and hear it without armor. A room practicing both out loud is Exceptional Core Operations rehearsing itself.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;That is the why. Here is the number we are moving.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 2 of 3</p>
+      <h2 class="h2" data-reveal>Manager Effectiveness at <em>Scale</em>.</h2>
+      <p class="lead" data-reveal>Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 2 measures leader behavior, and feedback is the behavior that feeds every other measure. Today the whole room, managers and not, builds the muscle live.</p>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 3 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Name the enterprise goal this month serves.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 measures leader behavior, and feedback is the behavior that feeds every other measure. Today the whole room, managers and not, builds the muscle live.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · Measured Leader Behavior</p>
+      <h1 class="h-hero" data-reveal>Practice on a <em class="gold-text">real face</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">This month's sessions taught the reads: the signal, the ask, the clean receipt. This room adds the missing ingredient: another person. You will give feedback to a face, receive it back, and leave with a development plan built from feedback you actually hold.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict</li><li>Receive a live round cleanly: one thank you, one clarifying question, no case for the defense</li><li>Build a one-page development plan from real feedback and let a peer pressure-test one commitment</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 2</b><span>Manager Effectiveness at Scale</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Feedback Literacy</span><span class="skillpill">Self-Awareness</span><span class="skillpill">Career Development</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict; receive a live round cleanly: one thank you, one clarifying question, no case for the defense; build a one-page development plan from real feedback and let a peer pressure-test one commitment. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Camera-true lines</h3><p>Rewrite verdicts into behavior a camera would have caught, then say them out loud.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The live rounds</h3><p>Give and receive in rotating pairs; the face across from you is the lesson.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The plan and the pressure test</h3><p>Turn feedback you hold into one page, and let a peer lean on your commitment.</p></div></li>
+      </ol>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: camera-true lines, the live rounds, the plan and the pressure test. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Camera-true lines">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Line</p>
+      <h2 class="h2" data-reveal>Say what the <em>camera saw</em>.</h2>
+      <p class="lead" data-reveal>Before any round runs, every line gets the camera test: would a lens have caught it? 'You're careless' fails; no camera films careless. 'The last two summaries went out with old numbers' passes. Camera-true lines are checkable, hearable, and fixable.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Camera or character?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three feedback lines about to be delivered. Call each one before it leaves the mouth.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 8 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Install the camera test and get every participant rewriting verdicts into filmable behavior.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Camera or character? on learner devices first, so the test is shared before anyone writes.</li><li>Run the pass-left rewrite at each table; walk the room and listen for a strong before-and-after.</li><li>Read one verdict-to-camera rewrite aloud for the room and name what changed: a when, a what, a consequence.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What gets lost when the verdict becomes a camera line?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>The sting, mostly</li><li>Some say the bigger pattern goes missing</li><li>A few worry it feels nitpicky</li></ul><p class="facnote__mini">Respond: The pattern isn't lost; it's earned. Three camera-true lines make a pattern nobody can argue with. One verdict makes an argument nobody can win.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The camera test travels: it works on feedback you give, feedback you receive, and, later today, the commitment you write.</p></div><p class="facnote__meta"><b>Watch for:</b> Tables writing polished insults and calling them honest. Camera-true includes kind: behavior, a when, and no adjectives about the person.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Lines drafted. Now they meet faces.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: run the trainer, then one rewrite per table instead of the full pass-left round.</p></aside>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The live rounds">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Rounds</p>
+      <h2 class="h2" data-reveal>The face is the <em>curriculum</em>.</h2>
+      <p class="lead" data-reveal>Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The room rule</span>
+        <p style="margin:.5rem 0 0" class="measure">Live feedback is a duet. The giver keeps the line camera-true and stops talking when it lands. The receiver offers one thank you and one clarifying question, no case for the defense. Both jobs take practice, and today both get it.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Watch what happens in this room during the rounds: givers softening lines mid-sentence when a face tightens, receivers rehearsing rebuttals instead of listening. Every wobble is the real skill announcing where it lives. The weekly sessions describe these moments; a room puts you inside one.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Which was harder just now, giving or receiving? What did your body do that surprised you, and what will you try in the next round?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: mid-round, your receiver starts explaining why it happened. What is the duet move?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Volume turns a duet into a verdict reading. The line was delivered; drilling it in trades the relationship for the point."><span class="mark">A</span><span>Repeat the line louder until they accept it</span></button><button class="opt" data-correct="1" data-why="The giver's job ended when the line landed. Silence plus one open question hands the receiver room to move from defense to use."><span class="mark">B</span><span>Let the line sit, then ask what they'd like to do with it</span></button><button class="opt" data-correct="0" data-why="Retraction teaches the room that discomfort erases truth. The line was camera-true; it deserves to stay on the table, gently."><span class="mark">C</span><span>Withdraw the feedback to keep things comfortable</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 10 min · Core 7</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Run rotating give-and-receive rounds with scenario cards, and debrief the duet live.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This is the part no virtual session can do. You will give a camera-true line to a person who reacts, and receive one from a person watching your face while they say it. Use the scenario cards, roles never names. Receivers, your whole job is one thank you and one clarifying question. Givers, when the line lands, stop talking. The silence after a true sentence is where the work happens; don't rescue anyone from it.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pair people across tables for the first round so nobody practices on a close colleague.</li><li>Run two rounds with a swap, then rotate pairs for a third; walk the room and listen for defense-building.</li><li>Show the room rule card and run the discussion prompt between rounds; take voices on what bodies did.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;Receivers: what did your hands, face, or breath do when the line landed?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Laughed or smiled to soften it</li><li>Started composing a reply mid-line</li><li>A few felt genuine relief at a clean, specific line</li></ul><p class="facnote__mini">Respond: All human, and all visible from the other chair. Naming the reflex out loud is what gives you a choice about it next time.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">The duet holds when both jobs stay small: a true line delivered once, a receipt of thanks and one question.</p></div><p class="facnote__meta"><b>Watch for:</b> Pairs drifting into real grievances about real colleagues. Re-anchor warmly to the scenario cards: this room practices the skill, never the case.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;You have given and received. Now the feedback you actually hold gets its page.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: two rounds instead of three; debrief once, at the end of the second.</p></aside>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The plan and the pressure test">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Build</p>
+      <h2 class="h2" data-reveal>Feedback you hold becomes a <em>plan you keep</em>.</h2>
+      <p class="lead" data-reveal>Everyone in this room holds real feedback: a 360 line, a pulse theme, something a colleague finally said. The one-page plan turns the sharpest piece into one commitment with a first rep and a date. Then a peer leans on it, because untested commitments bend.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the page</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> One page, one commitment. Choose how the commitment reads and what the pressure test asks.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the plan</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Trade plans with a table peer. Their job is one honest pressure test of your commitment: what would we see you doing differently, and by when? Revise on the spot.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 9 min · Core 6</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert real feedback into a one-page plan with one filmable commitment, pressure-tested by a peer.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Last build. Think of the sharpest real feedback you hold from this year: a 360 line, a pulse theme, the sentence a colleague finally said. It goes at the top of the page in your own words. Under it, one commitment that passes the camera test, one first rep, one date. Then you trade pages, and your peer asks the only pressure-test question that matters: what would we see you doing differently, and by when?&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Run Build the page on learner devices before the writing, so the strong pattern is loaded.</li><li>Quiet writing time on the worksheet; walk the room and nudge vague commitments toward filmable ones.</li><li>Run the page trade and pressure test in pairs; revisions happen at the table, out loud.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-ask">Ask</span><p class="facnote__script">&ldquo;What did the pressure test do to your commitment?&rdquo;</p><p class="facnote__mini">Expect:</p><ul class="facnote__steps"><li>Shrank it to something checkable</li><li>Added the date it was avoiding</li><li>One or two will say it survived intact</li></ul><p class="facnote__mini">Respond: Surviving intact counts, if the peer really leaned. A commitment that answers the camera question at this table will answer it anywhere.</p></div><div class="facnote__blk"><span class="facnote__tag t-deb">Debrief</span><p class="facnote__mini">One page: the feedback in your words, one filmable commitment, one rep, one date, one peer who knows all four.</p></div><p class="facnote__meta"><b>Watch for:</b> Plans built on feedback the person disputes. Redirect to feedback they own; a plan argues best from evidence its writer believes.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Recap, then the page becomes a card and goes home.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the builder walkthrough; go straight to the page and the trade.</p></aside>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>Feedback becomes a skill the first time it meets a real face and survives.</p>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: Feedback becomes a skill the first time it meets a real face and survives.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 5 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Now point it at your real week.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My development plan</p>
+      <h2 class="h2" data-reveal>One page, one commitment, <em>one witness</em>.</h2>
+      <p class="lead" data-reveal>Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · The feedback your plan is built on, in one line, your words.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. my project updates bury the decision people need" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What is the commitment?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="rep"><span>The weekly rep</span></button><button class="opt" data-id="return"><span>The return visit</span></button><button class="opt" data-id="trade"><span>The plan trade</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>At my next 1:1</span></button><button class="opt" data-id="month"><span>All month</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 6 min · Core 4</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Convert the session into one named, dated action per person.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Finish the card: the feedback in one line, your own words, roles never names. Then the commitment, the first rep, the window, and who holds the date. Copy it onto your phone or fold the page into your bag; the peer who tested it knows to ask. Quiet writing time, then we close.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol></div><p class="facnote__meta"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Last slide.&rdquo;</p></div></aside>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Practiced people <em>hear more truth</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You gave feedback to a face, received it cleanly, and left one page heavier. The month's weekly sessions keep working the same muscle: the evidence, the signal, the blind spot.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Run the first rep on your plan</h3>
+        <p>One behavior, one set moment, one mark a peer could check. When you want another rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there whenever you want it, never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Camera-true in. Clean receipt out. One page kept.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../../index.html">Anchor's Edge dashboard</a>
+      <span>The Practice Room · Navigator Workshop · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/may-workshop/</a></span>
+    </div>
+  </div>
+</footer>
+    </div>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 2</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">End with the next step and where this thread continues.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;This room just did what the whole month is about: behavior you can see. Monday showed managers how the standard reads their own evidence, Tuesday opened the tooling that protects everyone's signal, and Thursday works the blind spot that a room like this one closes. Your page is those sessions with a date on it. When you want a rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, goes further whenever you want it; there if you want it, never homework. Go run the first rep, and let the next feedback season find you already moving.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol></div></aside>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Line",
+   "labels": [
+    "Camera-true, deliver it",
+    "Character verdict, rewrite it",
+    "Too vague, sharpen it"
+   ],
+   "passAt": 2,
+   "passMsg": "Your ear is calibrated. Behavior a lens would catch gets delivered; verdicts get rewritten; fog gets sharpened.",
+   "failMsg": "Close. The test: could a camera have filmed it? Verdicts name character, fog names nothing, and camera-true lines name behavior with a when.",
+   "items": [
+    {
+     "q": "In yesterday's review you read from your screen the whole time, and the client asked twice whether you could hear them.",
+     "answer": 0,
+     "why": "Two filmable facts and a consequence. The receiver can check it, picture it, and change it, which is everything a feedback line owes them."
+    },
+    {
+     "q": "Honestly, you're just not a details person, and everyone has noticed.",
+     "answer": 1,
+     "why": "No camera films 'a details person', and 'everyone' is an anonymous jury. Rewrite it: which document, which details, which date."
+    },
+    {
+     "q": "Your presentations could maybe be a bit tighter, in general, sometimes.",
+     "answer": 2,
+     "why": "Nothing to check, picture, or fix. Sharpen the fog: which presentation, which section, what ran past its welcome."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "A month from now",
+   "slots": [
+    {
+     "key": "The commitment you write",
+     "opts": [
+      {
+       "t": "Work on my communication style this year",
+       "pts": 1,
+       "coach": "A direction, and nobody can catch you doing it. A plan the next round of feedback can't check is a wish with a header."
+      },
+      {
+       "t": "Be less defensive when feedback arrives",
+       "pts": 2,
+       "coach": "A real target with no handle. Defensiveness is a feeling; the plan needs the behavior that replaces it, somewhere a witness could stand."
+      },
+      {
+       "t": "In every review this month, ask one clarifying question before I answer any point",
+       "pts": 3,
+       "coach": "Filmable, dated, and repeated. The camera test works on commitments too, and this one passes it every single week."
+      }
+     ]
+    },
+    {
+     "key": "The pressure test you invite",
+     "opts": [
+      {
+       "t": "Looks great, good luck with it",
+       "pts": 1,
+       "coach": "That is applause, and applause tests nothing. A peer who only cheers has quietly declined the job you handed them."
+      },
+      {
+       "t": "Is this realistic with your workload?",
+       "pts": 2,
+       "coach": "A fair question aimed at comfort. It shrinks plans instead of sharpening them; the best pressure test asks about evidence."
+      },
+      {
+       "t": "What would we see you doing differently, and by when?",
+       "pts": 3,
+       "coach": "The camera question, aimed forward. If your plan can answer it, the commitment is real; if it can't, better to find out at this table."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A page that survives contact. The commitment is filmable, the date is real, and a peer already failed to bend it.",
+    "mid": "A sincere page with soft spots. It reads well today; the first busy week will negotiate with it.",
+    "weak": "A tidy page of intentions. It will feel finished right up until the next feedback round asks what changed."
+   },
+   "reactions": {
+    "strong": "The peer who tested you asks about the commitment when you cross paths later, and you have an answer with a date in it. The next feedback you receive lands on someone visibly in motion.",
+    "mid": "The page resurfaces during a desk clean, still sincere. One camera-true rewrite of the commitment would revive the whole plan, and it is one sentence away.",
+    "weak": "Next feedback season the same theme arrives in the same words. The plan changed nothing because nothing in it could be seen, and the year quietly graded it."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A feedback line is camera-true when...",
+   "opts": [
+    "It is honest about their character",
+    "A lens could have caught the behavior it names",
+    "It is softened enough to be kind",
+    "Everyone in the room agrees with it"
+   ],
+   "correct": 1,
+   "why": "Checkable behavior with a when. Verdicts judge people; camera-true lines describe moments, and moments can change."
+  },
+  {
+   "q": "The clean receive in a live round is...",
+   "opts": [
+    "A point-by-point response",
+    "Silence until it blows over",
+    "One thank you and one clarifying question",
+    "An immediate apology"
+   ],
+   "correct": 2,
+   "why": "The receiver's craft is small on purpose: thank the risk, ask one question, build no defense. Cheap receipts keep truth affordable."
+  },
+  {
+   "q": "What makes a development-plan commitment real?",
+   "opts": [
+    "Ambition worthy of the feedback",
+    "A peer could see the behavior, by a date",
+    "Keeping it private until it works",
+    "Listing several goals at once"
+   ],
+   "correct": 1,
+   "why": "The camera question decides it: what would we see you doing differently, and by when? Plans that answer it get kept."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The lines, the receipt, the page: all working. Take them to real rooms.",
+  "mid": "Solid. Reread the camera test, then finish the page.",
+  "low": "Worth one more walk through the rounds before the plan goes home."
+ },
+ "capstone": {
+  "whoRow": "The feedback I hold",
+  "cardTitle": "My development plan card",
+  "copyTag": "The Practice Room · May 2027 · Anchor's Edge",
+  "goalRow": "Goal 2, Manager Effectiveness at Scale.",
+  "evidenceRow": "Afterward, one line: what did the next round of feedback say that the last one couldn't?",
+  "practices": [
+   {
+    "id": "rep",
+    "chip": "The weekly rep",
+    "name": "The weekly rep",
+    "move": "Name the one behavior, run it at a set moment every week, and mark each rep somewhere a peer could check."
+   },
+   {
+    "id": "return",
+    "chip": "The return visit",
+    "name": "The return visit",
+    "move": "Take the plan back to the person who gave the feedback and ask them to watch for the one behavior."
+   },
+   {
+    "id": "trade",
+    "chip": "The plan trade",
+    "name": "The plan trade",
+    "move": "Trade pages with today's table peer and hold each other's date; each of you asks about the other's rep when it comes due."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first rep runs this week, on the calendar before you leave the building."
+   },
+   {
+    "id": "next11",
+    "chip": "At my next 1:1",
+    "out": "The plan opens your next 1:1, and the commitment gets said out loud."
+   },
+   {
+    "id": "month",
+    "chip": "All month",
+    "out": "The rep runs all month, with the peer check landing near the end of it."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../../assets/js/qrcode.js?v=1"></script>
+<script src="../../../assets/js/deck.js?v=1"></script>
+
+<script>
+(function () {
+  var KEY = 'facScriptHidden';
+  var show = document.createElement('button');
+  show.className = 'facshow'; show.type = 'button';
+  show.textContent = 'Show facilitator script';
+  document.body.appendChild(show);
+  function set(h) {
+    document.body.classList.toggle('fac-hide', h);
+    try { localStorage.setItem(KEY, h ? '1' : '0'); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('.facnote__hide')) set(true);
+  });
+  show.addEventListener('click', function () { set(false); });
+  try { if (localStorage.getItem(KEY) === '1') set(true); } catch (e) {}
+})();
+</script>
+</body>
+</html>

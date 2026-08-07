@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facilitator Guide (printable) · The Practicum · Navigator Workshop · Anchor&#x27;s Edge · Vanderbilt</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-weight: 400;
+    src: url('../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400;
+    src: url('../../../assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600;
+    src: url('../../../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-weight: 700;
+    src: url('../../../assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 12.5px; line-height: 1.5; }
+  .sheet { max-width: 860px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 16px; }
+  header img { width: 150px; }
+  h1 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  h2 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 18px;
+    margin: 0 0 4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  h3 { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; font-size: 12px; color: #946E24; margin: 14px 0 4px; }
+  .mins { font-family: 'Antonio', Impact, sans-serif; font-size: 11px; color: #946E24;
+    letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .sec { border: 1px solid #E4E4E4; border-left: 3px solid #CFAE70; border-radius: 4px;
+    padding: 12px 16px; margin-bottom: 12px; break-inside: avoid;
+    display: grid; grid-template-columns: 290px 1fr; gap: 16px; align-items: start; }
+  .sec.noimg { grid-template-columns: 1fr; }
+  .sec.noimg .sec__shot { display: none; }
+  .sec__shot { position: sticky; top: 12px; }
+  .sec__shot img { width: 100%; border: 1px solid #E4E4E4; border-radius: 3px; display: block; }
+  .sec__notes { min-width: 0; }
+  @media (max-width: 700px) { .sec { grid-template-columns: 1fr; } .sec__shot { position: static; max-width: 340px; } }
+  @media print { .sec { grid-template-columns: 240px 1fr; } .sec__shot { position: static; } }
+  .purpose { font-weight: 600; margin: 2px 0 8px; }
+  .tagline { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; margin: 10px 0 2px; color: #1C1C1C;
+    background: #CFAE70; display: inline-block; padding: 2px 7px; border-radius: 2px; }
+  .tagline.ask { background: #8BA18E; }
+  .script { font-family: 'Libre Caslon Display', serif; font-style: italic; font-size: 13.5px;
+    margin: 4px 0 6px; }
+  .mini { margin: 4px 0; color: #444; }
+  .mini.core { border-top: 1px dashed #CFAE70; padding-top: 6px; }
+  ol, ul { margin: 2px 0 8px; padding-left: 20px; }
+  li { margin-bottom: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; }
+  th, td { border: 1px solid #E4E4E4; padding: 5px 9px; text-align: left; }
+  th { font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .06em;
+    font-size: 10px; color: #946E24; }
+  .front { border: 1px solid #E4E4E4; border-radius: 4px; padding: 12px 16px; margin-bottom: 12px;
+    break-inside: avoid; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } body { font-size: 11px; } .sheet { padding: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Anchor's Edge · ATD facilitator guide · print edition</p>
+      <h1>The Practicum, the <em>facilitator guide</em></h1>
+    </div>
+    <img src="../../../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+
+  <div class="front">
+    <h3>Run of show</h3>
+    <table><tr><th>Screen</th><th>Full (min)</th><th>Core (min)</th></tr><tr><td>Welcome / QR</td><td>3</td><td>2</td></tr><tr><td>The mission</td><td>3</td><td>2</td></tr><tr><td>The goal we are targeting</td><td>3</td><td>2</td></tr><tr><td>Objectives</td><td>2</td><td>1</td></tr><tr><td>Agenda</td><td>2</td><td>1</td></tr><tr><td>Set the triads</td><td>8</td><td>6</td></tr><tr><td>Run the rounds</td><td>10</td><td>7</td></tr><tr><td>Debrief the beats</td><td>9</td><td>6</td></tr><tr><td>The core idea</td><td>2</td><td>1</td></tr><tr><td>Recap quiz</td><td>5</td><td>4</td></tr><tr><td>Capstone commitment</td><td>6</td><td>4</td></tr><tr><td>Closing</td><td>2</td><td>2</td></tr>
+    <tr><th>Total</th><th>55</th><th>38</th></tr></table>
+    <h3>The goal this month serves</h3><p>Goal 2, Manager Effectiveness at Scale.</p>
+    <h3>Audience</h3><p>Vanderbilt people managers and team leads, in person. Triads need space: tables of six that split into two triads work best, with room noise expected and welcome; navigators float between triads. Works from nine managers upward; every topic is real and every exercise runs roles only, never names.</p>
+    <h3>Room setup</h3><p>In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.</p>
+    <h3>Materials</h3><ul><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul>
+    <h3>A week before</h3><ol><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol><h3>The day before</h3><ol><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol><h3>30 minutes before</h3><ol><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol>
+    <h3>When things go sideways</h3><p><b>If The projector or room screen fails:</b> The deck lives on learner phones via the welcome QR, and the interactions run there too; narrate from your own device. Triads need chairs, not screens.</p><p><b>If The headcount does not divide into threes:</b> Run one or two pairs with a navigator as their observer, or a four-seat triad with two observers comparing notes; two observers disagreeing is a debrief gift.</p><p><b>If A coachee's topic turns out to be about a named colleague or a live conflict:</b> Protect the room warmly: 'Roles, never names.' Reshape the topic toward the coachee's own next move; if it is genuinely hot, swap in their backup topic and offer a navigator conversation afterward.</p><p><b>If A coach freezes mid-round in front of their observer:</b> Normalize it loudly enough for nearby triads to hear: freezing is the stall showing up on schedule. Feed them one stem, what have you tried, and let the round continue; the recovery is better practice than a smooth round.</p>
+    <h3>Tough questions, ready answers</h3><p><b>Q: My team brings me fires, not coaching topics. When would I ever use this?</b><br>Fires need telling, and most fires are the tenth repeat of something coachable. The beats fit inside an ordinary 1:1: the stuck they brought is the topic, and the will with a date is what stops it coming back.</p><p><b>Q: Isn't role-play artificial? People perform instead of coaching.</b><br>That is why the practicum runs on brought topics instead of scripts. The coachee wants real movement on a real stuck, so the conversation stops being a performance the moment the first honest answer lands. Ask anyone whose round stopped feeling like practice.</p><p><b>Q: What do I do with my observer notes about someone else's coaching?</b><br>Hand them to the coach and let them go; the notes belong to the person they mirror. What you keep is what observing taught your own ear. Nothing from a triad, topics included, travels beyond it, and roles-never-names applies afterward too.</p>
+    <h3>Copy-paste templates</h3><p><b>Pre-work invite (paste into the calendar invite)</b><br>Subject: The GROW coaching practicum, in person. Bring one real work topic you want movement on, something stuck this month, described without names. You will coach, be coached, and observe, and you will leave knowing which beat of your coaching stalls. Wear your listening.</p><p><b>7-day pulse (send one week after)</b><br>Subject: Did the rep happen? Three lines, reply whenever: 1) Did the coaching rep on your card happen? 2) What did the person figure out without being told? 3) Which beat is your next practice?</p>
+    <h3>After the session</h3><p>Seven days out, send the pulse: 'Did the rep on your card happen? What did the person figure out without being told? Which beat is your next practice?' Count of completed reps feeds the manager-standard behavior metric for the month.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-welcome.jpg" alt="Slide: Welcome / QR" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Welcome / QR <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The GROW practicum: live coaching triads, real topics, and the beat-by-beat debrief.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-mission.jpg" alt="Slide: The mission" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The mission <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Manager behavior is where a century-defining university becomes real for its people. A room of managers coaching each other out loud is Exceptional Core Operations practicing itself, one triad at a time.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;That is the why. Here is the number we are moving.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-goal.jpg" alt="Slide: The goal we are targeting" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The goal we are targeting <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Name the enterprise goal this month serves.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 measures demonstrated leader behavior, and coaching sits at the center of the standard. Today it gets demonstrated for real: witnessed, debriefed, and repeated until the stall points show.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-hero.jpg" alt="Slide: Objectives" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Objectives <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Set the contract for the session in under a minute.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;By the end of this session: coach a real brought topic through all four beats with an observer tracking each one; play coachee and observer well: bring a real topic, and track beats instead of solving problems; name the beat that stalls on you and leave with the question that unsticks it. That is the whole contract.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the three objectives briskly; do not elaborate yet.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Three stops to get there.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-agenda.jpg" alt="Slide: Agenda" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Agenda <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Show the path so the room can pace itself.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three stops: set the triads, run the rounds, debrief the beats. Each one has something to play with, so keep the deck open.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point once at each stop; ten seconds each.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Stop one.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the read-through, gesture at the slide in passing.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-one.jpg" alt="Slide: Set the triads" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Set the triads <span class="mins">Full 8 min · Core 6</span></h2>
+    <p class="purpose">Form working triads, load the three jobs, and get every coachee to a real, work-sized, roles-only topic said in one sentence.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;This room runs on a simple bet: coaching is a physical skill, and physical skills need reps in front of someone who is watching. So, triads. The coach runs the four beats. The coachee brings a real topic, something actually stuck this month, work-sized, roles only. The observer has the strangest and best job: track the beats, not the problem. You will sit in all three seats before we are done.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Form triads across tables so nobody coaches a close colleague; direct traffic until every triad has three seats filled.</li><li>Show the observer's rule card and the In the room context; run the discussion on what great questions sound like. Then hand out the printed observer checklists, one per triad: the four beats, told versus asked, and a line for the question that moved something.</li><li>Coachees write their topic in one sentence and read it to the triad. Navigators sweep for topics that are really grievances about named people; help reshape them toward the coachee's own next move.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Coachees, is your topic real enough to matter and small enough to coach?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Real project stucks and priority tangles</li><li>A few too-big topics, like a whole reorg</li><li>A few too-safe ones picked to stay comfortable</li></ul><p class='mini'><b>Respond:</b> Too big shrinks to its next decision; too safe swaps for the thing you actually thought of first. Real topics are what make the reps count.</p>
+    <p class="mini"><b>Debrief:</b> Three seats, three jobs, real topics on the table. The observer tracks beats, and the checklist is their script.</p>
+    
+    <p class="mini"><b>Watch for:</b> Triads forming from adjacent seats and existing teams. Break them up cheerfully; strangers make braver coachees and more honest observers.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Seats set. Round one.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: form triads by numbering off instead of choice, and skip the discussion; the checklist walkthrough carries the observer teaching.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-two.jpg" alt="Slide: Run the rounds" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Run the rounds <span class="mins">Full 10 min · Core 7</span></h2>
+    <p class="purpose">Run rotating live rounds through the four beats with observers writing, until every manager has coached once.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Round one starts now. Coaches: goal before options, reality before options, their options before yours, and a will with a date. Coachees: honest answers, including the uncomfortable ones. Observers: pen moving, mouth closed. When the round lands its will, rotate one seat and the next topic comes out. The room will get loud. Loud is what practice sounds like.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Call the start and let the noise build; resist the urge to hush the room. Navigators kneel in with triads whose coach is lecturing and whisper one question stem: what have you tried?</li><li>Between rounds, run Call the stall on learner devices; the snippets calibrate every observer's ear for the next round.</li><li>Rotate until everyone has coached once. If a triad's round dies early, the observer reports immediately and the same pair reruns from the stalled beat; that rerun is often the best coaching of the day.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Coaches, what surprised you about being watched?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>The urge to fix got louder</li><li>Silence felt endless with an observer there</li><li>The checklist made me hear my own questions</li></ul><p class='mini'><b>Respond:</b> All of that is the practicum working. The observer's presence turns habits you cannot hear into notes you can read, which is the entire point of doing this out loud.</p>
+    <p class="mini"><b>Debrief:</b> Every manager coached, every talk got witnessed, and the stalls are now on paper. The debrief spends them.</p>
+    
+    <p class="mini"><b>Watch for:</b> Coaches interviewing forever to avoid the will beat. Signal triads to land the round: which one will you do, and by when, is how a round ends.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Rounds done. Now the mirror.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: two rounds instead of three; whoever has not coached becomes first coach in the triad rematch, and say so out loud.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-three.jpg" alt="Slide: Debrief the beats" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Debrief the beats <span class="mins">Full 9 min · Core 6</span></h2>
+    <p class="purpose">Turn observer notes into named stalls and one prepared question per manager, then set up the take-home rep.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Now the part you cannot get alone at your desk: the mirror. Observers, report from your notes, kindly and specifically: where the talk stalled, the moment telling replaced asking, and the question that moved something. Coaches, listen for the pattern; most of us stall in the same place every time. Then we practice the two commonest recoveries, because knowing your stall is half, and having the next move is the other half.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Triad debriefs first, observer speaking from the checklist. Then chart the room: each triad calls out its stalls and you tally goal, reality, options, will on the flip chart. Name the crowded column; the room's shape is always a teaching moment.</li><li>Run Unstick the beat on learner devices; it rehearses the recoveries for the two stalls every column shares.</li><li>Each coach writes their stalled beat and their unsticking question on a card; that pair rides straight into the capstone.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;What does our flip chart say about this room?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>A pile-up on will, in most rooms</li><li>Reality rushed by the fixers</li><li>Goal stalls from politely accepting fog</li></ul><p class='mini'><b>Respond:</b> Whatever the crowded column is, that is the room's collective rep. Individually, trust your observer over your self-image; the note is the truth.</p>
+    <p class="mini"><b>Debrief:</b> A named stall, a written question, and a recovery for the silence and the better-plan trap. That is a complete practicum takeaway.</p>
+    
+    <p class="mini"><b>Watch for:</b> Debriefs drifting into re-solving the coachee's problem. Pull them back to the beats; the topic was a prop and the coaching is the work.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Cards ready. Make the commitment.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the room tally; triad debriefs only, and the stalled beat goes straight onto the capstone card.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-belief.jpg" alt="Slide: The core idea" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The core idea <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Land the one sentence the session exists to install.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: Nobody coaches well in theory. Find your stalled beat and practice that.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Pause two beats after reading; the word animation carries it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;The recap makes it stick.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: pass through in stride; the sentence reads itself.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-recap.jpg" alt="Slide: Recap quiz" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Recap quiz <span class="mins">Full 5 min · Core 4</span></h2>
+    <p class="purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Now point it at your real week.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-plan.jpg" alt="Slide: Capstone commitment" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Capstone commitment <span class="mins">Full 6 min · Core 4</span></h2>
+    <p class="purpose">Convert the session into one named, dated action per person.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Your observer gave you a finding; now it becomes a commitment. The stalled beat, the question that unsticks it, and the conversation it is for, role only. Build the card and copy it somewhere you will see it before your next 1:1. Quiet room, go.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Last slide.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-close.jpg" alt="Slide: Closing" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Closing <span class="mins">Full 2 min · Core 2</span></h2>
+    <p class="purpose">End with the next step and where this thread continues.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;You did the thing this month keeps asking for: you coached, out loud, with witnesses. The weekly sessions carry the theme on: Manager Monday tunes your ear for the coaching moment inside ordinary 1:1s, Take-Off Tuesday puts the growth you coach on the record in Oracle, and Thrive Thursday builds the listening underneath every beat you ran today. If you want the theory behind your reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers; a companion when you are curious, never an assignment. The rep on your card is the only thing due.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol>
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+  <p class="mini" style="margin-top:14px;color:#777">Generated from facilitator/notes.json. The on-screen facilitator edition lives at ./ alongside this guide.</p>
+</div>
+</body>
+</html>

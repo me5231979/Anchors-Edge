@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facilitator Guide (printable) · The Stay Lab · Navigator Workshop · Anchor&#x27;s Edge · Vanderbilt</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-weight: 400;
+    src: url('../../../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400;
+    src: url('../../../assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600;
+    src: url('../../../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-weight: 700;
+    src: url('../../../assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 12.5px; line-height: 1.5; }
+  .sheet { max-width: 860px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 16px; }
+  header img { width: 150px; }
+  h1 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  h2 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 18px;
+    margin: 0 0 4px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  h3 { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; font-size: 12px; color: #946E24; margin: 14px 0 4px; }
+  .mins { font-family: 'Antonio', Impact, sans-serif; font-size: 11px; color: #946E24;
+    letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .sec { border: 1px solid #E4E4E4; border-left: 3px solid #CFAE70; border-radius: 4px;
+    padding: 12px 16px; margin-bottom: 12px; break-inside: avoid;
+    display: grid; grid-template-columns: 290px 1fr; gap: 16px; align-items: start; }
+  .sec.noimg { grid-template-columns: 1fr; }
+  .sec.noimg .sec__shot { display: none; }
+  .sec__shot { position: sticky; top: 12px; }
+  .sec__shot img { width: 100%; border: 1px solid #E4E4E4; border-radius: 3px; display: block; }
+  .sec__notes { min-width: 0; }
+  @media (max-width: 700px) { .sec { grid-template-columns: 1fr; } .sec__shot { position: static; max-width: 340px; } }
+  @media print { .sec { grid-template-columns: 240px 1fr; } .sec__shot { position: static; } }
+  .purpose { font-weight: 600; margin: 2px 0 8px; }
+  .tagline { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; margin: 10px 0 2px; color: #1C1C1C;
+    background: #CFAE70; display: inline-block; padding: 2px 7px; border-radius: 2px; }
+  .tagline.ask { background: #8BA18E; }
+  .script { font-family: 'Libre Caslon Display', serif; font-style: italic; font-size: 13.5px;
+    margin: 4px 0 6px; }
+  .mini { margin: 4px 0; color: #444; }
+  .mini.core { border-top: 1px dashed #CFAE70; padding-top: 6px; }
+  ol, ul { margin: 2px 0 8px; padding-left: 20px; }
+  li { margin-bottom: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; }
+  th, td { border: 1px solid #E4E4E4; padding: 5px 9px; text-align: left; }
+  th { font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .06em;
+    font-size: 10px; color: #946E24; }
+  .front { border: 1px solid #E4E4E4; border-radius: 4px; padding: 12px 16px; margin-bottom: 12px;
+    break-inside: avoid; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } body { font-size: 11px; } .sheet { padding: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Anchor's Edge · ATD facilitator guide · print edition</p>
+      <h1>The Stay Lab, the <em>facilitator guide</em></h1>
+    </div>
+    <img src="../../../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+
+  <div class="front">
+    <h3>Run of show</h3>
+    <table><tr><th>Screen</th><th>Full (min)</th><th>Core (min)</th></tr><tr><td>Welcome / QR</td><td>3</td><td>2</td></tr><tr><td>The mission</td><td>3</td><td>2</td></tr><tr><td>The goal we are targeting</td><td>3</td><td>2</td></tr><tr><td>Objectives</td><td>2</td><td>1</td></tr><tr><td>Agenda</td><td>2</td><td>1</td></tr><tr><td>Draft the real one</td><td>8</td><td>6</td></tr><tr><td>Run the rounds</td><td>10</td><td>7</td></tr><tr><td>Debrief and book</td><td>9</td><td>6</td></tr><tr><td>The core idea</td><td>2</td><td>1</td></tr><tr><td>Recap quiz</td><td>5</td><td>4</td></tr><tr><td>Capstone commitment</td><td>6</td><td>4</td></tr><tr><td>Closing</td><td>2</td><td>2</td></tr>
+    <tr><th>Total</th><th>55</th><th>38</th></tr></table>
+    <h3>The goal this month serves</h3><p>Goal 1, Talent Marketplace &amp; Transfer Portal.</p>
+    <h3>Audience</h3><p>Vanderbilt people managers and team leads, in person. Tables of four to six with room to pair off for role-play; navigators circulate during rounds. Works from eight managers to a full room; every exercise runs roles only, never names.</p>
+    <h3>Room setup</h3><p>In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.</p>
+    <h3>Materials</h3><ul><li>Meeting platform with screen share and breakout rooms; deck link ready to paste in chat</li><li>Facilitator machine with the facilitator edition open; notifications off</li><li>Learners on their own devices with the learner link</li><li>Chat open for share-outs; the capstone copy button pastes there cleanly</li></ul>
+    <h3>A week before</h3><ol><li>Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.</li><li>Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.</li><li>Send the invite with the learner link and one line on what to bring.</li></ol><h3>The day before</h3><ol><li>Test screen share with the facilitator edition; confirm the notes rail is readable.</li><li>Open the learner link on a second device; the QR must land there.</li><li>Run the section interactions once so you can drive them without reading.</li></ol><h3>30 minutes before</h3><ol><li>Welcome slide up as people join; link pasted in chat.</li><li>Close every other tab; silence the machine.</li><li>Breakout rooms pre-configured in pairs.</li></ol>
+    <h3>When things go sideways</h3><p><b>If The projector or room screen fails:</b> The deck lives on learner phones via the welcome QR; narrate from your own device. The lab is conversation and paper; nothing essential needs the big screen.</p><p><b>If An odd number of managers shows up for the rounds:</b> Make one triad: two run the round while the third observes with the listening rule in hand, then rotate. The observer seat is a bonus, not a bench.</p><p><b>If Someone names the real employee while drafting or debriefing:</b> Protect them warmly and immediately: 'Hold that. Roles, never names.' The draft works identically with the role, and the practice partner should be inventing details anyway.</p><p><b>If A round surfaces something real and serious, like a manager realizing mid-round that their person is already leaving:</b> Pause their round quietly, acknowledge it, and point them to the booking step now: the follow-up conversation this week is the move. Offer a navigator debrief after the room closes.</p>
+    <h3>Tough questions, ready answers</h3><p><b>Q: Won't asking why they stay put leaving on their mind?</b><br>The research runs the opposite way: people leave when nobody asks. The interview signals attention, and attention is a retention lever. What plants leaving is silence plus a recruiter's call, and the recruiter is already calling your best people.</p><p><b>Q: What if they use the interview to demand a raise?</b><br>Then you use the move you practiced: name what you control, carry the case upward visibly, and keep asking what else weighs. Pay is rarely the whole story, and the rest of the story is usually yours to act on.</p><p><b>Q: How is this different from the succession and bench work this month?</b><br>Same goal, opposite direction. The bench plans the growth you can see; the stay interview surfaces the reasons and risks you cannot. Run both and you are managing retention instead of reacting to resignations.</p>
+    <h3>Copy-paste templates</h3><p><b>Pre-work invite (paste into the calendar invite)</b><br>Subject: The stay-interview practice lab, in person. Come with one person in mind you would hate to lose; you will never say their name. You will draft the real conversation, practice it live against a colleague, and book it before you leave. Bring your calendar.</p><p><b>7-day pulse (send one week after)</b><br>Subject: Did the interview happen? Three lines, reply whenever: 1) Did the stay interview on your card happen? 2) What did they say that you could not have guessed? 3) What is your first follow-through, and when?</p>
+    <h3>After the session</h3><p>Seven days out, send the pulse: 'Did the stay interview on your card happen? What did they say that you could not have guessed? What is your first follow-through?' Count of held interviews is the Level 3 metric for the workshop.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-welcome.jpg" alt="Slide: Welcome / QR" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Welcome / QR <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The stay-interview practice lab: draft it, run it live in pairs, book the real one.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Slide projected as people arrive; phones up before you speak.</li><li>State the norm once: type into your own device, nothing you enter is saved or sent.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> People lurking without the deck open. The interactions only land if the deck is on their screen.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Before the topic, thirty seconds on why Vanderbilt is asking for this hour.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-mission.jpg" alt="Slide: The mission" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The mission <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A century-defining university keeps its people by hearing them before the exit interview. Every manager who practices this conversation strengthens Destination Vanderbilt: a place people choose, and keep choosing.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the mission line slowly, once.</li><li>Point at the tie-in line and let it sit; no discussion needed here.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;That is the why. Here is the number we are moving.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-goal.jpg" alt="Slide: The goal we are targeting" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The goal we are targeting <span class="mins">Full 3 min · Core 2</span></h2>
+    <p class="purpose">Name the enterprise goal this month serves.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace &amp; Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 runs on managers who can hear why people stay. The systems surface growth and carry moves; the reason to stay is heard in a conversation, and today you practice it until it is bookable.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the goal once, plainly.</li><li>One line, not a lecture: this session is one of the moves that serves it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Here is what you will be able to do in 90 minutes.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-hero.jpg" alt="Slide: Objectives" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Objectives <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Set the contract for the session in under a minute.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;By the end of this session: draft a stay-interview opening and questions for one real person, role only; run live role-play rounds in pairs and hold the listening when it gets hard; sort what a stay interview surfaces and book the real conversation before you leave. That is the whole contract.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Read the three objectives briskly; do not elaborate yet.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Three stops to get there.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-agenda.jpg" alt="Slide: Agenda" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Agenda <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Show the path so the room can pace itself.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three stops: draft the real one, run the rounds, debrief and book. Each one has something to play with, so keep the deck open.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point once at each stop; ten seconds each.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;Stop one.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the read-through, gesture at the slide in passing.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-one.jpg" alt="Slide: Draft the real one" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Draft the real one <span class="mins">Full 8 min · Core 6</span></h2>
+    <p class="purpose">Frame the stay interview as a listening conversation and get every manager to a said-aloud draft for one real person, role only.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. A stay interview is a listening conversation: why do you stay, and what would make staying easier. It is not a review, not a counteroffer, not a rescue mission. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Frame the drafting: one real person, role only, an opening plus two questions, written to be said aloud, never read.</li><li>Show the listening rule card and the In the room context, then run the discussion: what are you afraid they will say? Take a few voices; the fear names the avoided conversation.</li><li>Run the table round: openings read aloud, tables answer with the first feeling, then sharpen. Navigators listen for openings that start with the org chart or with HR.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;What is the first feeling your opening produced at the table?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Seen and valued, when it was specific</li><li>Suspicion, when it sounded like process</li><li>Confusion, when it was vague warmth</li></ul><p class='mini'><b>Respond:</b> The table just gave you the employee's answer in advance. Specific attention lands; process framing and vague warmth get the polite yes.</p>
+    <p class="mini"><b>Debrief:</b> One person, role only, an opening that proves attention, two questions you want answered. The draft is done when the table stops flinching.</p>
+    
+    <p class="mini"><b>Watch for:</b> Managers drafting for their easiest person instead of the one the interview is for. Ask quietly: is this the person you would hate to lose, or the one who is comfortable to ask?</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Drafts ready. Now they get said out loud.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the table round; each manager says their opening to one neighbor and takes the first-feeling answer.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-two.jpg" alt="Slide: Run the rounds" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Run the rounds <span class="mins">Full 10 min · Core 7</span></h2>
+    <p class="purpose">Give every manager live reps: run the draft against a partner playing the employee, and meet the silence and the unfixable answer.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Now the lab part. Pair up. One of you is the manager, running your real draft. The other plays the employee, from the role description only, honestly: give real answers, go quiet when a question deserves thought, and at least once, name something the manager cannot fix. Then swap. Before you start, we train the two moments that break stay interviews: the silence and the unfixable answer.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Run The hard moments on learner devices first; it loads the strong moves before anyone needs them.</li><li>Pair managers across tables so nobody role-plays with someone who knows the real person. Restate the norm once: roles only, never names, and the employee player invents details rather than borrowing a real colleague's.</li><li>Run round one, swap, run round two. Navigators hover, listening for leading questions and rescue promises; they whisper coaching between rounds, never during.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Where did your round stop feeling like role-play?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>The held silence</li><li>The moment the employee player pushed on pay or workload</li><li>When the opening was said instead of read</li></ul><p class='mini'><b>Respond:</b> That moment of realness is the rep you came for. The real interview will feel exactly like that, and now it is familiar instead of frightening.</p>
+    <p class="mini"><b>Debrief:</b> The silence is the answer forming; hold it. The unfixable answer wants honesty and advocacy, never a soft promise. Both moves are now in your hands.</p>
+    
+    <p class="mini"><b>Watch for:</b> Employee players going easy on their partner. Nudge tables: the kindest thing a practice partner can do is make it hard here, where it is cheap.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Rounds done. Now we sort what they surfaced, and book the real thing.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: one round instead of two; whoever did not run a draft books first slot at the next lab, and both still sort answers in the debrief.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-three.jpg" alt="Slide: Debrief and book" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Debrief and book <span class="mins">Full 9 min · Core 6</span></h2>
+    <p class="purpose">Sort the surfaced answers into act, advocate, or follow up, and get the real conversation onto calendars before the capstone.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;A stay interview only retains if the answers go somewhere. Three piles. Things in your control, recognition, growth, attention: act on them fast. Things above you, pay, policy: advocate upward, visibly, and say you did. And warnings, anything that sounds like a foot near the door: those get a follow-up booked now, not a note in a file. Sort what your rounds surfaced, then open your calendar.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Run Sort the answer on learner devices; it names the three piles with clean cases.</li><li>Then the table debrief: each pair reports one line that landed and one hard answer; the table sorts each hard answer together. Chart the piles on the table flip chart so the sorting stays visible.</li><li>Close with the booking: calendars open, the real interview goes into this week or the next two. Ask for hands as invites go out; count aloud.</li></ol>
+    <p class='tagline ask'>Ask</p><p class='script'>&ldquo;Which pile does your hardest practice answer land in?&rdquo;</p><p class='mini'><b>Expect:</b></p><ul><li>Mostly recognition and growth, which surprises people</li><li>Pay and workload, headed upward</li><li>A few real warnings</li></ul><p class='mini'><b>Respond:</b> Notice how much landed in the first pile. Most stay levers are already yours, which is why the interview is worth holding and the follow-through is worth naming.</p>
+    <p class="mini"><b>Debrief:</b> Act on yours, advocate upward visibly, book the follow-up on warnings. And the real interview is on the calendar, which is the only debrief that counts.</p>
+    
+    <p class="mini"><b>Watch for:</b> Bookings quietly skipped by managers whose person is the hardest to face. Circle back personally: that difficulty is the strongest sign the interview is overdue.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Booked. The card makes the commitment portable.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: skip the flip-chart sort; run the trainer, take one hard answer per table aloud, then go straight to calendars.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-belief.jpg" alt="Slide: The core idea" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>The core idea <span class="mins">Full 2 min · Core 1</span></h2>
+    <p class="purpose">Land the one sentence the session exists to install.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: The exit interview is a transcript of the stay interview you never held.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Pause two beats after reading; the word animation carries it.</li></ol>
+    
+    
+    
+    
+    <p class="mini"><b>Transition:</b> &ldquo;The recap makes it stick.&rdquo;</p>
+    <p class="mini core"><b>Core path:</b> Core: pass through in stride; the sentence reads itself.</p>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-recap.jpg" alt="Slide: Recap quiz" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Recap quiz <span class="mins">Full 5 min · Core 4</span></h2>
+    <p class="purpose">Score the learning while it is fresh; wrong answers are teaching moments, not failures.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Give the room 90 seconds to run it individually.</li><li>Ask for a show of results in chat: how many got 3 of 3?</li><li>Read out the explanation for whichever question drew the most misses.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Rushing past the why lines. The explanations carry the teaching.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Now point it at your real week.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-plan.jpg" alt="Slide: Capstone commitment" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Capstone commitment <span class="mins">Full 6 min · Core 4</span></h2>
+    <p class="purpose">Convert the session into one named, dated action per person.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;Make the commitment concrete. The person, role only, the opening you rehearsed, and the window. If the invite is not already sent, the card is where you promise the week it goes. Build it, then copy it somewhere you will see it at your desk. Quiet room, go.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Two quiet minutes; everyone builds their own card.</li><li>Invite two or three volunteers to read their card aloud or paste it in chat.</li><li>Remind: copy the card somewhere you will see it this week.</li></ol>
+    
+    
+    
+    <p class="mini"><b>Watch for:</b> Vague entries. Nudge for a name-able situation and a real date.</p>
+    <p class="mini"><b>Transition:</b> &ldquo;Last slide.&rdquo;</p>
+    
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec__shot"><img src="img/s-close.jpg" alt="Slide: Closing" onerror="this.closest('.sec').classList.add('noimg')"></div>
+    <div class="sec__notes">
+    <h2>Closing <span class="mins">Full 2 min · Core 2</span></h2>
+    <p class="purpose">End with the next step and where this thread continues.</p>
+    <p class="tagline say">Say</p><p class="script">&ldquo;You practiced the conversation most managers never rehearse, and the real one is on your calendar. This month's weekly sessions carry the same theme: Manager Monday reframes the bench as a gift, Take-Off Tuesday points the Talent Marketplace and the Transfer Portal at everyone's own next move, and Thrive Thursday teaches the sponsorship that keeps talent seen. If you want a longer look at keeping your best people, this month's LinkedIn Learning pick is Finding and Retaining High Potentials; a good companion to the interview you just rehearsed, not an assignment. The only deliverable is the conversation on your card.&rdquo;</p>
+    <p class="tagline">Do</p><ol><li>Point at the next-step card; one sentence.</li><li>Name the rest of the week's rhythm: the other sessions echo this month's theme.</li></ol>
+    
+    
+    
+    
+    
+    
+    </div>
+  </div>
+  <p class="mini" style="margin-top:14px;color:#777">Generated from facilitator/notes.json. The on-screen facilitator edition lives at ./ alongside this guide.</p>
+</div>
+</body>
+</html>
