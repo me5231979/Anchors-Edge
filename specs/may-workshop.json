@@ -146,7 +146,7 @@
     }
   ],
   "recapMsgs": {
-    "high": "The lines, the receipt, the page: all working. Take them to real rooms.",
+    "high": "The lines, the receipt, and the page all held up. Take them to real rooms.",
     "mid": "Solid. Reread the camera test, then finish the page.",
     "low": "Worth one more walk through the rounds before the plan goes home."
   },
@@ -177,7 +177,7 @@
     "nextTag": "Your one next step · This week",
     "nextTitle": "Run the first rep on your plan",
     "nextBody": "One behavior, one set moment, one mark a peer could check. When you want another rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there whenever you want it, never required.",
-    "brandline": "Camera-true in. Clean receipt out. One page kept."
+    "brandline": "Say what the camera saw, and keep the page."
   },
   "facilitator": {
     "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 8 to 30 at tables of 4 to 6, with printed scenario cards and the one-page plan worksheet on every table. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
@@ -185,7 +185,7 @@
     "s1": {
       "title": "Camera-true lines",
       "purpose": "Install the camera test and get every participant rewriting verdicts into filmable behavior.",
-      "say": "Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.",
+      "say": "Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. The Center for Creative Leadership has taught this for decades as SBI, situation, behavior, impact, and the camera test is the same discipline with a lens on it. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.",
       "facilitate": [
         "Run Camera or character? on learner devices first, so the test is shared before anyone writes.",
         "Run the pass-left rewrite at each table; walk the room and listen for a strong before-and-after.",
