@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: trade vague career wondering for questions specific enough to answer this week; open a career curiosity conversation with a colleague and keep it generous; turn one curiosity into one small, dated next step. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: trade vague career wondering for questions specific enough to answer this week; open a career curiosity conversation with a colleague and keep it generous; turn one curiosity into one small, dated next step. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: questions for your own path, curiosity conversations, from curious to concrete. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Questions for your own path",
@@ -219,7 +207,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Talent becomes visible the moment somebody asks about it.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Ask one specific question about work you are curious about, then act on the answer.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: build a portal profile that shows your full skills, beyond your current title; find internal roles, projects, and gigs by the skills you want to use; express interest in the open, and know what happens next. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: build a portal profile that shows your full skills, beyond your current title; find internal roles, projects, and gigs by the skills you want to use; express interest in the open, and know what happens next. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: your profile is the signal, search and raise your hand, in the open, and what's next. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Your profile is the signal",
@@ -166,7 +154,7 @@
   {
    "title": "Search and raise your hand",
    "purpose": "Teach skill-first search across roles, gigs, and projects, and the open way to express interest.",
-   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is the lowest-risk way to test a direction ever invented. Then, when something pulls at you, raise your hand in the open.",
+   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is a low-risk way to test a direction. Then, when something pulls at you, raise your hand in the open.",
    "facilitate": [
     "Run Build your first pass; two minutes to make both choices and run it.",
     "Ask a volunteer to read their outcome aloud, weak or strong.",
@@ -221,7 +209,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Your next Vanderbilt role cannot find you if your profile only shows your last one.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Update your profile beyond your title, and raise your hand in the open.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -264,7 +252,7 @@
    "minutes": 1,
    "coreMinutes": 1,
    "purpose": "End with the next step and where this thread continues.",
-   "say": "You leave with the antenna up and a way of searching that finds more than your own job title. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+   "say": "You leave with your profile ready and a way of searching that finds more than your own job title. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
    "facilitate": [
     "Point at the next-step card; one sentence.",
     "Name the rest of the week's rhythm: the other sessions echo this month's theme."

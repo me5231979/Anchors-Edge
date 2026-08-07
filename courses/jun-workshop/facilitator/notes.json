@@ -114,32 +114,20 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: lay your exposure map and skills read side by side and find the insight worth acting on; write two plan lines, one reskill and one redeploy or redesign, each with an owner and a date; pressure-test the plan at the table and leave with the first conversation booked. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: lay your exposure map and skills read side by side and find the insight worth acting on; write two plan lines, one reskill and one redeploy or redesign, each with an owner and a date; pressure-test the plan at the table and leave with the first conversation booked. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the two maps meet, two lines, owners, dates, the table test. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The two maps meet",
    "purpose": "Get both artifacts physically on the table and locate each manager's action-ready insight, roles never names.",
-   "say": "Welcome to the last room of the series year, and the one everything else was furniture for. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.",
+   "say": "Welcome to the last room of the series year. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.",
    "facilitate": [
     "Give quiet time for spreading out and reacquainting; walk the room and admire the maps out loud, it sets the tone.",
     "Show the overlay card, then run the discussion: one touchpoint per manager, the table says the move they see.",
@@ -220,7 +208,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A year of insight earns its keep the day it becomes somebody's owned, dated move.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Write two plan lines with owners and dates, and book the first conversation today.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -245,7 +233,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "The last card of the year. Two lines, owners, dates, roles never names. Write what happens first and when the peer check-in lands, then copy the card somewhere that survives the summer: the front of a notebook, a photo where you plan your week. This card is the year, small enough to carry. Quiet writing time, go.",

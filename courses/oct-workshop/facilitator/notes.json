@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: build a one-page talent map of your team: one line per role, capability beyond the job title; mark flight-risk and growth signals on the map with evidence beside every mark; circle the first conversation the map earns and put a window on it. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: build a one-page talent map of your team: one line per role, capability beyond the job title; mark flight-risk and growth signals on the map with evidence beside every mark; circle the first conversation the map earns and put a window on it. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the inventory pass, the signal pass, the first conversation. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The inventory pass",
@@ -221,7 +209,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A talent read becomes management the day it fits on one page you act from.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Put evidence beside every mark, and act on the one line you circle.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -246,7 +234,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Last build. Your circled line goes on the card: role, mark, evidence, and the first move the map makes this week. Copy it onto your phone or fold it into your bag, and book the conversation before you leave the building if you can. Quiet couple of minutes, then a few read-alouds.",

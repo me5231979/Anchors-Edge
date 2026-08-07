@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: rewrite your profile's weakest lines into named capabilities a searcher could find; explore one real gig or opening in the transfer portal and read it against your profile; leave with your hand up on one opportunity, or one barrier named to a navigator. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: rewrite your profile's weakest lines into named capabilities a searcher could find; explore one real gig or opening in the transfer portal and read it against your profile; leave with your hand up on one opportunity, or one barrier named to a navigator. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the line rewrite, the portal walk, hand up or barrier named. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The line rewrite",
@@ -221,7 +209,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A profile improves the day someone else reads it and the Portal gets to answer.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Have someone else read your profile, then explore one real opening before you leave.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -246,7 +234,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Last two minutes of building. The card holds your opening, your exit, and the move that keeps the momentum: the next line, the navigator twenty, or the open word with your manager. Write it, copy it to your phone, and if your exit was a raised hand, consider making it real before you stand up. The navigators are staying after; barriers welcome.",

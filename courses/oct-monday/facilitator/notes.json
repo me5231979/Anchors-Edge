@@ -178,7 +178,7 @@
   {
    "title": "One conversation",
    "purpose": "Convert the read into a specific conversation with a strong opening and one real question.",
-   "say": "A talent read that never leaves your head retains nobody. SHRM's stay interview guidance keeps the format simple, five questions and the discipline to act on the answers, but the whole thing lives or dies on how you open and what you ask. So that is what we build.",
+   "say": "The read only helps once somebody hears it. SHRM's stay interview guidance keeps the format simple, five questions and the discipline to act on the answers. The opening and the first question decide how the whole conversation goes, so those are the two choices we build now.",
    "facilitate": [
     "Run Build the conversation; give the room two minutes to make both choices and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -206,7 +206,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: You cannot retain, grow, or move talent you have never seen.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Inventory your team's skills before you decide who to retain, grow, or move.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

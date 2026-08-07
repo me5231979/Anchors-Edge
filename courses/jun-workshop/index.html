@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Defining the great university of the 21st Century is, in the end, a set of kept plans, and managers leaving this room with owners and dates are Exceptional Core Operations at work.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -153,7 +171,7 @@
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="wrap">
       <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · From Insight to Action</p>
-      <h1 class="h-hero" data-reveal>The year lands <em class="gold-text">on one page</em>.</h1>
+      <h1 class="h-hero" data-reveal>Turn the year's insight into <em class="gold-text">a plan</em>.</h1>
       <p class="lead" data-reveal style="margin-top:1.25rem">Bring the exposure map and your skills read. This lab turns them into two plan lines with owners and dates, pressure-tested by managers who ask hard questions kindly.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
@@ -167,27 +185,17 @@
         <span class="skillpill skillpill--core">Leads through change</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Decision Making</span><span class="skillpill">AI Literacy</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>The two maps meet</h3><p>Exposure map and skills read, side by side, until an insight worth acting on appears.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Two lines, owners, dates</h3><p>Write the reskill line and the redeploy or redesign line, specific enough to check.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The table test</h3><p>Read your plan to managers who probe it, then book the first conversation.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="The two maps meet">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Overlay</p>
-      <h2 class="h2" data-reveal>Lay the year <em>on the table</em>.</h2>
+      <h2 class="h2" data-reveal>Lay both maps <em>side by side</em>.</h2>
       <p class="lead" data-reveal>Physically spread both artifacts: the exposure map that says which work is changing, and the skills read that says who could grow. The plan lives where they touch: an exposed task next to a hidden strength. Roles only, never names, even on your own worksheet.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The overlay rule</span>
@@ -195,7 +203,7 @@
       </div>
       <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
         <span class="tag">In the room</span>
-        <p style="margin:.5rem 0 0" class="measure">This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done, which is why today can be all verbs.</p>
+        <p style="margin:.5rem 0 0" class="measure">This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done; today is for writing the moves.</p>
         <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Where do your two maps touch first? Name the task and the strength, roles only, and let the table say what move they see.</p>
       </div>
       <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
@@ -228,8 +236,8 @@
   <!-- ============ SECTION 03 ============ -->
   <section class="slide on-cream" id="s-three" data-count data-title="The table test">
     <div class="wrap">
-      <p class="eyebrow" data-reveal>Section 03 · The Send-Off</p>
-      <h2 class="h2" data-reveal>Plans get strong in <em>other people's hands</em>.</h2>
+      <p class="eyebrow" data-reveal>Section 03 · The Test</p>
+      <h2 class="h2" data-reveal>Test the plan <em>out loud</em>.</h2>
       <p class="lead" data-reveal>Last build of the year, out loud. Kotter's change research found efforts mostly fail in the telling, so your plan meets the table: managers asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked.</p>
       <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Practice · Send the plan home</p>
@@ -241,7 +249,7 @@
         </div>
         <div class="lab__outcome" hidden aria-live="polite"></div>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Leading change: why transformation efforts fail, John Kotter (HBR)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Leading change: why transformation efforts fail, John Kotter (HBR)</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Read your two lines to the table. Listeners ask the card questions: what does the owner need, what will the person hear, what slips first? Revise on the spot.</p>
     </div>
   </section>
@@ -250,7 +258,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>A year of insight earns its keep the day it becomes somebody's owned, dated move.</p>
+      <p>Write two plan lines with owners and dates, and book the first conversation today.</p>
     </div>
   </section>
 
@@ -278,7 +286,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My workforce plan</p>
-      <h2 class="h2" data-reveal>The year, folded into <em>two lines</em>.</h2>
+      <h2 class="h2" data-reveal>Write the two lines <em>before you leave</em>.</h2>
       <p class="lead" data-reveal>Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -312,7 +320,7 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">You saw it all year. <em>Now move it.</em></h2>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Hold the first conversation <em>this week</em>.</h2>
       <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">The year opened with reading the talent around you, and it closes with you holding a plan built from everything since. The season wraps; the habits and the plan keep going, and the rhythm comes back around.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
@@ -328,7 +336,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Insight, owned and dated, is action.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Give every insight an owner and a date.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../index.html">Anchor's Edge dashboard</a>
       <span>The Action Lab · Navigator Workshop · Anchor's Edge</span>

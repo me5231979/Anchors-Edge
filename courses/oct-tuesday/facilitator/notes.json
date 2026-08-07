@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: explain what the talent marketplace shows: skills, needs, and opportunities across the university; describe what a current skills profile does for you, and what a stale one quietly costs; rewrite one duty from your job into a named, searchable skill on your profile. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: explain what the talent marketplace shows: skills, needs, and opportunities across the university; describe what a current skills profile does for you, and what a stale one quietly costs; rewrite one duty from your job into a named, searchable skill on your profile. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: what the system sees, what you gain, make your skills legible. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "What the system sees",
@@ -218,7 +206,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A skill the university cannot see is a skill it cannot use, grow, or promote.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Write every real skill onto your profile, in words a searcher would type.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

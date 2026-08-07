@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Defining the great university of the 21st Century happens one personal plan at a time, and Exceptional Core Operations runs on staff who know their own next step with AI.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -167,21 +185,11 @@
         <span class="skillpill skillpill--core">AI Literacy</span><span class="skillpill">Planning and Prioritization</span><span class="skillpill">Adaptability</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>One skill to build</h3><p>Pick a skill that is small, near your real work, and finishable in 90 days.</p></div></li><li data-reveal><span class="num">02</span><div><h3>One task for AI</h3><p>Choose a green task to hand over, and run it through the traffic light first.</p></div></li><li data-reveal><span class="num">03</span><div><h3>One habit to keep human</h3><p>Name the thing you keep doing yourself, on purpose, and date the review.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="One skill to build">
@@ -259,7 +267,7 @@
         </div>
         <div class="lab__outcome" hidden aria-live="polite"></div>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://hbr.org/2014/05/get-your-team-to-do-what-it-says-its-going-to-do" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">If-then planning, Heidi Grant, Harvard Business Review (2014)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://hbr.org/2014/05/get-your-team-to-do-what-it-says-its-going-to-do" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">If-then planning, Heidi Grant, Harvard Business Review (2014)</a></p>
       <details class="deeper" data-webonly hidden data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
         <div class="deeper__body">
@@ -275,7 +283,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>A dated 90-day plan beats a someday intention, and it only takes three lines.</p>
+      <p>Write the three lines, date each one, and book the day-30 review with a witness.</p>
     </div>
   </section>
 
@@ -303,7 +311,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My 90-day plan</p>
-      <h2 class="h2" data-reveal>Three lines, and the clock <em>starts today</em>.</h2>
+      <h2 class="h2" data-reveal>Write your three lines <em>now</em>.</h2>
       <p class="lead" data-reveal>Write your three lines: the skill, the green-light handoff, the human habit. Keep everything task level, no names, no private details. Nothing you type is saved or sent.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -337,7 +345,7 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Ninety days is <em>enough</em>.</h2>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Date the lines, book the <em>review</em>.</h2>
       <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with three dated lines and a review that will actually happen. Thursday wraps the series year with the skill underneath every plan: deciding while the deciding is good.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>

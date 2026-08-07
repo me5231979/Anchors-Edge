@@ -51,7 +51,7 @@
           {"t": "Routine casework shrinks; a coordinator's untapped data skill fits the analysis gap", "correct": true, "why": "Two coordinates: a changing task and a strength to grow into it. That sentence is one owner and one date away from being a move."},
           {"t": "We should hire an AI specialist to sort this out", "correct": false, "why": "Hire is the last move, after reskill, redeploy, and redesign have been honestly tried. The maps on your table usually contain the earlier answer."}
         ],
-        "context": "This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done, which is why today can be all verbs.",
+        "context": "This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done; today is for writing the moves.",
         "discuss": "Where do your two maps touch first? Name the task and the strength, roles only, and let the table say what move they see."
       }
     },
@@ -83,8 +83,8 @@
       "id": "s-three",
       "nav": "The Table Test",
       "dataTitle": "The table test",
-      "eyebrow": "The Send-Off",
-      "headline": "Plans get strong in <em>other people's hands</em>.",
+      "eyebrow": "The Test",
+      "headline": "Test the plan <em>out loud</em>.",
       "lead": "Last build of the year, out loud. Kotter's change research found efforts mostly fail in the telling, so your plan meets the table: managers asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked.",
       "group": "Read your two lines to the table. Listeners ask the card questions: what does the owner need, what will the person hear, what slips first? Revise on the spot.",
       "source": {"label": "Leading change: why transformation efforts fail, John Kotter (HBR)", "url": "https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail"},
@@ -152,7 +152,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My workforce plan",
-    "headline": "The year, folded into <em>two lines</em>.",
+    "headline": "Write the two lines <em>before you leave</em>.",
     "lead": "Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.",
     "whoLabel": "Your two lines: the reskill, and the redeploy or redesign, with owners and dates.",
     "whoPlaceholder": "e.g. reskill senior coordinator toward exceptions, talk booked Friday; redesign intake role around what stays human",
@@ -172,12 +172,12 @@
     "evidenceRow": "At the peer check-in, one line: which move is in motion, and what did it already teach you?"
   },
   "closing": {
-    "headline": "You saw it all year. <em>Now move it.</em>",
+    "headline": "Hold the first conversation <em>this week</em>.",
     "lead": "The year opened with reading the talent around you, and it closes with you holding a plan built from everything since. The season wraps; the habits and the plan keep going, and the rhythm comes back around.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Hold the investment conversation",
     "nextBody": "The person whose work is changing hears it from you first, this week, framed as growth. This month's LinkedIn Learning course, Leading Your Team Through Change, is a warm companion for that conversation and the season after it, there whenever you want it.",
-    "brandline": "Insight, owned and dated, is action."
+    "brandline": "Give every insight an owner and a date."
   },
   "facilitator": {
     "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6. Managers were invited to bring their exposure map and skills notes from the year; blank templates on every table catch anyone who arrives without them. This is the capstone lab of the series year: expect warmth, and leave room for it.",
@@ -185,7 +185,7 @@
     "s1": {
       "title": "The two maps meet",
       "purpose": "Get both artifacts physically on the table and locate each manager's action-ready insight, roles never names.",
-      "say": "Welcome to the last room of the series year, and the one everything else was furniture for. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.",
+      "say": "Welcome to the last room of the series year. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.",
       "facilitate": [
         "Give quiet time for spreading out and reacquainting; walk the room and admire the maps out loud, it sets the tone.",
         "Show the overlay card, then run the discussion: one touchpoint per manager, the table says the move they see.",

@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: name the four workforce moves: reskill, redeploy, redesign, and hire; match one ai-exposure insight from your team to the move it calls for; commit to one move with a named owner and a real date. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: name the four workforce moves: reskill, redeploy, redesign, and hire; match one ai-exposure insight from your team to the move it calls for; commit to one move with a named owner and a real date. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the four moves, the match, owner and date. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The four moves",
@@ -217,7 +205,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: An insight without a move is just a slide. Give it a verb and a date.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Match each AI insight to one of the four moves, then give it an owner and a date.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

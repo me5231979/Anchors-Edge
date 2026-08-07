@@ -114,32 +114,20 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: reframe an internal move as a retention win for vanderbilt, and hoarding as the real leak; respond well in the moment someone tells you they applied internally; choose one move that builds a reputation for sending talent well. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: reframe an internal move as a retention win for vanderbilt, and hoarding as the real leak; respond well in the moment someone tells you they applied internally; choose one move that builds a reputation for sending talent well. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the sending mindset, the moment they tell you, the reputation you build. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The sending mindset",
    "purpose": "Install the reframe: an internal move keeps talent at Vanderbilt, and hoarding is the real leak.",
-   "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps a proven person and everything they know. Hold someone in place past their growth and you have not kept them, you have delayed them, and the delay usually ends out the front door. Gartner has a name for that habit, talent hoarding, and finds it is one of the main reasons internal mobility stalls in organizations. It feels like retention. It is the leak.",
+   "say": "When someone moves from your team to another department, the university keeps a proven person and everything they know. Hold someone in place past their growth and you have delayed them rather than kept them, and the delay usually ends out the front door. Gartner has a name for that habit, talent hoarding, and finds it is one of the main reasons internal mobility stalls in organizations. It feels like retention; the research says it drives people out.",
    "facilitate": [
     "Read the sending math card aloud once; it is the section's whole argument.",
     "Show the in-the-room card; it carries the frame in place of the quiz. Let it land for a beat.",
@@ -191,7 +179,7 @@
   {
    "title": "The reputation you build",
    "purpose": "Show that public send-offs are recruiting, and build one worth copying.",
-   "say": "Nobody reads your leadership philosophy. Everybody watches your send-offs. When someone leaves your team for another department, the person leaving, the team staying, and everyone deciding where to grow next are all taking notes. A manager people grow and go well from never has an empty pipeline. So let's build the send-off that earns that.",
+   "say": "When someone leaves your team for another department, three audiences watch: the person leaving, the team staying, and everyone deciding where to grow next. Handled well, a departure proves growth is real on your team, and that reputation fills your next opening. So let's build a send-off worth copying.",
    "facilitate": [
     "Run Build the send-off; two minutes to choose both slots and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Talent you release inside Vanderbilt is talent you kept.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: When someone applies internally, thank them and back the move out loud.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

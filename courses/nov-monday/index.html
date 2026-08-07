@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 1 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Managers who send talent well make Vanderbilt a place people can build a whole career, and that is Destination Vanderbilt at work.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 1 · Talent Marketplace &amp; Transfer Portal</span>
-        <p style="margin:.5rem 0 0" class="measure">Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -154,7 +172,7 @@
     <div class="wrap">
       <p class="eyebrow" data-reveal>Manager Monday · The manager lens · The Transfer Portal in Practice</p>
       <h1 class="h-hero" data-reveal>Release talent <em class="gold-text">well</em>.</h1>
-      <p class="lead" data-reveal style="margin-top:1.25rem">Most managers flinch when someone says 'I applied for a role in another department.' This session teaches you to hear that as a win and answer it well.</p>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Someone on your team will eventually say 'I applied for a role in another department.' This session teaches why that moment is a retention win and how to answer it well.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
         <ol class="objectives__list">
@@ -167,21 +185,11 @@
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Internal Mobility</span><span class="skillpill">Retention</span><span class="skillpill">Talent Management</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>The sending mindset</h3><p>Why an internal move is a retention win, and why hoarding is the real leak.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The moment they tell you</h3><p>The first sixty seconds after someone says they applied internally.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The reputation you build</h3><p>Send-offs that make your team the one people ask to join.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="The sending mindset">
@@ -191,7 +199,7 @@
       <p class="lead" data-reveal>When someone moves from your team to another Vanderbilt role, the university keeps a proven person. Holding them in place works for a while, and then a recruiter calls. Gartner has a name for that pattern: talent hoarding.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The sending math</span>
-        <p style="margin:.5rem 0 0" class="measure">Hold someone past their growth and their next move is usually out the front door. Send them to another Vanderbilt role and the university keeps them. Hoarding feels like retention; it is a slow leak with your name on it.</p>
+        <p style="margin:.5rem 0 0" class="measure">Hold someone past their growth and their next move is usually out the front door. Send them to another Vanderbilt role and the university keeps them. Hoarding feels like retention; in practice it drives people out.</p>
       </div>
       <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
         <span class="tag">In the room</span>
@@ -203,7 +211,7 @@
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="Your team has a gap to fill, and that is real. But Vanderbilt kept a proven person, and a gap can be hired; walked-out talent cannot."><span class="mark">A</span><span>Lost a coordinator</span></button><button class="opt" data-correct="1" data-why="Exactly. Goal 1 counts moves to internal opportunity as retention. The realistic alternative to that move was rarely staying; it was a recruiter's call."><span class="mark">B</span><span>Retained a proven employee</span></button><button class="opt" data-correct="0" data-why="Usually the opposite. Teams watch how moves are treated. A supported move tells everyone that growth is real here."><span class="mark">C</span><span>Created a fairness problem for the team</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2024-09-18-gartner-hr-research-finds-orgs-current-talent-management-efforts-inhibit-optimal-employee-and-org-performance" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Talent hoarding research, Gartner HR (2024)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://www.gartner.com/en/newsroom/press-releases/2024-09-18-gartner-hr-research-finds-orgs-current-talent-management-efforts-inhibit-optimal-employee-and-org-performance" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Talent hoarding research, Gartner HR (2024)</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: think of someone who left your team, for anywhere. Would a Vanderbilt move have kept them? 90 seconds each way.</p>
       <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Think of someone who left your team. Would an internal move have kept them at Vanderbilt?</p>
       <details class="deeper" data-webonly hidden data-reveal>
@@ -220,11 +228,11 @@
   <section class="slide on-dark" id="s-two" data-count data-title="The moment they tell you">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 02 · The Moment</p>
-      <h2 class="h2" data-reveal>The first sixty seconds <em>decide the story</em>.</h2>
+      <h2 class="h2" data-reveal>Rehearse the first <em>sixty seconds</em>.</h2>
       <p class="lead" data-reveal>Someone gathers the nerve to tell you they applied internally. Whatever you say in the next minute becomes the story they tell their colleagues. Read each manager reply below and call what it really is.</p>
       <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the response</p>
-        <p class="why" style="margin-top:0"><b>Why this matters:</b> People replay a manager's first reaction for years. Read each reply and call it.</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Read each reply and call it: sending, hoarding, or a hedge. Anything that slows the move or asks for quiet reads as hoarding, whatever the wrapper.</p>
         <p class="quiz__progress"></p>
         <p class="quiz__q" style="margin-top:.4rem"></p>
         <div class="quiz__options" role="group" aria-label="Choices"></div>
@@ -275,7 +283,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>Talent you release inside Vanderbilt is talent you kept.</p>
+      <p>When someone applies internally, thank them and back the move out loud.</p>
     </div>
   </section>
 
@@ -303,7 +311,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My sending move</p>
-      <h2 class="h2" data-reveal>One move that says <em>grow here, go well</em>.</h2>
+      <h2 class="h2" data-reveal>Make your sending stance <em>visible</em>.</h2>
       <p class="lead" data-reveal>Pick the move that makes your sending stance visible this week. Roles, never names; nothing you type is saved or sent.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -337,7 +345,7 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Release them well. <em>Keep them here.</em></h2>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Make the sending move <em>this week</em>.</h2>
       <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with a rehearsed first minute and a send-off worth copying. The rest of this week walks the Transfer Portal itself, from both sides of the door.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
@@ -353,7 +361,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Move people to opportunity without moving them out.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Rehearse the first minute before you need it.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../index.html">Anchor's Edge dashboard</a>
       <span>The Sending Manager · Manager Monday · Anchor's Edge</span>
@@ -492,7 +500,7 @@ window.COURSE = {
   }
  ],
  "recapMsgs": {
-  "high": "The mindset is loaded. Now pick the move that makes it visible.",
+  "high": "Strong recall. Pick the sending move that fits your team and build the card.",
   "mid": "Solid. Revisit the section you missed, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
