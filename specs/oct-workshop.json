@@ -116,7 +116,7 @@
         "labels": ["Circle it, conversation this week", "Growth move, feed it soon", "Keep reading, no conversation yet"],
         "passAt": 2,
         "passMsg": "You can triage a map. Risk with evidence gets the circle, growth asks get fed, thin marks get watched.",
-        "failMsg": "Close. The tell: evidence plus cost decides the circle. Strong evidence on someone costly to lose goes first; thin evidence earns watching, never a talk.",
+        "failMsg": "Close. Evidence and cost decide the circle together. Strong evidence on someone costly to lose goes first; thin evidence earns watching, never a talk yet.",
         "items": [
           {"q": "Senior analyst: three declined projects, dated; the only person who knows the grant system.", "answer": 0, "why": "Strong evidence and the highest cost on the page. Waiting a month to check this read could cost you the person and the grant system with them."},
           {"q": "Coordinator: dated growth mark, asked twice about facilitation training, work still strong.", "answer": 1, "why": "No risk pattern, a live ask. Feed it soon: fund it or find them a room to run. Ignored growth asks are how growth marks turn into risk marks."},
@@ -130,7 +130,7 @@
       "q": "What makes a talent map line usable?",
       "opts": ["It lists tenure and ratings", "A stranger could act on it: capabilities, roles only", "It matches the job description", "It records how hard the person works"],
       "correct": 1,
-      "why": "The stranger test. Capability in role-only language turns a page of notes into a map someone can staff, grow, and plan succession from."
+      "why": "The stranger test. Capability in role-only language turns a page of notes into a map someone could actually staff and plan from."
     },
     {
       "q": "What does every mark on the map need beside it?",
@@ -172,7 +172,7 @@
     "evidenceRow": "Afterward, one line: what did acting on the map show you that drawing it did not?"
   },
   "closing": {
-    "headline": "One page. One circle. <em>One week.</em>",
+    "headline": "Take the map home and <em>act on it</em>.",
     "lead": "You drew the map, defended the marks, and circled the first conversation. That page is the month's teaching made physical: keep it where you plan your week.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Hold the circled conversation",
@@ -185,7 +185,7 @@
     "s1": {
       "title": "The inventory pass",
       "purpose": "Get every manager's grid drawn: one line per role, capability language, the stranger test as the quality bar.",
-      "say": "This is a working session, so paper up. One line for every person on your team, role only, never a name, and in that line what they can actually do: skills the job uses, skills it ignores, skills they are building. The bar for each line is the stranger test: could someone who has never met your team read the line and find that person a project? We write first and polish after.",
+      "say": "This is a working session, so paper up. One line for every person on your team, role only, never a name, and in that line what they can actually do, including the skills the job never asks for. The bar is the stranger test: could someone who has never met your team read the line and find that person a project? We write first and polish after. And if the hour feels expensive, Gallup's strengths research prices it for you. People who get to use what they are best at every day are about six times as likely to be engaged, and measurably less likely to quit. You cannot use strengths you have never written down.",
       "facilitate": [
         "Hand out the map sheets, or point tables to the template on their devices; the flip chart carries the two rules: roles never names, capabilities never duties.",
         "Give the room quiet drawing time; walk the tables and read over shoulders for duty-list lines.",
@@ -205,7 +205,7 @@
     "s2": {
       "title": "The signal pass",
       "purpose": "Add risk and growth marks with written evidence, and calibrate the evidence bar through a table swap.",
-      "say": "Second pass. Go back over your lines and mark two things: risk, where ownership behavior has changed against that person's own baseline, and growth, where someone has asked to build something. Here is the discipline that makes the map trustworthy: every mark gets its evidence written beside it, with a date. A mark you cannot evidence is a mood, and moods do not belong on a document you will act from.",
+      "say": "Second pass. Go back over your lines and mark two things: risk, where ownership behavior has changed against that person's own baseline, and growth, where someone has asked to build something. The discipline that makes the map trustworthy is small. Every mark gets its evidence written beside it, with a date. A mark you cannot evidence is a mood, and moods do not belong on a document you will act from.",
       "facilitate": [
         "Run Mark the line from the front; managers choose on their own devices, then mark their real maps.",
         "Walk the room during marking; quietly ask for the evidence behind any mark you see land fast.",

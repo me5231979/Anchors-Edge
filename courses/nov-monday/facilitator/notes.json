@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Managers who send talent well make Vanderbilt a place people can build a whole career. That is Destination Vanderbilt at work: a university that will define the century keeps its people by letting them move toward their best work.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Managers who send talent well make Vanderbilt a place people can build a whole career, and that is Destination Vanderbilt at work. This month serves Goal 1, Talent Marketplace & Transfer Portal.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 built the Transfer Portal; last month taught managers to see the talent around them. Now the Portal needs senders: this session makes releasing talent a management skill, starting with the moment someone says they applied.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "The sending mindset",
    "purpose": "Install the reframe: an internal move keeps talent at Vanderbilt, and hoarding is the real leak.",
-   "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps the person, the knowledge, and the relationships. When you hold someone in place past their growth, you do not keep them. You delay them, and their next move is usually out the front door. Hoarding feels like retention. It is the leak.",
+   "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps a proven person and everything they know. Hold someone in place past their growth and you have not kept them, you have delayed them, and the delay usually ends out the front door. Gartner has a name for that habit, talent hoarding, and finds it is one of the main reasons internal mobility stalls in organizations. It feels like retention. It is the leak.",
    "facilitate": [
     "Read the sending math card aloud once; it is the section's whole argument.",
     "Show the in-the-room card; it carries the frame in place of the quiz. Let it land for a beat.",
@@ -172,13 +159,13 @@
    "transition": "The mindset gets tested in one specific minute. Here it is.",
    "coreNote": "Core: skip the breakout; run the context card and take one discussion voice in chat.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "The moment they tell you",
    "purpose": "Rehearse the first sixty seconds after someone says they applied internally, so the trained response beats the reflex.",
-   "say": "At some point this year, someone will gather their nerve for a week and then tell you they applied for an internal role. Your face and your first sentence become the story they tell. The reflex is loss, and the reflex will show unless you have rehearsed something better. So we rehearse: gratitude first, curiosity second, backing third, and the whole thing in the open. The Portal has no secrecy in it, and neither should you.",
+   "say": "At some point this year, someone will gather their nerve for a week and then tell you they applied for an internal role. Your face and your first sentence become the story they tell. The reflex is loss, and the reflex will show unless you have rehearsed something better. So we rehearse. Say thank you, get curious about the role, then back them where people can hear it. The Portal has no secrecy in it, and neither should you.",
    "facilitate": [
     "Run Call the response live; everyone plays on their own screen.",
     "After round three, pause on the hedge: ask why 'keep it between us' undoes the support.",
@@ -193,13 +180,13 @@
     ],
     "respond": "All of it. Secrecy converts a supported move into a guilty one. If the move is good, it can be public; if it needs hiding, ask yourself from whom."
    },
-   "debrief": "Feel the loss privately; give them the backing publicly. Rehearsed words are how the better manager shows up first.",
+   "debrief": "Feel the loss privately and give the backing publicly. Rehearsed words are how the better manager shows up first.",
    "watchFor": "Managers arguing the hedge is reasonable during a busy season. Acknowledge the pressure, then re-anchor: timing talk is fine; secrecy is never part of it.",
    "transition": "One moment handled well is good. A pattern of them builds something better: a reputation.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the hedge question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "The reputation you build",
@@ -276,7 +263,7 @@
    "minutes": 1,
    "coreMinutes": 1,
    "purpose": "End with the next step and where this thread continues.",
-   "say": "You leave with a mindset, sixty seconds of rehearsed words, and a send-off standard. Tomorrow's Take-Off Tuesday walks the Transfer Portal itself, end to end, so you can see exactly what your people see when they raise a hand. Thursday's Thrive session is on networking, building the internal bridges that make these moves normal. And if you want the deeper course this month, it is Building Your Team by Chris Croft on LinkedIn Learning, alongside the navigators' live Portal walkthrough.",
+   "say": "You leave with rehearsed words for the hardest minute and a send-off standard for the rest. Tomorrow's Take-Off Tuesday walks the Transfer Portal itself, end to end, so you can see exactly what your people see when they raise a hand. Thursday's Thrive session is on networking, building the internal bridges that make these moves normal. And if you want the deeper course this month, it is Building Your Team by Chris Croft on LinkedIn Learning, alongside the navigators' live Portal walkthrough.",
    "facilitate": [
     "Point at the next-step card; one sentence.",
     "Name the rest of the week's rhythm: the other sessions echo this month's theme."

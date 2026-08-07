@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century is the work of thousands of individual plans, yours included. Exceptional Core Operations happens when every staff member knows what AI takes, what they keep, and what they build next.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century happens one personal plan at a time, and Exceptional Core Operations runs on staff who know their own next step with AI. This month serves Goal 3, AI-Enabled Workforce Readiness.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 measures whether AI insight becomes practical action. Your 90-day plan is the smallest complete unit of that action: personal, dated, reviewable.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -171,7 +158,7 @@
    "transition": "Line two: the task you stop doing by hand.",
    "coreNote": "Core: skip the breakout; collect three shrunken skills in chat.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -196,13 +183,13 @@
    "transition": "Two lines down. The third line is the one you keep.",
    "coreNote": "Core: run the trainer, skip the breakout, one voice on the debrief.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "One habit to keep human",
    "purpose": "Name a deliberate human habit and assemble the dated, reviewable plan.",
-   "say": "The third line is different: it is the thing you keep doing yourself, on purpose. Everyone has work where the doing is the point: the hard message, the handwritten thanks, the first read of a colleague's draft. Naming yours keeps the plan honest. Then we assemble all three lines into something with dates and a witness.",
+   "say": "The third line is different: it is the thing you keep doing yourself, on purpose. Everyone has work where the doing is the point; for a lot of us it is the hard message we need to draft alone. Naming yours keeps the plan honest. Then we assemble all three lines into something with dates and a witness, and the dates are not decoration. Heidi Grant's if-then planning research in HBR found that people who decide in advance when and where they will act follow through at far higher rates. A dated line is an if-then in disguise.",
    "facilitate": [
     "Ask for human-habit examples in chat before the builder; read two aloud.",
     "Run Assemble the plan; two minutes for both choices.",
@@ -230,7 +217,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A 90-day plan beats a someday intention: one skill, one task, one habit, all dated.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A dated 90-day plan beats a someday intention, and it only takes three lines.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

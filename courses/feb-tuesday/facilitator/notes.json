@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes talent that keeps growing here. Destination Vanderbilt means people choose to come; a staff member with a real plan for their next internal move is someone who keeps choosing to stay.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Destination Vanderbilt means people choose to come here, and a staff member with a real plan for their next internal move keeps choosing to stay. This month serves Goal 1, Talent Marketplace & Transfer Portal.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 connects employees to internal opportunities across the university. The systems exist and you know them; today is about pointing them at your own growth and your own next move.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "The tools, pointed at you",
    "purpose": "Reconnect the room to the two talent systems and turn them from things people know into a personal planning kit.",
-   "say": "You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your growth, your direction, your next move, planned on purpose.",
+   "say": "You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your own growth, planned on purpose.",
    "facilitate": [
     "Read the concept card once; the two-jobs split is the whole slide.",
     "Show the In the room card, then open the discussion prompt: what did you privately wonder about your own next move? Take two or three voices.",
@@ -172,7 +159,7 @@
    "transition": "So the plan runs on your profile and your direction. Time to build both.",
    "coreNote": "Core: skip the breakout; take answers to the discussion prompt in chat.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -198,13 +185,13 @@
    "transition": "Profiles ready. One thing left: believing it is safe to use them.",
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Moving is normal",
    "purpose": "Retire the loyalty myths and state internal mobility as a normal, encouraged Vanderbilt career path.",
-   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. A move across the university keeps your talent, your relationships, and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
+   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. LinkedIn's workplace research backs it with numbers; organizations good at internal mobility keep their people nearly twice as long. A move across the university keeps your skills and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
    "facilitate": [
     "Run Myth or normal? live; everyone plays on their own screen.",
     "After round one, pause: ask who has heard that myth somewhere, show of hands or chat.",
@@ -219,7 +206,7 @@
     ],
     "respond": "Name each one back to the room. The manager fear is the myth we just retired; the qualification fear is why matching runs on skills, never titles."
    },
-   "debrief": "Myths punish ambition, and they only survive in silence. Vanderbilt is saying the opposite out loud: move, grow, stay.",
+   "debrief": "Myths only survive in silence, and Vanderbilt is saying the opposite out loud. The numbers agree: people who can move inside an organization stay with it.",
    "watchFor": "Anyone hearing this as a promise of promotions. The commitment is visibility of opportunity and safety to pursue it, never a guaranteed yes.",
    "transition": "Quick recap, then you build your next-move card.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question.",
@@ -261,7 +248,7 @@
    "minutes": 4,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
-   "say": "Now make it real. One direction, in your own words: the kind of work you would say yes to. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "say": "Now make it real. One direction, in your own words: the kind of work you would say yes to. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Take two quiet minutes now.",
    "facilitate": [
     "Two quiet minutes; everyone builds their own card.",
     "Invite two or three volunteers to read their card aloud or paste it in chat.",

@@ -70,7 +70,7 @@
       "dataTitle": "Safe to say",
       "eyebrow": "The Myths",
       "headline": "Most silence is built on a <em>myth</em>.",
-      "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Most of that is myth the plumbing already handles; one is a real norm worth keeping, and the skill is telling them apart.",
+      "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Most of that is myth the plumbing already handles; one is a real norm, and the skill is telling them apart.",
       "group": "Pairs: which myth have you half-believed at survey time, and what does the tooling actually do? 90 seconds each way.",
       "solo": "Name the myth you have half-believed at survey time, and what the tooling actually does instead.",
       "interaction": {
@@ -266,7 +266,7 @@
       "transition": "Quick recap, then your card.",
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
-    "capstoneSay": "Make it yours. Name the next moment your signal shows up, pick the move, pick the window, and build the card. Roles, never names, and nothing you type leaves your screen. Two minutes, quiet, go.",
+    "capstoneSay": "Make it yours. Name the next moment your signal shows up, pick the move, pick the window, and build the card. Roles, never names, and nothing you type leaves your screen. Two quiet minutes, starting now.",
     "closeSay": "You leave knowing the plumbing, the myths, and the read. Spend your next answer honestly. On Thursday, Thrive Thursday takes the last step inward: self-awareness and closing the blind spots your feedback keeps pointing at. And if you want a rehearsal first, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a feedback role-play with its navigator in about twenty minutes.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},

@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
-   "minutes": 3,
+   "title": "Why we're here",
+   "minutes": 4,
    "coreMinutes": 2,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century is, in the end, a set of kept plans. Managers leaving this room with owners and dates are Exceptional Core Operations turning a year of seeing into a season of doing.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century is, in the end, a set of kept plans, and managers leaving this room with owners and dates are Exceptional Core Operations at work. This month serves Goal 3, AI-Enabled Workforce Readiness.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 3,
-   "coreMinutes": 2,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 ends at action: AI insight translated into practical workforce moves. This capstone lab is the translation done in company, with witnesses.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 90 minutes."
   },
@@ -172,7 +159,7 @@
    "transition": "You have the insight. Now it becomes two lines with owners and dates.",
    "coreNote": "Core: skip the neighbor exercise; each manager marks one touchpoint solo and says it in one sentence at the table.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -198,13 +185,13 @@
    "transition": "The lines exist. Time to let other managers bend them.",
    "coreNote": "Core: draft the reskill line fully; the second line can leave as a labeled stub with its owner and date set at the peer check-in.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "The table test",
    "purpose": "Pressure-test each plan aloud at the table, then convert momentum into a booked first conversation and peer check-in.",
-   "say": "Here is why this lab is in person: plans get strong in other people's hands. You will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.",
+   "say": "Here is why this lab is in person: plans get strong in other people's hands. John Kotter studied over a hundred organizations trying to change, and the efforts that died usually died of undercommunication, not bad planning. So you will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.",
    "facilitate": [
     "Run Send the plan home on learner devices; the who-hears-it-first pattern sets up the read-alouds.",
     "Run the table test: each manager reads, card questions fly, revisions happen on the spot; keep tables moving so everyone gets tested.",
@@ -258,10 +245,10 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 6,
-   "coreMinutes": 4,
+   "minutes": 5,
+   "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
-   "say": "The last card of the year. Two lines, owners, dates, roles never names. Write what happens first and when the peer check-in lands, then copy the card somewhere that survives the summer: the front of a notebook, a photo where you plan your week. This card is the year, folded small enough to carry. Quiet writing time, go.",
+   "say": "The last card of the year. Two lines, owners, dates, roles never names. Write what happens first and when the peer check-in lands, then copy the card somewhere that survives the summer: the front of a notebook, a photo where you plan your week. This card is the year, small enough to carry. Quiet writing time, go.",
    "facilitate": [
     "Two quiet minutes; everyone builds their own card.",
     "Invite two or three volunteers to read their card aloud or paste it in chat.",

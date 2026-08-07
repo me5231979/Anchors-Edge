@@ -10,7 +10,7 @@
   "titleHtml": "Close one <em class=\"gold-text\">blind spot</em>.",
   "tagline": "Self-awareness: closing your blind spots.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: the gap between intent and impact, how to get one trusted colleague to tell you the truth, and how to receive it without spending a week recovering.",
-  "heroLead": "Everyone in this session has a blind spot, which is the one thing the word guarantees. This hour is about the gap between what you intend and what lands, and the smallest reliable way to close it: one trusted colleague, one honest answer, one adjustment.",
+  "heroLead": "Everyone has a blind spot; the word guarantees it. This hour covers the gap between what you intend and what lands, and the smallest reliable way to close it.",
   "objectives": [
     "Describe the gap between intent and impact in your own work",
     "Make one small, specific ask that gets a colleague to tell you the truth",
@@ -22,8 +22,7 @@
     {"label": "Feedback Literacy"},
     {"label": "Resilience"}
   ],
-  "missionTie": "The great university of the 21st Century gets built by people who can see themselves clearly enough to keep growing. Self-awareness is the quiet engine of Exceptional Core Operations: fewer blind spots means fewer surprises in the work.",
-  "goalLead": "Goal 2 makes leader behavior measurable, and measurement only helps people who can look at themselves honestly. Today builds that muscle for everyone, whatever your role.",
+  "missionTie": "The great university of the 21st Century gets built by people who can see themselves clearly, and fewer blind spots means fewer surprises in Exceptional Core Operations.",
   "agenda": [
     {"t": "The intent-impact gap", "d": "Why everyone has one, and why you are the last person able to see yours."},
     {"t": "One trusted truth-teller", "d": "The small, specific ask that gets a colleague to be honest with you."},
@@ -37,9 +36,10 @@
       "dataTitle": "The intent-impact gap",
       "eyebrow": "The Gap",
       "headline": "You are the last to see <em>your own gap</em>.",
-      "lead": "Nobody experiences your intentions; they experience your impact. The distance between the two is your blind spot, and it hides from you by definition: you were there for the intent and absent for the impact. The self-aware just know where to look.",
+      "lead": "Nobody experiences your intentions; they experience your impact, and the distance between the two hides from you by definition. Tasha Eurich's research puts it plainly: 95 percent of us believe we see ourselves clearly, and only 10 to 15 percent actually do.",
       "group": "In pairs: recall a time your words landed differently than you meant. What did the gap turn out to be? 90 seconds each way.",
       "solo": "Recall one time your words landed differently than you meant. Write what the gap turned out to be.",
+      "source": {"label": "Tasha Eurich, What Self-Awareness Really Is (HBR)", "url": "https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it"},
       "interaction": {
         "type": "check",
         "card": {
@@ -50,14 +50,14 @@
         "discuss": "Where in your work does your intent most often get misread, and who actually saw how it landed?",
         "q": "Why can't you find your own blind spot by reflecting harder?",
         "opts": [
-          {"t": "You can, with enough journaling", "correct": false, "why": "Reflection is valuable and it only replays your side: the intent. The missing data lives in other people's experience of you, and solo replay never produces it."},
+          {"t": "You can, with enough journaling", "correct": false, "why": "Eurich's studies found introspection alone rarely improves self-awareness. Solo replay only produces your side, the intent; the missing data lives in other people's experience of you."},
           {"t": "Blind spots are permanent personality traits", "correct": false, "why": "They are closeable, which is the good news. A blind spot is just missing information, and information can be supplied by anyone who saw the impact."},
           {"t": "The missing data is other people's experience of you", "correct": true, "why": "Exactly. You hold the intent; they hold the impact. Closing the gap always requires at least one other person's honest account."}
         ]
       },
       "deeper": {
         "title": "Why the gap grows with influence",
-        "body": "The more influence you have, the less unprompted truth you hear: people edit harder for anyone who can affect their week. So blind spots quietly grow at exactly the pace candor shrinks, which is why waiting to be told rarely works. Whatever your role, the people most likely to see your gap clearly are the ones closest to the work and least obliged to flatter you: peers on shared projects, partners in other units.",
+        "body": "Eurich's team found that experience and power hinder self-awareness: the more senior people get, the less unprompted truth they hear, since everyone edits harder for someone who can affect their week. Blind spots grow at the pace candor shrinks, which is why waiting to be told rarely works. The likeliest people to see your gap are the ones closest to the work and least obliged to flatter you: peers on shared projects, partners in other units.",
         "steps": [
           "List three people who see your work's impact up close. Star the one least obliged to flatter you.",
           "Write one recent moment where their read of you might differ from yours. That moment is raw material for the ask you build in section two."
@@ -83,7 +83,7 @@
             "opts": [
               {"t": "The colleague who always says nice things", "pts": 1, "coach": "Comfort is their gift, and it is the wrong tool here. You need someone who has watched you work and will risk a little friction on your behalf."},
               {"t": "Everyone at once, in a group email asking for feedback", "pts": 2, "coach": "Wide nets return politeness. Diffuse asks let everyone assume someone else will say the hard thing, and nobody does."},
-              {"t": "One colleague who sees your work up close and has been straight with you before", "pts": 3, "coach": "The two credentials that matter: they witnessed the impact, and they have shown they will tell you the truth kindly."}
+              {"t": "One colleague who sees your work up close and has been straight with you before", "pts": 3, "coach": "What Eurich calls a loving critic: someone who watched the impact happen, wants you to succeed, and has shown they will tell you the truth kindly."}
             ]
           },
           {
@@ -230,7 +230,7 @@
     "s2": {
       "title": "One trusted truth-teller",
       "purpose": "Teach the small, specific ask that makes honesty cheap enough for a colleague to give.",
-      "say": "Here is why most of us have gotten so little useful feedback in our careers: the asks were too big. 'Any feedback for me?' asks a colleague to gamble the relationship on an essay. The ask that works is small. One trusted person who has seen your work. One specific moment. One honest sentence, with permission to be brief. You are making truth cheap to give, and that is the entire trick.",
+      "say": "Here is why most of us have gotten so little useful feedback in our careers: the asks were too big. 'Any feedback for me?' asks a colleague to gamble the relationship on an essay. The ask that works is small: one trusted person who has seen your work, one specific moment, one honest sentence with permission to be brief. Tasha Eurich calls the right person a loving critic, someone who will tell you the truth and wants you to win. You are making truth cheap for that person to give, and that is the entire trick.",
       "facilitate": [
         "Run Build the ask; two minutes to make both choices and run it.",
         "Ask one volunteer to read their outcome aloud, weak or strong.",

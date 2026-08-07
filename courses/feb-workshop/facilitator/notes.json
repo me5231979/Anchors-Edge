@@ -61,7 +61,7 @@
   "toughQuestions": [
    {
     "q": "Won't asking why they stay put leaving on their mind?",
-    "a": "The research runs the opposite way: people leave when nobody asks. The interview signals attention, and attention is a retention lever. What plants leaving is silence plus a recruiter's call, and the recruiter is already calling your best people."
+    "a": "Gallup's exit research runs the opposite way: half of leavers say their organization could have kept them, and most heard silence in their final months. The interview signals attention, and attention is a retention lever. What plants leaving is silence plus a recruiter's call, and the recruiter is already calling your best people."
    },
    {
     "q": "What if they use the interview to demand a raise?",
@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
-   "minutes": 3,
+   "title": "Why we're here",
+   "minutes": 4,
    "coreMinutes": 2,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A century-defining university keeps its people by hearing them before the exit interview. Every manager who practices this conversation strengthens Destination Vanderbilt: a place people choose, and keep choosing.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. A century-defining university keeps its people by hearing them before the exit interview, and every manager who practices this conversation strengthens Destination Vanderbilt. This month serves Goal 1, Talent Marketplace & Transfer Portal.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 3,
-   "coreMinutes": 2,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 runs on managers who can hear why people stay. The systems surface growth and carry moves; the reason to stay is heard in a conversation, and today you practice it until it is bookable.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 90 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "Draft the real one",
    "purpose": "Frame the stay interview as a listening conversation and get every manager to a said-aloud draft for one real person, role only.",
-   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. A stay interview is a listening conversation: why do you stay, and what would make staying easier. It is not a review, not a counteroffer, not a rescue mission. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
+   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. The stay interview comes from Beverly Kaye and Sharon Jordan-Evans, who built it on two questions: why do you stay, and what would make staying easier. Nobody is being reviewed and nothing is being renegotiated; you are there to hear them. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
    "facilitate": [
     "Frame the drafting: one real person, role only, an opening plus two questions, written to be said aloud, never read.",
     "Show the listening rule card and the In the room context, then run the discussion: what are you afraid they will say? Take a few voices; the fear names the avoided conversation.",
@@ -172,7 +159,7 @@
    "transition": "Drafts ready. Now they get said out loud.",
    "coreNote": "Core: skip the table round; each manager says their opening to one neighbor and takes the first-feeling answer.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -198,13 +185,13 @@
    "transition": "Rounds done. Now we sort what they surfaced, and book the real thing.",
    "coreNote": "Core: one round instead of two; whoever did not run a draft books first slot at the next lab, and both still sort answers in the debrief.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Debrief and book",
    "purpose": "Sort the surfaced answers into act, advocate, or follow up, and get the real conversation onto calendars before the capstone.",
-   "say": "A stay interview only retains if the answers go somewhere. Three piles. Things in your control, recognition, growth, attention: act on them fast. Things above you, pay, policy: advocate upward, visibly, and say you did. And warnings, anything that sounds like a foot near the door: those get a follow-up booked now, not a note in a file. Sort what your rounds surfaced, then open your calendar.",
+   "say": "A stay interview only retains if the answers go somewhere. Gallup found more than half of people who quit say their organization could have kept them, and most heard nothing from anyone in their last three months. So, three piles. Things in your control, recognition, growth, attention: act on them fast. Things above you, pay, policy: advocate upward, visibly, and say you did. And warnings, anything that sounds like a foot near the door: those get a follow-up booked now. Sort what your rounds surfaced, then open your calendar.",
    "facilitate": [
     "Run Sort the answer on learner devices; it names the three piles with clean cases.",
     "Then the table debrief: each pair reports one line that landed and one hard answer; the table sorts each hard answer together. Chart the piles on the table flip chart so the sorting stays visible.",
@@ -258,8 +245,8 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 6,
-   "coreMinutes": 4,
+   "minutes": 5,
+   "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Make the commitment concrete. The person, role only, the opening you rehearsed, and the window. If the invite is not already sent, the card is where you promise the week it goes. Build it, then copy it somewhere you will see it at your desk. Quiet room, go.",
    "facilitate": [

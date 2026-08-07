@@ -37,7 +37,11 @@
       "dataTitle": "The line rewrite",
       "eyebrow": "The Rewrite",
       "headline": "Edit your profile like a <em>searcher</em>.",
-      "lead": "Open your profile now; this section happens inside it. First we train the ear: what does a searcher in a hurry actually find? Then your table partner reads your lines cold and marks what they could act on. The lines that fail get rewritten here, together.",
+      "lead": "Open your profile now; this section happens inside it. Deloitte's internal-talent-marketplace research is blunt: the matching is only as good as the skills people write down. A partner reads your lines cold, and the invisible ones get rewritten here.",
+      "source": {
+        "label": "Activating the internal talent marketplace (Deloitte Insights)",
+        "url": "https://www.deloitte.com/us/en/insights/topics/talent/internal-talent-marketplace.html"
+      },
       "group": "Pair up at your table: swap devices or read lines aloud. Your partner marks each line findable or invisible. Rewrite one invisible line together before swapping back.",
       "interaction": {
         "type": "trainer",
@@ -75,7 +79,7 @@
             "opts": [
               {"t": "Skim the title, feel the flutter, close the tab", "pts": 1, "coach": "The flutter is data and the skim wastes it. A title tells you almost nothing about the actual days the work is made of."},
               {"t": "Read the whole posting top to bottom, carefully", "pts": 2, "coach": "Better. But a posting read alone stays a daydream. The reading that matters is comparative: this posting against your actual profile."},
-              {"t": "Read it beside your profile, marking matched skills and missing ones", "pts": 3, "coach": "The proper look. Matches tell you your case; gaps tell you your next skill to build. Ten minutes of this beats a month of wondering."}
+              {"t": "Read it beside your profile, marking matched skills and missing ones", "pts": 3, "coach": "The proper look. Matches tell you the case you can make, and gaps tell you what to build next. Ten minutes of this beats a month of wondering."}
             ]
           },
           {
@@ -83,12 +87,12 @@
             "opts": [
               {"t": "Nothing; if it matters it will come back to you", "pts": 1, "coach": "It will not come back. By Tuesday the name of the gig is gone, and the pull you felt goes with it."},
               {"t": "Save it to your list of maybes", "pts": 2, "coach": "The maybe pile is where pulls go quiet. Better than nothing, and it still leaves the next move undecided."},
-              {"t": "One written line: the match, the gap, and your next move", "pts": 3, "coach": "The keeper. A match you can say, a gap you can close, a move you can make: that line is the whole clinic in your pocket."}
+              {"t": "One written line: the match, the gap, and your next move", "pts": 3, "coach": "The keeper. That single line survives the week, and it tells you exactly what to do once the memory of this room has faded."}
             ]
           }
         ],
         "heads": {
-          "strong": "You know exactly where you stand with this opening: the case for you, the gap to close, the move to make.",
+          "strong": "You know exactly where you stand with this opening, and what to do about it next.",
           "mid": "You know the opening; you still do not know your fit. The daydream is vivid and unattached to a next step.",
           "weak": "A flutter, unexamined. Next week you will half-remember there was something interesting once."
         },
@@ -135,7 +139,7 @@
       "q": "The proper way to explore an opening that pulls at you is...",
       "opts": ["Skim it and trust the flutter", "Read it beside your profile: matches and gaps", "Forward it to your manager first", "Wait and see if it is still posted later"],
       "correct": 1,
-      "why": "The comparative read turns a daydream into a decision: the case you could make, the gap you could close, the move you could take."
+      "why": "The comparative read turns a daydream into a decision: you can see your actual case and the gap you would need to close."
     },
     {
       "q": "The two good exits from the clinic are...",
@@ -172,7 +176,7 @@
   },
   "closing": {
     "headline": "Found is a thing you <em>choose</em>.",
-    "lead": "You edited with a searcher's ear, explored one opening properly, and left through one of the two good doors. That is the Portal in practice, which is exactly what this month promised.",
+    "lead": "You leave with a searcher's ear and one opening properly explored, through whichever of the two good doors you chose. That is the Portal in practice, which is exactly what this month promised.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Make the exit real",
     "nextBody": "Run the move on your card while the momentum is warm. This month's weekly sessions carry the same thread, sending managers and internal bridges, and Chris Croft's Building Your Team on LinkedIn Learning is there whenever you want it. Never required.",
@@ -184,7 +188,7 @@
     "s1": {
       "title": "The line rewrite",
       "purpose": "Calibrate the searcher's ear, then get every profile's weakest line rewritten with a partner's help.",
-      "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. We will train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
+      "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. Deloitte's research on internal talent marketplaces says the whole machine runs on the skills data people volunteer, so today we make yours worth running on. We train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
       "facilitate": [
         "Confirm every device has the profile open before anything else; walk the room and unstick logins with the navigator team.",
         "Run Findable or invisible? from the front; the room calls each line aloud before you reveal.",
@@ -196,7 +200,7 @@
         "expect": ["Duties I stopped noticing were duties", "A skill I never thought counted", "How little of my actual work is on there"],
         "respond": "That is why the clinic is in person. You cannot proofread your own self-image; a partner reads the words that are actually there."
       },
-      "debrief": "The searcher's ear is the tool you take home: named activities get found, duties need unpacking, adjectives are invisible.",
+      "debrief": "The searcher's ear is the tool you take home. If a line names a real activity it gets found; praise words never do.",
       "watchFor": "People underselling themselves in the rewrite. Send partners after it: ask what colleagues borrow you for, and write that.",
       "transition": "The profile is the antenna. Now we point it at something real.",
       "coreNote": "Core: skip the before-and-after read-alouds; pairs rewrite one line instead of trading full reviews."
