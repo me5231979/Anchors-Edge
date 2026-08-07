@@ -355,3 +355,6 @@ body.admin .session__fac { display: inline-block; }
 body.admin .session--adminonly { display: grid; }
 .cotm-note { font-size: .78rem; color: var(--ink-soft); }
 .month__extras a { color: var(--vu-oak); font-weight: 600; }
+
+/* sign-up button: public view only (facilitator takes its place in admin view) */
+body.admin .session__signup { display: none; }

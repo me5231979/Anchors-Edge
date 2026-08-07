@@ -122,6 +122,7 @@ def session_row(m, day, label, aud):
           <div class="session__body"><h4>{esc(spec["title"])}</h4><p>{esc(spec["tagline"])}</p></div>
           <span class="session__cta">
             <a class="btn btn--dark" href="courses/{slug}/">Launch</a>
+            <a class="btn session__signup" href="#" data-signup title="Sign-up link coming soon">Sign up</a>
             <a class="btn btn--ghost-dark session__fac" href="courses/{slug}/facilitator/">Facilitator</a>
             <a class="btn btn--ghost-dark" href="courses/{slug}/web/">Self-paced</a>
           </span>
@@ -436,6 +437,8 @@ page = f'''<!DOCTYPE html>
   document.addEventListener('click', function (e) {{
     var a = e.target.closest && e.target.closest('.month--locked .session__cta a');
     if (a) {{ e.preventDefault(); }}
+    var su = e.target.closest && e.target.closest('[data-signup]');
+    if (su && su.getAttribute('href') === '#') {{ e.preventDefault(); }}
   }}, true);
   var dot = document.getElementById('adminDot');
   if (dot) dot.addEventListener('click', function () {{
