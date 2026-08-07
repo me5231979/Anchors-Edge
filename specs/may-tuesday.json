@@ -104,7 +104,8 @@
       "dataTitle": "Signal, not verdict",
       "eyebrow": "The Read",
       "headline": "Feedback is a <em>signal</em>, once you read it that way.",
-      "lead": "Sooner or later feedback arrives about you: a 360 summary, a peer comment, a survey theme from a project you led. The verdict read asks what it says about your worth. The signal read asks what one adjustment it points to. Same words, very different week.",
+      "lead": "Sooner or later feedback arrives about you: a 360 summary, a peer comment, a survey theme from a project you led. Sheila Heen and Douglas Stone call the skill finding the coaching in the criticism, reading past the sting for the one adjustment worth a try.",
+      "source": {"label": "Find the Coaching in Criticism, Sheila Heen and Douglas Stone (HBR)", "url": "https://hbr.org/2014/01/find-the-coaching-in-criticism"},
       "interaction": {
         "type": "builder",
         "playTitle": "Read your results",
@@ -173,8 +174,8 @@
   ],
   "recapMsgs": {
     "high": "You know the plumbing and the read. Spend your next answer honestly.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Good footing. Give the section you missed a second look, then build your card.",
+    "low": "Run back through the plumbing once more before you commit."
   },
   "capstone": {
     "eyebrow": "Capstone · My signal plan",
@@ -249,7 +250,7 @@
     "s3": {
       "title": "Signal, not verdict",
       "purpose": "Teach the signal read for received feedback: right-sized, one adjustment, time-boxed.",
-      "say": "Now the harder direction. Sooner or later the tooling points at you: a 360 summary, a peer comment, a theme from a project you led. And one line will sting. The verdict read asks what that line says about your worth, and it will happily run your whole week. The signal read asks a smaller question: what is this pointing at, and what one adjustment would test it? Let us practice on a week you will recognize.",
+      "say": "Now the harder direction. Sooner or later the tooling points at you: a 360 summary, a peer comment, a theme from a project you led. And one line will sting. Sheila Heen and Douglas Stone, who spent years at Harvard studying why feedback lands badly, teach the move we practice here. They call it finding the coaching in the criticism. The verdict read asks what that line says about your worth, and it will happily run your whole week. The signal read asks what the line points at, and what one adjustment would test it. Let us practice on a week you will recognize.",
       "facilitate": [
         "Run Read your results; two minutes to make both choices and run it.",
         "Ask one volunteer to read their outcome aloud, weak or strong.",

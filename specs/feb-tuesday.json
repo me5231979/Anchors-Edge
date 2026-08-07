@@ -306,7 +306,7 @@
    {
     "id": "twoweeks",
     "chip": "Within two weeks",
-    "out": "The move happens within two weeks, time blocked today so it cannot slide."
+    "out": "The move happens within two weeks, with the hour already blocked on your calendar."
    }
   ],
   "cardTitle": "My next-move card",

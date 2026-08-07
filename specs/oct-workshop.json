@@ -37,8 +37,9 @@
       "dataTitle": "The inventory pass",
       "eyebrow": "Pass One",
       "headline": "One line per role, written for a <em>stranger</em>.",
-      "lead": "Draw the grid: a line for each person on your team, role only, never a name. In each line, what they can do, in the role and beyond it. The test of a good line: a stranger reading it could find that person a stretch project.",
+      "lead": "Draw the grid. One line for each person on your team, role only, never a name, holding what they can do in the role and beyond it. The test of a good line: a stranger reading it could find that person a stretch project.",
       "group": "At your table: read one of your map lines aloud, role only. The table calls it: could a stranger act on this line? Sharpen it together until the answer is yes.",
+      "source": {"label": "Strengths and engagement research (Gallup)", "url": "https://www.gallup.com/workplace/236561/employees-strengths-outperform-don.aspx"},
       "interaction": {
         "type": "check",
         "card": {
@@ -48,7 +49,7 @@
         "q": "Quick check: which line belongs on your talent map?",
         "opts": [
           {"t": "Program coordinator: reliable, hardworking, great attitude", "correct": false, "why": "Kind words, no capability. Nobody could match this person to a project. Name what they can do, and the map starts working."},
-          {"t": "Program coordinator: event logistics, de-escalation, wants data skills", "correct": true, "why": "Capabilities plus a growth want, in role-only language. A stranger could staff a project, feed the growth, or plan succession from this line."},
+          {"t": "Program coordinator: event logistics, de-escalation, wants data skills", "correct": true, "why": "Capabilities plus a growth want, in role-only language. A stranger could staff a project or feed the growth want straight from this line."},
           {"t": "Program coordinator: five years in role, meets expectations", "correct": false, "why": "Tenure and a rating, which the map never carries. The map holds capability; ratings stay in the systems built for them."}
         ],
         "context": "In the weekly session you practiced the inventory question one person at a time. The lab scales it: every role on your team gets a line, on one page, in the same sitting. The page is the discipline. If a line will not compress into capabilities, you do not yet know that person's skills.",

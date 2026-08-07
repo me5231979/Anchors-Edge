@@ -11,7 +11,7 @@
   "titleHtml": "Walk out with a profile that <em class=\"gold-text\">gets found</em>.",
   "tagline": "The Portal walkthrough and skill-profile clinic, live and hands on.",
   "description": "An in-person navigator-led clinic for all Vanderbilt staff: open your own skills profile, rewrite its weakest lines with a partner's eyes on them, explore one real opening in the Transfer Portal, and leave with interest expressed or a barrier named.",
-  "heroLead": "This is the doing hour. Your profile comes up on your own device, a table partner reads it the way a searcher would, and the Transfer Portal is open in the next tab. You leave with better lines on the map and one real opening explored.",
+  "heroLead": "This is the doing hour. Your profile comes up on your own device and a partner reads it the way a searcher would. You leave with one real opening explored.",
   "objectives": [
     "Rewrite your profile's weakest lines into named capabilities a searcher could find",
     "Explore one real gig or opening in the Transfer Portal and read it against your profile",
@@ -23,8 +23,7 @@
     {"label": "Internal Mobility"},
     {"label": "Skills Articulation"}
   ],
-  "missionTie": "Radical Collaboration needs people who can find each other by skill across every boundary in the university. Every profile made legible in this room is another connection the map can make, and another career that can grow without leaving.",
-  "goalLead": "Goal 1 promised to connect people to internal opportunity. This clinic is the promise kept in person: your profile, your search, and your raised hand, with a navigator in the room.",
+  "missionTie": "Radical Collaboration needs people who can find each other by skill across every boundary in the university, and every profile made legible in this room is another connection the map can make.",
   "agenda": [
     {"t": "The line rewrite", "d": "Your profile on your screen, a partner's eyes on it, duties turned into capabilities."},
     {"t": "The Portal walk", "d": "One real gig or opening, explored properly against your own profile."},

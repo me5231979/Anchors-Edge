@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built in ordinary workweeks. Every staff member who hands a chore to AI safely puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built in ordinary workweeks: every chore handed safely to a tool puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much. This month serves Goal 3, AI-Enabled Workforce Readiness.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 measures a workforce that is ready for AI, and readiness starts with one real use each. Today you run yours: one chore, one ask, one check.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -172,13 +159,13 @@
    "transition": "You have the chore. Now the ask, in plain English.",
    "coreNote": "Core: run the trainer, skip the breakout, take one chore from chat.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Write the ask",
    "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
-   "say": "Here is the best news of the month: talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague. Here is the job, here are the details that matter, here is the shape I want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
+   "say": "The best news of the month is that talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
    "facilitate": [
     "Run Build the ask; two minutes to make both choices and send it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -198,13 +185,13 @@
    "transition": "The draft is back. Before it goes anywhere, you become the editor.",
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Check before you use",
    "purpose": "Install the editor's rule: verify facts, fit, and voice before any draft leaves your hands.",
-   "say": "One honest warning and you are ready. The tool writes with total confidence whether it is right or wrong. Sometimes it invents a detail or misses your meaning, so the last step of every use is the check: every fact verified, the message actually yours, the voice actually you. Two minutes of editing keeps your name safe on everything you send.",
+   "say": "One honest warning before you run anything for real. Harvard Business School tested this with hundreds of consultants, and the tool made their work faster and better on tasks it was good at, then worse on tasks it only looked good at, because it sounds identical either way. So the last step of every use is the check: every fact verified, the voice actually yours. Two minutes of editing keeps your name safe on everything you send.",
    "facilitate": [
     "Read the editor's rule card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
     "Run the discussion: where would one invented detail do the most damage in your work? Take two or three voices.",
