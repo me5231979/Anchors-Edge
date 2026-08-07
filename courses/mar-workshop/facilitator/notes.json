@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
-   "minutes": 3,
+   "title": "Why we're here",
+   "minutes": 4,
    "coreMinutes": 2,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Manager behavior is where a century-defining university becomes real for its people. A room of managers coaching each other out loud is Exceptional Core Operations practicing itself, one triad at a time.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Manager behavior is where a century-defining university becomes real for its people, and a room of managers coaching out loud is Exceptional Core Operations practicing itself. This month serves Goal 2, Manager Effectiveness at Scale.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 3,
-   "coreMinutes": 2,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 measures demonstrated leader behavior, and coaching sits at the center of the standard. Today it gets demonstrated for real: witnessed, debriefed, and repeated until the stall points show.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 90 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "Set the triads",
    "purpose": "Form working triads, load the three jobs, and get every coachee to a real, work-sized, roles-only topic said in one sentence.",
-   "say": "This room runs on a simple bet: coaching is a physical skill, and physical skills need reps in front of someone who is watching. So, triads. The coach runs the four beats. The coachee brings a real topic, something actually stuck this month, work-sized, roles only. The observer has the strangest and best job: track the beats, not the problem. You will sit in all three seats before we are done.",
+   "say": "This room runs on a simple bet: coaching is a physical skill, and physical skills need reps in front of someone who is watching. The Center for Creative Leadership says the same about the core move itself; asking questions that stretch someone's thinking is a learned skill, and it only gets learned by practicing. So, triads. The coach runs the four beats. The coachee brings a real topic, something actually stuck this month, work-sized, roles only. The observer has the strangest and best job: track the beats, not the problem. You will sit in all three seats before we are done.",
    "facilitate": [
     "Form triads across tables so nobody coaches a close colleague; direct traffic until every triad has three seats filled.",
     "Show the observer's rule card and the In the room context; run the discussion on what great questions sound like. Then hand out the printed observer checklists, one per triad: the four beats, told versus asked, and a line for the question that moved something.",
@@ -172,13 +159,13 @@
    "transition": "Seats set. Round one.",
    "coreNote": "Core: form triads by numbering off instead of choice, and skip the discussion; the checklist walkthrough carries the observer teaching.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Run the rounds",
    "purpose": "Run rotating live rounds through the four beats with observers writing, until every manager has coached once.",
-   "say": "Round one starts now. Coaches: goal before options, reality before options, their options before yours, and a will with a date. Coachees: honest answers, including the uncomfortable ones. Observers: pen moving, mouth closed. When the round lands its will, rotate one seat and the next topic comes out. The room will get loud. Loud is what practice sounds like.",
+   "say": "Round one starts now. Coaches, the order is Whitmore's GROW and it holds up: goal first, reality before options, their options before yours, and a will with a date. Coachees: honest answers, including the uncomfortable ones. Observers: pen moving, mouth closed. When the round lands its will, rotate one seat and the next topic comes out. The room will get loud. Loud is what practice sounds like.",
    "facilitate": [
     "Call the start and let the noise build; resist the urge to hush the room. Navigators kneel in with triads whose coach is lecturing and whisper one question stem: what have you tried?",
     "Between rounds, run Call the stall on learner devices; the snippets calibrate every observer's ear for the next round.",
@@ -198,8 +185,8 @@
    "transition": "Rounds done. Now the mirror.",
    "coreNote": "Core: two rounds instead of three; whoever has not coached becomes first coach in the triad rematch, and say so out loud.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Debrief the beats",
@@ -258,8 +245,8 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 6,
-   "coreMinutes": 4,
+   "minutes": 5,
+   "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Your observer gave you a finding; now it becomes a commitment. The stalled beat, the question that unsticks it, and the conversation it is for, role only. Build the card and copy it somewhere you will see it before your next 1:1. Quiet room, go.",
    "facilitate": [

@@ -233,7 +233,7 @@
     "Push the feeling aside and keep working"
    ],
    "correct": 1,
-   "why": "The three piles are always smaller than the fog. Act on the known, watch the unknown, and test the assumptions."
+   "why": "Sorting turns dread into questions someone can actually answer. Act on what is confirmed, and test the guesses before you obey them."
   },
   {
    "q": "What makes an experiment the adaptable response to ambiguity?",
@@ -325,7 +325,7 @@
   "s1": {
    "title": "Known, unknown, assumed",
    "purpose": "Teach the three-pile sort that shrinks ambiguity into actionable pieces.",
-   "say": "Here is the shorthand for every change season: the fog is never as big as it feels. Most of what makes ambiguity heavy is that it arrives unsorted. So the first adaptability skill is a sorting move. Three piles: known, meaning confirmed by someone accountable for it; unknown, meaning genuinely undecided; and assumed, which is a guess wearing a fact's clothes. The piles are always smaller than the fog.",
+   "say": "The fog is never as big as it feels; it just arrives unsorted. So the first adaptability skill is a sorting move. Three piles. Known means confirmed by someone accountable for it. Unknown means genuinely undecided. Assumed covers the guesses you have quietly promoted to facts, and that pile carries most of the weight. The piles are always smaller than the fog.",
    "facilitate": [
     "Read the concept card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
     "Run the discussion on the colleague's line: which half is known, which half is assumed, and what is the tell?",
@@ -348,7 +348,7 @@
   "s2": {
    "title": "The small experiment",
    "purpose": "Replace waiting for certainty with one small, reversible, information-buying step.",
-   "say": "Here is the adaptable move nobody teaches: when you cannot get certainty, buy information. A small experiment is one reversible, chore-sized step taken this week: try the new tool on one task, sit in on the new process once, ask the direct question. This month the obvious experiment is an AI one, and Tuesday's traffic light keeps it safe: green chores, public or generic, are the perfect testing ground.",
+   "say": "When you cannot get certainty, buy information. Ethan Mollick, who studies AI at work, has a rule worth borrowing: assume the tool you are using today is the worst one you will ever use. Waiting for things to settle never ends, so adaptable people run small experiments instead: one reversible, chore-sized step this week, like trying the new tool on one task or just asking the direct question. Tuesday's traffic light keeps the AI version safe: green chores, public or generic, are the perfect testing ground.",
    "facilitate": [
     "Run Design the experiment; two minutes to make both choices and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

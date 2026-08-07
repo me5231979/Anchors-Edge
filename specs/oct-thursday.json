@@ -171,8 +171,8 @@
   ],
   "recapMsgs": {
     "high": "The questions are loaded. Aim one at a real person this week.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Nearly there. Revisit the one that got you, then pick your move.",
+    "low": "Walk the three sections once more; the questions get easier the second time."
   },
   "capstone": {
     "eyebrow": "Capstone · My curiosity move",
@@ -197,7 +197,7 @@
   },
   "closing": {
     "headline": "Stay curious. <em>On purpose.</em>",
-    "lead": "You practiced better questions for your own path, a generous way to ask about a colleague's work, and the small dated step that makes an answer matter. That is curiosity working as a career skill.",
+    "lead": "Your career questions got smaller and sharper today. You also practiced asking about a colleague's work generously, and putting a date on whatever the answer opens. That is curiosity working as a skill.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Make the curiosity move on your card",
     "nextBody": "Send the invite or write the answer down while it is warm. If you want company doing it, the navigator-led Know-Your-Team lab runs in person this month, and Don Phin's Talent Management course on LinkedIn Learning goes deeper. Optional, always.",
@@ -228,7 +228,7 @@
     "s2": {
       "title": "Curiosity conversations",
       "purpose": "Equip learners to open generous career curiosity conversations and to hear the difference between curiosity, dead ends, and judgment.",
-      "say": "This month is called See the Talent Around You, and here is the mechanism: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms. No agenda and nothing to get: what does the work take, what does it teach, what does nobody see. Let's train your ear for what real curiosity sounds like.",
+      "say": "This month is called See the Talent Around You, and the mechanism is almost embarrassingly simple: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms, no agenda, nothing to get. What does the work actually take? What does nobody see? Let's train your ear for what real curiosity sounds like.",
       "facilitate": [
         "Run Door or dead end? live; everyone plays on their own screen.",
         "After round two, pause: ask who has been on the receiving end of a dead-end question and felt the difference.",
@@ -247,7 +247,7 @@
     "s3": {
       "title": "From curious to concrete",
       "purpose": "Convert one curiosity into a small next step with a date on it.",
-      "say": "Here is where curiosity usually dies: the conversation was great, the answer was fascinating, and nothing happened. The fix is embarrassingly small. Ask for the smallest real taste of the thing, and put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
+      "say": "Curiosity usually dies right after the good conversation. The answer was fascinating, everyone meant to follow up, and nothing happened. The fix costs almost nothing. Ask for the smallest real taste of the thing, then put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
       "facilitate": [
         "Run Book the next step; give the room two minutes to make both choices and run it.",
         "Ask one volunteer to read their outcome aloud, weak or strong.",

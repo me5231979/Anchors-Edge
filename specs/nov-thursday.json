@@ -31,8 +31,7 @@
    "label": "Communication"
   }
  ],
- "missionTie": "Radical Collaboration is a chancellor-level bet that Vanderbilt's best work happens across boundaries. Every bridge you build between departments is that bet paying off at human scale, one 20-minute coffee at a time.",
- "goalLead": "The Portal shows you postings; people tell you what is coming before it posts. Internal bridges are how opportunity reaches you early, and how your name comes up in rooms you are not in.",
+ "missionTie": "Radical Collaboration is a chancellor-level bet that Vanderbilt's best work happens across boundaries, and every bridge between departments is that bet paying off at human scale.",
  "agenda": [
   {
    "t": "Networking without the ick",
@@ -175,7 +174,11 @@
    "dataTitle": "Keeping bridges warm",
    "eyebrow": "The Warmth",
    "headline": "Small follow-ups, <em>long bridges</em>.",
-   "lead": "A bridge you never touch again quietly falls down. Keeping it warm takes two minutes: a link they would care about, a congratulations, a thank-you with a specific detail. Read each follow-up and call it.",
+   "lead": "A bridge left untouched goes quiet, though the dormant-ties research has good news: reconnected contacts often bring fresher insight than current ones, and the trust survives the silence. The two-minute follow-up keeps you from needing that rescue. Read each one and call it.",
+   "source": {
+    "label": "Dormant ties research, Levin, Walter, and Murnighan (MIT Sloan Management Review)",
+    "url": "https://sloanreview.mit.edu/article/the-power-of-reconnection-how-dormant-ties-can-surprise-you/"
+   },
    "group": "In pairs: name one contact in another department you could send a two-minute warm follow-up to this week. What would it say?",
    "solo": "Name one contact in another department and the two-minute warm follow-up you could send this week.",
    "interaction": {

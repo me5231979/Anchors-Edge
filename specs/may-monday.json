@@ -175,8 +175,8 @@
   ],
   "recapMsgs": {
     "high": "You can read your own evidence. Now go pick the behavior it points at.",
-    "mid": "Solid. Reread the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Close. Give the section you missed another minute, then build your card.",
+    "low": "Take one more pass through the three streams before you commit."
   },
   "capstone": {
     "eyebrow": "Capstone · My visible behavior",
@@ -232,7 +232,7 @@
     "s2": {
       "title": "Reading without flinching",
       "purpose": "Teach the evidence read: treating your own data as information about behavior, without defensiveness or overcorrection.",
-      "say": "Here is what happens to most of us when our own numbers dip: we become defense attorneys. The survey timing was bad, the team misread the question, that one person is grumpy. Every one of those might be true, and none of them moves the number. The evidence read is one discipline: when the data stings, ask what behavior would move it. That question keeps you a manager. The other questions turn you into a defendant.",
+      "say": "Here is what happens to most of us when our own numbers dip: we become defense attorneys. The survey timing was bad, the team misread the question, that one person is grumpy. Every one of those might be true, and none of them moves the number. Tasha Eurich, who has studied self-awareness in thousands of professionals, found that people who genuinely know themselves ask what instead of why. Why is this happening opens a case for the defense. What would move this number opens a plan. When your data stings, reach for the what.",
       "facilitate": [
         "Run Call the read live; everyone plays on their own screen.",
         "After round one, pause: ask who sympathized with the defensive manager and why.",
@@ -243,7 +243,7 @@
         "expect": ["It looks decisive", "It proves you took the feedback seriously"],
         "respond": "Right, and that is the trap. One signal earns one adjustment. Dramatic overhauls are defensiveness wearing a cape."
       },
-      "debrief": "Defensiveness argues with the data. Overcorrection turns it into a verdict. The evidence read asks for one behavior.",
+      "debrief": "Defensiveness argues with the data; the evidence read asks what would move it, then settles for one behavior.",
       "watchFor": "Anyone spiraling on a real score they got. Normalize warmly: every manager in the room has a dip somewhere, and a dip is a prompt, never a verdict.",
       "transition": "So your evidence points somewhere. Now you choose the behavior it points at.",
       "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
