@@ -192,7 +192,7 @@
      "Too much, let it breathe"
     ],
     "passAt": 2,
-    "passMsg": "You have the touch: specific, generous, occasional. Bridges kept that way hold for years.",
+    "passMsg": "You have the touch. A good follow-up is specific to them, asks for nothing, and arrives because something genuinely reminded you.",
     "failMsg": "Close. The tell: warm follow-ups are specific and ask for nothing. Asks after long silence read as extraction, and daily contact reads as pressure.",
     "items": [
      {
@@ -254,7 +254,7 @@
     "Waiting for them to reach out first"
    ],
    "correct": 1,
-   "why": "Specific and generous keeps the bridge warm. Extraction asks and radio silence both let it quietly fall down."
+   "why": "Specific and generous keeps the bridge warm; an ask arriving after months of silence reads as extraction."
   }
  ],
  "recapMsgs": {
@@ -370,7 +370,7 @@
   "s3": {
    "title": "Keeping bridges warm",
    "purpose": "Install the two-minute warm follow-up habit and the instincts for cadence.",
-   "say": "Here is where most bridges die: the coffee goes great, everyone means to stay in touch, and eleven months later the connection is too cold to use. The fix costs two minutes: a link about something they mentioned, a congratulations on their project, a thank-you with one specific detail. Specific, generous, occasional. That cadence keeps a bridge warm for years, and it is the difference between a contact list and a network.",
+   "say": "Here is where most bridges die: the coffee goes great, everyone means to stay in touch, and eleven months later it feels too late to write. The fix costs two minutes when something reminds you of them. Specific, generous, occasional. And if a bridge has already gone cold, the dormant-ties research in MIT Sloan Management Review is comforting: when people reconnected with contacts they had not spoken to in years, the advice they got often beat their current network, and the old trust was still there. Cold is recoverable. Warm is just cheaper.",
    "facilitate": [
     "Run Call the follow-up live; everyone plays on their own screen.",
     "After round two, pause on the resume-after-silence pattern; ask why it lands so badly.",
@@ -385,7 +385,7 @@
     ],
     "respond": "Right. Generosity at two-minute scale is the most underpriced move in professional life. Nobody forgets the person who remembered."
    },
-   "debrief": "Warm follow-ups are specific, generous, and occasional. The bridge you keep warm is the one that carries opportunity later.",
+   "debrief": "A warm follow-up asks for nothing. The bridge you keep warm carries opportunity later, and even a cold one can be reopened; the dormant-ties research says the trust keeps.",
    "watchFor": "People turning the follow-up into a scheduled campaign. Keep it human: when you genuinely think of them, send the two minutes.",
    "transition": "Quick recap, then you pick your first bridge.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."

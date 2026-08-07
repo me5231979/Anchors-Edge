@@ -11,7 +11,7 @@
  "titleHtml": "Your first win ships <em class=\"gold-text\">in this room</em>.",
  "tagline": "The First-AI-Win sandbox: run one real chore, live, with help in the room.",
  "description": "An in-person, navigator-led workshop for all Vanderbilt staff: bring one real chore from your week, write the ask, run it live in an approved VU tool with a navigator nearby, and leave with a first AI win you actually shipped.",
- "heroLead": "Plans do not count as wins. This room does one thing: you pick a real chore from your own week, write the ask, run it in an approved VU tool with a navigator at your elbow, and check what comes back. When you walk out, the work is done and it is yours.",
+ "heroLead": "Pick a real chore from your week, write the ask, and run it in an approved VU tool with a navigator at your elbow. The work ships before you leave the room.",
  "objectives": [
   "Pick one green-light chore from your own real week and confirm its light at your table",
   "Write the ask, run it live in an approved VU tool, and improve the draft with one follow-up",
@@ -32,8 +32,7 @@
    "label": "Peer Learning"
   }
  ],
- "missionTie": "The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.",
- "goalLead": "AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.",
+ "missionTie": "The great university of the 21st Century gets built one shipped piece of work at a time, and every first win that leaves this room makes Exceptional Core Operations a little more true.",
  "agenda": [
   {
    "t": "Pick and call it",
@@ -48,7 +47,7 @@
    "d": "A neighbor checks your draft, you check theirs, and the work leaves the room shipped."
   }
  ],
- "manifesto": "You do not leave with a plan. You leave with a win you shipped.",
+ "manifesto": "One real chore, run and checked and shipped before you leave the room.",
  "sections": [
   {
    "id": "s-one",
@@ -96,8 +95,12 @@
    "dataTitle": "Run it live",
    "eyebrow": "The Run",
    "headline": "The draft is a start. The follow-up makes it <em>yours</em>.",
-   "lead": "Write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then run it, right now, in the approved VU tool in front of you. When the draft returns close but not right, you do not start over. You ask again.",
+   "lead": "Brief the tool like a colleague: the job, the details, the shape you want. Then run it in the approved VU tool in front of you. Ethan Mollick's research found the strongest users work in a back-and-forth with the tool. When the draft lands close, ask again.",
    "group": "Run your ask in the tool now; wave a navigator over anytime. When the draft lands, tell a neighbor the one change you would make, then say exactly that to the tool.",
+   "source": {
+    "label": "Centaurs and Cyborgs on the Jagged Frontier, Ethan Mollick (One Useful Thing)",
+    "url": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged"
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "The follow-up",

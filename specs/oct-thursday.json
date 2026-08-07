@@ -263,7 +263,7 @@
       "transition": "Quick recap, then you build your card.",
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
-    "capstoneSay": "Now make it real. One place your curiosity points, role only. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "capstoneSay": "Last piece of work. Where does your curiosity point? Role only, as always. Choose the move and the window, build the card, and copy it somewhere it will catch your eye before Friday. Quiet couple of minutes.",
     "closeSay": "That closes the first week of Anchor's Edge. Monday gave managers the talent read, Tuesday put your skills on the map, and today gave you the questions that make talent visible, yours and everyone else's. Make the curiosity move on your card this week; the Know-Your-Team lab with your navigator and the Talent Management course on LinkedIn Learning are there if you want to keep pulling the thread. The rhythm picks back up next Monday, and next month's theme, The Transfer Portal in Practice, turns this month's visibility into real internal moves. See you then.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},

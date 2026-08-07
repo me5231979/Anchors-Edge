@@ -55,7 +55,11 @@
    "dataTitle": "Draft the real one",
    "eyebrow": "The Draft",
    "headline": "Write it for <em>one real person</em>.",
-   "lead": "A stay interview is a listening conversation: why does this person stay, and what would make staying easier? Not a review, not a counteroffer. Draft yours for one real person, role only: an opening that proves you noticed them, plus two real questions.",
+   "lead": "Beverly Kaye and Sharon Jordan-Evans, who coined the stay interview, built it on two questions: why do you stay, and what would make staying easier? Draft yours for one real person, role only, with an opening that proves you noticed them.",
+   "source": {
+    "label": "Stay interviews, Beverly Kaye and Sharon Jordan-Evans (Hello Stay Interviews, Berrett-Koehler)",
+    "url": "https://www.penguinrandomhouse.com/books/580390/hello-stay-interviews-goodbye-talent-loss-by-beverly-kaye-and-sharon-jordan-evans/9781626563476/"
+   },
    "group": "At your table: read your opening aloud. The table answers with the first thing the employee would feel, then helps you sharpen it until it lands as attention.",
    "interaction": {
     "type": "check",
@@ -159,7 +163,11 @@
    "dataTitle": "Debrief and book",
    "eyebrow": "The Debrief",
    "headline": "The answers are a <em>to-do list</em>.",
-   "lead": "A stay interview surfaces three kinds of answers: things in your control, things you can advocate for upward, and warnings that need a follow-up. Sorting them is what turns a warm conversation into retention. Then the only step left is the calendar.",
+   "lead": "Gallup found just over half of people who quit say their manager or organization could have kept them. Keeping them looks like this sort: answers you act on, answers you carry upward, and warnings that get a follow-up booked now. Then open the calendar.",
+   "source": {
+    "label": "Gallup, This Fixable Problem Costs U.S. Businesses $1 Trillion",
+    "url": "https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx"
+   },
    "group": "At your table: each pair reports one line that landed and one answer that would be hardest to act on. The table sorts each hard answer: yours, upward, or follow-up.",
    "interaction": {
     "type": "trainer",
@@ -296,7 +304,7 @@
   "s1": {
    "title": "Draft the real one",
    "purpose": "Frame the stay interview as a listening conversation and get every manager to a said-aloud draft for one real person, role only.",
-   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. A stay interview is a listening conversation: why do you stay, and what would make staying easier. It is not a review, not a counteroffer, not a rescue mission. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
+   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. The stay interview comes from Beverly Kaye and Sharon Jordan-Evans, who built it on two questions: why do you stay, and what would make staying easier. Nobody is being reviewed and nothing is being renegotiated; you are there to hear them. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
    "facilitate": [
     "Frame the drafting: one real person, role only, an opening plus two questions, written to be said aloud, never read.",
     "Show the listening rule card and the In the room context, then run the discussion: what are you afraid they will say? Take a few voices; the fear names the avoided conversation.",

@@ -61,7 +61,7 @@
       "dataTitle": "Two lines, owners, dates",
       "eyebrow": "The Build",
       "headline": "Write the moves <em>you can check</em>.",
-      "lead": "The worksheet asks for two lines. The reskill line: who grows, toward what work, starting when. The redeploy or redesign line: which strength moves, or which role gets rebuilt around what stays human. Each line ends the same way: an owner and a date.",
+      "lead": "The worksheet asks for two lines. The reskill line says who grows, toward what work, starting when. The second names a strength that moves or a role rebuilt around what stays human. Both lines end with an owner and a date.",
       "group": "Write both lines, then read them to your table partner exactly as written. Anywhere they ask 'meaning what?', the line is still fog: rewrite it on the spot.",
       "interaction": {
         "type": "trainer",
@@ -85,8 +85,9 @@
       "dataTitle": "The table test",
       "eyebrow": "The Send-Off",
       "headline": "Plans get strong in <em>other people's hands</em>.",
-      "lead": "Last build of the year, out loud. Your plan meets the table: managers who don't run your team, asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked here, on a real calendar.",
+      "lead": "Last build of the year, out loud. Kotter's change research found that efforts mostly fail in the telling, so your plan meets the table: managers asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked here.",
       "group": "Read your two lines to the table. Listeners ask the card questions: what does the owner need, what will the person hear, what slips first? Revise on the spot.",
+      "source": {"label": "Leading change: why transformation efforts fail, John Kotter (HBR)", "url": "https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail"},
       "interaction": {
         "type": "builder",
         "playTitle": "Send the plan home",
@@ -151,7 +152,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My workforce plan",
-    "headline": "Two moves, two owners, <em>two dates</em>.",
+    "headline": "The year, folded into <em>two lines</em>.",
     "lead": "Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.",
     "whoLabel": "Your two lines: the reskill, and the redeploy or redesign, with owners and dates.",
     "whoPlaceholder": "e.g. reskill senior coordinator toward exceptions, talk booked Friday; redesign intake role around what stays human",
@@ -222,7 +223,7 @@
     "s3": {
       "title": "The table test",
       "purpose": "Pressure-test each plan aloud at the table, then convert momentum into a booked first conversation and peer check-in.",
-      "say": "Here is why this lab is in person: plans get strong in other people's hands. You will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.",
+      "say": "Here is why this lab is in person: plans get strong in other people's hands. John Kotter studied over a hundred organizations trying to change, and the efforts that died usually died of undercommunication, not bad planning. So you will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.",
       "facilitate": [
         "Run Send the plan home on learner devices; the who-hears-it-first pattern sets up the read-alouds.",
         "Run the table test: each manager reads, card questions fly, revisions happen on the spot; keep tables moving so everyone gets tested.",

@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes leadership you can actually see. Measured leader behavior turns good management into Exceptional Core Operations, one visible habit at a time.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century needs leadership you can actually see, and measured manager behavior is Exceptional Core Operations made visible. This month serves Goal 2, Manager Effectiveness at Scale.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 promised a manager standard that measures demonstrated behavior. This month the measurement is live, and today you learn to read what it says about you.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "What gets measured",
    "purpose": "Install the three evidence streams: pulse data, 1:1 cadence, and team signals.",
-   "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement. Here is the part that matters: it measures behavior, in three streams your team already generates. How they answer the pulse. Whether your 1:1s actually happen. The signals they send over time with retention and growth. Today is about reading those streams like a professional instead of like a defendant.",
+   "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement, and what it measures is behavior, in three streams your team already generates: how they answer the pulse, whether your 1:1s actually happen, and what retention and growth say over time. Take the pulse stream seriously. It descends from Gallup's engagement research, which keeps finding that the manager moves a team's engagement more than any other factor. Today is about reading your streams like a professional instead of like a defendant.",
    "facilitate": [
     "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
     "Lead the discussion prompt aloud; take two or three voices, plus a chat vote on the least-checked stream.",
@@ -171,13 +158,13 @@
    "transition": "Reading the streams is easy on a good quarter. The skill shows up when the evidence stings.",
    "coreNote": "Core: skip the breakout; take the least-checked stream as a chat vote only.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Reading without flinching",
    "purpose": "Teach the evidence read: treating your own data as information about behavior, without defensiveness or overcorrection.",
-   "say": "Here is what happens to most of us when our own numbers dip: we become defense attorneys. The survey timing was bad, the team misread the question, that one person is grumpy. Every one of those might be true, and none of them moves the number. The evidence read is one discipline: when the data stings, ask what behavior would move it. That question keeps you a manager. The other questions turn you into a defendant.",
+   "say": "Here is what happens to most of us when our own numbers dip: we become defense attorneys. The survey timing was bad, the team misread the question, that one person is grumpy. Every one of those might be true, and none of them moves the number. Tasha Eurich, who has studied self-awareness in thousands of professionals, found that people who genuinely know themselves ask what instead of why. Why is this happening opens a case for the defense. What would move this number opens a plan. When your data stings, reach for the what.",
    "facilitate": [
     "Run Call the read live; everyone plays on their own screen.",
     "After round one, pause: ask who sympathized with the defensive manager and why.",
@@ -191,13 +178,13 @@
     ],
     "respond": "Right, and that is the trap. One signal earns one adjustment. Dramatic overhauls are defensiveness wearing a cape."
    },
-   "debrief": "Defensiveness argues with the data. Overcorrection turns it into a verdict. The evidence read asks for one behavior.",
+   "debrief": "Defensiveness argues with the data; the evidence read asks what would move it, then settles for one behavior.",
    "watchFor": "Anyone spiraling on a real score they got. Normalize warmly: every manager in the room has a dip somewhere, and a dip is a prompt, never a verdict.",
    "transition": "So your evidence points somewhere. Now you choose the behavior it points at.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "One visible behavior",

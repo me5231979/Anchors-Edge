@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes people who keep asking what their work could become. Curiosity is Educating the Whole Human applied to staff: the university grows when its people keep growing.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Curiosity is Educating the Whole Human applied to staff; the university grows when its people keep growing. This month serves Goal 1, Talent Marketplace & Transfer Portal.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. The Talent Marketplace maps the talent; curiosity is what surfaces it. Goal 1 needs people asking about skills and paths out loud, and that starts with better questions.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "Questions for your own path",
    "purpose": "Replace vague career wondering with specific, answerable questions about the learner's own skills and path.",
-   "say": "We treat curiosity like a personality trait: some people have it, some don't. Today we treat it as a skill, and skills start with technique. The technique is the better question: specific enough that someone could answer it this week, honest enough that the answer would change what you do. We start by aiming it at your own career.",
+   "say": "We tend to treat curiosity as a personality trait that you either have or you don't. The research disagrees. Francesca Gino at Harvard, in a piece called The Business Case for Curiosity, found it behaves like a skill: it can be built, and people who exercise it make fewer bad calls and collaborate with less friction. She also found leaders praise it and then quietly stifle it. So today we practice the technique, starting with the question you aim at your own career: specific enough to answer this week, honest enough that the answer changes what you do.",
    "facilitate": [
     "Put the In the room card on screen and read it aloud; let the two-part test land for a beat.",
     "Run the discussion prompt and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only. Ask who has caught themselves asking the five-year question.",
@@ -172,13 +159,13 @@
    "transition": "Curiosity aimed inward is half the skill. Now aim it at the talent around you.",
    "coreNote": "Core: skip the breakout; ask for the time-flies task in chat instead.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Curiosity conversations",
    "purpose": "Equip learners to open generous career curiosity conversations and to hear the difference between curiosity, dead ends, and judgment.",
-   "say": "This month is called See the Talent Around You, and here is the mechanism: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms. No agenda and nothing to get: what does the work take, what does it teach, what does nobody see. Let's train your ear for what real curiosity sounds like.",
+   "say": "This month is called See the Talent Around You, and the mechanism is almost embarrassingly simple: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms, no agenda, nothing to get. What does the work actually take? What does nobody see? Let's train your ear for what real curiosity sounds like.",
    "facilitate": [
     "Run Door or dead end? live; everyone plays on their own screen.",
     "After round two, pause: ask who has been on the receiving end of a dead-end question and felt the difference.",
@@ -198,13 +185,13 @@
    "transition": "A good answer is the beginning, though. Stop three turns one into a step.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "From curious to concrete",
    "purpose": "Convert one curiosity into a small next step with a date on it.",
-   "say": "Here is where curiosity usually dies: the conversation was great, the answer was fascinating, and nothing happened. The fix is embarrassingly small. Ask for the smallest real taste of the thing, and put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
+   "say": "Curiosity usually dies right after the good conversation. The answer was fascinating, everyone meant to follow up, and nothing happened. The fix costs almost nothing. Ask for the smallest real taste of the thing, then put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
    "facilitate": [
     "Run Book the next step; give the room two minutes to make both choices and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -260,7 +247,7 @@
    "minutes": 4,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
-   "say": "Now make it real. One place your curiosity points, role only. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "say": "Last piece of work. Where does your curiosity point? Role only, as always. Choose the move and the window, build the card, and copy it somewhere it will catch your eye before Friday. Quiet couple of minutes.",
    "facilitate": [
     "Two quiet minutes; everyone builds their own card.",
     "Invite two or three volunteers to read their card aloud or paste it in chat.",
