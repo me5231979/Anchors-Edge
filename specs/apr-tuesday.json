@@ -153,7 +153,7 @@
    "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.",
    "deeper": {
     "title": "Read the test like evidence",
-    "body": "A test deserves a fair reading. Count the whole cost: setup, prompting, and checking time against the old way, because a tool that saves forty minutes and needs thirty of checking earned ten. Keep a note of everything your check caught; that list becomes the permanent checklist for the task. A failed test is a real result too: write one line on why the call was wrong, then re-sort the task. Scale to a second task after two clean runs of the first.",
+    "body": "A test deserves a fair reading. Count the whole cost: setup, prompting, and checking time against the old way, because a tool that saves forty minutes and needs thirty of checking earned ten. What your check caught becomes the permanent checklist for the task. A failed test is a real result too: write one line on why the call was wrong, then re-sort the task. Scale to a second task after two clean runs of the first.",
     "steps": [
      "After the test, write three numbers: minutes the old way, minutes with the tool including the check, and errors the check caught.",
      "Turn what the check caught into a named checklist you run every time the task ships."

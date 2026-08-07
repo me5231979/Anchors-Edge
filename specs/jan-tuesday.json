@@ -60,7 +60,7 @@
    "solo": "Name one chore from your own week and call its light: green, yellow, or red.",
    "deeper": {
     "title": "Green inside a yellow week",
-    "body": "Two refinements make the light easy on real work. Mixed content first: the most sensitive piece in a chore decides the light for the whole task, so one student's name in a page of public text makes the page red. Second, chores can change color. Strip out the internal or personal specifics, run the generic remainder as green, and add the sensitive parts back yourself. Even confidential roles carry a generic layer of announcements and outlines, and that layer is green.",
+    "body": "Two refinements make the light easy on real work. Mixed content first: the most sensitive piece in a chore decides the light for the whole task, so one student's name in a page of public text makes the page red. Second, chores can change color. Strip out the internal or personal specifics, run the generic remainder as green, and add the sensitive parts back yourself. Even confidential roles hold a green generic layer.",
     "steps": [
      "List five recurring chores from your calendar and inbox, and mark each one green, yellow, or red.",
      "Take one yellow chore and write its green version: the same task with the specifics stripped out."
@@ -109,7 +109,7 @@
    "solo": "Write the plain-English ask for the chore you named in section one: the job, the details, the shape.",
    "deeper": {
     "title": "The second ask",
-    "body": "The ask keeps going after the first draft. When it comes back close, say what to change the way you would to a colleague: warmer, shorter, lead with the thanks, drop the last line. Two or three small follow-ups usually beat one giant opening ask. One more quiet trick: paste in a short sample of something you wrote and ask the tool to match that voice. It mirrors what it is shown, and your own writing is the best voice instruction there is.",
+    "body": "The ask keeps going after the first draft. When it comes back close, say what to change the way you would to a colleague: warmer, shorter, lead with the thanks, drop the last line. Two or three follow-ups usually beat one giant opening ask. One quiet trick: paste in a short sample of something you wrote and ask the tool to match that voice. It mirrors what it is shown, and your own writing is the best voice instruction.",
     "steps": [
      "Run your capstone chore, then send one follow-up that changes a single thing: tone, length, or the opening.",
      "Paste in a paragraph of your own writing, ask for the draft in that voice, and compare the two results."
@@ -186,7 +186,7 @@
    "solo": "Recall a time a confident-sounding document turned out to be wrong. What would have caught it?",
    "deeper": {
     "title": "The two-pass check",
-    "body": "Make the check a routine and it stays quick. Pass one is facts: touch every name, date, number, and claim, and confirm each against a source you trust; anything you cannot verify gets cut or confirmed by you. Pass two is fit and voice: read the draft aloud once, because your ear catches the sentence you would never say faster than your eye does. On a chore-sized draft the whole routine takes about two minutes, which is why chore-sized is where the habit gets built.",
+    "body": "Make the check a routine and it stays quick. Pass one is facts: touch every name, date, number, and claim, and confirm each against a source you trust; anything you cannot verify gets cut or confirmed by you. Pass two is fit and voice: read the draft aloud once, because your ear catches the sentence you would never say faster than your eye does. On a chore-sized draft the whole routine takes about two minutes.",
     "steps": [
      "Run both passes on your first-win draft and keep a tally of what pass one caught.",
      "Read the final version aloud and rewrite any sentence that does not sound like you."
@@ -198,7 +198,7 @@
      "tag": "The editor's rule",
      "text": "Before an AI draft goes anywhere, check facts (every name, date, and number), fit (is this what you meant to say?), and voice (does it sound like you?). If you cannot verify a detail, cut it or confirm it yourself."
     },
-    "context": "AI tools write by predicting what sounds right, and they sound just as confident when they are wrong. The failure has a pattern: an invented detail, a plausible name or number, a tone slightly off from yours. The editor's rule exists because the errors hide inside polish, where a quick skim never finds them.",
+    "context": "AI tools write by predicting what sounds right, and they sound just as confident when they are wrong. The failure has a pattern: an invented detail, a plausible name or number, a tone slightly off from yours. The editor's rule exists because errors hide inside polish, where a skim never finds them.",
     "discuss": "Where in your own work would one invented detail do the most damage? What would your two-minute check look like for catching it?",
     "q": "The tool's draft includes a detail you did not provide and cannot verify. What do you do?",
     "opts": [

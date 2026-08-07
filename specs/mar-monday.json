@@ -151,6 +151,15 @@
    "eyebrow": "The Shape",
    "headline": "Four beats keep the talk <em>moving</em>.",
    "lead": "A coaching talk without a shape wanders. Here is a simple one: where are they trying to get (goal), what is actually happening (reality), what could they try (options), what will they do (will). Plain words, their answers, ten minutes.",
+   "deeper": {
+    "title": "Where the four beats stall",
+    "body": "Each beat has a classic stall. Goal: taking the first answer at face value; ask what reaching it would actually get them. Reality: rushing it, which is where most bad options are born. Options: stopping at one; push for three before choosing, since even a weak third loosens the thinking. Will: a commitment without a date, which is a wish. The Canaday course and the GROW practicum are live reps for whichever beat stalls on you.",
+    "steps": [
+     "Pick a real stuck on your team and write one question per beat before the next 1:1. Four lines, plain words.",
+     "Run the talk, then note which beat stalled. That beat is your rep to practice next time.",
+     "Start the Canaday course on LinkedIn Learning or book a navigator-led GROW practicum slot this week."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Coach the moment",
@@ -309,7 +318,7 @@
   "brandline": "Coach the person. Manage the task."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; February is the Coaching as the Core Manager Behavior month, and this session opens it.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Coaching as the Core Manager Behavior month, putting December's manager standard into daily practice, and this session opens the week.",
   "pulse": "Seven days out, send the pulse: 'Did you catch the moment on your card? What did the person figure out without being told? What aside are you listening for next?' Count of coached moments feeds the manager-standard behavior metric for the month.",
   "s1": {
    "title": "The moment in the middle",
@@ -317,8 +326,8 @@
    "say": "Here is the trap this month is built around: 1:1s that are status meetings with better branding. Manage the task, absolutely; the task deserves it. But somewhere in the middle of the updates, people hand you a sentence about themselves, and most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
    "facilitate": [
     "Read the concept card aloud once; the two aside examples do the teaching.",
-    "Run the knowledge check; everyone answers on their own screen before you weigh in.",
-    "Run the breakout on the aside they drove past, 90 seconds each way."
+    "Share the In the room card and let the coordinator's aside land; ask what usually happens next in real rooms.",
+    "Run the discussion prompt, then the breakout on the aside they drove past, 90 seconds each way."
    ],
    "ask": {
     "q": "What did the last aside you drove past sound like?",
@@ -380,7 +389,7 @@
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
   "capstoneSay": "Now make it real. One person whose aside you have been driving past, role only. Pick how you will coach it, pick the window, build the card, and copy it somewhere you will see it before your next 1:1. Two minutes, quiet, go.",
-  "closeSay": "You leave with an ear for the aside, one real question, and a four-beat shape. Coach the moment on your card this week. Tomorrow's Take-Off Tuesday is for everyone, you included: capturing development goals and coaching notes in the system, so the growth you coach goes on the record. Thursday's Thrive Thursday builds the empathy underneath all of it, hearing what isn't said. And if you want more reps, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, with the navigator-led GROW practicum alongside it.",
+  "closeSay": "You leave with an ear for the aside, one real question, and a four-beat shape. Coach the moment on your card this week. Tomorrow's Take-Off Tuesday is for everyone, you included: capturing development goals and coaching notes in Oracle, so the growth you coach goes on the record. Thursday's Thrive Thursday builds the empathy underneath all of it, hearing what isn't said. And if you want more reps, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, with the navigator-led GROW practicum alongside it.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

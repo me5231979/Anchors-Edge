@@ -40,13 +40,23 @@
       "lead": "When AI changes work on your team, you have four moves. Reskill: teach the person the new version of the work. Redeploy: point their strength at different work. Redesign: rebuild the role around what stays human. Hire: bring in what you cannot build.",
       "group": "In pairs: which of the four moves has your team used most in the last year, and which never? 90 seconds each way.",
       "solo": "Which of the four moves has your team used most in the last year, and which never? Write both down.",
+      "deeper": {
+        "title": "When the order breaks",
+        "body": "The order is a default, not a law. Reskill assumes the person wants the bigger work; some honestly do not, and that answer points you to redeploy. Redeploy assumes the receiving work lives on your team; when it lives elsewhere, the Transfer Portal is the same move told honestly. And a redesign that quietly doubles a role's scope is a hire wearing a disguise. Test each move against what the person and the work can really carry.",
+        "steps": [
+          "Pick one role where AI changed the routine work. Write all four moves as one line each, even the two that feel wrong for this case.",
+          "Cross out the moves the person or the budget truly cannot carry, then write one sentence on why the surviving move wins."
+        ]
+      },
       "interaction": {
         "type": "check",
         "card": {
           "tag": "The order of operations",
           "text": "Try the moves in order of what you already have. Reskill and redeploy work with the people on your team today. Redesign reshapes the role itself. Hire is the move you make when the first three genuinely cannot cover the gap."
         },
-        "q": "Quick check: your March map shows AI now drafts most of a coordinator's routine summaries. What is the first move to consider?",
+        "context": "In the room: hold one real role from your team in mind, one where AI changed the routine work this year. Walk it through the order: reskill and redeploy use the people you have, redesign reshapes the role, hire covers what the first three cannot. Notice which move your instinct grabbed first.",
+        "discuss": "Where has your team jumped straight to hire when reskill or redeploy could have covered it? What made the earlier moves hard to see?",
+        "q": "Quick check: your exposure map shows AI now drafts most of a coordinator's routine summaries. What is the first move to consider?",
         "opts": [
           {"t": "Hire a new analyst to handle the higher-level work", "correct": false, "why": "Hire is the last move in the order, and the most expensive. Start with the person you have; the coordinator freed from summaries is your candidate."},
           {"t": "Reskill the coordinator toward the review and judgment work AI cannot do", "correct": true, "why": "Right. The routine work shrank; the judgment work grew. Reskilling the person you already trust is the fastest, cheapest move on the board."},
@@ -63,10 +73,18 @@
       "lead": "The skill of this month is a clean match: read what the AI signal actually says about the work, then call the move it asks for. Most mismatches come from jumping straight to hire, or straight to training, before asking what the work itself now needs.",
       "group": "Breakout pairs: name one insight from your own team, role only, and call its move. Partner challenges the call. 90 seconds each way.",
       "solo": "Name one insight from your own team, role only, and call the move you would make. Then argue for a different move for a moment.",
+      "deeper": {
+        "title": "Reading a mixed signal",
+        "body": "Real signals are rarely pure. Often the routine work shrank and the remaining work changed shape, so reskill and redesign both fit. Sequence them: redesign names the role's new shape first, then reskill grows the person into it. And if you cannot yet say what the role should look like in a year, the match is premature; watch the work for one more month with a date on the recheck. That is patience, not delay.",
+        "steps": [
+          "Take the messiest insight from your exposure map and split it into two sentences: what shrank, and what grew or changed shape.",
+          "Call a move for each sentence, then decide which one starts first and write the reason in one line."
+        ]
+      },
       "interaction": {
         "type": "trainer",
         "playTitle": "Call the move",
-        "intro": "Three team insights, straight from a March-style exposure map. Call the move each one asks for. Hire stays off the board; these three come first.",
+        "intro": "Three team insights, straight from an exposure map like the one you built this spring. Call the move each one asks for. Hire stays off the board; these three come first.",
         "progressWord": "Insight",
         "labels": ["Reskill", "Redeploy", "Redesign"],
         "passAt": 2,
@@ -86,6 +104,14 @@
       "eyebrow": "The Commit",
       "headline": "A move needs an <em>owner and a date</em>.",
       "lead": "A matched move is still just a better slide. It becomes a workforce action when one sentence says what changes, one person owns the next step, and one date puts it on a calendar. Build that sentence now.",
+      "deeper": {
+        "title": "The second sentence",
+        "body": "Your move sentence needs a companion most managers skip: the sentence you say to the person whose work is changing. Announced early, a move reads as investment; discovered late, the same move reads as verdict. Draft it in the week you date the move: what you saw change in the work, what you want to grow in them, and what stays theirs. The Oracle 1:1 template holds it well, and that conversation is usually step one anyway.",
+        "steps": [
+          "Draft the three-part opener: what you saw change, what you want to grow, what stays theirs. Keep it to three sentences.",
+          "Book the 1:1 where you will say it, inside the same week as your move's dated step one."
+        ]
+      },
       "interaction": {
         "type": "builder",
         "playTitle": "Write the move",
@@ -118,7 +144,7 @@
         "reactions": {
           "strong": "Two weeks on, the coordinator has started the exception-handling work and says the change finally feels ahead of them instead of chasing them. Your move is now a story other managers borrow.",
           "mid": "A month later the idea resurfaces in a hallway conversation, still healthy, still homeless. It will take one owner and one date to wake it, which is where you started.",
-          "weak": "The March map is now a March memory. When the role finally changes, it changes to your team instead of with it, and every option left on the table costs more."
+          "weak": "The exposure map is now just a memory. When the role finally changes, it changes to your team instead of with it, and every option left on the table costs more."
         }
       }
     }

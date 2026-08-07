@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "Your First Win · Take-Off Tuesday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees will be opening an AI tool for the first time. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites and zero jargon; January opens the AI at Work theme with the new calendar year.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did you run the chore on your card? What did the check catch? What chore gets the next green light?' Count of completed first wins is the Level 3 metric for the month.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 3, AI-Enabled Workforce Readiness.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A learner starts describing real internal or personal content they want to paste into a tool",
+    "then": "Redirect gently and publicly: 'Keep it green for today: public or generic only.' Praise the instinct to try, then point the yellow work at approved VU tools."
+   },
+   {
+    "if": "Someone says they are too far behind to ever catch up with AI",
+    "then": "Slow the room down: this session assumes zero experience on purpose. One chore, one ask, one check is the entire skill today, and the sandbox session exists for exactly this feeling."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Which tool should I actually use?",
+    "a": "For green-light chores, any of the approved tools listed on the Anchor's Edge dashboard work, and your navigator can point you to the current list. The habit transfers: the light, the plain-English ask, and the check work the same everywhere, so the skill you built today is portable."
+   },
+   {
+    "q": "Is using AI for my work cheating?",
+    "a": "Handing a chore to a tool and checking the result is the same judgment you already use with a template or a spell-checker, scaled up. The thinking, the facts, and the final call stay yours. What would cross a line is sending anything you have never read and verified yourself."
+   },
+   {
+    "q": "What if the tool gives me a wrong answer and I miss it?",
+    "a": "That is why the first win is chore-sized: small drafts are checkable in two minutes. Verify names, dates, and numbers against sources you trust, and cut anything you cannot confirm. The editor's eye gets faster with practice; start small and it grows with you."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes to your first AI win. Bring one boring chore from your week: a draft, a summary, notes to tidy. No AI experience needed; we assume you have never opened a tool. Live and hands-on; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the first win happen? Three lines, reply whenever: 1) Did you run the chore on your card? 2) What did the check catch? 3) What chore gets the next green light?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Hands-on: one safe AI use case for your daily work.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built in ordinary workweeks. Every staff member who hands a chore to AI safely puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 measures a workforce that is ready for AI, and readiness starts with one real use each. Today you run yours: one chore, one ask, one check.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: pick one green-light chore from your own week that ai can safely draft; write a plain-english ask that gives the tool the job, the details, and the shape you want; check the result for accuracy and voice before anything leaves your hands. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: pick the chore, write the ask, check before you use. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Pick the chore",
+   "purpose": "Install the traffic light and have every learner find one green-light chore in their own week.",
+   "say": "If you have never opened an AI tool, you are exactly who this hour was built for. One rule keeps everything safe, and it fits on a sticky note. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Everything we do today lives in green.",
+   "facilitate": [
+    "Run Call the light live; everyone plays on their own screen.",
+    "After the red case, pause: the chore was kind, and the information still made it red.",
+    "Run the breakout: one chore from your own week, call its light."
+   ],
+   "ask": {
+    "q": "What green-light chore from your own week came to mind first?",
+    "expect": [
+     "Drafting emails and announcements",
+     "Tidying rough notes",
+     "First versions of routine documents"
+    ],
+    "respond": "All perfect. Chore-sized is the point: your first win should be small enough to finish today and check in two minutes."
+   },
+   "debrief": "The light follows the information, and green is a big lane. Most weeks hold more green chores than anyone expects.",
+   "watchFor": "People whose whole week feels yellow or red. Point them at the generic side of their job: announcements, outlines, and public material are green even in sensitive roles.",
+   "transition": "You have the chore. Now the ask, in plain English.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one chore from chat.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Write the ask",
+   "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
+   "say": "Here is the best news of the month: talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague. Here is the job, here are the details that matter, here is the shape I want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
+   "facilitate": [
+    "Run Build the ask; two minutes to make both choices and send it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: a specific job plus a described shape equals a draft worth keeping."
+   ],
+   "ask": {
+    "q": "What detail would you add to make the volunteer thank-you ask even better?",
+    "expect": [
+     "A specific moment from the event",
+     "The audience it is going to",
+     "The sign-off we always use"
+    ],
+    "respond": "All good adds. Details you provide are details you already trust, which also makes the check at the end faster."
+   },
+   "debrief": "The tool answers the ask it was given. Plain English, real details, described shape: that is the whole craft.",
+   "watchFor": "People apologizing for weak first asks. Normalize it fast: everyone's first ask is thin, and one more honest sentence usually fixes it.",
+   "transition": "The draft is back. Before it goes anywhere, you become the editor.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Check before you use",
+   "purpose": "Install the editor's rule: verify facts, fit, and voice before any draft leaves your hands.",
+   "say": "One honest warning and you are ready. The tool writes with total confidence whether it is right or wrong. Sometimes it invents a detail or misses your meaning, so the last step of every use is the check: every fact verified, the message actually yours, the voice actually you. Two minutes of editing keeps your name safe on everything you send.",
+   "facilitate": [
+    "Read the editor's rule card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
+    "Run the discussion: where would one invented detail do the most damage in your work? Take two or three voices.",
+    "Run the breakout on the confident-sounding document that turned out wrong."
+   ],
+   "ask": {
+    "q": "Why does the check stay your job even when the draft looks perfect?",
+    "expect": [
+     "My name goes on it",
+     "The tool cannot know what is true in my world",
+     "Polish is exactly when errors slip through"
+    ],
+    "respond": "Right on all counts. The polish is the trap; read every line like an editor, especially the impressive ones."
+   },
+   "debrief": "Facts, fit, voice. If you cannot verify a detail, cut it or confirm it yourself. Then it ships.",
+   "watchFor": "Learners concluding AI is too risky to touch at all. Rebalance: the check takes two minutes on a chore-sized draft, and the chore used to take an hour.",
+   "transition": "Quick recap, then you build your first-win card.",
+   "coreNote": "Core: read the card, take one voice on the discussion, skip the breakout.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Start where you are: one chore, one ask, one check.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One green-light chore from your own week, the plain-English ask you will make, and the moment you will run it. If you would rather try with help nearby, pick the sandbox session as your moment. Build the card and copy it somewhere you will see it. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave with the whole loop: one chore, one ask, one check. Run it this week and tell your team what the check caught. Thursday's Thrive Thursday takes on the other half of new tools: adaptability, staying steady while things keep changing. And if you want company for your first run, the navigators are hosting a First-AI-Win sandbox session this month; the LinkedIn Learning course Generative AI for Business Leaders pairs well once your first win is behind you.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

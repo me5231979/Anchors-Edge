@@ -1,0 +1,285 @@
+{
+ "meta": {
+  "program": "The Better Question · Thrive Thursday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the curiosity move on your card happen? What did asking show you that waiting would not have? What is your next question?' Count of completed moves feeds the month's Goal 1 story.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A breakout pair drifts from curiosity questions into venting about their own roles",
+    "then": "Redirect warmly: one better question about your path counts as the exercise. Park the venting with the offer of a different forum for it."
+   },
+   {
+    "if": "Someone says asking colleagues about their work feels intrusive or fake",
+    "then": "Offer the opener live: 'I am trying to understand how work happens outside my corner; can I ask you about yours?' Fifteen minutes, their terms. Almost nobody says no to being asked well."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't this just networking with a nicer name?",
+    "a": "Networking optimizes for contacts; curiosity conversations optimize for understanding. You ask about the work on its own terms with nothing attached. The career payoff is real, and it arrives as a side effect of paying genuine attention, which is exactly why it works."
+   },
+   {
+    "q": "What if my curiosity points somewhere my manager would rather I not look?",
+    "a": "Curiosity is not a transfer request. An hour of shadowing commits you to nothing, and this month's manager sessions ask managers to make exactly this kind of exploration normal. If it grows into a real move, the Talent Marketplace and the Transfer Portal exist so that it becomes a Vanderbilt move instead of an exit."
+   },
+   {
+    "q": "I asked a better question and got a shallow answer. Now what?",
+    "a": "One shallow answer is data about the moment, not the method. Follow up once with the invisible-work question, which almost always deepens things. If it stays shallow, aim the same curiosity at a different person; the skill is the asking, and it compounds."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on curiosity as a career skill. Bring nothing but one role at Vanderbilt you have quietly wondered about. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did you ask? Three lines, reply whenever: 1) Did the curiosity move on your card happen? 2) What did asking show you that waiting would not have? 3) What is your next question?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Thrive Thursday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Softskill · Curiosity: asking better career questions.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes people who keep asking what their work could become. Curiosity is Educating the Whole Human applied to staff: the university grows when its people keep growing.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. The Talent Marketplace maps the talent; curiosity is what surfaces it. Goal 1 needs people asking about skills and paths out loud, and that starts with better questions.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: trade vague career wondering for questions specific enough to answer this week; open a career curiosity conversation with a colleague and keep it generous; turn one curiosity into one small, dated next step. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: questions for your own path, curiosity conversations, from curious to concrete. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Questions for your own path",
+   "purpose": "Replace vague career wondering with specific, answerable questions about the learner's own skills and path.",
+   "say": "We treat curiosity like a personality trait: some people have it, some don't. Today we treat it as a skill, and skills start with technique. The technique is the better question: specific enough that someone could answer it this week, honest enough that the answer would change what you do. We start by aiming it at your own career.",
+   "facilitate": [
+    "Put the In the room card on screen and read it aloud; let the two-part test land for a beat.",
+    "Run the discussion prompt and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only. Ask who has caught themselves asking the five-year question.",
+    "Run the breakout: the task that makes time move fastest, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "Honestly, what is the last question you asked about your own career?",
+    "expect": [
+     "Am I doing okay",
+     "What is next for me",
+     "Often silence: no question at all"
+    ],
+    "respond": "All normal. The silence is the finding: most of us go months without asking our career a single answerable question. Today fixes the question first, then the habit."
+   },
+   "debrief": "A better question is answerable this week and changes what you do. Everything else is fog.",
+   "watchFor": "People turning the prompt into self-criticism. Keep it at curiosity about skills, never a verdict on progress.",
+   "transition": "Curiosity aimed inward is half the skill. Now aim it at the talent around you.",
+   "coreNote": "Core: skip the breakout; ask for the time-flies task in chat instead.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Curiosity conversations",
+   "purpose": "Equip learners to open generous career curiosity conversations and to hear the difference between curiosity, dead ends, and judgment.",
+   "say": "This month is called See the Talent Around You, and here is the mechanism: talent becomes visible when somebody asks about it. A career curiosity conversation is fifteen minutes about a colleague's work on its own terms. No agenda and nothing to get: what does the work take, what does it teach, what does nobody see. Let's train your ear for what real curiosity sounds like.",
+   "facilitate": [
+    "Run Door or dead end? live; everyone plays on their own screen.",
+    "After round two, pause: ask who has been on the receiving end of a dead-end question and felt the difference.",
+    "Run the breakout on the role they are quietly curious about."
+   ],
+   "ask": {
+    "q": "Why does 'what does nobody see about your work' open people up so reliably?",
+    "expect": [
+     "Everyone has an invisible part of their job",
+     "It signals respect for the real work",
+     "Nobody ever asks it"
+    ],
+    "respond": "All three. It hands someone the microphone for the part of their work that goes unthanked. You learn the truth of the role, they feel seen, and both halves serve this month's theme."
+   },
+   "debrief": "Real curiosity is specific, generous, and about them. Dead ends fish for reassurance; judgment closes the doors it knocks on.",
+   "watchFor": "People framing the conversation as networking for advantage. Keep it generous; the visibility payoff is mutual and arrives on its own.",
+   "transition": "A good answer is the beginning, though. Stop three turns one into a step.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "From curious to concrete",
+   "purpose": "Convert one curiosity into a small next step with a date on it.",
+   "say": "Here is where curiosity usually dies: the conversation was great, the answer was fascinating, and nothing happened. The fix is embarrassingly small. Ask for the smallest real taste of the thing, and put a date on it before the feeling fades. An hour of shadowing books in one message. Let's build the step.",
+   "facilitate": [
+    "Run Book the next step; give the room two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: smallest real taste, date before you log off."
+   ],
+   "ask": {
+    "q": "Why does 'someday, when work calms down' feel so reasonable and work so badly?",
+    "expect": [
+     "Work never calms down",
+     "The curiosity fades before the calendar clears"
+    ],
+    "respond": "Both. Someday is a real decision disguised as a delay. The small dated step is how you outvote your own busyness."
+   },
+   "debrief": "Small enough to get a yes, dated enough to be real. That is the whole conversion.",
+   "watchFor": "People sizing the step too big, like requesting a formal rotation. Shrink it until the ask fits in one message.",
+   "transition": "Quick recap, then you build your card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Talent becomes visible the moment somebody asks about it.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One place your curiosity points, role only. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "That closes the first week of Anchor's Edge. Monday gave managers the talent read, Tuesday put your skills on the map, and today gave you the questions that make talent visible, yours and everyone else's. Make the curiosity move on your card this week; the Know-Your-Team lab with your navigator and the Talent Management course on LinkedIn Learning are there if you want to keep pulling the thread. The rhythm picks back up next Monday, and next month's theme, The Transfer Portal in Practice, turns this month's visibility into real internal moves. See you then.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}
