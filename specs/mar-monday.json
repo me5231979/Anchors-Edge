@@ -4,365 +4,364 @@
  "month": "March 2027",
  "monthShort": "Mar",
  "monthIndex": 6,
- "theme": "Spot AI-Exposed Work",
- "goal": 3,
- "title": "The Exposure Map",
- "titleHtml": "Map the work <em class=\"gold-text\">before it moves</em>.",
- "tagline": "Walking your team's work through an AI-exposure lens.",
- "description": "A 45-minute virtual session for Vanderbilt managers: map your team's recurring work, sort it honestly by AI exposure, and open the team conversation about what changes without fear.",
- "heroLead": "AI is already reshaping some of the work your team repeats every week. This session gives you a manager's map of it: which tasks are exposed, which stay human, and how to talk about the difference so your team sees the change before it sees them.",
+ "theme": "Coaching as the Core Manager Behavior",
+ "goal": 2,
+ "title": "The Coaching Moment",
+ "titleHtml": "Catch the <em class=\"gold-text\">coaching moment</em>.",
+ "tagline": "Spotting the coaching moment hiding inside the status conversation.",
+ "description": "A 45-minute virtual session for Vanderbilt managers: learn to catch the coaching moment inside an ordinary status conversation, trade instructions for one good question, and give the talk a simple four-beat shape.",
+ "heroLead": "Most 1:1s are status meetings wearing a nicer name. Somewhere in the middle of the updates, a person quietly hands you a chance to grow them. This session teaches you to catch that moment and coach it instead of solving it.",
  "objectives": [
-  "Map your team's recurring work as tasks, separate from the people who hold them",
-  "Sort each task honestly by AI exposure: high, partial, or low",
-  "Open one team conversation that frames exposure as redesign the team helps write"
+  "Recognize a coaching moment inside an ordinary status conversation",
+  "Trade instructions for one good question that puts the thinking in their head",
+  "Run a ten-minute coaching talk with a simple four-beat shape"
  ],
  "skills": [
   {
-   "label": "Leads through change",
+   "label": "Grows self and others",
    "core": true
   },
   {
-   "label": "AI Literacy"
+   "label": "Coaching"
   },
   {
-   "label": "Workforce Planning"
+   "label": "Asking Questions"
   },
   {
-   "label": "Team Communication"
+   "label": "Developing Talent"
   }
  ],
- "missionTie": "A university out to define the century cannot let AI redraw its work unnoticed. Managers who can map exposure and redesign around it keep Exceptional Core Operations exceptional while the tools underneath keep changing.",
- "goalLead": "Goal 3 asks managers to identify AI-exposed work on their teams and turn that insight into action. Today you build the map that everything else in the goal stands on.",
+ "missionTie": "Managers who coach build the people a century-defining university runs on. Every status update you turn into a growth conversation is Exceptional Core Operations at the smallest scale: one manager, one person, ten minutes.",
+ "goalLead": "Manager Effectiveness at Scale is measured in demonstrated behavior, and coaching sits at the center of the Vanderbilt manager standard. Today makes it something you do on purpose.",
  "agenda": [
   {
-   "t": "The task map",
-   "d": "List the team's recurring work as tasks, because exposure lives in tasks, never in job titles."
+   "t": "The moment in the middle",
+   "d": "What a coaching moment sounds like inside a routine status conversation."
   },
   {
-   "t": "The honest sort",
-   "d": "Call each task's AI exposure straight: high, partial, or low, without flattery or panic."
+   "t": "Ask before you tell",
+   "d": "Why one good question beats three instructions, and how to find it."
   },
   {
-   "t": "The team talk",
-   "d": "Bring the map to your team as a redesign conversation they help write."
+   "t": "A shape for the talk",
+   "d": "Goal, reality, options, will: four beats that keep a coaching talk moving."
   }
  ],
- "manifesto": "Exposure you can see becomes a redesign. Exposure you ignore arrives as a surprise.",
+ "manifesto": "Tasks need managing. People need coaching. The skill is knowing which one just spoke.",
  "sections": [
   {
    "id": "s-one",
-   "nav": "The Map",
-   "dataTitle": "The task map",
-   "eyebrow": "The Map",
-   "headline": "AI meets your team one <em>task</em> at a time.",
-   "lead": "Nobody's whole job is exposed to AI; pieces of it are. The map starts with a plain list of your team's recurring tasks: the weekly report, the intake queue, the scheduling. Write tasks, hold the people out of it, and the picture gets honest fast.",
-   "group": "In pairs: name two recurring tasks your team does every week, in task language, no names attached. One pair shares their list.",
-   "solo": "List five recurring tasks your team does every week, in task language, no names attached.",
+   "nav": "The Moment",
+   "dataTitle": "The moment in the middle",
+   "eyebrow": "The Moment",
+   "headline": "Status updates hide <em>coaching moments</em>.",
+   "lead": "A coaching moment is any point where the subject stops being the task and becomes the person: their judgment, their confidence, their stuck. It arrives mid-update, sounds like a small aside, and is gone in ten seconds if you keep driving the task.",
+   "group": "In pairs, 90 seconds each: recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
+   "solo": "Recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
    "interaction": {
     "type": "check",
     "card": {
-     "tag": "The mapping rule",
-     "text": "Map the work, never the people. List each recurring task on its own line: what gets produced, how often, from what inputs. A task-level map lets you redesign work without putting anyone's job on trial."
+     "tag": "The tell",
+     "text": "Listen for the sentence about themselves inside the sentences about the task: 'I never know when to escalate.' 'I hate presenting these.' The update carries the work; the aside carries the person. The aside is the door."
     },
-    "q": "Quick check: which entry belongs on an AI-exposure map?",
+    "q": "A coordinator finishes an update, then adds: 'Honestly, I second-guess every one of these decisions.' What just happened?",
     "opts": [
      {
-      "t": "Our data analyst might be replaceable",
+      "t": "A confidence wobble you should reassure away",
       "correct": false,
-      "why": "That maps a person, and it poisons every conversation that follows. Exposure belongs to tasks; people hold portfolios of tasks, most of which stay human."
+      "why": "Reassurance closes the door politely. 'You're doing fine' ends the conversation the aside was trying to start."
      },
      {
-      "t": "Weekly enrollment summary, compiled every Friday from system exports",
+      "t": "A coaching moment: the subject just became their judgment",
       "correct": true,
-      "why": "A named task with a rhythm and inputs. Now you can ask how exposed it is and what the hour it frees up should become."
+      "why": "Right. The update was about the task; the aside is about them. That is the door, and it stays open for about one question."
      },
      {
-      "t": "The whole front office, since AI changes everything",
+      "t": "A request for you to review their decisions from now on",
       "correct": false,
-      "why": "Too big to sort and too vague to redesign. Break it into the tasks the office actually repeats and the map becomes useful."
+      "why": "Taking the decisions back solves this week and shrinks the person. They pointed at growth and heard you offer supervision."
      }
     ]
    }
   },
   {
    "id": "s-two",
-   "nav": "The Sort",
-   "dataTitle": "The honest sort",
-   "eyebrow": "The Sort",
-   "headline": "Sort it straight, without <em>flattery or panic</em>.",
-   "lead": "Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.",
-   "group": "Breakout pairs: pick one task from your list and call its exposure. Does your partner agree? 90 seconds each way.",
-   "solo": "Pick one task from your list and call its exposure: high, partial, or low. Write one line on why.",
+   "nav": "The Question",
+   "dataTitle": "Ask before you tell",
+   "eyebrow": "The Question",
+   "headline": "One question beats three <em>instructions</em>.",
+   "lead": "Telling is fast, and it works once. Asking is slower, and it works from then on, because the thinking happens in their head instead of yours. The craft is a question that is genuinely open: one you do not already know the answer to.",
+   "group": "In pairs: take an instruction you gave this week and rewrite it together as one open question. Trade and improve.",
+   "solo": "Take an instruction you gave this week and rewrite it as one open question.",
    "interaction": {
     "type": "trainer",
-    "playTitle": "Call the exposure",
-    "intro": "Three tasks from real Vanderbilt weeks. Read each one and make the exposure call.",
-    "progressWord": "Task",
+    "playTitle": "Tell or ask?",
+    "intro": "A team member brings you a stuck. Read what the manager says back and call it.",
+    "progressWord": "Round",
     "labels": [
-     "High exposure, redesign candidate",
-     "Partial exposure, pair with AI",
-     "Low exposure, stays human"
+     "Telling: the manager keeps the thinking",
+     "Asking: the thinking goes to them",
+     "Fake question: an instruction in disguise"
     ],
     "passAt": 2,
-    "passMsg": "You sort straight. High gets a redesign, partial gets a pairing, low gets protected and valued.",
-    "failMsg": "Close. The tells: repetitive and rule-based leans high; judgment over internal work leans partial; anything built on trust or private people data stays human.",
+    "passMsg": "You can hear the difference. Real questions hand the thinking over; disguised instructions just soften the telling.",
+    "failMsg": "Close. The tell: if you already know the answer you want, it is telling, whatever the punctuation says.",
     "items": [
      {
-      "q": "Reformatting the same public event listings into the newsletter template every week.",
+      "q": "'This vendor keeps missing deadlines.' Manager: 'Call them today and copy procurement.'",
       "answer": 0,
-      "why": "Repetitive, rule-based, built on public content: green-light work AI handles well. The redesign question is what the freed hours should become."
+      "why": "Clear, fast, and the manager keeps the thinking. Fine for a fire; done every time, it trains the team to bring problems raw."
      },
      {
-      "q": "Drafting the annual program review, which blends internal data with judgment calls about priorities.",
+      "q": "'I can't get the two directors to agree.' Manager: 'What have you already tried, and what happened?'",
       "answer": 1,
-      "why": "AI can draft and summarize inside approved VU tools, since the data is internal. The priority calls stay with the person driving."
+      "why": "Genuinely open. The manager does not know the answer yet, and the question makes the person walk their own reality before anyone offers options."
      },
      {
-      "q": "Coaching a struggling team member through a rough semester.",
+      "q": "'I'm behind on the report.' Manager: 'Don't you think you should have started earlier?'",
       "answer": 2,
-      "why": "This runs on trust and private knowledge of a person. That is red-light territory for AI and the heart of the job for a manager."
+      "why": "The question mark is decoration. There is one acceptable answer, so it lands as a scolding. If you know the answer you want, say it plainly or ask something real."
      }
     ]
    }
   },
   {
    "id": "s-three",
-   "nav": "The Talk",
-   "dataTitle": "The team talk",
-   "eyebrow": "The Move",
-   "headline": "Bring the map to the <em>team</em>.",
-   "lead": "A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write: what gets automated, what gets augmented, where the freed hours go. How you open that conversation decides whether it lands as invitation or verdict.",
+   "nav": "The Shape",
+   "dataTitle": "A shape for the talk",
+   "eyebrow": "The Shape",
+   "headline": "Four beats keep the talk <em>moving</em>.",
+   "lead": "A coaching talk without a shape wanders. Here is a simple one: where are they trying to get (goal), what is actually happening (reality), what could they try (options), what will they do (will). Plain words, their answers, ten minutes.",
    "interaction": {
     "type": "builder",
-    "playTitle": "Open the team conversation",
-    "intro": "Your team will hear about AI exposure from someone. Choose how they hear it from you.",
+    "playTitle": "Coach the moment",
+    "intro": "An advisor on your team says: 'I want the senior cases, and I keep getting passed over.' Coach it in two moves.",
     "runLabel": "Run the conversation",
     "outcomeTag": "How it lands",
     "slots": [
      {
-      "key": "How you open",
+      "key": "Your first move",
       "opts": [
        {
-        "t": "Leadership wants an AI plan, so I made a list of what could be automated.",
+        "t": "Explain how case assignments actually get decided.",
         "pts": 1,
-        "coach": "Opening with leadership pressure and automation tells the room this is being done to them. Expect quiet nodding in the meeting and loud anxiety after it."
+        "coach": "Information is telling in its Sunday clothes. They leave knowing the process and still holding the want with nowhere to put it."
        },
        {
-        "t": "AI is coming either way, so let's get ahead of it before it gets ahead of us.",
+        "t": "Ask: 'Have you told the assignments lead you want them?'",
         "pts": 2,
-        "coach": "Energetic, and it still frames AI as a threat to outrun. Fear gets attention; it rarely gets honest task lists."
+        "coach": "A real question that jumps straight to one option. You picked the route before you knew where they are trying to go."
        },
        {
-        "t": "Here's a map of our recurring tasks. I want your read on what AI should take off our plates.",
+        "t": "Ask: 'What would the senior cases mean for where you're headed?'",
         "pts": 3,
-        "coach": "Tasks on the table, people invited to sort them. Asking for their read turns the map into shared work instead of a verdict."
+        "coach": "Goal first. Before options make sense, both of you need to hear what they are actually reaching for; sometimes the cases are a proxy for something else."
        }
       ]
      },
      {
-      "key": "What you promise",
+      "key": "Your second move",
       "opts": [
        {
-        "t": "No promises; we'll see where this goes.",
+        "t": "Offer to raise it with the assignments lead yourself.",
         "pts": 1,
-        "coach": "Uncertainty from the manager becomes dread in the team. Without a commitment, every high-exposure task reads as a threat to someone."
+        "coach": "Rescue feels generous and takes the ball away. Next time they are passed over, the skill still lives with you."
        },
        {
-        "t": "Nobody's job changes because of this exercise.",
+        "t": "Ask what is in the way, then hand them your best fix.",
         "pts": 2,
-        "coach": "Comforting today and hard to keep. Work will change; promising it won't spends your credibility on the wrong sentence."
+        "coach": "Reality, then a telling. Better; still, the options were yours. Ask for theirs first and add yours only if the well runs dry."
        },
        {
-        "t": "Exposed tasks mean redesign, and the people who do the work help decide what fills the hours.",
+        "t": "Ask what they could try, then which one they will do by Friday.",
         "pts": 3,
-        "coach": "A promise you can keep: change comes with a voice in it. That is what turns exposure from threat into a growth conversation."
+        "coach": "Options, then will, in their words. The commitment they name aloud, with a date, is the part of coaching that survives the meeting."
        }
       ]
      }
     ],
     "heads": {
-     "strong": "A team that leans in. The map is on the table and the people who know the tasks best are sorting them with you.",
-     "mid": "A mixed landing. Some heard opportunity, some heard threat, and the rumor mill got the leftovers.",
-     "weak": "A quiet meeting and a loud week after. The map became a rumor about cuts before Friday."
+     "strong": "A ten-minute talk that grew someone. They left with their own plan and a date, and you left knowing what they actually want.",
+     "mid": "Helpful, and mostly yours. The person got movement this week and no more ownership than they walked in with.",
+     "weak": "The task got handled; the person got skipped. They will bring you the same stuck again, because the thinking stayed with you."
     },
     "reactions": {
-     "strong": "Within two weeks, a team member brings you a task you missed, with their own exposure call attached. The map belongs to the team now, and Tuesday's task sort gives each of them the same lens for their own week.",
-     "mid": "A few people run with it; a few quietly update their resumes. The difference was one promise you did not quite make. Reopen the talk with the freed-hours commitment said out loud.",
-     "weak": "The word automated traveled faster than the word redesign. You spend the month rebuilding trust the opening line spent in five minutes."
+     "strong": "Friday comes and they did the thing they named, because they named it. A month later they are handling assignment conversations without you, and the want you surfaced is shaping their next role.",
+     "mid": "Your fix worked, which is the problem: they learned that stuck things go to you. The next want arrives the same way, still raw, still yours to solve.",
+     "weak": "The assignments lead never hears from them. The want goes quiet, and quiet wants are how next quarter's flight risks get made."
     }
    }
   }
  ],
  "recap": [
   {
-   "q": "What goes on an AI-exposure map?",
+   "q": "Mid-update, a team member adds: 'I always freeze when leadership pushes back.' That is...",
    "opts": [
-    "The people most at risk",
-    "The team's recurring tasks, one per line",
-    "Whole roles and job titles",
-    "Only tasks you would automate"
+    "Noise; let the update continue",
+    "A coaching moment: the subject just became them",
+    "A performance issue for the annual review",
+    "A cue to reassure and move on"
    ],
    "correct": 1,
-   "why": "Exposure lives in tasks. People hold portfolios of tasks, and mapping tasks keeps redesign honest while keeping anyone's job off trial."
+   "why": "The aside about themselves inside the talk about the task is the door. It stays open about one question long."
   },
   {
-   "q": "A task blends internal data with judgment calls. Its exposure is most likely...",
+   "q": "Why does one good question beat three instructions?",
    "opts": [
-    "High: hand it to AI end to end",
-    "Zero: AI never touches it",
-    "Partial: AI helps in approved VU tools",
-    "Unknowable until a vendor demos it"
+    "Questions take less time to give",
+    "It keeps the meeting shorter",
+    "The thinking happens in their head and stays there",
+    "It protects you from blame"
    ],
    "correct": 2,
-   "why": "Internal work is yellow-light territory: approved VU tools can draft and summarize while the judgment stays with the person driving."
+   "why": "Telling works once. A real question builds the judgment they will use when you are nowhere near the problem."
   },
   {
-   "q": "What turns high exposure into something other than a threat?",
+   "q": "The four beats of a simple coaching talk, in order...",
    "opts": [
-    "Keeping the map confidential",
-    "Promising nothing will change",
-    "A redesign the team helps write",
-    "Waiting for an enterprise directive"
+    "Options, goal, will, reality",
+    "Goal, reality, options, will",
+    "Reality, feedback, options, goal",
+    "Will, goal, reality, options"
    ],
-   "correct": 2,
-   "why": "Change with a voice in it reads as redesign. The commitment that the team helps decide what fills the freed hours is the fear antidote."
+   "correct": 1,
+   "why": "Where they are headed, what is true now, what they could try, what they will do. Their words at every beat, and the will beat gets a date."
   }
  ],
  "recapMsgs": {
-  "high": "The lens is fitted. Now walk your real task list through it.",
-  "mid": "Solid. Revisit the sort tells, then build your card.",
-  "low": "Take the three sections once more before you map real work."
+  "high": "The ear is tuned. Now aim it at one real aside from your own team.",
+  "mid": "Solid. Revisit the section you missed, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
  },
  "capstone": {
-  "eyebrow": "Capstone · My exposure map",
-  "headline": "Ten tasks. One sort. <em>One conversation.</em>",
-  "lead": "Commit to the first pass of your team's map. Tasks and roles only, never a name; nothing you type is saved or sent.",
-  "whoLabel": "Which slice of your team's work do you map first? Name the task cluster.",
-  "whoPlaceholder": "e.g. weekly reporting cycle; intake and scheduling tasks",
-  "practiceLabel": "How do you take the first pass?",
-  "whoRow": "The work I am mapping",
+  "eyebrow": "Capstone · My coaching moment",
+  "headline": "One aside. One question. <em>This week.</em>",
+  "lead": "Pick the person whose aside you have been driving past. Role only, never a name; nothing you type is saved or sent.",
+  "whoLabel": "Whose coaching moment do you owe? Role and the aside you remember.",
+  "whoPlaceholder": "e.g. research coordinator; 'I never know when to escalate'",
+  "practiceLabel": "How will you coach it?",
+  "whoRow": "The person and the aside",
   "practices": [
    {
-    "id": "solomap",
-    "chip": "Map it myself first",
-    "name": "Map it myself first",
-    "move": "List ten recurring tasks, sort each high, partial, or low, and pressure-test the sort with one trusted peer manager."
+    "id": "door",
+    "chip": "Reopen the door",
+    "name": "Reopen the door",
+    "move": "Bring the aside back: 'Last week you mentioned second-guessing those calls. Say more?' Then stay quiet."
    },
    {
-    "id": "teammap",
-    "chip": "Map it with the team",
-    "name": "Map it with the team",
-    "move": "Bring a blank task list to the next team meeting and build the map together, exposure calls and all."
+    "id": "question",
+    "chip": "The one question",
+    "name": "The one question",
+    "move": "At the next stuck, trade your instruction for one open question you do not know the answer to."
    },
    {
-    "id": "workshop",
-    "chip": "Book the navigator workshop",
-    "name": "Book the navigator workshop",
-    "move": "Schedule the navigator-led AI-exposure mapping workshop and arrive with your ten-task list as the raw material."
+    "id": "tenmin",
+    "chip": "The ten-minute talk",
+    "name": "The ten-minute talk",
+    "move": "Run the four beats end to end: goal, reality, options, will, and let them name the date."
    }
   ],
   "whens": [
    {
     "id": "week",
     "chip": "This week",
-    "out": "The first pass exists by Friday: ten tasks, each with an exposure call."
+    "out": "The moment gets coached this week, in whichever conversation hands it to you first."
    },
    {
-    "id": "teammeet",
-    "chip": "At the next team meeting",
-    "out": "The map opens your next team meeting, first item, before status updates."
+    "id": "next11",
+    "chip": "At our next 1:1",
+    "out": "Your next 1:1 opens with the aside, first item, before any status updates."
    },
    {
     "id": "twoweeks",
     "chip": "Within two weeks",
-    "out": "Map and team conversation both happen within two weeks, booked today."
+    "out": "The coaching talk happens within two weeks, with the 1:1 extended ten minutes so it fits."
    }
   ],
-  "cardTitle": "My exposure map card",
-  "evidenceRow": "Afterward, one line: which task's exposure call surprised you most?"
+  "cardTitle": "My coaching moment card",
+  "evidenceRow": "Afterward, one line: what did they figure out that you did not have to tell them?"
  },
  "closing": {
-  "headline": "See the change coming. <em>Shape it first.</em>",
-  "lead": "You built a task map, an honest sort, and a team conversation that lands as invitation. The rest of the week hands the same lens to every member of your team.",
+  "headline": "Manage the task. <em>Coach the person.</em>",
+  "lead": "You built an ear for the aside, a question that hands the thinking over, and a four-beat shape. The rest of the week gives everyone, managers included, the tools and the listening underneath it.",
   "nextTag": "Your one next step · This week",
-  "nextTitle": "Take the first pass at your map",
-  "nextBody": "Ten recurring tasks, each sorted high, partial, or low. The LinkedIn Learning course AI for Leaders by Doug Rose pairs well with the mapping workshop.",
-  "brandline": "Map the work. Then lead the redesign."
+  "nextTitle": "Coach the moment on your card",
+  "nextBody": "Run it exactly as built: bring back the aside, ask the question, let them name the will. Bring one line about what they figured out to next Monday.",
+  "brandline": "Coach the person. Manage the task."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month, and this session opens it.",
-  "pulse": "Seven days out, send the pulse: 'Does your ten-task map exist? Which exposure call surprised you? Has the team seen it yet?' Count of completed team maps is the Level 3 metric for the month.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; February is the Coaching as the Core Manager Behavior month, and this session opens it.",
+  "pulse": "Seven days out, send the pulse: 'Did you catch the moment on your card? What did the person figure out without being told? What aside are you listening for next?' Count of coached moments feeds the manager-standard behavior metric for the month.",
   "s1": {
-   "title": "The task map",
-   "purpose": "Install the mapping rule: exposure lives in recurring tasks, never in people or titles.",
-   "say": "March is about seeing what is changing on your team before it changes you. The instinct is to ask which jobs are safe, and that question maps people, which poisons everything downstream. We start smaller and more honest: what tasks does this team repeat every week?",
+   "title": "The moment in the middle",
+   "purpose": "Teach managers to hear the coaching moment: the aside about the person inside the talk about the task.",
+   "say": "Here is the trap this month is built around: 1:1s that are status meetings with better branding. Manage the task, absolutely; the task deserves it. But somewhere in the middle of the updates, people hand you a sentence about themselves, and most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
    "facilitate": [
-    "Read the lead once, then run the knowledge check on everyone's own screen.",
-    "Ask who almost picked the whole-office answer and why the task version beats it.",
-    "Run the breakout: two recurring tasks in task language, no names attached."
+    "Read the concept card aloud once; the two aside examples do the teaching.",
+    "Run the knowledge check; everyone answers on their own screen before you weigh in.",
+    "Run the breakout on the aside they drove past, 90 seconds each way."
    ],
    "ask": {
-    "q": "What changes when you write down the weekly summary instead of a person's name?",
+    "q": "What did the last aside you drove past sound like?",
     "expect": [
-     "The conversation stops being about someone's job",
-     "You can sort it without anyone getting defensive",
-     "It gets specific enough to actually redesign"
+     "Quotes like 'I always mess this up' or 'I hate this part'",
+     "Some managers cannot remember one, which is itself the point"
     ],
-    "respond": "All of it. Task language is what lets you do this month in the open instead of in a locked spreadsheet."
+    "respond": "Both answers teach. If asides come easily, the ear exists and needs aiming. If none surface, the task has been drowning out the person, and this week is for listening differently."
    },
-   "debrief": "The map is a list of tasks with rhythms and inputs. People hold portfolios of tasks, and no portfolio is all one color.",
-   "watchFor": "Managers drifting into naming people or rating roles. Redirect every time: tasks on the map, people in your care.",
-   "transition": "A list is a start. The sort is where honesty gets tested.",
-   "coreNote": "Core: skip the breakout; ask for one recurring task in chat instead."
+   "debrief": "Coaching moments are handed to you mid-task. The aside about themselves is the door, and it stays open about one question long.",
+   "watchFor": "Managers who hear 'coach everything.' Be plain: most of the 1:1 stays task, and that is right. The skill is catching the one moment that is about the person.",
+   "transition": "You caught the moment. What you say next decides who does the thinking.",
+   "coreNote": "Core: skip the breakout; ask for one remembered aside in chat instead."
   },
   "s2": {
-   "title": "The honest sort",
-   "purpose": "Teach the three exposure calls and their tells, inside the shared traffic light rules.",
-   "say": "Now sort it straight. High means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human. And the sort lives inside the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
+   "title": "Ask before you tell",
+   "purpose": "Replace the instruction reflex with one genuinely open question that transfers the thinking.",
+   "say": "So the door is open, and the reflex now is to be useful: three instructions, problem handled, next agenda item. Telling works, once. The reason we ask instead is where the thinking happens. Your instruction runs in your head. A real question runs in theirs, and what runs in their head is what they own. One honest question you cannot answer for them beats three instructions you can.",
    "facilitate": [
-    "Run Call the exposure live; everyone plays on their own screen.",
-    "After the coaching task, pause: ask why it stays human even though AI could draft the words.",
-    "Run the breakout: one task, one exposure call, partner challenges it."
+    "Run Tell or ask? live; everyone plays on their own screen.",
+    "After round three, pause on the fake question; ask the room where they have heard one this month.",
+    "Run the breakout: rewrite one real instruction as one open question."
    ],
    "ask": {
-    "q": "Which pull is stronger in your own sort: calling everything exposed, or calling nothing exposed?",
+    "q": "What makes the fake question in round three worse than plain telling?",
     "expect": [
-     "Panic sorters who see exposure everywhere",
-     "Comfort sorters who protect every task",
-     "Some will admit they flatter their team's work"
+     "It pretends to hand over the thinking while keeping it",
+     "It adds judgment on top of the instruction",
+     "People learn to hear every question as a trap"
     ],
-    "respond": "Both pulls are fear in different clothes. The honest sort is the kind thing; it is what makes the redesign real instead of cosmetic."
+    "respond": "All three. Plain telling is at least honest about what it is. A fake question spends trust, and trust is what your real questions will need."
    },
-   "debrief": "Repetitive and rule-based leans high. Judgment over internal work leans partial, in approved VU tools. Trust and private people data stay human, always.",
-   "watchFor": "Anyone suggesting AI for red-light work like coaching notes or performance concerns. Restate the light: private information about people, never.",
-   "transition": "You have a sorted map. Now it has to survive contact with the team.",
-   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+   "debrief": "If you already know the answer you want, it is telling. Say it honestly, or ask something you genuinely cannot answer for them.",
+   "watchFor": "Managers hunting for the perfect question. Lower the bar: 'what have you tried?' and 'what would you do if I were out this week?' cover most moments.",
+   "transition": "One question opens the thinking. A light shape keeps it moving.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one rewrite aloud."
   },
   "s3": {
-   "title": "The team talk",
-   "purpose": "Equip managers to open the exposure conversation as invitation and redesign, with a keepable promise.",
-   "say": "Your team will hear about AI exposure from somewhere: a headline, a rumor, or you. The version they hear from you can come with tasks on the table and a promise you can keep, which is that the people who do the work help decide what fills the freed hours. We are going to build that opening.",
+   "title": "A shape for the talk",
+   "purpose": "Give the coaching talk a four-beat shape in plain words: goal, reality, options, will.",
+   "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Coaching books call it GROW; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
    "facilitate": [
-    "Run Open the team conversation; give the room two minutes for both choices.",
-    "Ask one volunteer to read a weak outcome aloud; let the room name what went wrong.",
-    "Point at the pattern: task map on the table, redesign promise out loud."
+    "Run Coach the moment; two minutes for both choices, then run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: goal before options, their options before yours, a will with a date."
    ],
    "ask": {
-    "q": "Why is 'nobody's job changes' the wrong promise even though it feels kind?",
+    "q": "Why does the rescue move in slot two feel so right and work so badly?",
     "expect": [
-     "Work will change, so the promise breaks",
-     "It spends credibility you will need later",
-     "The team hears a manager who has not looked closely"
+     "It is fast and feels generous",
+     "It proves the manager's value",
+     "It takes the ball, so the skill never transfers"
     ],
-    "respond": "Right. Promise the thing you control: change arrives as redesign, with their voice in it. That one holds."
+    "respond": "Exactly. Rescue solves this week and buys next month's version of the same stuck. Coaching is slower once so it can be faster forever."
    },
-   "debrief": "The strong open has a shape: here is our task map, here is my honest sort, help me decide what the freed hours become.",
-   "watchFor": "Managers rehearsing reassurance instead of invitation. Push them toward the ask: what is your read on this map?",
-   "transition": "Quick recap, then your own map goes on a card.",
+   "debrief": "Goal, reality, options, will. Their words at every beat, and the will beat leaves with a date attached.",
+   "watchFor": "Managers running the four beats as an interrogation checklist. It is a shape for listening; two beats done well beat four beats done fast.",
+   "transition": "Quick recap, then you pick your moment and build the card.",
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
-  "capstoneSay": "Now commit to the first pass. Pick the slice of your team's work you map first, choose how you take the pass, pick the window, and copy the card somewhere you will see it before Friday. Tasks and roles only, never a name. Two minutes, quiet, go.",
-  "closeSay": "You leave with a lens and a map to build. Tomorrow's Take-Off Tuesday hands every member of your team the same skill at the task level: automate, augment, or leave alone, one task at a time. Thursday's Thrive Thursday sharpens the critical thinking that keeps the whole month honest, sorting AI hype from real value. If you want to go deeper, the LinkedIn Learning course AI for Leaders by Doug Rose pairs with the navigator-led mapping workshop.",
+  "capstoneSay": "Now make it real. One person whose aside you have been driving past, role only. Pick how you will coach it, pick the window, build the card, and copy it somewhere you will see it before your next 1:1. Two minutes, quiet, go.",
+  "closeSay": "You leave with an ear for the aside, one real question, and a four-beat shape. Coach the moment on your card this week. Tomorrow's Take-Off Tuesday is for everyone, you included: capturing development goals and coaching notes in the system, so the growth you coach goes on the record. Thursday's Thrive Thursday builds the empathy underneath all of it, hearing what isn't said. And if you want more reps, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, with the navigator-led GROW practicum alongside it.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",
@@ -373,36 +372,36 @@
     "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
    },
    {
-    "if": "A manager names a specific employee while sorting a task",
-    "then": "Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' Exposure belongs to work, and the norm only holds if you hold it every time."
+    "if": "A manager names a real team member while sharing an aside",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' Coaching moments belong to the person; a group call is never the place to spend one."
    },
    {
-    "if": "The room turns anxious about their own manager roles",
-    "then": "Name it honestly: manager work is heavy with low-exposure tasks like coaching and judgment calls, and the mapping skill itself is exactly the kind of work that stays valuable."
+    "if": "A manager insists telling is faster and coaching is a luxury",
+    "then": "Agree, once. Telling wins the moment; coaching wins the quarter. Do the math aloud: ten minutes of coaching against the tenth repeat of the same stuck."
    }
   ],
   "toughQuestions": [
    {
-    "q": "Isn't this just building the case for cutting my team?",
-    "a": "The map is a redesign tool, and Goal 3 is workforce readiness: freed hours moving to higher-value work, skills growing before the change arrives. A team that sorts its own work shapes what comes next; a team that waits gets sorted by someone else's spreadsheet."
+    "q": "What if I ask a good question and get silence?",
+    "a": "Let it sit for five full seconds; silence usually means thinking, and filling it takes the thinking back. If it truly stalls, shrink the question: 'what is one thing you have tried?' A smaller true answer beats a bigger rescued one."
    },
    {
-    "q": "What if a task sorts as high exposure but the approved tools can't do it yet?",
-    "a": "Then the map is ahead of the tooling, which is the good direction. Log the task, note what the tool would need, and revisit quarterly. High exposure is a signal about the shape of the work, and the redesign can start before the automation does."
+    "q": "Isn't GROW just another corporate acronym?",
+    "a": "Treat it as an order, never a script: what they want, what is true, what they could try, what they will do. You can run all four beats without ever saying the word GROW. The acronym is a bookmark; the order is the tool."
    },
    {
-    "q": "Should I share the map with HR or leadership?",
-    "a": "Share the task-level map, yes; that is exactly the insight Goal 3 asks managers to surface. Keep it in task language with no names attached, and pair every high-exposure call with your redesign intent so it reads as a plan, never as a cut list."
+    "q": "What if the aside is really a performance problem?",
+    "a": "Coaching and performance management are different conversations, and both are yours. If the gap is willingness or repeated missed standards, name it directly through the performance process. Coach the growth asides; never use coaching questions to hint at a problem you owe them plainly."
    }
   ],
   "templates": [
    {
     "title": "Pre-work invite (paste into the calendar invite)",
-    "body": "Subject: Monday, 45 minutes on seeing AI-exposed work before it changes your team. Bring a rough sense of the five tasks your team repeats every week. No prep documents, no names. Live and interactive; have the session link open on your own screen."
+    "body": "Subject: Monday, 45 minutes on catching coaching moments. Bring the memory of one recent 1:1 that stayed on status the whole way through. You will never be asked to name anyone. Live and interactive; have the session link open on your own screen."
    },
    {
     "title": "7-day pulse (send one week after)",
-    "body": "Subject: Does the map exist? Three lines, reply whenever: 1) Does your ten-task map exist, with exposure calls? 2) Which call surprised you? 3) Has the team seen it, and what did they add?"
+    "body": "Subject: Did you catch the moment? Three lines, reply whenever: 1) Did the coaching moment on your card happen? 2) What did the person figure out without being told? 3) What aside are you listening for next?"
    }
   ]
  }

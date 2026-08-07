@@ -1,6 +1,6 @@
 # Anchor's Edge
 
-The nine-month weekly virtual learning series (Oct 2026 to Jun 2027), the
+The weekly virtual learning series, the
 Apply arm of CHART. One repo: the month-by-month dashboard at the root
 plus 27 course sites under `courses/<slug>/`, published as one GitHub
 Pages site at https://me5231979.github.io/Anchors-Edge/.

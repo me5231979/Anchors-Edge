@@ -19,18 +19,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://me5231979.github.io/Anchors-Edge/"
 
 GOALS = {
-    1: {"name": "Workforce Intelligence and the Transfer Portal",
-        "short": "Workforce Intelligence & Transfer Portal",
-        "desc": "By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university.",
-        "baseline": "6% of BUs", "target": "85% of BUs", "pct": 85, "basepct": 6},
+    1: {"name": "the Talent Marketplace and the Transfer Portal",
+        "short": "Talent Marketplace & Transfer Portal",
+        "desc": "Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university."},
     2: {"name": "Manager Effectiveness at Scale",
         "short": "Manager Effectiveness at Scale",
-        "desc": "By Q4, implement a Vanderbilt manager standard that measures demonstrated leader behavior.",
-        "baseline": "15%", "target": "80%", "pct": 80, "basepct": 15},
+        "desc": "Implement a Vanderbilt manager standard that measures demonstrated leader behavior."},
     3: {"name": "AI-Enabled Workforce Readiness",
         "short": "AI-Enabled Workforce Readiness",
-        "desc": "By Q4, equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.",
-        "baseline": "5%", "target": "25%", "pct": 25, "basepct": 5},
+        "desc": "Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions."},
 }
 
 SERIES_SUB = {
@@ -55,6 +52,8 @@ LIMITS = {
     "manifesto": 90, "objective": 110, "agenda_d": 110, "trainer_q": 150,
     "trainer_why": 170, "opt_t": 100, "coach": 180, "card_text": 240,
     "recap_opt": 80, "recap_why": 170, "practice_move": 170, "group": 170,
+    "context": 300, "discuss": 170, "deeper_title": 60, "deeper_body": 430,
+    "deeper_step": 170,
 }
 
 def strip_tags(t):
@@ -103,6 +102,16 @@ def validate(spec, errors):
             L("group", sec["group"], p + ".group")
         if sec.get("solo"):
             L("group", sec["solo"], p + ".solo")
+        d = sec.get("deeper")
+        if not d:
+            errors.append(p + ": missing deeper block (self-paced dive)")
+        else:
+            L("deeper_title", d["title"], p + ".deeper.title")
+            L("deeper_body", d["body"], p + ".deeper.body")
+            if not (2 <= len(d["steps"]) <= 3):
+                errors.append(p + ".deeper needs 2 or 3 steps")
+            for st in d["steps"]:
+                L("deeper_step", st, p + ".deeper.steps")
         it = sec["interaction"]
         if it["type"] == "trainer":
             if not (3 <= len(it["items"]) <= 4):
@@ -125,6 +134,11 @@ def validate(spec, errors):
                     L("coach", o["coach"], p + ".slot coach")
         elif it["type"] == "check":
             L("card_text", it["card"]["text"], p + ".card.text")
+            if not it.get("context") or not it.get("discuss"):
+                errors.append(p + ": check needs context and discuss (live-class replacement for the quiz)")
+            else:
+                L("context", it["context"], p + ".context")
+                L("discuss", it["discuss"], p + ".discuss")
             if len(it["opts"]) != 3:
                 errors.append(p + ": check needs 3 opts")
             if sum(1 for o in it["opts"] if o.get("correct")) != 1:
@@ -203,6 +217,9 @@ def builder_html(sec):
                    "intro": esc(it["intro"]), "runLabel": esc(it.get("runLabel", "Run it"))}
 
 def check_html(sec):
+    """The concept card shows in both editions. The live class gets extra
+    context and a facilitator-led discussion prompt in place of the quiz;
+    the self-paced edition gets the knowledge check."""
     it = sec["interaction"]
     opts = "".join(
         '<button class="opt" data-correct="%d" data-why="%s"><span class="mark">%s</span><span>%s</span></button>'
@@ -213,11 +230,17 @@ def check_html(sec):
         <span class="tag">%(cardTag)s</span>
         <p style="margin:.5rem 0 0" class="measure">%(cardText)s</p>
       </div>
-      <div class="quiz" data-quiz data-reveal style="margin-top:1.5rem">
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">%(context)s</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> %(discuss)s</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
         <p class="quiz__q">%(q)s</p>
         <div class="quiz__options">%(opts)s</div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>''' % {"cardTag": esc(it["card"]["tag"]), "cardText": esc(it["card"]["text"]),
+                   "context": esc(it["context"]), "discuss": esc(it["discuss"]),
                    "q": esc(it["q"]), "opts": opts}
 
 INTERACTION_HTML = {"trainer": trainer_html, "builder": builder_html, "check": check_html}
@@ -235,17 +258,31 @@ def section_html(sec, num):
     if sec.get("solo"):
         solo = ('\n      <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem">'
                 '<b>On your own:</b> %s</p>' % esc(sec["solo"]))
+    deeper = ""
+    if sec.get("deeper"):
+        d = sec["deeper"]
+        steps = "".join("<li>%s</li>" % esc(x) for x in d["steps"])
+        deeper = ('''
+      <details class="deeper" data-webonly hidden data-reveal>
+        <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
+        <div class="deeper__body">
+          <div><h4>%s</h4><p>%s</p></div>
+          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <ol class="steps">%s</ol></div>
+        </div>
+      </details>''' % (esc(d["title"]), esc(d["body"]), steps))
     return '''
   <!-- ============ SECTION %(num)02d ============ -->
   <section class="slide %(tone)s" id="%(id)s" data-count data-title="%(dataTitle)s">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section %(num)02d · %(eyebrow)s</p>
       <h2 class="h2" data-reveal>%(headline)s</h2>
-      <p class="lead" data-reveal>%(lead)s</p>%(inter)s%(group)s%(solo)s
+      <p class="lead" data-reveal>%(lead)s</p>%(inter)s%(group)s%(solo)s%(deeper)s
     </div>
   </section>''' % {"num": num, "tone": tone, "id": sec["id"], "dataTitle": esc(sec["dataTitle"]),
                    "eyebrow": esc(sec["eyebrow"]), "headline": sec["headline"],
-                   "lead": esc(sec["lead"]), "inter": inter, "group": group, "solo": solo}
+                   "lead": esc(sec["lead"]), "inter": inter, "group": group, "solo": solo,
+                   "deeper": deeper}
 
 
 def course_config_js(spec):
@@ -269,8 +306,7 @@ def course_config_js(spec):
         "capstone": {
             "whoRow": cap["whoRow"], "cardTitle": cap["cardTitle"],
             "copyTag": "%s · %s · Anchor's Edge" % (spec["title"], spec["month"]),
-            "goalRow": "Goal %d, %s: %s to %s by Q4." % (
-                spec["goal"], g["short"], g["baseline"], g["target"]),
+            "goalRow": "Goal %d, %s." % (spec["goal"], g["short"]),
             "evidenceRow": cap["evidenceRow"],
             "practices": cap["practices"], "whens": cap["whens"]},
     }
@@ -308,8 +344,6 @@ def build_course(spec):
         "goalNum": spec["goal"], "goalName": esc(g["name"]), "goalShort": esc(g["short"]),
         "goalShortHtml": (lambda w: esc(" ".join(w[:-1])) + " <em>" + esc(w[-1]) + "</em>")(g["short"].split()),
         "goalDesc": esc(g["desc"]),
-        "goalBaseline": esc(g["baseline"]), "goalTarget": esc(g["target"]),
-        "goalPct": g["pct"], "goalBasepct": g["basepct"],
         "goalLead": esc(spec["goalLead"]),
         "titleHtml": spec["titleHtml"],
         "tagline": esc(spec["tagline"]),
@@ -370,11 +404,11 @@ def std_notes(spec):
              "Point at the tie-in line and let it sit; no discussion needed here."],
             {"transition": "That is the why. Here is the number we are moving."}),
         sec("s-goal", "The goal we are targeting",
-            "Name the enterprise goal this month serves and the measurable move it needs.",
-            "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal %d, %s: %s Today's baseline is %s; the Q4 target is %s. %s" % (
-                spec["goal"], g["short"], g["desc"], g["baseline"], g["target"], spec["goalLead"]),
-            ["Let the meter animate before you speak to the number.",
-             "One line, not a lecture: this session is one of the moves that closes the gap."],
+            "Name the enterprise goal this month serves.",
+            "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal %d, %s: %s %s" % (
+                spec["goal"], g["short"], g["desc"], spec["goalLead"]),
+            ["Read the goal once, plainly.",
+             "One line, not a lecture: this session is one of the moves that serves it."],
             {"transition": "Here is what you will be able to do in 45 minutes."}),
         sec("s-hero", "Objectives",
             "Set the contract for the session in under a minute.",
@@ -443,8 +477,7 @@ def build_notes(spec):
                          "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."},
             },
             "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
-            "goal": "Goal %d, %s. Baseline %s, Q4 target %s." % (
-                spec["goal"], g["short"], g["baseline"], g["target"]),
+            "goal": "Goal %d, %s." % (spec["goal"], g["short"]),
             "materials": [
                 "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
                 "Facilitator machine with the facilitator edition open; notifications off",

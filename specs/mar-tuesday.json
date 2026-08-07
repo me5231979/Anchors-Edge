@@ -1,258 +1,409 @@
 {
-  "slug": "mar-tuesday",
-  "series": "Take-Off Tuesday",
-  "month": "March 2027",
-  "monthShort": "Mar",
-  "monthIndex": 6,
-  "theme": "Spot AI-Exposed Work",
-  "goal": 3,
-  "title": "The Task Sort",
-  "titleHtml": "Sort the week, <em class=\"gold-text\">one task at a time</em>.",
-  "tagline": "Task-decomposition: automate, augment, or leave alone.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.",
-  "heroLead": "Your job will never fit in one AI bucket, and it was never meant to. This session teaches the sort that works: break the week into tasks, then call each one. AI does it and you check, AI helps and you drive, or it stays yours entirely.",
-  "objectives": [
-    "Break your working week into specific, repeatable tasks with outputs and rhythms",
-    "Sort each task into automate, augment, or leave alone, and know the tells for each",
-    "Test one sort call this week in an approved VU tool, checking step included"
-  ],
-  "skills": [
-    {"label": "Drives innovation", "core": true},
-    {"label": "AI Literacy"},
-    {"label": "Workflow Design"},
-    {"label": "Productivity"}
-  ],
-  "missionTie": "Defining the great university of the 21st Century takes staff who redesign their own work instead of waiting for it to be redesigned. Every well-sorted week feeds Discovery and Innovation with hours that used to go to formatting.",
-  "goalLead": "Goal 3 counts on every staff member knowing which parts of their own work are AI-exposed. The task sort is how that knowledge gets made, one week at a time.",
-  "agenda": [
-    {"t": "The decomposition", "d": "Break the blur of your week into tasks small enough to sort."},
-    {"t": "The three buckets", "d": "Automate, augment, or leave alone: the tells for each call, per task, never per job."},
-    {"t": "The first test", "d": "Pick one call and try it this week in an approved VU tool, checking step included."}
-  ],
-  "manifesto": "AI never gets your job. It gets tasks, one at a time, and you make the call.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Breakdown",
-      "dataTitle": "The decomposition",
-      "eyebrow": "The Breakdown",
-      "headline": "A week is just <em>tasks</em> wearing a blur.",
-      "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the queue, drafted the agenda. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
-      "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
-      "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The decomposition rule",
-          "text": "A sortable task names an output and a rhythm: the thing produced and how often. 'Communications' is a job. 'Draft the Thursday newsletter from submitted items' is a task, and a task can be sorted."
-        },
-        "q": "Quick check: which of these is ready to sort?",
-        "opts": [
-          {"t": "Managing our department's communications", "correct": false, "why": "That is a job description, and jobs never sort cleanly. Inside it live a dozen tasks, and each one may deserve a different call."},
-          {"t": "Compiling the Monday attendance summary from system exports", "correct": true, "why": "An output and a rhythm. You can ask exactly what AI could do with it, and the answer will be specific enough to test."},
-          {"t": "Being more efficient with email", "correct": false, "why": "A wish, and wishes resist sorting. Name the actual email tasks, like triaging the shared inbox or drafting the standard replies, and sort those."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Buckets",
-      "dataTitle": "The three buckets",
-      "eyebrow": "The Sort",
-      "headline": "Automate, augment, or <em>leave alone</em>.",
-      "lead": "Three calls, made per task. Automate: AI does it, you check the output. Augment: AI helps, you drive. Leave alone: human all the way, because the task runs on trust, judgment, or private information about people. The traffic light rides along on every call.",
-      "group": "Breakout pairs: each pick one task from your list and make the call out loud. Partner gets one challenge question. 90 seconds each way.",
-      "solo": "Pick one task from your list and make the call: automate, augment, or leave alone. Write one line on why.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Make the call",
-        "intro": "Three tasks from real Vanderbilt weeks. Sort each one.",
-        "progressWord": "Task",
-        "labels": ["Automate: AI does it, you check", "Augment: AI helps, you drive", "Leave alone: human all the way"],
-        "passAt": 2,
-        "passMsg": "You make the call cleanly. Per task, with the traffic light in view: that is the whole skill.",
-        "failMsg": "Close. The tells: fixed format on public content leans automate; internal drafting leans augment in approved VU tools; anything private about people stays human.",
-        "items": [
-          {"q": "Reformatting published event details into the standard newsletter layout every Thursday.", "answer": 0, "why": "Public content, fixed format, weekly rhythm: automate it and keep the checking pass. Green-light data makes this the easiest call on the board."},
-          {"q": "Writing the first draft of a project update that pulls from internal meeting notes.", "answer": 1, "why": "Internal content means yellow light: approved VU tools only. AI drafts fast; you drive, because you know what the update needs to land."},
-          {"q": "Responding to a colleague's message about a health situation affecting their work.", "answer": 2, "why": "Private information about a person: red light, never. Some tasks stay human because trust is the whole job, and this is one of them."}
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Test",
-      "dataTitle": "The first test",
-      "eyebrow": "The Move",
-      "headline": "One call earns a <em>test drive</em>.",
-      "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Set up the test",
-        "intro": "Your sort is only as good as its first real run. Choose the task and the checking step.",
-        "runLabel": "Run the test",
-        "outcomeTag": "How the week goes",
-        "slots": [
-          {
-            "key": "The task you test",
-            "opts": [
-              {"t": "All my email, starting Monday", "pts": 1, "coach": "Too big and too mixed: some email is automate, some is red-light human. Big-bang tests fail loudly and teach nothing you can reuse."},
-              {"t": "Something small, whenever I get a minute", "pts": 2, "coach": "The right size, and the wrong calendar. Tests without a named task and a named day become tests that never happen."},
-              {"t": "Thursday's newsletter formatting, this Thursday, in an approved VU tool", "pts": 3, "coach": "One task, one date, right tool. A test this specific either saves you an hour or teaches you exactly why it didn't, and both are wins."}
-            ]
-          },
-          {
-            "key": "How you check the output",
-            "opts": [
-              {"t": "Skim it; the tool is probably right", "pts": 1, "coach": "Probably is doing heavy lifting there. An automate call without a real checking step is how a small tool error becomes your error, with your name on it."},
-              {"t": "Read it fully before it goes anywhere", "pts": 2, "coach": "Solid instinct. Sharper still: know what you are checking for, because full reads without a target miss the same subtle errors every time."},
-              {"t": "Check names, numbers, and dates against the source before it ships", "pts": 3, "coach": "A named checklist beats a vague read. Names, numbers, and dates are where AI output fails quietly, and where your check earns its keep."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A real result by Friday. You know exactly what the tool saved you and exactly what your check caught.",
-          "mid": "A half-test. Some signal, some noise, and no clean answer on whether the call was right.",
-          "weak": "Either nothing ran or something shipped unchecked. Both cost more than the hour you hoped to save."
-        },
-        "reactions": {
-          "strong": "The hour you saved Thursday shows up again next Thursday, and the week after. One clean test becomes a standing redesign of your own week, and your checklist becomes the habit that makes the next automate call safe.",
-          "mid": "You have a feeling the tool helped and no evidence either way. Rerun it with a named task, a named day, and a named checking step; the evidence is one week away.",
-          "weak": "The unchecked draft with the wrong date reached the whole listserv, and now the tool has a bad reputation it only half earned. The check was the missing half of the call."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "The sort is always made...",
-      "opts": ["Per job, once a year", "Per task, one call at a time", "Per team, by the manager", "Per tool, by the vendor"],
-      "correct": 1,
-      "why": "Jobs never sort cleanly; tasks do. Every job is a mix of automate, augment, and leave alone, and that mix is the honest picture."
-    },
-    {
-      "q": "A first draft built from internal meeting notes is best sorted as...",
-      "opts": ["Automate with any handy tool", "Augment, in approved VU tools", "Leave alone forever", "Too risky to sort at all"],
-      "correct": 1,
-      "why": "Internal content is yellow light: approved VU tools only, with you driving. AI speeds the draft; your judgment makes it right."
-    },
-    {
-      "q": "What makes an automate call safe?",
-      "opts": ["Picking a well-reviewed tool", "Trusting output that looks clean", "A named checking step you actually run", "Automating only after others do"],
-      "correct": 2,
-      "why": "Automate means AI does it AND you check. Names, numbers, and dates against the source: the check is half of the call, every time."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The sort is yours. Point it at your real week today.",
-    "mid": "Solid. Revisit the bucket tells, then build your card.",
-    "low": "Run the three sections once more before you sort real work."
+ "slug": "mar-tuesday",
+ "series": "Take-Off Tuesday",
+ "month": "March 2027",
+ "monthShort": "Mar",
+ "monthIndex": 6,
+ "theme": "Coaching as the Core Manager Behavior",
+ "goal": 2,
+ "title": "The Growth Record",
+ "titleHtml": "Put your growth <em class=\"gold-text\">on the record</em>.",
+ "tagline": "Capturing your development goals and career-conversation notes in the system.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: put your development goals into the talent system, keep useful notes from the career conversations you are part of, and make your growth visible enough for opportunity to find it.",
+ "heroLead": "Your growth has a paper trail problem. The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into the system, where they survive busy seasons and where opportunity can actually find them.",
+ "objectives": [
+  "Enter one real development goal in the talent system, written so a reader can act on it",
+  "Keep a short, useful note after any career conversation you are part of",
+  "Sort what belongs on your visible record, in private notes, or nowhere at all"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My task sort",
-    "headline": "Your week, sorted. <em>Starting now.</em>",
-    "lead": "Pick the task your sort points to first. Task language only, no names of people; nothing you type is saved or sent.",
-    "whoLabel": "Which task gets sorted and tested first? Name the output and the rhythm.",
-    "whoPlaceholder": "e.g. Monday attendance summary, compiled weekly from exports",
-    "practiceLabel": "Which call are you testing?",
-    "whoRow": "The task and its rhythm",
-    "practices": [
-      {"id": "automate", "chip": "The automate test", "name": "The automate test", "move": "Run the task through an approved VU tool once, then check names, numbers, and dates against the source before anything ships."},
-      {"id": "augment", "chip": "The augment test", "name": "The augment test", "move": "Use an approved VU tool for the first draft only, keep every decision yours, and note what the draft got wrong."},
-      {"id": "leavealone", "chip": "The leave-alone case", "name": "The leave-alone case", "move": "Write two lines on why this task stays human: the trust, judgment, or people data at its center. Naming that case is a skill too."}
-    ],
-    "whens": [
-      {"id": "thisweek", "chip": "This week", "out": "The test runs this week, on a named day, before Friday."},
-      {"id": "nextrun", "chip": "Next time the task comes up", "out": "The test runs the very next time the task appears on your calendar."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The test runs within two weeks, with the day picked today so it cannot slide."}
-    ],
-    "cardTitle": "My task sort card",
-    "evidenceRow": "Afterward, one line: what did the test teach you about the call you made?"
+  {
+   "label": "Career Development"
   },
-  "closing": {
-    "headline": "Your job is a mix. <em>Now you hold the recipe.</em>",
-    "lead": "You broke the week into tasks, learned the three calls, and set up one honest test. Thursday sharpens the thinking that keeps every one of those calls honest.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Run the test on your card",
-    "nextBody": "One task, one call, one checking step, in an approved VU tool. Bring what it taught you to Thursday's session on sorting AI hype from real value.",
-    "brandline": "Sort the tasks. Keep the wheel."
+  {
+   "label": "Systems Fluency"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month.",
-    "pulse": "Seven days out, send the pulse: 'Did the test on your card run? What did it teach you about the call? Which task gets sorted next?' Count of completed tests is the Level 3 metric for the month.",
-    "s1": {
-      "title": "The decomposition",
-      "purpose": "Teach staff to turn the blur of a week into named tasks with outputs and rhythms.",
-      "say": "This month is about seeing what is changing in your work before it changes you, and the unit of change is never the job title. It is the task. So before any talk of AI, we do something older: write down what your week is actually made of, the way Tuesday actually went.",
-      "facilitate": [
-        "Read the lead once, then run the knowledge check on everyone's own screen.",
-        "Ask what makes the attendance-summary answer sortable and the other two slippery.",
-        "Run the breakout: three real tasks, specific enough to picture."
-      ],
-      "ask": {
-        "q": "Why is it strangely hard to list your own tasks?",
-        "expect": ["We think in job titles and projects", "Routine work goes invisible", "Some will say their week never repeats"],
-        "respond": "If a week truly never repeats, sort the parts that do: nearly every role carries a repeating core, and that core is where the sort pays off first."
-      },
-      "debrief": "A sortable task has an output and a rhythm. That is the whole test, and most weeks hold ten of them once you look.",
-      "watchFor": "People writing job descriptions instead of tasks. Redirect: what did you produce, and how often does that repeat?",
-      "transition": "Tasks on the table. Now each one gets a call.",
-      "coreNote": "Core: skip the breakout; ask for one real task in chat instead."
-    },
-    "s2": {
-      "title": "The three buckets",
-      "purpose": "Install the three calls and their tells, with the traffic light riding along on every sort.",
-      "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
-      "facilitate": [
-        "Run Make the call live; everyone plays on their own screen.",
-        "After the health-situation task, pause: ask why leave alone is the only call there.",
-        "Run the breakout: one task, one call, one challenge question."
-      ],
-      "ask": {
-        "q": "Which bucket do you expect will be smallest when you sort your own week?",
-        "expect": ["Many guess automate is small", "Some fear the leave-alone pile is shrinking", "A few will say they have no idea yet"],
-        "respond": "Most weeks sort mostly into augment, and the leave-alone pile is where your distinctly human value lives. Naming it is worth as much as the automation."
-      },
-      "debrief": "Fixed format on public content leans automate. Internal drafting leans augment in approved VU tools. Trust, judgment, and people data stay human.",
-      "watchFor": "Anyone treating leave alone as failure or the lesser bucket. Reframe it: that pile is the case for the human in the role.",
-      "transition": "Calls made in your head are cheap. One of them earns a test.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
-    },
-    "s3": {
-      "title": "The first test",
-      "purpose": "Convert one sort call into a specific, checked, dated test in an approved VU tool.",
-      "say": "A sort that lives in your head is a nice opinion. It becomes a redesign of your week the first time you test a call: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
-      "facilitate": [
-        "Run Set up the test; give the room two minutes for both choices.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: named task, named day, named check."
-      ],
-      "ask": {
-        "q": "Why does the checking step stay even when the tool has been right ten times in a row?",
-        "expect": ["The eleventh time is the one that ships wrong", "The check is what makes automate safe", "The output still carries your name"],
-        "respond": "Right. Automate never means unattended. The output ships under your name, so the check is part of the task, permanently."
-      },
-      "debrief": "The test formula: one task, one date, one approved tool, one named check. Small enough to run, real enough to teach.",
-      "watchFor": "Big-bang testers trying to automate a whole workflow at once. Shrink it: one task, this week.",
-      "transition": "Quick recap, then your own test goes on a card.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Now make it real. One task from your actual week, the call you are testing, and the window it runs in. Task language only, no names of people. Build the card and copy it somewhere you will see it before the task next comes up. Two minutes, quiet, go.",
-    "closeSay": "You leave with your week in pieces and one test on the calendar, which is exactly where this month wants you. Thursday's Thrive Thursday gives you the other half of the skill: critical thinking that sorts AI hype from real value, so the claims about the next shiny tool meet three sharp questions before they meet your workflow. See you Thursday.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "Someone asks which specific AI tools are approved right now", "then": "Point to the approved VU tools list on the Anchor's Edge dashboard rather than reciting from memory; the list moves, the traffic light does not."},
-      {"if": "Someone insists their whole job should be left alone", "then": "Agree that plenty of it may be, then ask for their most repetitive task and sort just that one together. One honest call usually unlocks the rest."}
-    ],
-    "toughQuestions": [
-      {"q": "If I automate parts of my job, am I automating myself out of it?", "a": "The sort is per task, and no job is one task. Staff who can decompose, sort, and check their own work are exactly what Goal 3 calls workforce readiness; the freed hours move to the augment and leave-alone work where your judgment shows. The risk sits with unsorted weeks, and yours is sorted."},
-      {"q": "My manager hasn't said anything about AI. Should I wait?", "a": "Sorting your own week needs nobody's permission, and testing inside approved VU tools on green and yellow work is already within the rules. Share your sort with your manager afterward; Monday's session gave them a team-level version of this exact map, so you will be speaking the same language."},
-      {"q": "How do I know if a task is yellow or red?", "a": "Ask what the content is about. Internal but institutional, like meeting notes or draft plans: yellow, approved VU tools only. About an identifiable person, their health, performance, or circumstances: red, never. When a task mixes both, the red parts come out before any tool sees it, or the whole task stays human."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on sorting your week before AI sorts it for you. Bring a rough sense of what last Tuesday was made of: the tasks, the outputs, the rhythms. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the test run? Three lines, reply whenever: 1) Did the test on your card run, in an approved VU tool? 2) What did it teach you about the call you made? 3) Which task gets sorted next?"}
-    ]
+  {
+   "label": "Self-Advocacy"
   }
+ ],
+ "missionTie": "A university out to define the century needs to see the ambitions of its people, and it can only see what is written down. Every goal you put on the record strengthens Exceptional Core Operations from the inside: real data about real growth.",
+ "goalLead": "Manager Effectiveness at Scale has a second half: staff whose goals are visible enough to coach toward. Today you build your side of the record, whoever you report to.",
+ "agenda": [
+  {
+   "t": "Why the record matters",
+   "d": "Invisible goals go unfed. What visibility actually buys you."
+  },
+  {
+   "t": "What goes where",
+   "d": "The system, your own notes, or nowhere: the five-second sort."
+  },
+  {
+   "t": "Write the entry",
+   "d": "One goal and one conversation note, written so they still work in six months."
+  }
+ ],
+ "manifesto": "Opportunity cannot find a goal that lives only in your head.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Why",
+   "dataTitle": "Why the record matters",
+   "eyebrow": "The Why",
+   "headline": "Invisible goals go <em>unfed</em>.",
+   "lead": "When a stretch project, a course seat, or an internal opening appears, someone looks at the record to see who is reaching for what. A goal that lives in your head is invisible to that search. Writing it into the system is how you raise your hand in advance.",
+   "group": "In pairs: name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
+   "solo": "Name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The visibility rule",
+     "text": "Your growth record is a standing hand-raise. Managers, mentors, and internal recruiters can only work with what they can see, so a goal in the system keeps advocating for you in rooms you are never in."
+    },
+    "q": "You want to move toward data work within two years. Where does that ambition do the most for you?",
+    "opts": [
+     {
+      "t": "In your head until a data role is actually posted",
+      "correct": false,
+      "why": "By posting day the shortlist is often half-formed. The record works earliest, before the opening exists, when projects and course seats get handed out."
+     },
+     {
+      "t": "Written as a development goal in the talent system",
+      "correct": true,
+      "why": "Right. On the record it can surface in talent reviews, project staffing, and course nominations, whether or not you are in the room."
+     },
+     {
+      "t": "Mentioned to your manager once at review time",
+      "correct": false,
+      "why": "A good start with a short shelf life. Spoken goals fade with busy seasons and manager changes; written ones survive both."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Sort",
+   "dataTitle": "What goes where",
+   "eyebrow": "The Sort",
+   "headline": "Some notes belong in the system. Some <em>never will</em>.",
+   "lead": "You will sit in career conversations all year: 1:1s, mentoring chats, peer feedback. Some of what you hear belongs on your visible record, some in your private notes, and some should never be written anywhere. The sort takes five seconds once you know it.",
+   "group": "In pairs: one thing you would happily put on your visible record, and one thing you would keep in private notes. Compare sorts.",
+   "solo": "Write one thing you would put on your visible record and one thing you would keep in private notes.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "System, notes, or nowhere?",
+    "intro": "After each conversation, you decide where the takeaway lives. Read each one and sort it.",
+    "progressWord": "Sort",
+    "labels": [
+     "Into the system, visible",
+     "Private notes, just for you",
+     "Nowhere. Do not write it down"
+    ],
+    "passAt": 2,
+    "passMsg": "You have the sort. Goals and agreed actions go visible; raw self-observations stay yours; other people's private business stays unwritten.",
+    "failMsg": "Close. The tell: your goals and agreed next steps go visible, your raw reflections stay private, and other people's disclosures are never yours to record.",
+    "items": [
+     {
+      "q": "You and your manager agree you will lead the spring onboarding revamp as a stretch toward project management.",
+      "answer": 0,
+      "why": "An agreed development action is exactly what the record is for. Written in the system, it becomes evidence of growth when roles and projects open up."
+     },
+     {
+      "q": "After a tense meeting, you want to note that you went quiet when a senior director challenged your numbers.",
+      "answer": 1,
+      "why": "Honest self-observation fuels growth and deserves privacy while it is raw. Keep it in your own notes; share the pattern later, in your own words, if you choose."
+     },
+     {
+      "q": "In a mentoring chat, a colleague mentions a health situation that is draining their energy this term.",
+      "answer": 2,
+      "why": "Private information about another person is never yours to record, in any system, under any label. Hold it with care and write nothing."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Entry",
+   "dataTitle": "Write the entry",
+   "eyebrow": "The Entry",
+   "headline": "Write it so a reader can <em>act</em>.",
+   "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to act on. A goal with a direction and a dated first step, and a note that holds the agreement, turn your record into something projects and people can answer.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Build your entry",
+    "intro": "You just had a good career conversation. Capture it in two fields: the goal and the note.",
+    "runLabel": "Save the entry",
+    "outcomeTag": "Six months later",
+    "slots": [
+     {
+      "key": "The goal you enter",
+      "opts": [
+       {
+        "t": "Improve my communication skills.",
+        "pts": 1,
+        "coach": "Too foggy to feed. No reader can hand this goal a project, a course, or an introduction; it will sit in the system politely doing nothing."
+       },
+       {
+        "t": "Get better at presenting to leadership audiences.",
+        "pts": 2,
+        "coach": "A real direction now. Add the first step you are taking and it becomes something a manager or mentor can actually respond to."
+       },
+       {
+        "t": "Present to a leadership audience twice this year; first rep at the March ops review.",
+        "pts": 3,
+        "coach": "Direction plus a dated first step. A reader knows exactly what you want and how to help; that is a goal that attracts opportunity."
+       }
+      ]
+     },
+     {
+      "key": "The conversation note",
+      "opts": [
+       {
+        "t": "Great chat with my manager about my future.",
+        "pts": 1,
+        "coach": "Warm, and useless by Thursday. No date, no agreement, no next step; in six months this note is a pleasant mystery."
+       },
+       {
+        "t": "Feb 1:1: we discussed my interest in project work.",
+        "pts": 2,
+        "coach": "Dated and topical, which future you will appreciate. It still lacks the agreement, which is the part everyone forgets first."
+       },
+       {
+        "t": "Feb 1:1: agreed I shadow the onboarding project through April; revisit in May 1:1.",
+        "pts": 3,
+        "coach": "Date, agreement, follow-up. This note runs the next conversation for you and quietly holds everyone to what was said."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A record that works while you sleep. A clear goal, a dated agreement, and a follow-up already on the calendar.",
+     "mid": "A decent record with soft edges. The direction is there; the agreements will depend on everyone's memory.",
+     "weak": "The system has words in it. Six months from now they will tell you nothing and show a reader even less."
+    },
+    "reactions": {
+     "strong": "In May, a project lead searching for presentation-hungry staff finds your goal and offers you the ops review slot. The note means the shadow agreement holds without anyone being reminded.",
+     "mid": "The May 1:1 opens with 'remind me what we said?' You rebuild half the agreement from memory, and the March rep quietly slips to fall.",
+     "weak": "A talent review skims your profile and moves on; there was nothing to act on. The onboarding shadow never happens, and nobody notices it was ever discussed."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Where does a development goal do the most for your career?",
+   "opts": [
+    "In your head, ready when asked",
+    "Written in the talent system, visible",
+    "In an email to yourself",
+    "Mentioned once at annual review"
+   ],
+   "correct": 1,
+   "why": "The record is a standing hand-raise. Visible goals surface in staffing, nominations, and reviews you are never in the room for."
+  },
+  {
+   "q": "A colleague shares a private struggle in a mentoring chat. You should...",
+   "opts": [
+    "Note it in the system for context",
+    "Add it to your private notes",
+    "Write nothing; hold it with care",
+    "Mention it to their manager quietly"
+   ],
+   "correct": 2,
+   "why": "Other people's private information is never yours to record anywhere. Your record is for your own goals and agreements."
+  },
+  {
+   "q": "What makes a conversation note useful in six months?",
+   "opts": [
+    "Warm, positive wording",
+    "Plenty of length and detail",
+    "Date, agreement, and follow-up",
+    "Staying vague to keep options open"
+   ],
+   "correct": 2,
+   "why": "Those three parts let the note run your next conversation and hold agreements without anyone leaning on memory."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You have the sort and the writing. Now put the real entry in the system.",
+  "mid": "Solid. Revisit the section you missed, then draft your entry.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My growth record",
+  "headline": "One goal, on the record, <em>this week</em>.",
+  "lead": "Draft the entry here, then put the real thing in the system before the week ends. Nothing you type on this screen is saved or sent; the system entry is the one that counts.",
+  "whoLabel": "Your goal, in one sentence a reader could act on.",
+  "whoPlaceholder": "e.g. lead a cross-department project this year; first step booked by April",
+  "practiceLabel": "What will you capture first?",
+  "whoRow": "The goal",
+  "practices": [
+   {
+    "id": "goal",
+    "chip": "The dev goal",
+    "name": "The dev goal",
+    "move": "Enter one development goal in the talent system: a direction plus a dated first step."
+   },
+   {
+    "id": "note",
+    "chip": "The conversation note",
+    "name": "The conversation note",
+    "move": "After your next career conversation, write the date, the agreement, and the follow-up while it is fresh."
+   },
+   {
+    "id": "sweep",
+    "chip": "The record sweep",
+    "name": "The record sweep",
+    "move": "Open your profile, retire what is stale, and make sure what is there reads like you today."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The entry goes into the system today, before the session's momentum fades."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The entry is in the system by Friday, with fifteen minutes blocked on the calendar to do it."
+   },
+   {
+    "id": "next11",
+    "chip": "After my next 1:1",
+    "out": "Your next 1:1 ends five minutes early so the goal and the note go straight into the system."
+   }
+  ],
+  "cardTitle": "My growth record card",
+  "evidenceRow": "Afterward, one line: what did writing it down make clearer about what you actually want?"
+ },
+ "closing": {
+  "headline": "Written down is <em>findable</em>.",
+  "lead": "You sorted what belongs where and built an entry worth saving. Thursday closes the week with the listening skill underneath every good career conversation.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the system entry real",
+  "nextBody": "Move your drafted goal from the card into the talent system exactly as built: a direction and a dated first step. Then note your next career conversation the same day it happens.",
+  "brandline": "Your growth, on the record."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; February is the Coaching as the Core Manager Behavior month, and this session gives every staff member the system side of it.",
+  "pulse": "Seven days out, send the pulse: 'Is your development goal in the system? Did you note your last career conversation? What did writing it down make clearer?' Count of new system goals is the month's adoption signal for the record.",
+  "s1": {
+   "title": "Why the record matters",
+   "purpose": "Establish visibility as the point: goals in the system keep working when you are out of the room.",
+   "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects, course seats, and internal openings get decided, someone is looking at a record. If your goal lives in your head, you are invisible to that search. Writing it down is how you raise your hand in rooms you are not in.",
+   "facilitate": [
+    "Run the chat show of hands first; the count of unwritten goals is the hook.",
+    "Read the visibility rule from the card once, then run the check on everyone's own screen.",
+    "Run the breakout on the goal that exists nowhere in writing."
+   ],
+   "ask": {
+    "q": "What has kept your goal out of the system so far?",
+    "expect": [
+     "Never thought of the system as mine to use",
+     "Feels presumptuous or too exposed",
+     "It reads like HR paperwork, so it never felt urgent"
+    ],
+    "respond": "All common. Today reframes the record as a tool you point at your own future, and the sort in the next section handles the exposure worry directly."
+   },
+   "debrief": "Visible goals get fed; invisible ones wait. The record is a standing hand-raise.",
+   "watchFor": "Staff who assume this is a managers-only tool. Say it plainly: every field in this session is yours, whoever you report to.",
+   "transition": "So some things go on the record. The next skill is knowing what does.",
+   "coreNote": "Core: skip the breakout; take the unwritten-goal count from chat and move."
+  },
+  "s2": {
+   "title": "What goes where",
+   "purpose": "Install the three-shelf sort: visible record, private notes, or never written.",
+   "say": "You will be in career conversations all year, your own and other people's. The sort has three shelves. Your goals and agreed actions go in the system, visible. Your raw self-observations go in your private notes, because honesty needs a little privacy while it is fresh. And other people's private business goes nowhere, ever. Five seconds of sorting protects you and everyone around you.",
+   "facilitate": [
+    "Run System, notes, or nowhere? live; everyone sorts on their own screen.",
+    "Pause after round three; let the 'write nothing' answer breathe before you move.",
+    "Run the breakout: one thing for the visible record, one for private notes."
+   ],
+   "ask": {
+    "q": "Why does round three, the colleague's health situation, get 'write nothing' rather than private notes?",
+    "expect": [
+     "It is theirs to tell, never mine to store",
+     "Notes get seen, forwarded, or found",
+     "Writing it down would change how I treat them"
+    ],
+    "respond": "All of it. Your private notes are for your own growth. Other people's disclosures are held in trust, and trust does not have a text field."
+   },
+   "debrief": "Yours and agreed goes visible. Yours and raw stays private. Theirs and private goes unwritten.",
+   "watchFor": "The quiet worry that the visible record gets used against people. Name it: the record is for growth and mobility, and section three shows how to write entries you would be glad to have read.",
+   "transition": "You know what goes in. Now we make what goes in worth reading.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one sort question from chat."
+  },
+  "s3": {
+   "title": "Write the entry",
+   "purpose": "Turn goals and notes into entries a future reader can act on: direction, date, agreement, follow-up.",
+   "say": "The system rewards a particular kind of writing, and it is teachable in one line: write so a reader can act. 'Improve communication' gives a reader nothing. 'Present to a leadership audience twice this year, first rep at the March ops review' gives them everything: what you want, when it starts, how to help. Same with notes. Date, agreement, follow-up, and the note runs your next conversation for you.",
+   "facilitate": [
+    "Run Build your entry; two minutes for both fields, then save it.",
+    "Ask one volunteer to read their six-months-later outcome aloud.",
+    "Point at the pattern: direction plus dated step for goals; date plus agreement plus follow-up for notes."
+   ],
+   "ask": {
+    "q": "What makes 'improve my communication skills' so common and so useless?",
+    "expect": [
+     "It is safe and cannot be wrong",
+     "It came off a review form, never from a real want",
+     "Nobody ever taught goal-writing"
+    ],
+    "respond": "Safe is the problem: it is a goal nothing can respond to. Specific goals feel exposed for a week and get fed for a year."
+   },
+   "debrief": "Write for the reader who wants to help you. A direction, a dated first step, and notes that hold the agreement.",
+   "watchFor": "Perfectionism stalling the entry. A rough goal in the system beats a polished one in your head, and it can be edited forever.",
+   "transition": "Quick recap, then you draft the real entry.",
+   "coreNote": "Core: everyone builds solo; skip the read-aloud."
+  },
+  "capstoneSay": "Now draft the real thing. One development goal, written so a reader could act on it, and pick when it goes into the system. The card is your draft; the system entry this week is the actual capstone. Two minutes, quiet, go.",
+  "closeSay": "Your card is a draft; the entry in the system is the real finish line, so get it there this week. Thursday's Thrive Thursday closes the coaching week with the skill underneath every conversation you will ever capture: empathy, hearing what isn't said. And if you are working through this month's LinkedIn Learning pick, Sara Canaday's Coaching Skills for Leaders and Managers, the note habit you built today is exactly where the navigator-led GROW practicum conversations belong.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone says their manager never looks at the system",
+    "then": "True sometimes, and the record still works: talent reviews, project staffing, and internal recruiters search it whether or not one manager does. Write for the readers you cannot see."
+   },
+   {
+    "if": "Someone starts typing a real colleague's private situation into chat as an example",
+    "then": "Redirect immediately and warmly: 'Roles, never names, and other people's private business stays unwritten, here included.' Then restate the three-shelf sort."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Who can actually see what I enter in the system?",
+    "a": "Your manager and the talent teams who run reviews and staffing; each field shows its visibility if you are unsure. The working rule keeps you safe either way: write every visible entry as if a future hiring manager will read it, because the useful ones will."
+   },
+   {
+    "q": "What if my goal is to move away from my current team?",
+    "a": "Mobility goals are legitimate; internal movement is exactly what the record supports. Frame the direction rather than the departure: 'grow toward project leadership' works on the record, and the specifics stay in conversations you choose to have."
+   },
+   {
+    "q": "I'm not a manager, so is the coaching month really for me?",
+    "a": "Yes. Coaching is two-sided: managers are learning to ask this month, and a visible record gives them something real to ask about. Written goals make you easy to coach and easy to advocate for, whoever you report to."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes to put your growth on the record. Bring one career goal you have never written down, and your talent system login if you have it handy. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is it in the system? Three lines, reply whenever: 1) Is your development goal in the system? 2) Did you note your last career conversation? 3) What did writing it down make clearer?"
+   }
+  ]
+ }
 }

@@ -1,258 +1,409 @@
 {
-  "slug": "nov-tuesday",
-  "series": "Take-Off Tuesday",
-  "month": "November 2026",
-  "monthShort": "Nov",
-  "monthIndex": 2,
-  "theme": "The Vanderbilt Manager Standard",
-  "goal": 2,
-  "title": "Own Your 1:1",
-  "titleHtml": "Your 1:1, <em class=\"gold-text\">your agenda</em>.",
-  "tagline": "The 1:1 templates and feedback tools inside Oracle, from your side of the table.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: drive your own 1:1s with the Oracle template, move feedback through the giving and requesting tools, and build a record that argues for your growth.",
-  "heroLead": "Your 1:1 is your meeting too. Oracle now carries a shared template for it, plus tools for giving and requesting feedback that put useful words on the record. Today you learn to drive all three, whether or not you manage anyone.",
-  "objectives": [
-    "Load your own agenda items into the Oracle 1:1 template before the meeting",
-    "Give and request feedback through the Oracle tools with specifics that help",
-    "Capture commitments in the shared record and make it argue for your growth"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Oracle HCM Tools"},
-    {"label": "Feedback"},
-    {"label": "Career Ownership"}
-  ],
-  "missionTie": "The great university of the 21st Century runs on conversations that go somewhere. When any staff member can steer a 1:1 and put feedback on the record, Exceptional Core Operations shows up one meeting at a time.",
-  "goalLead": "Goal 2 asks managers to demonstrate a standard, and much of it becomes visible inside Oracle's 1:1 and feedback tools. Today you learn your half of those tools.",
-  "agenda": [
-    {"t": "The template", "d": "The shared 1:1 agenda in Oracle, and the two items you type in the day before."},
-    {"t": "The feedback tools", "d": "Requesting feedback on your work, giving it to colleagues, and picking the right move."},
-    {"t": "The record", "d": "Capturing commitments so your growth has receipts by review season."}
-  ],
-  "manifesto": "A 1:1 you prepared for is a meeting you co-own.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Template",
-      "dataTitle": "The template",
-      "eyebrow": "The Template",
-      "headline": "The template has <em>two sides</em>.",
-      "lead": "Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Most of us leave it blank and inherit whatever the meeting becomes. Typing in your two items the day before changes the meeting you get.",
-      "group": "In pairs: what item have you been saving for the right moment instead of typing into a 1:1 agenda? 90 seconds each way.",
-      "solo": "Write down the one item you have been saving for the right moment. That is your first template entry.",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "Your two items",
-          "text": "Before every 1:1, type two items into the shared template: the blocker you need cleared and the growth topic you want time on. Typed the day before, they shape the agenda; raised in the last five minutes, they get sympathy and no time."
-        },
-        "q": "Quick check: when does your agenda item do the most work?",
-        "opts": [
-          {"t": "Typed into the template the day before", "correct": true, "why": "Your manager sees it, thinks about it, and the meeting arrives ready. The template turns your priorities into part of the plan."},
-          {"t": "Raised live at the start of the meeting", "correct": false, "why": "Better than never, and it still catches the other person cold. A surprise topic gets a thinner answer than a prepared one."},
-          {"t": "Mentioned casually after the meeting ends", "correct": false, "why": "Hallway add-ons rarely make the record, so nothing gets tracked and nothing closes. Put it in the template for next time instead."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "Feedback Tools",
-      "dataTitle": "The feedback tools",
-      "eyebrow": "The Tools",
-      "headline": "Feedback now has a <em>front door</em>.",
-      "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
-      "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
-      "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Pick the move",
-        "intro": "Three moments from an ordinary week. Choose the move that turns each one into something on the record.",
-        "progressWord": "Moment",
-        "labels": ["Request feedback", "Give feedback", "Put it on your 1:1 agenda"],
-        "passAt": 2,
-        "passMsg": "You know the moves. Request when you need eyes on your work, give when someone earned it, agenda when it needs a conversation.",
-        "failMsg": "Close. The tell: request is about your work, give is about theirs, and anything that needs real discussion goes on the 1:1 agenda.",
-        "items": [
-          {"q": "You just led your first cross-department presentation and have no idea how it landed.", "answer": 0, "why": "Ask two people who were in the room, through the tool, same day. Specific and fresh beats a vague someday ask, and the answers live in your record."},
-          {"q": "An analyst in another unit stayed late untangling the data mess that saved your deadline.", "answer": 1, "why": "Give it through the tool so it reaches their record and their manager's eyes. A thank-you in chat evaporates; recorded feedback travels."},
-          {"q": "You suspect your role has drifted and your real work no longer matches your job description.", "answer": 2, "why": "That is a conversation, and it deserves scheduled time. Type it into the template so it opens the meeting instead of ambushing it."}
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Record",
-      "dataTitle": "The record",
-      "eyebrow": "The Record",
-      "headline": "Make the record <em>work for you</em>.",
-      "lead": "A year from now, the strongest case for your growth is a trail: agendas you set, commitments you closed, feedback you asked for. That trail gets built one meeting at a time, and it starts with how you set up the next one.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Set up your next 1:1",
-        "intro": "Your next 1:1 is already on the calendar. Choose what you bring in and what you carry out.",
-        "runLabel": "Run the 1:1",
-        "outcomeTag": "What the record shows",
-        "slots": [
-          {
-            "key": "What you bring in",
-            "opts": [
-              {"t": "Nothing; you will respond to whatever comes up.", "pts": 1, "coach": "An empty template hands the whole meeting to the other chair. You get their agenda, and yours waits another month."},
-              {"t": "A mental list of updates you plan to give.", "pts": 2, "coach": "Updates fill time and prove activity. The template rewards items that need a decision or a door opened, typed where your manager sees them coming."},
-              {"t": "One blocker and one growth ask, typed in the day before.", "pts": 3, "coach": "Two items, visible early. The blocker gets solved and the growth ask gets thought about before the call, which is when growth asks actually move."}
-            ]
-          },
-          {
-            "key": "What you carry out",
-            "opts": [
-              {"t": "A good conversation you both intend to remember.", "pts": 1, "coach": "Memory is the least reliable tool in Oracle. In a month, the two of you will remember two different meetings."},
-              {"t": "Your own notes, kept somewhere only you can see.", "pts": 2, "coach": "Better; at least your version exists. Shared commitments are stronger because both names sit next to the same words."},
-              {"t": "Commitments typed into the shared template, owners and dates attached.", "pts": 3, "coach": "Now the record works for you. The next 1:1 opens with what closed, and by review season your growth has receipts."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A meeting with a spine. Your items shaped it, and the commitments will still exist next month.",
-          "mid": "A pleasant hour that mostly happened to you. Some value, thin residue.",
-          "weak": "Thirty minutes of status. Nobody could say afterward what changes because of it."
-        },
-        "reactions": {
-          "strong": "Three 1:1s later there is a visible trail: the blocker cleared, the growth ask became a stretch task, and your review conversation starts from evidence instead of recollection.",
-          "mid": "Some of it stuck because you kept notes. But your growth ask never made the shared record, so it never made anyone's plans either.",
-          "weak": "A month later the same blocker resurfaces and neither of you can find where it was discussed. The meeting happened; the record says nothing."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Your best move with an important 1:1 topic?",
-      "opts": ["Raise it live and see how it lands", "Type it into the shared template the day before", "Save it for the annual review", "Email it right after the meeting"],
-      "correct": 1,
-      "why": "Typed early, it shapes the agenda and gets a prepared answer. The template turns your priorities into part of the plan."
-    },
-    {
-      "q": "A colleague's work quietly saved your project. What travels furthest?",
-      "opts": ["A thank-you message in chat", "Telling your own manager about it", "Feedback given through the Oracle tool", "Mentioning it at the next team meeting"],
-      "correct": 2,
-      "why": "Recorded feedback reaches their record and their manager. Kind words in chat are lovely and gone by Friday."
-    },
-    {
-      "q": "What makes a 1:1 commitment real?",
-      "opts": ["Both people nodding on the call", "A note in your private notebook", "Good intentions and a follow-up ping", "Typed in the shared record with owner and date"],
-      "correct": 3,
-      "why": "Shared words with names and dates get checked next meeting. Everything else depends on memory, which is the weakest tool available."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The tools are yours. Load the real template before the glow fades.",
-    "mid": "Solid. Revisit the move you missed, then build your prep card.",
-    "low": "Worth a second pass through the three sections before you load the template."
+ "slug": "nov-tuesday",
+ "series": "Take-Off Tuesday",
+ "month": "November 2026",
+ "monthShort": "Nov",
+ "monthIndex": 2,
+ "theme": "The Transfer Portal in Practice",
+ "goal": 1,
+ "title": "The Open Door",
+ "titleHtml": "Walk through the <em class=\"gold-text\">open door</em>.",
+ "tagline": "Navigating the Transfer Portal, end to end.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: set up your Transfer Portal profile, find internal roles and gigs, raise your hand in the open, and know exactly what happens next.",
+ "heroLead": "The Transfer Portal is Vanderbilt's front door to internal opportunity: roles, projects, and gigs across the university. Today you walk it end to end on your own screen: your profile, your search, raising your hand, and what happens after you do.",
+ "objectives": [
+  "Build a Portal profile that shows your full skills, beyond your current title",
+  "Find internal roles, projects, and gigs by the skills you want to use",
+  "Express interest in the open, and know what happens next"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My next 1:1",
-    "headline": "Your next 1:1, <em>loaded in advance.</em>",
-    "lead": "Pick your next scheduled 1:1 and load it now. Roles only, never names; nothing you type is saved or sent.",
-    "whoLabel": "Which 1:1, and what is the one item you have been sitting on?",
-    "whoPlaceholder": "e.g. my monthly 1:1 next Tuesday; the certification I want to start",
-    "practiceLabel": "Which move do you make first?",
-    "whoRow": "The meeting and the item",
-    "practices": [
-      {"id": "agenda", "chip": "The agenda load", "name": "The agenda load", "move": "Type one blocker and one growth ask into the Oracle template at least a day before the meeting."},
-      {"id": "request", "chip": "The feedback request", "name": "The feedback request", "move": "Send one Oracle feedback request about recent, specific work to someone who saw it up close."},
-      {"id": "give", "chip": "The feedback give", "name": "The feedback give", "move": "Give one piece of specific feedback through Oracle to a colleague whose work helped yours."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Today", "out": "The template entry or feedback goes in today, while the session is fresh."},
-      {"id": "before11", "chip": "Before my next 1:1", "out": "Loaded at least a day before the meeting, so it shapes the agenda."},
-      {"id": "week", "chip": "This week", "out": "Done by Friday, on the calendar so it cannot slide."}
-    ],
-    "cardTitle": "My 1:1 prep card",
-    "evidenceRow": "Afterward, one line: what changed because it was on the record?"
+  {
+   "label": "Career Development"
   },
-  "closing": {
-    "headline": "Two chairs. <em>Bring yours.</em>",
-    "lead": "You can load an agenda, move feedback through the front door, and leave a trail that argues for your growth. Thursday sharpens the skill underneath all of it.",
-    "nextTag": "Your one next step · Before your next 1:1",
-    "nextTitle": "Load the template",
-    "nextBody": "Type your one saved-up item into your next 1:1 agenda in Oracle. Watch what a prepared meeting does with it.",
-    "brandline": "Your meeting too. Run it that way."
+  {
+   "label": "Internal Mobility"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. Oracle access helps, and the session works fine watching the walkthrough.",
-    "pulse": "Seven days out, send the pulse: 'Did your item make it into a 1:1 template? Did you send or give one piece of feedback through Oracle? What changed because it was on the record?' Count of template entries and feedback events is the month's usage signal.",
-    "s1": {
-      "title": "The template",
-      "purpose": "Get every learner to load their own items into the Oracle 1:1 template before the meeting.",
-      "say": "Quick show of honesty in chat: when your last 1:1 started, whose agenda was it? For most of us the honest answer is my manager's, or nobody's. Oracle now gives that meeting a shared template both people can edit, and the single highest-leverage habit in this session is typing your two items into it the day before: one blocker, one growth topic.",
-      "facilitate": [
-        "Show the template fields on screen for thirty seconds; keep it to where your items go.",
-        "Run the knowledge check; everyone answers on their own screen.",
-        "Run the breakout on the saved-up item."
-      ],
-      "ask": {
-        "q": "What stops people from adding their own agenda items?",
-        "expect": ["Feels like overstepping", "Never occurred to them", "Assume the manager owns the meeting"],
-        "respond": "All common, all fixable. The template design is the permission: the field exists for you, and managers consistently say they want the items."
-      },
-      "debrief": "Two items, typed the day before: one blocker, one growth ask. That habit alone changes what 1:1s do for you.",
-      "watchFor": "Learners whose managers do not yet use the template. Acknowledge it and stay practical: your typed items work even when you are the only one typing.",
-      "transition": "The template covers the meeting. Feedback has its own front door.",
-      "coreNote": "Core: skip the breakout; ask for saved-up items in chat instead."
-    },
-    "s2": {
-      "title": "The feedback tools",
-      "purpose": "Teach when to request feedback, when to give it, and when a topic belongs on the 1:1 agenda instead.",
-      "say": "Oracle gives everyone two feedback moves. Request: you ask people who saw your work how it landed, and their answers join your record. Give: you put specific recognition or input into a colleague's record, where it travels further than chat ever will. The skill is matching the moment to the move, so let's practice on three.",
-      "facilitate": [
-        "Run Pick the move live; everyone plays on their own screen.",
-        "After round two, ask in chat who has ever received recorded feedback from a peer; notice the energy.",
-        "Run the breakout on the colleague whose work deserved a recorded give."
-      ],
-      "ask": {
-        "q": "Why does recorded feedback beat the same words in chat?",
-        "expect": ["It reaches their manager", "It survives to review season", "Chat scrolls away"],
-        "respond": "All three. The words might be identical; the address is different. Feedback in the record shows up when decisions about people get made."
-      },
-      "debrief": "Request when you need eyes on your work. Give when a colleague earned it. Anything needing real discussion goes on the 1:1 agenda.",
-      "watchFor": "Worry that requesting feedback signals weakness. Reframe it: asking specific people about specific work reads as someone serious about getting better.",
-      "transition": "Templates and feedback both feed one thing: a record. The last section makes it work for you.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the chat question."
-    },
-    "s3": {
-      "title": "The record",
-      "purpose": "Convert template and feedback habits into a growth trail: agendas in, commitments out.",
-      "say": "Play the long game for a second. A year from now, someone will ask what you have grown into, in a review or an internal interview. The strongest answer is a trail: agendas you set, commitments that closed, feedback you asked for and acted on. Trails get built one meeting at a time, so let's set up your next one properly.",
-      "facilitate": [
-        "Run Set up your next 1:1; give the room two minutes for both choices.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: typed beats mental, shared beats private."
-      ],
-      "ask": {
-        "q": "What does a shared commitment have that a private note does not?",
-        "expect": ["Both names on it", "It gets checked next meeting", "Nobody can misremember it alone"],
-        "respond": "Right. A private note protects your memory; a shared commitment obligates two calendars. Growth lives in the second kind."
-      },
-      "debrief": "The record is your career's paper trail. Feed it: items in before, commitments out after, feedback along the way.",
-      "watchFor": "Anyone treating the record as surveillance. The frame is ownership: this is your trail, built by you, arguing for you.",
-      "transition": "Quick recap, then you load your own next 1:1.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Now load the real thing. Your next 1:1 is on a calendar somewhere. Name the item you have been sitting on, pick your first move, pick your window, and build the card. Roles only, never names. Two minutes, quiet, go.",
-    "closeSay": "You leave with a loaded template habit and two feedback moves that put your work on the record. Thursday's Thrive Thursday is the skill underneath every one of these tools: clarity, the kind of expectation-setting that sticks, whichever chair you sit in. Same time, same rhythm. See you there.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "Learners lack Oracle access or cannot open it during the session", "then": "Nothing requires live Oracle. Demo from your own screen, and have people draft their agenda item and feedback lines in the deck; entering them takes two minutes after the call."},
-      {"if": "Someone starts naming a colleague while describing feedback they want to give", "then": "Redirect warmly: roles, never names. The specifics belong in the tool, addressed to the person; the room only needs the shape of the example."}
-    ],
-    "toughQuestions": [
-      {"q": "What if my manager never opens the template?", "a": "Your entry still works: it frames the meeting when you bring it up, and it timestamps that you raised it. Most managers start using the template the week their reports do. If it stays ignored, raise that kindly as its own agenda item."},
-      {"q": "Is feedback I give in Oracle visible to the person and their manager?", "a": "Treat everything in the tool as on the record; that is the point, because recorded recognition travels. Write anything you give as words you would happily say with the person in the room, since functionally you are."},
-      {"q": "I don't manage anyone. Is this month really for me?", "a": "Entirely. The manager standard tells you what to expect from your own manager, and the tools are two-sided by design; this month lands only if both chairs use them. If you are curious where the manager side goes, the New Manager Foundations course on LinkedIn Learning is open to everyone."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on making Oracle 1:1s work for you. Before the session, think of one item you keep meaning to raise with your manager. You will never be asked to share it. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did it make the record? Three lines, reply whenever: 1) Did your item make it into a 1:1 template? 2) Did you send or give one piece of feedback in Oracle? 3) What changed because it was on the record?"}
-    ]
+  {
+   "label": "Digital Fluency"
   }
+ ],
+ "missionTie": "A university that will define the century cannot let opportunity depend on who you happen to know. The Portal makes internal mobility part of Exceptional Core Operations: visible, open, and one profile away for every staff member.",
+ "goalLead": "Goal 1 promises to connect employees to internal opportunity. Today is that promise at ground level: your profile, your search, your raised hand.",
+ "agenda": [
+  {
+   "t": "Your profile is the signal",
+   "d": "What to put in it so opportunity can actually find you."
+  },
+  {
+   "t": "Search and raise your hand",
+   "d": "Finding roles, projects, and gigs, and expressing interest well."
+  },
+  {
+   "t": "In the open, and what's next",
+   "d": "Why there is no secrecy to keep, and what happens after you apply."
+  }
+ ],
+ "manifesto": "Your next Vanderbilt role cannot find you if your profile only shows your last one.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Profile",
+   "dataTitle": "Your profile is the signal",
+   "eyebrow": "The Profile",
+   "headline": "Your profile is how opportunity <em>finds you</em>.",
+   "lead": "The Portal matches people to opportunities through skills. A profile that only repeats your job title hides most of what you can do. The ten minutes you spend listing real skills is the highest-leverage career move in this whole session.",
+   "group": "In pairs: name one skill you use every week that your job title would never suggest. One pair shares.",
+   "solo": "Write down one skill you use every week that your job title would never suggest.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The profile rule",
+     "text": "List what you can do, wherever you learned it: skills your role uses, skills it ignores, and skills you are building on your own. The Portal matches on skills, so every one you leave off is a door that stays shut."
+    },
+    "q": "Which profile gets found by the right opportunities?",
+    "opts": [
+     {
+      "t": "Your job title and current duties, kept accurate",
+      "correct": false,
+      "why": "Accurate and invisible. The Portal already knows your title; matching runs on skills, and duties only cover the ones your role happens to use."
+     },
+     {
+      "t": "Every skill you have, in role or beyond it, plus what you want to build",
+      "correct": true,
+      "why": "Exactly. Skills from any part of your life count, and naming what you want to build lets the Portal surface stretch opportunities and lets navigators help."
+     },
+     {
+      "t": "Only skills you could prove with a certificate",
+      "correct": false,
+      "why": "Certificates help and are welcome, and most real skills have no paper. If you have done it, list it; the conversation later is where depth gets shown."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Search",
+   "dataTitle": "Search and raise your hand",
+   "eyebrow": "The Search",
+   "headline": "Search by the skills you <em>want to use</em>.",
+   "lead": "The Portal lists more than jobs: projects, gigs, and short assignments across the university. How you search and how you raise your hand decide what you find and how you are received. Build your first pass.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Build your first pass",
+    "intro": "Fifteen minutes in the Portal this week. Choose how you search and how you express interest.",
+    "runLabel": "Run the pass",
+    "outcomeTag": "How it lands",
+    "slots": [
+     {
+      "key": "How you search",
+      "opts": [
+       {
+        "t": "Wait; if something fits, someone will probably send it to you.",
+        "pts": 1,
+        "coach": "Waiting outsources your career to luck. The Portal is a front door, and front doors work for the people who walk up to them."
+       },
+       {
+        "t": "Search job titles that match the one you already have.",
+        "pts": 2,
+        "coach": "You will find your current job in other buildings. Title search hides the projects and gigs where new skills actually get built."
+       },
+       {
+        "t": "Search by skills you want to use more, including gigs and projects.",
+        "pts": 3,
+        "coach": "Skill-first search surfaces opportunities that titles hide, and gigs let you test a direction in weeks rather than committing years."
+       }
+      ]
+     },
+     {
+      "key": "How you raise your hand",
+      "opts": [
+       {
+        "t": "Apply to several roles quietly and tell no one.",
+        "pts": 1,
+        "coach": "Secrecy adds stress the system never asked for. Internal mobility is encouraged here; hiding it just means nobody can help you."
+       },
+       {
+        "t": "Express interest in one role and wait to hear back.",
+        "pts": 2,
+        "coach": "A clean start. Adding one conversation, with your manager or a navigator, turns a submitted form into a supported move."
+       },
+       {
+        "t": "Express interest, tell your manager, and book 20 minutes with a navigator.",
+        "pts": 3,
+        "coach": "This is the move working in the open: the system has your hand up, your manager can back you, and a navigator can tell you how to strengthen it."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A real first pass. Your hand is up, in the open, with people positioned to help it succeed.",
+     "mid": "A decent start with the brakes on. The Portal knows you exist; the people who could help do not yet.",
+     "weak": "The Portal cannot find you and neither can anyone else. Nothing moved this week."
+    },
+    "reactions": {
+     "strong": "Ten days later a hiring manager mentions your profile listed exactly the skill her project needed. The navigator flagged one gig you would never have searched for. Working in the open did the work.",
+     "mid": "Two weeks on, the application sits at 'in review' and you are refreshing the page. One conversation with a navigator would tell you the stage and the next move.",
+     "weak": "A month later a colleague lands a gig you never saw, building the exact skill you wanted. It was posted the whole time. The door was open; nobody walked up."
+    }
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "In the Open",
+   "dataTitle": "In the open, and what's next",
+   "eyebrow": "In the Open",
+   "headline": "No secrecy <em>required</em>.",
+   "lead": "The old instinct says job searching means hiding. The Portal is built for the opposite: managers are expected to support moves, navigators exist to help, and every stage has a next step you can ask about. Read each situation and call the move.",
+   "group": "In pairs: which old job-search habit would be hardest for you to drop? 90 seconds each way.",
+   "solo": "Name the old job-search habit that would be hardest for you to drop.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Call the move",
+    "intro": "Three situations from the weeks after you raise your hand. Call each one.",
+    "progressWord": "Situation",
+    "labels": [
+     "Open move, keep going",
+     "Old habit, drop it",
+     "Ask a navigator"
+    ],
+    "passAt": 2,
+    "passMsg": "You have the rhythm: move in the open, use the people built to help, and treat silence as a question to ask.",
+    "failMsg": "Close. The tell: secrecy is old habit, open moves are the design, and a navigator is the answer whenever you cannot see the next step.",
+    "items": [
+     {
+      "q": "You found a great role in another school and plan to tell your manager only if you get an offer.",
+      "answer": 1,
+      "why": "External job search instinct, running on internal rails. Managers here are expected to support moves; telling yours early turns a secret into a backed application."
+     },
+     {
+      "q": "You told your manager you expressed interest, and they offered to put in a word with the hiring team.",
+      "answer": 0,
+      "why": "This is the system working as designed: an open move with a sending manager behind it. Say yes, and keep them posted as it progresses."
+     },
+     {
+      "q": "Two weeks after expressing interest, you have heard nothing and cannot tell what stage you are at.",
+      "answer": 2,
+      "why": "Silence is a question, and navigators are the answer: they can tell you the stage, the timeline, and whether a skill-profile tweak would strengthen you."
+     }
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What does the Portal use to match you with opportunities?",
+   "opts": [
+    "Your job title",
+    "Your tenure",
+    "Your skills profile",
+    "Your performance rating"
+   ],
+   "correct": 2,
+   "why": "Matching runs on skills. A profile that lists everything you can do, in role or beyond it, opens doors your title never will."
+  },
+  {
+   "q": "The strongest way to raise your hand for an internal role is...",
+   "opts": [
+    "Apply quietly and wait",
+    "Express interest, tell your manager, see a navigator",
+    "Email the hiring manager your resume",
+    "Ask HR to put in a word"
+   ],
+   "correct": 1,
+   "why": "Working in the open puts three forces behind you: the system, a sending manager, and a navigator who knows the process."
+  },
+  {
+   "q": "Two weeks of silence after expressing interest means...",
+   "opts": [
+    "The answer is no",
+    "You should apply elsewhere quickly",
+    "Time to ask a navigator where it stands",
+    "You should withdraw and reapply"
+   ],
+   "correct": 2,
+   "why": "Silence is a question, and navigators exist to answer it: the stage, the timeline, and how to strengthen your profile."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The path is mapped. Now walk it: fifteen minutes in the Portal this week.",
+  "mid": "Solid. Revisit the section you missed, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My Portal move",
+  "headline": "Fifteen minutes. One raised hand. <em>This week.</em>",
+  "lead": "Pick your first Portal move and put a window on it. Nothing you type is saved or sent.",
+  "whoLabel": "What are you looking for? The skills you want to use or build.",
+  "whoPlaceholder": "e.g. data visualization I use in side projects; want to build facilitation",
+  "practiceLabel": "Which move do you make first?",
+  "whoRow": "The skills in play",
+  "practices": [
+   {
+    "id": "profile",
+    "chip": "The profile refresh",
+    "name": "The profile refresh",
+    "move": "Ten minutes in your Portal profile: add the skills your title hides and one skill you want to build next."
+   },
+   {
+    "id": "search",
+    "chip": "The open search",
+    "name": "The open search",
+    "move": "Fifteen minutes searching by skill, including gigs and projects, and save the three that pull at you."
+   },
+   {
+    "id": "hand",
+    "chip": "The raised hand",
+    "name": "The raised hand",
+    "move": "Express interest in one role, project, or gig, tell your manager, and book 20 minutes with a navigator."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Before I log off today",
+    "out": "The move happens today, before you close this tab."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My Portal move card",
+  "evidenceRow": "Afterward, one line: what did you find that you did not know existed?"
+ },
+ "closing": {
+  "headline": "The door is open. <em>Walk through it.</em>",
+  "lead": "You built a profile rule, a skill-first search, and an open way to raise your hand. Thursday's session builds the human side of the same map: the internal bridges that carry news of opportunity.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the Portal move on your card",
+  "nextBody": "Run it as built. If you want company, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+  "brandline": "Move to opportunity without moving out."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this is the hands-on walkthrough.",
+  "pulse": "Seven days out, send the pulse: 'Did the Portal move on your card happen? What did you find that you did not know existed? What is your next move?' Count of completed Portal moves is the Level 3 metric for the month.",
+  "s1": {
+   "title": "Your profile is the signal",
+   "purpose": "Get every profile past the title-only trap: skills from anywhere, plus what they want to build.",
+   "say": "Here is how the Portal actually works: it matches people to opportunity through skills. Which means your profile is an antenna. If it only repeats your job title, it can only pick up your current job. Most of what you can do never made it into a job description, and today's first move is getting it into your profile.",
+   "facilitate": [
+    "Read the profile rule card aloud once.",
+    "Run the knowledge check; ask in chat who has updated their profile this year.",
+    "Run the breakout: one skill your title would never suggest."
+   ],
+   "ask": {
+    "q": "What is a skill you almost left off because it felt unofficial?",
+    "expect": [
+     "Skills from volunteer work or side projects",
+     "People skills that feel too soft to list",
+     "Tools learned outside any training"
+    ],
+    "respond": "Those unofficial skills are exactly the ones the Portal cannot guess from your title. Unofficial is where the matches come from."
+   },
+   "debrief": "The Portal reads skills, so an incomplete profile is a smaller career. Ten minutes fixes it.",
+   "watchFor": "People listing duties instead of skills. Redirect: what can you do, wherever you learned it?",
+   "transition": "The antenna is up. Now let's go find the signals.",
+   "coreNote": "Core: skip the breakout; ask for one hidden skill in chat instead."
+  },
+  "s2": {
+   "title": "Search and raise your hand",
+   "purpose": "Teach skill-first search across roles, gigs, and projects, and the open way to express interest.",
+   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is the lowest-risk way to test a direction ever invented. Then, when something pulls at you, raise your hand in the open.",
+   "facilitate": [
+    "Run Build your first pass; two minutes to make both choices and run it.",
+    "Ask a volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: skill-first search, open hand."
+   ],
+   "ask": {
+    "q": "Why do gigs and projects matter so much for a first Portal move?",
+    "expect": [
+     "Lower commitment than a full move",
+     "A way to test a direction",
+     "A way to be seen by another team"
+    ],
+    "respond": "All three. A gig is a working interview in both directions, and it builds the exact evidence your profile needs for the bigger move later."
+   },
+   "debrief": "Search by skill, include gigs, raise your hand where people can see it. That is the whole method.",
+   "watchFor": "Anyone treating express-interest as a binding commitment. It opens a conversation; it signs nothing.",
+   "transition": "The open hand raises one worry: who sees it? Straight into that.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "s3": {
+   "title": "In the open, and what's next",
+   "purpose": "Retire the secrecy instinct and give everyone the after-you-apply map, including navigators.",
+   "say": "Everything you know about job searching says be quiet about it. That habit came from a world where your manager finding out was a risk. Inside Vanderbilt the design is the opposite: internal mobility is encouraged, managers are expected to support moves, and there is a whole role, the navigator, whose job is helping yours succeed. So the last skill today is moving in the open and knowing what happens after you raise your hand.",
+   "facilitate": [
+    "Run Call the move live; everyone plays on their own screen.",
+    "After round one, pause: ask who felt the pull of keeping it secret anyway.",
+    "Run the breakout on the hardest habit to drop."
+   ],
+   "ask": {
+    "q": "What actually happens after you express interest?",
+    "expect": [
+     "The hiring team sees your profile and interest",
+     "There are stages you can ask about",
+     "A navigator can tell you where it stands"
+    ],
+    "respond": "Right, and that last one is the habit to build: silence in the process is a question, and navigators are the people built to answer it."
+   },
+   "debrief": "Secrecy is an old habit from external searches. Here, the open move is the strong move, and navigators are the map.",
+   "watchFor": "Skeptics with a story about a manager who punished a move. Take it seriously: sending managers are this month's Monday session, and specifics belong with HR rather than a debate in the room.",
+   "transition": "Quick recap, then you pick your own Portal move.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "capstoneSay": "Now make it yours. One Portal move: the profile refresh, the open search, or the raised hand. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
+  "closeSay": "You leave with an antenna, a search method, and an open hand. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone asks a Portal question you cannot answer, like a specific stage or policy",
+    "then": "Say so plainly, capture it in chat, tag it for the navigators, and send the answer in the 7-day pulse. Modeling 'ask a navigator' is itself the lesson."
+   },
+   {
+    "if": "Someone shares a story of a manager who blocked an internal move",
+    "then": "Thank them for the honesty, restate the norm without debating their case, and point to Monday's sending-manager session as the fix in motion. Route the specific case to HR offline."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Will my manager see that I expressed interest?",
+    "a": "Assume yes, and lead with it: the design expectation is that you tell them yourself first. Managers here are trained as sending managers; the conversation is usually easier than the one you are imagining, and a navigator can help you plan it."
+   },
+   {
+    "q": "Is expressing interest a commitment to take the role?",
+    "a": "No. It opens a conversation, and you can step back at any stage. Treat it like raising your hand in a meeting: it means 'tell me more,' and plenty of strong moves start with three raised hands and one real conversation."
+   },
+   {
+    "q": "I like my job. Why should I bother with a profile?",
+    "a": "A current profile serves people who are staying too: it is how project leads find you for gigs, how your skills get seen beyond your team, and how the university plans. Opportunity finding you costs nothing; being invisible might."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes inside the Transfer Portal. Bring your login and one skill you use that your job title hides. Live and hands on; have the session link open on your own screen, with the Portal in a second tab if you can."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the Portal move happen? Three lines, reply whenever: 1) Did the move on your card happen? 2) What did you find that you did not know existed? 3) What is your next move, and would a navigator session help it?"
+   }
+  ]
+ }
 }

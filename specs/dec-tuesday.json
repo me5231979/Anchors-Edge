@@ -1,260 +1,409 @@
 {
-  "slug": "dec-tuesday",
-  "series": "Take-Off Tuesday",
-  "month": "December 2026",
-  "monthShort": "Dec",
-  "monthIndex": 3,
-  "theme": "AI at Work: Start Where You Are",
-  "goal": 3,
-  "title": "Your First Win",
-  "titleHtml": "Your first AI win is <em class=\"gold-text\">one chore away</em>.",
-  "tagline": "Hands-on: one safe AI use case for your daily work.",
-  "description": "A 45-minute hands-on virtual session for all Vanderbilt staff: pick one safe chore from your own week, write a plain-English ask, and check the result before you use it. No AI experience needed.",
-  "heroLead": "This hour assumes you have never opened an AI tool. Bring one chore from your regular week; you will learn the traffic light that keeps it safe, ask for help in plain English, and check the result like an editor. That is a complete first win.",
-  "objectives": [
-    "Pick one green-light chore from your own week that AI can safely draft",
-    "Write a plain-English ask that gives the tool the job, the details, and the shape you want",
-    "Check the result for accuracy and voice before anything leaves your hands"
-  ],
-  "skills": [
-    {"label": "Personal Effectiveness", "core": true},
-    {"label": "AI Fluency"},
-    {"label": "Written Communication"},
-    {"label": "Attention to Detail"}
-  ],
-  "missionTie": "The great university of the 21st Century gets built in ordinary workweeks. Every staff member who hands a chore to AI safely puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.",
-  "goalLead": "Goal 3 measures a workforce that is ready for AI, and readiness starts with one real use each. Today you run yours: one chore, one ask, one check.",
-  "agenda": [
-    {"t": "Pick the chore", "d": "The traffic light, and finding one green-light task in your own week."},
-    {"t": "Write the ask", "d": "Plain English works: the job, the details, and the shape you want back."},
-    {"t": "Check before you use", "d": "You are the editor. What to verify before the draft goes anywhere."}
-  ],
-  "manifesto": "Start where you are: one chore, one ask, one check.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Chore",
-      "dataTitle": "Pick the chore",
-      "eyebrow": "The Green Light",
-      "headline": "Your week is full of <em>green lights</em>.",
-      "lead": "AI is at its best on chores: first drafts, tidy summaries, notes turned into clean sentences. The traffic light decides what is safe. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.",
-      "group": "In pairs: each name one chore from your own week and call its light. 90 seconds each way.",
-      "solo": "Name one chore from your own week and call its light: green, yellow, or red.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Call the light",
-        "intro": "Every use case starts with this call. Read each chore and pick its light.",
-        "progressWord": "Chore",
-        "labels": ["Green: public or generic, go", "Yellow: approved VU tools only", "Red: never"],
-        "passAt": 2,
-        "passMsg": "You can call the light. Green chores are your starting lane; yellow waits for approved VU tools; red stays out, every time.",
-        "failMsg": "Close. The light follows the information in the chore: public or generic is green, internal work is yellow inside approved VU tools, and private information about people is always red.",
-        "items": [
-          {"q": "Drafting a friendly reminder about a campus event that is already on the public calendar.", "answer": 0, "why": "Public event, generic wording. A perfect first win: the tool drafts in seconds, and you polish the details you know."},
-          {"q": "Summarizing notes from an internal team meeting so you can share highlights with the group.", "answer": 1, "why": "Internal content is yellow: fine inside approved VU tools, off limits in anything else. The chore is great; the venue matters."},
-          {"q": "Writing a sensitive email about a student's health situation, with the details pasted in.", "answer": 2, "why": "Private information about a person is red, always. AI can suggest a generic structure for hard emails; the specifics never go in."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Ask",
-      "dataTitle": "Write the ask",
-      "eyebrow": "The Ask",
-      "headline": "Ask like you would ask a <em>colleague</em>.",
-      "lead": "There is a myth that talking to AI takes special training. Plain English works. Tell the tool the job, give it the details that matter, and say what shape you want back. The same sentences you would use to brief a helpful colleague are the ones that work here.",
-      "group": "In pairs: say the plain-English ask for the chore you named in section one. Does your partner know exactly what you want back? 90 seconds each way.",
-      "solo": "Write the plain-English ask for the chore you named in section one: the job, the details, the shape.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Build the ask",
-        "intro": "Your chore: a first draft of a thank-you note to volunteers after a public campus event. Choose what you tell the tool.",
-        "runLabel": "Send the ask",
-        "outcomeTag": "What comes back",
-        "slots": [
-          {
-            "key": "The job you give it",
-            "opts": [
-              {"t": "Write something nice about volunteers.", "pts": 1, "coach": "The tool can only work with what you said. A vague job gets a vague draft that could be about anyone, anywhere."},
-              {"t": "Write a thank-you note to our event volunteers.", "pts": 2, "coach": "Clear job, thin details. The draft will be usable and generic; you will spend your time adding everything that made the event yours."},
-              {"t": "Write a warm, short thank-you to the 20 volunteers who ran Saturday's campus book fair.", "pts": 3, "coach": "Job, tone, length, and the details that matter, in one plain sentence. Specific asks come back sounding close to done."}
-            ]
-          },
-          {
-            "key": "The shape you ask for",
-            "opts": [
-              {"t": "Say nothing and take whatever comes back.", "pts": 1, "coach": "The tool will guess: maybe three paragraphs, maybe a formal letter. Every guess it makes is an edit you make later."},
-              {"t": "Keep it under 150 words.", "pts": 2, "coach": "Length is a good start. Adding the format and the sign-off you want saves another round of fixes."},
-              {"t": "One short paragraph, warm tone, ending with an invite to next spring's fair.", "pts": 3, "coach": "Now the tool knows exactly what done looks like. Describing the shape you want is the easiest skill in this whole hour."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A draft you would nearly send. Two small edits and it sounds like you on a good day.",
-          "mid": "A usable draft with generic bones. Ten minutes of editing, which still beats a blank page.",
-          "weak": "A draft about nobody in particular. You will rewrite most of it, and the tool takes the blame for a thin ask."
-        },
-        "reactions": {
-          "strong": "You send the note twenty minutes after the event wrap-up instead of next Thursday. Two volunteers reply that it was the nicest thank-you they have gotten, and the hour you saved went to work that needed you.",
-          "mid": "The note goes out a day later after real editing. Next time you add the details up front and discover the editing almost disappears.",
-          "weak": "The draft sits in your folder because fixing it feels like starting over. The lesson is cheap: the tool answers the ask it was given."
-        }
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Check",
-      "dataTitle": "Check before you use",
-      "eyebrow": "The Check",
-      "headline": "You are the <em>editor</em>.",
-      "lead": "AI drafts with total confidence and zero guarantee. Sometimes it invents a detail, gets a name wrong, or strikes a tone you would never use. The rule that keeps you safe is simple: the draft ships after you have read every line and can stand behind every fact.",
-      "group": "In pairs: tell each other about a time a confident-sounding document turned out to be wrong. What would have caught it? 90 seconds each way.",
-      "solo": "Recall a time a confident-sounding document turned out to be wrong. What would have caught it?",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The editor's rule",
-          "text": "Before an AI draft goes anywhere, check facts (every name, date, and number), fit (is this what you meant to say?), and voice (does it sound like you?). If you cannot verify a detail, cut it or confirm it yourself."
-        },
-        "q": "The tool's draft includes a detail you did not provide and cannot verify. What do you do?",
-        "opts": [
-          {"t": "Keep it; the tool probably knows", "correct": false, "why": "The tool writes what sounds likely, and likely-sounding details are sometimes wrong. Anything you cannot verify has no place in your work."},
-          {"t": "Cut it or confirm it yourself before the draft moves", "correct": true, "why": "Exactly. You are the editor, and your name goes on the result. Verified details stay; everything else goes."},
-          {"t": "Send it with a note that AI wrote it", "correct": false, "why": "A disclaimer hands the checking to your reader. The check is your job, and it takes two minutes on a chore-sized draft."}
-        ]
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Which chore is a green light for your first AI use?",
-      "opts": ["Summarizing an internal meeting in a free tool", "Drafting a note about a public campus event", "An email with details about a person's health", "Anything, as long as you check the result"],
-      "correct": 1,
-      "why": "The light follows the information. Public or generic goes; internal waits for approved VU tools; private information about people never goes in."
-    },
-    {
-      "q": "What belongs in a good plain-English ask?",
-      "opts": ["Special technical wording", "The job, the details that matter, and the shape you want", "As few words as possible", "A request to make it sound impressive"],
-      "correct": 1,
-      "why": "The same brief you would give a helpful colleague. Specific asks come back close to done; vague asks come back vague."
-    },
-    {
-      "q": "What must happen before an AI draft leaves your hands?",
-      "opts": ["Nothing, if the chore was green", "A colleague signs off on it", "You verify every fact and make it sound like you", "You add a note saying AI helped"],
-      "correct": 2,
-      "why": "The green light covers what goes in; the editor's rule covers what comes out. Facts verified, voice yours, then it ships."
-    }
-  ],
-  "recapMsgs": {
-    "high": "You have the whole loop: chore, ask, check. Go run it on your real week.",
-    "mid": "Solid. Reread the editor's rule, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+ "slug": "dec-tuesday",
+ "series": "Take-Off Tuesday",
+ "month": "December 2026",
+ "monthShort": "Dec",
+ "monthIndex": 3,
+ "theme": "The Vanderbilt Manager Standard",
+ "goal": 2,
+ "title": "Own Your 1:1",
+ "titleHtml": "Your 1:1, <em class=\"gold-text\">your agenda</em>.",
+ "tagline": "The 1:1 templates and feedback tools inside Oracle, from your side of the table.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: drive your own 1:1s with the Oracle template, move feedback through the giving and requesting tools, and build a record that argues for your growth.",
+ "heroLead": "Your 1:1 is your meeting too. Oracle now carries a shared template for it, plus tools for giving and requesting feedback that put useful words on the record. Today you learn to drive all three, whether or not you manage anyone.",
+ "objectives": [
+  "Load your own agenda items into the Oracle 1:1 template before the meeting",
+  "Give and request feedback through the Oracle tools with specifics that help",
+  "Capture commitments in the shared record and make it argue for your growth"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My first win",
-    "headline": "One chore. One ask. <em>One check.</em>",
-    "lead": "Pick the chore from your own week and the moment you will run it. Nothing you type is saved or sent.",
-    "whoLabel": "The green-light chore, and the ask you will make in plain English.",
-    "whoPlaceholder": "e.g. draft the newsletter blurb about the public lecture series",
-    "practiceLabel": "Which first win do you run?",
-    "whoRow": "The chore and the ask",
-    "practices": [
-      {"id": "draft", "chip": "The first draft", "name": "The first draft", "move": "Hand the tool one green-light writing chore with a specific ask, then edit the draft into your own voice."},
-      {"id": "tidy", "chip": "The tidy-up", "name": "The tidy-up", "move": "Give the tool your rough notes on something public or generic and ask for clean, short sentences."},
-      {"id": "explain", "chip": "The plain explainer", "name": "The plain explainer", "move": "Ask the tool to explain a public topic you need to understand, then verify the pieces you plan to use."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Today", "out": "The first win happens today, while the ask is still fresh in your head."},
-      {"id": "week", "chip": "This week", "out": "The first win happens this week, tied to a real deadline already on your list."},
-      {"id": "sandbox", "chip": "At the sandbox session", "out": "The first win happens at the navigator-led First-AI-Win sandbox session, with help in the room."}
-    ],
-    "cardTitle": "My first-win card",
-    "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time free you to do?"
+  {
+   "label": "Oracle HCM Tools"
   },
-  "closing": {
-    "headline": "One chore down. <em>A habit begun.</em>",
-    "lead": "You called the light, wrote the ask, and learned the editor's rule. Thursday's Thrive Thursday builds the adaptability that keeps you steady while tools like this keep changing.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Run the chore on your card",
-    "nextBody": "Run it exactly as built: the ask, the check, and one line about what the check caught. If you would rather try with company, the navigator-led First-AI-Win sandbox session is open to everyone this month.",
-    "brandline": "Start where you are. Check before it ships."
+  {
+   "label": "Feedback"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees will be opening an AI tool for the first time. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites and zero jargon; December is the AI at Work month.",
-    "pulse": "Seven days out, send the pulse: 'Did you run the chore on your card? What did the check catch? What chore gets the next green light?' Count of completed first wins is the Level 3 metric for the month.",
-    "s1": {
-      "title": "Pick the chore",
-      "purpose": "Install the traffic light and have every learner find one green-light chore in their own week.",
-      "say": "If you have never opened an AI tool, you are exactly who this hour was built for. One rule keeps everything safe, and it fits on a sticky note. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Everything we do today lives in green.",
-      "facilitate": [
-        "Run Call the light live; everyone plays on their own screen.",
-        "After the red case, pause: the chore was kind, and the information still made it red.",
-        "Run the breakout: one chore from your own week, call its light."
-      ],
-      "ask": {
-        "q": "What green-light chore from your own week came to mind first?",
-        "expect": ["Drafting emails and announcements", "Tidying rough notes", "First versions of routine documents"],
-        "respond": "All perfect. Chore-sized is the point: your first win should be small enough to finish today and check in two minutes."
-      },
-      "debrief": "The light follows the information, and green is a big lane. Most weeks hold more green chores than anyone expects.",
-      "watchFor": "People whose whole week feels yellow or red. Point them at the generic side of their job: announcements, outlines, and public material are green even in sensitive roles.",
-      "transition": "You have the chore. Now the ask, in plain English.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one chore from chat."
-    },
-    "s2": {
-      "title": "Write the ask",
-      "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
-      "say": "Here is the best news of the month: talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague. Here is the job, here are the details that matter, here is the shape I want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
-      "facilitate": [
-        "Run Build the ask; two minutes to make both choices and send it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: a specific job plus a described shape equals a draft worth keeping."
-      ],
-      "ask": {
-        "q": "What detail would you add to make the volunteer thank-you ask even better?",
-        "expect": ["A specific moment from the event", "The audience it is going to", "The sign-off we always use"],
-        "respond": "All good adds. Details you provide are details you already trust, which also makes the check at the end faster."
-      },
-      "debrief": "The tool answers the ask it was given. Plain English, real details, described shape: that is the whole craft.",
-      "watchFor": "People apologizing for weak first asks. Normalize it fast: everyone's first ask is thin, and one more honest sentence usually fixes it.",
-      "transition": "The draft is back. Before it goes anywhere, you become the editor.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "s3": {
-      "title": "Check before you use",
-      "purpose": "Install the editor's rule: verify facts, fit, and voice before any draft leaves your hands.",
-      "say": "One honest warning and you are ready. The tool writes with total confidence whether it is right or wrong. Sometimes it invents a detail or misses your meaning, so the last step of every use is the check: every fact verified, the message actually yours, the voice actually you. Two minutes of editing keeps your name safe on everything you send.",
-      "facilitate": [
-        "Read the editor's rule card aloud, once, slowly.",
-        "Run the knowledge check; ask which answer people picked before revealing.",
-        "Run the breakout on the confident-sounding document that turned out wrong."
-      ],
-      "ask": {
-        "q": "Why does the check stay your job even when the draft looks perfect?",
-        "expect": ["My name goes on it", "The tool cannot know what is true in my world", "Polish is exactly when errors slip through"],
-        "respond": "Right on all counts. The polish is the trap; read every line like an editor, especially the impressive ones."
-      },
-      "debrief": "Facts, fit, voice. If you cannot verify a detail, cut it or confirm it yourself. Then it ships.",
-      "watchFor": "Learners concluding AI is too risky to touch at all. Rebalance: the check takes two minutes on a chore-sized draft, and the chore used to take an hour.",
-      "transition": "Quick recap, then you build your first-win card.",
-      "coreNote": "Core: read the card, run the check, skip the breakout."
-    },
-    "capstoneSay": "Now make it real. One green-light chore from your own week, the plain-English ask you will make, and the moment you will run it. If you would rather try with help nearby, pick the sandbox session as your moment. Build the card and copy it somewhere you will see it. Two minutes, quiet, go.",
-    "closeSay": "You leave with the whole loop: one chore, one ask, one check. Run it this week and tell your team what the check caught. Thursday's Thrive Thursday takes on the other half of new tools: adaptability, staying steady while things keep changing. And if you want company for your first run, the navigators are hosting a First-AI-Win sandbox session this month; the LinkedIn Learning course Generative AI for Business Leaders pairs well once your first win is behind you.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "A learner starts describing real internal or personal content they want to paste into a tool", "then": "Redirect gently and publicly: 'Keep it green for today: public or generic only.' Praise the instinct to try, then point the yellow work at approved VU tools."},
-      {"if": "Someone says they are too far behind to ever catch up with AI", "then": "Slow the room down: this session assumes zero experience on purpose. One chore, one ask, one check is the entire skill today, and the sandbox session exists for exactly this feeling."}
-    ],
-    "toughQuestions": [
-      {"q": "Which tool should I actually use?", "a": "For green-light chores, any of the approved tools listed on the Anchor's Edge dashboard work, and your navigator can point you to the current list. The habit transfers: the light, the plain-English ask, and the check work the same everywhere, so the skill you built today is portable."},
-      {"q": "Is using AI for my work cheating?", "a": "Handing a chore to a tool and checking the result is the same judgment you already use with a template or a spell-checker, scaled up. The thinking, the facts, and the final call stay yours. What would cross a line is sending anything you have never read and verified yourself."},
-      {"q": "What if the tool gives me a wrong answer and I miss it?", "a": "That is why the first win is chore-sized: small drafts are checkable in two minutes. Verify names, dates, and numbers against sources you trust, and cut anything you cannot confirm. The editor's eye gets faster with practice; start small and it grows with you."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes to your first AI win. Bring one boring chore from your week: a draft, a summary, notes to tidy. No AI experience needed; we assume you have never opened a tool. Live and hands-on; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the first win happen? Three lines, reply whenever: 1) Did you run the chore on your card? 2) What did the check catch? 3) What chore gets the next green light?"}
-    ]
+  {
+   "label": "Career Ownership"
   }
+ ],
+ "missionTie": "The great university of the 21st Century runs on conversations that go somewhere. When any staff member can steer a 1:1 and put feedback on the record, Exceptional Core Operations shows up one meeting at a time.",
+ "goalLead": "Goal 2 asks managers to demonstrate a standard, and much of it becomes visible inside Oracle's 1:1 and feedback tools. Today you learn your half of those tools.",
+ "agenda": [
+  {
+   "t": "The template",
+   "d": "The shared 1:1 agenda in Oracle, and the two items you type in the day before."
+  },
+  {
+   "t": "The feedback tools",
+   "d": "Requesting feedback on your work, giving it to colleagues, and picking the right move."
+  },
+  {
+   "t": "The record",
+   "d": "Capturing commitments so your growth has receipts by review season."
+  }
+ ],
+ "manifesto": "A 1:1 you prepared for is a meeting you co-own.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Template",
+   "dataTitle": "The template",
+   "eyebrow": "The Template",
+   "headline": "The template has <em>two sides</em>.",
+   "lead": "Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Most of us leave it blank and inherit whatever the meeting becomes. Typing in your two items the day before changes the meeting you get.",
+   "group": "In pairs: what item have you been saving for the right moment instead of typing into a 1:1 agenda? 90 seconds each way.",
+   "solo": "Write down the one item you have been saving for the right moment. That is your first template entry.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "Your two items",
+     "text": "Before every 1:1, type two items into the shared template: the blocker you need cleared and the growth topic you want time on. Typed the day before, they shape the agenda; raised in the last five minutes, they get sympathy and no time."
+    },
+    "q": "Quick check: when does your agenda item do the most work?",
+    "opts": [
+     {
+      "t": "Typed into the template the day before",
+      "correct": true,
+      "why": "Your manager sees it, thinks about it, and the meeting arrives ready. The template turns your priorities into part of the plan."
+     },
+     {
+      "t": "Raised live at the start of the meeting",
+      "correct": false,
+      "why": "Better than never, and it still catches the other person cold. A surprise topic gets a thinner answer than a prepared one."
+     },
+     {
+      "t": "Mentioned casually after the meeting ends",
+      "correct": false,
+      "why": "Hallway add-ons rarely make the record, so nothing gets tracked and nothing closes. Put it in the template for next time instead."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "Feedback Tools",
+   "dataTitle": "The feedback tools",
+   "eyebrow": "The Tools",
+   "headline": "Feedback now has a <em>front door</em>.",
+   "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
+   "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
+   "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Pick the move",
+    "intro": "Three moments from an ordinary week. Choose the move that turns each one into something on the record.",
+    "progressWord": "Moment",
+    "labels": [
+     "Request feedback",
+     "Give feedback",
+     "Put it on your 1:1 agenda"
+    ],
+    "passAt": 2,
+    "passMsg": "You know the moves. Request when you need eyes on your work, give when someone earned it, agenda when it needs a conversation.",
+    "failMsg": "Close. The tell: request is about your work, give is about theirs, and anything that needs real discussion goes on the 1:1 agenda.",
+    "items": [
+     {
+      "q": "You just led your first cross-department presentation and have no idea how it landed.",
+      "answer": 0,
+      "why": "Ask two people who were in the room, through the tool, same day. Specific and fresh beats a vague someday ask, and the answers live in your record."
+     },
+     {
+      "q": "An analyst in another unit stayed late untangling the data mess that saved your deadline.",
+      "answer": 1,
+      "why": "Give it through the tool so it reaches their record and their manager's eyes. A thank-you in chat evaporates; recorded feedback travels."
+     },
+     {
+      "q": "You suspect your role has drifted and your real work no longer matches your job description.",
+      "answer": 2,
+      "why": "That is a conversation, and it deserves scheduled time. Type it into the template so it opens the meeting instead of ambushing it."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Record",
+   "dataTitle": "The record",
+   "eyebrow": "The Record",
+   "headline": "Make the record <em>work for you</em>.",
+   "lead": "A year from now, the strongest case for your growth is a trail: agendas you set, commitments you closed, feedback you asked for. That trail gets built one meeting at a time, and it starts with how you set up the next one.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Set up your next 1:1",
+    "intro": "Your next 1:1 is already on the calendar. Choose what you bring in and what you carry out.",
+    "runLabel": "Run the 1:1",
+    "outcomeTag": "What the record shows",
+    "slots": [
+     {
+      "key": "What you bring in",
+      "opts": [
+       {
+        "t": "Nothing; you will respond to whatever comes up.",
+        "pts": 1,
+        "coach": "An empty template hands the whole meeting to the other chair. You get their agenda, and yours waits another month."
+       },
+       {
+        "t": "A mental list of updates you plan to give.",
+        "pts": 2,
+        "coach": "Updates fill time and prove activity. The template rewards items that need a decision or a door opened, typed where your manager sees them coming."
+       },
+       {
+        "t": "One blocker and one growth ask, typed in the day before.",
+        "pts": 3,
+        "coach": "Two items, visible early. The blocker gets solved and the growth ask gets thought about before the call, which is when growth asks actually move."
+       }
+      ]
+     },
+     {
+      "key": "What you carry out",
+      "opts": [
+       {
+        "t": "A good conversation you both intend to remember.",
+        "pts": 1,
+        "coach": "Memory is the least reliable tool in Oracle. In a month, the two of you will remember two different meetings."
+       },
+       {
+        "t": "Your own notes, kept somewhere only you can see.",
+        "pts": 2,
+        "coach": "Better; at least your version exists. Shared commitments are stronger because both names sit next to the same words."
+       },
+       {
+        "t": "Commitments typed into the shared template, owners and dates attached.",
+        "pts": 3,
+        "coach": "Now the record works for you. The next 1:1 opens with what closed, and by review season your growth has receipts."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A meeting with a spine. Your items shaped it, and the commitments will still exist next month.",
+     "mid": "A pleasant hour that mostly happened to you. Some value, thin residue.",
+     "weak": "Thirty minutes of status. Nobody could say afterward what changes because of it."
+    },
+    "reactions": {
+     "strong": "Three 1:1s later there is a visible trail: the blocker cleared, the growth ask became a stretch task, and your review conversation starts from evidence instead of recollection.",
+     "mid": "Some of it stuck because you kept notes. But your growth ask never made the shared record, so it never made anyone's plans either.",
+     "weak": "A month later the same blocker resurfaces and neither of you can find where it was discussed. The meeting happened; the record says nothing."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Your best move with an important 1:1 topic?",
+   "opts": [
+    "Raise it live and see how it lands",
+    "Type it into the shared template the day before",
+    "Save it for the annual review",
+    "Email it right after the meeting"
+   ],
+   "correct": 1,
+   "why": "Typed early, it shapes the agenda and gets a prepared answer. The template turns your priorities into part of the plan."
+  },
+  {
+   "q": "A colleague's work quietly saved your project. What travels furthest?",
+   "opts": [
+    "A thank-you message in chat",
+    "Telling your own manager about it",
+    "Feedback given through the Oracle tool",
+    "Mentioning it at the next team meeting"
+   ],
+   "correct": 2,
+   "why": "Recorded feedback reaches their record and their manager. Kind words in chat are lovely and gone by Friday."
+  },
+  {
+   "q": "What makes a 1:1 commitment real?",
+   "opts": [
+    "Both people nodding on the call",
+    "A note in your private notebook",
+    "Good intentions and a follow-up ping",
+    "Typed in the shared record with owner and date"
+   ],
+   "correct": 3,
+   "why": "Shared words with names and dates get checked next meeting. Everything else depends on memory, which is the weakest tool available."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The tools are yours. Load the real template before the glow fades.",
+  "mid": "Solid. Revisit the move you missed, then build your prep card.",
+  "low": "Worth a second pass through the three sections before you load the template."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My next 1:1",
+  "headline": "Your next 1:1, <em>loaded in advance.</em>",
+  "lead": "Pick your next scheduled 1:1 and load it now. Roles only, never names; nothing you type is saved or sent.",
+  "whoLabel": "Which 1:1, and what is the one item you have been sitting on?",
+  "whoPlaceholder": "e.g. my monthly 1:1 next Tuesday; the certification I want to start",
+  "practiceLabel": "Which move do you make first?",
+  "whoRow": "The meeting and the item",
+  "practices": [
+   {
+    "id": "agenda",
+    "chip": "The agenda load",
+    "name": "The agenda load",
+    "move": "Type one blocker and one growth ask into the Oracle template at least a day before the meeting."
+   },
+   {
+    "id": "request",
+    "chip": "The feedback request",
+    "name": "The feedback request",
+    "move": "Send one Oracle feedback request about recent, specific work to someone who saw it up close."
+   },
+   {
+    "id": "give",
+    "chip": "The feedback give",
+    "name": "The feedback give",
+    "move": "Give one piece of specific feedback through Oracle to a colleague whose work helped yours."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The template entry or feedback goes in today, while the session is fresh."
+   },
+   {
+    "id": "before11",
+    "chip": "Before my next 1:1",
+    "out": "Loaded at least a day before the meeting, so it shapes the agenda."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "Done by Friday, on the calendar so it cannot slide."
+   }
+  ],
+  "cardTitle": "My 1:1 prep card",
+  "evidenceRow": "Afterward, one line: what changed because it was on the record?"
+ },
+ "closing": {
+  "headline": "Two chairs. <em>Bring yours.</em>",
+  "lead": "You can load an agenda, move feedback through the front door, and leave a trail that argues for your growth. Thursday sharpens the skill underneath all of it.",
+  "nextTag": "Your one next step · Before your next 1:1",
+  "nextTitle": "Load the template",
+  "nextBody": "Type your one saved-up item into your next 1:1 agenda in Oracle. Watch what a prepared meeting does with it.",
+  "brandline": "Your meeting too. Run it that way."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. Oracle access helps, and the session works fine watching the walkthrough.",
+  "pulse": "Seven days out, send the pulse: 'Did your item make it into a 1:1 template? Did you send or give one piece of feedback through Oracle? What changed because it was on the record?' Count of template entries and feedback events is the month's usage signal.",
+  "s1": {
+   "title": "The template",
+   "purpose": "Get every learner to load their own items into the Oracle 1:1 template before the meeting.",
+   "say": "Quick show of honesty in chat: when your last 1:1 started, whose agenda was it? For most of us the honest answer is my manager's, or nobody's. Oracle now gives that meeting a shared template both people can edit, and the single highest-leverage habit in this session is typing your two items into it the day before: one blocker, one growth topic.",
+   "facilitate": [
+    "Show the template fields on screen for thirty seconds; keep it to where your items go.",
+    "Run the knowledge check; everyone answers on their own screen.",
+    "Run the breakout on the saved-up item."
+   ],
+   "ask": {
+    "q": "What stops people from adding their own agenda items?",
+    "expect": [
+     "Feels like overstepping",
+     "Never occurred to them",
+     "Assume the manager owns the meeting"
+    ],
+    "respond": "All common, all fixable. The template design is the permission: the field exists for you, and managers consistently say they want the items."
+   },
+   "debrief": "Two items, typed the day before: one blocker, one growth ask. That habit alone changes what 1:1s do for you.",
+   "watchFor": "Learners whose managers do not yet use the template. Acknowledge it and stay practical: your typed items work even when you are the only one typing.",
+   "transition": "The template covers the meeting. Feedback has its own front door.",
+   "coreNote": "Core: skip the breakout; ask for saved-up items in chat instead."
+  },
+  "s2": {
+   "title": "The feedback tools",
+   "purpose": "Teach when to request feedback, when to give it, and when a topic belongs on the 1:1 agenda instead.",
+   "say": "Oracle gives everyone two feedback moves. Request: you ask people who saw your work how it landed, and their answers join your record. Give: you put specific recognition or input into a colleague's record, where it travels further than chat ever will. The skill is matching the moment to the move, so let's practice on three.",
+   "facilitate": [
+    "Run Pick the move live; everyone plays on their own screen.",
+    "After round two, ask in chat who has ever received recorded feedback from a peer; notice the energy.",
+    "Run the breakout on the colleague whose work deserved a recorded give."
+   ],
+   "ask": {
+    "q": "Why does recorded feedback beat the same words in chat?",
+    "expect": [
+     "It reaches their manager",
+     "It survives to review season",
+     "Chat scrolls away"
+    ],
+    "respond": "All three. The words might be identical; the address is different. Feedback in the record shows up when decisions about people get made."
+   },
+   "debrief": "Request when you need eyes on your work. Give when a colleague earned it. Anything needing real discussion goes on the 1:1 agenda.",
+   "watchFor": "Worry that requesting feedback signals weakness. Reframe it: asking specific people about specific work reads as someone serious about getting better.",
+   "transition": "Templates and feedback both feed one thing: a record. The last section makes it work for you.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the chat question."
+  },
+  "s3": {
+   "title": "The record",
+   "purpose": "Convert template and feedback habits into a growth trail: agendas in, commitments out.",
+   "say": "Play the long game for a second. A year from now, someone will ask what you have grown into, in a review or an internal interview. The strongest answer is a trail: agendas you set, commitments that closed, feedback you asked for and acted on. Trails get built one meeting at a time, so let's set up your next one properly.",
+   "facilitate": [
+    "Run Set up your next 1:1; give the room two minutes for both choices.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: typed beats mental, shared beats private."
+   ],
+   "ask": {
+    "q": "What does a shared commitment have that a private note does not?",
+    "expect": [
+     "Both names on it",
+     "It gets checked next meeting",
+     "Nobody can misremember it alone"
+    ],
+    "respond": "Right. A private note protects your memory; a shared commitment obligates two calendars. Growth lives in the second kind."
+   },
+   "debrief": "The record is your career's paper trail. Feed it: items in before, commitments out after, feedback along the way.",
+   "watchFor": "Anyone treating the record as surveillance. The frame is ownership: this is your trail, built by you, arguing for you.",
+   "transition": "Quick recap, then you load your own next 1:1.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Now load the real thing. Your next 1:1 is on a calendar somewhere. Name the item you have been sitting on, pick your first move, pick your window, and build the card. Roles only, never names. Two minutes, quiet, go.",
+  "closeSay": "You leave with a loaded template habit and two feedback moves that put your work on the record. Thursday's Thrive Thursday is the skill underneath every one of these tools: clarity, the kind of expectation-setting that sticks, whichever chair you sit in. Same time, same rhythm. See you there.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Learners lack Oracle access or cannot open it during the session",
+    "then": "Nothing requires live Oracle. Demo from your own screen, and have people draft their agenda item and feedback lines in the deck; entering them takes two minutes after the call."
+   },
+   {
+    "if": "Someone starts naming a colleague while describing feedback they want to give",
+    "then": "Redirect warmly: roles, never names. The specifics belong in the tool, addressed to the person; the room only needs the shape of the example."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "What if my manager never opens the template?",
+    "a": "Your entry still works: it frames the meeting when you bring it up, and it timestamps that you raised it. Most managers start using the template the week their reports do. If it stays ignored, raise that kindly as its own agenda item."
+   },
+   {
+    "q": "Is feedback I give in Oracle visible to the person and their manager?",
+    "a": "Treat everything in the tool as on the record; that is the point, because recorded recognition travels. Write anything you give as words you would happily say with the person in the room, since functionally you are."
+   },
+   {
+    "q": "I don't manage anyone. Is this month really for me?",
+    "a": "Entirely. The manager standard tells you what to expect from your own manager, and the tools are two-sided by design; this month lands only if both chairs use them. If you are curious where the manager side goes, the New Manager Foundations course on LinkedIn Learning is open to everyone."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes on making Oracle 1:1s work for you. Before the session, think of one item you keep meaning to raise with your manager. You will never be asked to share it. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did it make the record? Three lines, reply whenever: 1) Did your item make it into a 1:1 template? 2) Did you send or give one piece of feedback in Oracle? 3) What changed because it was on the record?"
+   }
+  ]
+ }
 }

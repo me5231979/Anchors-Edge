@@ -29,6 +29,7 @@ def build(slug):
 
     # ---- 2. classroom-only elements out, web-only elements in ----
     s = re.sub(r'\n?\s*<p class="why" data-classroom.*?</p>', '', s, flags=re.S)
+    s = re.sub(r'\n?\s*<div class="card" data-classroom.*?</div>', '', s, flags=re.S)
     s = s.replace(' data-webonly hidden', ' data-webonly')
 
     # ---- 3. head + paths (one directory deeper) ----

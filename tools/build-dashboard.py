@@ -12,18 +12,15 @@ import json, os, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 GOALS = {
-    1: {"short": "Workforce Intelligence & Transfer Portal",
-        "desc": "By Q4, launch an AI-enabled system that helps leaders see talent needs, retain top talent, strengthen succession, and connect employees to internal opportunities across the university.",
-        "baseline": "6% of BUs", "target": "85% of BUs", "pct": 85, "base": 6,
-        "months": "Oct · Jan · Apr"},
+    1: {"short": "Talent Marketplace & Transfer Portal",
+        "desc": "Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.",
+        "months": "Oct · Nov · Feb"},
     2: {"short": "Manager Effectiveness at Scale",
-        "desc": "By Q4, implement a Vanderbilt manager standard that measures demonstrated leader behavior.",
-        "baseline": "15%", "target": "80%", "pct": 80, "base": 15,
-        "months": "Nov · Feb · May"},
+        "desc": "Implement a Vanderbilt manager standard that measures demonstrated leader behavior.",
+        "months": "Dec · Mar · May"},
     3: {"short": "AI-Enabled Workforce Readiness",
-        "desc": "By Q4, equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.",
-        "baseline": "5%", "target": "25%", "pct": 25, "base": 5,
-        "months": "Dec · Mar · Jun"},
+        "desc": "Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.",
+        "months": "Jan · Apr · Jun"},
 }
 
 MONTHS = [
@@ -33,42 +30,42 @@ MONTHS = [
      "nod": "Psychological safety enables talent honesty.",
      "lil": "LinkedIn Learning: Talent Management, Don Phin",
      "lab": "Know-Your-Team talent-mapping lab (in person, navigator led)"},
-    {"n": 2, "slug": "nov", "date": "November 2026", "goal": 2,
-     "theme": "The Vanderbilt Manager Standard",
-     "tagline": "Name the observable behaviors that define a Vanderbilt manager.",
-     "nod": "Sustainable pace as a leader behavior.",
-     "lil": "LinkedIn Learning: New Manager Foundations, Todd Dewett",
-     "lab": "Manager Standard walk-through clinic (in person, navigator led)"},
-    {"n": 3, "slug": "dec", "date": "December 2026", "goal": 3,
-     "theme": "AI at Work: Start Where You Are",
-     "tagline": "Demystify AI and lead one safe first use case.",
-     "nod": "Cognitive load: when to lean on AI, and when to rest.",
-     "lil": "LinkedIn Learning: Generative AI for Business Leaders, Kian Katanforoosh",
-     "lab": "First-AI-Win sandbox session (in person, navigator led)"},
-    {"n": 4, "slug": "jan", "date": "January 2027", "goal": 1,
-     "theme": "Retain, Grow, Move",
-     "tagline": "Succession and internal mobility, without the fear.",
-     "nod": "Career wellness: growth as a wellbeing driver.",
-     "lil": "LinkedIn Learning: Retaining Your Best Talent, Roberta Matuson",
-     "lab": "Stay-interview practice lab (in person, navigator led)"},
-    {"n": 5, "slug": "feb", "date": "February 2027", "goal": 2,
-     "theme": "Coaching as the Core Manager Behavior",
-     "tagline": "Coach the person, manage the task.",
-     "nod": "Active listening lowers stress on both sides.",
-     "lil": "LinkedIn Learning: Coaching Skills for Leaders and Managers, Sara Canaday",
-     "lab": "GROW-model coaching practicum (in person, navigator led)"},
-    {"n": 6, "slug": "mar", "date": "March 2027", "goal": 3,
-     "theme": "Spot AI-Exposed Work",
-     "tagline": "See what's changing on your team before it changes you.",
-     "nod": "Change fatigue: pacing team-level AI adoption.",
-     "lil": "LinkedIn Learning: AI for Leaders, Doug Rose",
-     "lab": "Team AI-exposure mapping workshop (in person, navigator led)"},
-    {"n": 7, "slug": "apr", "date": "April 2027", "goal": 1,
+    {"n": 2, "slug": "nov", "date": "November 2026", "goal": 1,
      "theme": "The Transfer Portal in Practice",
      "tagline": "Move people to opportunity without moving them out.",
      "nod": "Belonging travels: supporting movers and stayers.",
      "lil": "LinkedIn Learning: Building Your Team, Chris Croft",
      "lab": "Portal walkthrough and skill-profile clinic (in person, navigator led)"},
+    {"n": 3, "slug": "dec", "date": "December 2026", "goal": 2,
+     "theme": "The Vanderbilt Manager Standard",
+     "tagline": "Name the observable behaviors that define a Vanderbilt manager.",
+     "nod": "Sustainable pace as a leader behavior.",
+     "lil": "LinkedIn Learning: New Manager Foundations, Todd Dewett",
+     "lab": "Manager Standard walk-through clinic (in person, navigator led)"},
+    {"n": 4, "slug": "jan", "date": "January 2027", "goal": 3,
+     "theme": "AI at Work: Start Where You Are",
+     "tagline": "Demystify AI and lead one safe first use case.",
+     "nod": "Cognitive load: when to lean on AI, and when to rest.",
+     "lil": "LinkedIn Learning: Generative AI for Business Leaders, Kian Katanforoosh",
+     "lab": "First-AI-Win sandbox session (in person, navigator led)"},
+    {"n": 5, "slug": "feb", "date": "February 2027", "goal": 1,
+     "theme": "Retain, Grow, Move",
+     "tagline": "Succession and internal mobility, without the fear.",
+     "nod": "Career wellness: growth as a wellbeing driver.",
+     "lil": "LinkedIn Learning: Retaining Your Best Talent, Roberta Matuson",
+     "lab": "Stay-interview practice lab (in person, navigator led)"},
+    {"n": 6, "slug": "mar", "date": "March 2027", "goal": 2,
+     "theme": "Coaching as the Core Manager Behavior",
+     "tagline": "Coach the person, manage the task.",
+     "nod": "Active listening lowers stress on both sides.",
+     "lil": "LinkedIn Learning: Coaching Skills for Leaders and Managers, Sara Canaday",
+     "lab": "GROW-model coaching practicum (in person, navigator led)"},
+    {"n": 7, "slug": "apr", "date": "April 2027", "goal": 3,
+     "theme": "Spot AI-Exposed Work",
+     "tagline": "See what's changing on your team before it changes you.",
+     "nod": "Change fatigue: pacing team-level AI adoption.",
+     "lil": "LinkedIn Learning: AI for Leaders, Doug Rose",
+     "lab": "Team AI-exposure mapping workshop (in person, navigator led)"},
     {"n": 8, "slug": "may", "date": "May 2027", "goal": 2,
      "theme": "Measured Leader Behavior",
      "tagline": "The standard becomes visible, and measurable.",
@@ -159,10 +156,6 @@ def goal_card(n):
           <span class="goal__num">Goal {n} of 3</span>
           <h3>{esc(g["short"])}</h3>
           <p>{esc(g["desc"])}</p>
-          <div class="goal__meter">
-            <div class="goal__scale" data-meter="{g["pct"]}"><span></span><i style="left:{g["base"]}%"></i></div>
-            <div class="goal__labels"><span>Baseline · <b>{esc(g["baseline"])}</b></span><span>Q4 target · <b>{esc(g["target"])}</b></span></div>
-          </div>
           <p class="goal__months">Months: {g["months"]}</p>
         </article>'''
 
@@ -176,11 +169,11 @@ page = f'''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anchor's Edge | A Nine-Month Rhythm of Learning | Vanderbilt</title>
-<meta name="description" content="Anchor's Edge is the ongoing Apply arm of CHART: a 45-minute weekly virtual learning series for Vanderbilt staff and managers, October 2026 to June 2027, aligned to three enterprise goals.">
+<meta name="description" content="Anchor's Edge is the ongoing Apply arm of CHART: a 45-minute weekly virtual learning series for Vanderbilt staff and managers, aligned to three enterprise goals.">
 <link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Anchor's Edge | Vanderbilt">
-<meta property="og:description" content="Nine months, three goals, one rhythm: the weekly virtual learning series that keeps learning close to the work.">
+<meta property="og:description" content="Three goals, one rhythm: the weekly virtual learning series that keeps learning close to the work.">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="assets/img/favicon-96.png">
 <link rel="preload" href="assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -201,7 +194,7 @@ page = f'''<!DOCTYPE html>
     <a href="#rhythm">The Rhythm</a>
     <a href="#months">The Months</a>
     <a href="#how">How It Works</a>
-    <a class="btn" href="#m1">Start with October</a>
+    <a class="btn" href="#months">Start this month</a>
   </nav>
 </header>
 
@@ -212,12 +205,11 @@ page = f'''<!DOCTYPE html>
     <div class="wrap">
       <img src="assets/img/vu-v-icon.png" alt="Vanderbilt V" class="hero__mark" data-reveal>
       <p class="eyebrow" data-reveal>Vanderbilt University · Futures Learning Hub · The Apply Arm of CHART</p>
-      <h1 class="h-hero" data-reveal>Anchor's Edge. A nine-month <em class="gold-text">rhythm</em> of learning.</h1>
-      <p class="lead" data-reveal>A 45-minute weekly virtual series that keeps learning close to the work, October 2026 to June 2027. Every month lands on one of three enterprise goals, and every day of the week echoes that month's theme.</p>
+      <h1 class="h-hero" data-reveal>Anchor's Edge. A steady <em class="gold-text">rhythm</em> of learning.</h1>
+      <p class="lead" data-reveal>A 45-minute weekly virtual series that keeps learning close to the work. Every month lands on one of three enterprise goals, and every day of the week echoes that month's theme.</p>
       <div class="hero__meta" data-reveal>
-        <div><b>9</b> Months</div>
         <div><b>3</b> Enterprise goals</div>
-        <div><b>27</b> Live sessions</div>
+        <div><b>3</b> Live sessions a week</div>
         <div><b>45</b> Minutes each</div>
       </div>
       <div class="hero__cta" data-reveal>
@@ -277,7 +269,7 @@ page = f'''<!DOCTYPE html>
   <section class="section on-cream" id="months">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The catalog</p>
-      <h2 class="h2" data-reveal>Nine months, month <em>by month</em>.</h2>
+      <h2 class="h2" data-reveal>The series, month <em>by month</em>.</h2>
       <p class="lead" data-reveal>Every session is a live, interactive course site: the facilitator shares it on the call, learners work every exercise on their own screens, and the link from class is the reference they keep. Each ships with a scripted facilitator edition and a self-paced edition for catch-up.</p>
       <div class="filterbar" id="filterbar" data-reveal role="group" aria-label="Filter months by goal">
         <button class="filterchip" data-goal="all" aria-pressed="true">All months</button>
@@ -337,7 +329,7 @@ page = f'''<!DOCTYPE html>
         <h4>The program</h4>
         <ul>
           <li><a href="#rhythm">The weekly rhythm</a></li>
-          <li><a href="#months">All nine months</a></li>
+          <li><a href="#months">Every month</a></li>
           <li><a href="#how">How it works</a></li>
           <li><a href="https://me5231979.github.io/Course_Library/" target="_blank" rel="noopener">The Staff Learning Collection</a></li>
         </ul>

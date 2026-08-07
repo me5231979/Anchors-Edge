@@ -1,258 +1,409 @@
 {
-  "slug": "apr-monday",
-  "series": "Manager Monday",
-  "month": "April 2027",
-  "monthShort": "Apr",
-  "monthIndex": 7,
-  "theme": "The Transfer Portal in Practice",
-  "goal": 1,
-  "title": "The Sending Manager",
-  "titleHtml": "Release talent <em class=\"gold-text\">well</em>.",
-  "tagline": "Being a sending manager: releasing talent well.",
-  "description": "A 45-minute virtual session for Vanderbilt managers: learn why an internal move is a retention win, handle the moment someone tells you they applied, and build the send-off that makes your team the one people ask to join.",
-  "heroLead": "The best thing a manager can hear is also the scariest: 'I applied for a role in another department.' This session teaches you to hear it as a win, handle that moment well, and build a team people join because they know they can grow and go.",
-  "objectives": [
-    "Reframe an internal move as a retention win for Vanderbilt, and hoarding as the real leak",
-    "Respond well in the moment someone tells you they applied internally",
-    "Choose one move that builds a reputation for sending talent well"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Internal Mobility"},
-    {"label": "Retention"},
-    {"label": "Talent Management"}
-  ],
-  "missionTie": "Managers who send talent well make Vanderbilt a place people can build a whole career. That is Destination Vanderbilt at work: a university that will define the century keeps its people by letting them move toward their best work.",
-  "goalLead": "Goal 1 built the Transfer Portal; managers decide whether it gets used. This session makes sending talent a management skill, starting with the moment someone tells you they applied.",
-  "agenda": [
-    {"t": "The sending mindset", "d": "Why an internal move is a retention win, and why hoarding is the real leak."},
-    {"t": "The moment they tell you", "d": "The first sixty seconds after someone says they applied internally."},
-    {"t": "The reputation you build", "d": "Send-offs that make your team the one people ask to join."}
-  ],
-  "manifesto": "Talent you release inside Vanderbilt is talent you kept.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Mindset",
-      "dataTitle": "The sending mindset",
-      "eyebrow": "The Mindset",
-      "headline": "An internal move is a <em>retention win</em>.",
-      "lead": "When someone moves from your team to another Vanderbilt role, the university keeps the talent, the knowledge, and the relationships. When you hold someone in place past their growth, their next move is usually out the front door.",
-      "group": "In pairs: think of someone who left your team, for anywhere. Would a Vanderbilt move have kept them? 90 seconds each way.",
-      "solo": "Think of someone who left your team. Would an internal move have kept them at Vanderbilt?",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The sending math",
-          "text": "A held employee stays a while, then leaves Vanderbilt. A sent employee stays at Vanderbilt, and their next role remembers who helped them get there. Hoarding feels like retention; it is a slow leak with your name on it."
-        },
-        "q": "Your strongest coordinator is a finalist for a role in another school. What did Vanderbilt just do?",
-        "opts": [
-          {"t": "Lost a coordinator", "correct": false, "why": "Your team has a gap to fill, and that is real. But Vanderbilt kept a proven person, and a gap can be hired; walked-out talent cannot."},
-          {"t": "Retained a proven employee", "correct": true, "why": "Exactly. Goal 1 counts moves to internal opportunity as retention. The realistic alternative to that move was rarely staying; it was a recruiter's call."},
-          {"t": "Created a fairness problem for the team", "correct": false, "why": "Usually the opposite. Teams watch how moves are treated. A supported move tells everyone that growth is real here."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Moment",
-      "dataTitle": "The moment they tell you",
-      "eyebrow": "The Moment",
-      "headline": "The first sixty seconds <em>decide the story</em>.",
-      "lead": "Someone gathers the nerve to tell you they applied internally. Your first response becomes the story they tell, and the story their colleagues hear. Read each manager reply below and call what it really is.",
-      "group": "In pairs: what would you honestly feel in that first minute, and what do you want to say anyway? 90 seconds each way.",
-      "solo": "Write the first sentence you want to say when someone tells you they applied internally.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Call the response",
-        "intro": "People replay a manager's first reaction for years. Read each reply and call it.",
-        "progressWord": "Reply",
-        "labels": ["A sending response", "A hoarding response", "A hedge that reads as hoarding"],
-        "passAt": 2,
-        "passMsg": "You can hear the difference. Back the person out loud, ask real questions, and keep the whole thing in the open.",
-        "failMsg": "Close. The tell: sending responses add energy to the move. Anything that slows, blocks, or hides it reads as hoarding, whatever the wrapper.",
-        "items": [
-          {"q": "'Thanks for telling me before I heard it elsewhere. Walk me through the role; I want to help you land it.'", "answer": 0, "why": "Gratitude, curiosity, and backing, in that order. This is the reply that gets retold in the break room and attracts your next hire."},
-          {"q": "'Honestly? You would be bored there in six months. Let's talk about your future here before you do anything.'", "answer": 1, "why": "Dressed as career advice, this is a block. They hear that growth requires your permission, and the next application goes to another employer."},
-          {"q": "'That's fine, I support it. Just keep it between us until something is official, okay?'", "answer": 2, "why": "The support is real; the secrecy undoes it. The Portal works in the open, and asking for quiet tells them mobility is still something to hide."}
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Reputation",
-      "dataTitle": "The reputation you build",
-      "eyebrow": "The Reputation",
-      "headline": "Send-offs are <em>recruiting</em>.",
-      "lead": "Every departure from your team is watched: by the person leaving, by the team staying, and by anyone deciding where to grow next. Build the send-off that makes your team the one people ask to join.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Build the send-off",
-        "intro": "Someone on your team just accepted an internal move. Choose how you announce it and how you run their last two weeks.",
-        "runLabel": "Run the send-off",
-        "outcomeTag": "How it lands",
-        "slots": [
-          {
-            "key": "The announcement",
-            "opts": [
-              {"t": "Say nothing; people will figure it out from the calendar.", "pts": 1, "coach": "Silence reads as disapproval. The team fills the gap with the worst version of the story, and the mover leaves feeling like a defector."},
-              {"t": "A short team email: the facts, the last day, the transition plan.", "pts": 2, "coach": "Clean and professional, and it misses the moment. Facts alone leave the team guessing how you actually feel about internal moves."},
-              {"t": "Congratulate them in the team meeting and name what their new team is gaining.", "pts": 3, "coach": "Public pride turns the move into proof that growth is real on your team. Everyone watching just learned what happens when they grow."}
-            ]
-          },
-          {
-            "key": "The last two weeks",
-            "opts": [
-              {"t": "Pack the handoff with every task you can before they go.", "pts": 1, "coach": "They will remember leaving your team as punishment, and they will say so. The door you wanted open closes on their way out."},
-              {"t": "A standard handoff doc and a goodbye card.", "pts": 2, "coach": "Perfectly fine, and forgettable. The handoff protects the work; nothing here protects the relationship or the bridge to their new team."},
-              {"t": "A real handoff, an intro to their new manager, and a door left open.", "pts": 3, "coach": "The handoff protects your team, the intro builds a cross-department bridge, and the open door makes them your ally in their new role."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A send-off that recruits. The mover became your advocate, and your team just watched growth get celebrated.",
-          "mid": "Professional and forgettable. Nothing broke; nothing about your reputation moved either.",
-          "weak": "A quiet exit everyone noticed. The story your team tells about internal moves just got worse."
-        },
-        "reactions": {
-          "strong": "A month later, someone from another department mentions your send-off in a coffee chat and asks about your next opening. Your former team member routes a collaboration your way. That is what a sending reputation earns.",
-          "mid": "The move went fine and vanished from memory. Your team learned nothing about how you see growth, so the next person who wants a move will still be nervous telling you.",
-          "weak": "The mover tells the story of their awkward exit at their new team's lunch. Two people who might have applied to your open role hear it. Hoarding has a longer reach than it looks."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Someone on your team takes a role in another Vanderbilt department. For the university, that is...",
-      "opts": ["A loss to backfill", "A retention win", "A fairness problem", "A failure of your leadership"],
-      "correct": 1,
-      "why": "Goal 1 counts internal moves as retention. The realistic alternative to a move inside was usually a move out."
-    },
-    {
-      "q": "Someone tells you they applied internally. The strongest first response is...",
-      "opts": ["Ask them to wait until the busy season ends", "Support it, but ask them to keep it quiet", "Thank them, ask about the role, offer to help", "Remind them what they would be giving up"],
-      "correct": 2,
-      "why": "Gratitude, then curiosity, then open backing. Anything that slows, hides, or blocks the move reads as hoarding."
-    },
-    {
-      "q": "What makes a send-off part of your recruiting?",
-      "opts": ["It reduces handoff risk", "HR requires an exit checklist", "Everyone deciding where to grow next is watching", "It keeps the team from gossiping"],
-      "correct": 2,
-      "why": "People join teams they have watched celebrate growth. Every good send-off is an ad for working with you."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The mindset is loaded. Now pick the move that makes it visible.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+ "slug": "apr-monday",
+ "series": "Manager Monday",
+ "month": "April 2027",
+ "monthShort": "Apr",
+ "monthIndex": 7,
+ "theme": "Spot AI-Exposed Work",
+ "goal": 3,
+ "title": "The Exposure Map",
+ "titleHtml": "Map the work <em class=\"gold-text\">before it moves</em>.",
+ "tagline": "Walking your team's work through an AI-exposure lens.",
+ "description": "A 45-minute virtual session for Vanderbilt managers: map your team's recurring work, sort it honestly by AI exposure, and open the team conversation about what changes without fear.",
+ "heroLead": "AI is already reshaping some of the work your team repeats every week. This session gives you a manager's map of it: which tasks are exposed, which stay human, and how to talk about the difference so your team sees the change before it sees them.",
+ "objectives": [
+  "Map your team's recurring work as tasks, separate from the people who hold them",
+  "Sort each task honestly by AI exposure: high, partial, or low",
+  "Open one team conversation that frames exposure as redesign the team helps write"
+ ],
+ "skills": [
+  {
+   "label": "Leads through change",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My sending move",
-    "headline": "One move that says <em>grow here, go well</em>.",
-    "lead": "Pick the move that makes your sending stance visible this week. Roles, never names; nothing you type is saved or sent.",
-    "whoLabel": "Where does the move land? Your team, or one situation on it.",
-    "whoPlaceholder": "e.g. my team of six; one analyst mid-application to another department",
-    "practiceLabel": "Which sending move do you make?",
-    "whoRow": "Where it lands",
-    "practices": [
-      {"id": "open", "chip": "The open-door line", "name": "The open-door line", "move": "Tell your team, at your next meeting, that internal moves are encouraged here and applying is never a secret to keep from you."},
-      {"id": "champion", "chip": "The champion call", "name": "The champion call", "move": "Back one live internal application out loud: offer the reference, brief the hiring manager, help them land it."},
-      {"id": "sendoff", "chip": "The send-off standard", "name": "The send-off standard", "move": "Write the three things every departure from your team gets: the public congratulations, the real handoff, the open door."}
-    ],
-    "whens": [
-      {"id": "week", "chip": "This week", "out": "The move happens this week, on the calendar by Friday."},
-      {"id": "meeting", "chip": "At my next team meeting", "out": "The move opens your next team meeting, before status updates."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
-    ],
-    "cardTitle": "My sending move card",
-    "evidenceRow": "Afterward, one line: what did your team's reaction tell you about the stories they had been carrying?"
+  {
+   "label": "AI Literacy"
   },
-  "closing": {
-    "headline": "Release them well. <em>Keep them here.</em>",
-    "lead": "You built the sending mindset, the sixty-second response, and a send-off worth copying. The rest of this week walks the Transfer Portal itself, from both sides of the door.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the sending move on your card",
-    "nextBody": "Run it as built, then write one line about what you noticed. If you want to go deeper on building a team people join, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.",
-    "brandline": "Move people to opportunity without moving them out."
+  {
+   "label": "Workforce Planning"
   },
-  "facilitator": {
-    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Transfer Portal in Practice month, and this session opens it from the manager's side.",
-    "pulse": "Seven days out, send the pulse: 'Did the sending move on your card happen? What did your team's reaction tell you? Who on your team might the Portal serve next?' Count of completed sending moves is the Level 3 metric for the month.",
-    "s1": {
-      "title": "The sending mindset",
-      "purpose": "Install the reframe: an internal move keeps talent at Vanderbilt, and hoarding is the real leak.",
-      "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps the person, the knowledge, and the relationships. When you hold someone in place past their growth, you do not keep them. You delay them, and their next move is usually out the front door. Hoarding feels like retention. It is the leak.",
-      "facilitate": [
-        "Read the sending math card aloud once; it is the section's whole argument.",
-        "Run the knowledge check; ask for a show of hands on who picked 'lost a coordinator' first.",
-        "Run the breakout: someone who left, and whether an internal move would have kept them."
-      ],
-      "ask": {
-        "q": "Think of the best person who ever left your team. Where are they now?",
-        "expect": ["Often another employer entirely", "Occasionally an internal move that worked"],
-        "respond": "If they left Vanderbilt: that is the leak this month plugs. If they moved internally: ask what their manager did right, because that is today's syllabus."
-      },
-      "debrief": "The gap on your team is real and temporary. The talent that walks out the front door is gone. That trade is the whole mindset.",
-      "watchFor": "Managers doing the math only from their team's side. Keep pulling the frame up to the university level, where the move is a win.",
-      "transition": "The mindset gets tested in one specific minute. Here it is.",
-      "coreNote": "Core: skip the breakout; ask for one 'where are they now' answer in chat."
-    },
-    "s2": {
-      "title": "The moment they tell you",
-      "purpose": "Rehearse the first sixty seconds after someone says they applied internally, so the trained response beats the reflex.",
-      "say": "At some point this year, someone will gather their nerve for a week and then tell you they applied for an internal role. Your face and your first sentence become the story they tell. The reflex is loss, and the reflex will show unless you have rehearsed something better. So we rehearse: gratitude first, curiosity second, backing third, and the whole thing in the open. The Portal has no secrecy in it, and neither should you.",
-      "facilitate": [
-        "Run Call the response live; everyone plays on their own screen.",
-        "After round three, pause on the hedge: ask why 'keep it between us' undoes the support.",
-        "Run the breakout on what they would honestly feel in that minute."
-      ],
-      "ask": {
-        "q": "What makes the hedge in round three worse than it sounds?",
-        "expect": ["It makes mobility feel illicit", "It protects the manager rather than the person", "It contradicts the open Portal norm"],
-        "respond": "All of it. Secrecy converts a supported move into a guilty one. If the move is good, it can be public; if it needs hiding, ask yourself from whom."
-      },
-      "debrief": "Feel the loss privately; give them the backing publicly. Rehearsed words are how the better manager shows up first.",
-      "watchFor": "Managers arguing the hedge is reasonable during a busy season. Acknowledge the pressure, then re-anchor: timing talk is fine; secrecy is never part of it.",
-      "transition": "One moment handled well is good. A pattern of them builds something better: a reputation.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the hedge question."
-    },
-    "s3": {
-      "title": "The reputation you build",
-      "purpose": "Show that public send-offs are recruiting, and build one worth copying.",
-      "say": "Nobody reads your leadership philosophy. Everybody watches your send-offs. When someone leaves your team for another department, the person leaving, the team staying, and everyone deciding where to grow next are all taking notes. A manager people grow and go well from never has an empty pipeline. So let's build the send-off that earns that.",
-      "facilitate": [
-        "Run Build the send-off; two minutes to choose both slots and run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: public pride plus a protected relationship."
-      ],
-      "ask": {
-        "q": "Why does the quiet exit hurt more than it seems?",
-        "expect": ["The team invents the story", "It signals moves are betrayals", "The mover retells it elsewhere"],
-        "respond": "Right. Silence is never neutral; it is the worst story, told by someone else. The announcement is the cheapest reputation move you have."
-      },
-      "debrief": "A send-off has three watchers: the mover, the team, and the people deciding where to grow next. Build it for all three.",
-      "watchFor": "Managers stuck on backfill anxiety. It is real and worth its own conversation with HR; keep it from swallowing the reputation point.",
-      "transition": "Quick recap, then you pick your own sending move.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Now make it real. One sending move, aimed at your actual team, roles only. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-    "closeSay": "You leave with a mindset, sixty seconds of rehearsed words, and a send-off standard. Tomorrow's Take-Off Tuesday walks the Transfer Portal itself, end to end, so you can see exactly what your people see when they raise a hand. Thursday's Thrive session is on networking, building the internal bridges that make these moves normal. And if you want the deeper course this month, it is Building Your Team by Chris Croft on LinkedIn Learning, alongside the navigators' live Portal walkthrough.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "A manager pushes back that they cannot afford to lose anyone right now", "then": "Validate the pressure, then do the math aloud: a supported move keeps the person at Vanderbilt and earns you an ally; a blocked one usually costs the person entirely within the year."},
-      {"if": "Someone names a real employee while describing a live internal application", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The rehearsal works on patterns, never on a colleague's live confidential move."}
-    ],
-    "toughQuestions": [
-      {"q": "If I encourage internal moves, won't my best people all leave at once?", "a": "Teams with sending managers show the opposite pattern: people stay longer because staying costs them no growth. The moves that do happen are staggered, planned, and keep the person one call away instead of gone from Vanderbilt."},
-      {"q": "What if I genuinely can't spare the person for months?", "a": "Timing is a fair conversation, and the Portal expects transition planning. Say what you can honestly support and work the timeline with the hiring manager. The line to hold: the move happens, and you help shape when and how, never whether."},
-      {"q": "How is this different from just losing headcount?", "a": "The position stays with your team; the person stays with Vanderbilt. You backfill a role, which is normal management, and you gain an advocate in another department. Compare that to an external resignation, where you backfill anyway and gain nothing."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on releasing talent well. Bring one memory: the best person who ever left your team, and where they went. You will never be asked to name them. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the sending move happen? Three lines, reply whenever: 1) Did the sending move on your card happen? 2) What did your team's reaction tell you? 3) Who might the Transfer Portal serve next on your team?"}
-    ]
+  {
+   "label": "Team Communication"
   }
+ ],
+ "missionTie": "A university out to define the century cannot let AI redraw its work unnoticed. Managers who can map exposure and redesign around it keep Exceptional Core Operations exceptional while the tools underneath keep changing.",
+ "goalLead": "Goal 3 asks managers to identify AI-exposed work on their teams and turn that insight into action. Today you build the map that everything else in the goal stands on.",
+ "agenda": [
+  {
+   "t": "The task map",
+   "d": "List the team's recurring work as tasks, because exposure lives in tasks, never in job titles."
+  },
+  {
+   "t": "The honest sort",
+   "d": "Call each task's AI exposure straight: high, partial, or low, without flattery or panic."
+  },
+  {
+   "t": "The team talk",
+   "d": "Bring the map to your team as a redesign conversation they help write."
+  }
+ ],
+ "manifesto": "Exposure you can see becomes a redesign. Exposure you ignore arrives as a surprise.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Map",
+   "dataTitle": "The task map",
+   "eyebrow": "The Map",
+   "headline": "AI meets your team one <em>task</em> at a time.",
+   "lead": "Nobody's whole job is exposed to AI; pieces of it are. The map starts with a plain list of your team's recurring tasks: the weekly report, the intake queue, the scheduling. Write tasks, hold the people out of it, and the picture gets honest fast.",
+   "group": "In pairs: name two recurring tasks your team does every week, in task language, no names attached. One pair shares their list.",
+   "solo": "List five recurring tasks your team does every week, in task language, no names attached.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The mapping rule",
+     "text": "Map the work, never the people. List each recurring task on its own line: what gets produced, how often, from what inputs. A task-level map lets you redesign work without putting anyone's job on trial."
+    },
+    "q": "Quick check: which entry belongs on an AI-exposure map?",
+    "opts": [
+     {
+      "t": "Our data analyst might be replaceable",
+      "correct": false,
+      "why": "That maps a person, and it poisons every conversation that follows. Exposure belongs to tasks; people hold portfolios of tasks, most of which stay human."
+     },
+     {
+      "t": "Weekly enrollment summary, compiled every Friday from system exports",
+      "correct": true,
+      "why": "A named task with a rhythm and inputs. Now you can ask how exposed it is and what the hour it frees up should become."
+     },
+     {
+      "t": "The whole front office, since AI changes everything",
+      "correct": false,
+      "why": "Too big to sort and too vague to redesign. Break it into the tasks the office actually repeats and the map becomes useful."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Sort",
+   "dataTitle": "The honest sort",
+   "eyebrow": "The Sort",
+   "headline": "Sort it straight, without <em>flattery or panic</em>.",
+   "lead": "Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.",
+   "group": "Breakout pairs: pick one task from your list and call its exposure. Does your partner agree? 90 seconds each way.",
+   "solo": "Pick one task from your list and call its exposure: high, partial, or low. Write one line on why.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Call the exposure",
+    "intro": "Three tasks from real Vanderbilt weeks. Read each one and make the exposure call.",
+    "progressWord": "Task",
+    "labels": [
+     "High exposure, redesign candidate",
+     "Partial exposure, pair with AI",
+     "Low exposure, stays human"
+    ],
+    "passAt": 2,
+    "passMsg": "You sort straight. High gets a redesign, partial gets a pairing, low gets protected and valued.",
+    "failMsg": "Close. The tells: repetitive and rule-based leans high; judgment over internal work leans partial; anything built on trust or private people data stays human.",
+    "items": [
+     {
+      "q": "Reformatting the same public event listings into the newsletter template every week.",
+      "answer": 0,
+      "why": "Repetitive, rule-based, built on public content: green-light work AI handles well. The redesign question is what the freed hours should become."
+     },
+     {
+      "q": "Drafting the annual program review, which blends internal data with judgment calls about priorities.",
+      "answer": 1,
+      "why": "AI can draft and summarize inside approved VU tools, since the data is internal. The priority calls stay with the person driving."
+     },
+     {
+      "q": "Coaching a struggling team member through a rough semester.",
+      "answer": 2,
+      "why": "This runs on trust and private knowledge of a person. That is red-light territory for AI and the heart of the job for a manager."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Talk",
+   "dataTitle": "The team talk",
+   "eyebrow": "The Move",
+   "headline": "Bring the map to the <em>team</em>.",
+   "lead": "A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write: what gets automated, what gets augmented, where the freed hours go. How you open that conversation decides whether it lands as invitation or verdict.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Open the team conversation",
+    "intro": "Your team will hear about AI exposure from someone. Choose how they hear it from you.",
+    "runLabel": "Run the conversation",
+    "outcomeTag": "How it lands",
+    "slots": [
+     {
+      "key": "How you open",
+      "opts": [
+       {
+        "t": "Leadership wants an AI plan, so I made a list of what could be automated.",
+        "pts": 1,
+        "coach": "Opening with leadership pressure and automation tells the room this is being done to them. Expect quiet nodding in the meeting and loud anxiety after it."
+       },
+       {
+        "t": "AI is coming either way, so let's get ahead of it before it gets ahead of us.",
+        "pts": 2,
+        "coach": "Energetic, and it still frames AI as a threat to outrun. Fear gets attention; it rarely gets honest task lists."
+       },
+       {
+        "t": "Here's a map of our recurring tasks. I want your read on what AI should take off our plates.",
+        "pts": 3,
+        "coach": "Tasks on the table, people invited to sort them. Asking for their read turns the map into shared work instead of a verdict."
+       }
+      ]
+     },
+     {
+      "key": "What you promise",
+      "opts": [
+       {
+        "t": "No promises; we'll see where this goes.",
+        "pts": 1,
+        "coach": "Uncertainty from the manager becomes dread in the team. Without a commitment, every high-exposure task reads as a threat to someone."
+       },
+       {
+        "t": "Nobody's job changes because of this exercise.",
+        "pts": 2,
+        "coach": "Comforting today and hard to keep. Work will change; promising it won't spends your credibility on the wrong sentence."
+       },
+       {
+        "t": "Exposed tasks mean redesign, and the people who do the work help decide what fills the hours.",
+        "pts": 3,
+        "coach": "A promise you can keep: change comes with a voice in it. That is what turns exposure from threat into a growth conversation."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A team that leans in. The map is on the table and the people who know the tasks best are sorting them with you.",
+     "mid": "A mixed landing. Some heard opportunity, some heard threat, and the rumor mill got the leftovers.",
+     "weak": "A quiet meeting and a loud week after. The map became a rumor about cuts before Friday."
+    },
+    "reactions": {
+     "strong": "Within two weeks, a team member brings you a task you missed, with their own exposure call attached. The map belongs to the team now, and Tuesday's task sort gives each of them the same lens for their own week.",
+     "mid": "A few people run with it; a few quietly update their resumes. The difference was one promise you did not quite make. Reopen the talk with the freed-hours commitment said out loud.",
+     "weak": "The word automated traveled faster than the word redesign. You spend the month rebuilding trust the opening line spent in five minutes."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What goes on an AI-exposure map?",
+   "opts": [
+    "The people most at risk",
+    "The team's recurring tasks, one per line",
+    "Whole roles and job titles",
+    "Only tasks you would automate"
+   ],
+   "correct": 1,
+   "why": "Exposure lives in tasks. People hold portfolios of tasks, and mapping tasks keeps redesign honest while keeping anyone's job off trial."
+  },
+  {
+   "q": "A task blends internal data with judgment calls. Its exposure is most likely...",
+   "opts": [
+    "High: hand it to AI end to end",
+    "Zero: AI never touches it",
+    "Partial: AI helps in approved VU tools",
+    "Unknowable until a vendor demos it"
+   ],
+   "correct": 2,
+   "why": "Internal work is yellow-light territory: approved VU tools can draft and summarize while the judgment stays with the person driving."
+  },
+  {
+   "q": "What turns high exposure into something other than a threat?",
+   "opts": [
+    "Keeping the map confidential",
+    "Promising nothing will change",
+    "A redesign the team helps write",
+    "Waiting for an enterprise directive"
+   ],
+   "correct": 2,
+   "why": "Change with a voice in it reads as redesign. The commitment that the team helps decide what fills the freed hours is the fear antidote."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The lens is fitted. Now walk your real task list through it.",
+  "mid": "Solid. Revisit the sort tells, then build your card.",
+  "low": "Take the three sections once more before you map real work."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My exposure map",
+  "headline": "Ten tasks. One sort. <em>One conversation.</em>",
+  "lead": "Commit to the first pass of your team's map. Tasks and roles only, never a name; nothing you type is saved or sent.",
+  "whoLabel": "Which slice of your team's work do you map first? Name the task cluster.",
+  "whoPlaceholder": "e.g. weekly reporting cycle; intake and scheduling tasks",
+  "practiceLabel": "How do you take the first pass?",
+  "whoRow": "The work I am mapping",
+  "practices": [
+   {
+    "id": "solomap",
+    "chip": "Map it myself first",
+    "name": "Map it myself first",
+    "move": "List ten recurring tasks, sort each high, partial, or low, and pressure-test the sort with one trusted peer manager."
+   },
+   {
+    "id": "teammap",
+    "chip": "Map it with the team",
+    "name": "Map it with the team",
+    "move": "Bring a blank task list to the next team meeting and build the map together, exposure calls and all."
+   },
+   {
+    "id": "workshop",
+    "chip": "Book the navigator workshop",
+    "name": "Book the navigator workshop",
+    "move": "Schedule the navigator-led AI-exposure mapping workshop and arrive with your ten-task list as the raw material."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first pass exists by Friday: ten tasks, each with an exposure call."
+   },
+   {
+    "id": "teammeet",
+    "chip": "At the next team meeting",
+    "out": "The map opens your next team meeting, first item, before status updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "Map and team conversation both happen within two weeks, booked today."
+   }
+  ],
+  "cardTitle": "My exposure map card",
+  "evidenceRow": "Afterward, one line: which task's exposure call surprised you most?"
+ },
+ "closing": {
+  "headline": "See the change coming. <em>Shape it first.</em>",
+  "lead": "You built a task map, an honest sort, and a team conversation that lands as invitation. The rest of the week hands the same lens to every member of your team.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Take the first pass at your map",
+  "nextBody": "Ten recurring tasks, each sorted high, partial, or low. The LinkedIn Learning course AI for Leaders by Doug Rose pairs well with the mapping workshop.",
+  "brandline": "Map the work. Then lead the redesign."
+ },
+ "facilitator": {
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month, and this session opens it.",
+  "pulse": "Seven days out, send the pulse: 'Does your ten-task map exist? Which exposure call surprised you? Has the team seen it yet?' Count of completed team maps is the Level 3 metric for the month.",
+  "s1": {
+   "title": "The task map",
+   "purpose": "Install the mapping rule: exposure lives in recurring tasks, never in people or titles.",
+   "say": "March is about seeing what is changing on your team before it changes you. The instinct is to ask which jobs are safe, and that question maps people, which poisons everything downstream. We start smaller and more honest: what tasks does this team repeat every week?",
+   "facilitate": [
+    "Read the lead once, then run the knowledge check on everyone's own screen.",
+    "Ask who almost picked the whole-office answer and why the task version beats it.",
+    "Run the breakout: two recurring tasks in task language, no names attached."
+   ],
+   "ask": {
+    "q": "What changes when you write down the weekly summary instead of a person's name?",
+    "expect": [
+     "The conversation stops being about someone's job",
+     "You can sort it without anyone getting defensive",
+     "It gets specific enough to actually redesign"
+    ],
+    "respond": "All of it. Task language is what lets you do this month in the open instead of in a locked spreadsheet."
+   },
+   "debrief": "The map is a list of tasks with rhythms and inputs. People hold portfolios of tasks, and no portfolio is all one color.",
+   "watchFor": "Managers drifting into naming people or rating roles. Redirect every time: tasks on the map, people in your care.",
+   "transition": "A list is a start. The sort is where honesty gets tested.",
+   "coreNote": "Core: skip the breakout; ask for one recurring task in chat instead."
+  },
+  "s2": {
+   "title": "The honest sort",
+   "purpose": "Teach the three exposure calls and their tells, inside the shared traffic light rules.",
+   "say": "Now sort it straight. High means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human. And the sort lives inside the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
+   "facilitate": [
+    "Run Call the exposure live; everyone plays on their own screen.",
+    "After the coaching task, pause: ask why it stays human even though AI could draft the words.",
+    "Run the breakout: one task, one exposure call, partner challenges it."
+   ],
+   "ask": {
+    "q": "Which pull is stronger in your own sort: calling everything exposed, or calling nothing exposed?",
+    "expect": [
+     "Panic sorters who see exposure everywhere",
+     "Comfort sorters who protect every task",
+     "Some will admit they flatter their team's work"
+    ],
+    "respond": "Both pulls are fear in different clothes. The honest sort is the kind thing; it is what makes the redesign real instead of cosmetic."
+   },
+   "debrief": "Repetitive and rule-based leans high. Judgment over internal work leans partial, in approved VU tools. Trust and private people data stay human, always.",
+   "watchFor": "Anyone suggesting AI for red-light work like coaching notes or performance concerns. Restate the light: private information about people, never.",
+   "transition": "You have a sorted map. Now it has to survive contact with the team.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "s3": {
+   "title": "The team talk",
+   "purpose": "Equip managers to open the exposure conversation as invitation and redesign, with a keepable promise.",
+   "say": "Your team will hear about AI exposure from somewhere: a headline, a rumor, or you. The version they hear from you can come with tasks on the table and a promise you can keep, which is that the people who do the work help decide what fills the freed hours. We are going to build that opening.",
+   "facilitate": [
+    "Run Open the team conversation; give the room two minutes for both choices.",
+    "Ask one volunteer to read a weak outcome aloud; let the room name what went wrong.",
+    "Point at the pattern: task map on the table, redesign promise out loud."
+   ],
+   "ask": {
+    "q": "Why is 'nobody's job changes' the wrong promise even though it feels kind?",
+    "expect": [
+     "Work will change, so the promise breaks",
+     "It spends credibility you will need later",
+     "The team hears a manager who has not looked closely"
+    ],
+    "respond": "Right. Promise the thing you control: change arrives as redesign, with their voice in it. That one holds."
+   },
+   "debrief": "The strong open has a shape: here is our task map, here is my honest sort, help me decide what the freed hours become.",
+   "watchFor": "Managers rehearsing reassurance instead of invitation. Push them toward the ask: what is your read on this map?",
+   "transition": "Quick recap, then your own map goes on a card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Now commit to the first pass. Pick the slice of your team's work you map first, choose how you take the pass, pick the window, and copy the card somewhere you will see it before Friday. Tasks and roles only, never a name. Two minutes, quiet, go.",
+  "closeSay": "You leave with a lens and a map to build. Tomorrow's Take-Off Tuesday hands every member of your team the same skill at the task level: automate, augment, or leave alone, one task at a time. Thursday's Thrive Thursday sharpens the critical thinking that keeps the whole month honest, sorting AI hype from real value. If you want to go deeper, the LinkedIn Learning course AI for Leaders by Doug Rose pairs with the navigator-led mapping workshop.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A manager names a specific employee while sorting a task",
+    "then": "Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' Exposure belongs to work, and the norm only holds if you hold it every time."
+   },
+   {
+    "if": "The room turns anxious about their own manager roles",
+    "then": "Name it honestly: manager work is heavy with low-exposure tasks like coaching and judgment calls, and the mapping skill itself is exactly the kind of work that stays valuable."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't this just building the case for cutting my team?",
+    "a": "The map is a redesign tool, and Goal 3 is workforce readiness: freed hours moving to higher-value work, skills growing before the change arrives. A team that sorts its own work shapes what comes next; a team that waits gets sorted by someone else's spreadsheet."
+   },
+   {
+    "q": "What if a task sorts as high exposure but the approved tools can't do it yet?",
+    "a": "Then the map is ahead of the tooling, which is the good direction. Log the task, note what the tool would need, and revisit quarterly. High exposure is a signal about the shape of the work, and the redesign can start before the automation does."
+   },
+   {
+    "q": "Should I share the map with HR or leadership?",
+    "a": "Share the task-level map, yes; that is exactly the insight Goal 3 asks managers to surface. Keep it in task language with no names attached, and pair every high-exposure call with your redesign intent so it reads as a plan, never as a cut list."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Monday, 45 minutes on seeing AI-exposed work before it changes your team. Bring a rough sense of the five tasks your team repeats every week. No prep documents, no names. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Does the map exist? Three lines, reply whenever: 1) Does your ten-task map exist, with exposure calls? 2) Which call surprised you? 3) Has the team seen it, and what did they add?"
+   }
+  ]
+ }
 }

@@ -1,258 +1,409 @@
 {
-  "slug": "feb-monday",
-  "series": "Manager Monday",
-  "month": "February 2027",
-  "monthShort": "Feb",
-  "monthIndex": 5,
-  "theme": "Coaching as the Core Manager Behavior",
-  "goal": 2,
-  "title": "The Coaching Moment",
-  "titleHtml": "Catch the <em class=\"gold-text\">coaching moment</em>.",
-  "tagline": "Spotting the coaching moment hiding inside the status conversation.",
-  "description": "A 45-minute virtual session for Vanderbilt managers: learn to catch the coaching moment inside an ordinary status conversation, trade instructions for one good question, and give the talk a simple four-beat shape.",
-  "heroLead": "Most 1:1s are status meetings wearing a nicer name. Somewhere in the middle of the updates, a person quietly hands you a chance to grow them. This session teaches you to catch that moment and coach it instead of solving it.",
-  "objectives": [
-    "Recognize a coaching moment inside an ordinary status conversation",
-    "Trade instructions for one good question that puts the thinking in their head",
-    "Run a ten-minute coaching talk with a simple four-beat shape"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Coaching"},
-    {"label": "Asking Questions"},
-    {"label": "Developing Talent"}
-  ],
-  "missionTie": "Managers who coach build the people a century-defining university runs on. Every status update you turn into a growth conversation is Exceptional Core Operations at the smallest scale: one manager, one person, ten minutes.",
-  "goalLead": "Manager Effectiveness at Scale is measured in demonstrated behavior, and coaching sits at the center of the Vanderbilt manager standard. Today makes it something you do on purpose.",
-  "agenda": [
-    {"t": "The moment in the middle", "d": "What a coaching moment sounds like inside a routine status conversation."},
-    {"t": "Ask before you tell", "d": "Why one good question beats three instructions, and how to find it."},
-    {"t": "A shape for the talk", "d": "Goal, reality, options, will: four beats that keep a coaching talk moving."}
-  ],
-  "manifesto": "Tasks need managing. People need coaching. The skill is knowing which one just spoke.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Moment",
-      "dataTitle": "The moment in the middle",
-      "eyebrow": "The Moment",
-      "headline": "Status updates hide <em>coaching moments</em>.",
-      "lead": "A coaching moment is any point where the subject stops being the task and becomes the person: their judgment, their confidence, their stuck. It arrives mid-update, sounds like a small aside, and is gone in ten seconds if you keep driving the task.",
-      "group": "In pairs, 90 seconds each: recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
-      "solo": "Recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The tell",
-          "text": "Listen for the sentence about themselves inside the sentences about the task: 'I never know when to escalate.' 'I hate presenting these.' The update carries the work; the aside carries the person. The aside is the door."
-        },
-        "q": "A coordinator finishes an update, then adds: 'Honestly, I second-guess every one of these decisions.' What just happened?",
-        "opts": [
-          {"t": "A confidence wobble you should reassure away", "correct": false, "why": "Reassurance closes the door politely. 'You're doing fine' ends the conversation the aside was trying to start."},
-          {"t": "A coaching moment: the subject just became their judgment", "correct": true, "why": "Right. The update was about the task; the aside is about them. That is the door, and it stays open for about one question."},
-          {"t": "A request for you to review their decisions from now on", "correct": false, "why": "Taking the decisions back solves this week and shrinks the person. They pointed at growth and heard you offer supervision."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Question",
-      "dataTitle": "Ask before you tell",
-      "eyebrow": "The Question",
-      "headline": "One question beats three <em>instructions</em>.",
-      "lead": "Telling is fast, and it works once. Asking is slower, and it works from then on, because the thinking happens in their head instead of yours. The craft is a question that is genuinely open: one you do not already know the answer to.",
-      "group": "In pairs: take an instruction you gave this week and rewrite it together as one open question. Trade and improve.",
-      "solo": "Take an instruction you gave this week and rewrite it as one open question.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Tell or ask?",
-        "intro": "A team member brings you a stuck. Read what the manager says back and call it.",
-        "progressWord": "Round",
-        "labels": ["Telling: the manager keeps the thinking", "Asking: the thinking goes to them", "Fake question: an instruction in disguise"],
-        "passAt": 2,
-        "passMsg": "You can hear the difference. Real questions hand the thinking over; disguised instructions just soften the telling.",
-        "failMsg": "Close. The tell: if you already know the answer you want, it is telling, whatever the punctuation says.",
-        "items": [
-          {"q": "'This vendor keeps missing deadlines.' Manager: 'Call them today and copy procurement.'", "answer": 0, "why": "Clear, fast, and the manager keeps the thinking. Fine for a fire; done every time, it trains the team to bring problems raw."},
-          {"q": "'I can't get the two directors to agree.' Manager: 'What have you already tried, and what happened?'", "answer": 1, "why": "Genuinely open. The manager does not know the answer yet, and the question makes the person walk their own reality before anyone offers options."},
-          {"q": "'I'm behind on the report.' Manager: 'Don't you think you should have started earlier?'", "answer": 2, "why": "The question mark is decoration. There is one acceptable answer, so it lands as a scolding. If you know the answer you want, say it plainly or ask something real."}
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Shape",
-      "dataTitle": "A shape for the talk",
-      "eyebrow": "The Shape",
-      "headline": "Four beats keep the talk <em>moving</em>.",
-      "lead": "A coaching talk without a shape wanders. Here is a simple one: where are they trying to get (goal), what is actually happening (reality), what could they try (options), what will they do (will). Plain words, their answers, ten minutes.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Coach the moment",
-        "intro": "An advisor on your team says: 'I want the senior cases, and I keep getting passed over.' Coach it in two moves.",
-        "runLabel": "Run the conversation",
-        "outcomeTag": "How it lands",
-        "slots": [
-          {
-            "key": "Your first move",
-            "opts": [
-              {"t": "Explain how case assignments actually get decided.", "pts": 1, "coach": "Information is telling in its Sunday clothes. They leave knowing the process and still holding the want with nowhere to put it."},
-              {"t": "Ask: 'Have you told the assignments lead you want them?'", "pts": 2, "coach": "A real question that jumps straight to one option. You picked the route before you knew where they are trying to go."},
-              {"t": "Ask: 'What would the senior cases mean for where you're headed?'", "pts": 3, "coach": "Goal first. Before options make sense, both of you need to hear what they are actually reaching for; sometimes the cases are a proxy for something else."}
-            ]
-          },
-          {
-            "key": "Your second move",
-            "opts": [
-              {"t": "Offer to raise it with the assignments lead yourself.", "pts": 1, "coach": "Rescue feels generous and takes the ball away. Next time they are passed over, the skill still lives with you."},
-              {"t": "Ask what is in the way, then hand them your best fix.", "pts": 2, "coach": "Reality, then a telling. Better; still, the options were yours. Ask for theirs first and add yours only if the well runs dry."},
-              {"t": "Ask what they could try, then which one they will do by Friday.", "pts": 3, "coach": "Options, then will, in their words. The commitment they name aloud, with a date, is the part of coaching that survives the meeting."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A ten-minute talk that grew someone. They left with their own plan and a date, and you left knowing what they actually want.",
-          "mid": "Helpful, and mostly yours. The person got movement this week and no more ownership than they walked in with.",
-          "weak": "The task got handled; the person got skipped. They will bring you the same stuck again, because the thinking stayed with you."
-        },
-        "reactions": {
-          "strong": "Friday comes and they did the thing they named, because they named it. A month later they are handling assignment conversations without you, and the want you surfaced is shaping their next role.",
-          "mid": "Your fix worked, which is the problem: they learned that stuck things go to you. The next want arrives the same way, still raw, still yours to solve.",
-          "weak": "The assignments lead never hears from them. The want goes quiet, and quiet wants are how next quarter's flight risks get made."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Mid-update, a team member adds: 'I always freeze when leadership pushes back.' That is...",
-      "opts": ["Noise; let the update continue", "A coaching moment: the subject just became them", "A performance issue for the annual review", "A cue to reassure and move on"],
-      "correct": 1,
-      "why": "The aside about themselves inside the talk about the task is the door. It stays open about one question long."
-    },
-    {
-      "q": "Why does one good question beat three instructions?",
-      "opts": ["Questions take less time to give", "It keeps the meeting shorter", "The thinking happens in their head and stays there", "It protects you from blame"],
-      "correct": 2,
-      "why": "Telling works once. A real question builds the judgment they will use when you are nowhere near the problem."
-    },
-    {
-      "q": "The four beats of a simple coaching talk, in order...",
-      "opts": ["Options, goal, will, reality", "Goal, reality, options, will", "Reality, feedback, options, goal", "Will, goal, reality, options"],
-      "correct": 1,
-      "why": "Where they are headed, what is true now, what they could try, what they will do. Their words at every beat, and the will beat gets a date."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The ear is tuned. Now aim it at one real aside from your own team.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+ "slug": "feb-monday",
+ "series": "Manager Monday",
+ "month": "February 2027",
+ "monthShort": "Feb",
+ "monthIndex": 5,
+ "theme": "Retain, Grow, Move",
+ "goal": 1,
+ "title": "The Bench",
+ "titleHtml": "Succession is a <em class=\"gold-text\">growth plan</em>.",
+ "tagline": "Succession conversations that don't scare people.",
+ "description": "A 45-minute virtual session for Vanderbilt managers: reframe succession as growth planning, open the conversation without triggering replacement fear, and start a real pipeline for your own role.",
+ "heroLead": "Say the word succession and half the room hears replacement. This session flips it: a bench is a gift to the person on it, the conversation can be opened without fear, and your own role needs a pipeline more than anyone's.",
+ "objectives": [
+  "Reframe succession planning as growth planning for the people on the bench",
+  "Open a succession conversation without triggering replacement fear",
+  "Name the start of a successor pipeline for your own role"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My coaching moment",
-    "headline": "One aside. One question. <em>This week.</em>",
-    "lead": "Pick the person whose aside you have been driving past. Role only, never a name; nothing you type is saved or sent.",
-    "whoLabel": "Whose coaching moment do you owe? Role and the aside you remember.",
-    "whoPlaceholder": "e.g. research coordinator; 'I never know when to escalate'",
-    "practiceLabel": "How will you coach it?",
-    "whoRow": "The person and the aside",
-    "practices": [
-      {"id": "door", "chip": "Reopen the door", "name": "Reopen the door", "move": "Bring the aside back: 'Last week you mentioned second-guessing those calls. Say more?' Then stay quiet."},
-      {"id": "question", "chip": "The one question", "name": "The one question", "move": "At the next stuck, trade your instruction for one open question you do not know the answer to."},
-      {"id": "tenmin", "chip": "The ten-minute talk", "name": "The ten-minute talk", "move": "Run the four beats end to end: goal, reality, options, will, and let them name the date."}
-    ],
-    "whens": [
-      {"id": "week", "chip": "This week", "out": "The moment gets coached this week, in whichever conversation hands it to you first."},
-      {"id": "next11", "chip": "At our next 1:1", "out": "Your next 1:1 opens with the aside, first item, before any status updates."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The coaching talk happens within two weeks, with the 1:1 extended ten minutes so it fits."}
-    ],
-    "cardTitle": "My coaching moment card",
-    "evidenceRow": "Afterward, one line: what did they figure out that you did not have to tell them?"
+  {
+   "label": "Succession Planning"
   },
-  "closing": {
-    "headline": "Manage the task. <em>Coach the person.</em>",
-    "lead": "You built an ear for the aside, a question that hands the thinking over, and a four-beat shape. The rest of the week gives everyone, managers included, the tools and the listening underneath it.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Coach the moment on your card",
-    "nextBody": "Run it exactly as built: bring back the aside, ask the question, let them name the will. Bring one line about what they figured out to next Monday.",
-    "brandline": "Coach the person. Manage the task."
+  {
+   "label": "Talent Development"
   },
-  "facilitator": {
-    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; February is the Coaching as the Core Manager Behavior month, and this session opens it.",
-    "pulse": "Seven days out, send the pulse: 'Did you catch the moment on your card? What did the person figure out without being told? What aside are you listening for next?' Count of coached moments feeds the manager-standard behavior metric for the month.",
-    "s1": {
-      "title": "The moment in the middle",
-      "purpose": "Teach managers to hear the coaching moment: the aside about the person inside the talk about the task.",
-      "say": "Here is the trap this month is built around: 1:1s that are status meetings with better branding. Manage the task, absolutely; the task deserves it. But somewhere in the middle of the updates, people hand you a sentence about themselves, and most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
-      "facilitate": [
-        "Read the concept card aloud once; the two aside examples do the teaching.",
-        "Run the knowledge check; everyone answers on their own screen before you weigh in.",
-        "Run the breakout on the aside they drove past, 90 seconds each way."
-      ],
-      "ask": {
-        "q": "What did the last aside you drove past sound like?",
-        "expect": ["Quotes like 'I always mess this up' or 'I hate this part'", "Some managers cannot remember one, which is itself the point"],
-        "respond": "Both answers teach. If asides come easily, the ear exists and needs aiming. If none surface, the task has been drowning out the person, and this week is for listening differently."
-      },
-      "debrief": "Coaching moments are handed to you mid-task. The aside about themselves is the door, and it stays open about one question long.",
-      "watchFor": "Managers who hear 'coach everything.' Be plain: most of the 1:1 stays task, and that is right. The skill is catching the one moment that is about the person.",
-      "transition": "You caught the moment. What you say next decides who does the thinking.",
-      "coreNote": "Core: skip the breakout; ask for one remembered aside in chat instead."
-    },
-    "s2": {
-      "title": "Ask before you tell",
-      "purpose": "Replace the instruction reflex with one genuinely open question that transfers the thinking.",
-      "say": "So the door is open, and the reflex now is to be useful: three instructions, problem handled, next agenda item. Telling works, once. The reason we ask instead is where the thinking happens. Your instruction runs in your head. A real question runs in theirs, and what runs in their head is what they own. One honest question you cannot answer for them beats three instructions you can.",
-      "facilitate": [
-        "Run Tell or ask? live; everyone plays on their own screen.",
-        "After round three, pause on the fake question; ask the room where they have heard one this month.",
-        "Run the breakout: rewrite one real instruction as one open question."
-      ],
-      "ask": {
-        "q": "What makes the fake question in round three worse than plain telling?",
-        "expect": ["It pretends to hand over the thinking while keeping it", "It adds judgment on top of the instruction", "People learn to hear every question as a trap"],
-        "respond": "All three. Plain telling is at least honest about what it is. A fake question spends trust, and trust is what your real questions will need."
-      },
-      "debrief": "If you already know the answer you want, it is telling. Say it honestly, or ask something you genuinely cannot answer for them.",
-      "watchFor": "Managers hunting for the perfect question. Lower the bar: 'what have you tried?' and 'what would you do if I were out this week?' cover most moments.",
-      "transition": "One question opens the thinking. A light shape keeps it moving.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one rewrite aloud."
-    },
-    "s3": {
-      "title": "A shape for the talk",
-      "purpose": "Give the coaching talk a four-beat shape in plain words: goal, reality, options, will.",
-      "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Coaching books call it GROW; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
-      "facilitate": [
-        "Run Coach the moment; two minutes for both choices, then run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: goal before options, their options before yours, a will with a date."
-      ],
-      "ask": {
-        "q": "Why does the rescue move in slot two feel so right and work so badly?",
-        "expect": ["It is fast and feels generous", "It proves the manager's value", "It takes the ball, so the skill never transfers"],
-        "respond": "Exactly. Rescue solves this week and buys next month's version of the same stuck. Coaching is slower once so it can be faster forever."
-      },
-      "debrief": "Goal, reality, options, will. Their words at every beat, and the will beat leaves with a date attached.",
-      "watchFor": "Managers running the four beats as an interrogation checklist. It is a shape for listening; two beats done well beat four beats done fast.",
-      "transition": "Quick recap, then you pick your moment and build the card.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Now make it real. One person whose aside you have been driving past, role only. Pick how you will coach it, pick the window, build the card, and copy it somewhere you will see it before your next 1:1. Two minutes, quiet, go.",
-    "closeSay": "You leave with an ear for the aside, one real question, and a four-beat shape. Coach the moment on your card this week. Tomorrow's Take-Off Tuesday is for everyone, you included: capturing development goals and coaching notes in the system, so the growth you coach goes on the record. Thursday's Thrive Thursday builds the empathy underneath all of it, hearing what isn't said. And if you want more reps, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, with the navigator-led GROW practicum alongside it.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "A manager names a real team member while sharing an aside", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' Coaching moments belong to the person; a group call is never the place to spend one."},
-      {"if": "A manager insists telling is faster and coaching is a luxury", "then": "Agree, once. Telling wins the moment; coaching wins the quarter. Do the math aloud: ten minutes of coaching against the tenth repeat of the same stuck."}
-    ],
-    "toughQuestions": [
-      {"q": "What if I ask a good question and get silence?", "a": "Let it sit for five full seconds; silence usually means thinking, and filling it takes the thinking back. If it truly stalls, shrink the question: 'what is one thing you have tried?' A smaller true answer beats a bigger rescued one."},
-      {"q": "Isn't GROW just another corporate acronym?", "a": "Treat it as an order, never a script: what they want, what is true, what they could try, what they will do. You can run all four beats without ever saying the word GROW. The acronym is a bookmark; the order is the tool."},
-      {"q": "What if the aside is really a performance problem?", "a": "Coaching and performance management are different conversations, and both are yours. If the gap is willingness or repeated missed standards, name it directly through the performance process. Coach the growth asides; never use coaching questions to hint at a problem you owe them plainly."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on catching coaching moments. Bring the memory of one recent 1:1 that stayed on status the whole way through. You will never be asked to name anyone. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did you catch the moment? Three lines, reply whenever: 1) Did the coaching moment on your card happen? 2) What did the person figure out without being told? 3) What aside are you listening for next?"}
-    ]
+  {
+   "label": "Retention"
   }
+ ],
+ "missionTie": "A university built to define the century cannot wobble every time a key person moves on. Deep benches are Exceptional Core Operations in human form, and they are built one growth conversation at a time.",
+ "goalLead": "Goal 1 asks leaders to strengthen succession across the university. That starts with managers who can say the word out loud without anyone flinching.",
+ "agenda": [
+  {
+   "t": "The bench is a gift",
+   "d": "Why succession planning is growth planning wearing a scarier name."
+  },
+  {
+   "t": "The fearless opening",
+   "d": "How to open the conversation so people hear investment, never replacement."
+  },
+  {
+   "t": "Your own pipeline",
+   "d": "Start naming who could grow into your role, and what that gives them now."
+  }
+ ],
+ "manifesto": "A bench is a gift to the person on it.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Reframe",
+   "dataTitle": "The bench is a gift",
+   "eyebrow": "The Reframe",
+   "headline": "Succession planning is <em>growth planning</em>.",
+   "lead": "Strip the org-chart drama away and a succession plan is a list of people getting ready for bigger work. Being named to a bench means someone senior is betting on your growth. That is the version your team deserves to hear from you first.",
+   "group": "In pairs: say the sentence 'you are on the bench for X' out loud. Does it land as a gift or a threat? 90 seconds each way.",
+   "solo": "Write the sentence 'you are on the bench for X' for one person on your team. Does it read as a gift or a threat?",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The reframe",
+     "text": "A succession plan answers one question: who is getting ready for bigger work, and what do they need next? Read it that way and the bench stops being about exits. It becomes the most concrete growth plan most people will ever be given."
+    },
+    "q": "Quick check: what does being named to a bench actually mean for the person on it?",
+    "opts": [
+     {
+      "t": "Their manager is planning to move them out",
+      "correct": false,
+      "why": "That is the fear talking. A bench names who is being grown, and growth is the opposite of an exit plan."
+     },
+     {
+      "t": "Someone senior is investing in their growth toward bigger work",
+      "correct": true,
+      "why": "Exactly. A bench seat comes with stretch work, visibility, and a named direction. Retention research calls those the levers that keep people."
+     },
+     {
+      "t": "Nothing until the role actually opens up",
+      "correct": false,
+      "why": "The seat pays off now: stretch projects, new skills, and the confidence of being seen. Waiting for a vacancy wastes the whole point."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Opening",
+   "dataTitle": "The fearless opening",
+   "eyebrow": "The Conversation",
+   "headline": "Open it so they hear <em>investment</em>.",
+   "lead": "The same news lands as a promotion or a pink slip depending on the first two sentences. Openings that start with the org chart trigger the fear. Openings that start with the person's growth earn the conversation you wanted.",
+   "group": "In pairs: each of you says your opening line for a succession conversation. Partner answers with the first thing they would feel.",
+   "solo": "Write your opening line for a succession conversation, then reread it as the listener. What is the first thing you would feel?",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Gift or threat?",
+    "intro": "Each opening is real manager language. Call how it lands in the listener's chest before any explaining starts.",
+    "progressWord": "Opening",
+    "labels": [
+     "Lands as investment",
+     "Triggers replacement fear",
+     "Too vague to land at all"
+    ],
+    "passAt": 2,
+    "passMsg": "You can hear it. Lead with their growth, name what they get now, and the fear never gets a foothold.",
+    "failMsg": "Close. The tell: openings about the org chart raise fear, openings about their growth raise energy, and vague warmth raises nothing.",
+    "items": [
+     {
+      "q": "'HR needs a succession chart from me, so I have to put a name in the box for your role.'",
+      "answer": 1,
+      "why": "The person hears a box with their role in it and someone else's name going into the box. Compliance framing plus their role equals pure replacement fear."
+     },
+     {
+      "q": "'I think you could be ready for bigger work in two years. I want to build the plan with you.'",
+      "answer": 0,
+      "why": "It opens with their growth, gives a horizon, and hands them a seat at the planning table. That is the gift version of succession."
+     },
+     {
+      "q": "'You have a bright future here. Great things ahead. We should chat sometime.'",
+      "answer": 2,
+      "why": "Warm and weightless. Without a named direction or a next step, encouragement changes nothing and books nothing."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "Your Pipeline",
+   "dataTitle": "Your own pipeline",
+   "eyebrow": "The Move",
+   "headline": "Your role needs a <em>pipeline</em> too.",
+   "lead": "The bravest succession move is naming who could grow into your own chair. It signals security, models the reframe, and frees you for bigger work. Build the two decisions that start it: who goes on the bench and what you say to them.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Start your pipeline",
+    "intro": "Two decisions start a pipeline for your own role. Choose how you pick and how you say it.",
+    "runLabel": "Start the pipeline",
+    "outcomeTag": "How it plays out",
+    "slots": [
+     {
+      "key": "How you pick",
+      "opts": [
+       {
+        "t": "Pick the person who has been here longest.",
+        "pts": 1,
+        "coach": "Tenure measures time, and your role runs on skills. A seniority pick tells everyone else the bench is a waiting line."
+       },
+       {
+        "t": "Pick the one person who works most like you do.",
+        "pts": 2,
+        "coach": "A mirror feels safe and shrinks the pool to one. Roles grow when a successor brings the skills the job needs next, which may look nothing like you."
+       },
+       {
+        "t": "List the skills your role really needs, then name two or three people growing toward them.",
+        "pts": 3,
+        "coach": "Skills first, then people, and more than one. A multi-person bench spreads the growth and takes the replacement pressure off any single name."
+       }
+      ]
+     },
+     {
+      "key": "What you say to them",
+      "opts": [
+       {
+        "t": "Nothing yet. Keep the bench to yourself until a vacancy is real.",
+        "pts": 1,
+        "coach": "A secret bench grows nobody. The stretch work, the visibility, the retention effect, all of it needs the person to know."
+       },
+       {
+        "t": "Tell them they are your backup if anything ever happens to you.",
+        "pts": 2,
+        "coach": "Honest, but backup language makes their growth depend on your exit. The plan should pay them now, whatever you do."
+       },
+       {
+        "t": "Tell them which skills you want to grow in them this year and what stretch work comes with it.",
+        "pts": 3,
+        "coach": "Growth now, named skills, real work. The role question can stay open while the development starts today. That is the gift version."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A pipeline that grows people. Your bench knows they are being invested in, and your role stops being a single point of failure.",
+     "mid": "A start with a wobble. The instinct is right; the framing still leans on exits instead of growth.",
+     "weak": "A name in a drawer. Nothing about anyone's week changed, and the role is exactly as fragile as it was."
+    },
+    "reactions": {
+     "strong": "A month later, one bench member runs a meeting you used to own, and runs it well. Your own manager notices your role no longer depends on you being in every room.",
+     "mid": "The person you told nods politely and quietly wonders about your health and your job search. Growth waits for clarity you have not given yet.",
+     "weak": "Six months on, a vacancy shows up somewhere else and the person in your drawer takes it. Benches that pay nothing lose to opportunities that pay now."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What is a succession plan, read the way this session reads it?",
+   "opts": [
+    "A contingency file for emergencies",
+    "A growth plan for the people on the bench",
+    "An org chart with backup names",
+    "A retirement countdown"
+   ],
+   "correct": 1,
+   "why": "A bench names who is being grown toward bigger work and what they need next. Exits are a side effect; growth is the point."
+  },
+  {
+   "q": "Which opening line keeps replacement fear out of a succession conversation?",
+   "opts": [
+    "'HR needs a name in the box for your role'",
+    "'If I ever leave, we need coverage'",
+    "'I think you're ready for bigger work; let's plan it together'",
+    "'You have a bright future here'"
+   ],
+   "correct": 2,
+   "why": "Openings that start with the person's growth earn the conversation. Org-chart and coverage framings put the fear in the room first."
+  },
+  {
+   "q": "What makes a bench for your own role actually work?",
+   "opts": [
+    "Keeping it confidential until needed",
+    "One trusted successor, chosen quietly",
+    "Skills first, several people, and telling them now",
+    "Waiting until you plan to leave"
+   ],
+   "correct": 2,
+   "why": "Skills before names, several people over one, and the growth starts today. A secret bench grows nobody and retains nobody."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The reframe is installed. Now open one bench conversation for real.",
+  "mid": "Solid. Reread the opening lines in section two, then build your card.",
+  "low": "Take a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My bench move",
+  "headline": "One seat on the bench, <em>offered this week</em>.",
+  "lead": "Pick the succession move you will actually make. Role only, never a name; nothing you type is saved or sent.",
+  "whoLabel": "Whose growth is this about? Role and the bigger work they could grow toward.",
+  "whoPlaceholder": "e.g. program coordinator; could grow toward team lead",
+  "practiceLabel": "Which move do you make?",
+  "whoRow": "The person and the direction",
+  "practices": [
+   {
+    "id": "gift",
+    "chip": "The gift conversation",
+    "name": "The gift conversation",
+    "move": "Open with the growth you see, name the bigger work, and build the plan with them in the room."
+   },
+   {
+    "id": "ownbench",
+    "chip": "My own pipeline",
+    "name": "My own pipeline",
+    "move": "List the skills your role needs, name two or three people growing toward them, and tell one of them this week."
+   },
+   {
+    "id": "stretch",
+    "chip": "The stretch handoff",
+    "name": "The stretch handoff",
+    "move": "Hand a bench member one piece of work you usually keep, with the why attached: this grows you toward bigger things."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The conversation happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "At our next 1:1",
+    "out": "The move opens your next scheduled 1:1, first item, before status updates."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My bench move card",
+  "evidenceRow": "Afterward, one line: how did the growth framing land, and what did they say?"
+ },
+ "closing": {
+  "headline": "Grow the bench. <em>Keep the people.</em>",
+  "lead": "You reframed the bench, built a fearless opening, and started a pipeline for your own chair. The rest of the week widens the same theme: retain, grow, move, without the fear.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the bench move on your card",
+  "nextBody": "Run it as built: the opening, the growth framing, the named direction. For a warm-up, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, pairs with a navigator-led stay-interview practice lab.",
+  "brandline": "A bench is a gift. Hand someone a seat."
+ },
+ "facilitator": {
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January opens the Retain, Grow, Move month on succession and internal mobility.",
+  "pulse": "Seven days out, send the pulse: 'Did the bench move on your card happen? How did the growth framing land? Who is on the pipeline for your own role now?' Count of opened bench conversations is the Level 3 metric for the month.",
+  "s1": {
+   "title": "The bench is a gift",
+   "purpose": "Install the reframe: succession planning is growth planning for the people named to the bench.",
+   "say": "Succession is the word managers whisper, because everyone in earshot hears replacement. Here is the reframe this whole month stands on: a bench is a list of people someone is betting on, and a seat on it is a gift. Growth work, visibility, a named direction. We whisper it, and we should be handing it over like good news.",
+   "facilitate": [
+    "Read the concept card aloud once, slowly; it carries the reframe.",
+    "Run the knowledge check; everyone answers on their own screen.",
+    "Run the breakout: say the bench sentence out loud, gift or threat, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "When you were first put on a bench or a plan yourself, how did you hear it?",
+    "expect": [
+     "Stories of it landing as a vote of confidence",
+     "Stories of quiet panic about being managed out",
+     "Some were never told, and found out later"
+    ],
+    "respond": "All three answers teach the same thing: the framing decided the feeling. That framing is yours to control for your team."
+   },
+   "debrief": "The plan is the same document either way. The framing decides whether it retains someone or scares them.",
+   "watchFor": "Managers treating succession as a form for HR. Redirect to the person: what does the seat give them this quarter?",
+   "transition": "The reframe only survives contact if the opening lines are right. That is next.",
+   "coreNote": "Core: skip the breakout; ask for gift-or-threat votes in chat instead."
+  },
+  "s2": {
+   "title": "The fearless opening",
+   "purpose": "Train ears to hear which openings land as investment, which trigger replacement fear, and which are too vague to land.",
+   "say": "Nobody remembers slide four of a succession conversation. They remember the first two sentences, and they decide in those two sentences whether this is a promotion track or a pink slip. So we are going to train on openings. Same news, three framings, and only one of them earns the conversation.",
+   "facilitate": [
+    "Run Gift or threat? live; everyone plays on their own screen.",
+    "After round one, pause: ask who called it differently and why.",
+    "Run the breakout: say your own opening line, partner reports the first feeling it raises."
+   ],
+   "ask": {
+    "q": "Why does the compliance opening, the HR-needs-a-name one, do so much damage?",
+    "expect": [
+     "It makes the person a box to fill",
+     "It suggests the decision already happened somewhere else",
+     "It attaches their role to someone else's name"
+    ],
+    "respond": "Right. It contains no growth and no future for the listener. Every strong opening starts with the person, never the chart."
+   },
+   "debrief": "Openings about their growth raise energy. Openings about the org chart raise fear. Vague warmth raises nothing.",
+   "watchFor": "Managers drafting openings that promise a promotion. Growth language must stay honest: readiness and direction, never a guarantee.",
+   "transition": "You can open it for your team. Now the harder one: your own chair.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "s3": {
+   "title": "Your own pipeline",
+   "purpose": "Get every manager to start a skills-first, multi-person pipeline for their own role and say it out loud.",
+   "say": "Here is the move that separates managers who talk succession from managers who build it: naming a pipeline for your own role. It feels risky, and it reads as the opposite. A leader with a bench looks secure, gets freed for bigger work, and models the exact reframe we just taught. Skills first, more than one name, and the people on it get told.",
+   "facilitate": [
+    "Run Start your pipeline; two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: skills first, several people, growth that starts now."
+   ],
+   "ask": {
+    "q": "What stops managers from naming successors for their own role?",
+    "expect": [
+     "Fear of looking replaceable",
+     "Fear the person will expect a promotion",
+     "Nobody on the team feels ready"
+    ],
+    "respond": "Name the flip: a role only you can do is a role you can never be promoted out of. The bench is your own mobility plan too."
+   },
+   "debrief": "A secret bench grows nobody. Skills first, several names, and the growth conversation happens this quarter.",
+   "watchFor": "Managers picking one heir apparent. Push for two or three; a single name recreates the replacement drama on a new person.",
+   "transition": "Quick recap, then you build your own bench card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Now make it real. One person whose growth this is about, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+  "closeSay": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday previews the Transfer Portal, the tool that will surface internal opportunities based on your skills, and Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. Same week, one theme: retain, grow, move, without the fear. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A manager says naming a bench will make people expect promotions",
+    "then": "Give the honest-language line: readiness and direction, never a guarantee. 'I want to grow you toward bigger work' promises development, and development is deliverable."
+   },
+   {
+    "if": "Someone names a real colleague while describing their bench",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' Bench membership is sensitive people data; it never gets discussed by name on a group call."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Won't a succession conversation make my best person start job hunting?",
+    "a": "The research runs the other way: people leave when growth is invisible, and a bench seat makes it visible. If the worry stays with you, the stay-interview practice lab attached to this month's LinkedIn Learning course, Retaining Your Best Talent, was built for exactly this."
+   },
+   {
+    "q": "What if I build a bench and the role never opens?",
+    "a": "Then the person still got stretch work, new skills, and proof that someone invested in them, and the Transfer Portal gives those skills somewhere to go inside Vanderbilt. A bench that never gets promoted still retains and still grows."
+   },
+   {
+    "q": "Do I need my own manager's approval to build a pipeline for my role?",
+    "a": "Loop them in, because a manager developing successors is good news upward. What needs no approval: growing skills on your team and being honest with people about direction. Start there."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Monday, 45 minutes on succession without the scare. Bring a quiet thought about one person you would trust with bigger work. You will never be asked to name them. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the bench move happen? Three lines, reply whenever: 1) Did the move on your card happen? 2) How did the growth framing land? 3) Who is on your own role's pipeline now?"
+   }
+  ]
+ }
 }

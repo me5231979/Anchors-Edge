@@ -12,10 +12,47 @@ register, structure, and level of craft.
 
 Anchor's Edge is the ongoing Apply arm of CHART, Vanderbilt's enterprise
 program for safe, confident, productive AI use. It is a 45-minute weekly
-VIRTUAL instructor-led series, October 2026 to June 2027. Every month
-lands on one enterprise goal; every session that week echoes the month's
-theme. Courses are read on slides in an online dashboard during a live
-virtual class: copy must be SHORT, one idea per slide, zero scrolling.
+VIRTUAL instructor-led series. Every month lands on one enterprise goal;
+every session that week echoes the month's theme. Courses are read on
+slides in an online dashboard during a live virtual class: copy must be
+SHORT, one idea per slide, zero scrolling.
+
+Never time-box the program in learner-facing copy: no "nine-month
+program", no "nine months", no program date range, and no month names
+outside a course's own month identity (the program grows to 12 months
+next year). Say "the series" or "this month's theme". A course may name
+its own month and the sessions of its own week.
+
+The calendar: Oct: See the Talent Around You (G1) · Nov: The Transfer
+Portal in Practice (G1) · Dec: The Vanderbilt Manager Standard (G2) ·
+Jan: AI at Work: Start Where You Are (G3) · Feb: Retain, Grow, Move (G1)
+· Mar: Coaching as the Core Manager Behavior (G2) · Apr: Spot AI-Exposed
+Work (G3) · May: Measured Leader Behavior (G2) · Jun: From Insight to
+Action (G3).
+
+## Real systems and terminology (hard rule)
+
+Name ONLY things Vanderbilt actually has or that the plan names:
+the **Talent Marketplace** and the **Transfer Portal** (the two talent
+systems; there is NO system called "Workforce Intelligence" and that
+phrase must never appear), Oracle (1:1 templates, feedback tools, goals),
+engagement/pulse surveys, CHART, LinkedIn Learning courses of the month,
+and navigator-led in-person sessions. Never state goal percentages,
+baselines, or targets anywhere; name the goal only.
+
+## Two genuinely different experiences
+
+The live class and the self-paced edition are built from one spec but
+must feel different:
+- **Live class**: more context, less knowledge-checking. In `check`
+  sections the quiz is replaced on screen by an "In the room" context
+  card (`interaction.context`) plus a facilitator-led discussion prompt
+  (`interaction.discuss`). Facilitator notes for check sections run the
+  discussion, never a quiz.
+- **Self-paced**: keeps the knowledge checks AND goes deeper. Every
+  section carries a `deeper` block (title, body, 2-3 solo activity
+  steps) that renders only in the self-paced edition, diving further
+  into the section's idea with a hands-on exercise.
 
 ## Audience rule
 
@@ -95,7 +132,18 @@ virtual class: copy must be SHORT, one idea per slide, zero scrolling.
   each with a coach line that teaches WHY. heads + reactions for
   strong/mid/weak tiers; reactions describe what happens days later.
 - `check`: one gold-bordered concept card (the teachable rule) + one
-  3-option question, exactly one correct, every why teaches.
+  3-option question, exactly one correct, every why teaches. REQUIRED
+  extra fields: `context` (limit 300; the richer framing the live room
+  gets instead of the quiz) and `discuss` (limit 170; the facilitator's
+  discussion prompt).
+
+## The deeper block (required on every section)
+
+`sections[*].deeper = {"title": ..., "body": ..., "steps": [...]}`.
+Limits: title 60, body 430, steps 2-3 at 170 each. Self-paced only.
+The body teaches one layer beneath the slide (the nuance, the edge case,
+the worked example); the steps are a concrete solo activity that applies
+it to the learner's real work. Do not repeat the slide copy.
 
 ## Verify before you finish
 

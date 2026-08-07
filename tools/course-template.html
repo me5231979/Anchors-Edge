@@ -166,18 +166,10 @@
       <p class="eyebrow" data-reveal>This month targets · Goal [[goalNum]] of 3</p>
       <h2 class="h2" data-reveal>[[goalShortHtml]].</h2>
       <p class="lead" data-reveal>[[goalDesc]]</p>
-      <div class="card goalmeter" data-reveal style="border-color:rgba(207,174,112,.5)">
-        <span class="tag">The measurable move · by Q4</span>
-        <div class="goalmeter__scale" data-meter="[[goalPct]]" style="margin-top:.9rem">
-          <span></span>
-          <i class="goalmeter__base" style="left:[[goalBasepct]]%" aria-hidden="true"></i>
-        </div>
-        <div class="goalmeter__labels">
-          <span>Baseline today · <b>[[goalBaseline]]</b></span>
-          <span>Q4 target · <b>[[goalTarget]]</b></span>
-        </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">[[goalLead]]</p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.25rem"><b>Where this session fits:</b> [[goalLead]]</p>
     </div>
   </section>
 
@@ -195,7 +187,7 @@
           [[objectives]]
         </ol>
       </div>
-      <div class="goalchip" data-reveal><b>Targeting Goal [[goalNum]]</b><span>[[goalShort]] · [[goalBaseline]] to [[goalTarget]] by Q4</span></div>
+      <div class="goalchip" data-reveal><b>Targeting Goal [[goalNum]]</b><span>[[goalShort]]</span></div>
       <div class="skills" data-reveal aria-label="Skills this course builds">
         <span class="skills__label">Skills you'll build</span>
         [[skills]]

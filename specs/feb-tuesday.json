@@ -1,258 +1,409 @@
 {
-  "slug": "feb-tuesday",
-  "series": "Take-Off Tuesday",
-  "month": "February 2027",
-  "monthShort": "Feb",
-  "monthIndex": 5,
-  "theme": "Coaching as the Core Manager Behavior",
-  "goal": 2,
-  "title": "The Growth Record",
-  "titleHtml": "Put your growth <em class=\"gold-text\">on the record</em>.",
-  "tagline": "Capturing your development goals and career-conversation notes in the system.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: put your development goals into the talent system, keep useful notes from the career conversations you are part of, and make your growth visible enough for opportunity to find it.",
-  "heroLead": "Your growth has a paper trail problem. The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into the system, where they survive busy seasons and where opportunity can actually find them.",
-  "objectives": [
-    "Enter one real development goal in the talent system, written so a reader can act on it",
-    "Keep a short, useful note after any career conversation you are part of",
-    "Sort what belongs on your visible record, in private notes, or nowhere at all"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Career Development"},
-    {"label": "Systems Fluency"},
-    {"label": "Self-Advocacy"}
-  ],
-  "missionTie": "A university out to define the century needs to see the ambitions of its people, and it can only see what is written down. Every goal you put on the record strengthens Exceptional Core Operations from the inside: real data about real growth.",
-  "goalLead": "Manager Effectiveness at Scale has a second half: staff whose goals are visible enough to coach toward. Today you build your side of the record, whoever you report to.",
-  "agenda": [
-    {"t": "Why the record matters", "d": "Invisible goals go unfed. What visibility actually buys you."},
-    {"t": "What goes where", "d": "The system, your own notes, or nowhere: the five-second sort."},
-    {"t": "Write the entry", "d": "One goal and one conversation note, written so they still work in six months."}
-  ],
-  "manifesto": "Opportunity cannot find a goal that lives only in your head.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Why",
-      "dataTitle": "Why the record matters",
-      "eyebrow": "The Why",
-      "headline": "Invisible goals go <em>unfed</em>.",
-      "lead": "When a stretch project, a course seat, or an internal opening appears, someone looks at the record to see who is reaching for what. A goal that lives in your head is invisible to that search. Writing it into the system is how you raise your hand in advance.",
-      "group": "In pairs: name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
-      "solo": "Name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The visibility rule",
-          "text": "Your growth record is a standing hand-raise. Managers, mentors, and internal recruiters can only work with what they can see, so a goal in the system keeps advocating for you in rooms you are never in."
-        },
-        "q": "You want to move toward data work within two years. Where does that ambition do the most for you?",
-        "opts": [
-          {"t": "In your head until a data role is actually posted", "correct": false, "why": "By posting day the shortlist is often half-formed. The record works earliest, before the opening exists, when projects and course seats get handed out."},
-          {"t": "Written as a development goal in the talent system", "correct": true, "why": "Right. On the record it can surface in talent reviews, project staffing, and course nominations, whether or not you are in the room."},
-          {"t": "Mentioned to your manager once at review time", "correct": false, "why": "A good start with a short shelf life. Spoken goals fade with busy seasons and manager changes; written ones survive both."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Sort",
-      "dataTitle": "What goes where",
-      "eyebrow": "The Sort",
-      "headline": "Some notes belong in the system. Some <em>never will</em>.",
-      "lead": "You will sit in career conversations all year: 1:1s, mentoring chats, peer feedback. Some of what you hear belongs on your visible record, some in your private notes, and some should never be written anywhere. The sort takes five seconds once you know it.",
-      "group": "In pairs: one thing you would happily put on your visible record, and one thing you would keep in private notes. Compare sorts.",
-      "solo": "Write one thing you would put on your visible record and one thing you would keep in private notes.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "System, notes, or nowhere?",
-        "intro": "After each conversation, you decide where the takeaway lives. Read each one and sort it.",
-        "progressWord": "Sort",
-        "labels": ["Into the system, visible", "Private notes, just for you", "Nowhere. Do not write it down"],
-        "passAt": 2,
-        "passMsg": "You have the sort. Goals and agreed actions go visible; raw self-observations stay yours; other people's private business stays unwritten.",
-        "failMsg": "Close. The tell: your goals and agreed next steps go visible, your raw reflections stay private, and other people's disclosures are never yours to record.",
-        "items": [
-          {"q": "You and your manager agree you will lead the spring onboarding revamp as a stretch toward project management.", "answer": 0, "why": "An agreed development action is exactly what the record is for. Written in the system, it becomes evidence of growth when roles and projects open up."},
-          {"q": "After a tense meeting, you want to note that you went quiet when a senior director challenged your numbers.", "answer": 1, "why": "Honest self-observation fuels growth and deserves privacy while it is raw. Keep it in your own notes; share the pattern later, in your own words, if you choose."},
-          {"q": "In a mentoring chat, a colleague mentions a health situation that is draining their energy this term.", "answer": 2, "why": "Private information about another person is never yours to record, in any system, under any label. Hold it with care and write nothing."}
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Entry",
-      "dataTitle": "Write the entry",
-      "eyebrow": "The Entry",
-      "headline": "Write it so a reader can <em>act</em>.",
-      "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to act on. A goal with a direction and a dated first step, and a note that holds the agreement, turn your record into something projects and people can answer.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Build your entry",
-        "intro": "You just had a good career conversation. Capture it in two fields: the goal and the note.",
-        "runLabel": "Save the entry",
-        "outcomeTag": "Six months later",
-        "slots": [
-          {
-            "key": "The goal you enter",
-            "opts": [
-              {"t": "Improve my communication skills.", "pts": 1, "coach": "Too foggy to feed. No reader can hand this goal a project, a course, or an introduction; it will sit in the system politely doing nothing."},
-              {"t": "Get better at presenting to leadership audiences.", "pts": 2, "coach": "A real direction now. Add the first step you are taking and it becomes something a manager or mentor can actually respond to."},
-              {"t": "Present to a leadership audience twice this year; first rep at the March ops review.", "pts": 3, "coach": "Direction plus a dated first step. A reader knows exactly what you want and how to help; that is a goal that attracts opportunity."}
-            ]
-          },
-          {
-            "key": "The conversation note",
-            "opts": [
-              {"t": "Great chat with my manager about my future.", "pts": 1, "coach": "Warm, and useless by Thursday. No date, no agreement, no next step; in six months this note is a pleasant mystery."},
-              {"t": "Feb 1:1: we discussed my interest in project work.", "pts": 2, "coach": "Dated and topical, which future you will appreciate. It still lacks the agreement, which is the part everyone forgets first."},
-              {"t": "Feb 1:1: agreed I shadow the onboarding project through April; revisit in May 1:1.", "pts": 3, "coach": "Date, agreement, follow-up. This note runs the next conversation for you and quietly holds everyone to what was said."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A record that works while you sleep. A clear goal, a dated agreement, and a follow-up already on the calendar.",
-          "mid": "A decent record with soft edges. The direction is there; the agreements will depend on everyone's memory.",
-          "weak": "The system has words in it. Six months from now they will tell you nothing and show a reader even less."
-        },
-        "reactions": {
-          "strong": "In May, a project lead searching for presentation-hungry staff finds your goal and offers you the ops review slot. The note means the shadow agreement holds without anyone being reminded.",
-          "mid": "The May 1:1 opens with 'remind me what we said?' You rebuild half the agreement from memory, and the March rep quietly slips to fall.",
-          "weak": "A talent review skims your profile and moves on; there was nothing to act on. The onboarding shadow never happens, and nobody notices it was ever discussed."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Where does a development goal do the most for your career?",
-      "opts": ["In your head, ready when asked", "Written in the talent system, visible", "In an email to yourself", "Mentioned once at annual review"],
-      "correct": 1,
-      "why": "The record is a standing hand-raise. Visible goals surface in staffing, nominations, and reviews you are never in the room for."
-    },
-    {
-      "q": "A colleague shares a private struggle in a mentoring chat. You should...",
-      "opts": ["Note it in the system for context", "Add it to your private notes", "Write nothing; hold it with care", "Mention it to their manager quietly"],
-      "correct": 2,
-      "why": "Other people's private information is never yours to record anywhere. Your record is for your own goals and agreements."
-    },
-    {
-      "q": "What makes a conversation note useful in six months?",
-      "opts": ["Warm, positive wording", "Plenty of length and detail", "Date, agreement, and follow-up", "Staying vague to keep options open"],
-      "correct": 2,
-      "why": "Those three parts let the note run your next conversation and hold agreements without anyone leaning on memory."
-    }
-  ],
-  "recapMsgs": {
-    "high": "You have the sort and the writing. Now put the real entry in the system.",
-    "mid": "Solid. Revisit the section you missed, then draft your entry.",
-    "low": "Worth a second pass through the three sections before you commit."
+ "slug": "feb-tuesday",
+ "series": "Take-Off Tuesday",
+ "month": "February 2027",
+ "monthShort": "Feb",
+ "monthIndex": 5,
+ "theme": "Retain, Grow, Move",
+ "goal": 1,
+ "title": "Portal Preview",
+ "titleHtml": "Opportunity that <em class=\"gold-text\">finds you</em>.",
+ "tagline": "A first look at the Transfer Portal and how internal mobility surfaces.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: preview the Transfer Portal, get your skills profile ready for it, and hear it said plainly: moving inside Vanderbilt is a career path the university wants you to take.",
+ "heroLead": "Until now, finding an internal opportunity meant knowing someone or watching job boards. The Transfer Portal flips that: opportunities across Vanderbilt find you, based on skills and interests you have named. This preview shows you how to be findable.",
+ "objectives": [
+  "Describe what the Transfer Portal does: internal opportunities surfaced to you by skills",
+  "Get findable: bring your skills profile current and put your interests in writing",
+  "Treat an internal move as a normal, encouraged Vanderbilt career path"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My growth record",
-    "headline": "One goal, on the record, <em>this week</em>.",
-    "lead": "Draft the entry here, then put the real thing in the system before the week ends. Nothing you type on this screen is saved or sent; the system entry is the one that counts.",
-    "whoLabel": "Your goal, in one sentence a reader could act on.",
-    "whoPlaceholder": "e.g. lead a cross-department project this year; first step booked by April",
-    "practiceLabel": "What will you capture first?",
-    "whoRow": "The goal",
-    "practices": [
-      {"id": "goal", "chip": "The dev goal", "name": "The dev goal", "move": "Enter one development goal in the talent system: a direction plus a dated first step."},
-      {"id": "note", "chip": "The conversation note", "name": "The conversation note", "move": "After your next career conversation, write the date, the agreement, and the follow-up while it is fresh."},
-      {"id": "sweep", "chip": "The record sweep", "name": "The record sweep", "move": "Open your profile, retire what is stale, and make sure what is there reads like you today."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Today", "out": "The entry goes into the system today, before the session's momentum fades."},
-      {"id": "week", "chip": "This week", "out": "The entry is in the system by Friday, with fifteen minutes blocked on the calendar to do it."},
-      {"id": "next11", "chip": "After my next 1:1", "out": "Your next 1:1 ends five minutes early so the goal and the note go straight into the system."}
-    ],
-    "cardTitle": "My growth record card",
-    "evidenceRow": "Afterward, one line: what did writing it down make clearer about what you actually want?"
+  {
+   "label": "Career Development"
   },
-  "closing": {
-    "headline": "Written down is <em>findable</em>.",
-    "lead": "You sorted what belongs where and built an entry worth saving. Thursday closes the week with the listening skill underneath every good career conversation.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the system entry real",
-    "nextBody": "Move your drafted goal from the card into the talent system exactly as built: a direction and a dated first step. Then note your next career conversation the same day it happens.",
-    "brandline": "Your growth, on the record."
+  {
+   "label": "Internal Mobility"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; February is the Coaching as the Core Manager Behavior month, and this session gives every staff member the system side of it.",
-    "pulse": "Seven days out, send the pulse: 'Is your development goal in the system? Did you note your last career conversation? What did writing it down make clearer?' Count of new system goals is the month's adoption signal for the record.",
-    "s1": {
-      "title": "Why the record matters",
-      "purpose": "Establish visibility as the point: goals in the system keep working when you are out of the room.",
-      "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects, course seats, and internal openings get decided, someone is looking at a record. If your goal lives in your head, you are invisible to that search. Writing it down is how you raise your hand in rooms you are not in.",
-      "facilitate": [
-        "Run the chat show of hands first; the count of unwritten goals is the hook.",
-        "Read the visibility rule from the card once, then run the check on everyone's own screen.",
-        "Run the breakout on the goal that exists nowhere in writing."
-      ],
-      "ask": {
-        "q": "What has kept your goal out of the system so far?",
-        "expect": ["Never thought of the system as mine to use", "Feels presumptuous or too exposed", "It reads like HR paperwork, so it never felt urgent"],
-        "respond": "All common. Today reframes the record as a tool you point at your own future, and the sort in the next section handles the exposure worry directly."
-      },
-      "debrief": "Visible goals get fed; invisible ones wait. The record is a standing hand-raise.",
-      "watchFor": "Staff who assume this is a managers-only tool. Say it plainly: every field in this session is yours, whoever you report to.",
-      "transition": "So some things go on the record. The next skill is knowing what does.",
-      "coreNote": "Core: skip the breakout; take the unwritten-goal count from chat and move."
-    },
-    "s2": {
-      "title": "What goes where",
-      "purpose": "Install the three-shelf sort: visible record, private notes, or never written.",
-      "say": "You will be in career conversations all year, your own and other people's. The sort has three shelves. Your goals and agreed actions go in the system, visible. Your raw self-observations go in your private notes, because honesty needs a little privacy while it is fresh. And other people's private business goes nowhere, ever. Five seconds of sorting protects you and everyone around you.",
-      "facilitate": [
-        "Run System, notes, or nowhere? live; everyone sorts on their own screen.",
-        "Pause after round three; let the 'write nothing' answer breathe before you move.",
-        "Run the breakout: one thing for the visible record, one for private notes."
-      ],
-      "ask": {
-        "q": "Why does round three, the colleague's health situation, get 'write nothing' rather than private notes?",
-        "expect": ["It is theirs to tell, never mine to store", "Notes get seen, forwarded, or found", "Writing it down would change how I treat them"],
-        "respond": "All of it. Your private notes are for your own growth. Other people's disclosures are held in trust, and trust does not have a text field."
-      },
-      "debrief": "Yours and agreed goes visible. Yours and raw stays private. Theirs and private goes unwritten.",
-      "watchFor": "The quiet worry that the visible record gets used against people. Name it: the record is for growth and mobility, and section three shows how to write entries you would be glad to have read.",
-      "transition": "You know what goes in. Now we make what goes in worth reading.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one sort question from chat."
-    },
-    "s3": {
-      "title": "Write the entry",
-      "purpose": "Turn goals and notes into entries a future reader can act on: direction, date, agreement, follow-up.",
-      "say": "The system rewards a particular kind of writing, and it is teachable in one line: write so a reader can act. 'Improve communication' gives a reader nothing. 'Present to a leadership audience twice this year, first rep at the March ops review' gives them everything: what you want, when it starts, how to help. Same with notes. Date, agreement, follow-up, and the note runs your next conversation for you.",
-      "facilitate": [
-        "Run Build your entry; two minutes for both fields, then save it.",
-        "Ask one volunteer to read their six-months-later outcome aloud.",
-        "Point at the pattern: direction plus dated step for goals; date plus agreement plus follow-up for notes."
-      ],
-      "ask": {
-        "q": "What makes 'improve my communication skills' so common and so useless?",
-        "expect": ["It is safe and cannot be wrong", "It came off a review form, never from a real want", "Nobody ever taught goal-writing"],
-        "respond": "Safe is the problem: it is a goal nothing can respond to. Specific goals feel exposed for a week and get fed for a year."
-      },
-      "debrief": "Write for the reader who wants to help you. A direction, a dated first step, and notes that hold the agreement.",
-      "watchFor": "Perfectionism stalling the entry. A rough goal in the system beats a polished one in your head, and it can be edited forever.",
-      "transition": "Quick recap, then you draft the real entry.",
-      "coreNote": "Core: everyone builds solo; skip the read-aloud."
-    },
-    "capstoneSay": "Now draft the real thing. One development goal, written so a reader could act on it, and pick when it goes into the system. The card is your draft; the system entry this week is the actual capstone. Two minutes, quiet, go.",
-    "closeSay": "Your card is a draft; the entry in the system is the real finish line, so get it there this week. Thursday's Thrive Thursday closes the coaching week with the skill underneath every conversation you will ever capture: empathy, hearing what isn't said. And if you are working through this month's LinkedIn Learning pick, Sara Canaday's Coaching Skills for Leaders and Managers, the note habit you built today is exactly where the navigator-led GROW practicum conversations belong.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "Someone says their manager never looks at the system", "then": "True sometimes, and the record still works: talent reviews, project staffing, and internal recruiters search it whether or not one manager does. Write for the readers you cannot see."},
-      {"if": "Someone starts typing a real colleague's private situation into chat as an example", "then": "Redirect immediately and warmly: 'Roles, never names, and other people's private business stays unwritten, here included.' Then restate the three-shelf sort."}
-    ],
-    "toughQuestions": [
-      {"q": "Who can actually see what I enter in the system?", "a": "Your manager and the talent teams who run reviews and staffing; each field shows its visibility if you are unsure. The working rule keeps you safe either way: write every visible entry as if a future hiring manager will read it, because the useful ones will."},
-      {"q": "What if my goal is to move away from my current team?", "a": "Mobility goals are legitimate; internal movement is exactly what the record supports. Frame the direction rather than the departure: 'grow toward project leadership' works on the record, and the specifics stay in conversations you choose to have."},
-      {"q": "I'm not a manager, so is the coaching month really for me?", "a": "Yes. Coaching is two-sided: managers are learning to ask this month, and a visible record gives them something real to ask about. Written goals make you easy to coach and easy to advocate for, whoever you report to."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes to put your growth on the record. Bring one career goal you have never written down, and your talent system login if you have it handy. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Is it in the system? Three lines, reply whenever: 1) Is your development goal in the system? 2) Did you note your last career conversation? 3) What did writing it down make clearer?"}
-    ]
+  {
+   "label": "Workforce Agility"
   }
+ ],
+ "missionTie": "Defining the great university of the 21st Century takes talent that can flow to where it matters most. Destination Vanderbilt means people choose to come here; the Transfer Portal is how they keep choosing to stay and grow here.",
+ "goalLead": "Goal 1 promises a system that connects employees to internal opportunities across the university. Today you see it coming, and you get findable before it arrives.",
+ "agenda": [
+  {
+   "t": "What the Portal does",
+   "d": "Internal opportunities that surface to you, matched on skills and interests."
+  },
+  {
+   "t": "Getting findable",
+   "d": "The profile and the named interest that let the matching work for you."
+  },
+  {
+   "t": "Moving is normal",
+   "d": "Retiring the old myths about applying internally at Vanderbilt."
+  }
+ ],
+ "manifesto": "The next opportunity should find you. Make yourself findable.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Portal",
+   "dataTitle": "What the Portal does",
+   "eyebrow": "The Preview",
+   "headline": "Opportunities that <em>come looking</em>.",
+   "lead": "The Transfer Portal is part of Goal 1's talent system, launching this year. You keep a skills profile; the Portal matches it against internal openings, stretch projects, and growth roles across Vanderbilt, and brings the fits to you.",
+   "group": "In pairs: what would you want the Portal to know about you that your job title never says? One pair shares.",
+   "solo": "Write down what you would want the Portal to know about you that your job title never says.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "How the matching works",
+     "text": "The Portal reads skills and interests, never just titles. A named skill can match a role in a school you have never worked in; a named interest can surface a project before it is ever posted. What it cannot read is anything you left blank."
+    },
+    "q": "Quick check: what does the Portal use to surface an opportunity to you?",
+    "opts": [
+     {
+      "t": "Your current job title and department",
+      "correct": false,
+      "why": "Titles are the least of it. Two people with the same title can have completely different skills, and the matching runs on the skills."
+     },
+     {
+      "t": "The skills and interests you have named in your profile",
+      "correct": true,
+      "why": "Exactly. The match runs on what you have declared. That is why the readiness work in the next section matters more than any search technique."
+     },
+     {
+      "t": "Your manager's recommendation",
+      "correct": false,
+      "why": "No gatekeeper sits between you and the matching. Managers stay in the loop as coaches and advocates, and the Portal reads your profile directly."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "Get Findable",
+   "dataTitle": "Getting findable",
+   "eyebrow": "The Readiness",
+   "headline": "Findable is a <em>choice</em>.",
+   "lead": "Matching is only as good as what it can read. Two moves make you findable before launch: a skills profile that says what you can actually do, and interests named in writing. Build both here.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Build your findability",
+    "intro": "Two entries decide what the Portal can see. Choose how you write your skills and how you name your interest.",
+    "runLabel": "Run the match",
+    "outcomeTag": "What surfaces",
+    "slots": [
+     {
+      "key": "Your skills entry",
+      "opts": [
+       {
+        "t": "Copy the duties list from your job description.",
+        "pts": 1,
+        "coach": "The Portal already knows your job exists. Duties describe the role; the matching needs the skills, including the ones your role never uses."
+       },
+       {
+        "t": "List your strongest skills from this role only.",
+        "pts": 2,
+        "coach": "Good start, half the picture. Skills from past roles, volunteer work, and side projects match real openings too. Claim all of it."
+       },
+       {
+        "t": "List every skill you can actually use, from any role, with a line on how you have used it.",
+        "pts": 3,
+        "coach": "Full inventory plus evidence. The how-I-used-it line is what turns a keyword into a credible match."
+       }
+      ]
+     },
+     {
+      "key": "Your named interest",
+      "opts": [
+       {
+        "t": "Leave it blank; you don't want to seem restless.",
+        "pts": 1,
+        "coach": "A blank field gives the matching nowhere to aim. Naming an interest signals ambition, and Vanderbilt is asking for exactly that signal."
+       },
+       {
+        "t": "Write something broad like 'open to opportunities.'",
+        "pts": 2,
+        "coach": "Broad interest matches everything, which means it matches nothing well. The Portal can act on 'project work in student-facing units'; it cannot act on 'open.'"
+       },
+       {
+        "t": "Name a direction: the kind of work, the skills you want to grow, what you would say yes to.",
+        "pts": 3,
+        "coach": "Specific and forward-looking. This is the entry that surfaces a stretch project before it is posted anywhere."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "Findable. Your profile gives the matching real material, and the surfaced fits will look like you on your best day.",
+     "mid": "Partially visible. The Portal can see the role you have; it still cannot see the person you are.",
+     "weak": "Invisible. The matching has nothing to read, so the opportunities will keep going to people who wrote things down."
+    },
+    "reactions": {
+     "strong": "Weeks after launch, a project in another school surfaces on your dashboard, matched to a skill your current role never uses. It looks interesting. It found you.",
+     "mid": "The matches that surface look a lot like your current job in different buildings. Accurate, and underwhelming. The missing half of your profile was the interesting half.",
+     "weak": "Launch comes and goes. A colleague with your exact skills gets surfaced for a project you would have loved. The difference between you was a written-down profile."
+    }
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "Moving Is Normal",
+   "dataTitle": "Moving is normal",
+   "eyebrow": "The Culture",
+   "headline": "An internal move is a <em>career path</em>.",
+   "lead": "The Portal only works if people believe using it is safe. So hear the policy out loud: internal mobility is a normal, encouraged career path at Vanderbilt. Keeping talent inside the university is the point of Goal 1. Some old myths need retiring first.",
+   "group": "In pairs: what have you heard, in any workplace, about what happens to people who apply internally? Myth or real, 90 seconds each way.",
+   "solo": "Write down one thing you have believed about applying internally. After this section, decide: myth or real?",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Myth or normal?",
+    "intro": "How people talk about internal moves decides whether anyone makes them. Call each one before the Portal launches into that culture.",
+    "progressWord": "Call",
+    "labels": [
+     "An old myth, retire it",
+     "A normal move, support it",
+     "A readiness gap, fix it"
+    ],
+    "passAt": 2,
+    "passMsg": "You can hear the difference. Retire the myths out loud; they only survive in silence.",
+    "failMsg": "Close. The tell: myths punish ambition, normal moves grow careers inside Vanderbilt, and readiness gaps are just profiles waiting to be written.",
+    "items": [
+     {
+      "q": "'Don't let your manager see you looking at internal postings. They'll take it personally.'",
+      "answer": 0,
+      "why": "This is the myth the Portal is built to kill. A move inside Vanderbilt keeps the talent here, and managers are measured on growing people, never on holding them."
+     },
+     {
+      "q": "An advisor sees a program role in another college that fits their skills, tells their manager, and applies.",
+      "answer": 1,
+      "why": "This is the path working as designed. The manager conversation is a courtesy and a coaching chance; the application needs nobody's permission."
+     },
+     {
+      "q": "A financial analyst wants project work badly, but their profile lists nothing beyond their current job title.",
+      "answer": 2,
+      "why": "No myth and no move here, just a matching engine with nothing to read. One honest hour on the profile fixes it."
+     }
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What does the Transfer Portal match on when it surfaces an opportunity?",
+   "opts": [
+    "Job titles and departments",
+    "Tenure and past performance ratings",
+    "The skills and interests you have named",
+    "Manager nominations"
+   ],
+   "correct": 2,
+   "why": "The matching reads what you have declared. Blank fields match nothing, which is why findability is the readiness work."
+  },
+  {
+   "q": "What makes a skills profile genuinely findable?",
+   "opts": [
+    "A copy of your job description",
+    "All your usable skills, any role, with how you used them",
+    "Only skills your manager has signed off on",
+    "Keeping it short so it is easy to read"
+   ],
+   "correct": 1,
+   "why": "Full inventory plus evidence, past roles included. The interesting matches usually come from the skills your current job never uses."
+  },
+  {
+   "q": "A colleague applies for an internal role in another school. What is that at Vanderbilt?",
+   "opts": [
+    "A risky move to keep quiet",
+    "Disloyalty to their current team",
+    "A normal, encouraged career path",
+    "Something needing manager approval"
+   ],
+   "correct": 2,
+   "why": "Internal mobility keeps talent inside the university, which is the point of Goal 1. Managers coach the move; they never gate the application."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You are Portal-ready. Now write the profile you built in section two for real.",
+  "mid": "Solid. Take another look at the findability section, then build your card.",
+  "low": "Worth a second pass through the three sections before you commit."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My findability move",
+  "headline": "Findable <em>before launch</em>.",
+  "lead": "Pick the move that makes you findable. Your own words, your own career; nothing you type is saved or sent.",
+  "whoLabel": "What should the Portal know about you? One skill or interest your title hides.",
+  "whoPlaceholder": "e.g. process mapping; interested in student-facing project work",
+  "practiceLabel": "Which move makes you findable?",
+  "whoRow": "The skill or interest to surface",
+  "practices": [
+   {
+    "id": "sweep",
+    "chip": "The skills sweep",
+    "name": "The skills sweep",
+    "move": "Spend one honest hour listing every skill you can actually use, from any role, with one line each on how you have used it."
+   },
+   {
+    "id": "interest",
+    "chip": "The named interest",
+    "name": "The named interest",
+    "move": "Write the direction you would say yes to: the kind of work, the skills you want to grow. Then share it with your manager."
+   },
+   {
+    "id": "scan",
+    "chip": "The internal scan",
+    "name": "The internal scan",
+    "move": "Browse current internal openings once, on purpose, and note one role or project that pulls at you and why."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, done by Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "At my next 1:1",
+    "out": "You bring it to your next 1:1: here is what I want the Portal to know about me."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, time blocked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My findability card",
+  "evidenceRow": "Afterward, one line: what did you claim that your job title never showed?"
+ },
+ "closing": {
+  "headline": "Be findable. <em>Then be found.</em>",
+  "lead": "You previewed the Portal, built a findable profile, and retired the old myths. Thursday deepens the same theme with the skill that moves careers fastest: advocacy.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the findability move on your card",
+  "nextBody": "Run it as built: one honest hour, one named interest, or one deliberate scan. Curious what makes people stay and grow? This month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.",
+  "brandline": "Skills written down are skills in play."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January is the Retain, Grow, Move month on succession and internal mobility.",
+  "pulse": "Seven days out, send the pulse: 'Did the findability move on your card happen? What did you claim that your title never showed? What direction did you name?' Count of completed findability moves is the Level 3 metric for the month.",
+  "s1": {
+   "title": "What the Portal does",
+   "purpose": "Preview the Transfer Portal plainly: opportunities surfaced to staff by skills and interests, with no gatekeeper in the middle.",
+   "say": "Here is the honest history of internal opportunity almost everywhere: you found it if you knew somebody or happened to check the right board in the right week. Goal 1 replaces luck with matching. The Transfer Portal reads the skills and interests you have named and brings the fits to you: roles, projects, growth work, across all of Vanderbilt.",
+   "facilitate": [
+    "Read the concept card once; the matching rule is the whole slide.",
+    "Run the knowledge check; everyone answers on their own screen.",
+    "Run the breakout: what should the Portal know about you that your title never says?"
+   ],
+   "ask": {
+    "q": "What is the first thing you would want the Portal to surface for you?",
+    "expect": [
+     "Project work outside their unit",
+     "A next role, said a little shyly",
+     "Some have never been asked this before"
+    ],
+    "respond": "Every answer just named an interest. Notice how fast they surfaced once someone asked; the profile is that same question, asked in writing."
+   },
+   "debrief": "The Portal reads what you declare. The whole game is what you have written down, which is exactly where section two goes.",
+   "watchFor": "Questions about launch dates and feature details. Park them visibly: today is the preview and the readiness; launch specifics come from the program team.",
+   "transition": "So the matching runs on your profile. Time to build one worth matching.",
+   "coreNote": "Core: skip the breakout; take answers to the ask question in chat."
+  },
+  "s2": {
+   "title": "Getting findable",
+   "purpose": "Get every person to draft a full skills entry and a specific named interest before the Portal launches.",
+   "say": "Matching engines are honest machines: they can only see what you wrote. A profile that copies your job description makes you findable for the job you already have. The skills sweep and the named interest make you findable for the work you want next. And the skills your current role never uses are exactly where the interesting matches come from.",
+   "facilitate": [
+    "Run Build your findability; two minutes for both choices, then run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: full inventory with evidence, one specific direction."
+   ],
+   "ask": {
+    "q": "Why do people leave the interest field blank?",
+    "expect": [
+     "Fear of seeming disloyal or restless",
+     "Honestly not knowing what they want yet",
+     "Assuming nobody reads it"
+    ],
+    "respond": "That first fear is exactly what section three retires. For the second: name whatever is true this year. A draft interest beats a blank every time."
+   },
+   "debrief": "Findable is a choice: every usable skill with evidence, one specific direction. Blank fields match nothing.",
+   "watchFor": "People underclaiming, especially long-tenured staff writing only current duties. Push the question: what can you do that this role never asks for?",
+   "transition": "Profiles ready. One thing left: believing it is safe to use them.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "s3": {
+   "title": "Moving is normal",
+   "purpose": "Retire the loyalty myths and state internal mobility as a normal, encouraged Vanderbilt career path.",
+   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. A move across the university keeps your talent, your relationships, and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
+   "facilitate": [
+    "Run Myth or normal? live; everyone plays on their own screen.",
+    "After round one, pause: ask who has heard that myth somewhere, show of hands or chat.",
+    "Run the breakout on what people have heard about applying internally."
+   ],
+   "ask": {
+    "q": "What would make you hesitate to use the Portal, honestly?",
+    "expect": [
+     "My manager's reaction",
+     "Feeling disloyal to my team",
+     "Not feeling qualified enough"
+    ],
+    "respond": "Name each one back to the room. The manager fear is the myth we just retired; the qualification fear is why matching runs on skills, never titles."
+   },
+   "debrief": "Myths punish ambition, and they only survive in silence. Vanderbilt is saying the opposite out loud: move, grow, stay.",
+   "watchFor": "Anyone hearing this as a promise of promotions. The commitment is visibility of opportunity and safety to pursue it, never a guaranteed yes.",
+   "transition": "Quick recap, then you build your findability card.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question."
+  },
+  "capstoneSay": "Now make it real. One skill or interest your title hides, in your own words. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+  "closeSay": "You leave findable on paper; make it true this week. Thursday's Thrive Thursday takes the next step: advocacy, the difference between a mentor who gives you advice and a sponsor who spends their credibility on you. Being findable gets you surfaced; being sponsored gets you chosen. See you Thursday.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone asks a launch-specific question the preview cannot answer",
+    "then": "Park it visibly: 'Good question, logging it for the program team.' Collect parked questions in chat and send them upward with the pulse; never guess at features."
+   },
+   {
+    "if": "A participant says their manager punishes people for looking internally",
+    "then": "Take it seriously and keep it roles-only: 'If that is happening, there are channels for it, and I will point you to them after.' Restate the policy plainly; never litigate a specific manager on the call."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Will my manager be notified if I update my profile or get matched?",
+    "a": "Your profile is yours, and keeping it current is normal professional upkeep, expected of everyone this month. Best practice is to bring your named interest to your manager yourself; a manager who knows your direction can advocate for it."
+   },
+   {
+    "q": "Is this just a way to move people into jobs nobody wants?",
+    "a": "The matching starts from your skills and your named interests, and you can always say no. Surfacing is an offer; nothing about the Portal drafts anyone anywhere."
+   },
+   {
+    "q": "I have been in the same role for fifteen years. Is this really for me?",
+    "a": "Especially for you. Long tenure usually means a deep skill set and a thin profile. The skills sweep is where fifteen years of capability finally gets written down, and stretch projects surface for exactly that depth."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes on the Transfer Portal. A first look at how internal opportunities will start finding you. Bring nothing but an open question: what do I want next? Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the findability move happen? Three lines, reply whenever: 1) Did the move on your card happen? 2) What did you claim that your title never showed? 3) What direction did you name?"
+   }
+  ]
+ }
 }

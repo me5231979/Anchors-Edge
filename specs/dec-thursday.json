@@ -1,258 +1,406 @@
 {
-  "slug": "dec-thursday",
-  "series": "Thrive Thursday",
-  "month": "December 2026",
-  "monthShort": "Dec",
-  "monthIndex": 3,
-  "theme": "AI at Work: Start Where You Are",
-  "goal": 3,
-  "title": "Steady in the Fog",
-  "titleHtml": "Stay steady <em class=\"gold-text\">before the fog lifts</em>.",
-  "tagline": "Softskill · Adaptability: leading through ambiguity.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: build adaptability for seasons of change by sorting known from unknown, running small experiments while certainty catches up, and helping colleagues stay steady.",
-  "heroLead": "Workplaces change faster than answers arrive, and this year AI is the loudest example. Adaptability is a skill you can practice: sort what is known from what is guessed, take one small step that buys information, and be the steady voice a colleague needs.",
-  "objectives": [
-    "Sort a changing situation into known, unknown, and assumption",
-    "Design one small experiment that buys information while certainty catches up",
-    "Use grounding language that helps a worried colleague stay steady"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Adaptability"},
-    {"label": "Resilience"},
-    {"label": "Peer Support"}
-  ],
-  "missionTie": "Defining the great university of the 21st Century means working through seasons where the answers are still forming. Staff who stay adaptable keep Exceptional Core Operations moving while the certainty catches up.",
-  "goalLead": "An AI-ready workforce is mostly an adaptable one. Today builds the personal skill underneath this month's theme: moving forward on incomplete information with your footing intact.",
-  "agenda": [
-    {"t": "Known, unknown, assumed", "d": "The fastest way to shrink ambiguity: sort it into three honest piles."},
-    {"t": "The small experiment", "d": "One reversible step that buys real information this week."},
-    {"t": "Steady the room", "d": "What to say when a colleague is spiraling about change."}
-  ],
-  "manifesto": "Certainty arrives late. Adaptable people learn while they wait.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Sort",
-      "dataTitle": "Known, unknown, assumed",
-      "eyebrow": "The Sort",
-      "headline": "Ambiguity shrinks when you <em>sort it</em>.",
-      "lead": "Most change anxiety comes from treating one big fog as one big threat. Sorting breaks the fog into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. The piles are always smaller than the fog.",
-      "group": "In pairs: name one workplace change on your mind, then each find one assumption you have been treating as a fact. 90 seconds each way.",
-      "solo": "Name one workplace change on your mind, then write one assumption you have been treating as a fact.",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The three-pile sort",
-          "text": "When change hits, write three lists: known (confirmed by someone accountable for it), unknown (nobody has decided yet), and assumed (a guess wearing a fact's clothes). Act on the first, watch the second, test the third."
-        },
-        "q": "A colleague says: 'They are bringing in AI, which means our jobs are going away.' Where does that second part belong?",
-        "opts": [
-          {"t": "Known: it was announced", "correct": false, "why": "Only the first half was announced. The tool is known; the conclusion about jobs is something the fog added on the way over."},
-          {"t": "Assumed: a guess wearing a fact's clothes", "correct": true, "why": "Exactly. Fear fuses facts to conclusions. Sorting splits them apart again, and assumptions become questions you can actually ask."},
-          {"t": "Unknown: nobody can say anything about it", "correct": false, "why": "Close, but an assumption is more specific than an unknown: it is a claim someone is already acting on. Name it, then test it or ask."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Experiment",
-      "dataTitle": "The small experiment",
-      "eyebrow": "The Step",
-      "headline": "Trade worry for a <em>small experiment</em>.",
-      "lead": "Waiting for certainty feels responsible and costs you the learning season. Adaptable people take one small, reversible step that buys information: try the tool on one chore, sit in on the new process once, ask the direct question. Small steps thin the fog.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Design the experiment",
-        "intro": "A new AI tool is rolling out in your area, and your role will change in ways nobody has fully described. Design the step you take this week.",
-        "runLabel": "Run the experiment",
-        "outcomeTag": "What you learn",
-        "slots": [
-          {
-            "key": "The step you take",
-            "opts": [
-              {"t": "Wait until leadership publishes the full plan.", "pts": 1, "coach": "Waiting feels safe and teaches nothing. The plan will arrive eventually; your readiness can start now."},
-              {"t": "Read everything published about the tool and the rollout.", "pts": 2, "coach": "Reading builds background and stays secondhand. At some point the only remaining information lives in the doing."},
-              {"t": "Use the tool on one green-light chore from your own week.", "pts": 3, "coach": "One reversible, chore-sized trial. You learn what it actually does to your work, which is the exact unknown that worries people."}
-            ]
-          },
-          {
-            "key": "How you close the loop",
-            "opts": [
-              {"t": "Move on; you tried it and that is enough.", "pts": 1, "coach": "Unexamined experiments leak their value. Without one review moment, the trial becomes an anecdote rather than information."},
-              {"t": "Note privately what surprised you.", "pts": 2, "coach": "A private note captures the learning for you alone. Sharing what you found steadies colleagues who are still waiting."},
-              {"t": "Share one surprise and one open question with your team.", "pts": 3, "coach": "Now one experiment informs a whole room. Naming an open question out loud also gives colleagues permission to be mid-learning too."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "You traded a week of worrying for a week of knowing. The unknown got smaller and your team watched it happen.",
-          "mid": "You learned something and kept it small. The fog thinned for you; the room around you is still guessing.",
-          "weak": "Another week in the fog. The plan is still coming, and your readiness stayed exactly where it was."
-        },
-        "reactions": {
-          "strong": "A month later, colleagues bring their change questions to you, because you are the one who tried things. Adaptability quietly became part of your reputation.",
-          "mid": "Your notes prove useful when the rollout lands, and you wish you had compared them with someone earlier. Next experiment, you close the loop out loud.",
-          "weak": "The full plan finally arrives and answers half your questions. The other half were only ever answerable by trying, and that trying could have started weeks ago."
-        }
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "Steady the Room",
-      "dataTitle": "Steady the room",
-      "eyebrow": "The Steady Voice",
-      "headline": "Be the voice that <em>steadies</em>.",
-      "lead": "In a season of change, colleagues take their cue from whoever sounds grounded. Grounding has a shape: name the known, be honest about the unknown, point at one next step. Listen to three replies to the same worry and call what each does to the room.",
-      "group": "In pairs: recall a change announcement that rattled your area. Which voices steadied people, and what exactly did they say? 90 seconds each way.",
-      "solo": "Recall a change announcement that rattled your area. What did the steadiest voice around you actually say?",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Steady or spiral?",
-        "intro": "A worried colleague says: 'This AI rollout is going to change everything and nobody is telling us anything.' Call what each reply does.",
-        "progressWord": "Reply",
-        "labels": ["Steadies: grounds and moves", "Spirals: feeds the fear", "Dismisses: shuts it down"],
-        "passAt": 2,
-        "passMsg": "You can hear the difference. Steadying names the known, admits the unknown, and offers one next step.",
-        "failMsg": "Close. The tell: steadying is honest and specific. Spiraling adds heat to the guesswork; dismissing subtracts the feeling and leaves the fog.",
-        "items": [
-          {"q": "'Honestly, I heard it is worse than they are saying. Half the department should be worried.'", "answer": 1, "why": "Rumor stacked on rumor. It bonds over fear for a minute and leaves everyone less steady than it found them."},
-          {"q": "'You will be fine. Just relax; these things always blow over.'", "answer": 2, "why": "Meant kindly, lands as dismissal. The worry goes underground, and the colleague stops bringing you real concerns."},
-          {"q": "'Here is what is confirmed and what is still open. Want to try the tool on one small task with me this week?'", "answer": 0, "why": "Known named, unknown admitted, one small step offered together. That is the full steadying move, and anyone can learn it."}
-        ]
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "What is the fastest first move when a change feels overwhelming?",
-      "opts": ["Wait for the full official plan", "Sort it into known, unknown, and assumed", "Ask leadership for certainty", "Push the feeling aside and keep working"],
-      "correct": 1,
-      "why": "The three piles are always smaller than the fog. Act on the known, watch the unknown, and test the assumptions."
-    },
-    {
-      "q": "What makes an experiment the adaptable response to ambiguity?",
-      "opts": ["It proves you were right", "It is small, reversible, and buys real information", "It replaces the official plan", "It commits the whole team at once"],
-      "correct": 1,
-      "why": "The point is learning, cheaply and this week. One chore-sized trial teaches what a month of waiting never will."
-    },
-    {
-      "q": "A colleague is spiraling about the AI rollout. The steadying reply...",
-      "opts": ["Reassures them everything will be fine", "Passes along what you heard on the grapevine", "Names the known, admits the unknown, offers one step", "Changes the subject to lighter things"],
-      "correct": 2,
-      "why": "Steadying is honest and specific. Reassurance without facts reads as dismissal, and rumors add heat to the fog."
-    }
-  ],
-  "recapMsgs": {
-    "high": "You have the sort, the step, and the steady voice. Point them at a real change.",
-    "mid": "Solid. Revisit the three-pile sort, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+ "slug": "dec-thursday",
+ "series": "Thrive Thursday",
+ "month": "December 2026",
+ "monthShort": "Dec",
+ "monthIndex": 3,
+ "theme": "The Vanderbilt Manager Standard",
+ "goal": 2,
+ "title": "Clarity That Sticks",
+ "titleHtml": "Clarity that <em class=\"gold-text\">sticks</em>.",
+ "tagline": "Clarity as a two-way skill: ask, restate, and close the loop in writing.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: ask for clear expectations, restate them in your own words, and close the loop in writing so agreements survive the week.",
+ "heroLead": "Most dropped balls were never caught to begin with: two people left the same conversation carrying two different versions of it. Clarity is a skill with three moves anyone can run: ask, say it back, close the loop in writing. Today you learn all three.",
+ "objectives": [
+  "Ask the three clarity questions before accepting any significant task",
+  "Restate an expectation in your own words and surface the gaps early",
+  "Close the loop in writing the same day so the agreement survives"
+ ],
+ "skills": [
+  {
+   "label": "Communicates with clarity",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My adaptability move",
-    "headline": "Meet the fog with a <em>move</em>.",
-    "lead": "Name the change that is actually on your mind this season. Situations and roles only, never names; nothing you type is saved or sent.",
-    "whoLabel": "The change on your mind, and the assumption you most need to test.",
-    "whoPlaceholder": "e.g. AI rollout in our unit; assuming my reporting work disappears",
-    "practiceLabel": "Which move do you make?",
-    "whoRow": "The change and the assumption",
-    "practices": [
-      {"id": "sort", "chip": "The three-pile sort", "name": "The three-pile sort", "move": "Write the known, unknown, and assumed lists for your change, then pick one assumption to test or ask about."},
-      {"id": "experiment", "chip": "The small experiment", "name": "The small experiment", "move": "Take one reversible, chore-sized step that buys information, and share one surprise with your team."},
-      {"id": "steady", "chip": "The steadying talk", "name": "The steadying talk", "move": "Find the colleague most rattled by the change. Name the known, admit the unknown, offer one small step together."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Today", "out": "The move happens today, while the change is loud and the learning is cheap."},
-      {"id": "week", "chip": "This week", "out": "The move happens this week, on your calendar by Friday."},
-      {"id": "nextwave", "chip": "When the next wave hits", "out": "The move becomes your standing response: the next time change news lands, you sort before you worry."}
-    ],
-    "cardTitle": "My adaptability card",
-    "evidenceRow": "Afterward, one line: what did the step teach you that waiting would have hidden?"
+  {
+   "label": "Expectation Setting"
   },
-  "closing": {
-    "headline": "The fog is certain. <em>So is your footing.</em>",
-    "lead": "You built the sort, the small experiment, and the steadying voice. That completes this week of AI at Work: Monday's tone, Tuesday's first win, and today's skill for everything the season changes next.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the move on your card",
-    "nextBody": "Run it exactly as built: the sort, the step, or the steadying talk, plus one line about what it taught you. The navigator-led First-AI-Win sandbox session is a friendly place to run a small experiment with help nearby.",
-    "brandline": "Sort the fog. Then take the step."
-  },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December is the AI at Work month, and this session lands even for people who missed Monday and Tuesday.",
-    "pulse": "Seven days out, send the pulse: 'Did the move on your card happen? What did it teach you that waiting would have hidden? What is your next small experiment?' Count of completed adaptability moves is the Level 3 metric for the week.",
-    "s1": {
-      "title": "Known, unknown, assumed",
-      "purpose": "Teach the three-pile sort that shrinks ambiguity into actionable pieces.",
-      "say": "Here is the shorthand for every change season: the fog is never as big as it feels. Most of what makes ambiguity heavy is that it arrives unsorted. So the first adaptability skill is a sorting move. Three piles: known, meaning confirmed by someone accountable for it; unknown, meaning genuinely undecided; and assumed, which is a guess wearing a fact's clothes. The piles are always smaller than the fog.",
-      "facilitate": [
-        "Read the concept card aloud, once, slowly.",
-        "Run the knowledge check; ask which answer people picked before revealing.",
-        "Run the breakout: one assumption dressed up as a fact, 90 seconds each way."
-      ],
-      "ask": {
-        "q": "Think of a change on your own plate. What is one assumption you have been treating as a fact?",
-        "expect": ["Job or role fears stated as certainties", "Beliefs about what leadership has decided", "Timelines nobody actually announced"],
-        "respond": "Notice how each one turns into a question the moment it is named. Assumptions are only dangerous while they stay disguised."
-      },
-      "debrief": "Act on the known, watch the unknown, test the assumed. That single sort is most of what calm people are doing.",
-      "watchFor": "The sort turning into a gripe session about specific leaders or colleagues. Keep it on situations and roles, never names, and steer each pile toward testable statements.",
-      "transition": "The sort tells you where the fog is. The next skill walks into it.",
-      "coreNote": "Core: read the card, run the check, ask for one assumption in chat."
-    },
-    "s2": {
-      "title": "The small experiment",
-      "purpose": "Replace waiting for certainty with one small, reversible, information-buying step.",
-      "say": "Here is the adaptable move nobody teaches: when you cannot get certainty, buy information. A small experiment is one reversible, chore-sized step taken this week: try the new tool on one task, sit in on the new process once, ask the direct question. This month the obvious experiment is an AI one, and Tuesday's traffic light keeps it safe: green chores, public or generic, are the perfect testing ground.",
-      "facilitate": [
-        "Run Design the experiment; two minutes to make both choices and run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: a reversible step plus a shared close-out."
-      ],
-      "ask": {
-        "q": "Why does sharing one surprise with your team beat keeping the learning private?",
-        "expect": ["It steadies people who have yet to try", "It makes being mid-learning normal", "Others correct or extend what you found"],
-        "respond": "All three. One experiment shared is a team's worth of fog cleared, which is why the close-out is half the move."
-      },
-      "debrief": "Small, reversible, this week, then shared. Experiments are how adaptable people wait.",
-      "watchFor": "Experiments scoped too big to be safe or reversible. Shrink them out loud: if it cannot be undone or finished this week, it is a project, and projects need a plan.",
-      "transition": "You can steady yourself now. The last skill steadies the people around you.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "s3": {
-      "title": "Steady the room",
-      "purpose": "Give learners the steadying reply: name the known, admit the unknown, offer one step.",
-      "say": "Every changing workplace has two contagious moods, spiral and steady, and whichever one speaks most confidently spreads. Steadying has a learnable shape: name what is actually known, admit what is genuinely unknown, and offer one small step, ideally together. You are about to hear three replies to the same worried colleague. Call what each one does to the room.",
-      "facilitate": [
-        "Run Steady or spiral? live; everyone plays on their own screen.",
-        "After the dismissive reply, pause: ask why kindness landed as shutdown.",
-        "Close with the shape typed in chat: known, unknown, one step."
-      ],
-      "ask": {
-        "q": "Why does 'you will be fine, just relax' fail even when it is meant kindly?",
-        "expect": ["It skips the person's actual question", "It ends the conversation", "It sounds like the speaker knows something they do not"],
-        "respond": "Right. Comfort without content reads as dismissal. The steadying reply does more work and takes only one more sentence."
-      },
-      "debrief": "Known, unknown, one step. Honest and specific beats confident and vague, every season.",
-      "watchFor": "The belief that steadying requires having answers. Stress the middle of the shape: admitting the unknown is what makes the known believable.",
-      "transition": "Quick recap, then you build your own card.",
-      "coreNote": "Core: run the trainer, skip the pause, take one voice on the debrief."
-    },
-    "capstoneSay": "Now make it real. One change that is actually on your mind, one assumption you need to test, one move from today. Situations and roles, never names. Build the card, pick your window, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
-    "closeSay": "That closes the first week of AI at Work. You have Monday's tone, Tuesday's first win, and today's footing for everything the season changes next. Make your move this week and bring what it taught you back to your team. Next week Anchor's Edge rolls on with Manager Monday, and the First-AI-Win sandbox session and the LinkedIn Learning course Generative AI for Business Leaders are there all month whenever you want them. Steady the room you are in.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "The breakout surfaces a genuinely painful change, like a reorganization in progress", "then": "Acknowledge it plainly and keep the tools pointed at it: the sort and the small step work hardest on real changes. Offer a follow-up conversation offline rather than processing it live."},
-      {"if": "Someone challenges the premise: leadership should just communicate better", "then": "Agree without surrendering the session: better communication and personal adaptability are both real needs. This hour builds the half that is in the room's control."}
-    ],
-    "toughQuestions": [
-      {"q": "Isn't this just telling us to cope with poor communication from above?", "a": "Adaptability and good communication are complements, and this session only claims the personal half. The sort even helps you ask better questions upward: a named assumption is a question leadership can actually answer, while general anxiety is much harder to respond to."},
-      {"q": "What if my experiment goes wrong and makes things worse?", "a": "That is what the two design rules protect: chore-sized and reversible. On AI experiments, the traffic light adds the safety rail: green chores only, so the worst case is a draft you discard. An experiment that cannot fail safely is scoped too big; shrink it until it can."},
-      {"q": "How do I steady a colleague when I am worried too?", "a": "Use the shape anyway; honesty is the requirement, and calm is usually the result. Naming the known and the unknown out loud steadies the speaker as much as the listener, and offering a shared step means neither of you waits alone."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on staying steady through change. Bring one workplace change that is genuinely on your mind; you will never be asked to name people. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the move happen? Three lines, reply whenever: 1) Did the adaptability move on your card happen? 2) What did it teach you that waiting would have hidden? 3) What is your next small experiment?"}
-    ]
+  {
+   "label": "Collaboration"
   }
+ ],
+ "missionTie": "A university out to define the century loses more hours to fuzzy expectations than to hard problems. Every person who asks, restates, and closes the loop in writing is Exceptional Core Operations happening one handoff at a time.",
+ "goalLead": "The manager standard leans hard on expectation-setting, and that skill has two chairs. Clarity is the half everyone owns, whichever chair you sit in today.",
+ "agenda": [
+  {
+   "t": "The clarity ask",
+   "d": "Three questions that turn a vague request into a real expectation."
+  },
+  {
+   "t": "Say it back",
+   "d": "Restating in your own words, and judging when a handoff is clear enough to act on."
+  },
+  {
+   "t": "Close the loop",
+   "d": "The same-day written line that makes an agreement survive the week."
+  }
+ ],
+ "manifesto": "If it only exists in the conversation, it does not exist yet.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Ask",
+   "dataTitle": "The clarity ask",
+   "eyebrow": "The Ask",
+   "headline": "Vague requests deserve <em>better questions</em>.",
+   "lead": "Make it better. Circle back soon. Own this going forward. Requests like these feel clear in the moment and dissolve by Tuesday. The fix is three questions anyone can ask anyone: what does done look like, when is it actually needed, and who makes the call?",
+   "group": "In pairs: name a current task where you could not describe what done looks like. What would you ask, and of whom? 90 seconds each way.",
+   "solo": "Name one current task where you cannot describe what done looks like. Write the clarity question you will ask, and to whom.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The three clarity questions",
+     "text": "Before accepting any significant task, get answers to three things: what does done look like, when is it actually needed, and who makes the final call? Asking them is a service to the requester; every one you skip becomes a guess you own."
+    },
+    "q": "Quick check: asking your manager what done looks like is...",
+    "opts": [
+     {
+      "t": "Risky; it could read as pushback",
+      "correct": false,
+      "why": "Vagueness is the risky option; you inherit every wrong guess. A clarity question early costs seconds and reads as ownership."
+     },
+     {
+      "t": "A service to you both",
+      "correct": true,
+      "why": "Exactly. The requester usually discovers their own picture is fuzzy while answering. You just saved the rework."
+     },
+     {
+      "t": "Only worth it on big projects",
+      "correct": false,
+      "why": "Small fuzzy tasks pile up into the same rework as big ones. The questions take ten seconds; make them a reflex."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "Say It Back",
+   "dataTitle": "Say it back",
+   "eyebrow": "The Restate",
+   "headline": "The restate finds gaps while they are <em>cheap</em>.",
+   "lead": "Restating an expectation in your own words is the cheapest test it will ever get. If your version matches theirs, you start with confidence. If it differs, you found the gap while it costs minutes. The judgment call: act, say it back, or get it in writing.",
+   "group": "Breakout pairs: name a live handoff in your work that nobody has said back yet. What would your restate be? 90 seconds each way.",
+   "solo": "Name a live handoff nobody has said back yet. Write your one-sentence restate of it.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Clear enough?",
+    "intro": "Three handoffs from a normal week. Call whether you can act, need to say it back, or need it in writing.",
+    "progressWord": "Handoff",
+    "labels": [
+     "Clear, start working",
+     "Fuzzy, say it back",
+     "Agreed, close the loop in writing"
+    ],
+    "passAt": 2,
+    "passMsg": "You can hear the difference. Clear gets action, fuzzy gets a restate, and every verbal agreement gets a written shadow.",
+    "failMsg": "Close. The tell: look for done, deadline, and decider. Missing any of them, say it back. Agreed out loud only, write it down.",
+    "items": [
+     {
+      "q": "A colleague asks you to tighten up the proposal before it goes to the dean's office next month.",
+      "answer": 1,
+      "why": "Tighten up could mean trim the wording or rebuild the budget section. Say back your version of done and let them correct it while it is cheap."
+     },
+     {
+      "q": "Your manager asks for the three enrollment charts, in the shared deck, by Thursday at noon.",
+      "answer": 0,
+      "why": "Done, deadline, and destination are all named. Restating a fully clear request can read as stalling; this one you just do."
+     },
+     {
+      "q": "In a hallway chat, you and a peer split a project: you take the data pull, they take the writeup.",
+      "answer": 2,
+      "why": "Verbal splits evaporate by Friday. One same-day message naming who owns what turns a nice chat into an agreement."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "Close the Loop",
+   "dataTitle": "Close the loop",
+   "eyebrow": "The Close",
+   "headline": "Agreements survive <em>in writing</em>.",
+   "lead": "The last move happens after the conversation: a short written line, same day, saying what you heard and what happens next. Ninety seconds of typing is the difference between an agreement and a memory. Build the close you would actually send.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Write the close",
+    "intro": "You just left a planning conversation with real commitments in it. Choose how you restate and how you close the loop.",
+    "runLabel": "Send it",
+    "outcomeTag": "Two weeks later",
+    "slots": [
+     {
+      "key": "How you restate in the room",
+      "opts": [
+       {
+        "t": "Got it, sounds good, will do.",
+        "pts": 1,
+        "coach": "Agreement noises test nothing. You can nod along to an expectation you heard completely differently, and people often do."
+       },
+       {
+        "t": "Repeat their exact words back to them.",
+        "pts": 2,
+        "coach": "Parroting proves you listened. Your own words prove you understood, and that is the version that exposes a gap."
+       },
+       {
+        "t": "So done means the draft to you by Friday, and I own the data section. Missing anything?",
+        "pts": 3,
+        "coach": "Own words, specifics, and an invitation to correct. This is the restate that finds the gap while fixing it is free."
+       }
+      ]
+     },
+     {
+      "key": "How you close the loop",
+      "opts": [
+       {
+        "t": "No follow-up; the conversation was clear enough.",
+        "pts": 1,
+        "coach": "Even a perfect conversation fades. In two weeks you will both trust your memories, and your memories will disagree."
+       },
+       {
+        "t": "A recap message sometime next week, when things calm down.",
+        "pts": 2,
+        "coach": "Right move, late clock. By next week you are writing what you remember instead of what was said. Same day is the whole trick."
+       },
+       {
+        "t": "A three-line message the same day: what I heard, what I own, by when.",
+        "pts": 3,
+        "coach": "Same day, short, and checkable. Anyone who misread the meeting now has a cheap moment to say so, in writing."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "An agreement with a paper trail. Everyone can point at the same words all month.",
+     "mid": "A good conversation with a slow echo. Most of it survived; the fuzzy edges did not.",
+     "weak": "A warm memory. Two people are now working from two different meetings."
+    },
+    "reactions": {
+     "strong": "Two weeks later a scope question pops up and gets settled in one minute by scrolling to your message. The project never even noticed the wobble.",
+     "mid": "Your late recap mostly matched their memory. The one line that did not is the deliverable currently being built twice.",
+     "weak": "The deadline arrives and so does the surprise: they expected the full draft, you finished the data section. The chat was pleasant; the rework is real."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Before accepting a significant task, you should know...",
+   "opts": [
+    "The requester's mood",
+    "Done, deadline, and who decides",
+    "Whether others got similar tasks",
+    "The full project history"
+   ],
+   "correct": 1,
+   "why": "Those three answers turn a request into an expectation. Every one you skip becomes a guess you own later."
+  },
+  {
+   "q": "The best restate is...",
+   "opts": [
+    "Their exact words, repeated back",
+    "A quick yes to keep things moving",
+    "Your own words, plus an invitation to correct",
+    "A summary email next week"
+   ],
+   "correct": 2,
+   "why": "Your own words test understanding, and the invitation makes correcting you cheap. Gaps found now cost minutes."
+  },
+  {
+   "q": "A verbal agreement becomes durable when...",
+   "opts": [
+    "Both people are experienced",
+    "You write it down the same day",
+    "The stakes are low enough",
+    "Your manager was in the room"
+   ],
+   "correct": 1,
+   "why": "Same-day writing captures what was said instead of what got remembered. Ninety seconds now beats an argument later."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The three moves are loaded. Aim them at one real expectation.",
+  "mid": "Solid. Revisit the section you missed, then build your clarity card.",
+  "low": "Worth a second pass through the three moves before you pick your expectation."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My clarity move",
+  "headline": "One fuzzy expectation, <em>made solid.</em>",
+  "lead": "Pick a real expectation in your week that would fail the done test. Roles only, never names; nothing you type is saved or sent.",
+  "whoLabel": "Which expectation, and with whom? Roles only.",
+  "whoPlaceholder": "e.g. the dashboard refresh; my manager and the ops lead",
+  "practiceLabel": "Which move does it need first?",
+  "whoRow": "The expectation and the people",
+  "practices": [
+   {
+    "id": "ask",
+    "chip": "The clarity ask",
+    "name": "The clarity ask",
+    "move": "Ask the three questions out loud: what does done look like, when is it actually needed, who decides?"
+   },
+   {
+    "id": "restate",
+    "chip": "The say-back",
+    "name": "The say-back",
+    "move": "Restate the expectation in your own words and end with: am I missing anything?"
+   },
+   {
+    "id": "close",
+    "chip": "The written close",
+    "name": "The written close",
+    "move": "Send a three-line same-day message: what I heard, what I own, by when."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The move happens today, while the expectation is still cheap to fix."
+   },
+   {
+    "id": "next",
+    "chip": "At the next touchpoint",
+    "out": "The move opens your next conversation about that work, first thing."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "Done by Friday, before the fuzzy version does any damage."
+   }
+  ],
+  "cardTitle": "My clarity card",
+  "evidenceRow": "Afterward, one line: what gap did the restate or the written close surface?"
+ },
+ "closing": {
+  "headline": "Clear is a <em>kindness</em>.",
+  "lead": "You have the ask, the say-back, and the written close: three small moves that spare everyone the expensive kind of surprise. That wraps the manager standard week.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Run your clarity card",
+  "nextBody": "Ask, restate, or close the loop on the expectation you named. Notice what the move surfaces; that gap was headed for your calendar anyway.",
+  "brandline": "Ask. Say it back. Write it down."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; pairs naturally with this week's Monday and Tuesday sessions.",
+  "pulse": "Seven days out, send the pulse: 'Did you run the move on your clarity card? What gap did it surface? Which of the three moves is becoming a reflex?' Count of completed clarity moves is the month's practice signal.",
+  "s1": {
+   "title": "The clarity ask",
+   "purpose": "Install the three clarity questions as a reflex before accepting significant work.",
+   "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, circle back soon, own this going forward. Those requests feel clear for about an hour. Three questions rescue them, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
+   "facilitate": [
+    "Read the concept card once; let it sit.",
+    "Run the knowledge check; everyone answers on their own screen.",
+    "Run the breakout on the task with no picture of done."
+   ],
+   "ask": {
+    "q": "What makes people swallow the clarity questions instead of asking them?",
+    "expect": [
+     "Fear of looking slow",
+     "Assuming it will become clear later",
+     "Power distance with the requester"
+    ],
+    "respond": "All real. Here is the reframe: the requester usually has a fuzzy picture too, and your question does them a favor. Later never clarifies anything on its own."
+   },
+   "debrief": "Done, deadline, decider. Three answers turn a request into an expectation; skipped, they turn into guesses you own.",
+   "watchFor": "People treating this as manager-only material. Keep the framing two-way: peers hand each other fuzzy work constantly.",
+   "transition": "Asking is half the skill. The other half is proving you heard it right.",
+   "coreNote": "Core: skip the breakout; ask for one fuzzy task in chat instead."
+  },
+  "s2": {
+   "title": "Say it back",
+   "purpose": "Train the restate: judging when an expectation is clear enough to act on and testing it in your own words.",
+   "say": "The restate is the cheapest quality check in working life. You say the expectation back in your own words and end with: am I missing anything? Ninety percent of the time you get a nod and free confidence. The other ten percent you find a gap while it still costs minutes instead of weeks. Let's train the judgment call.",
+   "facilitate": [
+    "Run Clear enough? live; everyone plays on their own screen.",
+    "Pause after the hallway-agreement round; that one splits the room usefully.",
+    "Run the breakout on the handoff nobody has said back."
+   ],
+   "ask": {
+    "q": "Why can restating a fully clear request backfire?",
+    "expect": [
+     "Reads as stalling",
+     "Signals you were not listening",
+     "Slows a fast moment"
+    ],
+    "respond": "Right, so the skill includes knowing when to just start. Restate when done, deadline, or decider is missing; act when all three are on the table."
+   },
+   "debrief": "Look for done, deadline, decider. Missing any, say it back in your own words. All present, start working.",
+   "watchFor": "Word-for-word parroting in the examples. Push for own words: parroting proves listening, restating proves understanding.",
+   "transition": "One move left: making the agreement survive the week.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "s3": {
+   "title": "Close the loop",
+   "purpose": "Make the same-day written close a habit: what I heard, what I own, by when.",
+   "say": "Every agreement has a half-life. The conversation was perfect, everyone nodded, and two weeks later there are two honest, different memories of it. The written close stops the decay: three lines, same day. What I heard, what I own, by when. Ninety seconds of typing that replaces hours of rework, so let's build the one you would actually send.",
+   "facilitate": [
+    "Run Write the close; give the room two minutes for both choices.",
+    "Ask one volunteer to read their two-weeks-later outcome aloud.",
+    "Point at the pattern: own words in the room, written words the same day."
+   ],
+   "ask": {
+    "q": "Why same day, specifically?",
+    "expect": [
+     "Memory decays fast",
+     "Next week you write what you remember",
+     "It keeps the correction cheap"
+    ],
+    "respond": "Exactly. The close documents the conversation while both memories still match. A week later you are writing fiction in good faith."
+   },
+   "debrief": "Three lines, same day: what I heard, what I own, by when. Short enough to always send, specific enough to settle arguments.",
+   "watchFor": "People drafting long formal recaps. Keep it to three lines; the habit survives only while it stays cheap.",
+   "transition": "Quick recap, then you pick your real expectation.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Now aim it at something real. One expectation in your week that would fail the done test. Name it, roles only, pick your move and your window, and build the card. Copy it somewhere you will see it tomorrow. Two minutes, quiet, go.",
+  "closeSay": "That closes the manager standard week. Monday named the behaviors, Tuesday put the Oracle tools in your hands, and today you got the clarity moves that make expectations stick from either chair. If you want to keep pulling the thread this month, the LinkedIn Learning course New Manager Foundations with Todd Dewett is open to everyone, and the navigators are running a walk-through clinic on the standard itself. Next week the rhythm continues, and December opens a brand new theme. Go run your clarity card first.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone names a real colleague while describing a fuzzy expectation",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The moves work on any expectation; the room never needs to know whose."
+   },
+   {
+    "if": "A learner says the written close feels passive-aggressive in their team culture",
+    "then": "Offer the friendly framing live: 'So I don't drop anything, here is what I have.' A close that reads as self-management lands well everywhere; tone is choosable."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Won't constant clarity questions annoy busy senior people?",
+    "a": "Three targeted questions asked once beat a week of guessing followed by rework they have to review. Busy people benefit most from your clarity. The annoying version is vague questions asked repeatedly, which is exactly what the three-question form prevents."
+   },
+   {
+    "q": "What if I restate and the other person gets impatient?",
+    "a": "Keep it to one sentence and frame it as a service: quick check so I build the right thing. If a ten-second restate still lands badly, that tells you something about the expectation's real clarity, and you just learned it early."
+   },
+   {
+    "q": "Isn't putting things in writing a trust problem?",
+    "a": "The close is written to help both people, and it reads that way when it is short, same-day, and framed as keeping yourself organized. Manager Monday taught the other chair to set expectations visibly; your written close is the matching half of the same standard."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on clarity that sticks. Bring one current task or handoff that feels fuzzier than anyone has admitted. You will never be asked to name people. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the clarity move happen? Three lines, reply whenever: 1) Did you run the move on your clarity card? 2) What gap did it surface? 3) Which of the three moves is closest to becoming a reflex?"
+   }
+  ]
+ }
 }
