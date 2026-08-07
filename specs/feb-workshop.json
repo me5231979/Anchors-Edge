@@ -55,12 +55,12 @@
    "dataTitle": "Draft the real one",
    "eyebrow": "The Draft",
    "headline": "Write it for <em>one real person</em>.",
-   "lead": "Beverly Kaye and Sharon Jordan-Evans, who coined the stay interview, built it on two questions: why do you stay, and what would make staying easier? Draft yours for one real person, role only, with an opening that proves you noticed them.",
+   "lead": "Beverly Kaye and Sharon Jordan-Evans built the stay interview on two questions: why do you stay, and what would make staying easier? Draft yours for one real person, role only.",
    "source": {
-    "label": "Stay interviews, Beverly Kaye and Sharon Jordan-Evans (Hello Stay Interviews, Berrett-Koehler)",
+    "label": "Stay interviews, Kaye and Jordan-Evans (Hello Stay Interviews)",
     "url": "https://www.penguinrandomhouse.com/books/580390/hello-stay-interviews-goodbye-talent-loss-by-beverly-kaye-and-sharon-jordan-evans/9781626563476/"
    },
-   "group": "At your table: read your opening aloud. The table answers with the first thing the employee would feel, then helps you sharpen it until it lands as attention.",
+   "group": "At your table: read your opening aloud. The table answers with what the employee would feel first, then helps you sharpen it.",
    "interaction": {
     "type": "check",
     "card": {
@@ -163,12 +163,12 @@
    "dataTitle": "Debrief and book",
    "eyebrow": "The Debrief",
    "headline": "The answers are a <em>to-do list</em>.",
-   "lead": "Gallup found just over half of people who quit say their manager or organization could have kept them. Keeping them looks like this sort: answers you act on, answers you carry upward, and warnings that get a follow-up booked now. Then open the calendar.",
+   "lead": "Gallup found just over half of people who quit say they could have been kept. Keeping them looks like this sort: act, carry upward, or book the follow-up now. Then open the calendar.",
    "source": {
     "label": "Gallup, This Fixable Problem Costs U.S. Businesses $1 Trillion",
     "url": "https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx"
    },
-   "group": "At your table: each pair reports one line that landed and one answer that would be hardest to act on. The table sorts each hard answer: yours, upward, or follow-up.",
+   "group": "Each pair reports one line that landed and one answer that would be hardest to act on. The table sorts each hard one.",
    "interaction": {
     "type": "trainer",
     "playTitle": "Sort the answer",

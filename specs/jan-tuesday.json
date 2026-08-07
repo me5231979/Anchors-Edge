@@ -180,11 +180,11 @@
    "dataTitle": "Check before you use",
    "eyebrow": "The Check",
    "headline": "You are the <em>editor</em>.",
-   "lead": "AI drafts with total confidence and zero guarantee. Sometimes it invents a detail or strikes a tone you would never use. The rule that keeps you safe is simple: the draft ships after you have read every line and can stand behind every fact.",
+   "lead": "AI drafts with total confidence and zero guarantee. Sometimes it invents a detail or strikes a tone you would never use. The draft ships after you can stand behind every fact in it.",
    "group": "In pairs: tell each other about a time a confident-sounding document turned out to be wrong. What would have caught it? 90 seconds each way.",
    "solo": "Recall a time a confident-sounding document turned out to be wrong. What would have caught it?",
    "source": {
-    "label": "The jagged frontier study, Dell'Acqua, Mollick and colleagues (Harvard Business School)",
+    "label": "The jagged frontier study, Dell'Acqua and Mollick (HBS)",
     "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
    },
    "deeper": {
