@@ -145,6 +145,29 @@ write should delay the objectives: `heroLead` is capped at 170 chars
 (one or two working sentences, no throat-clearing), `missionTie` is one
 sentence that earns its place, and agenda descriptions are plain.
 
+## Instructional tone (these are training courses)
+
+Write like an experienced trainer teaching working adults, not like a
+campaign. Adult learning principles apply (Knowles: adults learn what
+solves their real problems, drawing on their own experience, applied
+immediately; Merrill: show it, let them do it, connect it to the job).
+In practice:
+- Body copy states the skill, why it matters to the learner's actual
+  work, and how to do it. Plain declarative instruction. "When a task
+  refuses to sort, split it into steps" beats "Flight risk has a sound."
+- Section leads open with the concept or the learner's situation, never
+  with a hook, an aphorism, or suspense. Save the craft for precision.
+- Respect the learner's experience: prompts ask them to test ideas
+  against their own work rather than telling them what they will feel.
+- Interaction framing is procedural: what to do, what to notice, what
+  good looks like. "Why this matters" lines give the real workplace
+  consequence, not drama.
+- Slide HEADLINES may keep the brand's short serif style, but they
+  should name the teaching point plainly (e.g. "Sort tasks, not jobs"),
+  not tease it.
+- The manifesto slide carries the course's one takeaway rule, stated as
+  an instruction a learner could act on.
+
 ## Humanizer rules (kill the AI tells)
 
 Copy must read like a sharp colleague wrote it, not a model. Beyond the

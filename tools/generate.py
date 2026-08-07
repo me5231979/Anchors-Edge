@@ -38,20 +38,20 @@ SERIES_SUB = {
 }
 
 # fixed session timing, identical across courses (sums checked below)
-FULL_MIN = {"s-welcome": 2, "s-mission": 2, "s-hero": 1, "s-agenda": 1,
+FULL_MIN = {"s-welcome": 2, "s-mission": 2, "s-hero": 2,
             "s-one": 9, "s-two": 11, "s-three": 9, "s-belief": 1,
             "s-recap": 4, "s-plan": 4, "s-close": 1}
-CORE_MIN = {"s-welcome": 1, "s-mission": 1, "s-hero": 1, "s-agenda": 0,
+CORE_MIN = {"s-welcome": 1, "s-mission": 1, "s-hero": 1,
             "s-one": 6, "s-two": 8, "s-three": 6, "s-belief": 0,
             "s-recap": 3, "s-plan": 3, "s-close": 1}
 assert sum(FULL_MIN.values()) == 45, sum(FULL_MIN.values())
 assert sum(CORE_MIN.values()) == 30, sum(CORE_MIN.values())
 
 # in-person navigator workshops run 90 full / 60 core
-WS_FULL = {"s-welcome": 3, "s-mission": 4, "s-hero": 2, "s-agenda": 2,
+WS_FULL = {"s-welcome": 3, "s-mission": 4, "s-hero": 3,
            "s-one": 21, "s-two": 23, "s-three": 21, "s-belief": 2,
-           "s-recap": 5, "s-plan": 5, "s-close": 2}
-WS_CORE = {"s-welcome": 2, "s-mission": 2, "s-hero": 1, "s-agenda": 1,
+           "s-recap": 5, "s-plan": 6, "s-close": 2}
+WS_CORE = {"s-welcome": 2, "s-mission": 2, "s-hero": 2,
            "s-one": 14, "s-two": 16, "s-three": 14, "s-belief": 1,
            "s-recap": 4, "s-plan": 3, "s-close": 2}
 assert sum(WS_FULL.values()) == 90, sum(WS_FULL.values())
@@ -86,7 +86,7 @@ def validate(spec, errors):
         check_len(val, LIMITS[key], path, errors)
     for f in ("slug", "series", "month", "monthShort", "theme", "goal", "title",
               "titleHtml", "tagline", "description", "heroLead", "objectives",
-              "skills", "missionTie", "agenda", "manifesto",
+              "skills", "missionTie", "manifesto",
               "sections", "recap", "capstone", "closing", "facilitator"):
         if f not in spec:
             errors.append("missing field: " + f)
@@ -103,9 +103,7 @@ def validate(spec, errors):
         L("objective", o, "objectives[%d]" % i)
     if not (3 <= len(spec["skills"]) <= 4):
         errors.append("need 3 or 4 skills")
-    if len(spec["agenda"]) != 3:
-        errors.append("need exactly 3 agenda items")
-    for i, a in enumerate(spec["agenda"]):
+    for i, a in enumerate(spec.get("agenda", [])):
         L("agenda_d", a["d"], "agenda[%d].d" % i)
     if len(spec["sections"]) != 3:
         errors.append("need exactly 3 sections")
@@ -350,9 +348,7 @@ def build_course(spec):
     sections_html = "".join(section_html(s, i + 1) for i, s in enumerate(spec["sections"]))
     nav_links = "".join('<a href="#%s">%s</a>' % (s["id"], esc(s["nav"])) for s in spec["sections"])
     objectives = "".join("<li>%s</li>" % esc(o) for o in spec["objectives"])
-    agenda = "".join(
-        '<li data-reveal><span class="num">%02d</span><div><h3>%s</h3><p>%s</p></div></li>'
-        % (i + 1, esc(a["t"]), esc(a["d"])) for i, a in enumerate(spec["agenda"]))
+    agenda = ""
     cap = spec["capstone"]
     practice_chips = "".join(
         '<button class="opt" data-id="%s"><span>%s</span></button>' % (p["id"], esc(p["chip"]))
@@ -449,16 +445,11 @@ def std_notes(spec):
              "No discussion here; the whole slide is under a minute."],
             {"transition": "Here is what you will be able to do in %d minutes." % F_TOT}),
         sec("s-hero", "Objectives",
-            "Set the contract for the session in under a minute.",
-            "By the end of this session: " + "; ".join(o.rstrip(".").lower() for o in spec["objectives"]) + ". That is the whole contract.",
-            ["Read the three objectives briskly; do not elaborate yet."],
-            {"transition": "Three stops to get there."}),
-        sec("s-agenda", "Agenda",
-            "Show the path so the room can pace itself.",
-            "Three stops: %s. Each one has something to play with, so keep the deck open." % ", ".join(a["t"].lower() for a in spec["agenda"]),
-            ["Point once at each stop; ten seconds each."],
-            {"coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-             "transition": "Stop one."}),
+            "Set the contract for the session in about a minute; this slide is also the roadmap.",
+            "By the end of this session you will be able to: " + "; ".join(o.rstrip(".").lower() for o in spec["objectives"]) + ". We take them in order, and each one has something to practice.",
+            ["Read the three objectives briskly; they double as the agenda.",
+             "Point at the goal chip once, then move."],
+            {"transition": "First objective."}),
     ]
     for key, id_ in (("s1", "s-one"), ("s2", "s-two"), ("s3", "s-three")):
         n = dict(fac[key])
