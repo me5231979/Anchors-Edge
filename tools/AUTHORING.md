@@ -187,20 +187,35 @@ audit for and remove:
 
 ## Ground it in real thinking (required)
 
-Each course carries 1 or 2 REAL frameworks or research findings from
-reputable sources: HBR, ATD, SHRM, Ethan Mollick, Deloitte, McKinsey,
-Gallup, Harvard, Stanford, Vanderbilt, CCL, Gartner, LinkedIn Workplace
-Learning research, and peers of that caliber. Requirements:
+Every course carries at least TWO real frameworks or research findings,
+on two different sections, from two different publishers. Draw from:
+SHRM, ATD, CUPA-HR (higher-ed HR data, especially apt for Vanderbilt),
+Deloitte, McKinsey, Gartner, Gallup, HBR, Harvard and HBS, Stanford and
+Stanford HAI, MIT Sloan, Forbes, the World Economic Forum, Ethan
+Mollick, Vanderbilt's own research and centers, CCL, LinkedIn Workplace
+Learning research, Google re:Work, and peers of that caliber.
+
+Diversity rule: do not lean on one publisher. Within a month's four
+experiences, no publisher may appear more than twice, and each month
+should reach at least three distinct publishers. ATD is the natural
+home for anything about training transfer, practice, and facilitation;
+CUPA-HR for higher-education workforce and turnover data; SHRM for HR
+practice; Forbes and WEF for workforce trend framing.
+
+Requirements:
 - Attach via the optional section field
   `"source": {"label": "...", "url": "https://..."}` (label limit 110,
   e.g. "Stay interviews, Beverly Kaye and Sharon Jordan-Evans (SHRM)").
-  It renders as a one-line "Grounded in:" citation on the slide.
+  It renders as a one-line "Grounded in:" citation on the slide. Keep
+  labels SHORT (aim 45 to 70 chars) so the line stays one row.
 - The URL must be real and load (verify with WebFetch before using;
   prefer stable publisher pages over paywalled deep links).
 - The framework must genuinely shape the section's teaching (name it in
   the lead, the facilitator say, or the deeper block), never be
   decoration. Misattributed or invented citations are worse than none.
-- One source line per section maximum; 1-2 per course total.
+- One source line per section maximum; 2 to 3 per course total, on
+  different sections. Adding a source adds height: if a section gains
+  one, trim its lead so the slide still fits one screen.
 
 ## Workshop specs (format: "workshop")
 
