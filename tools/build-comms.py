@@ -106,6 +106,7 @@ def build():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anchor's Edge · Comms Package</title>
 <meta name="robots" content="noindex">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <style>
   @font-face {{ font-family: 'Libre Caslon Display'; font-weight: 400;
     src: url('../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }}
@@ -123,13 +124,13 @@ def build():
     border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 18px; }}
   header img {{ width: 150px; }}
   h1 {{ font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }}
-  h1 em {{ font-style: italic; color: #946E24; }}
+  h1 em {{ font-style: italic; color: #8A6520; }}
   .eyebrow {{ font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }}
+    letter-spacing: .08em; font-size: 10px; color: #8A6520; margin: 0 0 6px; }}
   h2 {{ font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 19px;
     margin: 26px 0 10px; padding-top: 14px; border-top: 1px solid #E4E4E4;
     display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }}
-  .mnum {{ font-family: 'Antonio', Impact, sans-serif; color: #CFAE70; font-size: 17px; }}
+  .mnum {{ font-family: 'Antonio', Impact, sans-serif; color: #8A6520; font-size: 17px; }}
   .goalpill {{ font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .07em;
     font-size: 10px; color: #1C1C1C; background: rgba(207,174,112,.28); border: 1px solid rgba(148,110,36,.35);
     border-radius: 4px; padding: 3px 7px; }}
@@ -146,7 +147,7 @@ def build():
   .msg ul {{ margin: 0 0 8px; padding-left: 20px; }}
   .subj {{ border-bottom: 1px dashed #E4E4E4; padding-bottom: 6px; }}
   .mini {{ color: #555; margin: 0 0 4px; }}
-  a {{ color: #946E24; }}
+  a {{ color: #8A6520; }}
   .printbtn {{ position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
     padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }}
   @media print {{ .printbtn {{ display: none; }} .sheet {{ padding: 0; max-width: none; }} }}
@@ -154,7 +155,7 @@ def build():
 </head>
 <body>
 <button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
-<div class="sheet">
+<main class="sheet">
   <header>
     <div>
       <p class="eyebrow">Vanderbilt · Futures Learning Hub · Anchor's Edge · admin</p>
@@ -164,8 +165,11 @@ def build():
     <img src="../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
   </header>
   {sections}
-  <p class="mini" style="margin-top:16px;color:#777">Generated from the course specs by tools/build-comms.py. Regenerate after any title or tagline change.</p>
-</div>
+  <p class="mini" style="margin-top:16px;color:#6E6E6E">Generated from the course specs by tools/build-comms.py. Regenerate after any title or tagline change.</p>
+</main>
+<footer style="max-width:860px;margin:0 auto;padding:0 32px 28px;color:#6E6E6E;font-size:12px">
+  Anchor's Edge · Futures Learning Hub · Vanderbilt University
+</footer>
 </body>
 </html>
 """

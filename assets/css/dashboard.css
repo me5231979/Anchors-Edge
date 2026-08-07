@@ -64,9 +64,10 @@ a { color: inherit; }
 .on-dark .lead { color: rgba(255,255,255,.78); }
 
 /* ---------- 5. Reveal ---------- */
-[data-reveal] { opacity: 0; transform: translateY(14px); transition: opacity .4s var(--ease), transform .4s var(--ease); }
+[data-reveal] { opacity: 1; transform: none; }
+.js [data-reveal] { opacity: 0; transform: translateY(14px); transition: opacity .4s var(--ease), transform .4s var(--ease); }
 [data-reveal].in { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { [data-reveal] { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { [data-reveal], .js [data-reveal] { opacity: 1; transform: none; } }
 
 /* ---------- 6. Nav ---------- */
 .nav { position: fixed; inset: 0 0 auto 0; height: var(--nav-h); display: flex; align-items: center;
@@ -368,3 +369,44 @@ body.admin .session__signup { display: none; }
 @media (min-width: 1180px) { .rhythm-grid { grid-template-columns: repeat(5, 1fr); gap: 1.25rem; } }
 .rhythm-grid .feature p { font-size: .9rem; }
 .rhythm-grid .feature h3 { font-size: 1.25rem; }
+
+/* =====================================================================
+   ACCESSIBILITY (WCAG 2.2 AA)
+   ===================================================================== */
+:root { --vu-oak: #8A6520; --ink-soft: #4F4F4F; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--vu-oak);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.on-dark :where(a, button):focus-visible,
+.nav :where(a, button):focus-visible,
+.hero :where(a, button):focus-visible { outline-color: var(--vu-gold-flat); }
+.btn:focus-visible { outline: 3px solid var(--vu-black); outline-offset: 2px; }
+.on-dark .btn:focus-visible, .hero .btn:focus-visible { outline-color: #fff; }
+.admindot:focus-visible { outline: 3px solid var(--vu-gold-flat); outline-offset: 2px; }
+
+/* nav call-to-action is gold: force dark text so it clears AA */
+.nav__links a.btn, .nav__links a.btn:hover { color: var(--vu-black); }
+
+/* large decorative numerals need 3:1, gold on white does not reach it */
+.month__num, .mnum { color: var(--vu-oak); }
+
+@media (forced-colors: active) {
+  .gold-text { -webkit-text-fill-color: currentColor; background: none; color: CanvasText; }
+  .btn, .course, .month, .goal, .session, .feature--inperson { border: 1px solid CanvasText; }
+  .goal__scale > span { forced-color-adjust: none; background: Highlight; }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .nav { background: var(--vu-black); backdrop-filter: none; }
+}
+
+/* 2.5.8 Target Size: stacked link lists need a 24px minimum */
+.footer ul a, .nav__links a { display: inline-block; min-height: 24px; padding-block: 3px; }
+
+/* focus rings must appear instantly, never animate in */
+.filterchip, .btn, .course, .month { transition-property: background-color, color, border-color, box-shadow, transform; }
+
+/* 2.5.8 target size for the admin toggle */
+.admindot { min-width: 24px; min-height: 24px; padding: 2px 6px; }

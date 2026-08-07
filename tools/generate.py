@@ -176,7 +176,38 @@ def validate(spec, errors):
         for o in q["opts"]:
             L("recap_opt", o, "recap[%d].opts" % qi)
         L("recap_why", q["why"], "recap[%d].why" % qi)
+    # section ids are load-bearing: the runbook, skip link and nav all assume them
+    ids = [sec.get("id") for sec in spec["sections"]]
+    if ids != ["s-one", "s-two", "s-three"]:
+        errors.append("section ids must be s-one, s-two, s-three (got %r)" % ids)
+    # an out-of-range answer marks every choice wrong at runtime
+    for si, sec in enumerate(spec["sections"]):
+        it = sec["interaction"]
+        if it["type"] == "trainer":
+            n = len(it.get("labels", []))
+            for qi, q in enumerate(it["items"]):
+                a = q.get("answer")
+                if not isinstance(a, int) or not (0 <= a < n):
+                    errors.append("sections[%d].items[%d].answer out of range: %r" % (si, qi, a))
+        if it["type"] == "builder":
+            for slt in it["slots"]:
+                if not slt.get("key"):
+                    errors.append("sections[%d]: builder slot missing key" % si)
+                for o in slt["opts"]:
+                    if not isinstance(o.get("pts"), int) or not o.get("coach"):
+                        errors.append("sections[%d]: builder opt needs pts and coach" % si)
+    for qi, q in enumerate(spec["recap"]):
+        c = q.get("correct")
+        if not isinstance(c, int) or not (0 <= c < len(q["opts"])):
+            errors.append("recap[%d].correct out of range: %r" % (qi, c))
+
     cap = spec["capstone"]
+    for pr in cap.get("practices", []):
+        if not (pr.get("id") and pr.get("chip") and pr.get("name") and pr.get("move")):
+            errors.append("capstone practice needs id, chip, name and move")
+    for w in cap.get("whens", []):
+        if not (w.get("id") and w.get("chip") and w.get("out")):
+            errors.append("capstone when needs id, chip and out")
     if len(cap["practices"]) != 3:
         errors.append("capstone needs exactly 3 practices")
     for pr in cap["practices"]:
@@ -197,7 +228,9 @@ def check_dashes(text, slug):
 
 # ---------------------------------------------------------------- html bits
 def esc(t):
-    return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    """Escape for both text nodes and attribute values (quotes included)."""
+    return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;") \
+                    .replace('"', "&quot;").replace("'", "&#39;")
 
 def js_str(t):
     return json.dumps(t)
@@ -294,8 +327,8 @@ def section_html(sec, num):
       <details class="deeper" data-webonly hidden data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
         <div class="deeper__body">
-          <div><h4>%s</h4><p>%s</p></div>
-          <div class="deeper__ask"><h4><span class="mode">On your own</span></h4>
+          <div><h3>%s</h3><p>%s</p></div>
+          <div class="deeper__ask"><h3><span class="mode">On your own</span></h3>
           <ol class="steps">%s</ol></div>
         </div>
       </details>''' % (esc(d["title"]), esc(d["body"]), steps))
@@ -338,7 +371,8 @@ def course_config_js(spec):
             "evidenceRow": cap["evidenceRow"],
             "practices": cap["practices"], "whens": cap["whens"]},
     }
-    return json.dumps(config, ensure_ascii=False, indent=1)
+    # "</script>" inside any string would end the block early and kill every interaction
+    return json.dumps(config, ensure_ascii=False, indent=1).replace("<", "\\u003c")
 
 
 def build_course(spec):
@@ -558,6 +592,9 @@ def run(slug):
     spec_path = os.path.join(ROOT, "specs", slug + ".json")
     spec = json.load(open(spec_path))
     errors = []
+    if spec.get("slug") != slug:
+        errors.append("slug %r does not match filename %r; the QR code would 404"
+                      % (spec.get("slug"), slug))
     validate(spec, errors)
     if errors:
         raise SystemExit(slug + ":\n  " + "\n  ".join(errors))

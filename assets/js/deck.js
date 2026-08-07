@@ -425,11 +425,19 @@
     slides[i].scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', inline: 'start', block: 'nearest' });
   }
   var barTitle = $('#barTitle');
+  // polite live region so screen reader users hear the slide change
+  var announcer = document.createElement('div');
+  announcer.setAttribute('aria-live', 'polite');
+  announcer.setAttribute('aria-atomic', 'true');
+  announcer.className = 'sr-only';
+  document.body.appendChild(announcer);
   function setActive(i) {
     current = i;
     dots.forEach(function (d, di) { d.setAttribute('aria-current', String(di === i)); });
     if (counter) counter.textContent = (i + 1) + ' / ' + slides.length;
     if (barTitle) barTitle.textContent = slides[i].getAttribute('data-title') || '';
+    announcer.textContent = 'Slide ' + (i + 1) + ' of ' + slides.length + ': ' +
+      (slides[i].getAttribute('data-title') || '');
     checkHint();
     $$('.nav__links a').forEach(function (a) {
       var href = a.getAttribute('href');

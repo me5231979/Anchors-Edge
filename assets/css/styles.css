@@ -576,7 +576,7 @@ em, .italic { font-style: italic; }
 .lab { margin-top: 1.75rem; }
 .lab__slots { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
 @media (min-width: 900px) { .lab__slots { grid-template-columns: 1fr 1fr; } }
-.slot h3 { font-size: 1.05rem; font-family: var(--font-condensed); text-transform: uppercase;
+.slot h3 { color: var(--vu-oak); font-size: 1.05rem; font-family: var(--font-condensed); text-transform: uppercase;
   letter-spacing: .05em; color: var(--vu-oak); margin-bottom: .6rem; }
 .slot .opt { width: 100%; margin-bottom: .5rem; font-size: .95rem; }
 .slot .opt[aria-pressed="true"] { border-color: var(--vu-gold-flat); background: rgba(207,174,112,.14); }
@@ -617,18 +617,21 @@ em, .italic { font-style: italic; }
 @media (max-width: 640px) { .plan__out-grid .row { grid-template-columns: 1fr; gap: .15rem; } }
 
 /* ---------- 17. Reveal animation ---------- */
-[data-reveal] { opacity: 0; transform: translateY(24px); }
+[data-reveal] { opacity: 1; transform: none; }
+/* only hide for the reveal animation once JS has confirmed it can un-hide */
+.js [data-reveal] { opacity: 0; transform: translateY(24px); }
 [data-reveal].in { opacity: 1; transform: none; transition: opacity .5s var(--ease), transform .5s var(--ease); }
 @media (prefers-reduced-motion: reduce) {
-  [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
+  [data-reveal], .js [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
 
 /* manifesto word reveal */
 .manifesto p { font-family: var(--font-serif); font-size: clamp(1.5rem, 3vw, 2.75rem); line-height: 1.3;
   max-width: 22ch; margin: 0; }
-.manifesto .w { color: rgba(28,28,28,.22); transition: color .4s var(--ease); }
+.manifesto .w { color: var(--vu-black); }
+.js .manifesto .w { color: rgba(28,28,28,.22); transition: color .4s var(--ease); }
 .manifesto .w.lit { color: var(--vu-black); }
-@media (prefers-reduced-motion: reduce) { .manifesto .w { color: var(--vu-black); } }
+@media (prefers-reduced-motion: reduce) { .manifesto .w, .js .manifesto .w { color: var(--vu-black); } }
 
 /* ---------- 18. Deck navigation UI ---------- */
 .dots { position: fixed; right: clamp(10px, 2vw, 22px); top: 50%; transform: translateY(-50%);
@@ -804,3 +807,112 @@ body { overflow: hidden; }
 
 /* solid top bar on every slide */
 .nav { background: rgba(20,20,20,.97); border-bottom: 1px solid rgba(207,174,112,.18); }
+
+/* =====================================================================
+   ACCESSIBILITY (WCAG 2.2 AA)
+   ===================================================================== */
+
+/* --- 2.4.7 Focus Visible / 2.4.11 Focus Appearance ---
+   Every control gets a thick, high-contrast ring that works on any
+   background: a gold band with a dark outer edge. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--vu-gold-flat);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.on-light :where(a, button, .opt):focus-visible,
+.on-cream :where(a, button, .opt):focus-visible {
+  outline-color: var(--vu-oak);
+}
+/* controls sitting directly on gold need a dark ring instead */
+.btn:focus-visible, .tag:focus-visible {
+  outline: 3px solid var(--vu-black);
+  outline-offset: 2px;
+}
+.on-dark .btn:focus-visible { outline-color: #fff; }
+/* the answer buttons carry an inner ring too, so focus reads at a glance */
+.opt:focus-visible {
+  outline: 3px solid var(--vu-gold-flat);
+  outline-offset: 2px;
+  box-shadow: inset 0 0 0 2px rgba(207,174,112,.5);
+}
+/* deck dots are small: give focus a visible halo */
+.dots button:focus-visible {
+  outline: 2px solid var(--vu-gold-flat);
+  outline-offset: 3px;
+}
+/* never remove focus for keyboard users, even where a component restyles */
+:focus-visible { outline-offset: 2px; }
+
+/* --- 1.4.3 Contrast: darker oak clears AA on white and cream --- */
+:root { --vu-oak: #8A6520; --vu-gray-dark: #6E6E6E; }
+
+/* tags read as black on gold everywhere, which clears AA comfortably */
+.tag { color: var(--vu-black); background: var(--vu-gold-flat); }
+.on-dark .tag { color: var(--vu-black); background: var(--vu-gold-flat); }
+
+/* --- Forced colors (Windows High Contrast) ---
+   Gradient-filled text is painted through a background, which forced-colors
+   discards, leaving invisible text. Restore a real color. */
+@media (forced-colors: active) {
+  .gold-text {
+    -webkit-text-fill-color: currentColor;
+    background: none;
+    color: CanvasText;
+  }
+  .btn, .opt, .card, .quiz, .lab, .facnote {
+    border: 1px solid CanvasText;
+  }
+  :where(a, button, .opt):focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .progress__bar, .lab__meter span { forced-color-adjust: none; background: Highlight; }
+}
+
+/* --- Respect users who ask for less transparency --- */
+@media (prefers-reduced-transparency: reduce) {
+  .nav { background: var(--vu-black); backdrop-filter: none; }
+}
+
+/* nav call-to-action sits on gold: dark text clears AA (was 1.9:1) */
+.nav__links a.btn, .nav__links a.btn:hover, .nav__links a.btn:focus-visible { color: var(--vu-black); }
+
+/* visually hidden but available to screen readers */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* 2.5.8 Target Size: stacked link lists need a 24px minimum */
+.footer--slim a, .nav__links a { display: inline-block; min-height: 24px; padding-block: 3px; }
+
+/* focus rings must appear instantly, never animate in */
+.opt, .btn, .flip, .filterchip { transition-property: background-color, color, border-color, box-shadow, transform; }
+
+/* the fixed nav sits over light and cream slides too: keep it solid enough
+   that white nav text always clears AA (was 55 percent over white = 3.4:1) */
+.nav { background: rgba(20,20,20,.93); }
+
+/* the Go deeper block moved from h4 to h3 for heading order */
+.deeper__body h3 {
+  font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .78rem; color: var(--vu-oak); margin-bottom: .5rem;
+}
+.on-dark .deeper__body h3 { color: var(--vu-gold-flat); }
+
+/* 2.5.8 target size: the dot's box is 24px; the visible dot stays small */
+.dots button {
+  width: 24px; height: 24px; padding: 0; border: 0; background: none;
+  display: grid; place-items: center; position: relative;
+}
+.dots button::before {
+  content: ''; width: 9px; height: 9px; border-radius: 50%;
+  background: rgba(255,255,255,.3); transition: background .2s var(--ease), transform .2s var(--ease);
+}
+.dots button[aria-current="true"]::before { background: var(--vu-gold-flat); transform: scale(1.25); }
+.on-light .dots button::before, .on-cream .dots button::before { background: rgba(28,28,28,.25); }
+
+/* builder slot headings: oak on light panels, gold on dark ones (AA either way) */
+.on-dark .slot h3 { color: var(--vu-gold-flat); }
+.on-light .slot h3, .on-cream .slot h3 { color: var(--vu-oak); }

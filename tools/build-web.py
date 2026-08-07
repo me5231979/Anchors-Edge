@@ -58,8 +58,13 @@ def build(slug):
     s = re.sub(r'(id="deckCount">1 / )\d+', lambda m: m.group(1) + str(n), s)
 
     assert 'data-classroom' not in s, slug + ': a classroom block survived'
+    assert s.count('<div') == s.count('</div>'), slug + ': unbalanced divs after stripping classroom blocks'
+    assert ': Self-Paced' in s, slug + ': title rewrite missed'
+    assert '/web/"' in s, slug + ': canonical rewrite missed'
+    assert '../../assets/' not in s.replace('../../../assets/', ''), slug + ': asset path rewrite missed'
+    assert '"../../index.html' not in s, slug + ': dashboard link depth rewrite missed'
     assert 'id="s-welcome"' not in s, slug
-    assert 'As a group' not in s, slug
+    assert 'Breakout ·' not in s, slug + ': a live-class breakout prompt survived'
     out = os.path.join(ROOT, 'courses', slug, 'web', 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w').write(s)

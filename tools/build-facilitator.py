@@ -24,6 +24,12 @@ def build(slug):
     # ---- 1. asset + link paths (one directory deeper) ----
     s = s.replace('"../../assets/', '"../../../assets/')
     s = s.replace('href="../../index.html', 'href="../../../index.html')
+    # self-paced links are relative to the course root, not facilitator/
+    s = s.replace('<a class="btn btn--ghost" href="web/">Self-paced edition</a>',
+                  '<a class="btn btn--ghost" href="../web/">Self-paced edition</a>')
+    s = s.replace('<li><a href="web/">Self-paced version</a></li>',
+                  '<li><a href="../web/">Self-paced version</a></li>')
+    assert 'href="web/"' not in s, slug + ': a self-paced link still points inside facilitator/'
 
     # ---- 2. head: title, noindex, no canonical ----
     s = s.replace(" | Anchor's Edge | Vanderbilt</title>",
@@ -42,6 +48,9 @@ def build(slug):
 '''    <img class="nav__vicon" src="../../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
     <span class="fac__badge">Facilitator Edition</span>
   </a>''')
+
+    assert '<span class="fac__badge">' in s, slug + ': facilitator badge not injected'
+    assert '../../assets/' not in s.replace('../../../assets/', ''), slug + ': asset depth rewrite missed'
 
     # ---- 5. inject the notes rail into each slide with runbook notes ----
     def rail(sec):
@@ -80,12 +89,15 @@ def build(slug):
 
     count = 0
     for sid, sec in by_id.items():
-        pat = re.compile(r'(<section class="slide[^"]*" id="' + sid + r'"[^>]*>.*?)(\n  </section>)', re.S)
+        pat = re.compile(r'(<section class="slide[^"]*" id="' + sid + r'"[^>]*>.*?)(\n\s*</section>)', re.S)
         m = pat.search(s)
         if not m:
             continue
         s = s[:m.end(1)] + '\n    ' + rail(sec) + s[m.end(1):]
         count += 1
+    assert count == len(by_id), (
+        '%s: only %d of %d facilitator rails injected; the slide markup changed'
+        % (slug, count, len(by_id)))
 
     # ---- 5b. facilitator briefing slide (ATD front matter) ----
     def esc2(t): return html.escape(t, quote=False)
@@ -125,7 +137,9 @@ def build(slug):
   </section>
 
 """
-    s = s.replace('  <!-- ============ 0 · WELCOME / QR ============ -->', briefing + '  <!-- ============ 0 · WELCOME / QR ============ -->', 1)
+    MARKER = '  <!-- ============ 0 · WELCOME / QR ============ -->'
+    assert MARKER in s, slug + ': welcome marker missing, briefing page would be dropped'
+    s = s.replace(MARKER, briefing + MARKER, 1)
 
     # ---- 6. facilitator styles + hide toggle ----
     s = s.replace('</head>', FAC_CSS + '</head>')
