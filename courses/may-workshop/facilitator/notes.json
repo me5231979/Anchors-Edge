@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "The Practice Room · Navigator Workshop · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 90,
+  "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 8 to 30 at tables of 4 to 6, with printed scenario cards and the one-page plan worksheet on every table. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
+  "roomSetup": "In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the first rep on your plan run? What did the pressure test change? Who holds your date?' Count of plans with a completed first rep is the month's Level 3 signal.",
+  "paths": {
+   "full": {
+    "minutes": 90,
+    "description": "The full 90-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to 90 including transitions."
+   },
+   "core": {
+    "minutes": 60,
+    "description": "The 60-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The workshop survives it: the rounds, the cards, and the page are all paper and voices. Read the interactions aloud from your own device via the welcome QR and keep the rounds moving."
+   },
+   {
+    "if": "The room count is odd and a pair can't form",
+    "then": "Make one trio: two givers take turns, one receiver, then rotate the odd role each round. Trios also give shy participants a softer first round."
+   },
+   {
+    "if": "Someone uses a round to relitigate real feedback about a real colleague",
+    "then": "Protect the room warmly: 'Hold that one for a private conversation. In here, scenario cards and roles, never names.' Then restart the round on the card."
+   },
+   {
+    "if": "A live round lands hard and a participant goes quiet",
+    "then": "Offer the exit ramp: sit out one rotation as an observer with a job, noticing duet moves to report back. Check in privately at the next transition."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't role-play artificial? Real feedback is messier.",
+    "a": "It is, and that is the design. Musicians rehearse slower than the concert. The camera test, the clean receipt, and the pressure question are exactly the parts that survive contact with mess, and this room is where they become reflex instead of theory."
+   },
+   {
+    "q": "I'm not a manager. Whose behavior is this month measuring, if not mine?",
+    "a": "The measurement reads managers; the muscle belongs to everyone. Every career runs on feedback given and received well, and a development plan is how anyone, at any level, turns a true sentence into a visible change. The room was full for a reason."
+   },
+   {
+    "q": "Can I use an AI tool to tidy up my development plan?",
+    "a": "Run the light. A plan about your own behavior in generic terms is fine in an approved VU tool. The moment it quotes feedback about identifiable colleagues, that part is private information about people: red, never. And keep the commitment in your own voice; your peer pressure-tested those words, and the next feedback round will too."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: feedback, practiced on real faces, with your navigator. Bring one piece of real feedback you have received this year, held privately; you will never be asked to read it aloud. Scenario cards, worksheets, and brave company provided. Nothing you write is collected."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the first rep run? Three lines, reply whenever: 1) Did the first rep on your plan happen? 2) What did the pressure test change before you left? 3) Who holds your date, and have they asked yet?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.",
+   "say": "Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The feedback role-play and development-plan build, live and in person.",
+   "facilitate": [
+    "Slide projected as people arrive; phones up before you speak.",
+    "State the norm once: type into your own device, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century runs on people who can say the true thing kindly and hear it without armor. A room practicing both out loud is Exceptional Core Operations rehearsing itself.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 measures leader behavior, and feedback is the behavior that feeds every other measure. Today the whole room, managers and not, builds the muscle live.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 90 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict; receive a live round cleanly: one thank you, one clarifying question, no case for the defense; build a one-page development plan from real feedback and let a peer pressure-test one commitment. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: camera-true lines, the live rounds, the plan and the pressure test. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Camera-true lines",
+   "purpose": "Install the camera test and get every participant rewriting verdicts into filmable behavior.",
+   "say": "Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.",
+   "facilitate": [
+    "Run Camera or character? on learner devices first, so the test is shared before anyone writes.",
+    "Run the pass-left rewrite at each table; walk the room and listen for a strong before-and-after.",
+    "Read one verdict-to-camera rewrite aloud for the room and name what changed: a when, a what, a consequence."
+   ],
+   "ask": {
+    "q": "What gets lost when the verdict becomes a camera line?",
+    "expect": [
+     "The sting, mostly",
+     "Some say the bigger pattern goes missing",
+     "A few worry it feels nitpicky"
+    ],
+    "respond": "The pattern isn't lost; it's earned. Three camera-true lines make a pattern nobody can argue with. One verdict makes an argument nobody can win."
+   },
+   "debrief": "The camera test travels: it works on feedback you give, feedback you receive, and, later today, the commitment you write.",
+   "watchFor": "Tables writing polished insults and calling them honest. Camera-true includes kind: behavior, a when, and no adjectives about the person.",
+   "transition": "Lines drafted. Now they meet faces.",
+   "coreNote": "Core: run the trainer, then one rewrite per table instead of the full pass-left round.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The live rounds",
+   "purpose": "Run rotating give-and-receive rounds with scenario cards, and debrief the duet live.",
+   "say": "This is the part no virtual session can do. You will give a camera-true line to a person who reacts, and receive one from a person watching your face while they say it. Use the scenario cards, roles never names. Receivers, your whole job is one thank you and one clarifying question. Givers, when the line lands, stop talking. The silence after a true sentence is where the work happens; don't rescue anyone from it.",
+   "facilitate": [
+    "Pair people across tables for the first round so nobody practices on a close colleague.",
+    "Run two rounds with a swap, then rotate pairs for a third; walk the room and listen for defense-building.",
+    "Show the room rule card and run the discussion prompt between rounds; take voices on what bodies did."
+   ],
+   "ask": {
+    "q": "Receivers: what did your hands, face, or breath do when the line landed?",
+    "expect": [
+     "Laughed or smiled to soften it",
+     "Started composing a reply mid-line",
+     "A few felt genuine relief at a clean, specific line"
+    ],
+    "respond": "All human, and all visible from the other chair. Naming the reflex out loud is what gives you a choice about it next time."
+   },
+   "debrief": "The duet holds when both jobs stay small: a true line delivered once, a receipt of thanks and one question.",
+   "watchFor": "Pairs drifting into real grievances about real colleagues. Re-anchor warmly to the scenario cards: this room practices the skill, never the case.",
+   "transition": "You have given and received. Now the feedback you actually hold gets its page.",
+   "coreNote": "Core: two rounds instead of three; debrief once, at the end of the second.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "The plan and the pressure test",
+   "purpose": "Convert real feedback into a one-page plan with one filmable commitment, pressure-tested by a peer.",
+   "say": "Last build. Think of the sharpest real feedback you hold from this year: a 360 line, a pulse theme, the sentence a colleague finally said. It goes at the top of the page in your own words. Under it, one commitment that passes the camera test, one first rep, one date. Then you trade pages, and your peer asks the only pressure-test question that matters: what would we see you doing differently, and by when?",
+   "facilitate": [
+    "Run Build the page on learner devices before the writing, so the strong pattern is loaded.",
+    "Quiet writing time on the worksheet; walk the room and nudge vague commitments toward filmable ones.",
+    "Run the page trade and pressure test in pairs; revisions happen at the table, out loud."
+   ],
+   "ask": {
+    "q": "What did the pressure test do to your commitment?",
+    "expect": [
+     "Shrank it to something checkable",
+     "Added the date it was avoiding",
+     "One or two will say it survived intact"
+    ],
+    "respond": "Surviving intact counts, if the peer really leaned. A commitment that answers the camera question at this table will answer it anywhere."
+   },
+   "debrief": "One page: the feedback in your words, one filmable commitment, one rep, one date, one peer who knows all four.",
+   "watchFor": "Plans built on feedback the person disputes. Redirect to feedback they own; a plan argues best from evidence its writer believes.",
+   "transition": "Recap, then the page becomes a card and goes home.",
+   "coreNote": "Core: skip the builder walkthrough; go straight to the page and the trade.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Feedback becomes a skill the first time it meets a real face and survives.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 5,
+   "coreMinutes": 4,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 6,
+   "coreMinutes": 4,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Finish the card: the feedback in one line, your own words, roles never names. Then the commitment, the first rep, the window, and who holds the date. Copy it onto your phone or fold the page into your bag; the peer who tested it knows to ask. Quiet writing time, then we close.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 2,
+   "coreMinutes": 2,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "This room just did what the whole month is about: behavior you can see. Monday showed managers how the standard reads their own evidence, Tuesday opened the tooling that protects everyone's signal, and Thursday works the blind spot that a room like this one closes. Your page is those sessions with a date on it. When you want a rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, goes further whenever you want it; there if you want it, never homework. Go run the first rep, and let the next feedback season find you already moving.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

@@ -39,7 +39,7 @@
       "eyebrow": "The Line",
       "headline": "Say what the <em>camera saw</em>.",
       "lead": "Before any round runs, every line gets the camera test: would a lens have caught it? 'You're careless' fails; no camera films careless. 'The last two summaries went out with old numbers' passes. Camera-true lines are checkable, hearable, and fixable.",
-      "group": "Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line, and read both versions aloud.",
+      "group": "Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.",
       "interaction": {
         "type": "trainer",
         "playTitle": "Camera or character?",
@@ -62,7 +62,7 @@
       "dataTitle": "The live rounds",
       "eyebrow": "The Rounds",
       "headline": "The face is the <em>curriculum</em>.",
-      "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive cleanly: one thank you, one clarifying question.",
+      "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.",
       "group": "Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.",
       "interaction": {
         "type": "check",

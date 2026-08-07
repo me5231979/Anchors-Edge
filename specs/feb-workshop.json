@@ -56,7 +56,7 @@
    "dataTitle": "Draft the real one",
    "eyebrow": "The Draft",
    "headline": "Write it for <em>one real person</em>.",
-   "lead": "A stay interview is a listening conversation: why does this person stay, and what would make staying easier? Not a review, not a counteroffer. Draft yours for one real person, role only: an opening that proves you noticed them, and two questions you want answered.",
+   "lead": "A stay interview is a listening conversation: why does this person stay, and what would make staying easier? Not a review, not a counteroffer. Draft yours for one real person, role only: an opening that proves you noticed them, plus two real questions.",
    "group": "At your table: read your opening aloud. The table answers with the first thing the employee would feel, then helps you sharpen it until it lands as attention.",
    "interaction": {
     "type": "check",
@@ -64,7 +64,7 @@
      "tag": "The listening rule",
      "text": "The urge to fix each issue mid-interview is the classic mistake. Fixing turns the conversation into your to-do list and stops the telling. Keep asking, write down what you hear, and save the follow-through for the days after."
     },
-    "context": "Every manager in this room drafted for someone specific. Before the role-play starts, hear the frame: the person across from you is about to say things you cannot fix on the spot, things about pay, workload, other people. Your practice partner will make sure of it. The skill is staying in the listening.",
+    "context": "Every manager in this room drafted for someone specific. Before the role-play starts, hear the frame: the person across from you will say things you cannot fix on the spot, things about pay, workload, other people. Your practice partner will make sure of it. The skill is staying in the listening.",
     "discuss": "Think of the person you drafted for. What are you most afraid they will say when you ask, and what does that fear tell you about the conversation you have been avoiding?",
     "q": "Mid-interview, they name a frustration you could fix today. What is the strong move?",
     "opts": [
@@ -93,7 +93,7 @@
    "eyebrow": "The Rounds",
    "headline": "Say it out loud <em>before it counts</em>.",
    "lead": "Reading a draft is not the skill; staying in the conversation is. One of you runs your opening while the other plays the employee, honestly. Two moments will test you: the silence after a real question, and the answer you cannot fix. Both have a strong move.",
-   "group": "Pair up across tables and run the round: one asks, one plays the employee from the role description only, inventing details as needed. Then swap parts and run the second draft.",
+   "group": "Pair up across tables and run the round: one asks, one plays the employee from the role only, inventing details as needed. Then swap parts and run the second draft.",
    "interaction": {
     "type": "builder",
     "playTitle": "The hard moments",

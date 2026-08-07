@@ -1,0 +1,287 @@
+{
+ "meta": {
+  "program": "The Team Grid · Navigator Workshop · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 90,
+  "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; every exercise runs on flip charts, the printed grid worksheet, or the manager's own device. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
+  "roomSetup": "In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Has the team seen the grid? What did they add or flip? When is the sort conversation?' Count of grids that reached a team is the month's Level 3 metric.",
+  "paths": {
+   "full": {
+    "minutes": 90,
+    "description": "The full 90-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to 90 including transitions."
+   },
+   "core": {
+    "minutes": 60,
+    "description": "The 60-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 3, AI-Enabled Workforce Readiness.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The workshop survives it: everything runs on paper and learner devices via the welcome QR. Read the cards aloud from your own screen and keep the builds moving."
+   },
+   {
+    "if": "Flip charts or easels run short",
+    "then": "Tape printed grid worksheets together or use any large paper flat on the table. The lab needs big, shared, writable surfaces, nothing fancier."
+   },
+   {
+    "if": "A manager names a specific employee while sorting or challenging",
+    "then": "Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' In a shared room the norm matters double, because the walls have more readers than a spreadsheet."
+   },
+   {
+    "if": "A pair finishes the challenge early or a table runs cold",
+    "then": "Send early finishers to a slow table as guest challengers. A fresh stranger reading a grid finds the row its owner stopped seeing."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "What stops this wall of grids from becoming a cut list?",
+    "a": "The unit of the grid is the task, and the promise that travels with it: exposed tasks mean redesign, with the people who do the work deciding what fills the freed hours. Goal 3 is workforce readiness. A team that sorts its own work in the open shapes what changes, and roles and names never touch the wall."
+   },
+   {
+    "q": "My partner and I disagreed on a call and neither budged. Who wins?",
+    "a": "Nobody has to. Write both readings on the row and take the disagreement to the people who actually do the task; they hold the missing evidence. A grid that carries an honest open question is stronger than one that papered over it."
+   },
+   {
+    "q": "Can I photograph my grid and ask an AI tool for a second opinion?",
+    "a": "Run the light first. A grid in task language with no names is internal content: yellow, approved VU tools only. If any row slipped toward people details, rewrite it before any photo. And keep the sort decision human; the tool can question your calls, never make them."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: your team's AI-exposure grid, built by hand with your navigator. Bring a rough list of the tasks your team repeats every week, or just bring the week in your head. Paper, markers, and a table partner provided. Tasks and roles only, never names, and nothing you write is collected."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Where is the grid now? Three lines, reply whenever: 1) Has your team seen the grid? 2) What did they add or flip? 3) When is the sort conversation, and what will you ask first?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.",
+   "say": "Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The team AI-exposure mapping workshop: the whole grid, built by hand.",
+   "facilitate": [
+    "Slide projected as people arrive; phones up before you speak.",
+    "State the norm once: type into your own device, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets redesigned one team at a time, by managers who can see the change on paper. A room full of finished grids is Exceptional Core Operations doing its own forward planning.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 asks managers to identify AI-exposed work and turn the insight into action. This workshop is where the identifying happens at full scale: your whole team's work, mapped and sorted in one sitting.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 90 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: build a physical grid of your team's recurring tasks, in task language, tasks never names; sort every task automate, augment, or leave alone, and defend each call under a partner's challenge; draft and rehearse the opener that brings the grid to your team as shared work. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: the grid goes up, the sort and the challenge, the opener. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "The grid goes up",
+   "purpose": "Get every manager's team work physically on paper, in task language, before any sorting starts.",
+   "say": "Everything this month has been building toward the thing on your table: a big blank grid and a marker. Your team's recurring work goes on it today, one row per task, tasks only, never names. Writing by hand is the point. The rows that come slowly are the ones worth having, because work that resists naming has usually never been looked at straight.",
+   "facilitate": [
+    "Hand out markers and sheets; the flip chart at the front carries the two rules: tasks never names, output plus rhythm plus inputs.",
+    "Give the room quiet drawing time; walk the tables and read over shoulders for people-language rows without correcting them aloud yet.",
+    "Show the In the room card when most charts hold five or six rows, and run the discussion on stalls.",
+    "Run the sheet trade at each table: neighbors circle rows a stranger couldn't picture, owners rewrite on the spot."
+   ],
+   "ask": {
+    "q": "Which row stalled you, and why that one?",
+    "expect": [
+     "Work that lives in one person's head",
+     "Cleanup nobody has ever called a task",
+     "Some managers realize they don't know a task's inputs"
+    ],
+    "respond": "Name the pattern back: the stalled rows are the exposure blind spots. Not knowing a task's inputs is itself a finding worth writing down."
+   },
+   "debrief": "A grid is honest when a stranger could run the week from it. Every chart in this room just got more honest than the org chart.",
+   "watchFor": "Managers writing role names or people descriptions into rows. Redirect warmly every time: tasks on the grid, people in your care.",
+   "transition": "The grid is up. Now every row gets a call, and every call gets a witness.",
+   "coreNote": "Core: cap the grid at eight rows and skip the sheet trade; circle your own suspect rows as you walk the tables.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The sort and the challenge",
+   "purpose": "Sort every row automate, augment, or leave alone, then pressure-test the calls in pairs, inside the traffic light.",
+   "say": "Three marks, straight from this month's Tuesday session, now applied at team scale. Automate: AI does it and a person checks. Augment: AI helps and a person drives. Leave alone: human all the way. And the light we share all year rides every mark: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never. Mark your rows, then find your partner, because a sort nobody challenged is just a mood.",
+   "facilitate": [
+    "Give the room quiet marking time; sticky dots or marker initials both work fine.",
+    "Run Survive the challenge on learner devices before the pairing, so the three endings are fresh.",
+    "Pair managers across teams, never within one, and let the challenges run; listen for flips and splits to quote at the debrief."
+   ],
+   "ask": {
+    "q": "Who had a call flip, and what did the challenge show you?",
+    "expect": [
+     "Rule-following that had felt like judgment",
+     "A bundle hiding a red thread",
+     "A few will admit they flattered their team's work"
+    ],
+    "respond": "Flips are the receipts. A grid that leaves this room unchanged probably wasn't challenged hard enough."
+   },
+   "debrief": "Stands, flips, splits: all three are wins. The only losing call is the one nobody questioned.",
+   "watchFor": "Anyone marking automate on work that touches private information about people. Restate the light on the spot: red, never, whatever the efficiency.",
+   "transition": "Your grid is sorted and it survived a stranger. The harder audience is your team, so the opener comes next.",
+   "coreNote": "Core: mark the top six rows only; run one challenge each way instead of the full grid walk.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "The opener",
+   "purpose": "Draft and rehearse the words that bring the grid to the team as a draft and an invitation.",
+   "say": "The grid you are holding can land two ways at home: verdict or draft. The difference is mostly staging: what you physically carry in, and the first sentence out of your mouth. So we draft the opener here, out loud, where the stakes are low and the feedback is free. You will deliver it to a stranger before you ever deliver it to your team.",
+   "facilitate": [
+    "Run Bring the grid home on learner devices; give the room time for both choices.",
+    "Run the cross-table rehearsal: openers delivered standing, to someone from another table playing a skeptical team member.",
+    "Take one strong opener aloud for the whole room and name the pattern: draft framing, marker on the table, the which-row-is-wrong ask."
+   ],
+   "ask": {
+    "q": "What did your skeptical stranger do that you didn't expect?",
+    "expect": [
+     "Asked whose job the automate rows are",
+     "Went quiet, which felt worse than pushback",
+     "Someone will say the rehearsal changed their opener completely"
+    ],
+    "respond": "That is why the rehearsal happens here. Every reaction you just survived is one your team can no longer surprise you with."
+   },
+   "debrief": "The opener has a shape: this is a draft, here is the marker, which row is wrong, which task did I miss.",
+   "watchFor": "Openers that lead with leadership pressure or the word efficiency. Steer back to invitation: the team helps decide what fills the freed hours.",
+   "transition": "Recap, then the grid gets its date.",
+   "coreNote": "Core: skip the cross-table round; rehearse once with the sort partner instead.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A map on a wall gets argued with. A map in a drawer gets feared.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 5,
+   "coreMinutes": 4,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 6,
+   "coreMinutes": 4,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Last build, and it is the one that matters: the grid needs a date. Pick the rows your team sees first, how the reveal happens, and the window, then write the card. Tasks and roles only, never a name. When you leave, the grid travels rolled, never filed. Quiet writing time, then a few read-alouds.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 2,
+   "coreMinutes": 2,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "Look at these walls: that is the month's theme made physical. Monday's session gave you the mapping lens, Tuesday gave every member of your team the same sort for their own week, and Thursday's hype filter keeps the claims about these tools honest. The grid you are carrying is those three sessions with a marker in hand. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, goes further whenever you want it; there if you want it, never homework. Now go put the grid on a wall your team walks past.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

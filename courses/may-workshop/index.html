@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Practice Room | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Practice Room | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">Camera-True</a><a href="#s-two">The Rounds</a><a href="#s-three">The Plan</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · May 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/may-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century runs on people who can say the true thing kindly and hear it without armor. A room practicing both out loud is Exceptional Core Operations rehearsing itself.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 2 of 3</p>
+      <h2 class="h2" data-reveal>Manager Effectiveness at <em>Scale</em>.</h2>
+      <p class="lead" data-reveal>Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 2 measures leader behavior, and feedback is the behavior that feeds every other measure. Today the whole room, managers and not, builds the muscle live.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · Measured Leader Behavior</p>
+      <h1 class="h-hero" data-reveal>Practice on a <em class="gold-text">real face</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">This month's sessions taught the reads: the signal, the ask, the clean receipt. This room adds the missing ingredient: another person. You will give feedback to a face, receive it back, and leave with a development plan built from feedback you actually hold.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict</li><li>Receive a live round cleanly: one thank you, one clarifying question, no case for the defense</li><li>Build a one-page development plan from real feedback and let a peer pressure-test one commitment</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 2</b><span>Manager Effectiveness at Scale</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Feedback Literacy</span><span class="skillpill">Self-Awareness</span><span class="skillpill">Career Development</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>Camera-true lines</h3><p>Rewrite verdicts into behavior a camera would have caught, then say them out loud.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The live rounds</h3><p>Give and receive in rotating pairs; the face across from you is the lesson.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The plan and the pressure test</h3><p>Turn feedback you hold into one page, and let a peer lean on your commitment.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="Camera-true lines">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Line</p>
+      <h2 class="h2" data-reveal>Say what the <em>camera saw</em>.</h2>
+      <p class="lead" data-reveal>Before any round runs, every line gets the camera test: would a lens have caught it? 'You're careless' fails; no camera films careless. 'The last two summaries went out with old numbers' passes. Camera-true lines are checkable, hearable, and fixable.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Camera or character?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three feedback lines about to be delivered. Call each one before it leaves the mouth.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The live rounds">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Rounds</p>
+      <h2 class="h2" data-reveal>The face is the <em>curriculum</em>.</h2>
+      <p class="lead" data-reveal>Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The room rule</span>
+        <p style="margin:.5rem 0 0" class="measure">Live feedback is a duet. The giver keeps the line camera-true and stops talking when it lands. The receiver offers one thank you and one clarifying question, no case for the defense. Both jobs take practice, and today both get it.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Watch what happens in this room during the rounds: givers softening lines mid-sentence when a face tightens, receivers rehearsing rebuttals instead of listening. Every wobble is the real skill announcing where it lives. The weekly sessions describe these moments; a room puts you inside one.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Which was harder just now, giving or receiving? What did your body do that surprised you, and what will you try in the next round?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: mid-round, your receiver starts explaining why it happened. What is the duet move?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Volume turns a duet into a verdict reading. The line was delivered; drilling it in trades the relationship for the point."><span class="mark">A</span><span>Repeat the line louder until they accept it</span></button><button class="opt" data-correct="1" data-why="The giver's job ended when the line landed. Silence plus one open question hands the receiver room to move from defense to use."><span class="mark">B</span><span>Let the line sit, then ask what they'd like to do with it</span></button><button class="opt" data-correct="0" data-why="Retraction teaches the room that discomfort erases truth. The line was camera-true; it deserves to stay on the table, gently."><span class="mark">C</span><span>Withdraw the feedback to keep things comfortable</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The plan and the pressure test">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Build</p>
+      <h2 class="h2" data-reveal>Feedback you hold becomes a <em>plan you keep</em>.</h2>
+      <p class="lead" data-reveal>Everyone in this room holds real feedback: a 360 line, a pulse theme, something a colleague finally said. The one-page plan turns the sharpest piece into one commitment with a first rep and a date. Then a peer leans on it, because untested commitments bend.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Build the page</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> One page, one commitment. Choose how the commitment reads and what the pressure test asks.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the plan</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Trade plans with a table peer. Their job is one honest pressure test of your commitment: what would we see you doing differently, and by when? Revise on the spot.</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>Feedback becomes a skill the first time it meets a real face and survives.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My development plan</p>
+      <h2 class="h2" data-reveal>One page, one commitment, <em>one witness</em>.</h2>
+      <p class="lead" data-reveal>Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · The feedback your plan is built on, in one line, your words.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. my project updates bury the decision people need" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What is the commitment?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="rep"><span>The weekly rep</span></button><button class="opt" data-id="return"><span>The return visit</span></button><button class="opt" data-id="trade"><span>The plan trade</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>At my next 1:1</span></button><button class="opt" data-id="month"><span>All month</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Practiced people <em>hear more truth</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You gave feedback to a face, received it cleanly, and left one page heavier. The month's weekly sessions keep working the same muscle: the evidence, the signal, the blind spot.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Run the first rep on your plan</h3>
+        <p>One behavior, one set moment, one mark a peer could check. When you want another rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there whenever you want it, never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Camera-true in. Clean receipt out. One page kept.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Practice Room · Navigator Workshop · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Line",
+   "labels": [
+    "Camera-true, deliver it",
+    "Character verdict, rewrite it",
+    "Too vague, sharpen it"
+   ],
+   "passAt": 2,
+   "passMsg": "Your ear is calibrated. Behavior a lens would catch gets delivered; verdicts get rewritten; fog gets sharpened.",
+   "failMsg": "Close. The test: could a camera have filmed it? Verdicts name character, fog names nothing, and camera-true lines name behavior with a when.",
+   "items": [
+    {
+     "q": "In yesterday's review you read from your screen the whole time, and the client asked twice whether you could hear them.",
+     "answer": 0,
+     "why": "Two filmable facts and a consequence. The receiver can check it, picture it, and change it, which is everything a feedback line owes them."
+    },
+    {
+     "q": "Honestly, you're just not a details person, and everyone has noticed.",
+     "answer": 1,
+     "why": "No camera films 'a details person', and 'everyone' is an anonymous jury. Rewrite it: which document, which details, which date."
+    },
+    {
+     "q": "Your presentations could maybe be a bit tighter, in general, sometimes.",
+     "answer": 2,
+     "why": "Nothing to check, picture, or fix. Sharpen the fog: which presentation, which section, what ran past its welcome."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "A month from now",
+   "slots": [
+    {
+     "key": "The commitment you write",
+     "opts": [
+      {
+       "t": "Work on my communication style this year",
+       "pts": 1,
+       "coach": "A direction, and nobody can catch you doing it. A plan the next round of feedback can't check is a wish with a header."
+      },
+      {
+       "t": "Be less defensive when feedback arrives",
+       "pts": 2,
+       "coach": "A real target with no handle. Defensiveness is a feeling; the plan needs the behavior that replaces it, somewhere a witness could stand."
+      },
+      {
+       "t": "In every review this month, ask one clarifying question before I answer any point",
+       "pts": 3,
+       "coach": "Filmable, dated, and repeated. The camera test works on commitments too, and this one passes it every single week."
+      }
+     ]
+    },
+    {
+     "key": "The pressure test you invite",
+     "opts": [
+      {
+       "t": "Looks great, good luck with it",
+       "pts": 1,
+       "coach": "That is applause, and applause tests nothing. A peer who only cheers has quietly declined the job you handed them."
+      },
+      {
+       "t": "Is this realistic with your workload?",
+       "pts": 2,
+       "coach": "A fair question aimed at comfort. It shrinks plans instead of sharpening them; the best pressure test asks about evidence."
+      },
+      {
+       "t": "What would we see you doing differently, and by when?",
+       "pts": 3,
+       "coach": "The camera question, aimed forward. If your plan can answer it, the commitment is real; if it can't, better to find out at this table."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A page that survives contact. The commitment is filmable, the date is real, and a peer already failed to bend it.",
+    "mid": "A sincere page with soft spots. It reads well today; the first busy week will negotiate with it.",
+    "weak": "A tidy page of intentions. It will feel finished right up until the next feedback round asks what changed."
+   },
+   "reactions": {
+    "strong": "The peer who tested you asks about the commitment when you cross paths later, and you have an answer with a date in it. The next feedback you receive lands on someone visibly in motion.",
+    "mid": "The page resurfaces during a desk clean, still sincere. One camera-true rewrite of the commitment would revive the whole plan, and it is one sentence away.",
+    "weak": "Next feedback season the same theme arrives in the same words. The plan changed nothing because nothing in it could be seen, and the year quietly graded it."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A feedback line is camera-true when...",
+   "opts": [
+    "It is honest about their character",
+    "A lens could have caught the behavior it names",
+    "It is softened enough to be kind",
+    "Everyone in the room agrees with it"
+   ],
+   "correct": 1,
+   "why": "Checkable behavior with a when. Verdicts judge people; camera-true lines describe moments, and moments can change."
+  },
+  {
+   "q": "The clean receive in a live round is...",
+   "opts": [
+    "A point-by-point response",
+    "Silence until it blows over",
+    "One thank you and one clarifying question",
+    "An immediate apology"
+   ],
+   "correct": 2,
+   "why": "The receiver's craft is small on purpose: thank the risk, ask one question, build no defense. Cheap receipts keep truth affordable."
+  },
+  {
+   "q": "What makes a development-plan commitment real?",
+   "opts": [
+    "Ambition worthy of the feedback",
+    "A peer could see the behavior, by a date",
+    "Keeping it private until it works",
+    "Listing several goals at once"
+   ],
+   "correct": 1,
+   "why": "The camera question decides it: what would we see you doing differently, and by when? Plans that answer it get kept."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The lines, the receipt, the page: all working. Take them to real rooms.",
+  "mid": "Solid. Reread the camera test, then finish the page.",
+  "low": "Worth one more walk through the rounds before the plan goes home."
+ },
+ "capstone": {
+  "whoRow": "The feedback I hold",
+  "cardTitle": "My development plan card",
+  "copyTag": "The Practice Room · May 2027 · Anchor's Edge",
+  "goalRow": "Goal 2, Manager Effectiveness at Scale.",
+  "evidenceRow": "Afterward, one line: what did the next round of feedback say that the last one couldn't?",
+  "practices": [
+   {
+    "id": "rep",
+    "chip": "The weekly rep",
+    "name": "The weekly rep",
+    "move": "Name the one behavior, run it at a set moment every week, and mark each rep somewhere a peer could check."
+   },
+   {
+    "id": "return",
+    "chip": "The return visit",
+    "name": "The return visit",
+    "move": "Take the plan back to the person who gave the feedback and ask them to watch for the one behavior."
+   },
+   {
+    "id": "trade",
+    "chip": "The plan trade",
+    "name": "The plan trade",
+    "move": "Trade pages with today's table peer and hold each other's date; each of you asks about the other's rep when it comes due."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first rep runs this week, on the calendar before you leave the building."
+   },
+   {
+    "id": "next11",
+    "chip": "At my next 1:1",
+    "out": "The plan opens your next 1:1, and the commitment gets said out loud."
+   },
+   {
+    "id": "month",
+    "chip": "All month",
+    "out": "The rep runs all month, with the peer check landing near the end of it."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "The Sandbox · Navigator Workshop · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 90,
+  "audience": "All Vanderbilt staff, no AI experience assumed; many will run their first tool in this room. In person at tables of four to six, learners on their own devices via the welcome QR, navigators circulating; works from a dozen people to a full room.",
+  "roomSetup": "In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the next win on your card ship? What did the check catch? Who have you shown?' Count of shipped second wins is the Level 3 metric for the workshop.",
+  "paths": {
+   "full": {
+    "minutes": 90,
+    "description": "The full 90-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to 90 including transitions."
+   },
+   "core": {
+    "minutes": 60,
+    "description": "The 60-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 3, AI-Enabled Workforce Readiness.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The deck already lives on learner phones via the welcome QR; narrate from your own device and keep the room moving. Nothing in the session needs the big screen."
+   },
+   {
+    "if": "The venue wifi drops or logins to the tool fail at a table",
+    "then": "Phones on cellular still reach the deck, and navigators carry the login help. Pair anyone still locked out with a neighbor to co-run one chore on one screen; two names on one win is still two wins."
+   },
+   {
+    "if": "Someone reads out a chore full of details about a real person",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names, and the private details stay out of the tool.' Then help them strip it to the green core in front of the table; the save is the teaching."
+   },
+   {
+    "if": "A table finishes early and gets restless",
+    "then": "Hand them the stretch: run the same chore with a differently shaped ask, compare the two drafts, and pick the better opening line to share when the room reconvenes."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Which tool are we using, exactly?",
+    "a": "The approved VU tool set up for this room; navigators have the current list from the Anchor's Edge dashboard. The loop you are learning is portable: the light, the ask, the follow-up, and the check work the same in every approved tool."
+   },
+   {
+    "q": "My whole job is confidential. What is my green chore?",
+    "a": "Every role holds a generic layer: announcements, outlines, plain explainers, tidying your own phrasing. Strip the specifics and the skeleton is green. The navigators love this puzzle; wave one over and you will have a chore before the section ends."
+   },
+   {
+    "q": "Is shipping work the tool drafted honest?",
+    "a": "You read every line, verified every fact, and made it sound like you; the judgment and the responsibility stayed yours. That is how templates and spell-checkers have always worked. What would cross a line is shipping anything you never checked, with or without a tool."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: The First-AI-Win sandbox, in person. Bring a laptop or a phone and one boring chore from your real week: a draft, a summary, notes to tidy. No AI experience needed; you will run your first win in the room with a navigator nearby, and you will leave with it shipped."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the second win ship? Three lines, reply whenever: 1) Did the next-win chore on your card run? 2) What did the check catch? 3) Who have you shown your first win?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.",
+   "say": "Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The First-AI-Win sandbox: run one real chore, live, with help in the room.",
+   "facilitate": [
+    "Slide projected as people arrive; phones up before you speak.",
+    "State the norm once: type into your own device, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 90 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: pick one green-light chore from your own real week and confirm its light at your table; write the ask, run it live in an approved vu tool, and improve the draft with one follow-up; check the result like an editor, with a neighbor's eyes on it, and ship it as real work. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: pick and call it, run it live, check and ship. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Pick and call it",
+   "purpose": "Get one real, chore-sized, green task chosen per person, with the light confirmed at the table before anything runs.",
+   "say": "Everything today happens for real: a real chore, a real tool, real shipped work. So the first job is picking well. Chore-sized means you can finish it today and check it before you forget you wrote it. Then the light rules everything: green, public or generic, go. Yellow, internal, approved VU tools only. Red, private information about people, never. Your table is your safety net; nobody runs a chore the table has not called.",
+   "facilitate": [
+    "Tables of four to six, one printed traffic-light card per table; point at it as you teach the light, and leave it face up all day.",
+    "Run Strip it or skip it on learner devices; after the third chore, hold the room for a beat: the kind intention did not change the light.",
+    "Then the table round: each person reads their chore aloud and the table calls the light together. Circulate with the navigators and listen for mixed chores."
+   ],
+   "ask": {
+    "q": "Who has a chore the table could not agree on?",
+    "expect": [
+     "Mixed chores with one sensitive detail",
+     "Whole weeks that feel yellow",
+     "Someone whose chore is really a project"
+    ],
+    "respond": "Perfect material. Strip the sensitive piece and call what is left; shrink the project to its first chore-sized slice. The table plus the light settles almost everything."
+   },
+   "debrief": "Chore-sized, green, and called out loud at the table. That pick is half of today's win.",
+   "watchFor": "People choosing an impressive chore to justify the trip. Shrink it warmly: boring ships, impressive stalls.",
+   "transition": "Chores picked and called. Now they go into the tool.",
+   "coreNote": "Core: run the trainer, then one chore read aloud per table instead of the full round.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Run it live",
+   "purpose": "Every person writes the ask, runs it in the approved VU tool, and practices one real follow-up on the draft that returns.",
+   "say": "Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. You are going to practice the move that separates people who use these tools well: the follow-up. Tell it what to change, plainly, and watch the second draft.",
+   "facilitate": [
+    "Give the room the go and let it get quiet; drafting is the session working. Navigators move table to table for login trouble and thin asks.",
+    "When most drafts are back, run The follow-up on learner devices; it names the move everyone is about to make on their own draft.",
+    "Then the neighbor beat: say the one change aloud to a neighbor, then type exactly that to the tool. If a volunteer offers one, read a strong before-and-after to the room."
+   ],
+   "ask": {
+    "q": "What did your follow-up change that your first ask never mentioned?",
+    "expect": [
+     "Tone and length, most often",
+     "The audience it was for",
+     "The shape: a list, a paragraph, a subject line"
+    ],
+    "respond": "Notice the pattern: everything the tool guessed wrong was something the ask never said. The follow-up is how you find out what your asks leave out."
+   },
+   "debrief": "The ask is a brief, the draft is a start, and the follow-up is the skill. Plain sentences, both times.",
+   "watchFor": "Someone quietly pasting internal or personal content to make the chore work better. Redirect warmly, and loudly enough to teach: keep it green today, and yellow work lives in approved VU tools on its own time.",
+   "transition": "Drafts are close. The last stop makes them real.",
+   "coreNote": "Core: skip the neighbor beat; everyone sends one follow-up solo while you narrate the pattern.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Check and ship",
+   "purpose": "Install the editor's check with a partner's eyes, then have every person actually ship the checked work before the capstone.",
+   "say": "Here is the honest warning that keeps you safe: the tool writes with total confidence whether it is right or wrong. So the check never gets skipped. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.",
+   "facilitate": [
+    "Pair neighbors across the table; swap seats or swap devices, author's choice. Facts first, then the voice read.",
+    "Show the ship test card and let the folder line land; the room will recognize it.",
+    "Run the discussion, then call the ship: everyone sends, files, or schedules their work now. Ask for hands as pieces ship; count aloud and let the room hear the number grow."
+   ],
+   "ask": {
+    "q": "What did the check catch on your draft or your neighbor's?",
+    "expect": [
+     "An invented or unverifiable detail",
+     "A wrong name or date",
+     "A sentence that sounded like nobody at the table"
+    ],
+    "respond": "Every catch is the lesson working: errors hide inside polish. The check is quick, and it is what makes the shipping safe."
+   },
+   "debrief": "Checked, shipped, and a story about what the check caught. That is a complete first win, and everyone in the room has one.",
+   "watchFor": "Perfectionists polishing instead of shipping. Name it kindly: a shipped decent draft beats a perfect one in a folder, and the polish can continue after it ships.",
+   "transition": "Everyone shipped. Now the card that makes it a habit.",
+   "coreNote": "Core: pair check runs on facts only; the ship call happens whole-room, hands up as pieces go.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: You do not leave with a plan. You leave with a win you shipped.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 5,
+   "coreMinutes": 4,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 6,
+   "coreMinutes": 4,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 2,
+   "coreMinutes": 2,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

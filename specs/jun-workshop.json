@@ -1,0 +1,260 @@
+{
+  "slug": "jun-workshop",
+  "format": "workshop",
+  "series": "Navigator Workshop",
+  "month": "June 2027",
+  "monthShort": "Jun",
+  "monthIndex": 9,
+  "theme": "From Insight to Action",
+  "goal": 3,
+  "title": "The Action Lab",
+  "titleHtml": "The year lands <em class=\"gold-text\">on one page</em>.",
+  "tagline": "The workforce action-planning capstone lab: the year's insight becomes a plan.",
+  "description": "An in-person navigator-led capstone lab for Vanderbilt managers: bring your exposure map and your skills read, build a concrete workforce action plan with one reskill and one redeploy or redesign candidate, owners and dates attached, and pressure-test it at the table before it goes home.",
+  "heroLead": "Your year's work comes to one table: the skills read from the fall, the exposure map from the spring. This lab turns them into a plan: one reskill, one redeploy or redesign, owners and dates attached, pressure-tested by managers who ask hard questions kindly.",
+  "objectives": [
+    "Lay your exposure map and skills read side by side and find the insight worth acting on",
+    "Write two plan lines, one reskill and one redeploy or redesign, each with an owner and a date",
+    "Pressure-test the plan at the table and leave with the first conversation booked"
+  ],
+  "skills": [
+    {"label": "Leads through change", "core": true},
+    {"label": "Workforce Planning"},
+    {"label": "Decision Making"},
+    {"label": "AI Literacy"}
+  ],
+  "missionTie": "Defining the great university of the 21st Century is, in the end, a set of kept plans. Managers leaving this room with owners and dates are Exceptional Core Operations turning a year of seeing into a season of doing.",
+  "goalLead": "Goal 3 ends at action: AI insight translated into practical workforce moves. This capstone lab is the translation done in company, with witnesses.",
+  "agenda": [
+    {"t": "The two maps meet", "d": "Exposure map and skills read, side by side, until an insight worth acting on appears."},
+    {"t": "Two lines, owners, dates", "d": "Write the reskill line and the redeploy or redesign line, specific enough to check."},
+    {"t": "The table test", "d": "Read your plan to managers who probe it, then book the first conversation."}
+  ],
+  "manifesto": "A year of insight earns its keep the day it becomes somebody's owned, dated move.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Two Maps",
+      "dataTitle": "The two maps meet",
+      "eyebrow": "The Overlay",
+      "headline": "Lay the year <em>on the table</em>.",
+      "lead": "Physically spread both artifacts: the exposure map that says which work is changing, and the skills read that says who could grow. The plan lives where they touch: an exposed task next to a hidden strength. Roles only, never names, even on your own worksheet.",
+      "group": "Point a neighbor at one place your maps touch: an exposed task near an underused strength, roles only. The neighbor says the move they see before you say yours.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The overlay rule",
+          "text": "An action-ready insight has two coordinates: a task whose shape is changing, and a strength or gap on the team it points at. One coordinate makes a slide. Two make a move you can hand an owner."
+        },
+        "q": "Quick check: which of these is action-ready?",
+        "opts": [
+          {"t": "AI will change a lot of our routine work this year", "correct": false, "why": "One blurry coordinate. Nothing to hand an owner, nothing to date. It needs the named task and the strength or gap it points at."},
+          {"t": "Routine casework shrinks; a coordinator's untapped data skill fits the analysis gap", "correct": true, "why": "Two coordinates: a changing task and a strength to grow into it. That sentence is one owner and one date away from being a move."},
+          {"t": "We should hire an AI specialist to sort this out", "correct": false, "why": "Hire is the last move, after reskill, redeploy, and redesign have been honestly tried. The maps on your table usually contain the earlier answer."}
+        ],
+        "context": "This table is holding a year of looking: the talent inventory habit from the fall, the task maps from the spring, the honest sorts in between. Most planning fails for lack of exactly what is in front of you now. In this room the raw material is done, which is why today can be all verbs.",
+        "discuss": "Where do your two maps touch first? Name the task and the strength, roles only, and let the table say what move they see."
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Two Lines",
+      "dataTitle": "Two lines, owners, dates",
+      "eyebrow": "The Build",
+      "headline": "Write the moves <em>you can check</em>.",
+      "lead": "The worksheet asks for two lines. The reskill line: who grows, toward what work, starting when. The redeploy or redesign line: which strength moves, or which role gets rebuilt around what stays human. Each line ends the same way: an owner and a date.",
+      "group": "Write both lines, then read them to your table partner exactly as written. Anywhere they ask 'meaning what?', the line is still fog: rewrite it on the spot.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Grade the line",
+        "intro": "Three plan lines from tables like this one. Grade each before it goes home.",
+        "progressWord": "Line",
+        "labels": ["Holds: owner, date, checkable", "Fog: sharpen the specifics", "Wrong verb: resort the move"],
+        "passAt": 2,
+        "passMsg": "You can grade a plan line at a glance, which means you can write one. Owners, dates, and checkable verbs travel.",
+        "failMsg": "Close. The tells: a line holds when someone could verify it happened; fog hides the who or the when; the wrong verb usually means hire crept in ahead of the cheaper moves.",
+        "items": [
+          {"q": "Reskill our program coordinator toward exception handling; I own the first conversation, booked Friday.", "answer": 0, "why": "A role, a skill, an owner, a date. Anyone can tell in a month whether this happened, and that is the whole test of a plan line."},
+          {"q": "The team will build AI capabilities over the coming months as the tools mature.", "answer": 1, "why": "No who, no what, no when: fog in a confident font. Nobody could ever say whether it happened. Name the role, the skill, and the date."},
+          {"q": "Hire a new analyst to take the reporting work AI has been freeing up on the scheduling desk.", "answer": 2, "why": "Freed capacity plus existing people is redeploy territory; hire comes after the cheaper moves fail honestly. Resort this one before it spends money."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Table Test",
+      "dataTitle": "The table test",
+      "eyebrow": "The Send-Off",
+      "headline": "Plans get strong in <em>other people's hands</em>.",
+      "lead": "Last build of the year, out loud. Your plan meets the table: managers who don't run your team, asking what the owner needs and what the person whose work changes will hear. Then the first conversation gets booked here, on a real calendar.",
+      "group": "Read your two lines to the table. Listeners ask the card questions: what does the owner need, what will the person hear, what slips first? Revise on the spot.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Send the plan home",
+        "intro": "A plan survives on who hears it first and how its dates hold. Choose both.",
+        "runLabel": "Run the season",
+        "outcomeTag": "How the season goes",
+        "slots": [
+          {
+            "key": "Who hears the plan first",
+            "opts": [
+              {"t": "Nobody yet; it needs polishing first", "pts": 1, "coach": "Polish is how plans hide. A plan nobody has heard has no witnesses, and unwitnessed dates negotiate themselves away by July."},
+              {"t": "Leadership, so it arrives pre-approved", "pts": 2, "coach": "Sometimes needed, rarely first. A plan that reaches the team as an announcement reads as a verdict, and this year taught the cost of verdicts."},
+              {"t": "The person whose work changes, framed as growth", "pts": 3, "coach": "They hear it from you, early, as a growth story: what you saw change, what you want to grow, what stays theirs. That conversation is the plan's real launch."}
+            ]
+          },
+          {
+            "key": "How the dates hold through summer",
+            "opts": [
+              {"t": "They're on the plan; that should do it", "pts": 1, "coach": "Paper holds ink, never dates. Summer schedules eat undefended plans, and September will ask what happened."},
+              {"t": "You keep the whole plan on your own to-do list", "pts": 2, "coach": "Now one busy manager is the single point of failure. Owners exist so the plan survives your week; give each step back to its owner."},
+              {"t": "Each step sits on its owner's calendar, with a peer check-in booked from this table", "pts": 3, "coach": "Calendars plus a witness from this room. The plan now has more defenders than obstacles, which is the winning ratio for any summer."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A plan in motion before the room empties. The right person hears it first, and the dates have defenders.",
+          "mid": "A good plan waiting on a first conversation. Every week it waits, the word draft fades a little.",
+          "weak": "A worksheet, going home to a drawer. The year's insight deserved a calendar and got a folder."
+        },
+        "reactions": {
+          "strong": "The first conversation lands as investment, and the person whose work is changing adds a step you hadn't seen. At the peer check-in you report motion, and borrow one idea back.",
+          "mid": "August arrives and the plan is intact and unstarted. The fix is unchanged: one conversation, booked. The table that tested your plan would still take your call.",
+          "weak": "By fall the role changed anyway, on nobody's terms. The plan was right; it just never met a calendar, and insight that misses its window reads later like hindsight."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "An insight is action-ready when it has...",
+      "opts": ["A compelling slide", "A changing task and a strength or gap it points at", "Leadership sign-off", "A vendor quote"],
+      "correct": 1,
+      "why": "Two coordinates: the changing task and the team strength or gap it points at. With both, the line is an owner and a date away from a move."
+    },
+    {
+      "q": "A plan line holds when...",
+      "opts": ["It sounds ambitious", "It mentions AI", "Someone could verify later that it happened", "It fits on one slide"],
+      "correct": 2,
+      "why": "Owner, date, checkable verb. A role and a skill anyone can check in a month is a move; anything less is still an insight."
+    },
+    {
+      "q": "Who should hear the plan first?",
+      "opts": ["Nobody, until it is polished", "The person whose work changes", "A vendor", "The whole department at once"],
+      "correct": 1,
+      "why": "Hearing it early, from you, framed as growth, is what makes the move land as investment. The order of conversations is itself a message."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The plan is real. Book the first conversation before the room empties.",
+    "mid": "Close. Sharpen the fog line, then book the conversation.",
+    "low": "Walk the overlay once more, then let the table test you again."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My workforce plan",
+    "headline": "Two moves, two owners, <em>two dates</em>.",
+    "lead": "Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.",
+    "whoLabel": "Your two lines: the reskill, and the redeploy or redesign, with owners and dates.",
+    "whoPlaceholder": "e.g. reskill senior coordinator toward exceptions, talk booked Friday; redesign intake role around what stays human",
+    "practiceLabel": "What happens first?",
+    "whoRow": "The two lines",
+    "practices": [
+      {"id": "invest", "chip": "The investment conversation", "name": "The investment conversation", "move": "Hold the first conversation with the person whose work changes: what you saw, what you want to grow, what stays theirs."},
+      {"id": "portal", "chip": "The wider move", "name": "The wider move", "move": "If the redeploy points beyond your team, open the Talent Marketplace and the Transfer Portal and walk the move through the university's own doors."},
+      {"id": "peer", "chip": "The peer check-in", "name": "The peer check-in", "move": "Book the check-in with a manager from this table and trade one line each: what moved, what needs help."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "Step one is on a calendar this week, before the plan cools."},
+      {"id": "staff", "chip": "At my next staff meeting", "out": "The plan is named out loud at your next staff meeting, owners and dates included."},
+      {"id": "month", "chip": "Before the month ends", "out": "Both first steps land before the month ends, with the peer check-in booked beyond it."}
+    ],
+    "cardTitle": "My workforce plan card",
+    "evidenceRow": "At the peer check-in, one line: which move is in motion, and what did it already teach you?"
+  },
+  "closing": {
+    "headline": "You saw it all year. <em>Now move it.</em>",
+    "lead": "The year opened with reading the talent around you, and it closes with you holding a plan built from everything since. The season wraps; the habits and the plan keep going, and the rhythm comes back around.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Hold the investment conversation",
+    "nextBody": "The person whose work is changing hears it from you first, this week, framed as growth. This month's LinkedIn Learning course, Leading Your Team Through Change, is a warm companion for that conversation and the season after it, there whenever you want it.",
+    "brandline": "Insight, owned and dated, is action."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6. Managers were invited to bring their exposure map and skills notes from the year; blank templates on every table catch anyone who arrives without them. This is the capstone lab of the series year: expect warmth, and leave room for it.",
+    "pulse": "Seven days out, send the pulse: 'Did the investment conversation happen? Which of your two moves is in motion? When is the peer check-in?' Count of plans with step one held is the month's Level 3 metric, and the year's last.",
+    "s1": {
+      "title": "The two maps meet",
+      "purpose": "Get both artifacts physically on the table and locate each manager's action-ready insight, roles never names.",
+      "say": "Welcome to the last room of the series year, and the one everything else was furniture for. On your table go two things you built: the exposure map from the spring, which says how the work is changing, and your skills read, the habit you started in the fall, which says who could grow. If either is rough or missing, the blank template and your memory will do; the year is in your head even when it isn't in your bag. We are looking for the places the two maps touch.",
+      "facilitate": [
+        "Give quiet time for spreading out and reacquainting; walk the room and admire the maps out loud, it sets the tone.",
+        "Show the overlay card, then run the discussion: one touchpoint per manager, the table says the move they see.",
+        "Run the neighbor exercise; listen for a clean task-plus-strength pairing to quote at the debrief."
+      ],
+      "ask": {
+        "q": "What surprised you, seeing both maps at once?",
+        "expect": ["Strengths sitting right next to exposed tasks", "Gaps with no strength anywhere near them", "Some maps aged; the work changed faster than expected"],
+        "respond": "All three are findings. A strength beside an exposed task is a plan; a gap with no strength nearby is also a plan, just a different verb."
+      },
+      "debrief": "One coordinate is a slide; two are a move. Every manager here just found at least one pair.",
+      "watchFor": "Names sneaking onto worksheets as the maps get personal. The rule holds hardest in the capstone: roles only, on paper and out loud.",
+      "transition": "You have the insight. Now it becomes two lines with owners and dates.",
+      "coreNote": "Core: skip the neighbor exercise; each manager marks one touchpoint solo and says it in one sentence at the table."
+    },
+    "s2": {
+      "title": "Two lines, owners, dates",
+      "purpose": "Draft the reskill line and the redeploy or redesign line, checkable, owned, and dated.",
+      "say": "The plan is deliberately small: two lines. Line one is a reskill: who grows, toward what work, starting when. Line two is a redeploy or a redesign: a strength pointed at new work, or a role rebuilt around what stays human. If a redeploy points past your own team, that is what the Talent Marketplace and the Transfer Portal are for; the university built the doors, and your line can walk through them. Both lines end the same way: an owner and a date. If you cannot check it later, it is not written yet.",
+      "facilitate": [
+        "Run Grade the line on learner devices first, so the holds, fog, and wrong-verb tells are shared.",
+        "Quiet drafting on the worksheet; walk the room and ask 'meaning what?' at any fog.",
+        "Run the partner read-aloud; rewrites happen at the table with the marker, never later."
+      ],
+      "ask": {
+        "q": "Which line came harder, the reskill or the redeploy and redesign?",
+        "expect": ["Reskill easier; training feels familiar", "Redesign harder; rebuilding a role feels above a manager's desk", "Dates harder than either"],
+        "respond": "Redesign feels big because it is honest. Start the line anyway; the table test will tell you whether it needs a partner in HR, and that ask becomes step one."
+      },
+      "debrief": "Two lines, four properties each: a verb, a role, an owner, a date. The whole year fits in two sentences, which was always the point.",
+      "watchFor": "Hire creeping in as a first verb. Run the order aloud: reskill, redeploy, redesign, then hire, when the first three have honestly failed.",
+      "transition": "The lines exist. Time to let other managers bend them.",
+      "coreNote": "Core: draft the reskill line fully; the second line can leave as a labeled stub with its owner and date set at the peer check-in."
+    },
+    "s3": {
+      "title": "The table test",
+      "purpose": "Pressure-test each plan aloud at the table, then convert momentum into a booked first conversation and peer check-in.",
+      "say": "Here is why this lab is in person: plans get strong in other people's hands. You will read your two lines to the table, exactly as written, and take the card questions: what does the owner need, what will the person whose work changes hear, what slips first. Answer, revise, and then do the bravest administrative act of the year: open your calendar and book the first conversation before you leave this room.",
+      "facilitate": [
+        "Run Send the plan home on learner devices; the who-hears-it-first pattern sets up the read-alouds.",
+        "Run the table test: each manager reads, card questions fly, revisions happen on the spot; keep tables moving so everyone gets tested.",
+        "Calendars open: first conversations booked, peer check-ins traded across the table; confirm out loud as they land."
+      ],
+      "ask": {
+        "q": "What did the table hear in your plan that you couldn't?",
+        "expect": ["The person's likely first reaction to the move", "A date that was really a hope", "A redesign that needs an HR partner from day one"],
+        "respond": "That is the lab doing its one job. Every question you just answered is one your team and your leadership no longer get to ask first."
+      },
+      "debrief": "Tested, revised, booked: the plan leaves this room already in motion, which is the difference between a capstone and a keepsake.",
+      "watchFor": "Managers booking the leadership pitch before the investment conversation. Reorder it gently: the person whose work changes hears it first; that order is the message.",
+      "transition": "Recap, the card, and then we close the year properly.",
+      "coreNote": "Core: the table test runs one line per manager instead of two; the second line gets tested at the peer check-in."
+    },
+    "capstoneSay": "The last card of the year. Two lines, owners, dates, roles never names. Write what happens first and when the peer check-in lands, then copy the card somewhere that survives the summer: the front of a notebook, a photo where you plan your week. This card is the year, folded small enough to carry. Quiet writing time, go.",
+    "closeSay": "Before you go, look at what this room built: a year of seeing, folded into plans with owners and dates. The month's weekly sessions carry the same push. Monday gave you the four moves you just used, Tuesday has your whole team drafting their own 90-day plans, and Thursday closes the season on deciding while the deciding is good. The season wraps here, warmly. The habits have no end date, the Talent Marketplace and the Transfer Portal stay open, and the rhythm comes back around with room to grow. If you want company through the change you just planned, this month's LinkedIn Learning course, Leading Your Team Through Change, is there whenever you want it, never homework. Thank you for bringing your year to this table. Go hold the conversation.",
+    "contingencies": [
+      {"if": "The projector or room screen fails", "then": "The lab survives it: everything runs on paper and learner devices via the welcome QR. Read the cards aloud from your own screen and keep the builds moving."},
+      {"if": "A manager arrives without their exposure map or skills notes", "then": "The blank templates rebuild the essentials fast: five recurring tasks, three strengths, one gap. A rough fresh map beats a polished absent one, and the table test works on either."},
+      {"if": "A manager names a real employee while testing a plan", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The plan works on work; the person hears it first in private, which is exactly what the plan schedules."},
+      {"if": "End-of-year emotion surfaces at the tables", "then": "Let it breathe; a capstone is allowed to feel like one. Invite one-line reflections on the year at the close, take a few aloud, and land the room on the plans going home in warm hands."}
+    ],
+    "toughQuestions": [
+      {"q": "My plan needs budget or an HR process I don't control. Is it stuck?", "a": "Then the ask is step one, owned and dated like everything else. Two checkable lines with owners are exactly what gets funded and fast-tracked; fog is what gets deferred. Book your HR consultant the way you booked the investment conversation, plan in hand."},
+      {"q": "What if the person whose work changes doesn't want the reskill?", "a": "That answer is data, and it usually points at redeploy: the strength is real even when the appetite isn't. Hold the conversation as a genuine question, and let the Talent Marketplace surface options you can't see from inside one team. A move chosen lands better than a move assigned, every time."},
+      {"q": "The series year is ending. Who checks whether these plans actually happen?", "a": "You built the answer today: an owner per step, a peer check-in with this table, and a team that hears the plan early. The pulse follows in a week, the dashboard stays open, and the rhythm returns with room to grow. The plan reports to its owners now, which was the year's whole lesson."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person: the capstone lab, with your navigator. Bring the AI-exposure map you built this spring and any skills notes from the year, in whatever shape they are in; blank templates will be waiting if the originals stayed home. You leave with a plan that has owners and dates. Roles only, never names, and nothing you write is collected."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Is the plan in motion? Three lines, reply whenever: 1) Did the investment conversation happen? 2) Which of your two moves is in motion, and what has it taught you? 3) When is the peer check-in, and what will you bring to it?"}
+    ]
+  }
+}

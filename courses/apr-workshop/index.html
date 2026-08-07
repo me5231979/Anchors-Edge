@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Team Grid | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led workshop for Vanderbilt managers: build a physical AI-exposure grid of your team's recurring work, sort every task automate, augment, or leave alone, pressure-test the sort with a partner, and draft the opener that brings the grid to your team.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/apr-workshop/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Team Grid | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led workshop for Vanderbilt managers: build a physical AI-exposure grid of your team's recurring work, sort every task automate, augment, or leave alone, pressure-test the sort with a partner, and draft the opener that brings the grid to your team.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/apr-workshop/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Grid</a><a href="#s-two">The Challenge</a><a href="#s-three">The Opener</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · April 2027 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/apr-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>The great university of the 21st Century gets redesigned one team at a time, by managers who can see the change on paper. A room full of finished grids is Exceptional Core Operations doing its own forward planning.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 3 of 3</p>
+      <h2 class="h2" data-reveal>AI-Enabled Workforce <em>Readiness</em>.</h2>
+      <p class="lead" data-reveal>Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 3 asks managers to identify AI-exposed work and turn the insight into action. This workshop is where the identifying happens at full scale: your whole team's work, mapped and sorted in one sitting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · Spot AI-Exposed Work</p>
+      <h1 class="h-hero" data-reveal>Put your team's work <em class="gold-text">on the wall</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">The weekly sessions handed you the lens. This room hands you the table: paper, markers, and time to map your team's real work, sort every task, and let another manager poke at the sort before your team ever sees it.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Build a physical grid of your team's recurring tasks, in task language, tasks never names</li><li>Sort every task automate, augment, or leave alone, and defend each call under a partner's challenge</li><li>Draft and rehearse the opener that brings the grid to your team as shared work</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 3</b><span>AI-Enabled Workforce Readiness</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Leads through change</span><span class="skillpill">AI Literacy</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Team Communication</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The grid goes up</h3><p>Your team's recurring tasks, in task language, on a grid big enough to argue with.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The sort and the challenge</h3><p>Every task gets a call, and every call gets a partner's honest challenge.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The opener</h3><p>Draft the words that put the grid in front of your team as an invitation.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The grid goes up">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Grid</p>
+      <h2 class="h2" data-reveal>The work looks different <em>on paper</em>.</h2>
+      <p class="lead" data-reveal>Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits physically in front of you, the gaps show: the invisible cleanup, the work only one person knows.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The grid rule</span>
+        <p style="margin:.5rem 0 0" class="measure">A row is ready when a stranger could picture doing the task: the output, the rhythm, the inputs. Rows about people come off; rows about work stay on. The grid earns its wall space by being arguable, and only tasks can be argued with.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">Every flip chart in this room starts the same way: three easy rows, then a stall. The stall is the good part. Tasks that resist writing are the ones nobody has examined, and unexamined routine is where exposure hides. Here the stall gets company: a whole table hitting the same wall together.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Which row stalled you, and what made it hard to write? Trade stalls at your table and help each other finish the row.</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which row is ready for the grid?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="That row maps a person, and it poisons the wall. People hold portfolios of tasks; the grid holds the tasks, so the sort never puts anyone on trial."><span class="mark">A</span><span>Our coordinator, who might be automated</span></button><button class="opt" data-correct="1" data-why="Output, rhythm, inputs. A stranger could picture it, a partner can challenge it, and your team can sort it without anyone flinching."><span class="mark">B</span><span>Intake queue triage, daily, from the shared inbox</span></button><button class="opt" data-correct="0" data-why="A wish wearing a row. Name the actual reports, their rhythms, and their inputs, and the wish becomes three sortable tasks."><span class="mark">C</span><span>Improve our reporting culture</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Write the first eight rows of your grid, then trade sheets with a neighbor. They circle any row a stranger couldn't picture doing; you rewrite it on the spot.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The sort and the challenge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Sort</p>
+      <h2 class="h2" data-reveal>A call that survives a <em>challenge</em> is a call you can keep.</h2>
+      <p class="lead" data-reveal>Every row gets a mark: automate, augment, or leave alone. Then a table partner challenges your calls out loud. The traffic light rides along: green public or generic, go; yellow internal, approved VU tools only; red private information about people, never.</p>
+      <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Survive the challenge</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> A challenged call has three honest endings. Read each exchange from a table like yours and pick the ending it deserves.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Pair up across the table and walk your partner down your grid, one call at a time. Their job is one honest challenge per call; yours is to keep, flip, or split, out loud.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The opener">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Send-Off</p>
+      <h2 class="h2" data-reveal>The grid goes home as a <em>draft</em>.</h2>
+      <p class="lead" data-reveal>The grid in your hands is a draft, and that is its power. Presented as finished, it reads as a verdict; presented in pencil, it recruits co-authors. Before you leave, draft the words that put it in front of your team, and try them on a person who can wince.</p>
+      <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Bring the grid home</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your team meets the grid once. Choose what you carry into the room and what you ask first.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Run the meeting</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Draft your opener on the worksheet, then stand and deliver it to someone from another table. They answer as a skeptical team member; you get one revision before sitting.</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A map on a wall gets argued with. A map in a drawer gets feared.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My grid, home</p>
+      <h2 class="h2" data-reveal>The grid leaves this room <em>with a date</em>.</h2>
+      <p class="lead" data-reveal>You are holding a physical map of your team's work. Commit to what happens to it next. Tasks and roles only, never a name; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Which rows does your team see first? Name the task cluster.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. the weekly reporting rows; intake and scheduling rows" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · How does the grid meet the team?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="reveal"><span>The draft reveal</span></button><button class="opt" data-id="wall"><span>The living wall</span></button><button class="opt" data-id="second"><span>The second challenge</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="teammeet"><span>At the next team meeting</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">You built it by hand. <em>Now share the pen.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with a physical grid, a sort that survived a stranger, and an opener that invites co-authors. The month's weekly sessions keep the lens sharp while the grid does its work.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Get the grid in front of your team</h3>
+        <p>Run the reveal exactly as rehearsed: the draft framing, the marker, the ask. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, is there whenever you want it, never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Map it on paper. Redesign it together.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Team Grid · Navigator Workshop · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-two-play",
+   "progressWord": "Exchange",
+   "labels": [
+    "The call stands, keep it",
+    "The call flips, resort it",
+    "Split the task, sort the parts"
+   ],
+   "passAt": 2,
+   "passMsg": "You pressure-test like a partner should. Standing calls earn confidence, flipped calls earn honesty, and bundles get split.",
+   "failMsg": "Close. The tells: a call stands when its reason survives restating; it flips when the challenge names judgment or data you missed; it splits when both of you are right about different parts.",
+   "items": [
+    {
+     "q": "Your call: automate the newsletter reformat. The challenge: doesn't someone still catch the wrong dates? You answer: the check stays in the call.",
+     "answer": 0,
+     "why": "Automate always keeps the human check, so the challenge sharpened the call without breaking it. Keep the mark and write the checking step beside it."
+    },
+    {
+     "q": "Your call: leave the monthly data pull alone; it takes real skill. The challenge: the skill is remembering twelve steps, each following a rule.",
+     "answer": 1,
+     "why": "Rule-following that feels like skill is the classic flattery. When a challenge shows the judgment was memory, the call flips toward automate, freed hours named."
+    },
+    {
+     "q": "Your call: automate the weekly team update. The challenge: the update includes a paragraph on how individual people are doing.",
+     "answer": 2,
+     "why": "Both of you are right about different parts. The generic frame can draft in an approved VU tool; the sentences about people stay red, and human. Split the row."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-three-lab",
+   "outcomeTag": "How it lands",
+   "slots": [
+    {
+     "key": "What you carry in",
+     "opts": [
+      {
+       "t": "The finished grid, laminated and final",
+       "pts": 1,
+       "coach": "Laminate says decided. A team handed a finished sort has one role left: defendant. Expect quiet agreement in the meeting and loud worry after it."
+      },
+      {
+       "t": "A blank grid, so the team starts from nothing",
+       "pts": 2,
+       "coach": "Generous, and it wastes the work this room just did. A blank page also hands the anxious the job of imagining the worst. Your draft gives the talk a floor."
+      },
+      {
+       "t": "Your draft grid, marked draft, with a marker on the table",
+       "pts": 3,
+       "coach": "A visible draft plus a marker is an invitation with furniture. The team can correct rows, add tasks, and challenge calls, which makes the map theirs by the end."
+      }
+     ]
+    },
+    {
+     "key": "What you ask first",
+     "opts": [
+      {
+       "t": "Any questions about what I've decided?",
+       "pts": 1,
+       "coach": "The word decided ends the conversation it opens. Questions about a decision are appeals, and appeals make defendants of everyone, you included."
+      },
+      {
+       "t": "Does this look right to everyone?",
+       "pts": 2,
+       "coach": "Better, and it invites a polite yes. Whole-grid questions get whole-grid politeness. Aim smaller: one row, one call, one honest challenge."
+      },
+      {
+       "t": "Which row is wrong, and which task did I miss?",
+       "pts": 3,
+       "coach": "You just asked to be corrected, which is the fastest trust move a manager owns. People who fix your rows are co-authoring the redesign."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "The grid left the meeting fuller than it arrived: new rows, corrected calls, and a team arguing with paper instead of worrying about people.",
+    "mid": "A polite viewing. The team nodded at the grid and saved the real reactions for the hallway.",
+    "weak": "The wall map became a warning poster. The word automate traveled home with everyone; the word draft stayed in the room."
+   },
+   "reactions": {
+    "strong": "Within a week the grid gains rows in someone else's handwriting, which is the whole victory. When a task later moves to a tool, nobody is surprised, because everybody watched the map say so first.",
+    "mid": "Nothing broke and nothing moved. The grid is accurate and unowned. Reopen it with the smaller ask, one row and one call, and let the first correction start the co-authoring.",
+    "weak": "By Friday a rumor of cuts outruns your redesign story. You spend the next month re-earning the word draft, one 1:1 at a time."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A grid row is ready for the wall when...",
+   "opts": [
+    "It names a person and their risk",
+    "A stranger could picture doing the task",
+    "It covers a whole role in one line",
+    "It lists only tasks you would automate"
+   ],
+   "correct": 1,
+   "why": "Output, rhythm, inputs, in task language. Rows about work can be sorted in the open; rows about people put someone on trial."
+  },
+  {
+   "q": "A partner's challenge names judgment you missed. The call...",
+   "opts": [
+    "Stands, since it was yours to make",
+    "Flips, and the grid gets more honest",
+    "Comes off the grid entirely",
+    "Waits for leadership to settle it"
+   ],
+   "correct": 1,
+   "why": "That is the pressure test working. A challenge that surfaces missed data or judgment flips the call, and a flipped call is a win for the map."
+  },
+  {
+   "q": "How does the grid meet your team?",
+   "opts": [
+    "Finished and final",
+    "As a rumor before the meeting",
+    "As a marked draft, marker on the table",
+    "It stays in your office"
+   ],
+   "correct": 2,
+   "why": "A draft plus a marker recruits co-authors. The team corrects rows and adds tasks, and the redesign becomes shared work instead of a verdict."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The grid is built and battle-tested. Now it meets your team.",
+  "mid": "Solid. Reread the challenge tells, then finish your card.",
+  "low": "Worth one more walk through the three builds before the grid leaves the room."
+ },
+ "capstone": {
+  "whoRow": "The rows going home",
+  "cardTitle": "My team grid card",
+  "copyTag": "The Team Grid · April 2027 · Anchor's Edge",
+  "goalRow": "Goal 3, AI-Enabled Workforce Readiness.",
+  "evidenceRow": "Afterward, one line: what did the team add that you could never have seen alone?",
+  "practices": [
+   {
+    "id": "reveal",
+    "chip": "The draft reveal",
+    "name": "The draft reveal",
+    "move": "Open your next team meeting with the grid marked draft, a marker on the table, and the ask: which row is wrong, which task did I miss?"
+   },
+   {
+    "id": "wall",
+    "chip": "The living wall",
+    "name": "The living wall",
+    "move": "Post the grid where the team works and invite additions in anyone's handwriting before the sort conversation happens."
+   },
+   {
+    "id": "second",
+    "chip": "The second challenge",
+    "name": "The second challenge",
+    "move": "Trade grids with a manager from this room and run the challenge again, so the sort survives two strangers before it meets the team."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The grid is in front of the team this week, on the wall or in the meeting, before Friday."
+   },
+   {
+    "id": "teammeet",
+    "chip": "At the next team meeting",
+    "out": "The grid opens your next team meeting, first item, marker on the table."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "Reveal and sort conversation both happen within two weeks, dated before you leave this room."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

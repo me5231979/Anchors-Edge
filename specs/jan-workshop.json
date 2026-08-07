@@ -97,7 +97,7 @@
    "eyebrow": "The Run",
    "headline": "The draft is a start. The follow-up makes it <em>yours</em>.",
    "lead": "Write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then run it, right now, in the approved VU tool in front of you. When the draft returns close but not right, you do not start over. You ask again.",
-   "group": "Run your ask in the tool now, with a navigator nearby if you want one. When the draft lands, tell a neighbor the one thing you would change, then say exactly that to the tool.",
+   "group": "Run your ask in the tool now; wave a navigator over anytime. When the draft lands, tell a neighbor the one change you would make, then say exactly that to the tool.",
    "interaction": {
     "type": "builder",
     "playTitle": "The follow-up",
