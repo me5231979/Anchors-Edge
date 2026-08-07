@@ -152,7 +152,7 @@
   {
    "title": "Model one safe use",
    "purpose": "Install the traffic light and have every manager pick one green-light chore to model.",
-   "say": "The traffic light is the whole safety model, and it travels because it is short. Green is public or generic information: go. Yellow is internal work: approved VU tools only. Red is private information about people: never. Your first modeled use should be a boring green chore, because boring is copyable.",
+   "say": "The traffic light is the whole safety model, and it travels because it is short. Green is public or generic information: go. Yellow is internal work: approved VU tools only. Red is private information about people: never. One more thing about modeling, from a Forbes piece on setting the tone for AI: when leaders talk about the tool and nobody on the leadership team ever uses it, employees notice. Your first modeled use should be a boring green chore, because boring is copyable.",
    "facilitate": [
     "Run Green, yellow, or red? live; everyone plays on their own screen.",
     "After the red case, pause: ask why a kind intention leaves the light red.",

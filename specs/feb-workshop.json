@@ -58,7 +58,7 @@
    "lead": "Beverly Kaye and Sharon Jordan-Evans built the stay interview on two questions: why do you stay, and what would make staying easier? Draft yours for one real person, role only.",
    "source": {
     "label": "Stay interviews, Kaye and Jordan-Evans (Hello Stay Interviews)",
-    "url": "https://www.penguinrandomhouse.com/books/580390/hello-stay-interviews-goodbye-talent-loss-by-beverly-kaye-and-sharon-jordan-evans/9781626563476/"
+    "url": "https://www.penguinrandomhouse.com/books/580390/hello-stay-interviews-goodbye-talent-loss-by-beverly-kaye-and-sharon-jordan-evans/"
    },
    "group": "At your table: read your opening aloud. The table answers with what the employee would feel first, then helps you sharpen it.",
    "interaction": {
@@ -95,7 +95,11 @@
    "dataTitle": "Run the rounds",
    "eyebrow": "The Rounds",
    "headline": "Say it out loud <em>before it counts</em>.",
-   "lead": "Reading a draft is not the skill; staying in the conversation is. One of you runs your opening while the other plays the employee, honestly. Two moments will test you: the silence after a real question, and the answer you cannot fix. Both have a strong move.",
+   "lead": "Reading a draft is not the skill; staying in the conversation is. Active practice is one of ATD's levers for moving training into real work, so run your opening on a partner playing the employee. Two moments will test you, and both have a strong move.",
+   "source": {
+    "label": "Design Tactics for Training Transfer, TD Magazine (ATD)",
+    "url": "https://www.td.org/magazines/td-magazine/design-tactics-for-training-transfer"
+   },
    "group": "Pair up across tables and run the round: one asks, one plays the employee from the role only, inventing details as needed. Then swap parts and run the second draft.",
    "interaction": {
     "type": "builder",
@@ -327,7 +331,7 @@
   "s2": {
    "title": "Run the rounds",
    "purpose": "Give every manager live reps: run the draft against a partner playing the employee, and meet the silence and the unfixable answer.",
-   "say": "Now the lab part. Pair up. One of you is the manager, running your real draft. The other plays the employee, from the role description only, honestly: give real answers, go quiet when a question deserves thought, and at least once, name something the manager cannot fix. Then swap. Before you start, we train the two moments that break stay interviews: the silence and the unfixable answer.",
+   "say": "Now the lab part, and it is where the hour pays off. ATD's work on training transfer keeps naming active practice as one of the levers that gets a skill onto the job, so we spend the time here rather than on more slides. Pair up. One of you is the manager, running your real draft. The other plays the employee, from the role description only, honestly: give real answers, go quiet when a question deserves thought, and at least once, name something the manager cannot fix. Then swap. Before you start, we train the two moments that break stay interviews: the silence and the unfixable answer.",
    "facilitate": [
     "Run The hard moments on learner devices first; it loads the strong moves before anyone needs them.",
     "Pair managers across tables so nobody role-plays with someone who knows the real person. Restate the norm once: roles only, never names, and the employee player invents details rather than borrowing a real colleague's.",

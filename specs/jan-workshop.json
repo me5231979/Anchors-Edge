@@ -167,7 +167,11 @@
    "dataTitle": "Check and ship",
    "eyebrow": "The Ship",
    "headline": "A win is checked, then <em>shipped</em>.",
-   "lead": "The tool sounds just as sure when it is wrong, so check every name, date, and number, and make the voice yours. Then finish the step most first tries skip: send it, file it, or use it. Shipped work is what counts as a win.",
+   "lead": "The tool sounds just as sure when it is wrong, so MIT Sloan's rule is think first, verify always. Check every name, date, and number, make the voice yours, then ship it. Shipped work is what counts as a win.",
+   "source": {
+    "label": "Think first, verify always (MIT Sloan Management Review)",
+    "url": "https://sloanreview.mit.edu/article/a-three-minute-protocol-to-reduce-ai-manipulation-risk/"
+   },
    "group": "Swap seats with a neighbor and check each other's drafts: facts first, then one sentence that does not sound like the author. Then take your seat back and ship yours.",
    "interaction": {
     "type": "check",
@@ -346,7 +350,7 @@
   "s3": {
    "title": "Check and ship",
    "purpose": "Install the editor's check with a partner's eyes, then have every person actually ship the checked work before the capstone.",
-   "say": "One warning keeps you safe: the tool writes with the same confidence whether it is right or wrong. So the check never gets skipped. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.",
+   "say": "One warning keeps you safe: the tool writes with the same confidence whether it is right or wrong. So the check never gets skipped. MIT Sloan Management Review wrote up a three minute habit for it, think first, verify always: form your own view before you ask, then check anything that matters against a source outside the tool. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.",
    "facilitate": [
     "Pair neighbors across the table; swap seats or swap devices, author's choice. Facts first, then the voice read.",
     "Show the ship test card and let the folder line land; the room will recognize it.",

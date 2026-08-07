@@ -152,7 +152,11 @@
    "dataTitle": "Write the entry",
    "eyebrow": "The Entry",
    "headline": "Write it so a reader can <em>act</em>.",
-   "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to act on. A goal with a direction and a dated first step, and a note that holds the agreement, turn your record into something projects and people can answer.",
+   "lead": "A growth record is only as useful as its writing. 'Improve communication' gives a reader nothing to act on. Donald Sull's goal research at MIT Sloan is the standard here: specific and visible beats vague. Write a direction, a dated step, the agreement.",
+   "source": {
+    "label": "With Goals, FAST Beats SMART, Donald Sull (MIT Sloan)",
+    "url": "https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/"
+   },
    "deeper": {
     "title": "Keep the record alive",
     "body": "The first entry is the easy part; records die of staleness. A goal from two roles ago reads worse than no goal at all, because it tells a reader you stopped tending the page. So sweep quarterly: retire what no longer pulls you, sharpen dates that slipped, and add the agreement from your latest career conversation. Before any career conversation, open your last note first. The follow-up line is your agenda, already written.",
@@ -370,7 +374,7 @@
   "s3": {
    "title": "Write the entry",
    "purpose": "Turn goals and notes into entries a future reader can act on: direction, date, agreement, follow-up.",
-   "say": "Oracle rewards a particular kind of writing, and it is teachable in one line: write so a reader can act. 'Improve communication' gives a reader nothing. 'Present to a leadership audience twice this year, first rep at the May ops review' gives them everything: what you want, when it starts, how to help. Same with notes. Date, agreement, follow-up, and the note runs your next conversation for you.",
+   "say": "Oracle rewards a particular kind of writing, and it is teachable in one line: write so a reader can act. 'Improve communication' gives a reader nothing. 'Present to a leadership audience twice this year, first rep at the May ops review' gives them everything: what you want, when it starts, how to help. Donald Sull's research at MIT Sloan lands in the same place: specific goals beat 'do your best' by a wide margin, and goals work harder when other people can see them, which is the whole point of writing yours into Oracle. Same with notes. Date, agreement, follow-up, and the note runs your next conversation for you.",
    "facilitate": [
     "Run Build your entry; two minutes for both fields, then save it.",
     "Ask one volunteer to read their six-months-later outcome aloud.",
