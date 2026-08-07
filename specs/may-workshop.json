@@ -11,7 +11,7 @@
   "titleHtml": "Practice on a <em class=\"gold-text\">real face</em>.",
   "tagline": "The feedback role-play and development-plan build, live and in person.",
   "description": "An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.",
-  "heroLead": "This month's sessions taught the reads: the signal, the ask, the clean receipt. This room adds the missing ingredient: another person. You will give feedback to a face, receive it back, and leave with a development plan built from feedback you actually hold.",
+  "heroLead": "The weekly sessions taught the reads; this room adds another person. Give feedback to a face, take some back, and leave with a plan built from feedback you actually hold.",
   "objectives": [
     "Deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict",
     "Receive a live round cleanly: one thank you, one clarifying question, no case for the defense",
@@ -23,8 +23,7 @@
     {"label": "Self-Awareness"},
     {"label": "Career Development"}
   ],
-  "missionTie": "The great university of the 21st Century runs on people who can say the true thing kindly and hear it without armor. A room practicing both out loud is Exceptional Core Operations rehearsing itself.",
-  "goalLead": "Goal 2 measures leader behavior, and feedback is the behavior that feeds every other measure. Today the whole room, managers and not, builds the muscle live.",
+  "missionTie": "A room practicing how to say the true thing kindly, and hear it without armor, is Exceptional Core Operations rehearsing for the great university of the 21st Century.",
   "agenda": [
     {"t": "Camera-true lines", "d": "Rewrite verdicts into behavior a camera would have caught, then say them out loud."},
     {"t": "The live rounds", "d": "Give and receive in rotating pairs; the face across from you is the lesson."},
@@ -38,8 +37,9 @@
       "dataTitle": "Camera-true lines",
       "eyebrow": "The Line",
       "headline": "Say what the <em>camera saw</em>.",
-      "lead": "Before any round runs, every line gets the camera test: would a lens have caught it? 'You're careless' fails; no camera films careless. 'The last two summaries went out with old numbers' passes. Camera-true lines are checkable, hearable, and fixable.",
+      "lead": "Every line gets the camera test first: would a lens have caught it? No camera films careless. A camera did film two summaries going out with old numbers. CCL has taught the move for decades as SBI, naming the situation, the behavior, and the impact.",
       "group": "Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.",
+      "source": {"label": "SBI feedback model (Center for Creative Leadership)", "url": "https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/"},
       "interaction": {
         "type": "trainer",
         "playTitle": "Camera or character?",
