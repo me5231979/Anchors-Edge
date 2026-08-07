@@ -204,7 +204,7 @@
     "nextTag": "Your one next step · This week",
     "nextTitle": "Make the ask on your card",
     "nextBody": "One colleague, one specific question, one honest sentence back. For a dress rehearsal, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts includes a navigator role-play and a development plan you can build from the answer you get.",
-    "brandline": "Ask small. Hear it clean. Adjust once."
+    "brandline": "One honest sentence beats a year of guessing."
   },
   "facilitator": {
     "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so examples stay on a person's own work and collaborations. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",
@@ -266,7 +266,7 @@
       "transition": "Quick recap, then you build your ask.",
       "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
     },
-    "capstoneSay": "Now make it real. One colleague who sees your work, role only. One specific ask, one window. Build the card and copy it somewhere you will see it before Friday. The wince is the price; the clear look at your own work is what it buys. Two minutes, quiet, go.",
+    "capstoneSay": "Now make it real. One colleague who sees your work, role only. One specific ask, one window. Build the card and copy it somewhere you will see it before Friday. The wince is the price; the clear look at your own work is what it buys. Take the full two minutes.",
     "closeSay": "That closes the week. Monday made the manager standard readable, Tuesday opened the feedback tooling, and today gave you the loop that turns all of it into growth: ask small, hear it clean, adjust once. If you want a rehearsal before your ask, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a navigator-led role-play and helps you build a development plan from what you hear. Next week opens June and From Insight to Action, where we turn to AI and the future of your own work. Bring your card's one line with you.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
