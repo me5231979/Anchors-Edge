@@ -22,8 +22,7 @@
     {"label": "Data Literacy"},
     {"label": "Psychological Safety"}
   ],
-  "missionTie": "A university that intends to define the century has to hear itself clearly, and pulse data is how Vanderbilt listens at scale. Honest signal from every staff member is Exceptional Core Operations in its rawest form: the truth, on time.",
-  "goalLead": "Goal 2 measures the manager standard through data, and that data starts with you. Today you learn how the tooling protects your voice and what to do with the signal that comes back.",
+  "missionTie": "A university out to define the century has to hear itself clearly, and honest signal from every staff member is Exceptional Core Operations in its rawest form.",
   "agenda": [
     {"t": "How the tooling works", "d": "Anonymization, minimum group sizes, and aggregates: what the machine actually does."},
     {"t": "Safe to say", "d": "Why honest answers are protected, and the myths that keep people quiet."},
@@ -71,7 +70,7 @@
       "dataTitle": "Safe to say",
       "eyebrow": "The Myths",
       "headline": "Most silence is built on a <em>myth</em>.",
-      "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Some are myths the plumbing already handles. One is a real norm worth keeping. Telling them apart is the skill.",
+      "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Most of that is myth the plumbing already handles; one is a real norm worth keeping, and the skill is telling them apart.",
       "group": "Pairs: which myth have you half-believed at survey time, and what does the tooling actually do? 90 seconds each way.",
       "solo": "Name the myth you have half-believed at survey time, and what the tooling actually does instead.",
       "interaction": {
@@ -82,7 +81,7 @@
         "labels": ["Protected, answer honestly", "Myth, the plumbing handles it", "Real norm, respect it"],
         "passAt": 2,
         "passMsg": "You know the plumbing. Honest answers are protected, myths lose their grip, and the one real norm keeps comments about the work.",
-        "failMsg": "Close. The tell: identification fears are myths the tooling already handles. The real norm is about what you write, never about how honest you are.",
+        "failMsg": "Nearly. Fears about being identified are myths the plumbing already handles. The one real norm concerns open comments: describe the work, and leave named colleagues out.",
         "items": [
           {"q": "An analyst wants to rate workload honestly but worries their manager will recognize the low score as theirs.", "answer": 1, "why": "The classic myth. Scores arrive as an aggregate with no names attached, and small groups never get their own report. The low score cannot be traced."},
           {"q": "A coordinator drafts an open comment naming a colleague and describing that person's attitude problem in detail.", "answer": 2, "why": "Open comments travel word for word. The real norm: describe the work and the pattern, roles and situations, never a named colleague's character."},

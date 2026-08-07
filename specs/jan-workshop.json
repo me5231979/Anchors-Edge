@@ -150,7 +150,7 @@
      }
     ],
     "heads": {
-     "strong": "A second draft that sounds like you on a good day. Two small edits and it is ready for the check.",
+     "strong": "A second draft you would actually sign. Two small edits and it is ready for the check.",
      "mid": "Closer, after real effort. The draft improved; the skill of steering the tool stayed unpracticed.",
      "weak": "A fresh start that landed in the same place. The tool answered the same thin ask a second time."
     },
@@ -167,7 +167,7 @@
    "dataTitle": "Check and ship",
    "eyebrow": "The Ship",
    "headline": "A win is checked, then <em>shipped</em>.",
-   "lead": "The tool drafts with total confidence and zero guarantee, so the last step never changes: verify every name, date, and number, and make it sound like you. Then do the part most first tries skip. Send it, file it, use it. Shipped is what makes it a win.",
+   "lead": "The tool sounds just as sure when it is wrong, so the check never changes: every name, date, and number verified, and the voice yours. Then the part most first tries skip. Send it, file it, use it. Shipped is what makes it a win.",
    "group": "Swap seats with a neighbor and check each other's drafts: facts first, then one sentence that does not sound like the author. Then take your seat back and ship yours.",
    "interaction": {
     "type": "check",
@@ -323,7 +323,7 @@
   "s2": {
    "title": "Run it live",
    "purpose": "Every person writes the ask, runs it in the approved VU tool, and practices one real follow-up on the draft that returns.",
-   "say": "Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. You are going to practice the move that separates people who use these tools well: the follow-up. Tell it what to change, plainly, and watch the second draft.",
+   "say": "Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. Ethan Mollick helped run one of the first big field studies of these tools at work, and the people who got the most out of them worked in a running back-and-forth: hand a piece over, react, steer. That is the move you practice today, the follow-up. Tell the tool what to change, plainly, and watch the second draft.",
    "facilitate": [
     "Give the room the go and let it get quiet; drafting is the session working. Navigators move table to table for login trouble and thin asks.",
     "When most drafts are back, run The follow-up on learner devices; it names the move everyone is about to make on their own draft.",

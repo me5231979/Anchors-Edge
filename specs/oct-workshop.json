@@ -11,7 +11,7 @@
   "titleHtml": "Leave with your team <em class=\"gold-text\">on one page</em>.",
   "tagline": "The Know-Your-Team lab: build your first talent map.",
   "description": "An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.",
-  "heroLead": "The weekly sessions gave you the talent read. This lab is where it lands on paper. You leave the room holding a first talent map of your own team: skills beyond titles, marks you can defend, and the first conversation circled.",
+  "heroLead": "The weekly sessions gave you the read; this lab puts it on paper. You leave with a one-page map of your team, marks you can defend, and the first conversation circled.",
   "objectives": [
     "Build a one-page talent map of your team: one line per role, capability beyond the job title",
     "Mark flight-risk and growth signals on the map with evidence beside every mark",
@@ -23,8 +23,7 @@
     {"label": "Workforce Planning"},
     {"label": "Succession Planning"}
   ],
-  "missionTie": "A university out to define the century needs every manager to know the talent in the building. The map you draw today is Exceptional Core Operations at table level: one page that helps you retain, grow, and move real people.",
-  "goalLead": "Goal 1 needs managers who can see their teams before any system can. This lab turns the month's talent read into an artifact you keep: your first map, drawn by hand, ready to act on.",
+  "missionTie": "One page that helps a manager keep and grow real people is Exceptional Core Operations working at table level.",
   "agenda": [
     {"t": "The inventory pass", "d": "One line per role: what each person can do, beyond what the job asks."},
     {"t": "The signal pass", "d": "Mark the map: risk, growth, and the evidence that earns each mark."},

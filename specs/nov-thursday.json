@@ -312,7 +312,7 @@
  },
  "closing": {
   "headline": "Build the bridge <em>before you need it</em>.",
-  "lead": "You rebuilt networking on curiosity, packed it into twenty minutes, and learned the two-minute follow-up. With Monday's sending managers and Tuesday's Portal walkthrough, the month's whole map is in your hands.",
+  "lead": "You rebuilt networking on curiosity and packed it into twenty minutes. With Monday's sending managers and Tuesday's Portal walkthrough, the month's whole map is in your hands.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the bridge move on your card",
   "nextBody": "Send the invite or the follow-up exactly as built. If growing a team is your next stretch, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.",
@@ -347,7 +347,7 @@
   "s2": {
    "title": "The 20-minute coffee",
    "purpose": "Give everyone a repeatable format: the specific bounded invite and the question-led twenty minutes.",
-   "say": "The unit of internal networking is the 20-minute virtual coffee. Twenty minutes is short enough that a stranger says yes and long enough to actually learn something. But the coffee is won or lost in the invite: specific about their work, honest about your curiosity, and bounded in time. Then the twenty minutes themselves: your questions, their answers, your full attention, and a clean ending.",
+   "say": "The unit of internal networking is the 20-minute virtual coffee. Twenty minutes is short enough that a stranger says yes and long enough to actually learn something. The coffee is won or lost in the invite, though. Name the thing about their work you are curious about and cap the time; that is the whole formula. Then spend the minutes on your questions and their answers, and end when you said you would.",
    "facilitate": [
     "Run Build the coffee; two minutes to choose both slots and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -360,7 +360,7 @@
      "It proves you meant the invite",
      "It leaves them wanting more"
     ],
-    "respond": "All three, and it compounds: the person who ends on time is the person whose next invite gets accepted within the hour."
+    "respond": "It also compounds. The person who ends on time is the person whose next invite gets accepted within the hour."
    },
    "debrief": "Specific invite, real questions, clean ending. The format is small on purpose; small is what makes it repeatable.",
    "watchFor": "People drafting invites that are secretly job inquiries. Redirect to the curiosity test: the coffee is for learning, and opportunity follows on its own.",
@@ -391,7 +391,7 @@
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
   },
   "capstoneSay": "Now make it real. One bridge: a team, your genuine question, and the move you will make. Teams and roles, never names. Build the card and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-  "closeSay": "You leave with a curiosity test, a coffee format, and a two-minute habit. That closes the Transfer Portal week: Monday gave managers the sending mindset, Tuesday walked the Portal end to end, and today built the bridges that carry the news. If you want more this month, the navigators are running a live Portal walkthrough and a skill-profile clinic, and the LinkedIn Learning pick is Building Your Team by Chris Croft. Next month the series takes up the Vanderbilt Manager Standard; same time, same rhythm.",
+  "closeSay": "You leave with a curiosity test and a two-minute habit that keeps bridges standing. That closes the Transfer Portal week: Monday gave managers the sending mindset, Tuesday walked the Portal end to end, and today built the bridges that carry the news. If you want more this month, the navigators are running a live Portal walkthrough and a skill-profile clinic, and the LinkedIn Learning pick is Building Your Team by Chris Croft. Next month the series takes up the Vanderbilt Manager Standard; same time, same rhythm.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",
