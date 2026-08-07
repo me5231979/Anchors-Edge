@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: walk every behavior of the standard with a date and a witness, or an honest blank; draft one witnessable commitment per gap: the act, the rhythm, the first instance; rehearse the commitment out loud with a partner until it sounds like you. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: walk every behavior of the standard with a date and a witness, or an honest blank; draft one witnessable commitment per gap: the act, the rhythm, the first instance; rehearse the commitment out loud with a partner until it sounds like you. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the evidence walk, the commitment draft, the rehearsal. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The evidence walk",
@@ -221,7 +209,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A commitment your team could witness is the only kind the standard can count.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Commit in three parts: the act, the rhythm, and a dated first instance.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -246,7 +234,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Last build. The card gets your commitment in its final rehearsed wording, and the witness who hears it first: your team at its next meeting, or one colleague who will check back in a month. Roles only, never names. Write it, copy it to your phone, and put the first instance on your calendar before you stand up.",

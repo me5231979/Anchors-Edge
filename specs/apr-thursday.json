@@ -46,14 +46,14 @@
    "d": "Aim the filter at an actual tool-adoption call and design the test that settles it."
   }
  ],
- "manifesto": "A claim you never tested is a bet you never noticed placing.",
+ "manifesto": "Run every AI claim through the three tests before you act on it or repeat it.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Tests",
    "dataTitle": "The three tests",
    "eyebrow": "The Filter",
-   "headline": "Three questions beat a <em>thousand opinions</em>.",
+   "headline": "Ask three questions of <em>every claim</em>.",
    "lead": "The filter is three questions, asked fast. What is the evidence, and would it survive someone checking? Who benefits from my believing this? And what would change my mind, in either direction? A claim that survives all three has earned some trust.",
    "group": "In pairs: recall one AI claim you heard this month, from anywhere. Run it through the three tests together. One pair shares.",
    "solo": "Recall one AI claim you heard this month and run it through the three tests. Write down where it wobbled.",
@@ -98,8 +98,8 @@
    "nav": "The Tells",
    "dataTitle": "The hype tells",
    "eyebrow": "The Patterns",
-   "headline": "Hype speaks with an <em>accent</em>.",
-   "lead": "Hype repeats itself: a giant number with no baseline, urgency that never survives a second look, a seller quoted as the judge. Value talks about a specific task and invites you to check. Practice tunes your ear until the accent gives it away.",
+   "headline": "Learn the tells <em>hype</em> repeats.",
+   "lead": "Hype repeats itself: a giant number with no baseline, urgency that never survives a second look, a seller quoted as the judge. Value talks about a specific task and invites you to check. Practice on real claims until those patterns are quick to spot.",
    "group": "Breakout pairs: one of you pitches a tool with pure hype, the other runs the filter out loud. 90 seconds, then swap.",
    "solo": "Find one AI claim in your inbox or feed right now. Label it hype, value, or unproven, and note which tell decided it.",
    "source": {
@@ -117,7 +117,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Hype or value?",
-    "intro": "Three claims that could land in your inbox this week. Run the filter on each.",
+    "intro": "Run the filter on each claim and note which tell decides your verdict. Getting the middle case right matters most: unclear claims earn a test, never free belief.",
     "progressWord": "Claim",
     "labels": [
      "Hype: big claim, thin evidence",
@@ -264,7 +264,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My claim to test",
-  "headline": "One claim. Three tests. <em>One honest verdict.</em>",
+  "headline": "Pick the claim you <em>test first</em>.",
   "lead": "Pick a real claim currently circling your work: a tool pitch, a headline, a hallway certainty. Nothing you type is saved or sent.",
   "whoLabel": "Which claim gets the filter first? The claim and where it came from.",
   "whoPlaceholder": "e.g. 'this scheduling tool will save us hours', from a vendor email",
@@ -311,12 +311,12 @@
   "evidenceRow": "Afterward, one line: what was the verdict, and which test decided it?"
  },
  "closing": {
-  "headline": "Test the claim. <em>Trust the result.</em>",
-  "lead": "The month's kit is complete once the filter is in your pocket. Aim it first at the claim you most want to be true.",
+  "headline": "Run the filter on a <em>live claim</em>.",
+  "lead": "Run the three tests this week on a real claim, starting with the one you most want to be true. Write the verdict down and let it steer your next tool decision.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the filter on your card",
   "nextBody": "One real claim, three tests, one written verdict. If the claim survives, design the small test. The AI for Leaders course on LinkedIn Learning is a good companion if you want the longer view.",
-  "brandline": "Three questions. Then belief."
+  "brandline": "Ask the three questions before you believe."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month, and this session closes the week.",

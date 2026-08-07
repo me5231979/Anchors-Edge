@@ -11,7 +11,7 @@
  "titleHtml": "Put your team's work <em class=\"gold-text\">on the wall</em>.",
  "tagline": "The team AI-exposure mapping workshop: the whole grid, built by hand.",
  "description": "An in-person navigator-led workshop for Vanderbilt managers: build a physical AI-exposure grid of your team's recurring work, sort every task automate, augment, or leave alone, pressure-test the sort with a partner, and draft the opener that brings the grid to your team.",
- "heroLead": "The weekly sessions handed you the lens. This room hands you the table: paper, markers, and time to map and sort your team's real work before your team ever sees it.",
+ "heroLead": "This workshop is working time: paper, markers, a partner, and 90 minutes to map and sort your team's real work before your team ever sees it.",
  "objectives": [
   "Build a physical grid of your team's recurring tasks, in task language, tasks never names",
   "Sort every task automate, augment, or leave alone, and defend each call under a partner's challenge",
@@ -47,14 +47,14 @@
    "d": "Draft the words that put the grid in front of your team as an invitation."
   }
  ],
- "manifesto": "A map your team can argue with beats one they only hear rumors about.",
+ "manifesto": "Build the grid by hand, challenge every call, and bring it to your team as a draft.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Grid",
    "dataTitle": "The grid goes up",
    "eyebrow": "The Grid",
-   "headline": "The work looks different <em>on paper</em>.",
+   "headline": "Write one row per <em>recurring task</em>.",
    "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits in front of you, the gaps show, like the invisible cleanup and the work only one person knows.",
    "group": "Write the first eight rows of your grid, then trade sheets with a neighbor. They circle any row a stranger couldn't picture doing; you rewrite it on the spot.",
    "interaction": {
@@ -90,7 +90,7 @@
    "nav": "The Challenge",
    "dataTitle": "The sort and the challenge",
    "eyebrow": "The Sort",
-   "headline": "A call that survives a <em>challenge</em> is a call you can keep.",
+   "headline": "Challenge every <em>call</em> out loud.",
    "lead": "Every row gets a mark: automate, augment, or leave alone. Then a table partner challenges your calls out loud. The traffic light rides along; when in doubt, the most sensitive piece decides the color.",
    "group": "Pair up and walk your partner down your grid. Their job is one honest challenge per call; yours is to keep, flip, or split, out loud.",
    "source": {
@@ -133,14 +133,14 @@
    "id": "s-three",
    "nav": "The Opener",
    "dataTitle": "The opener",
-   "eyebrow": "The Send-Off",
+   "eyebrow": "The Opener",
    "headline": "The grid goes home as a <em>draft</em>.",
-   "lead": "The grid in your hands is a draft, and that is its power. Presented as finished, it reads as a verdict; presented in pencil, it recruits co-authors. Before you leave, draft the words that put it in front of your team, and try them on a person who can wince.",
+   "lead": "Present the grid to your team as a draft. Presented as finished, it reads as a verdict; presented in pencil, it recruits co-authors. Before you leave, draft the words that put it in front of your team, and rehearse them on a person who can wince.",
    "group": "Draft your opener on the worksheet, then stand and deliver it to someone from another table. They answer as a skeptical team member; you get one revision before sitting.",
    "interaction": {
     "type": "builder",
     "playTitle": "Bring the grid home",
-    "intro": "Your team meets the grid once. Choose what you carry into the room and what you ask first.",
+    "intro": "Choose what you carry into the meeting and what you ask first. Notice which choices turn the team from audience into co-authors of the map.",
     "runLabel": "Run the meeting",
     "outcomeTag": "How it lands",
     "slots": [
@@ -287,8 +287,8 @@
   "evidenceRow": "Afterward, one line: what did the team add that you could never have seen alone?"
  },
  "closing": {
-  "headline": "You built it by hand. <em>Now share the pen.</em>",
-  "lead": "You leave with a physical grid, a sort that survived a stranger, and an opener that invites co-authors. The weekly sessions keep the lens sharp while the grid works.",
+  "headline": "Put the grid in front of <em>your team</em>.",
+  "lead": "You leave with a physical grid, a sort that survived a stranger's challenge, and a rehearsed opener. Run the reveal this week and let the team edit the map.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Get the grid in front of your team",
   "nextBody": "Run the reveal exactly as rehearsed: the draft framing, the marker, the ask. For the longer view, this month's LinkedIn Learning course, AI and the Future of Work, is there whenever you want it, never required.",

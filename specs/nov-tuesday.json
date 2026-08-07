@@ -46,7 +46,7 @@
    "d": "Why there is no secrecy to keep, and what happens after you apply."
   }
  ],
- "manifesto": "Your next Vanderbilt role cannot find you if your profile only shows your last one.",
+ "manifesto": "Update your profile beyond your title, and raise your hand in the open.",
  "sections": [
   {
    "id": "s-one",
@@ -311,12 +311,12 @@
   "evidenceRow": "Afterward, one line: what did you find that you did not know existed?"
  },
  "closing": {
-  "headline": "The door is open. <em>Walk through it.</em>",
-  "lead": "Your profile is the antenna and the open hand is the method. Thursday's session builds the human side of the same map: the internal bridges that carry news of opportunity.",
+  "headline": "Spend fifteen minutes in the Portal <em>this week</em>.",
+  "lead": "You know what the profile needs, how to search by skill, and what happens after you raise your hand. Thursday's session builds the internal bridges that carry news of opportunity.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the Portal move on your card",
   "nextBody": "Run it as built. If you want company, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
-  "brandline": "Move to opportunity without moving out."
+  "brandline": "Search by skill, and ask a navigator when it goes quiet."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November is the Transfer Portal in Practice month, and this is the hands-on walkthrough, building on last month's See the Talent Around You.",
@@ -348,7 +348,7 @@
   "s2": {
    "title": "Search and raise your hand",
    "purpose": "Teach skill-first search across roles, gigs, and projects, and the open way to express interest.",
-   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is the lowest-risk way to test a direction ever invented. Then, when something pulls at you, raise your hand in the open.",
+   "say": "Now the search. The instinct is to look for your own job title in other buildings, and that finds you the job you already have. Search instead by the skills you want to use more. And notice the Portal lists gigs and short projects alongside jobs; a six-week gig is a low-risk way to test a direction. Then, when something pulls at you, raise your hand in the open.",
    "facilitate": [
     "Run Build your first pass; two minutes to make both choices and run it.",
     "Ask a volunteer to read their outcome aloud, weak or strong.",
@@ -392,7 +392,7 @@
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
   },
   "capstoneSay": "Now make it yours. One Portal move: the profile refresh, the open search, or the raised hand. Pick the move and the window, build the card, and copy it somewhere you will see it this week. Take two quiet minutes.",
-  "closeSay": "You leave with the antenna up and a way of searching that finds more than your own job title. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+  "closeSay": "You leave with your profile ready and a way of searching that finds more than your own job title. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

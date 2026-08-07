@@ -7,7 +7,7 @@
  "theme": "AI at Work: Start Where You Are",
  "goal": 3,
  "title": "Steady in the Fog",
- "titleHtml": "Stay steady <em class=\"gold-text\">before the fog lifts</em>.",
+ "titleHtml": "Stay steady while answers are <em class=\"gold-text\">still forming</em>.",
  "tagline": "Softskill · Adaptability: leading through ambiguity.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: build adaptability for seasons of change by sorting known from unknown, running small experiments while certainty catches up, and helping colleagues stay steady.",
  "heroLead": "Change lands faster than answers, and AI is this year's loudest example. Adaptability is a practice: sort what you know from what you guess, then take one small step.",
@@ -46,7 +46,7 @@
    "d": "What to say when a colleague is spiraling about change."
   }
  ],
- "manifesto": "Certainty arrives late. Adaptable people learn while they wait.",
+ "manifesto": "When change lands, sort known from assumed, then run one small reversible experiment.",
  "sections": [
   {
    "id": "s-one",
@@ -54,7 +54,7 @@
    "dataTitle": "Known, unknown, assumed",
    "eyebrow": "The Sort",
    "headline": "Ambiguity shrinks when you <em>sort it</em>.",
-   "lead": "Most change anxiety comes from treating one big fog as one big threat. Sorting breaks the fog into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. The piles are always smaller than the fog.",
+   "lead": "When a change feels overwhelming, sort it into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. A named question can be answered; an unsorted worry cannot. The piles are always smaller than the fog.",
    "group": "In pairs: name one workplace change on your mind, then each find one assumption you have been treating as a fact. 90 seconds each way.",
    "solo": "Name one workplace change on your mind, then write one assumption you have been treating as a fact.",
    "deeper": {
@@ -178,7 +178,7 @@
    "nav": "Steady the Room",
    "dataTitle": "Steady the room",
    "eyebrow": "The Steady Voice",
-   "headline": "Be the voice that <em>steadies</em>.",
+   "headline": "Name the known, admit the unknown, <em>offer one step</em>.",
    "lead": "In a season of change, colleagues take their cue from whoever sounds grounded. Grounding has a shape: name the known, be honest about the unknown, point at one next step. Listen to three replies to the same worry and call what each does to the room.",
    "group": "In pairs: recall a change announcement that rattled your area. Which voices steadied people, and what exactly did they say? 90 seconds each way.",
    "solo": "Recall a change announcement that rattled your area. What did the steadiest voice around you actually say?",
@@ -259,13 +259,13 @@
   }
  ],
  "recapMsgs": {
-  "high": "You have the sort, the step, and the steady voice. Point them at a real change.",
+  "high": "You have the sort, the step, and the steadying reply. Use them on a real change.",
   "mid": "Solid. Revisit the three-pile sort, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
  "capstone": {
   "eyebrow": "Capstone · My adaptability move",
-  "headline": "Meet the fog with a <em>move</em>.",
+  "headline": "Pick the change and <em>make one move</em>.",
   "lead": "Name the change that is actually on your mind this season. Situations and roles only, never names; nothing you type is saved or sent.",
   "whoLabel": "The change on your mind, and the assumption you most need to test.",
   "whoPlaceholder": "e.g. AI rollout in our unit; assuming my reporting work disappears",
@@ -312,12 +312,12 @@
   "evidenceRow": "Afterward, one line: what did the step teach you that waiting would have hidden?"
  },
  "closing": {
-  "headline": "The fog is certain. <em>So is your footing.</em>",
-  "lead": "You built the sort, the small experiment, and the steadying voice. That completes this week of AI at Work: Monday's tone, Tuesday's first win, and today's skill for everything the season changes next.",
+  "headline": "Sort one real change and <em>take the step</em>.",
+  "lead": "You built the sort, the small experiment, and the steadying reply. That completes this week of AI at Work: Monday's tone, Tuesday's first win, and today's adaptability practice.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the move on your card",
   "nextBody": "Run it exactly as built: the sort, the step, or the steadying talk, plus one line about what it taught you. The navigator-led First-AI-Win sandbox session is a friendly place to run a small experiment with help nearby.",
-  "brandline": "Sort the fog. Then take the step."
+  "brandline": "Sort first, then take one small step."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January is the AI at Work month, and this session lands even for people who missed Monday and Tuesday.",

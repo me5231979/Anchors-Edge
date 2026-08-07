@@ -8,7 +8,7 @@
   "theme": "From Insight to Action",
   "goal": 3,
   "title": "The Action Lab",
-  "titleHtml": "The year lands <em class=\"gold-text\">on one page</em>.",
+  "titleHtml": "Turn the year's insight into <em class=\"gold-text\">a plan</em>.",
   "tagline": "The workforce action-planning capstone lab: the year's insight becomes a plan.",
   "description": "An in-person navigator-led capstone lab for Vanderbilt managers: bring your exposure map and your skills read, build a concrete workforce action plan with one reskill and one redeploy or redesign candidate, owners and dates attached, and pressure-test it at the table before it goes home.",
   "heroLead": "Bring the exposure map and your skills read. This lab turns them into two plan lines with owners and dates, pressure-tested by managers who ask hard questions kindly.",
@@ -29,14 +29,14 @@
     {"t": "Two lines, owners, dates", "d": "Write the reskill line and the redeploy or redesign line, specific enough to check."},
     {"t": "The table test", "d": "Read your plan to managers who probe it, then book the first conversation."}
   ],
-  "manifesto": "A year of insight earns its keep the day it becomes somebody's owned, dated move.",
+  "manifesto": "Write two plan lines with owners and dates, and book the first conversation today.",
   "sections": [
     {
       "id": "s-one",
       "nav": "The Two Maps",
       "dataTitle": "The two maps meet",
       "eyebrow": "The Overlay",
-      "headline": "Lay the year <em>on the table</em>.",
+      "headline": "Lay both maps <em>side by side</em>.",
       "lead": "Physically spread both artifacts: the exposure map that says which work is changing, and the skills read that says who could grow. The plan lives where they touch: an exposed task next to a hidden strength. Roles only, never names, even on your own worksheet.",
       "group": "Point a neighbor at one place your maps touch: an exposed task near an underused strength, roles only. The neighbor says the move they see before you say yours.",
       "interaction": {

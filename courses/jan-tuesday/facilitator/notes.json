@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: pick one green-light chore from your own week that ai can safely draft; write a plain-english ask that gives the tool the job, the details, and the shape you want; check the result for accuracy and voice before anything leaves your hands. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: pick one green-light chore from your own week that ai can safely draft; write a plain-english ask that gives the tool the job, the details, and the shape you want; check the result for accuracy and voice before anything leaves your hands. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: pick the chore, write the ask, check before you use. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Pick the chore",
@@ -165,7 +153,7 @@
   {
    "title": "Write the ask",
    "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
-   "say": "The best news of the month is that talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
+   "say": "Talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
    "facilitate": [
     "Run Build the ask; two minutes to make both choices and send it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Start where you are: one chore, one ask, one check.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Pick one green-light chore, write a plain ask, and check the result before it ships.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

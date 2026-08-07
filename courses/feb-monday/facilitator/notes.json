@@ -114,32 +114,20 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: reframe succession planning as growth planning for the people on the bench; open a succession conversation without triggering replacement fear; name the start of a successor pipeline for your own role. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: reframe succession planning as growth planning for the people on the bench; open a succession conversation without triggering replacement fear; name the start of a successor pipeline for your own role. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the bench is a gift, the fearless opening, your own pipeline. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The bench is a gift",
    "purpose": "Install the reframe: succession planning is growth planning for the people named to the bench.",
-   "say": "Succession is the word managers whisper, because everyone in earshot hears replacement. Here is the reframe this whole month stands on: a bench is a list of people someone is betting on, and a seat on it is a gift. Harvard Business Review looked across the succession research and found the same thing, that plans run as living development actually work, while the ones kept in a drawer for emergencies quietly fail. We whisper this word. We should be handing it over like good news.",
+   "say": "Succession planning has a reputation problem: say the word and people hear replacement. Here is what the plan actually is: a list of people someone is developing toward bigger work, and what each of them needs next. Harvard Business Review looked across the succession research and found that plans run as living development work, while the ones kept in a drawer for emergencies quietly fail. So this session treats the bench as a growth plan, and your job today is learning to say that out loud to the people on it.",
    "facilitate": [
     "Read the concept card aloud once, slowly; it carries the reframe.",
     "Show the In the room card and let it land, then open the discussion prompt: why do these plans stay secret? Take two or three voices.",
@@ -165,7 +153,7 @@
   {
    "title": "The fearless opening",
    "purpose": "Train ears to hear which openings land as investment, which trigger replacement fear, and which are too vague to land.",
-   "say": "Nobody remembers slide four of a succession conversation. They remember the first two sentences, and they decide in those two sentences whether this is a promotion track or a pink slip. So we are going to train on openings. Same news, three framings, and only one of them earns the conversation.",
+   "say": "The opening lines decide how a succession conversation lands. Open with the org chart or an HR form and the person hears replacement before you finish the sentence. Open with their growth and what starts now, and you get the whole conversation. So we practice openings next: same news, three framings, and you learn to hear which one earns the conversation.",
    "facilitate": [
     "Run Gift or threat? live; everyone plays on their own screen.",
     "After round one, pause: ask who called it differently and why.",
@@ -191,7 +179,7 @@
   {
    "title": "Your own pipeline",
    "purpose": "Get every manager to start a skills-first, multi-person pipeline for their own role and say it out loud.",
-   "say": "Here is the move that separates managers who talk succession from managers who build it: naming a pipeline for your own role. It feels risky, and it reads as the opposite. A leader with a bench looks secure, and gets freed up for bigger work. Build it skills first, put more than one name on it, and tell the people you put there.",
+   "say": "The last move is a pipeline for your own role. Managers avoid it because it feels like naming your own replacement, and in practice it works the other way: a role only you can do is a role you cannot be promoted out of, and a leader with a bench gets freed up for bigger work. The method is simple. List the skills your role needs, name two or three people growing toward them, and tell the people you put there.",
    "facilitate": [
     "Run Start your pipeline; two minutes to make both choices and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A bench is a gift to the person on it.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Tell people they are on the bench, and name the growth that starts now.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -263,7 +251,7 @@
    "minutes": 1,
    "coreMinutes": 1,
    "purpose": "End with the next step and where this thread continues.",
-   "say": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday points the Talent Marketplace and the Transfer Portal at everyone's own career: planning your growth and your next internal move, on purpose. Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. Same week, one theme: retain, grow, move, without the fear. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
+   "say": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday points the Talent Marketplace and the Transfer Portal at everyone's own career: planning your growth and your next internal move, on purpose. Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
    "facilitate": [
     "Point at the next-step card; one sentence.",
     "Name the rest of the week's rhythm: the other sessions echo this month's theme."

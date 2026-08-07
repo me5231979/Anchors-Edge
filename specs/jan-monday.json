@@ -46,15 +46,15 @@
    "d": "Words that invite experiments and keep the guardrails visible."
   }
  ],
- "manifesto": "Your team will use AI the way they watched you use it.",
+ "manifesto": "Model one green-light use for your team and say out loud what is in bounds.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Tone",
    "dataTitle": "The tone you set",
    "eyebrow": "The Tone",
-   "headline": "Silence is also a <em>signal</em>.",
-   "lead": "Ask a team why they avoid AI and you usually hear that the manager never brought it up. Your tone gets read whether you set it or drift into it. This month you set it on purpose, and you start by saying out loud what is allowed.",
+   "headline": "Your team reads three <em>signals</em> from you.",
+   "lead": "Teams read three signals from their manager about AI: permission, safety, and curiosity. They read them from what you say and do, and silence gets read too. This section covers how to set all three on purpose, starting with saying out loud what is allowed.",
    "group": "In pairs: what tone has your team read from you about AI so far, on purpose or by accident? 90 seconds each way.",
    "solo": "Write one line: what tone has your team read from you about AI so far, on purpose or by accident?",
    "source": {
@@ -151,8 +151,8 @@
    "nav": "The Conversation",
    "dataTitle": "The team conversation",
    "eyebrow": "The Talk",
-   "headline": "Talk about it like a <em>leader</em>.",
-   "lead": "Hype earns eye rolls; fear drives experiments underground. The conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Build the version you would actually say at your next team meeting.",
+   "headline": "Say what you tried and <em>what is in bounds</em>.",
+   "lead": "The team conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Hype invites eye rolls, and fear drives experiments underground. Build the version you would say at your next team meeting.",
    "deeper": {
     "title": "Keeping the conversation alive",
     "body": "One good conversation sets the tone; a small ritual keeps it. Reserve two minutes of each team meeting for one AI share, with the same beats you modeled: what I tried, what it did well, what I fixed. Expect silence for the first week or two, and fill it with another small use of your own rather than pressing anyone. Once results get shared out loud, checking becomes a habit the team keeps visible for itself.",
@@ -259,7 +259,7 @@
   }
  ],
  "recapMsgs": {
-  "high": "The tone is yours to set. Now go model the first green light.",
+  "high": "You have all three pieces. Model the green-light chore this week.",
   "mid": "Solid. Revisit the traffic light, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
@@ -312,12 +312,12 @@
   "evidenceRow": "Afterward, one line: what did your team try once they saw you go first?"
  },
  "closing": {
-  "headline": "Go first. <em>They will follow.</em>",
-  "lead": "You know the signals your team reads, and you leave with a green light picked and the words to open with. Tuesday and Thursday carry the same theme into every staff member's week.",
+  "headline": "Model the chore <em>this week</em>.",
+  "lead": "You know the signals your team reads, and you have a green light picked and the words to open with. Tuesday and Thursday carry the same theme to every staff member.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Model the chore on your card",
   "nextBody": "Run it, show the result, and say what you fixed. If you want the wider leader's view first, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh.",
-  "brandline": "Set the tone. Then watch it spread."
+  "brandline": "Model one safe use and say what is in bounds."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January opens the AI at Work theme with the new calendar year, and this is many managers' first AI session.",

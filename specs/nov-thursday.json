@@ -10,7 +10,7 @@
  "titleHtml": "Build bridges <em class=\"gold-text\">before you need them</em>.",
  "tagline": "Networking without the ick: building internal bridges.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: connect across departments with genuine curiosity, run the 20-minute virtual coffee, and keep your bridges warm with small, real follow-ups.",
- "heroLead": "If networking makes you cringe, you have seen it done badly. This session rebuilds it on genuine curiosity, packed into a 20-minute coffee you would actually take.",
+ "heroLead": "This session teaches networking built on genuine curiosity: the 20-minute virtual coffee, the invite that gets a yes, and the two-minute follow-up that keeps contact.",
  "objectives": [
   "Swap transactional networking for curiosity-based connecting across departments",
   "Run a 20-minute virtual coffee, from the invite to the thank-you",
@@ -46,15 +46,15 @@
    "d": "Two-minute follow-ups that keep a connection alive for years."
   }
  ],
- "manifesto": "Curiosity builds the bridge; small follow-ups keep it standing.",
+ "manifesto": "Invite with a real question, and follow up with something that asks for nothing.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Reframe",
    "dataTitle": "Networking without the ick",
    "eyebrow": "The Reframe",
-   "headline": "Curiosity is the <em>whole trick</em>.",
-   "lead": "The ick comes from networking as extraction: collecting contacts you plan to use someday. Curiosity flips it. You reach out because you genuinely wonder how enrollment forecasts get made, or what facilities sees at 5am. Genuine interest carries no ick.",
+   "headline": "Lead with a real <em>question</em>.",
+   "lead": "Networking feels bad when it is extraction, contacts collected for use someday. The alternative is curiosity about how other work happens: enrollment forecasts, or what facilities sees at 5am. A question you genuinely want answered makes the outreach honest.",
    "group": "In pairs: name one Vanderbilt team whose work you are genuinely curious about, and the question you would ask them. 90 seconds each.",
    "solo": "Name one Vanderbilt team you are genuinely curious about, and the question you would ask them.",
    "interaction": {
@@ -98,7 +98,7 @@
    "nav": "The Coffee",
    "dataTitle": "The 20-minute coffee",
    "eyebrow": "The Coffee",
-   "headline": "Twenty minutes, <em>well spent</em>.",
+   "headline": "Run the 20-minute <em>coffee</em>.",
    "lead": "The 20-minute virtual coffee is the unit of internal networking: short enough to say yes to, long enough to matter. The invite decides whether it happens; the questions decide whether it was worth it. Build both.",
    "interaction": {
     "type": "builder",
@@ -173,8 +173,8 @@
    "nav": "The Warmth",
    "dataTitle": "Keeping bridges warm",
    "eyebrow": "The Warmth",
-   "headline": "Small follow-ups, <em>long bridges</em>.",
-   "lead": "A bridge left untouched goes quiet. The dormant-ties research has good news, the trust survives the silence, but a warm bridge costs two minutes and a cold one costs nerve.",
+   "headline": "Follow up small and <em>specific</em>.",
+   "lead": "Connections go quiet without contact, though the dormant-ties research finds the trust survives long silences. A warm follow-up is specific, asks for nothing, and takes two minutes. This section covers when to send one and what it says.",
    "source": {
     "label": "Dormant ties research, Levin, Walter, and Murnighan (MIT Sloan Management Review)",
     "url": "https://sloanreview.mit.edu/article/the-power-of-reconnection-how-dormant-ties-can-surprise-you/"
@@ -184,7 +184,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Call the follow-up",
-    "intro": "Warm, transactional, or too much? Read each move and call it.",
+    "intro": "Read each move and call it: warm, transactional, or too much. A warm follow-up is specific to them and asks for nothing.",
     "progressWord": "Move",
     "labels": [
      "Warm, send it",
@@ -312,11 +312,11 @@
  },
  "closing": {
   "headline": "Build the bridge <em>before you need it</em>.",
-  "lead": "You rebuilt networking on curiosity and packed it into twenty minutes. With Monday's sending managers and Tuesday's Portal walkthrough, the month's whole map is in your hands.",
+  "lead": "You practiced the invite, the twenty minutes, and the follow-up. The move on your card is where the practice transfers: send it this week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the bridge move on your card",
   "nextBody": "Send the invite or the follow-up exactly as built. If growing a team is your next stretch, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.",
-  "brandline": "Small coffees. Long bridges."
+  "brandline": "Keep each bridge warm with two minutes a month."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November is the Transfer Portal in Practice month, and this session builds its human network.",
@@ -324,7 +324,7 @@
   "s1": {
    "title": "Networking without the ick",
    "purpose": "Replace networking-as-extraction with curiosity-based connecting.",
-   "say": "Let's name it: for most people, the word networking triggers a small full-body cringe. Good. The cringe is accurate; it is what extraction feels like from the outside. Today we throw that version out. The replacement runs on one fuel: genuine curiosity about how other people's work actually happens. You will never need a script again, because a real question is the script.",
+   "say": "Most people dislike the word networking, and that reaction is useful information: it is what extraction feels like from the outside. Today we practice a different version, one that runs on genuine curiosity about how other people's work actually happens. If you have a question you actually want answered, the outreach writes itself and you never need a script.",
    "facilitate": [
     "Read the curiosity test card aloud once.",
     "Show the in-the-room card in place of the quiz; ask in chat for one word on what makes networking feel gross.",

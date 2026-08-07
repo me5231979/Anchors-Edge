@@ -43,15 +43,15 @@
    "d": "Name the call you have been orbiting and give it a deadline it cannot slip."
   }
  ],
- "manifesto": "More data feels like progress. Past 70 percent, it is usually just delay.",
+ "manifesto": "Decide at about 70 percent, and give the decision you keep circling a deadline.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Rule",
    "dataTitle": "The 70 percent rule",
    "eyebrow": "The 70 Percent Rule",
-   "headline": "Certainty arrives <em>after the deadline</em>.",
-   "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: the status quo, renamed research. Jeff Bezos told Amazon shareholders most decisions should be made with about 70 percent of what you wish you knew. Acting teaches the rest.",
+   "headline": "Decide at about <em>70 percent</em>.",
+   "lead": "Waiting for full information is itself a decision: it keeps the status quo and calls it research. Jeff Bezos told Amazon shareholders most decisions should be made with about 70 percent of what you wish you knew. Acting teaches the rest.",
    "group": "In pairs: name a decision this year you delayed past the useful point. What was the wait actually buying? 90 seconds each way.",
    "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
    "source": {
@@ -99,7 +99,7 @@
    "nav": "The Doors",
    "dataTitle": "Doors and speed",
    "eyebrow": "Doors and Speed",
-   "headline": "Most doors <em>swing both ways</em>.",
+   "headline": "Match decision speed to the <em>door</em>.",
    "lead": "Match the pace to the door. The image is Bezos's: two-way doors open again, so walk through and step back if it disappoints. One-way doors are hard to reopen, and they earn the extra data.",
    "group": "Pairs: name one live decision and call its door. 60 seconds each.",
    "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
@@ -152,8 +152,8 @@
    "nav": "The Deadline",
    "dataTitle": "The circling decision",
    "eyebrow": "The Deadline",
-   "headline": "Give the circling a <em>landing time</em>.",
-   "lead": "Everyone carries one decision they have been orbiting for months, a posting or a conversation or an ask. Circling has a cost; it just bills quietly. Today the decision gets a name and a deadline, and you get the altitude back.",
+   "headline": "Give the decision a <em>deadline</em>.",
+   "lead": "Everyone carries one decision they have been circling for months: a posting, a conversation, an ask. Name it, frame it as a fork with two options, and give it a deadline that one witness knows about. Then book 30 minutes on deadline day to make the call.",
    "deeper": {
     "title": "After the landing",
     "body": "Two things deciders do that circlers skip. First, they write the call down with the date and top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, it shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen only if your written exit condition fires. The lightness after the wobble passes is the real payoff.",
@@ -312,12 +312,12 @@
   "evidenceRow": "Afterward, one line: what did deciding free up that more research never would have?"
  },
  "closing": {
-  "headline": "One year, one habit: <em>see it, then move</em>.",
+  "headline": "Close the year by <em>deciding</em>.",
   "lead": "This session wraps the series year. It opened with seeing the talent around you; it closes with deciding at 70 percent. The habits continue, and the rhythm will be back.",
   "nextTag": "Your one next step · Before the deadline",
   "nextTitle": "Land the decision on your card",
   "nextBody": "Hold the 30 minutes, decide at 70 percent, and write down the call. If the decision is a change you will help others through, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts is a worthy epilogue.",
-  "brandline": "You know enough. Decide."
+  "brandline": "Decide at 70 percent, and write the call down."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. This is the last session of the series year; the series returns and grows next year. Expect some ceremony and leave two extra beats for the close.",

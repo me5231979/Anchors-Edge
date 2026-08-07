@@ -46,14 +46,14 @@
    "d": "Name skills instead of duties, and keep the profile current."
   }
  ],
- "manifesto": "A skill the university cannot see is a skill it cannot use, grow, or promote.",
+ "manifesto": "Write every real skill onto your profile, in words a searcher would type.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The System",
    "dataTitle": "What the system sees",
    "eyebrow": "The System",
-   "headline": "The university is learning to <em>see talent</em>.",
+   "headline": "Know what the Marketplace <em>reads</em>.",
    "lead": "Deloitte calls it the skills-based organization: work built around what people can do rather than the boxes they sit in. The Talent Marketplace is Vanderbilt's version. It watches nothing and grades nobody; it reads what you choose to share, and it matches.",
    "group": "In pairs: what is one skill you have that nobody outside your own team knows about? 90 seconds each way.",
    "solo": "Write down one skill you have that nobody outside your own team knows about.",
@@ -102,7 +102,7 @@
    "nav": "The Payoff",
    "dataTitle": "What you gain",
    "eyebrow": "The Payoff",
-   "headline": "Opportunities start <em>finding you</em>.",
+   "headline": "A current profile gets <em>found</em>.",
    "lead": "Internal moves mostly go to whoever heard about them first. A current profile flips the search, so work that needs your skill can find you. LinkedIn's research keeps finding people stay far longer where moving inside is normal.",
    "group": "Pairs: name one internal opportunity you heard about too late. What skill of yours would have matched it?",
    "solo": "Recall one internal opportunity you heard about too late. What skill of yours would have matched it?",
@@ -113,7 +113,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "What just happened?",
-    "intro": "Three small moments with the system. Read each one and call what it is.",
+    "intro": "Read each moment and call what it is. Notice what the profile did in each case; that is what to copy or fix on your own profile.",
     "progressWord": "Moment",
     "labels": [
      "Your skills becoming visible",
@@ -156,11 +156,11 @@
    "dataTitle": "Make your skills legible",
    "eyebrow": "The Craft",
    "headline": "Name the <em>skill</em>, not the duty.",
-   "lead": "The map can only match what it can read. 'Supports departmental events' is a duty; 'event logistics for groups of 200 plus' is a skill someone can search for. This section is the craft of writing yourself legibly, and the small habit that keeps it true.",
+   "lead": "The map can only match what it can read. 'Supports departmental events' is a duty; 'event logistics for groups of 200 plus' is a skill someone can search for. In this section you practice writing skill lines a searcher can match, and pick the habit that keeps them current.",
    "interaction": {
     "type": "builder",
     "playTitle": "Write yourself onto the map",
-    "intro": "Take one thing you are genuinely good at. Choose how you write it, and how you keep the line alive.",
+    "intro": "Take one thing you do well. Choose how you write it and how you keep it current; the coach lines explain what each choice does to your matches.",
     "runLabel": "Publish the line",
     "outcomeTag": "What the map shows",
     "slots": [
@@ -315,12 +315,12 @@
   "evidenceRow": "Afterward, one line: what skill is visible now that was invisible this morning?"
  },
  "closing": {
-  "headline": "Be findable. <em>Be found.</em>",
+  "headline": "Update the profile <em>this week</em>.",
   "lead": "You know what the system sees, what a current profile buys you, and how to write skills the map can read. The update itself takes ten minutes.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the profile move on your card",
   "nextBody": "Legible words, current skills, ten minutes. If you want to go deeper this month, Don Phin's Talent Management course on LinkedIn Learning pairs well with the update; it is there if you want it, never homework.",
-  "brandline": "Name the skill. The map does the rest."
+  "brandline": "Update your profile after every finished project."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",

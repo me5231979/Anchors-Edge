@@ -10,7 +10,7 @@
  "titleHtml": "Close one <em class=\"gold-text\">blind spot</em>.",
  "tagline": "Self-awareness: closing your blind spots.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: the gap between intent and impact, how to get one trusted colleague to tell you the truth, and how to receive it without spending a week recovering.",
- "heroLead": "Everyone has a blind spot; the word guarantees it. This hour covers the gap between what you intend and what lands, and the smallest reliable way to close it.",
+ "heroLead": "Everyone carries a gap between what they intend and what actually lands. This session covers where the gap comes from and the smallest reliable way to close it.",
  "objectives": [
   "Describe the gap between intent and impact in your own work",
   "Make one small, specific ask that gets a colleague to tell you the truth",
@@ -46,7 +46,7 @@
    "d": "One thank you, one adjustment, and no week-long spiral."
   }
  ],
- "manifesto": "You cannot see your own blind spot. Someone you trust can, if you ask well.",
+ "manifesto": "Ask one trusted colleague how one specific moment landed, then adjust once.",
  "sections": [
   {
    "id": "s-one",
@@ -102,7 +102,7 @@
    "nav": "The Ask",
    "dataTitle": "One trusted truth-teller",
    "eyebrow": "The Ask",
-   "headline": "Truth arrives when the ask is <em>small</em>.",
+   "headline": "Make the ask <em>small and specific</em>.",
    "lead": "Ask a colleague 'do you have any feedback for me?' and you will get kindness and nothing. Truth comes from a different shape of ask: one trusted person, one specific situation, one honest question, and a clear sign you can take the answer.",
    "interaction": {
     "type": "builder",
@@ -178,7 +178,7 @@
    "nav": "The Receipt",
    "dataTitle": "Receiving without depleting",
    "eyebrow": "The Receipt",
-   "headline": "Receive it like data, at <em>arm's length</em>.",
+   "headline": "Thank them, adjust once, then <em>stop</em>.",
    "lead": "Stone and Heen name what makes honesty expensive: the identity trigger, when one sentence about a handoff starts reading as a verdict on who you are. The sustainable receipt stays small. Thank them, adjust once, stop.",
    "group": "Pairs: what does your version of the spiral look like after hard feedback, and what would the full stop look like? 90 seconds each way.",
    "solo": "Describe your version of the spiral after hard feedback, then write what the full stop would look like instead.",
@@ -270,7 +270,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My truth ask",
-  "headline": "One colleague. One question. <em>One adjustment.</em>",
+  "headline": "Build the ask you make <em>this week</em>.",
   "lead": "Pick the person who sees your work up close. Role only, never a name; nothing you type is saved or sent.",
   "whoLabel": "Who do you ask? Role and why you trust their read.",
   "whoPlaceholder": "e.g. project teammate; has seen every handoff all project long",
@@ -317,12 +317,12 @@
   "evidenceRow": "Afterward, one line: what did they see that you could not?"
  },
  "closing": {
-  "headline": "Borrowed eyes make you <em>better</em>.",
+  "headline": "Put the ask to <em>one colleague</em>.",
   "lead": "You leave with a map of the gap, a small ask that gets truth, and a receipt that will not wreck your week. That loop, run a few times a year, is what self-awareness actually is.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the ask on your card",
   "nextBody": "One colleague, one specific question, one honest sentence back. For a dress rehearsal, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts includes a navigator role-play and a development plan you can build from the answer you get.",
-  "brandline": "One honest sentence beats a year of guessing."
+  "brandline": "Ask small, receive clean, adjust once."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so examples stay on a person's own work and collaborations. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",

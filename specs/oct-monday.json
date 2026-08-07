@@ -10,7 +10,7 @@
   "titleHtml": "Read the talent <em class=\"gold-text\">around you</em>.",
   "tagline": "Reading your team's skills, gaps, and flight risk.",
   "description": "A 45-minute virtual session for Vanderbilt managers: learn to read your team's skills, spot the gaps that matter, and catch flight risk while there is still time to act.",
-  "heroLead": "Most managers can name their busiest person faster than their most skilled one. Today you build a working read: skills, gaps, and who might be halfway out the door.",
+  "heroLead": "This session covers the team skills inventory, reading flight-risk signals against a baseline, and turning the read into one conversation this week.",
   "objectives": [
     "Inventory the skills on your team beyond current job titles",
     "Distinguish real flight-risk signals from everyday noise",
@@ -28,15 +28,15 @@
     {"t": "The flight-risk read", "d": "Signals worth acting on, noise worth ignoring."},
     {"t": "One conversation", "d": "Turn the read into a talk you hold this week."}
   ],
-  "manifesto": "You cannot retain, grow, or move talent you have never seen.",
+  "manifesto": "Inventory your team's skills before you decide who to retain, grow, or move.",
   "sections": [
     {
       "id": "s-one",
       "nav": "The Inventory",
       "dataTitle": "The skills you can't see",
       "eyebrow": "The Inventory",
-      "headline": "Titles tell you the job. Not the <em>talent</em>.",
-      "lead": "Every team carries skills the org chart never picked up: an analyst who writes beautifully, a coordinator who can calm anyone down. The read starts with what each person can actually do, which is always more than the job asks.",
+      "headline": "Inventory skills, not <em>titles</em>.",
+      "lead": "A skills inventory records what each person can do, which is always more than the role requires. Ask one question per person: what do they do well that the job never asks for? The analyst who writes well and the coordinator who de-escalates both belong on it.",
       "group": "In pairs: name one hidden skill someone on your team has that their job never uses. One pair shares.",
       "solo": "Write down one hidden skill someone on your team has that their job never uses.",
       "interaction": {
@@ -69,15 +69,15 @@
       "nav": "Flight Risk",
       "dataTitle": "The flight-risk read",
       "eyebrow": "The Signals",
-      "headline": "Flight risk has a <em>sound</em>.",
-      "lead": "Gallup finds 42 percent of people who quit say their manager could have done something, and nearly half heard no question about their future in their last three months. The signals were there. This section trains your ear for them.",
+      "headline": "Sort flight-risk signals from <em>noise</em>.",
+      "lead": "Gallup finds 42 percent of people who quit say their manager could have done something, and nearly half heard no question about their future in their last three months. In this section you practice sorting real signals from busy-season noise.",
       "group": "Breakout pairs: which signal on your team have you been calling noise? 90 seconds each way.",
       "solo": "Name one signal on your own team you may have been calling noise.",
       "source": {"label": "Preventable turnover research (Gallup, 2024)", "url": "https://www.gallup.com/workplace/646538/employee-turnover-preventable-often-ignored.aspx"},
       "interaction": {
         "type": "trainer",
         "playTitle": "Signal or noise?",
-        "intro": "Five second calls decide whether you act early or write the farewell card. Read each situation and call it.",
+        "intro": "Read each situation and call it. Judge the change against the person's own baseline: a real signal earns a conversation this week, and noise mostly needs watching.",
         "progressWord": "Read",
         "labels": ["Flight-risk signal, act", "Noise, let it be", "Growth signal, feed it"],
         "passAt": 2,
@@ -104,13 +104,13 @@
       "nav": "The Conversation",
       "dataTitle": "One conversation",
       "eyebrow": "The Move",
-      "headline": "The read earns a <em>conversation</em>.",
-      "lead": "The read starts paying off when somebody hears it. SHRM's stay interview guidance runs on five questions and one discipline: ask, listen, then act on what you heard. Build the opening and the question you would actually use.",
+      "headline": "Turn the read into a <em>conversation</em>.",
+      "lead": "A talent read pays off when you act on it. SHRM's stay interview guidance runs on five questions and one discipline: ask, listen, then act on what you heard. In this lab you build the opening and the question you would actually use.",
       "source": {"label": "How to conduct stay interviews: five key questions (SHRM)", "url": "https://www.shrm.org/topics-tools/news/employee-relations/how-to-conduct-stay-interviews-5-key-questions"},
       "interaction": {
         "type": "builder",
         "playTitle": "Build the conversation",
-        "intro": "One person on your team deserves this talk first. Choose how you open it and what you ask.",
+        "intro": "Pick the person your read points to. Choose how you open and what you ask, then run it; a specific opening and a forward-looking question are what change the answers.",
         "runLabel": "Run the conversation",
         "outcomeTag": "How it lands",
         "slots": [
@@ -174,7 +174,7 @@
     }
   ],
   "recapMsgs": {
-    "high": "The read is loaded. Now aim it at one real person on your team.",
+    "high": "Strong recall. Pick one real person on your team and build the card.",
     "mid": "Solid. Reread the section that got you, then build the card.",
     "low": "Take one more pass through the three sections before you commit to a card."
   },
@@ -200,12 +200,12 @@
     "evidenceRow": "Afterward, one line: what did you learn that the org chart never showed you?"
   },
   "closing": {
-    "headline": "See them clearly. <em>Keep them longer.</em>",
-    "lead": "The inventory question and the flight-risk read point at the same move, one conversation this week. The rest of the week works the theme from other angles.",
+    "headline": "Hold the conversation <em>this week</em>.",
+    "lead": "You have the inventory question, the signal read, and a conversation built. The next step is holding it with a real person this week; the rest of the week works the theme from other angles.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Hold the conversation on your card",
     "nextBody": "Run it exactly as built: the opening, the question, and one line afterward about what you learned. Bring that line to next Monday's session.",
-    "brandline": "Read the team. Then act on the read."
+    "brandline": "Ask the inventory question at your next 1:1."
   },
   "facilitator": {
     "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
@@ -251,7 +251,7 @@
     "s3": {
       "title": "One conversation",
       "purpose": "Convert the read into a specific conversation with a strong opening and one real question.",
-      "say": "A talent read that never leaves your head retains nobody. SHRM's stay interview guidance keeps the format simple, five questions and the discipline to act on the answers, but the whole thing lives or dies on how you open and what you ask. So that is what we build.",
+      "say": "The read only helps once somebody hears it. SHRM's stay interview guidance keeps the format simple, five questions and the discipline to act on the answers. The opening and the first question decide how the whole conversation goes, so those are the two choices we build now.",
       "facilitate": [
         "Run Build the conversation; give the room two minutes to make both choices and run it.",
         "Ask one volunteer to read their outcome aloud, weak or strong.",

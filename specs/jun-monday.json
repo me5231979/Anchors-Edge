@@ -10,7 +10,7 @@
  "titleHtml": "Turn the insight into <em class=\"gold-text\">a move</em>.",
  "tagline": "Translating AI insights into workforce moves.",
  "description": "A 45-minute virtual session for Vanderbilt managers: learn the four workforce moves, match one AI-exposure insight from your team to the move it calls for, and commit to it with an owner and a date.",
- "heroLead": "You mapped the work AI touches most on your team. That map has been waiting for a verb; today it gets one of four, plus an owner and a date.",
+ "heroLead": "You mapped the work AI touches most on your team. This session teaches the four workforce moves and commits one of them to an owner and a date.",
  "objectives": [
   "Name the four workforce moves: reskill, redeploy, redesign, and hire",
   "Match one AI-exposure insight from your team to the move it calls for",
@@ -46,14 +46,14 @@
    "d": "Make the move real with an owner and a date on the calendar."
   }
  ],
- "manifesto": "An insight without a move is just a slide. Give it a verb and a date.",
+ "manifesto": "Match each AI insight to one of the four moves, then give it an owner and a date.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Four Moves",
    "dataTitle": "The four moves",
    "eyebrow": "The Vocabulary",
-   "headline": "Every AI insight answers to <em>four verbs</em>.",
+   "headline": "Know your four <em>workforce moves</em>.",
    "lead": "When AI changes work on your team, you have four moves. Reskill teaches the new version of the work. Redeploy points a strength where it is needed. Redesign rebuilds the role. Hire buys what you cannot build.",
    "group": "In pairs: which of the four moves has your team used most in the last year, and which never? 90 seconds each way.",
    "solo": "Which of the four moves has your team used most in the last year, and which never? Write both down.",
@@ -152,7 +152,7 @@
    "dataTitle": "Owner and date",
    "eyebrow": "The Commit",
    "headline": "A move needs an <em>owner and a date</em>.",
-   "lead": "A matched move is still just a better slide. It becomes a workforce action when somebody owns the next step and the step has a date. Build the sentence now, specific enough that anyone could check later whether it happened.",
+   "lead": "A matched move becomes a workforce action when somebody owns the next step and the step has a date. Build that sentence now, specific enough that anyone could check later whether it happened.",
    "deeper": {
     "title": "The second sentence",
     "body": "Your move sentence needs a companion most managers skip: the sentence you say to the person whose work is changing. Announced early, a move reads as investment; discovered late, the same move reads as verdict. Draft it in the week you date the move: what you saw change in the work, what you want to grow in them, and what stays theirs. The Oracle 1:1 template holds it well, and that conversation is usually step one anyway.",
@@ -311,8 +311,8 @@
   "evidenceRow": "Afterward, one line: what did the move change that the insight alone never would have?"
  },
  "closing": {
-  "headline": "Stop admiring the insight. <em>Make the move.</em>",
-  "lead": "You leave with four verbs and a move that has an owner and a date. The rest of this week helps everyone on your team build the same discipline for themselves.",
+  "headline": "Start the move <em>before Friday</em>.",
+  "lead": "You leave with the four moves and one of them committed to an owner and a date. This week's Tuesday and Thursday sessions give your team the same discipline for their own work.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Put step one of your move on the calendar",
   "nextBody": "Book the first conversation your move requires before Friday. For a longer runway, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts pairs well with this month.",

@@ -47,7 +47,7 @@
    "d": "Turn feedback you hold into one page, and let a peer lean on your commitment."
   }
  ],
- "manifesto": "Feedback becomes a skill the first time it meets a real face and survives.",
+ "manifesto": "Practice the line out loud, receive it cleanly, and leave with one filmable commitment.",
  "sections": [
   {
    "id": "s-one",
@@ -98,7 +98,7 @@
    "nav": "The Rounds",
    "dataTitle": "The live rounds",
    "eyebrow": "The Rounds",
-   "headline": "The face is the <em>curriculum</em>.",
+   "headline": "Give the line, then <em>receive one</em>.",
    "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.",
    "group": "Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.",
    "interaction": {
@@ -240,7 +240,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My development plan",
-  "headline": "One page, one commitment, <em>one witness</em>.",
+  "headline": "Finish the page before <em>you leave</em>.",
   "lead": "Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.",
   "whoLabel": "The feedback your plan is built on, in one line, your words.",
   "whoPlaceholder": "e.g. my project updates bury the decision people need",
@@ -287,7 +287,7 @@
   "evidenceRow": "Afterward, one line: what did the next round of feedback say that the last one couldn't?"
  },
  "closing": {
-  "headline": "Practiced people <em>hear more truth</em>.",
+  "headline": "Run the first rep <em>this week</em>.",
   "lead": "You gave feedback to a face, received it cleanly, and left one page heavier. The month's weekly sessions keep working the same muscle: the evidence, the signal, the blind spot.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the first rep on your plan",

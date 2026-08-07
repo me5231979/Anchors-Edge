@@ -28,7 +28,7 @@
     {"t": "Reading without flinching", "d": "Your evidence is information about behavior. Defensiveness turns it into an argument."},
     {"t": "One visible behavior", "d": "Pick one behavior and make it easy to see, and easy to measure, this month."}
   ],
-  "manifesto": "You do not get to grade your own leadership anymore. The evidence does.",
+  "manifesto": "Read your own evidence monthly and make one leader behavior visible to your team.",
   "sections": [
     {
       "id": "s-one",
@@ -70,7 +70,7 @@
       "nav": "The Read",
       "dataTitle": "Reading without flinching",
       "eyebrow": "The Read",
-      "headline": "Evidence is information, once you stop <em>arguing with it</em>.",
+      "headline": "Ask what would <em>move the number</em>.",
       "lead": "A pulse dip is a data point about how the team experienced the quarter. Tasha Eurich's self-awareness research supplies the move: swap why for what. Why is my score low invites a defense brief; what behavior would move it points somewhere you can act.",
       "group": "Pairs: name one piece of manager feedback you argued with at first. What was the evidence read? 90 seconds each way.",
       "solo": "Recall one piece of feedback you argued with at first. Write the evidence read you could have made instead.",
@@ -180,7 +180,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My visible behavior",
-    "headline": "One behavior. In plain <em>sight</em>.",
+    "headline": "Choose the behavior you make <em>visible</em>.",
     "lead": "Choose the behavior your evidence points at. Nothing you type is saved or sent; keep any team references to roles, never names.",
     "whoLabel": "Which evidence stream prompted this, and what did it show?",
     "whoPlaceholder": "e.g. pulse feedback question dipped two quarters running",
@@ -200,12 +200,12 @@
     "evidenceRow": "At month end, one line: what did the next round of evidence show?"
   },
   "closing": {
-    "headline": "Let the standard <em>see you</em>.",
-    "lead": "You leave with a read on your own evidence and one behavior chosen to make visible. The rest of the week gives everyone at Vanderbilt the same literacy: reading their own signal without flinching.",
+    "headline": "Name the behavior <em>by Friday</em>.",
+    "lead": "Tell your team the one behavior you are making visible and put it on the calendar this week. Tuesday's and Thursday's sessions teach the same evidence read to everyone at Vanderbilt.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Name the behavior on your card",
     "nextBody": "Tell your team the one behavior you are making visible this month and put it on the calendar. For a warm-up, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts has a navigator-led role-play worth twenty minutes first.",
-    "brandline": "What gets measured gets modeled."
+    "brandline": "Name it, schedule it, let the team see it."
   },
   "facilitator": {
     "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; May is month eight, when the manager standard becomes visible, and measurable.",

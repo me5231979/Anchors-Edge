@@ -10,7 +10,7 @@
  "titleHtml": "Clarity that <em class=\"gold-text\">sticks</em>.",
  "tagline": "Clarity as a two-way skill: ask, restate, and close the loop in writing.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: ask for clear expectations, restate them in your own words, and close the loop in writing so agreements survive the week.",
- "heroLead": "Most dropped balls were never caught to begin with: two people left the same conversation carrying different versions of it. Clarity is a skill, and it has three moves.",
+ "heroLead": "Two people often leave one conversation carrying different versions of it, and the rework lands weeks later. This session teaches the three moves that prevent it.",
  "objectives": [
   "Ask the three clarity questions before accepting any significant task",
   "Restate an expectation in your own words and surface the gaps early",
@@ -43,15 +43,15 @@
    "d": "The same-day written line that makes an agreement survive the week."
   }
  ],
- "manifesto": "If it only exists in the conversation, it does not exist yet.",
+ "manifesto": "Write the agreement down the same day: what you heard, what you own, by when.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Ask",
    "dataTitle": "The clarity ask",
    "eyebrow": "The Ask",
-   "headline": "Vague requests deserve <em>better questions</em>.",
-   "lead": "Make it better. Own this going forward. Requests like that dissolve by Tuesday. Gallup calls knowing what is expected of you the most basic employee need; three questions secure it.",
+   "headline": "Ask the three <em>clarity questions</em>.",
+   "lead": "Requests like make it better sound clear and leave everything open. Before accepting significant work, get three answers: what does done look like, when is it needed, who decides? Gallup ranks knowing what is expected of you as the most basic employee need.",
    "source": {
     "label": "Gallup Q12: clarity of expectations",
     "url": "https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx"
@@ -114,7 +114,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Clear enough?",
-    "intro": "Three handoffs from a normal week. Call whether you can act, need to say it back, or need it in writing.",
+    "intro": "For each handoff, check for done, deadline, and decider, then call it: act, say it back, or close in writing. Misjudging this is where rework starts.",
     "progressWord": "Handoff",
     "labels": [
      "Clear, start working",
@@ -161,7 +161,7 @@
    "interaction": {
     "type": "builder",
     "playTitle": "Write the close",
-    "intro": "You just left a planning conversation with real commitments in it. Choose how you restate and how you close the loop.",
+    "intro": "You just left a planning conversation with real commitments in it. Choose how you restate and how you close the loop; the choices decide whether the agreement still exists in two weeks.",
     "runLabel": "Send it",
     "outcomeTag": "Two weeks later",
     "slots": [
@@ -255,7 +255,7 @@
   }
  ],
  "recapMsgs": {
-  "high": "The three moves are loaded. Aim them at one real expectation.",
+  "high": "You have the three moves. Use them on one real expectation this week.",
   "mid": "Solid. Revisit the section you missed, then build your clarity card.",
   "low": "Worth a second pass through the three moves before you pick your expectation."
  },
@@ -308,8 +308,8 @@
   "evidenceRow": "Afterward, one line: what gap did the restate or the written close surface?"
  },
  "closing": {
-  "headline": "Clear is a <em>kindness</em>.",
-  "lead": "The ask, the say-back, and the written close spare everyone the expensive kind of surprise. That wraps the manager standard week.",
+  "headline": "Ask, restate, and <em>put it in writing</em>.",
+  "lead": "Use the ask, the say-back, and the written close on one real expectation this week. That wraps the manager standard week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run your clarity card",
   "nextBody": "Ask, restate, or close the loop on the expectation you named. Notice what the move surfaces; that gap was headed for your calendar anyway.",

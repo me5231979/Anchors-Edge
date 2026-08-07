@@ -46,14 +46,14 @@
    "d": "Capturing commitments so your growth has receipts by review season."
   }
  ],
- "manifesto": "A 1:1 you prepared for is a meeting you co-own.",
+ "manifesto": "Before every 1:1, type two items into the shared template: one blocker, one growth ask.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Template",
    "dataTitle": "The template",
    "eyebrow": "The Template",
-   "headline": "The template has <em>two sides</em>.",
+   "headline": "Type your items in <em>the day before</em>.",
    "lead": "Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Steven Rogelberg's research on 1:1s, written up in HBR, finds they work best when the direct report's topics dominate. Type your two items in the day before.",
    "source": {
     "label": "Make the Most of Your One-on-One Meetings, Steven Rogelberg (HBR)",
@@ -102,7 +102,7 @@
    "nav": "Feedback Tools",
    "dataTitle": "The feedback tools",
    "eyebrow": "The Tools",
-   "headline": "Feedback now has a <em>front door</em>.",
+   "headline": "Pick the right <em>feedback move</em>.",
    "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
    "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
    "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
@@ -117,7 +117,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Pick the move",
-    "intro": "Three moments from an ordinary week. Choose the move that turns each one into something on the record.",
+    "intro": "Read each moment and pick the move that puts it on the record. Work that only gets a chat message never reaches a review or a manager; the right move takes the same two minutes.",
     "progressWord": "Moment",
     "labels": [
      "Request feedback",
@@ -151,8 +151,8 @@
    "nav": "The Record",
    "dataTitle": "The record",
    "eyebrow": "The Record",
-   "headline": "Make the record <em>work for you</em>.",
-   "lead": "A year from now, the strongest case for your growth is a trail in the record: agenda items you pushed, commitments that closed with dates attached. It gets built one meeting at a time, starting with the next one.",
+   "headline": "Capture commitments in the <em>shared record</em>.",
+   "lead": "End every 1:1 by typing its commitments into the shared record, owners and dates attached. Over months that builds a trail: items you raised, work that closed. By review season the trail makes your case with evidence instead of recollection.",
    "deeper": {
     "title": "What the trail proves later",
     "body": "Picture the record after a few months of the habit. Agenda items show what you pushed for and when; closed commitments prove follow-through. Requested feedback is the quiet one, because it shows you invited scrutiny before anyone required it. Each entry is small on its own. Together they answer the review conversation before it starts, and they make the same case when a Transfer Portal opportunity gets serious.",
@@ -258,7 +258,7 @@
   }
  ],
  "recapMsgs": {
-  "high": "The tools are yours. Load the real template before the glow fades.",
+  "high": "You know the tools. Load the real template today: one blocker, one growth ask.",
   "mid": "Solid. Revisit the move you missed, then build your prep card.",
   "low": "Worth a second pass through the three sections before you load the template."
  },
@@ -311,12 +311,12 @@
   "evidenceRow": "Afterward, one line: what changed because it was on the record?"
  },
  "closing": {
-  "headline": "Two chairs. <em>Bring yours.</em>",
-  "lead": "You can load an agenda, move feedback through the front door, and leave a trail that argues for your growth. Thursday sharpens the skill underneath all of it.",
+  "headline": "Load your next 1:1 <em>before the meeting</em>.",
+  "lead": "You can load an agenda, send feedback through the Oracle tools, and capture commitments in the record. Thursday's session teaches the clarity skill those conversations run on.",
   "nextTag": "Your one next step · Before your next 1:1",
   "nextTitle": "Load the template",
   "nextBody": "Type your one saved-up item into your next 1:1 agenda in Oracle. Watch what a prepared meeting does with it.",
-  "brandline": "Your meeting too. Run it that way."
+  "brandline": "Type your two items in before the meeting."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. Oracle access helps, and the session works fine watching the walkthrough.",

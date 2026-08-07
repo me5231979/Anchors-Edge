@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: break your working week into specific, repeatable tasks with outputs and rhythms; sort each task into automate, augment, or leave alone, and know the tells for each; test one sort call this week in an approved vu tool, checking step included. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: break your working week into specific, repeatable tasks with outputs and rhythms; sort each task into automate, augment, or leave alone, and know the tells for each; test one sort call this week in an approved vu tool, checking step included. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the decomposition, the three buckets, the first test. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The decomposition",
@@ -191,7 +179,7 @@
   {
    "title": "The first test",
    "purpose": "Convert one sort call into a specific, checked, dated test in an approved VU tool.",
-   "say": "A sort that lives in your head is a nice opinion. It becomes a redesign of your week the first time you test a call: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
+   "say": "A sort only changes your week once you test a call. The test has four parts: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
    "facilitate": [
     "Run Set up the test; give the room two minutes for both choices.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: AI never gets your job. It gets tasks, one at a time, and you make the call.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Sort your week per task: automate, augment, or leave alone, and check what ships.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

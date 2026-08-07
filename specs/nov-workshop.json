@@ -47,7 +47,7 @@
    "d": "The exit ticket: interest expressed, or the honest obstacle written down."
   }
  ],
- "manifesto": "A profile improves the day someone else reads it and the Portal gets to answer.",
+ "manifesto": "Have someone else read your profile, then explore one real opening before you leave.",
  "sections": [
   {
    "id": "s-one",
@@ -98,7 +98,7 @@
    "nav": "The Walk",
    "dataTitle": "The Portal walk",
    "eyebrow": "The Walk",
-   "headline": "Explore one opening like you <em>mean it</em>.",
+   "headline": "Read the posting beside your <em>profile</em>.",
    "lead": "Now the Portal, open on your device. Search by a skill you want to use more and pick one gig or opening that pulls at you, even slightly. This section is the craft of exploring it properly: reading it against your profile instead of window-shopping it.",
    "group": "Tell your table partner which opening you picked and why it pulled. The partner asks the two questions: which of your lines matches it, and what is missing?",
    "interaction": {
@@ -240,8 +240,8 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My clinic exit",
-  "headline": "The improvement <em>keeps going</em> after the room.",
-  "lead": "The profile got better in here; the card is how it keeps getting better out there. Nothing you write is saved or sent.",
+  "headline": "Book the next move <em>before you leave</em>.",
+  "lead": "Choose the move that keeps the work going after today. Nothing you write is saved or sent.",
   "whoLabel": "The opening you explored, and the exit you chose.",
   "whoPlaceholder": "e.g. six-week data gig in enrollment; hand up, told my manager",
   "practiceLabel": "What keeps the momentum?",
@@ -287,12 +287,12 @@
   "evidenceRow": "Afterward, one line: what moved because you raised a hand or named the barrier?"
  },
  "closing": {
-  "headline": "Found is a thing you <em>choose</em>.",
-  "lead": "You leave with a searcher's ear and one opening properly explored, through whichever of the two good doors you chose. That is the Portal in practice, which is exactly what this month promised.",
+  "headline": "Make the exit <em>real</em> this week.",
+  "lead": "You leave with a searcher's ear and one opening properly explored, through whichever door you chose. Keep the comparative read as the habit for every posting that pulls at you.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the exit real",
   "nextBody": "Run the move on your card while the momentum is warm. This month's weekly sessions carry the same thread, sending managers and internal bridges, and Chris Croft's Building Your Team on LinkedIn Learning is there whenever you want it. Never required.",
-  "brandline": "Walk up to the open door."
+  "brandline": "Keep the profile current and your hand up."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 10 to 40 at tables of 4 to 6, everyone on their own device with Portal access. Best after the month's Tuesday session, and it stands alone.",

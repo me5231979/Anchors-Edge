@@ -114,32 +114,20 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: draft a stay-interview opening and questions for one real person, role only; run live role-play rounds in pairs and hold the listening when it gets hard; sort what a stay interview surfaces and book the real conversation before you leave. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: draft a stay-interview opening and questions for one real person, role only; run live role-play rounds in pairs and hold the listening when it gets hard; sort what a stay interview surfaces and book the real conversation before you leave. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: draft the real one, run the rounds, debrief and book. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Draft the real one",
    "purpose": "Frame the stay interview as a listening conversation and get every manager to a said-aloud draft for one real person, role only.",
-   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. The stay interview comes from Beverly Kaye and Sharon Jordan-Evans, who built it on two questions: why do you stay, and what would make staying easier. Nobody is being reviewed and nothing is being renegotiated; you are there to hear them. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
+   "say": "Everyone in this room can name someone they would hate to lose. Today you draft the conversation that asks them directly. The stay interview comes from Beverly Kaye and Sharon Jordan-Evans, who built it on two questions: why do you stay, and what would make staying easier. Nobody is being reviewed and nothing is being renegotiated; you are there to hear them. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
    "facilitate": [
     "Frame the drafting: one real person, role only, an opening plus two questions, written to be said aloud, never read.",
     "Show the listening rule card and the In the room context, then run the discussion: what are you afraid they will say? Take a few voices; the fear names the avoided conversation.",
@@ -220,7 +208,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: The exit interview is a transcript of the stay interview you never held.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Hold the stay interview: ask why they stay, listen, and follow through visibly.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -245,7 +233,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Make the commitment concrete. The person, role only, the opening you rehearsed, and the window. If the invite is not already sent, the card is where you promise the week it goes. Build it, then copy it somewhere you will see it at your desk. Quiet room, go.",

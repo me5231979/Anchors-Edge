@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 2 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>The great university of the 21st Century needs leadership you can actually see, and measured manager behavior is Exceptional Core Operations made visible.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 2 · Manager Effectiveness at Scale</span>
-        <p style="margin:.5rem 0 0" class="measure">Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -167,21 +185,11 @@
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Manager Effectiveness</span><span class="skillpill">Data Literacy</span><span class="skillpill">Self-Awareness</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>What gets measured</h3><p>The three evidence streams: pulse data, 1:1 cadence, and team signals.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Reading without flinching</h3><p>Your evidence is information about behavior. Defensiveness turns it into an argument.</p></div></li><li data-reveal><span class="num">03</span><div><h3>One visible behavior</h3><p>Pick one behavior and make it easy to see, and easy to measure, this month.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="What gets measured">
@@ -203,7 +211,7 @@
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="Caring matters, and it stays invisible until it becomes behavior. The standard measures the demonstration, so care has to show up as something a team can experience."><span class="mark">A</span><span>How much you care about your team</span></button><button class="opt" data-correct="1" data-why="Exactly. A held 1:1 is demonstrated behavior: visible, countable, and felt by the person on the other side of it."><span class="mark">B</span><span>Your 1:1s happening on cadence, month after month</span></button><button class="opt" data-correct="0" data-why="Self-ratings run famously generous. The standard reads the team's experience and the record of what happened, which is why the evidence can surprise you."><span class="mark">C</span><span>Your own rating of your leadership</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Gallup Q12 employee engagement research</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Gallup Q12 employee engagement research</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: which of the three streams do you check least, and what might it be saying right now? 90 seconds each way.</p>
       <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name the evidence stream you check least, and write one guess at what it says right now.</p>
       <details class="deeper" data-webonly hidden data-reveal>
@@ -220,7 +228,7 @@
   <section class="slide on-dark" id="s-two" data-count data-title="Reading without flinching">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 02 · The Read</p>
-      <h2 class="h2" data-reveal>Evidence is information, once you stop <em>arguing with it</em>.</h2>
+      <h2 class="h2" data-reveal>Ask what would <em>move the number</em>.</h2>
       <p class="lead" data-reveal>A pulse dip is a data point about how the team experienced the quarter. Tasha Eurich's self-awareness research supplies the move: swap why for what. Why is my score low invites a defense brief; what behavior would move it points somewhere you can act.</p>
       <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the read</p>
@@ -232,7 +240,7 @@
         <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
         <div class="trainer__result" hidden aria-live="polite"></div>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Tasha Eurich, What Self-Awareness Really Is (HBR)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Tasha Eurich, What Self-Awareness Really Is (HBR)</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Pairs: name one piece of manager feedback you argued with at first. What was the evidence read? 90 seconds each way.</p>
       <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Recall one piece of feedback you argued with at first. Write the evidence read you could have made instead.</p>
       <details class="deeper" data-webonly hidden data-reveal>
@@ -276,7 +284,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>You do not get to grade your own leadership anymore. The evidence does.</p>
+      <p>Read your own evidence monthly and make one leader behavior visible to your team.</p>
     </div>
   </section>
 
@@ -304,7 +312,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My visible behavior</p>
-      <h2 class="h2" data-reveal>One behavior. In plain <em>sight</em>.</h2>
+      <h2 class="h2" data-reveal>Choose the behavior you make <em>visible</em>.</h2>
       <p class="lead" data-reveal>Choose the behavior your evidence points at. Nothing you type is saved or sent; keep any team references to roles, never names.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -338,8 +346,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Let the standard <em>see you</em>.</h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with a read on your own evidence and one behavior chosen to make visible. The rest of the week gives everyone at Vanderbilt the same literacy: reading their own signal without flinching.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Name the behavior <em>by Friday</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">Tell your team the one behavior you are making visible and put it on the calendar this week. Tuesday's and Thursday's sessions teach the same evidence read to everyone at Vanderbilt.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Name the behavior on your card</h3>
@@ -354,7 +362,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">What gets measured gets modeled.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Name it, schedule it, let the team see it.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../index.html">Anchor's Edge dashboard</a>
       <span>Your Own Evidence · Manager Monday · Anchor's Edge</span>

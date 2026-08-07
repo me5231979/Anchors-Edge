@@ -10,7 +10,7 @@
  "titleHtml": "Sort the week, <em class=\"gold-text\">one task at a time</em>.",
  "tagline": "Task-decomposition: automate, augment, or leave alone.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.",
- "heroLead": "No job fits in one AI bucket. The sort that works runs task by task: AI does it and you check, AI helps and you drive, or the task stays yours entirely.",
+ "heroLead": "Sort your work task by task, never by job. Each task gets one call: AI does it and you check, AI helps and you drive, or the task stays yours entirely.",
  "objectives": [
   "Break your working week into specific, repeatable tasks with outputs and rhythms",
   "Sort each task into automate, augment, or leave alone, and know the tells for each",
@@ -46,14 +46,14 @@
    "d": "Pick one call and try it this week in an approved VU tool, checking step included."
   }
  ],
- "manifesto": "AI never gets your job. It gets tasks, one at a time, and you make the call.",
+ "manifesto": "Sort your week per task: automate, augment, or leave alone, and check what ships.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Breakdown",
    "dataTitle": "The decomposition",
    "eyebrow": "The Breakdown",
-   "headline": "A week is just <em>tasks</em> wearing a blur.",
+   "headline": "Break the week into <em>sortable</em> tasks.",
    "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the intake queue. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
    "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
    "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
@@ -118,7 +118,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Make the call",
-    "intro": "Three tasks from real Vanderbilt weeks. Sort each one.",
+    "intro": "Sort each task and note the tell you used: the traffic-light color of the content, how fixed the format is, how much judgment the task needs.",
     "progressWord": "Task",
     "labels": [
      "Automate: AI does it, you check",
@@ -152,8 +152,8 @@
    "nav": "The Test",
    "dataTitle": "The first test",
    "eyebrow": "The Move",
-   "headline": "One call earns a <em>test drive</em>.",
-   "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. Either result is real, an hour saved or a call you know was wrong.",
+   "headline": "Test one call <em>this week</em>.",
+   "lead": "Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. Either result is useful. An hour saved confirms the call; a mess caught by your check says re-sort the task.",
    "deeper": {
     "title": "Read the test like evidence",
     "body": "A test deserves a fair reading. Count the whole cost: setup, prompting, and checking time against the old way, because a tool that saves forty minutes and needs thirty of checking earned ten. What your check caught becomes the permanent checklist for the task. A failed test is a real result too: write one line on why the call was wrong, then re-sort the task. Scale to a second task after two clean runs of the first.",
@@ -165,7 +165,7 @@
    "interaction": {
     "type": "builder",
     "playTitle": "Set up the test",
-    "intro": "Your sort is only as good as its first real run. Choose the task and the checking step.",
+    "intro": "Choose the task and the checking step, then run the test. Notice what makes a test specific enough to teach you something by Friday.",
     "runLabel": "Run the test",
     "outcomeTag": "How the week goes",
     "slots": [
@@ -259,13 +259,13 @@
   }
  ],
  "recapMsgs": {
-  "high": "The sort is yours. Point it at your real week today.",
+  "high": "You know the three calls. Sort your real week today.",
   "mid": "Solid. Revisit the bucket tells, then build your card.",
   "low": "Run the three sections once more before you sort real work."
  },
  "capstone": {
   "eyebrow": "Capstone · My task sort",
-  "headline": "Your week, sorted. <em>Starting now.</em>",
+  "headline": "Put one call on a <em>test date</em>.",
   "lead": "Pick the task your sort points to first. Task language only, no names of people; nothing you type is saved or sent.",
   "whoLabel": "Which task gets sorted and tested first? Name the output and the rhythm.",
   "whoPlaceholder": "e.g. Monday attendance summary, compiled weekly from exports",
@@ -312,12 +312,12 @@
   "evidenceRow": "Afterward, one line: what did the test teach you about the call you made?"
  },
  "closing": {
-  "headline": "Your job is a mix. <em>Now you hold the recipe.</em>",
-  "lead": "The week is broken into tasks and one call has a test date. Thursday sharpens the thinking that keeps every one of those calls honest.",
+  "headline": "Run the test <em>on your card</em>.",
+  "lead": "Your week is broken into tasks and one call has a test date. Run the test before Friday, note what it teaches you, and bring the result to Thursday's session.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the test on your card",
   "nextBody": "One task, one call, one checking step, in an approved VU tool. Bring what it taught you to Thursday's session on sorting AI hype from real value.",
-  "brandline": "Sort the tasks. Keep the wheel."
+  "brandline": "Sort per task, test one call, keep the checking step."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month.",
@@ -371,7 +371,7 @@
   "s3": {
    "title": "The first test",
    "purpose": "Convert one sort call into a specific, checked, dated test in an approved VU tool.",
-   "say": "A sort that lives in your head is a nice opinion. It becomes a redesign of your week the first time you test a call: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
+   "say": "A sort only changes your week once you test a call. The test has four parts: one task, one date, one approved tool, and a checking step with names on it. We are going to build that test now, and the checking step is the part people skip and regret.",
    "facilitate": [
     "Run Set up the test; give the room two minutes for both choices.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

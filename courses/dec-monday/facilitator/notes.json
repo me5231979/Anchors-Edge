@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: name the observable behaviors that define the vanderbilt manager standard; tell a demonstrable behavior apart from an intention or a personality trait; locate yourself against the standard with evidence and pick one behavior to grow. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: name the observable behaviors that define the vanderbilt manager standard; tell a demonstrable behavior apart from an intention or a personality trait; locate yourself against the standard with evidence and pick one behavior to grow. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: behaviors, on the record, behavior or intention?, the honest self-locate. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Behaviors, on the record",
@@ -192,7 +180,7 @@
   {
    "title": "The honest self-locate",
    "purpose": "Teach an evidence-based self-locate against the standard and convert the biggest gap into one visible move.",
-   "say": "Now the mirror. Nobody sees your answers and nothing is saved, so there is no audience to perform for. The only way to waste the next five minutes is to be generous with yourself. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
+   "say": "Now you rate yourself against the standard. Nobody sees your answers and nothing is saved, so there is no audience to perform for; the only reason to be generous with yourself is habit. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
    "facilitate": [
     "Run the builder; give the room two minutes to make both choices and run it.",
     "Ask one volunteer to share which slot was harder to answer honestly.",
@@ -221,7 +209,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: The standard measures what you do where your team can see it.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Rate yourself on witnessed behavior, then put one gap's first instance on the calendar.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

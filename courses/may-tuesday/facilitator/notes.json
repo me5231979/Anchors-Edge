@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: explain how anonymization and aggregate reporting protect your answers; take surveys honestly, knowing what is protected and what is shared; read feedback you receive as signal to use rather than a verdict on you. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: explain how anonymization and aggregate reporting protect your answers; take surveys honestly, knowing what is protected and what is shared; read feedback you receive as signal to use rather than a verdict on you. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: how the tooling works, safe to say, signal, not verdict. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "How the tooling works",
@@ -217,7 +205,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Honest in, useful out: the whole system runs on people saying the true thing.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Answer the next survey honestly, then read what comes back as usable signal.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

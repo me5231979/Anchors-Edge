@@ -7,10 +7,10 @@
  "theme": "Retain, Grow, Move",
  "goal": 1,
  "title": "The Sponsor",
- "titleHtml": "Advice helps. <em class=\"gold-text\">Advocacy</em> moves you.",
+ "titleHtml": "Mentors advise. Sponsors <em class=\"gold-text\">back you</em>.",
  "tagline": "Advocacy: mentors give you advice, sponsors spend their credibility on you.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: learn the difference between mentoring and sponsorship, how to earn and ask for real advocacy, and how to give it by naming who you speak up for.",
- "heroLead": "Advice is easy to find; backing is rarer, someone saying your name with evidence in a room you are not in. Today you learn to earn that and to give it.",
+ "heroLead": "Mentors give you advice. Sponsors put your name forward, with evidence, where decisions get made. This session covers how to earn sponsorship, ask for it, and give it.",
  "objectives": [
   "Tell mentoring (advice given to you) apart from sponsorship (credibility spent on you)",
   "Earn and ask for advocacy with work a sponsor can safely stake their name on",
@@ -46,7 +46,7 @@
    "d": "Advocacy is a skill you give: whose name do you say when they are not in the room?"
   }
  ],
- "manifesto": "A mentor talks with you. A sponsor talks about you, where it counts.",
+ "manifesto": "Show your work to someone senior, then ask them to say your name in a specific room.",
  "sections": [
   {
    "id": "s-one",
@@ -64,7 +64,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Advice or advocacy?",
-    "intro": "The two get called mentoring interchangeably, and they are wildly different currencies. Call each one.",
+    "intro": "Sort each situation: advice given to the person, credibility spent on them, or kind words that are neither yet. Ask what the help cost the giver.",
     "progressWord": "Call",
     "labels": [
      "Mentoring: advice given to you",
@@ -195,7 +195,7 @@
      "tag": "The advocacy question",
      "text": "Whose name do you say in rooms they are not in? If the answer is nobody, you are holding credibility and spending none of it. Pick one colleague whose work you have seen, and say their name the next time the room asks who could do this."
     },
-    "context": "Right now, somewhere at Vanderbilt, a staffing conversation is asking who could take this on. The names that get said belong to people whose work someone in the room has seen. Every person on this call is the potential sayer of a name this week, whatever their title.",
+    "context": "Staffing conversations regularly come down to one question: who could take this on? The names that get said belong to people whose work someone in the room has seen. Whatever your title, you sit in rooms like that every week, and a colleague's name is yours to say there.",
     "discuss": "Whose name do you actually say in rooms they are not in, roles only? If the honest answer is nobody, what would it take to change that this week?",
     "q": "Quick check: what turns a compliment into an act of sponsorship?",
     "opts": [
@@ -315,8 +315,8 @@
   "evidenceRow": "Afterward, one line: what did it cost, and what came back?"
  },
  "closing": {
-  "headline": "Advice is free. <em>Back somebody.</em>",
-  "lead": "You can tell the currencies apart now, and your ask has a room attached. That closes the Retain, Grow, Move week; the advocacy question travels home with you.",
+  "headline": "Back one colleague <em>out loud</em>.",
+  "lead": "Make the advocacy move on your card this week: show the work, name the room, or say a colleague's name where a decision is being made. That closes the Retain, Grow, Move week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the advocacy move on your card",
   "nextBody": "Run it as built: the showing, the ask, or the give. For a longer look at why being backed keeps people, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.",
@@ -328,7 +328,7 @@
   "s1": {
    "title": "Advice versus advocacy",
    "purpose": "Install the distinction: mentoring is advice given to you, sponsorship is credibility spent on you.",
-   "say": "Think about the best career help you ever got. For most of us it was advice: a mentor, a coach, someone generous with guidance. Advice matters, and careers rarely move on advice alone. They move when somebody says your name in a room you are not in and stakes a little of their own reputation on it. That second thing has a name, sponsorship, and the economist Sylvia Ann Hewlett has studied it for over a decade. Her distinction is the one we use all session: a mentor gives you advice; a sponsor spends credibility on you. People who cannot tell the two apart keep asking for advice when what they need is backing.",
+   "say": "Most career help arrives as advice: a mentor, a coach, someone generous with guidance. Advice builds your work. Careers usually move on something else: somebody saying your name in a room you are not in and staking a little of their own reputation on it. That is sponsorship, and the economist Sylvia Ann Hewlett has studied it for over a decade. Her distinction is the one we use all session: a mentor gives you advice; a sponsor spends credibility on you. Learning to tell them apart matters because you ask for each one differently, and people who cannot tell them apart keep collecting advice when what they need is backing.",
    "facilitate": [
     "Run Advice or advocacy? live; everyone plays on their own screen.",
     "After round two, pause on the cost: what does the director risk that the helpful analyst does not?",
@@ -351,7 +351,7 @@
   "s2": {
    "title": "Earning and asking",
    "purpose": "Give everyone a concrete path to sponsorship: visible finished work plus a specific, bounded ask.",
-   "say": "Sponsorship sounds like something that happens to lucky people. It is closer to a transaction with two halves. A sponsor spends reputation, so they need evidence: work they have seen up close. And sponsors are busy, so they need the ask said out loud, with a room attached. Show the work, name the room. People who do both get backed at rates that look like luck from the outside.",
+   "say": "Sponsorship has two requirements, and you control both. A sponsor spends reputation, so they need evidence: work they have seen up close, which means you arrange the seeing. And sponsors are busy, so they need the ask said out loud, with a specific room attached. Show the work, name the room. People who do both get backed far more often, and Hewlett's research shows they ask for stretch work and get it at much higher rates.",
    "facilitate": [
     "Run Build the ask; two minutes for both choices, then run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -374,7 +374,7 @@
   "s3": {
    "title": "Giving it away",
    "purpose": "Land the advocacy question and get every person to name, role only, who they advocate for.",
-   "say": "Here is the part that makes advocacy an everyone skill and never a perk of rank. You sit in rooms other people are absent from every week. When someone asks who could take this on, you have a name you could say and evidence you could attach. Most of us hold that credibility and spend none of it. So the question this section leaves you with is simple: whose name do you say in rooms they are not in?",
+   "say": "Advocacy is a skill you give at any level, whatever your title. You sit in rooms other people are absent from every week: team meetings, chats, a hallway ask for a name. When someone asks who could take this on, you have a name you could say and evidence you could attach. Most of us hold that credibility and spend none of it. So the question this section leaves you with is simple: whose name do you say in rooms they are not in?",
    "facilitate": [
     "Read the concept card aloud; let the advocacy question sit for a beat.",
     "Show the In the room card, then open the discussion prompt: whose name do you say, roles only? An honest nobody counts; take two or three voices.",
@@ -395,7 +395,7 @@
    "coreNote": "Core: skip the breakout; ask for advocacy question answers in chat, roles only."
   },
   "capstoneSay": "Now make it real. One move: the showing, the ask, or the give. The role and the work, never a name. Build the card, pick the window, and copy it somewhere you will see it before Friday. Two quiet minutes, then we close.",
-  "closeSay": "That closes the Retain, Grow, Move week: Monday gave managers the bench, Tuesday pointed the Talent Marketplace and the Transfer Portal at your own next move, and today gave everyone the human engine under both, advocacy. Make your move this week. If you want more on what keeps people, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson, with its navigator-led stay-interview practice lab, runs all month. Next week Anchor's Edge rolls into March and Coaching as the Core Manager Behavior: a fresh Manager Monday, same rhythm, new theme.",
+  "closeSay": "That closes the Retain, Grow, Move week: Monday gave managers the bench, Tuesday pointed the Talent Marketplace and the Transfer Portal at your own next move, and today taught advocacy, which supports both. Make your move this week. If you want more on what keeps people, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson, with its navigator-led stay-interview practice lab, runs all month. Next week Anchor's Edge rolls into March and Coaching as the Core Manager Behavior: a fresh Manager Monday, same rhythm, new theme.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

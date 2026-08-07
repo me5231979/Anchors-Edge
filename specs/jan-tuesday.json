@@ -7,7 +7,7 @@
  "theme": "AI at Work: Start Where You Are",
  "goal": 3,
  "title": "Your First Win",
- "titleHtml": "Your first AI win is <em class=\"gold-text\">one chore away</em>.",
+ "titleHtml": "One chore, one ask, <em class=\"gold-text\">one check</em>.",
  "tagline": "Hands-on: one safe AI use case for your daily work.",
  "description": "A 45-minute hands-on virtual session for all Vanderbilt staff: pick one safe chore from your own week, write a plain-English ask, and check the result before you use it. No AI experience needed.",
  "heroLead": "This hour assumes you have never opened an AI tool. Bring one chore from your week; you will run it safely, in plain English, and check the result like an editor.",
@@ -46,14 +46,14 @@
    "d": "You are the editor. What to verify before the draft goes anywhere."
   }
  ],
- "manifesto": "Start where you are: one chore, one ask, one check.",
+ "manifesto": "Pick one green-light chore, write a plain ask, and check the result before it ships.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Chore",
    "dataTitle": "Pick the chore",
    "eyebrow": "The Green Light",
-   "headline": "Your week is full of <em>green lights</em>.",
+   "headline": "Pick a chore and <em>call its light</em>.",
    "lead": "AI is at its best on chores, the first drafts and tidy summaries of a normal week. The traffic light decides what is safe. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.",
    "group": "In pairs: each name one chore from your own week and call its light. 90 seconds each way.",
    "solo": "Name one chore from your own week and call its light: green, yellow, or red.",
@@ -103,7 +103,7 @@
    "dataTitle": "Write the ask",
    "eyebrow": "The Ask",
    "headline": "Ask like you would ask a <em>colleague</em>.",
-   "lead": "There is a myth that talking to AI takes special training. Plain English works. Tell the tool the job, give it the details that matter, and say what shape you want back. The same sentences you would use to brief a helpful colleague are the ones that work here.",
+   "lead": "Plain English works; talking to AI takes no special training. Tell the tool the job, give it the details that matter, and say what shape you want back. The same sentences you would use to brief a helpful colleague are the ones that work here.",
    "group": "In pairs: say the plain-English ask for the chore you named in section one. Does your partner know exactly what you want back? 90 seconds each way.",
    "solo": "Write the plain-English ask for the chore you named in section one: the job, the details, the shape.",
    "deeper": {
@@ -266,7 +266,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My first win",
-  "headline": "One chore. One ask. <em>One check.</em>",
+  "headline": "Name the chore and <em>write the ask</em>.",
   "lead": "Pick the chore from your own week and the moment you will run it. Nothing you type is saved or sent.",
   "whoLabel": "The green-light chore, and the ask you will make in plain English.",
   "whoPlaceholder": "e.g. draft the newsletter blurb about the public lecture series",
@@ -313,7 +313,7 @@
   "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time free you to do?"
  },
  "closing": {
-  "headline": "One chore down. <em>A habit begun.</em>",
+  "headline": "Run the chore on <em>your card</em>.",
   "lead": "You called the light, wrote the ask, and learned the editor's rule. Thursday's Thrive Thursday builds the adaptability that keeps you steady while tools like this keep changing.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the chore on your card",
@@ -349,7 +349,7 @@
   "s2": {
    "title": "Write the ask",
    "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
-   "say": "The best news of the month is that talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
+   "say": "Talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
    "facilitate": [
     "Run Build the ask; two minutes to make both choices and send it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Managers who can map AI exposure and redesign around it keep Exceptional Core Operations exceptional while the tools underneath keep changing.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -153,7 +171,7 @@
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="wrap">
       <p class="eyebrow" data-reveal>Manager Monday · The manager lens · Spot AI-Exposed Work</p>
-      <h1 class="h-hero" data-reveal>Map the work <em class="gold-text">before it moves</em>.</h1>
+      <h1 class="h-hero" data-reveal>Map your team's work by <em class="gold-text">AI exposure</em>.</h1>
       <p class="lead" data-reveal style="margin-top:1.25rem">AI is already reshaping some of the work your team repeats every week. This session builds your map of which tasks are exposed and which stay human.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
@@ -167,27 +185,17 @@
         <span class="skillpill skillpill--core">Leads through change</span><span class="skillpill">AI Literacy</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Team Communication</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>The task map</h3><p>List the team's recurring work as tasks, because exposure lives in tasks, never in job titles.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The honest sort</h3><p>Call each task's AI exposure straight: high, partial, or low, without flattery or panic.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The team talk</h3><p>Bring the map to your team as a redesign conversation they help write.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="The task map">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Map</p>
-      <h2 class="h2" data-reveal>AI meets your team one <em>task</em> at a time.</h2>
+      <h2 class="h2" data-reveal>Map the work one <em>task</em> at a time.</h2>
       <p class="lead" data-reveal>McKinsey's automation research lands on one steady point: machines take over activities, almost never whole jobs. Start with a list of your team's recurring tasks, the weekly report, the intake queue. Keep people off the page and the picture gets honest fast.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The mapping rule</span>
@@ -203,7 +211,7 @@
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="That maps a person, and it poisons every conversation that follows. Exposure belongs to tasks; people hold portfolios of tasks, most of which stay human."><span class="mark">A</span><span>Our data analyst might be replaceable</span></button><button class="opt" data-correct="1" data-why="A named task with a rhythm and inputs. Now you can ask how exposed it is and what the hour it frees up should become."><span class="mark">B</span><span>Weekly enrollment summary, compiled every Friday from system exports</span></button><button class="opt" data-correct="0" data-why="Too big to sort and too vague to redesign. Break it into the tasks the office actually repeats and the map becomes useful."><span class="mark">C</span><span>The whole front office, since AI changes everything</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Jobs lost, jobs gained, McKinsey Global Institute</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Jobs lost, jobs gained, McKinsey Global Institute</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: name two recurring tasks your team does every week, in task language, no names attached. One pair shares their list.</p>
       <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> List five recurring tasks your team does every week, in task language, no names attached.</p>
       <details class="deeper" data-webonly hidden data-reveal>
@@ -220,11 +228,11 @@
   <section class="slide on-dark" id="s-two" data-count data-title="The honest sort">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 02 · The Sort</p>
-      <h2 class="h2" data-reveal>Sort it straight, without <em>flattery or panic</em>.</h2>
-      <p class="lead" data-reveal>Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.</p>
+      <h2 class="h2" data-reveal>Give each task one of <em>three calls</em>.</h2>
+      <p class="lead" data-reveal>Every task on the map gets one call. High means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human. Two habits skew a sort: calling everything exposed, or protecting every task out of loyalty.</p>
       <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Call the exposure</p>
-        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three tasks from real Vanderbilt weeks. Read each one and make the exposure call.</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Read each task and call its exposure. Notice which detail drives your call: how repetitive the work is, whose data it touches, how much judgment it needs.</p>
         <p class="quiz__progress"></p>
         <p class="quiz__q" style="margin-top:.4rem"></p>
         <div class="quiz__options" role="group" aria-label="Choices"></div>
@@ -249,10 +257,10 @@
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 03 · The Move</p>
       <h2 class="h2" data-reveal>Bring the map to the <em>team</em>.</h2>
-      <p class="lead" data-reveal>A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write, deciding which tasks move to a tool and what the freed hours become. How you open that conversation decides whether it lands as invitation or verdict.</p>
+      <p class="lead" data-reveal>Share the map with your team early, before rumor fills the gap. Shared, it becomes a redesign the team helps write: which tasks move to a tool, what the freed hours become. Two choices decide how it lands: the line you open with and the promise you make.</p>
       <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Practice · Open the team conversation</p>
-        <p class="why" style="margin-top:0"><b>Why this matters:</b> Your team will hear about AI exposure from someone. Choose how they hear it from you.</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Choose your opening line and your promise, then run the meeting. Notice which choices turn the map into shared work and which turn it into a verdict.</p>
         <div class="lab__slots"></div>
         <div class="lab__runrow">
           <button class="btn" disabled>Run the conversation</button>
@@ -275,7 +283,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>You can't redesign work you haven't written down.</p>
+      <p>Write your team's work down as tasks, then sort each one's AI exposure honestly.</p>
     </div>
   </section>
 
@@ -303,7 +311,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My exposure map</p>
-      <h2 class="h2" data-reveal>Ten tasks. One sort. <em>One conversation.</em></h2>
+      <h2 class="h2" data-reveal>Commit to the <em>first pass</em> of your map.</h2>
       <p class="lead" data-reveal>Commit to the first pass of your team's map. Tasks and roles only, never a name; nothing you type is saved or sent.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -337,8 +345,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">See the change coming. <em>Shape it first.</em></h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You leave with the lens and the first draft of a map. The rest of the week hands that same lens to every member of your team.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Take the first pass <em>this week</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">Build the map before Friday: ten recurring tasks, each sorted high, partial, or low. This week's Tuesday and Thursday sessions give your team the same lens.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Take the first pass at your map</h3>
@@ -353,7 +361,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Map the work. Then lead the redesign.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Map the work, then lead the redesign.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../index.html">Anchor's Edge dashboard</a>
       <span>The Exposure Map · Manager Monday · Anchor's Edge</span>
@@ -492,7 +500,7 @@ window.COURSE = {
   }
  ],
  "recapMsgs": {
-  "high": "The lens is fitted. Now walk your real task list through it.",
+  "high": "Solid grasp of the sort. Now walk your real task list through it.",
   "mid": "Solid. Revisit the sort tells, then build your card.",
   "low": "Take the three sections once more before you map real work."
  },

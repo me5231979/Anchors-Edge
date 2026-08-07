@@ -28,14 +28,14 @@
     {"t": "Safe to say", "d": "Why honest answers are protected, and the myths that keep people quiet."},
     {"t": "Signal, not verdict", "d": "Reading the feedback you receive as information you can use."}
   ],
-  "manifesto": "Honest in, useful out: the whole system runs on people saying the true thing.",
+  "manifesto": "Answer the next survey honestly, then read what comes back as usable signal.",
   "sections": [
     {
       "id": "s-one",
       "nav": "The Machinery",
       "dataTitle": "How the tooling works",
       "eyebrow": "The Machinery",
-      "headline": "See what the machine <em>actually does</em>.",
+      "headline": "Know the three <em>protections</em>.",
       "lead": "Pulse surveys and 360 tools follow strict plumbing: responses are stripped of names, results only appear when enough people answer, and what leaders see is the aggregate. Knowing the plumbing is what makes honesty feel as safe as it is.",
       "group": "In pairs: what have you heard people say about who can see survey answers? True or myth? 90 seconds each way.",
       "solo": "Write one thing you have heard about who can see survey answers. Mark it true or myth.",
@@ -69,7 +69,7 @@
       "nav": "Safe to Say",
       "dataTitle": "Safe to say",
       "eyebrow": "The Myths",
-      "headline": "Most silence is built on a <em>myth</em>.",
+      "headline": "Separate the myths from the <em>one real norm</em>.",
       "lead": "People soften survey answers for reasons that feel sensible: someone will trace it, one voice changes nothing, honesty gets someone in trouble. Most of that is myth the plumbing already handles; one is a real norm, and the skill is telling them apart.",
       "group": "Pairs: which myth have you half-believed at survey time, and what does the tooling actually do? 90 seconds each way.",
       "solo": "Name the myth you have half-believed at survey time, and what the tooling actually does instead.",
@@ -103,7 +103,7 @@
       "nav": "Your Signal",
       "dataTitle": "Signal, not verdict",
       "eyebrow": "The Read",
-      "headline": "Feedback is a <em>signal</em>, once you read it that way.",
+      "headline": "Read feedback at its <em>actual size</em>.",
       "lead": "Sooner or later feedback arrives about you: a 360 summary, a peer comment, a survey theme from a project you led. Sheila Heen and Douglas Stone call the skill finding the coaching in the criticism, reading past the sting for the one adjustment worth a try.",
       "source": {"label": "Find the Coaching in Criticism, Sheila Heen and Douglas Stone (HBR)", "url": "https://hbr.org/2014/01/find-the-coaching-in-criticism"},
       "interaction": {
@@ -179,7 +179,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My signal plan",
-    "headline": "Honest in. <em>Useful out.</em>",
+    "headline": "Plan your next <em>honest answer</em>.",
     "lead": "Pick the next place your signal shows up, giving or receiving. Nothing you type is saved or sent; roles, never names.",
     "whoLabel": "Where does your signal show up next? The survey, tool, or feedback moment.",
     "whoPlaceholder": "e.g. the next pulse survey; 360 summary due after the project",
@@ -199,12 +199,12 @@
     "evidenceRow": "Afterward, one line: what did the honest version tell you that the soft version would have hidden?"
   },
   "closing": {
-    "headline": "The system runs on <em>true answers</em>.",
-    "lead": "You know what the tooling protects, which myths to drop, and how to read your own results. That literacy is what turns feedback season from a threat into an instrument.",
+    "headline": "Spend your next answer <em>honestly</em>.",
+    "lead": "You know what the tooling protects, which myths to drop, and how to read your own results. Use it at the next pulse: honest answers in, one adjustment out.",
     "nextTag": "Your one next step · This month",
     "nextTitle": "Spend your next answer honestly",
     "nextBody": "When the next survey or piece of feedback arrives, run your card: honest in, signal read out. If the conversation side feels hard, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts lets you rehearse with its navigator role-play first.",
-    "brandline": "Say the true thing. Read the true thing."
+    "brandline": "Honest answers in, one adjustment out."
   },
   "facilitator": {
     "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so every example stays on a person's own work and voice. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",

@@ -27,7 +27,7 @@
     {"t": "One task for AI", "d": "Choose a green task to hand over, and run it through the traffic light first."},
     {"t": "One habit to keep human", "d": "Name the thing you keep doing yourself, on purpose, and date the review."}
   ],
-  "manifesto": "A dated 90-day plan beats a someday intention, and it only takes three lines.",
+  "manifesto": "Write the three lines, date each one, and book the day-30 review with a witness.",
   "sections": [
     {
       "id": "s-one",
@@ -175,7 +175,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My 90-day plan",
-    "headline": "Three lines, and the clock <em>starts today</em>.",
+    "headline": "Write your three lines <em>now</em>.",
     "lead": "Write your three lines: the skill, the green-light handoff, the human habit. Keep everything task level, no names, no private details. Nothing you type is saved or sent.",
     "whoLabel": "Your three lines: one skill, one green task for AI, one habit kept human.",
     "whoPlaceholder": "e.g. prompt drafts for weekly report; hand over public event blurbs; keep thank-yous handwritten",
@@ -195,7 +195,7 @@
     "evidenceRow": "At day 30, one line: which of the three lines is alive, and what does it need?"
   },
   "closing": {
-    "headline": "Ninety days is <em>enough</em>.",
+    "headline": "Date the lines, book the <em>review</em>.",
     "lead": "You leave with three dated lines and a review that will actually happen. Thursday wraps the series year with the skill underneath every plan: deciding while the deciding is good.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Date all three lines and book the day-30 review",

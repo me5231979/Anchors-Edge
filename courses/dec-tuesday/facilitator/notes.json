@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: load your own agenda items into the oracle 1:1 template before the meeting; give and request feedback through the oracle tools with specifics that help; capture commitments in the shared record and make it argue for your growth. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: load your own agenda items into the oracle 1:1 template before the meeting; give and request feedback through the oracle tools with specifics that help; capture commitments in the shared record and make it argue for your growth. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the template, the feedback tools, the record. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The template",
@@ -221,7 +209,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A 1:1 you prepared for is a meeting you co-own.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Before every 1:1, type two items into the shared template: one blocker, one growth ask.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: describe the gap between intent and impact in your own work; make one small, specific ask that gets a colleague to tell you the truth; receive an honest answer without depleting yourself: thank, adjust, stop. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: describe the gap between intent and impact in your own work; make one small, specific ask that gets a colleague to tell you the truth; receive an honest answer without depleting yourself: thank, adjust, stop. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the intent-impact gap, one trusted truth-teller, receiving without depleting. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The intent-impact gap",
@@ -217,7 +205,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: You cannot see your own blind spot. Someone you trust can, if you ask well.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Ask one trusted colleague how one specific moment landed, then adjust once.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

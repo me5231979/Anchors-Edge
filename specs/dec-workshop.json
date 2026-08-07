@@ -47,7 +47,7 @@
    "d": "Say it to a partner until the words survive contact with a real listener."
   }
  ],
- "manifesto": "A commitment your team could witness is the only kind the standard can count.",
+ "manifesto": "Commit in three parts: the act, the rhythm, and a dated first instance.",
  "sections": [
   {
    "id": "s-one",
@@ -94,13 +94,13 @@
    "nav": "The Commitment",
    "dataTitle": "The commitment draft",
    "eyebrow": "Step Two",
-   "headline": "A gap becomes a commitment you could <em>witness</em>.",
+   "headline": "Draft the commitment in <em>three parts</em>.",
    "lead": "Pick your most important blank. The draft that closes it has three parts: the act, named plainly; the rhythm it repeats on; and the first instance, with a date. Anything less is an intention, and your walk sheet just showed you what intentions leave behind.",
    "group": "Table check: read your draft to the manager beside you. They test all three parts: is the act named, is there a rhythm, is the first instance dated? Fix what fails.",
    "interaction": {
     "type": "builder",
     "playTitle": "Draft the commitment",
-    "intro": "One gap from your sheet. Choose how you word the commitment and how you anchor it.",
+    "intro": "Take one gap from your sheet and choose how you word the commitment and how you anchor it. Wording and anchoring decide whether the gap is still blank next month.",
     "runLabel": "Set the commitment",
     "outcomeTag": "What the standard sees",
     "slots": [
@@ -168,7 +168,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Hear the commitment",
-    "intro": "Three managers tell their teams what will change. Call how each one lands.",
+    "intro": "Listen to each manager announce a change and label what the team can actually watch for. Tuning your ear here is what makes the pair rehearsal useful.",
     "progressWord": "Manager",
     "labels": [
      "Witnessable, the team can hold them to it",
@@ -287,12 +287,12 @@
   "evidenceRow": "Afterward, one line: what changed once someone else could check?"
  },
  "closing": {
-  "headline": "The standard, walked and <em>witnessed</em>.",
-  "lead": "You audited your year, drafted the commitment your biggest blank was waiting for, and rehearsed it until it sounded like you. The walk sheet goes home; the words go to your team.",
+  "headline": "Say the commitment to <em>its first witness</em>.",
+  "lead": "You audited your year, drafted a three-part commitment, and rehearsed the words. Take the walk sheet home, and say the commitment to your team this week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Put the commitment in front of its witness",
   "nextBody": "Say it as rehearsed and let the calendar show the first instance. The month's weekly sessions carry the thread, and Todd Dewett's New Manager Foundations on LinkedIn Learning walks the same ground whenever you want it. Never required.",
-  "brandline": "Walk the standard. Let them watch."
+  "brandline": "Announce the commitment and hold its first date."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; each manager needs a printed standard walk sheet and a pen. Best after the month's Monday session, and it stands alone.",

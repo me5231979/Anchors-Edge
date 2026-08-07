@@ -7,7 +7,7 @@
  "theme": "Spot AI-Exposed Work",
  "goal": 3,
  "title": "The Exposure Map",
- "titleHtml": "Map the work <em class=\"gold-text\">before it moves</em>.",
+ "titleHtml": "Map your team's work by <em class=\"gold-text\">AI exposure</em>.",
  "tagline": "Walking your team's work through an AI-exposure lens.",
  "description": "A 45-minute virtual session for Vanderbilt managers: map your team's recurring work, sort it honestly by AI exposure, and open the team conversation about what changes without fear.",
  "heroLead": "AI is already reshaping some of the work your team repeats every week. This session builds your map of which tasks are exposed and which stay human.",
@@ -46,14 +46,14 @@
    "d": "Bring the map to your team as a redesign conversation they help write."
   }
  ],
- "manifesto": "You can't redesign work you haven't written down.",
+ "manifesto": "Write your team's work down as tasks, then sort each one's AI exposure honestly.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Map",
    "dataTitle": "The task map",
    "eyebrow": "The Map",
-   "headline": "AI meets your team one <em>task</em> at a time.",
+   "headline": "Map the work one <em>task</em> at a time.",
    "lead": "McKinsey's automation research lands on one steady point: machines take over activities, almost never whole jobs. Start with a list of your team's recurring tasks, the weekly report, the intake queue. Keep people off the page and the picture gets honest fast.",
    "source": {
     "label": "Jobs lost, jobs gained, McKinsey Global Institute",
@@ -103,8 +103,8 @@
    "nav": "The Sort",
    "dataTitle": "The honest sort",
    "eyebrow": "The Sort",
-   "headline": "Sort it straight, without <em>flattery or panic</em>.",
-   "lead": "Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.",
+   "headline": "Give each task one of <em>three calls</em>.",
+   "lead": "Every task on the map gets one call. High means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human. Two habits skew a sort: calling everything exposed, or protecting every task out of loyalty.",
    "group": "Breakout pairs: pick one task from your list and call its exposure. Does your partner agree? 90 seconds each way.",
    "solo": "Pick one task from your list and call its exposure: high, partial, or low. Write one line on why.",
    "deeper": {
@@ -119,7 +119,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Call the exposure",
-    "intro": "Three tasks from real Vanderbilt weeks. Read each one and make the exposure call.",
+    "intro": "Read each task and call its exposure. Notice which detail drives your call: how repetitive the work is, whose data it touches, how much judgment it needs.",
     "progressWord": "Task",
     "labels": [
      "High exposure, redesign candidate",
@@ -154,7 +154,7 @@
    "dataTitle": "The team talk",
    "eyebrow": "The Move",
    "headline": "Bring the map to the <em>team</em>.",
-   "lead": "A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write, deciding which tasks move to a tool and what the freed hours become. How you open that conversation decides whether it lands as invitation or verdict.",
+   "lead": "Share the map with your team early, before rumor fills the gap. Shared, it becomes a redesign the team helps write: which tasks move to a tool, what the freed hours become. Two choices decide how it lands: the line you open with and the promise you make.",
    "deeper": {
     "title": "Keep the map alive after the talk",
     "body": "The opening meeting is the easy part; the promise gets kept in what happens next. Put the map where the team can see and edit it, and treat every task they add as a gift. Then keep the redesign promise visibly the first time it is tested: when the first task moves to a tool, let the team decide in the open what fills the freed hour. One kept promise buys more trust than a season of reassurance.",
@@ -166,7 +166,7 @@
    "interaction": {
     "type": "builder",
     "playTitle": "Open the team conversation",
-    "intro": "Your team will hear about AI exposure from someone. Choose how they hear it from you.",
+    "intro": "Choose your opening line and your promise, then run the meeting. Notice which choices turn the map into shared work and which turn it into a verdict.",
     "runLabel": "Run the conversation",
     "outcomeTag": "How it lands",
     "slots": [
@@ -260,13 +260,13 @@
   }
  ],
  "recapMsgs": {
-  "high": "The lens is fitted. Now walk your real task list through it.",
+  "high": "Solid grasp of the sort. Now walk your real task list through it.",
   "mid": "Solid. Revisit the sort tells, then build your card.",
   "low": "Take the three sections once more before you map real work."
  },
  "capstone": {
   "eyebrow": "Capstone · My exposure map",
-  "headline": "Ten tasks. One sort. <em>One conversation.</em>",
+  "headline": "Commit to the <em>first pass</em> of your map.",
   "lead": "Commit to the first pass of your team's map. Tasks and roles only, never a name; nothing you type is saved or sent.",
   "whoLabel": "Which slice of your team's work do you map first? Name the task cluster.",
   "whoPlaceholder": "e.g. weekly reporting cycle; intake and scheduling tasks",
@@ -313,12 +313,12 @@
   "evidenceRow": "Afterward, one line: which task's exposure call surprised you most?"
  },
  "closing": {
-  "headline": "See the change coming. <em>Shape it first.</em>",
-  "lead": "You leave with the lens and the first draft of a map. The rest of the week hands that same lens to every member of your team.",
+  "headline": "Take the first pass <em>this week</em>.",
+  "lead": "Build the map before Friday: ten recurring tasks, each sorted high, partial, or low. This week's Tuesday and Thursday sessions give your team the same lens.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Take the first pass at your map",
   "nextBody": "Ten recurring tasks, each sorted high, partial, or low. The LinkedIn Learning course AI for Leaders by Doug Rose pairs well with the mapping workshop.",
-  "brandline": "Map the work. Then lead the redesign."
+  "brandline": "Map the work, then lead the redesign."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month, and this session opens it.",

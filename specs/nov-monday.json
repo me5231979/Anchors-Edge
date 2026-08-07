@@ -10,7 +10,7 @@
  "titleHtml": "Release talent <em class=\"gold-text\">well</em>.",
  "tagline": "Being a sending manager: releasing talent well.",
  "description": "A 45-minute virtual session for Vanderbilt managers: learn why an internal move is a retention win, handle the moment someone tells you they applied, and build the send-off that makes your team the one people ask to join.",
- "heroLead": "Most managers flinch when someone says 'I applied for a role in another department.' This session teaches you to hear that as a win and answer it well.",
+ "heroLead": "Someone on your team will eventually say 'I applied for a role in another department.' This session teaches why that moment is a retention win and how to answer it well.",
  "objectives": [
   "Reframe an internal move as a retention win for Vanderbilt, and hoarding as the real leak",
   "Respond well in the moment someone tells you they applied internally",
@@ -46,7 +46,7 @@
    "d": "Send-offs that make your team the one people ask to join."
   }
  ],
- "manifesto": "Talent you release inside Vanderbilt is talent you kept.",
+ "manifesto": "When someone applies internally, thank them and back the move out loud.",
  "sections": [
   {
    "id": "s-one",
@@ -65,7 +65,7 @@
     "type": "check",
     "card": {
      "tag": "The sending math",
-     "text": "Hold someone past their growth and their next move is usually out the front door. Send them to another Vanderbilt role and the university keeps them. Hoarding feels like retention; it is a slow leak with your name on it."
+     "text": "Hold someone past their growth and their next move is usually out the front door. Send them to another Vanderbilt role and the university keeps them. Hoarding feels like retention; in practice it drives people out."
     },
     "q": "Your strongest coordinator is a finalist for a role in another school. What did Vanderbilt just do?",
     "opts": [
@@ -103,14 +103,14 @@
    "nav": "The Moment",
    "dataTitle": "The moment they tell you",
    "eyebrow": "The Moment",
-   "headline": "The first sixty seconds <em>decide the story</em>.",
+   "headline": "Rehearse the first <em>sixty seconds</em>.",
    "lead": "Someone gathers the nerve to tell you they applied internally. Whatever you say in the next minute becomes the story they tell their colleagues. Read each manager reply below and call what it really is.",
    "group": "In pairs: what would you honestly feel in that first minute, and what do you want to say anyway? 90 seconds each way.",
    "solo": "Write the first sentence you want to say when someone tells you they applied internally.",
    "interaction": {
     "type": "trainer",
     "playTitle": "Call the response",
-    "intro": "People replay a manager's first reaction for years. Read each reply and call it.",
+    "intro": "Read each reply and call it: sending, hoarding, or a hedge. Anything that slows the move or asks for quiet reads as hoarding, whatever the wrapper.",
     "progressWord": "Reply",
     "labels": [
      "A sending response",
@@ -260,13 +260,13 @@
   }
  ],
  "recapMsgs": {
-  "high": "The mindset is loaded. Now pick the move that makes it visible.",
+  "high": "Strong recall. Pick the sending move that fits your team and build the card.",
   "mid": "Solid. Revisit the section you missed, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
  "capstone": {
   "eyebrow": "Capstone · My sending move",
-  "headline": "One move that says <em>grow here, go well</em>.",
+  "headline": "Make your sending stance <em>visible</em>.",
   "lead": "Pick the move that makes your sending stance visible this week. Roles, never names; nothing you type is saved or sent.",
   "whoLabel": "Where does the move land? Your team, or one situation on it.",
   "whoPlaceholder": "e.g. my team of six; one analyst mid-application to another department",
@@ -313,12 +313,12 @@
   "evidenceRow": "Afterward, one line: what did your team's reaction tell you about the stories they had been carrying?"
  },
  "closing": {
-  "headline": "Release them well. <em>Keep them here.</em>",
+  "headline": "Make the sending move <em>this week</em>.",
   "lead": "You leave with a rehearsed first minute and a send-off worth copying. The rest of this week walks the Transfer Portal itself, from both sides of the door.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the sending move on your card",
   "nextBody": "Run it as built, then write one line about what you noticed. If you want to go deeper on building a team people join, this month's LinkedIn Learning pick is Building Your Team by Chris Croft.",
-  "brandline": "Move people to opportunity without moving them out."
+  "brandline": "Rehearse the first minute before you need it."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; November is the Transfer Portal in Practice month, and this session opens it from the manager's side, building on last month's See the Talent Around You.",
@@ -326,7 +326,7 @@
   "s1": {
    "title": "The sending mindset",
    "purpose": "Install the reframe: an internal move keeps talent at Vanderbilt, and hoarding is the real leak.",
-   "say": "Here is the sentence this month hangs on: talent you release inside Vanderbilt is talent you kept. When someone moves from your team to another department, the university keeps a proven person and everything they know. Hold someone in place past their growth and you have not kept them, you have delayed them, and the delay usually ends out the front door. Gartner has a name for that habit, talent hoarding, and finds it is one of the main reasons internal mobility stalls in organizations. It feels like retention. It is the leak.",
+   "say": "When someone moves from your team to another department, the university keeps a proven person and everything they know. Hold someone in place past their growth and you have delayed them rather than kept them, and the delay usually ends out the front door. Gartner has a name for that habit, talent hoarding, and finds it is one of the main reasons internal mobility stalls in organizations. It feels like retention; the research says it drives people out.",
    "facilitate": [
     "Read the sending math card aloud once; it is the section's whole argument.",
     "Show the in-the-room card; it carries the frame in place of the quiz. Let it land for a beat.",
@@ -372,7 +372,7 @@
   "s3": {
    "title": "The reputation you build",
    "purpose": "Show that public send-offs are recruiting, and build one worth copying.",
-   "say": "Nobody reads your leadership philosophy. Everybody watches your send-offs. When someone leaves your team for another department, the person leaving, the team staying, and everyone deciding where to grow next are all taking notes. A manager people grow and go well from never has an empty pipeline. So let's build the send-off that earns that.",
+   "say": "When someone leaves your team for another department, three audiences watch: the person leaving, the team staying, and everyone deciding where to grow next. Handled well, a departure proves growth is real on your team, and that reputation fills your next opening. So let's build a send-off worth copying.",
    "facilitate": [
     "Run Build the send-off; two minutes to choose both slots and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

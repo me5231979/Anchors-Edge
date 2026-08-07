@@ -10,7 +10,7 @@
  "titleHtml": "Catch the <em class=\"gold-text\">coaching moment</em>.",
  "tagline": "Spotting the coaching moment hiding inside the status conversation.",
  "description": "A 45-minute virtual session for Vanderbilt managers: learn to catch the coaching moment inside an ordinary status conversation, trade instructions for one good question, and give the talk a simple four-beat shape.",
- "heroLead": "Somewhere in the middle of a routine 1:1, a person hands you a chance to grow them. This session teaches you to catch that moment and coach it instead of solving it.",
+ "heroLead": "Coaching moments arrive mid-1:1, as an aside about the person inside a task update. This session teaches you to catch that aside and coach it instead of solving it.",
  "objectives": [
   "Recognize a coaching moment inside an ordinary status conversation",
   "Trade instructions for one good question that puts the thinking in their head",
@@ -46,7 +46,7 @@
    "d": "Goal, reality, options, will: four beats that keep a coaching talk moving."
   }
  ],
- "manifesto": "Tasks need managing. People need coaching. The skill is knowing which one just spoke.",
+ "manifesto": "When the aside is about the person, ask one open question before you offer anything.",
  "sections": [
   {
    "id": "s-one",
@@ -317,12 +317,12 @@
   "evidenceRow": "Afterward, one line: what did they figure out that you did not have to tell them?"
  },
  "closing": {
-  "headline": "Manage the task. <em>Coach the person.</em>",
-  "lead": "You built an ear for the aside, a question that hands the thinking over, and a four-beat shape. The rest of the week gives everyone, managers included, the tools and the listening underneath it.",
+  "headline": "Coach one aside <em>this week</em>.",
+  "lead": "This week, bring back the aside on your card and ask one open question. The rest of the week gives everyone, managers included, the record in Oracle and the listening underneath coaching.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Coach the moment on your card",
   "nextBody": "Run it exactly as built: bring back the aside, ask the question, let them name the will. Bring one line about what they figured out to next Monday.",
-  "brandline": "Coach the person. Manage the task."
+  "brandline": "Trade one instruction for one question."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Coaching as the Core Manager Behavior month, putting December's manager standard into daily practice, and this session opens the week.",
@@ -330,7 +330,7 @@
   "s1": {
    "title": "The moment in the middle",
    "purpose": "Teach managers to hear the coaching moment: the aside about the person inside the talk about the task.",
-   "say": "Here is the trap this month is built around: 1:1s that are status meetings with better branding. Manage the task, absolutely; the task deserves it. But somewhere in the middle of the updates, people hand you a sentence about themselves, and most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
+   "say": "Most 1:1s run as status meetings, and most of the time that is right; the task deserves managing. But somewhere in the middle of the updates, people hand you a sentence about themselves, an aside like 'I second-guess every one of these calls.' Most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
    "facilitate": [
     "Read the concept card aloud once; the two aside examples do the teaching.",
     "Share the In the room card and let the coordinator's aside land; ask what usually happens next in real rooms.",
@@ -375,7 +375,7 @@
   "s3": {
    "title": "A shape for the talk",
    "purpose": "Give the coaching talk a four-beat shape in plain words: goal, reality, options, will.",
-   "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Sir John Whitmore named it GROW decades ago and serious coaching still runs on it; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
+   "say": "A coaching talk needs a shape or it wanders. Here is one in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Sir John Whitmore named it GROW decades ago and serious coaching still runs on it; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
    "facilitate": [
     "Run Coach the moment; two minutes for both choices, then run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

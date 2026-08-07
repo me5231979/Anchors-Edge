@@ -10,7 +10,7 @@
  "titleHtml": "Put your growth <em class=\"gold-text\">on the record</em>.",
  "tagline": "Capturing your development goals and career-conversation notes in Oracle.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: put your development goals into Oracle, keep useful notes from the career conversations you are part of, and make your growth visible enough for opportunity to find it.",
- "heroLead": "The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into Oracle, where opportunity can actually find them.",
+ "heroLead": "Goals set in good career conversations often stay unwritten. This session shows you how to put them in Oracle, where reviews and project staffing can actually find them.",
  "objectives": [
   "Enter one real development goal in Oracle, written so a reader can act on it",
   "Keep a short, useful note after any career conversation you are part of",
@@ -46,14 +46,14 @@
    "d": "One goal and one conversation note, written so they still work in six months."
   }
  ],
- "manifesto": "Opportunity cannot find a goal that lives only in your head.",
+ "manifesto": "Write your development goal in Oracle: a direction plus a dated first step.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Why",
    "dataTitle": "Why the record matters",
    "eyebrow": "The Why",
-   "headline": "Invisible goals go <em>unfed</em>.",
+   "headline": "Write the goal where readers <em>can find it</em>.",
    "lead": "When a stretch project or a Transfer Portal opening appears, someone looks at the record to see who is reaching for what, and a goal that lives in your head is invisible to that search. Writing it into Oracle is how you raise your hand in advance.",
    "source": {
     "label": "LinkedIn Workplace Learning Report: career goals and retention",
@@ -75,7 +75,7 @@
     "discuss": "What has kept your goals unwritten so far? And who is one reader, named by role, you would actually want to find them?",
     "card": {
      "tag": "The visibility rule",
-     "text": "Your growth record is a standing hand-raise. Managers, mentors, and internal recruiters can only work with what they can see, so a goal in Oracle keeps advocating for you in rooms you are never in."
+     "text": "Managers, mentors, and internal recruiters can only work with what they can see. A goal written in Oracle stays visible in the reviews and staffing decisions you are never in the room for; a goal in your head is invisible to all of them."
     },
     "q": "You want to move toward data work within two years. Where does that ambition do the most for you?",
     "opts": [
@@ -311,12 +311,12 @@
   "evidenceRow": "Afterward, one line: what did writing it down make clearer about what you actually want?"
  },
  "closing": {
-  "headline": "Written down is <em>findable</em>.",
-  "lead": "You sorted what belongs where and built an entry worth saving. Thursday closes the week with the listening skill underneath every good career conversation.",
+  "headline": "Put the goal in Oracle <em>this week</em>.",
+  "lead": "Move the drafted goal from your card into Oracle this week. Thursday closes the week with the listening skill underneath every good career conversation.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the Oracle entry real",
   "nextBody": "Move your drafted goal from the card into Oracle exactly as built: a direction and a dated first step. Then note your next career conversation the same day it happens.",
-  "brandline": "Your growth, on the record."
+  "brandline": "Enter the goal in Oracle this week."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Coaching as the Core Manager Behavior month, and this session gives every staff member the record side of it.",
@@ -326,7 +326,7 @@
    "purpose": "Establish visibility as the point: goals in Oracle keep working when you are out of the room.",
    "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects and internal openings get decided, someone is looking at a record, and a goal that lives in your head is invisible to that search. LinkedIn's Workplace Learning Report backs the habit we build today: people who write their career goals down engage with their own development about four times as much. Writing it down is how you raise your hand in rooms you are not in.",
    "facilitate": [
-    "Run the chat show of hands first; the count of unwritten goals is the hook.",
+    "Run the chat show of hands first; the count of unwritten goals makes the visibility point concrete.",
     "Read the visibility rule from the card, then share the In the room card and let the count sink in.",
     "Run the discussion prompt, then the breakout on the goal that exists nowhere in writing."
    ],

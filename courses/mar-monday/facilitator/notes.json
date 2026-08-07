@@ -114,32 +114,20 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: recognize a coaching moment inside an ordinary status conversation; trade instructions for one good question that puts the thinking in their head; run a ten-minute coaching talk with a simple four-beat shape. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: recognize a coaching moment inside an ordinary status conversation; trade instructions for one good question that puts the thinking in their head; run a ten-minute coaching talk with a simple four-beat shape. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the moment in the middle, ask before you tell, a shape for the talk. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The moment in the middle",
    "purpose": "Teach managers to hear the coaching moment: the aside about the person inside the talk about the task.",
-   "say": "Here is the trap this month is built around: 1:1s that are status meetings with better branding. Manage the task, absolutely; the task deserves it. But somewhere in the middle of the updates, people hand you a sentence about themselves, and most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
+   "say": "Most 1:1s run as status meetings, and most of the time that is right; the task deserves managing. But somewhere in the middle of the updates, people hand you a sentence about themselves, an aside like 'I second-guess every one of these calls.' Most of us drive right past it because the task is louder. This section trains your ear to stop for it.",
    "facilitate": [
     "Read the concept card aloud once; the two aside examples do the teaching.",
     "Share the In the room card and let the coordinator's aside land; ask what usually happens next in real rooms.",
@@ -190,7 +178,7 @@
   {
    "title": "A shape for the talk",
    "purpose": "Give the coaching talk a four-beat shape in plain words: goal, reality, options, will.",
-   "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Sir John Whitmore named it GROW decades ago and serious coaching still runs on it; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
+   "say": "A coaching talk needs a shape or it wanders. Here is one in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Sir John Whitmore named it GROW decades ago and serious coaching still runs on it; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
    "facilitate": [
     "Run Coach the moment; two minutes for both choices, then run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -219,7 +207,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Tasks need managing. People need coaching. The skill is knowing which one just spoke.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: When the aside is about the person, ask one open question before you offer anything.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

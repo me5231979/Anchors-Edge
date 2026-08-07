@@ -29,7 +29,7 @@
     {"t": "The signal pass", "d": "Mark the map: risk, growth, and the evidence that earns each mark."},
     {"t": "The first conversation", "d": "Read the finished map and circle the conversation it earns first."}
   ],
-  "manifesto": "A talent read becomes management the day it fits on one page you act from.",
+  "manifesto": "Put evidence beside every mark, and act on the one line you circle.",
   "sections": [
     {
       "id": "s-one",
@@ -67,7 +67,7 @@
       "interaction": {
         "type": "builder",
         "playTitle": "Mark the line",
-        "intro": "One line of your map is whispering at you. Choose what earns the mark and what you write beside it.",
+        "intro": "Take the map line you are least sure about. Choose what earns a risk mark and what you write beside a growth mark; evidence is the standard for both.",
         "runLabel": "Make the mark",
         "outcomeTag": "What the map says now",
         "slots": [
@@ -105,7 +105,7 @@
       "nav": "The First Conversation",
       "dataTitle": "The first conversation",
       "eyebrow": "Pass Three",
-      "headline": "The map earns <em>one circle</em>.",
+      "headline": "Circle <em>one</em> conversation.",
       "lead": "A finished map points at more conversations than one week can hold. The last pass is triage: read every marked line and circle the one that gets the first conversation. The circle is a promise, so it needs a reason and a window.",
       "group": "Around the table, each manager reads their circled line, role only, with the reason in one sentence. Every table mate gets one challenge question: why this one first?",
       "interaction": {
@@ -146,14 +146,14 @@
     }
   ],
   "recapMsgs": {
-    "high": "The map is drawn and the circle is real. Book the conversation before the ink cools.",
+    "high": "Map drawn, circle chosen. Book the conversation before you leave.",
     "mid": "Solid. Reread the pass you missed, then finish your card.",
     "low": "Worth one more walk through the three passes before the map leaves the room."
   },
   "capstone": {
     "eyebrow": "Capstone · My map, off the page",
-    "headline": "The map leaves the room <em>working</em>.",
-    "lead": "The map in your hands is a draft until it changes a week. Roles only, never names; nothing you write here is collected.",
+    "headline": "Put the map to <em>work</em> this week.",
+    "lead": "Choose the map's first move and put a window on it. Roles only, never names; nothing you write here is collected.",
     "whoLabel": "Your circled line: the role, the mark, and the evidence.",
     "whoPlaceholder": "e.g. senior analyst; risk mark; three declined projects this term",
     "practiceLabel": "What does the map do first?",
@@ -173,11 +173,11 @@
   },
   "closing": {
     "headline": "Take the map home and <em>act on it</em>.",
-    "lead": "You drew the map, defended the marks, and circled the first conversation. That page is the month's teaching made physical: keep it where you plan your week.",
+    "lead": "You drew the map, defended the marks, and circled the first conversation. Keep the page where you plan your week and refresh it monthly.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Hold the circled conversation",
     "nextBody": "Run it with the opening you built on Monday, and let what you learn update the map. If the mapping habit catches, Don Phin's Talent Management course on LinkedIn Learning walks the same ground; there if you want it, never required.",
-    "brandline": "Draw the team. Act on the drawing."
+    "brandline": "Book the circled conversation before Friday."
   },
   "facilitator": {
     "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; every exercise runs on paper or the manager's own device. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",

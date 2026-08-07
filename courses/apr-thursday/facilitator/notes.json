@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: run any claim through three tests: the evidence, the beneficiary, and the mind-changer; spot the hype tells: big numbers, no baseline, urgency, and a seller in the byline; apply the filter to one real tool-adoption decision this week. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: run any claim through three tests: the evidence, the beneficiary, and the mind-changer; spot the hype tells: big numbers, no baseline, urgency, and a seller in the byline; apply the filter to one real tool-adoption decision this week. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: the three tests, the hype tells, the live decision. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "The three tests",
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A claim you never tested is a bet you never noticed placing.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Run every AI claim through the three tests before you act on it or repeat it.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

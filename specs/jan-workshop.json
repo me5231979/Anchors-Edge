@@ -8,7 +8,7 @@
  "theme": "AI at Work: Start Where You Are",
  "goal": 3,
  "title": "The Sandbox",
- "titleHtml": "Your first win ships <em class=\"gold-text\">in this room</em>.",
+ "titleHtml": "One real chore, run and <em class=\"gold-text\">shipped in this room</em>.",
  "tagline": "The First-AI-Win sandbox: run one real chore, live, with help in the room.",
  "description": "An in-person, navigator-led workshop for all Vanderbilt staff: bring one real chore from your week, write the ask, run it live in an approved VU tool with a navigator nearby, and leave with a first AI win you actually shipped.",
  "heroLead": "Pick a real chore from your week, write the ask, and run it in an approved VU tool with a navigator at your elbow. The work ships before you leave the room.",
@@ -47,7 +47,7 @@
    "d": "A neighbor checks your draft, you check theirs, and the work leaves the room shipped."
   }
  ],
- "manifesto": "One real chore, run and checked and shipped before you leave the room.",
+ "manifesto": "Run one real chore, check every fact, and ship it before you leave the room.",
  "sections": [
   {
    "id": "s-one",
@@ -94,7 +94,7 @@
    "nav": "The Run",
    "dataTitle": "Run it live",
    "eyebrow": "The Run",
-   "headline": "The draft is a start. The follow-up makes it <em>yours</em>.",
+   "headline": "Improve the draft with <em>one follow-up</em>.",
    "lead": "Brief the tool like a colleague: the job, the details, the shape you want. Then run it in the approved VU tool in front of you. Ethan Mollick's research found the strongest users work in a back-and-forth with the tool. When the draft lands close, ask again.",
    "group": "Run your ask in the tool now; wave a navigator over anytime. When the draft lands, tell a neighbor the one change you would make, then say exactly that to the tool.",
    "source": {
@@ -167,7 +167,7 @@
    "dataTitle": "Check and ship",
    "eyebrow": "The Ship",
    "headline": "A win is checked, then <em>shipped</em>.",
-   "lead": "The tool sounds just as sure when it is wrong, so the check never changes: every name, date, and number verified, and the voice yours. Then the part most first tries skip. Send it, file it, use it. Shipped is what makes it a win.",
+   "lead": "The tool sounds just as sure when it is wrong, so check every name, date, and number, and make the voice yours. Then finish the step most first tries skip: send it, file it, or use it. Shipped work is what counts as a win.",
    "group": "Swap seats with a neighbor and check each other's drafts: facts first, then one sentence that does not sound like the author. Then take your seat back and ship yours.",
    "interaction": {
     "type": "check",
@@ -175,7 +175,7 @@
      "tag": "The ship test",
      "text": "A first win has three parts: the check (every fact verified, the voice yours), the ship (the work sent, filed, or used), and the story (you can say what the check caught). A perfect draft sitting in a folder is a rehearsal."
     },
-    "context": "Look around the room: every screen holds a draft that did not exist when you sat down. This is the moment first wins usually die. The draft feels done, the day moves on, and the folder keeps it forever. What comes next is the finishing: check it with a neighbor, then ship it for real.",
+    "context": "Every screen in the room now holds a draft that did not exist an hour ago. This is where first tries usually stall: the draft feels done, the day moves on, and the folder keeps it. What remains is the finishing: check it with a neighbor, then ship it for real.",
     "discuss": "What did the check catch on your draft or your neighbor's? And where exactly is your draft about to go: sent to whom, filed where, used for what?",
     "q": "Your draft is checked and it reads well. What makes it a first win?",
     "opts": [
@@ -287,7 +287,7 @@
   "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time go to?"
  },
  "closing": {
-  "headline": "One win shipped. <em>The habit starts now.</em>",
+  "headline": "Run the next chore <em>at your desk</em>.",
   "lead": "You picked, ran, checked, and shipped, with a room around you. The weekly sessions this month carry the same theme to your screen, and the loop you just ran works the same at your desk.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the next win on your card",
@@ -367,7 +367,7 @@
    "coreNote": "Core: pair check runs on facts only; the ship call happens whole-room, hands up as pieces go."
   },
   "capstoneSay": "The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.",
-  "closeSay": "You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
+  "closeSay": "You came in with a chore and you are leaving with shipped work and the loop that produced it. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
   "contingencies": [
    {
     "if": "The projector or room screen fails",

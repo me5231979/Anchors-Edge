@@ -7,10 +7,10 @@
  "theme": "The Vanderbilt Manager Standard",
  "goal": 2,
  "title": "The Standard",
- "titleHtml": "The standard you can <em class=\"gold-text\">witness</em>.",
+ "titleHtml": "The manager standard, written as <em class=\"gold-text\">behavior</em>.",
  "tagline": "Unpacking the manager standard: the observable behaviors.",
  "description": "A 45-minute virtual session for Vanderbilt managers: meet the Vanderbilt manager standard, learn the witness test that separates behavior from intention, and locate yourself against the standard honestly.",
- "heroLead": "Vanderbilt has written down what a good manager does here, in lines a colleague could watch you do. Today you walk the list and place yourself on it honestly.",
+ "heroLead": "The Vanderbilt manager standard names what good managing looks like here, in behaviors a colleague could watch. Today you learn to read it and place yourself on it.",
  "objectives": [
   "Name the observable behaviors that define the Vanderbilt manager standard",
   "Tell a demonstrable behavior apart from an intention or a personality trait",
@@ -46,15 +46,15 @@
    "d": "Place yourself against the standard with evidence, and pick one behavior to grow first."
   }
  ],
- "manifesto": "The standard measures what you do where your team can see it.",
+ "manifesto": "Rate yourself on witnessed behavior, then put one gap's first instance on the calendar.",
  "sections": [
   {
    "id": "s-one",
    "nav": "The Standard",
    "dataTitle": "Behaviors, on the record",
    "eyebrow": "The List",
-   "headline": "Written so a colleague could <em>watch it happen</em>.",
-   "lead": "Google's Project Oxygen team went hunting for what made its best managers good and came back with a plain list of teachable behaviors. The Vanderbilt standard makes the same bet. Each line names something a manager here does, and a colleague could watch it.",
+   "headline": "The standard is a list of <em>observable behaviors</em>.",
+   "lead": "Every line of the Vanderbilt manager standard names something a manager here does, and a colleague could watch it happen. Google's Project Oxygen research reached the same design: what made its best managers good was a short list of teachable behaviors.",
    "source": {
     "label": "Project Oxygen manager research, Google re:Work",
     "url": "https://rework.withgoogle.com/intl/en/guides/following-the-data-the-research-behind-great-managers"
@@ -102,8 +102,8 @@
    "nav": "The Witness Test",
    "dataTitle": "Behavior or intention?",
    "eyebrow": "The Test",
-   "headline": "Grade yourself on what they could <em>see</em>.",
-   "lead": "Most of us grade ourselves on intentions and everyone else on behavior. I meant to give feedback. The witness test asks a plainer question: could a colleague have seen it happen? Try it on three ordinary claims.",
+   "headline": "Telling a behavior from an <em>intention</em>.",
+   "lead": "The witness test separates a behavior from an intention or a trait: could a colleague have seen it happen? A plan nobody saw yet is an intention, and an adjective is usually a trait. Practice the call on three ordinary claims managers make about themselves.",
    "group": "Breakout pairs: name one thing you give yourself credit for that fails the witness test. 90 seconds each way.",
    "solo": "Name one thing you give yourself credit for that a colleague could never have witnessed.",
    "deeper": {
@@ -117,7 +117,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Behavior or intention?",
-    "intro": "Three claims managers make about themselves. Run the witness test on each one and call it.",
+    "intro": "Run the witness test on each claim: ask who could have watched it happen, then label it. Managers who make this call cleanly rate themselves accurately in the next section.",
     "progressWord": "Claim",
     "labels": [
      "Behavior, a colleague could see it",
@@ -151,8 +151,8 @@
    "nav": "The Self-Locate",
    "dataTitle": "The honest self-locate",
    "eyebrow": "The Mirror",
-   "headline": "The mirror works when you bring <em>evidence</em>.",
-   "lead": "Nobody sees your answers and nothing you type is saved, so the only person you can fool here is you. An honest self-locate uses evidence: for each behavior, when did a colleague last see me do it? Then the biggest gap gets one visible move.",
+   "headline": "Rate each behavior against <em>evidence</em>.",
+   "lead": "To locate yourself against the standard, ask one question per behavior: when did a colleague last see me do it? Answer with dates. Then give the biggest gap one visible first move. Nothing you type is saved, so answer honestly.",
    "deeper": {
     "title": "Evidence has a shelf life",
     "body": "Sometimes the witness test passes on a technicality: you did hold the growth conversation, once, in the spring. So add two follow-up questions to every line you rate yourself on: when was the last instance, and how regular is the rhythm? One strong week a year ago is a memory. A modest behavior repeated monthly is what the standard is actually after, because a rhythm is what your team experiences as managing.",
@@ -164,7 +164,7 @@
    "interaction": {
     "type": "builder",
     "playTitle": "The honest self-locate",
-    "intro": "You are alone with the standard for five minutes. Choose how you rate yourself and what you do with the gap you find.",
+    "intro": "Choose how you rate yourself and what you do with the gap you find. An evidence-based read plus one scheduled behavior is the combination that changes anything by next month.",
     "runLabel": "Run the self-locate",
     "outcomeTag": "Where it leaves you",
     "slots": [
@@ -264,7 +264,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My standard behavior",
-  "headline": "One behavior. First instance. <em>On the calendar.</em>",
+  "headline": "Pick one behavior and <em>schedule its first instance</em>.",
   "lead": "Pick the behavior your honest self-locate points to first. Roles only, never names; nothing you type is saved or sent.",
   "whoLabel": "Which behavior gets your December, and what gap did you find?",
   "whoPlaceholder": "e.g. written feedback after milestones; none given since summer",
@@ -311,12 +311,12 @@
   "evidenceRow": "Afterward, one line: what did the witness test change about how you see yourself?"
  },
  "closing": {
-  "headline": "Lead where they can <em>see it</em>.",
-  "lead": "You know the list and where you honestly stand on it. The rest of this week arms both chairs of the same conversations.",
+  "headline": "Do the behavior <em>where your team can see it</em>.",
+  "lead": "You know the list and where you stand on it. Tuesday covers the Oracle tools that make several of these behaviors visible; Thursday teaches the clarity skill under expectation-setting.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Put the behavior on the calendar",
   "nextBody": "Schedule the first visible instance of your chosen behavior and hold it. Bring what a colleague could now witness to next Monday's session.",
-  "brandline": "Meet the standard where it can be seen."
+  "brandline": "Schedule the behavior where your team can see it."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December opens the Manager Effectiveness theme after November's Transfer Portal month, and this session introduces the standard itself.",
@@ -371,7 +371,7 @@
   "s3": {
    "title": "The honest self-locate",
    "purpose": "Teach an evidence-based self-locate against the standard and convert the biggest gap into one visible move.",
-   "say": "Now the mirror. Nobody sees your answers and nothing is saved, so there is no audience to perform for. The only way to waste the next five minutes is to be generous with yourself. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
+   "say": "Now you rate yourself against the standard. Nobody sees your answers and nothing is saved, so there is no audience to perform for; the only reason to be generous with yourself is habit. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
    "facilitate": [
     "Run the builder; give the room two minutes to make both choices and run it.",
     "Ask one volunteer to share which slot was harder to answer honestly.",

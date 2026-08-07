@@ -11,7 +11,7 @@
  "titleHtml": "Coaching is learned <em class=\"gold-text\">out loud</em>.",
  "tagline": "The GROW practicum: live coaching triads, real topics, and the beat-by-beat debrief.",
  "description": "An in-person, navigator-led practicum for Vanderbilt managers: coach a real brought topic in live triads, rotate through coach, coachee, and observer, and debrief the four beats to find where your coaching stalls.",
- "heroLead": "Knowing the four beats is not the skill. In this room you coach a real topic in front of an observer and find out which beat stalls when it is your turn to ask.",
+ "heroLead": "In this practicum you coach a real topic through the four GROW beats while an observer tracks each one. You leave knowing which beat stalls on you, with a question ready.",
  "objectives": [
   "Coach a real brought topic through all four beats with an observer tracking each one",
   "Play coachee and observer well: bring a real topic, and track beats instead of solving problems",
@@ -47,7 +47,7 @@
    "d": "Observer notes on the table: where each talk stalled, and the question that would have moved it."
   }
  ],
- "manifesto": "Nobody coaches well in theory. Find your stalled beat and practice that.",
+ "manifesto": "Find the beat where your coaching stalls, and practice that beat first.",
  "sections": [
   {
    "id": "s-one",
@@ -55,7 +55,7 @@
    "dataTitle": "Set the triads",
    "eyebrow": "The Triad",
    "headline": "Three seats, three <em>jobs</em>.",
-   "lead": "A triad is a coaching gym. The coach runs the four beats on a real topic, while the observer tracks the beats rather than the problem. The observer often learns most: they hear what the coach cannot.",
+   "lead": "A triad splits the practice three ways. The coach runs the four beats on a real topic, the coachee brings the topic, and the observer tracks the beats rather than the problem. The observer often learns most: they hear what the coach cannot.",
    "group": "Form triads across tables, ideally with managers you rarely work with. Coachees: pick the real topic you brought, work-sized, roles only, and say it in one sentence.",
    "source": {
     "label": "Coaching conversation research, Center for Creative Leadership",
@@ -94,7 +94,7 @@
    "nav": "The Rounds",
    "dataTitle": "Run the rounds",
    "eyebrow": "The Rounds",
-   "headline": "Real topics make it <em>real practice</em>.",
+   "headline": "Run the beats on a <em>real topic</em>.",
    "lead": "Rounds run on brought topics because the beats only get tested by something true. The beats are Sir John Whitmore's GROW model: goal first, reality before options, their options before yours, will with a date. Rotate until everyone has coached.",
    "group": "Run the round: coach and coachee work the four beats while the observer writes. Then rotate one seat and start the next round with a fresh topic.",
    "source": {
@@ -138,7 +138,7 @@
    "nav": "The Debrief",
    "dataTitle": "Debrief the beats",
    "eyebrow": "The Debrief",
-   "headline": "The stall is the <em>finding</em>.",
+   "headline": "Name the beat that <em>stalled</em>.",
    "lead": "Observers report: where the talk stalled, the moment telling replaced asking, the question that moved something. Then the room compares. Most managers stall on the same beat every time, and naming yours is the most useful thing you take from this room.",
    "group": "In your triad: observer reports from notes, beat by beat. Coach names their stall in one sentence and writes the question they will bring to the next real talk.",
    "interaction": {
@@ -291,12 +291,12 @@
   "evidenceRow": "Afterward, one line: what did they figure out that you did not have to tell them?"
  },
  "closing": {
-  "headline": "Practiced in a room. <em>Used in a 1:1.</em>",
-  "lead": "You coached for real, in front of witnesses, and you know your stall. This month's weekly sessions keep feeding the same behavior: the moment, the record, and the listening.",
+  "headline": "Bring the question to a <em>real 1:1</em>.",
+  "lead": "Open your next 1:1 with the question you wrote for your stalled beat. This month's weekly sessions support the same behavior: the coaching moment, the record in Oracle, and the listening.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the rep on your card",
   "nextBody": "Bring the question to a real conversation and let the beats do the rest. Your observer's note is the coaching plan; the triad rematch keeps it honest.",
-  "brandline": "Coach out loud. Stall, learn, repeat."
+  "brandline": "Practice your stalled beat first."
  },
  "facilitator": {
   "audience": "Vanderbilt people managers and team leads, in person. Triads need space: tables of six that split into two triads work best, with room noise expected and welcome; navigators float between triads. Works from nine managers upward; every topic is real and every exercise runs roles only, never names.",
@@ -304,7 +304,7 @@
   "s1": {
    "title": "Set the triads",
    "purpose": "Form working triads, load the three jobs, and get every coachee to a real, work-sized, roles-only topic said in one sentence.",
-   "say": "This room runs on a simple bet: coaching is a physical skill, and physical skills need reps in front of someone who is watching. The Center for Creative Leadership says the same about the core move itself; asking questions that stretch someone's thinking is a learned skill, and it only gets learned by practicing. So, triads. The coach runs the four beats. The coachee brings a real topic, something actually stuck this month, work-sized, roles only. The observer has the strangest and best job: track the beats, not the problem. You will sit in all three seats before we are done.",
+   "say": "Coaching is a skill you build with reps in front of someone who is watching, and that is what this room is set up for. The Center for Creative Leadership makes the same point about the core move itself: asking questions that stretch someone's thinking is a learned skill, and it gets learned by practicing. So, triads. The coach runs the four beats. The coachee brings a real topic, something actually stuck this month, work-sized, roles only. The observer has the strangest and best job: track the beats, not the problem. You will sit in all three seats before we are done.",
    "facilitate": [
     "Form triads across tables so nobody coaches a close colleague; direct traffic until every triad has three seats filled.",
     "Show the observer's rule card and the In the room context; run the discussion on what great questions sound like. Then hand out the printed observer checklists, one per triad: the four beats, told versus asked, and a line for the question that moved something.",
@@ -350,7 +350,7 @@
   "s3": {
    "title": "Debrief the beats",
    "purpose": "Turn observer notes into named stalls and one prepared question per manager, then set up the take-home rep.",
-   "say": "Now the part you cannot get alone at your desk: the mirror. Observers, report from your notes, kindly and specifically: where the talk stalled, the moment telling replaced asking, and the question that moved something. Coaches, listen for the pattern; most of us stall in the same place every time. Then we practice the two commonest recoveries, because knowing your stall is half, and having the next move is the other half.",
+   "say": "Now the debrief, the part you cannot get alone at your desk. Observers, report from your notes, kindly and specifically: where the talk stalled, the moment telling replaced asking, and the question that moved something. Coaches, listen for the pattern; most of us stall in the same place every time. Then we practice the two commonest recoveries, because knowing your stall is half, and having the next move is the other half.",
    "facilitate": [
     "Triad debriefs first, observer speaking from the checklist. Then chart the room: each triad calls out its stalls and you tally goal, reality, options, will on the flip chart. Name the crowded column; the room's shape is always a teaching moment.",
     "Run Unstick the beat on learner devices; it rehearses the recoveries for the two stalls every column shares.",
@@ -371,7 +371,7 @@
    "coreNote": "Core: skip the room tally; triad debriefs only, and the stalled beat goes straight onto the capstone card."
   },
   "capstoneSay": "Your observer gave you a finding; now it becomes a commitment. The stalled beat, the question that unsticks it, and the conversation it is for, role only. Build the card and copy it somewhere you will see it before your next 1:1. Quiet room, go.",
-  "closeSay": "You did the thing this month keeps asking for: you coached, out loud, with witnesses. The weekly sessions carry the theme on: Manager Monday tunes your ear for the coaching moment inside ordinary 1:1s, Take-Off Tuesday puts the growth you coach on the record in Oracle, and Thrive Thursday builds the listening underneath every beat you ran today. If you want the theory behind your reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers; a companion when you are curious, never an assignment. The rep on your card is the only thing due.",
+  "closeSay": "You coached out loud today, with an observer, and you know which beat stalls on you. The weekly sessions carry the theme on: Manager Monday tunes your ear for the coaching moment inside ordinary 1:1s, Take-Off Tuesday puts the growth you coach on the record in Oracle, and Thrive Thursday builds the listening underneath every beat you ran today. If you want the theory behind your reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers; a companion when you are curious, never an assignment. The rep on your card is the only thing due.",
   "contingencies": [
    {
     "if": "The projector or room screen fails",
@@ -407,7 +407,7 @@
   "templates": [
    {
     "title": "Pre-work invite (paste into the calendar invite)",
-    "body": "Subject: The GROW coaching practicum, in person. Bring one real work topic you want movement on, something stuck this month, described without names. You will coach, be coached, and observe, and you will leave knowing which beat of your coaching stalls. Wear your listening."
+    "body": "Subject: The GROW coaching practicum, in person. Bring one real work topic you want movement on, something stuck this month, described without names. You will coach, be coached, and observe, and you will leave knowing which beat of your coaching stalls."
    },
    {
     "title": "7-day pulse (send one week after)",

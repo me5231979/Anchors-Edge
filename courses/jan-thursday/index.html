@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -139,9 +140,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Defining the great university of the 21st Century means working through seasons where the answers are still forming, and adaptable staff keep Exceptional Core Operations moving in the meantime.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -153,7 +171,7 @@
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="wrap">
       <p class="eyebrow" data-reveal>Thrive Thursday · The soft skill that carries it · AI at Work: Start Where You Are</p>
-      <h1 class="h-hero" data-reveal>Stay steady <em class="gold-text">before the fog lifts</em>.</h1>
+      <h1 class="h-hero" data-reveal>Stay steady while answers are <em class="gold-text">still forming</em>.</h1>
       <p class="lead" data-reveal style="margin-top:1.25rem">Change lands faster than answers, and AI is this year's loudest example. Adaptability is a practice: sort what you know from what you guess, then take one small step.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
@@ -167,28 +185,18 @@
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Adaptability</span><span class="skillpill">Resilience</span><span class="skillpill">Peer Support</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>Known, unknown, assumed</h3><p>The fastest way to shrink ambiguity: sort it into three honest piles.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The small experiment</h3><p>One reversible step that buys real information this week.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Steady the room</h3><p>What to say when a colleague is spiraling about change.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="Known, unknown, assumed">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Sort</p>
       <h2 class="h2" data-reveal>Ambiguity shrinks when you <em>sort it</em>.</h2>
-      <p class="lead" data-reveal>Most change anxiety comes from treating one big fog as one big threat. Sorting breaks the fog into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. The piles are always smaller than the fog.</p>
+      <p class="lead" data-reveal>When a change feels overwhelming, sort it into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. A named question can be answered; an unsorted worry cannot. The piles are always smaller than the fog.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The three-pile sort</span>
         <p style="margin:.5rem 0 0" class="measure">When change hits, write three lists: known (confirmed by someone accountable for it), unknown (nobody has decided yet), and assumed (a guess wearing a fact's clothes). Act on the first, watch the second, test the third.</p>
@@ -231,7 +239,7 @@
         </div>
         <div class="lab__outcome" hidden aria-live="polite"></div>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Co-Intelligence, Ethan Mollick (Penguin Random House)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Co-Intelligence, Ethan Mollick (Penguin Random House)</a></p>
       <details class="deeper" data-webonly hidden data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
         <div class="deeper__body">
@@ -246,7 +254,7 @@
   <section class="slide on-cream" id="s-three" data-count data-title="Steady the room">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 03 · The Steady Voice</p>
-      <h2 class="h2" data-reveal>Be the voice that <em>steadies</em>.</h2>
+      <h2 class="h2" data-reveal>Name the known, admit the unknown, <em>offer one step</em>.</h2>
       <p class="lead" data-reveal>In a season of change, colleagues take their cue from whoever sounds grounded. Grounding has a shape: name the known, be honest about the unknown, point at one next step. Listen to three replies to the same worry and call what each does to the room.</p>
       <div class="quiz trainer" id="s-three-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Steady or spiral?</p>
@@ -275,7 +283,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>Certainty arrives late. Adaptable people learn while they wait.</p>
+      <p>When change lands, sort known from assumed, then run one small reversible experiment.</p>
     </div>
   </section>
 
@@ -303,7 +311,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My adaptability move</p>
-      <h2 class="h2" data-reveal>Meet the fog with a <em>move</em>.</h2>
+      <h2 class="h2" data-reveal>Pick the change and <em>make one move</em>.</h2>
       <p class="lead" data-reveal>Name the change that is actually on your mind this season. Situations and roles only, never names; nothing you type is saved or sent.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -337,8 +345,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">The fog is certain. <em>So is your footing.</em></h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You built the sort, the small experiment, and the steadying voice. That completes this week of AI at Work: Monday's tone, Tuesday's first win, and today's skill for everything the season changes next.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Sort one real change and <em>take the step</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You built the sort, the small experiment, and the steadying reply. That completes this week of AI at Work: Monday's tone, Tuesday's first win, and today's adaptability practice.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Make the move on your card</h3>
@@ -353,7 +361,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Sort the fog. Then take the step.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Sort first, then take one small step.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../index.html">Anchor's Edge dashboard</a>
       <span>Steady in the Fog · Thrive Thursday · Anchor's Edge</span>
@@ -492,7 +500,7 @@ window.COURSE = {
   }
  ],
  "recapMsgs": {
-  "high": "You have the sort, the step, and the steady voice. Point them at a real change.",
+  "high": "You have the sort, the step, and the steadying reply. Use them on a real change.",
   "mid": "Solid. Revisit the three-pile sort, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },

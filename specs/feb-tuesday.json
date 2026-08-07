@@ -54,7 +54,7 @@
    "dataTitle": "The tools, pointed at you",
    "eyebrow": "The Follow-Up",
    "headline": "Point the tools at <em>your own career</em>.",
-   "lead": "Earlier in the series you learned the Transfer Portal as a system. Today it gets personal. The Talent Marketplace holds your skills profile and surfaces growth work; the Portal carries internal moves. Together they are a planning kit for what you do next.",
+   "lead": "Earlier in the series you learned the Transfer Portal as a system. Now apply it to your own career. The Talent Marketplace holds your skills profile and surfaces growth work; the Portal carries internal moves. Together they are your planning kit.",
    "group": "In pairs: what do you want these systems working on for you this year, a skill, a project, a move? One pair shares.",
    "solo": "Write down what you want these systems working on for you this year: a skill, a project, or a move.",
    "interaction": {
@@ -99,7 +99,7 @@
    "nav": "Get Findable",
    "dataTitle": "Getting findable",
    "eyebrow": "The Readiness",
-   "headline": "Findable is a <em>choice</em>.",
+   "headline": "Write a profile the matching <em>can read</em>.",
    "lead": "Matching is only as good as what it can read. Two moves keep you findable: a Talent Marketplace profile that says what you can actually do, and a direction named in writing. Build both here.",
    "interaction": {
     "type": "builder",
@@ -186,7 +186,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Myth or normal?",
-    "intro": "How people talk about internal moves decides whether anyone makes them. Call each one.",
+    "intro": "Sort each statement: an old myth to retire, a normal move to support, or a readiness gap to fix. Ask what each one would do to a real career.",
     "progressWord": "Call",
     "labels": [
      "An old myth, retire it",
@@ -266,7 +266,7 @@
  },
  "capstone": {
   "eyebrow": "Capstone · My next-move plan",
-  "headline": "A plan, <em>not a wish</em>.",
+  "headline": "One move that <em>starts the plan</em>.",
   "lead": "Pick the move that starts your plan. Your own words, your own career; nothing you type is saved or sent.",
   "whoLabel": "What direction is this plan about? The kind of work or growth you would say yes to.",
   "whoPlaceholder": "e.g. student-facing project work; growing toward process improvement lead",
@@ -313,12 +313,12 @@
   "evidenceRow": "Afterward, one line: what direction did you name, and what surprised you writing it down?"
  },
  "closing": {
-  "headline": "Plan the growth. <em>Make the move.</em>",
-  "lead": "Your plan has a direction now, and the tools know what to do with it. Thursday adds the skill that moves careers fastest: someone willing to back you out loud.",
+  "headline": "Start the plan <em>this week</em>.",
+  "lead": "Make the move on your card this week: the profile hour, the named direction, or the Portal scan. Thursday's session covers advocacy, the other half of moving inside Vanderbilt.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the move on your card",
   "nextBody": "Run it as built: one honest hour, one named direction, or one deliberate Portal scan. Curious what makes people stay and grow? This month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.",
-  "brandline": "A direction written down is a plan in motion."
+  "brandline": "Write the direction down this week."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. Builds on the Transfer Portal month earlier in the series; February is the Retain, Grow, Move month on succession and internal mobility.",
@@ -349,7 +349,7 @@
   "s2": {
    "title": "Getting findable",
    "purpose": "Get every person to draft a full skills entry and a specific named direction in the Talent Marketplace.",
-   "say": "Matching engines are honest machines: they can only see what you wrote. A profile that copies your job description makes you findable for the job you already have. The skills sweep and the named direction make you findable for the work you want next. And the skills your current role never uses are exactly where the interesting matches come from.",
+   "say": "The matching can only read what you wrote down. A profile that copies your job description makes you findable for the job you already have. The skills sweep and the named direction make you findable for the work you want next. And the skills your current role never uses are exactly where the interesting matches come from.",
    "facilitate": [
     "Run Build your findability; two minutes for both choices, then run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -393,7 +393,7 @@
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question."
   },
   "capstoneSay": "Now make it real. One direction, in your own words: the kind of work you would say yes to. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Take two quiet minutes now.",
-  "closeSay": "You leave with a plan started; make it real this week. Thursday's Thrive Thursday takes the next step: advocacy, the difference between a mentor who gives you advice and a sponsor who spends their credibility on you. A plan gets you moving; a sponsor gets you chosen. And if you want to go deeper this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab. See you Thursday.",
+  "closeSay": "You leave with a plan started; make it real this week. Thursday's Thrive Thursday takes the next step: advocacy, the difference between a mentor who gives you advice and a sponsor who spends their credibility on you. And if you want to go deeper this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab. See you Thursday.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

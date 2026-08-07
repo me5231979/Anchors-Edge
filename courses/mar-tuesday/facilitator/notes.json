@@ -114,34 +114,22 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 1,
+   "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: enter one real development goal in oracle, written so a reader can act on it; keep a short, useful note after any career conversation you are part of; sort what belongs on your visible record, in private notes, or nowhere at all. That is the whole contract.",
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: enter one real development goal in oracle, written so a reader can act on it; keep a short, useful note after any career conversation you are part of; sort what belongs on your visible record, in private notes, or nowhere at all. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 1,
-   "coreMinutes": 0,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: why the record matters, what goes where, write the entry. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Why the record matters",
    "purpose": "Establish visibility as the point: goals in Oracle keep working when you are out of the room.",
    "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects and internal openings get decided, someone is looking at a record, and a goal that lives in your head is invisible to that search. LinkedIn's Workplace Learning Report backs the habit we build today: people who write their career goals down engage with their own development about four times as much. Writing it down is how you raise your hand in rooms you are not in.",
    "facilitate": [
-    "Run the chat show of hands first; the count of unwritten goals is the hook.",
+    "Run the chat show of hands first; the count of unwritten goals makes the visibility point concrete.",
     "Read the visibility rule from the card, then share the In the room card and let the count sink in.",
     "Run the discussion prompt, then the breakout on the goal that exists nowhere in writing."
    ],
@@ -220,7 +208,7 @@
    "minutes": 1,
    "coreMinutes": 0,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Opportunity cannot find a goal that lives only in your head.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Write your development goal in Oracle: a direction plus a dated first step.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],

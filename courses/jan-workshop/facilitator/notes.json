@@ -114,27 +114,15 @@
   {
    "id": "s-hero",
    "title": "Objectives",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Set the contract for the session in under a minute.",
-   "say": "By the end of this session: pick one green-light chore from your own real week and confirm its light at your table; write the ask, run it live in an approved vu tool, and improve the draft with one follow-up; check the result like an editor, with a neighbor's eyes on it, and ship it as real work. That is the whole contract.",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Set the contract for the session in about a minute; this slide is also the roadmap.",
+   "say": "By the end of this session you will be able to: pick one green-light chore from your own real week and confirm its light at your table; write the ask, run it live in an approved vu tool, and improve the draft with one follow-up; check the result like an editor, with a neighbor's eyes on it, and ship it as real work. We take them in order, and each one has something to practice.",
    "facilitate": [
-    "Read the three objectives briskly; do not elaborate yet."
+    "Read the three objectives briskly; they double as the agenda.",
+    "Point at the goal chip once, then move."
    ],
-   "transition": "Three stops to get there."
-  },
-  {
-   "id": "s-agenda",
-   "title": "Agenda",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Show the path so the room can pace itself.",
-   "say": "Three stops: pick and call it, run it live, check and ship. Each one has something to play with, so keep the deck open.",
-   "facilitate": [
-    "Point once at each stop; ten seconds each."
-   ],
-   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
-   "transition": "Stop one."
+   "transition": "First objective."
   },
   {
    "title": "Pick and call it",
@@ -220,7 +208,7 @@
    "minutes": 2,
    "coreMinutes": 1,
    "purpose": "Land the one sentence the session exists to install.",
-   "say": "If you keep one sentence from today, this is it. Read it once, out loud: One real chore, run and checked and shipped before you leave the room.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Run one real chore, check every fact, and ship it before you leave the room.",
    "facilitate": [
     "Pause two beats after reading; the word animation carries it."
    ],
@@ -245,7 +233,7 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 5,
+   "minutes": 6,
    "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.",
@@ -263,7 +251,7 @@
    "minutes": 2,
    "coreMinutes": 2,
    "purpose": "End with the next step and where this thread continues.",
-   "say": "You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
+   "say": "You came in with a chore and you are leaving with shipped work and the loop that produced it. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
    "facilitate": [
     "Point at the next-step card; one sentence.",
     "Name the rest of the week's rhythm: the other sessions echo this month's theme."

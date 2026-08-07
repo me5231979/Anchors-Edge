@@ -10,7 +10,7 @@
   "titleHtml": "Curiosity is a <em class=\"gold-text\">career skill</em>.",
   "tagline": "Softskill · Curiosity: asking better career questions.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: practice curiosity as a career skill by asking better questions about your own path, opening career curiosity conversations with colleagues, and turning good answers into concrete next steps.",
-  "heroLead": "Careers stall on unasked questions more often than on lack of talent. Today curiosity becomes a practiced skill: better questions about your path and the work around you.",
+  "heroLead": "This session treats curiosity as a practiced skill: asking specific, answerable questions about your own path and about the work of the people around you.",
   "objectives": [
     "Trade vague career wondering for questions specific enough to answer this week",
     "Open a career curiosity conversation with a colleague and keep it generous",
@@ -28,14 +28,14 @@
     {"t": "Curiosity conversations", "d": "Ask a colleague about their work in a way that makes talent visible."},
     {"t": "From curious to concrete", "d": "Turn one good answer into one small step with a date on it."}
   ],
-  "manifesto": "Talent becomes visible the moment somebody asks about it.",
+  "manifesto": "Ask one specific question about work you are curious about, then act on the answer.",
   "sections": [
     {
       "id": "s-one",
       "nav": "Your Path",
       "dataTitle": "Questions for your own path",
       "eyebrow": "Your Path",
-      "headline": "Better questions beat <em>bigger</em> ones.",
+      "headline": "Ask questions small enough to <em>answer</em>.",
       "lead": "Asked in the abstract, 'what is next for me' has no answer. Harvard's Francesca Gino finds curiosity is a skill you can build, and it starts with smaller questions: what work makes me lose track of time, which of my skills do people keep borrowing?",
       "group": "In pairs: which task in your week makes time move fastest? What does that say about your skills? 90 seconds each way.",
       "solo": "Write down the task in your week that makes time move fastest, and what it says about your skills.",
@@ -76,7 +76,7 @@
       "interaction": {
         "type": "trainer",
         "playTitle": "Door or dead end?",
-        "intro": "Curiosity has a sound, and so do its impostors. Read each moment and call it.",
+        "intro": "Read each moment and call it: real curiosity, a dead end, or judgment. A question that is specific, generous, and about the other person is what gets honest answers.",
         "progressWord": "Moment",
         "labels": ["Real curiosity, opens the door", "A dead end, rework it", "Judgment dressed as a question"],
         "passAt": 2,
@@ -102,8 +102,8 @@
       "nav": "The Next Step",
       "dataTitle": "From curious to concrete",
       "eyebrow": "The Move",
-      "headline": "Curiosity earns a <em>next step</em>.",
-      "lead": "An interesting answer that changes nothing is trivia. Curiosity starts moving your career when the answer turns into a step small enough to actually happen, an hour of shadowing or one doc to read. Build the step you would take.",
+      "headline": "Turn the answer into a <em>next step</em>.",
+      "lead": "An answer starts helping your career when it becomes a step small enough to happen: an hour of shadowing or one doc to read. In this lab you build the step you would take and put a date on it.",
       "interaction": {
         "type": "builder",
         "playTitle": "Book the next step",
@@ -170,7 +170,7 @@
     }
   ],
   "recapMsgs": {
-    "high": "The questions are loaded. Aim one at a real person this week.",
+    "high": "Strong recall. Pick one real person and build your card.",
     "mid": "Nearly there. Revisit the one that got you, then pick your move.",
     "low": "Walk the three sections once more; the questions get easier the second time."
   },
@@ -196,12 +196,12 @@
     "evidenceRow": "Afterward, one line: what did asking show you that waiting never would have?"
   },
   "closing": {
-    "headline": "Stay curious. <em>On purpose.</em>",
-    "lead": "Your career questions got smaller and sharper today. You also practiced asking about a colleague's work generously, and putting a date on whatever the answer opens. That is curiosity working as a skill.",
+    "headline": "Ask the question. Book the <em>step</em>.",
+    "lead": "You practiced shrinking career questions, asking colleagues about their work, and putting a date on the next step. The move on your card is where the practice reaches your real week.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Make the curiosity move on your card",
     "nextBody": "Send the invite or write the answer down while it is warm. If you want company doing it, the navigator-led Know-Your-Team lab runs in person this month, and Don Phin's Talent Management course on LinkedIn Learning goes deeper. Optional, always.",
-    "brandline": "Ask the question. See the talent."
+    "brandline": "Send the invite while the curiosity is fresh."
   },
   "facilitator": {
     "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
