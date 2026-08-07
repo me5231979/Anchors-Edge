@@ -1,0 +1,411 @@
+{
+ "slug": "feb-workshop",
+ "format": "workshop",
+ "series": "Navigator Workshop",
+ "month": "February 2027",
+ "monthShort": "Feb",
+ "monthIndex": 5,
+ "theme": "Retain, Grow, Move",
+ "goal": 1,
+ "title": "The Stay Lab",
+ "titleHtml": "Practice the conversation <em class=\"gold-text\">before it counts</em>.",
+ "tagline": "The stay-interview practice lab: draft it, run it live in pairs, book the real one.",
+ "description": "An in-person, navigator-led practice lab for Vanderbilt managers: draft a real stay-interview opening and questions for one person on your team, run live role-play rounds in pairs, debrief what landed, and book the real conversation.",
+ "heroLead": "Stay interviews fail in the first minute or in the follow-through, and both are practiceable. In this lab you draft the real opening for one person you would hate to lose, run it live against a colleague playing the employee, and book the actual conversation.",
+ "objectives": [
+  "Draft a stay-interview opening and questions for one real person, role only",
+  "Run live role-play rounds in pairs and hold the listening when it gets hard",
+  "Sort what a stay interview surfaces and book the real conversation before you leave"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
+  },
+  {
+   "label": "Retention"
+  },
+  {
+   "label": "Active Listening"
+  },
+  {
+   "label": "Talent Management"
+  }
+ ],
+ "missionTie": "A century-defining university keeps its people by hearing them before the exit interview. Every manager who practices this conversation strengthens Destination Vanderbilt: a place people choose, and keep choosing.",
+ "goalLead": "Goal 1 runs on managers who can hear why people stay. The systems surface growth and carry moves; the reason to stay is heard in a conversation, and today you practice it until it is bookable.",
+ "agenda": [
+  {
+   "t": "Draft the real one",
+   "d": "An opening and questions for one person you would hate to lose, role only, written to be said."
+  },
+  {
+   "t": "Run the rounds",
+   "d": "Live role-play in pairs: one manager asks, one plays the employee, and the hard moments get reps."
+  },
+  {
+   "t": "Debrief and book",
+   "d": "What landed, what stalled, what you do with the answers, and the real conversation on the calendar."
+  }
+ ],
+ "manifesto": "The exit interview is a transcript of the stay interview you never held.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Draft",
+   "dataTitle": "Draft the real one",
+   "eyebrow": "The Draft",
+   "headline": "Write it for <em>one real person</em>.",
+   "lead": "A stay interview is a listening conversation: why does this person stay, and what would make staying easier? Not a review, not a counteroffer. Draft yours for one real person, role only: an opening that proves you noticed them, and two questions you want answered.",
+   "group": "At your table: read your opening aloud. The table answers with the first thing the employee would feel, then helps you sharpen it until it lands as attention.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The listening rule",
+     "text": "The urge to fix each issue mid-interview is the classic mistake. Fixing turns the conversation into your to-do list and stops the telling. Keep asking, write down what you hear, and save the follow-through for the days after."
+    },
+    "context": "Every manager in this room drafted for someone specific. Before the role-play starts, hear the frame: the person across from you is about to say things you cannot fix on the spot, things about pay, workload, other people. Your practice partner will make sure of it. The skill is staying in the listening.",
+    "discuss": "Think of the person you drafted for. What are you most afraid they will say when you ask, and what does that fear tell you about the conversation you have been avoiding?",
+    "q": "Mid-interview, they name a frustration you could fix today. What is the strong move?",
+    "opts": [
+     {
+      "t": "Fix it on the spot to prove the interview works",
+      "correct": false,
+      "why": "Generous, and it ends the telling. The moment you start solving, they stop surfacing, and the biggest reason stays unsaid."
+     },
+     {
+      "t": "Keep listening, capture it, and follow through visibly afterward",
+      "correct": true,
+      "why": "Right. The interview is for hearing everything; the days after are for acting. Follow-through you name later is what proves the listening was real."
+     },
+     {
+      "t": "Explain why it has been hard to fix until now",
+      "correct": false,
+      "why": "Now the interview is about your constraints. They came to be asked, and they are suddenly reassuring you."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Rounds",
+   "dataTitle": "Run the rounds",
+   "eyebrow": "The Rounds",
+   "headline": "Say it out loud <em>before it counts</em>.",
+   "lead": "Reading a draft is not the skill; staying in the conversation is. One of you runs your opening while the other plays the employee, honestly. Two moments will test you: the silence after a real question, and the answer you cannot fix. Both have a strong move.",
+   "group": "Pair up across tables and run the round: one asks, one plays the employee from the role description only, inventing details as needed. Then swap parts and run the second draft.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "The hard moments",
+    "intro": "Every stay interview hits these two. Choose your move for each, then watch for them in your round.",
+    "runLabel": "Run the moment",
+    "outcomeTag": "How it lands",
+    "slots": [
+     {
+      "key": "When the silence comes",
+      "opts": [
+       {
+        "t": "Fill it: 'but overall you're happy, right?'",
+        "pts": 1,
+        "coach": "The leading question hands them the polite yes and ends the honesty. The silence was the answer forming."
+       },
+       {
+        "t": "Rephrase the question a different way, quickly.",
+        "pts": 2,
+        "coach": "Better than leading, and it still interrupts. A rephrase resets their thinking just as it was getting somewhere."
+       },
+       {
+        "t": "Let it sit, then: 'take your time. I really want to know.'",
+        "pts": 3,
+        "coach": "Silence plus permission is where the real answer lives. What gets said after a held silence is usually the reason they stay, or the reason they would go."
+       }
+      ]
+     },
+     {
+      "key": "When they name what you cannot fix",
+      "opts": [
+       {
+        "t": "Promise to see what you can do about it.",
+        "pts": 1,
+        "coach": "A soft promise about pay or policy stakes your credibility on someone else's decision. When nothing moves, the interview reads as bait."
+       },
+       {
+        "t": "Move on quickly to safer questions.",
+        "pts": 2,
+        "coach": "The dodge is loud. They watched you skip the thing that matters most to them, and the rest of the answers shrink to match."
+       },
+       {
+        "t": "Name what you control and what you don't, then ask what else weighs.",
+        "pts": 3,
+        "coach": "Honest boundaries keep trust. Most stay levers, growth, visibility, attention, are yours; carrying the rest upward visibly is also a lever."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A round that sounded like a real conversation. The employee said something true, and you stayed in the listening.",
+     "mid": "A decent round with a flinch in it. The draft held; the hard moment took the conversation back to safety.",
+     "weak": "A pleasant exchange of reassurances. Nothing true got said, which is exactly how the real one would have gone."
+    },
+    "reactions": {
+     "strong": "In the debrief, your partner tells you the moment it stopped feeling like role-play. That moment is what the real conversation will feel like, and now you have met it.",
+     "mid": "Your partner names where you flinched, kindly. The second round is where the flinch gets replaced; that is exactly what the lab is for.",
+     "weak": "Your partner admits they gave you the polite yes because the questions invited it. Real employees are politer still, and that is the warning to take."
+    }
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Debrief",
+   "dataTitle": "Debrief and book",
+   "eyebrow": "The Debrief",
+   "headline": "The answers are a <em>to-do list</em>.",
+   "lead": "A stay interview surfaces three kinds of answers: things in your control, things you can advocate for upward, and warnings that need a follow-up. Sorting them is what turns a warm conversation into retention. Then the only step left is the calendar.",
+   "group": "At your table: each pair reports one line that landed and one answer that would be hardest to act on. The table sorts each hard answer: yours, upward, or follow-up.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Sort the answer",
+    "intro": "Your practice rounds produced answers like these. What you do next decides whether the interview retains anyone.",
+    "progressWord": "Answer",
+    "labels": [
+     "Yours: act on it soon",
+     "Upward: advocate visibly",
+     "A warning: book the follow-up now"
+    ],
+    "passAt": 2,
+    "passMsg": "You can sort what you hear. Act on yours, carry the rest upward out loud, and never let a warning wait.",
+    "failMsg": "Close. The tell: recognition, growth, and attention are usually yours. Pay and policy go upward, visibly. Anything that sounds like a foot near the door gets a follow-up this week.",
+    "items": [
+     {
+      "q": "'Honestly? Nobody said a word about the grant cleanup. I carried that for a month.'",
+      "answer": 0,
+      "why": "Recognition is entirely in your control and costs a sentence. Say it now, say it where they would like it heard, and the lever moves this week."
+     },
+     {
+      "q": "'The pay band has not kept up with what this role became. That wears on me.'",
+      "answer": 1,
+      "why": "Pay is rarely yours alone, and pretending otherwise burns trust. Name what you control, then carry the case upward and tell them you did."
+     },
+     {
+      "q": "'A recruiter called last month. I said no, but I noticed how long I thought about it.'",
+      "answer": 2,
+      "why": "That is a person telling you the door is ajar. Thank them for the honesty and book the follow-up before the week ends; this one never goes on a list."
+     }
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What is a stay interview, run well?",
+   "opts": [
+    "A lighter performance review",
+    "A listening conversation about why they stay",
+    "A chance to defend team decisions",
+    "A counteroffer delivered early"
+   ],
+   "correct": 1,
+   "why": "You ask, you listen, you capture. The fixing comes afterward, visibly, which is what makes the listening believable next time."
+  },
+  {
+   "q": "They go quiet after your best question. You should...",
+   "opts": [
+    "Rephrase it immediately",
+    "Offer a reassuring answer for them",
+    "Let the silence sit, then invite more",
+    "Move to the next question"
+   ],
+   "correct": 2,
+   "why": "Held silence is the answer forming. What gets said after it is usually the truest sentence of the whole interview."
+  },
+  {
+   "q": "They name pay, which you do not control. The strong move?",
+   "opts": [
+    "Promise to see what you can do",
+    "Name your limits, advocate upward, ask what else",
+    "Steer back to growth topics",
+    "End the interview gracefully"
+   ],
+   "correct": 1,
+   "why": "Honesty about your limits keeps trust, and visible advocacy is itself a retention lever. Then keep asking; pay is rarely the whole story."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The reps are in. Now the calendar.",
+  "mid": "Solid. Reread the hard moments, then build your card.",
+  "low": "Take another pass through the three stops before you book it."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My stay interview",
+  "headline": "The real one goes <em>on the calendar</em>.",
+  "lead": "You practiced it out loud. Now commit to the real conversation: the person, role only, and the window. Nothing you type is saved or sent.",
+  "whoLabel": "Who gets the conversation? Role, and the opening line you rehearsed.",
+  "whoPlaceholder": "e.g. senior program coordinator; 'I want to talk about what keeps you here'",
+  "practiceLabel": "Which commitment do you make?",
+  "whoRow": "The person and the opening",
+  "practices": [
+   {
+    "id": "run",
+    "chip": "The rehearsed interview",
+    "name": "The rehearsed interview",
+    "move": "Run the opening and questions exactly as drafted and practiced today, and stay in the listening."
+   },
+   {
+    "id": "listenback",
+    "chip": "The listen-back",
+    "name": "The listen-back",
+    "move": "Close the real interview by reading back what you heard and naming the one thing you will act on first."
+   },
+   {
+    "id": "followthrough",
+    "chip": "The follow-through",
+    "name": "The follow-through",
+    "move": "Within two weeks of the interview, act visibly on one thing they told you, and tell them you did."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The interview happens this week, on the calendar before you leave the room."
+   },
+   {
+    "id": "next11",
+    "chip": "At our next 1:1",
+    "out": "The interview replaces your next 1:1 agenda: their reasons first, status never."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The interview happens within two weeks, booked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My stay-interview card",
+  "evidenceRow": "Afterward, one line: what did they say that you could not have guessed?"
+ },
+ "closing": {
+  "headline": "Practiced here. <em>Held for real.</em>",
+  "lead": "You drafted it, survived the hard moments, and sorted the answers. This month's weekly sessions widen the same theme: the bench, your own next move, and the sponsors who back people out loud.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Hold the interview on your card",
+  "nextBody": "Run it as rehearsed: the opening, the questions, the held silence. Then the sort: act on yours, carry the rest upward, and let them see both.",
+  "brandline": "Hear them before the exit interview does."
+ },
+ "facilitator": {
+  "audience": "Vanderbilt people managers and team leads, in person. Tables of four to six with room to pair off for role-play; navigators circulate during rounds. Works from eight managers to a full room; every exercise runs roles only, never names.",
+  "pulse": "Seven days out, send the pulse: 'Did the stay interview on your card happen? What did they say that you could not have guessed? What is your first follow-through?' Count of held interviews is the Level 3 metric for the workshop.",
+  "s1": {
+   "title": "Draft the real one",
+   "purpose": "Frame the stay interview as a listening conversation and get every manager to a said-aloud draft for one real person, role only.",
+   "say": "Everyone in this room can name someone they would hate to lose. Today you stop hoping they stay and start asking. A stay interview is a listening conversation: why do you stay, and what would make staying easier. It is not a review, not a counteroffer, not a rescue mission. You will draft it for that one person now, role only, and your table will tell you how the opening actually lands.",
+   "facilitate": [
+    "Frame the drafting: one real person, role only, an opening plus two questions, written to be said aloud, never read.",
+    "Show the listening rule card and the In the room context, then run the discussion: what are you afraid they will say? Take a few voices; the fear names the avoided conversation.",
+    "Run the table round: openings read aloud, tables answer with the first feeling, then sharpen. Navigators listen for openings that start with the org chart or with HR."
+   ],
+   "ask": {
+    "q": "What is the first feeling your opening produced at the table?",
+    "expect": [
+     "Seen and valued, when it was specific",
+     "Suspicion, when it sounded like process",
+     "Confusion, when it was vague warmth"
+    ],
+    "respond": "The table just gave you the employee's answer in advance. Specific attention lands; process framing and vague warmth get the polite yes."
+   },
+   "debrief": "One person, role only, an opening that proves attention, two questions you want answered. The draft is done when the table stops flinching.",
+   "watchFor": "Managers drafting for their easiest person instead of the one the interview is for. Ask quietly: is this the person you would hate to lose, or the one who is comfortable to ask?",
+   "transition": "Drafts ready. Now they get said out loud.",
+   "coreNote": "Core: skip the table round; each manager says their opening to one neighbor and takes the first-feeling answer."
+  },
+  "s2": {
+   "title": "Run the rounds",
+   "purpose": "Give every manager live reps: run the draft against a partner playing the employee, and meet the silence and the unfixable answer.",
+   "say": "Now the lab part. Pair up. One of you is the manager, running your real draft. The other plays the employee, from the role description only, honestly: give real answers, go quiet when a question deserves thought, and at least once, name something the manager cannot fix. Then swap. Before you start, we train the two moments that break stay interviews: the silence and the unfixable answer.",
+   "facilitate": [
+    "Run The hard moments on learner devices first; it loads the strong moves before anyone needs them.",
+    "Pair managers across tables so nobody role-plays with someone who knows the real person. Restate the norm once: roles only, never names, and the employee player invents details rather than borrowing a real colleague's.",
+    "Run round one, swap, run round two. Navigators hover, listening for leading questions and rescue promises; they whisper coaching between rounds, never during."
+   ],
+   "ask": {
+    "q": "Where did your round stop feeling like role-play?",
+    "expect": [
+     "The held silence",
+     "The moment the employee player pushed on pay or workload",
+     "When the opening was said instead of read"
+    ],
+    "respond": "That moment of realness is the rep you came for. The real interview will feel exactly like that, and now it is familiar instead of frightening."
+   },
+   "debrief": "The silence is the answer forming; hold it. The unfixable answer wants honesty and advocacy, never a soft promise. Both moves are now in your hands.",
+   "watchFor": "Employee players going easy on their partner. Nudge tables: the kindest thing a practice partner can do is make it hard here, where it is cheap.",
+   "transition": "Rounds done. Now we sort what they surfaced, and book the real thing.",
+   "coreNote": "Core: one round instead of two; whoever did not run a draft books first slot at the next lab, and both still sort answers in the debrief."
+  },
+  "s3": {
+   "title": "Debrief and book",
+   "purpose": "Sort the surfaced answers into act, advocate, or follow up, and get the real conversation onto calendars before the capstone.",
+   "say": "A stay interview only retains if the answers go somewhere. Three piles. Things in your control, recognition, growth, attention: act on them fast. Things above you, pay, policy: advocate upward, visibly, and say you did. And warnings, anything that sounds like a foot near the door: those get a follow-up booked now, not a note in a file. Sort what your rounds surfaced, then open your calendar.",
+   "facilitate": [
+    "Run Sort the answer on learner devices; it names the three piles with clean cases.",
+    "Then the table debrief: each pair reports one line that landed and one hard answer; the table sorts each hard answer together. Chart the piles on the table flip chart so the sorting stays visible.",
+    "Close with the booking: calendars open, the real interview goes into this week or the next two. Ask for hands as invites go out; count aloud."
+   ],
+   "ask": {
+    "q": "Which pile does your hardest practice answer land in?",
+    "expect": [
+     "Mostly recognition and growth, which surprises people",
+     "Pay and workload, headed upward",
+     "A few real warnings"
+    ],
+    "respond": "Notice how much landed in the first pile. Most stay levers are already yours, which is why the interview is worth holding and the follow-through is worth naming."
+   },
+   "debrief": "Act on yours, advocate upward visibly, book the follow-up on warnings. And the real interview is on the calendar, which is the only debrief that counts.",
+   "watchFor": "Bookings quietly skipped by managers whose person is the hardest to face. Circle back personally: that difficulty is the strongest sign the interview is overdue.",
+   "transition": "Booked. The card makes the commitment portable.",
+   "coreNote": "Core: skip the flip-chart sort; run the trainer, take one hard answer per table aloud, then go straight to calendars."
+  },
+  "capstoneSay": "Make the commitment concrete. The person, role only, the opening you rehearsed, and the window. If the invite is not already sent, the card is where you promise the week it goes. Build it, then copy it somewhere you will see it at your desk. Quiet room, go.",
+  "closeSay": "You practiced the conversation most managers never rehearse, and the real one is on your calendar. This month's weekly sessions carry the same theme: Manager Monday reframes the bench as a gift, Take-Off Tuesday points the Talent Marketplace and the Transfer Portal at everyone's own next move, and Thrive Thursday teaches the sponsorship that keeps talent seen. If you want a longer look at keeping your best people, this month's LinkedIn Learning pick is Finding and Retaining High Potentials; a good companion to the interview you just rehearsed, not an assignment. The only deliverable is the conversation on your card.",
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The deck lives on learner phones via the welcome QR; narrate from your own device. The lab is conversation and paper; nothing essential needs the big screen."
+   },
+   {
+    "if": "An odd number of managers shows up for the rounds",
+    "then": "Make one triad: two run the round while the third observes with the listening rule in hand, then rotate. The observer seat is a bonus, not a bench."
+   },
+   {
+    "if": "Someone names the real employee while drafting or debriefing",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The draft works identically with the role, and the practice partner should be inventing details anyway."
+   },
+   {
+    "if": "A round surfaces something real and serious, like a manager realizing mid-round that their person is already leaving",
+    "then": "Pause their round quietly, acknowledge it, and point them to the booking step now: the follow-up conversation this week is the move. Offer a navigator debrief after the room closes."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Won't asking why they stay put leaving on their mind?",
+    "a": "The research runs the opposite way: people leave when nobody asks. The interview signals attention, and attention is a retention lever. What plants leaving is silence plus a recruiter's call, and the recruiter is already calling your best people."
+   },
+   {
+    "q": "What if they use the interview to demand a raise?",
+    "a": "Then you use the move you practiced: name what you control, carry the case upward visibly, and keep asking what else weighs. Pay is rarely the whole story, and the rest of the story is usually yours to act on."
+   },
+   {
+    "q": "How is this different from the succession and bench work this month?",
+    "a": "Same goal, opposite direction. The bench plans the growth you can see; the stay interview surfaces the reasons and risks you cannot. Run both and you are managing retention instead of reacting to resignations."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: The stay-interview practice lab, in person. Come with one person in mind you would hate to lose; you will never say their name. You will draft the real conversation, practice it live against a colleague, and book it before you leave. Bring your calendar."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the interview happen? Three lines, reply whenever: 1) Did the stay interview on your card happen? 2) What did they say that you could not have guessed? 3) What is your first follow-through, and when?"
+   }
+  ]
+ }
+}

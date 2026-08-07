@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Talent Map Lab | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Talent Map Lab | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Inventory Pass</a><a href="#s-two">The Signal Pass</a><a href="#s-three">The First Conversation</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · October 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>A university out to define the century needs every manager to know the talent in the building. The map you draw today is Exceptional Core Operations at table level: one page that helps you retain, grow, and move real people.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Talent Marketplace &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 1 needs managers who can see their teams before any system can. This lab turns the month's talent read into an artifact you keep: your first map, drawn by hand, ready to act on.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · See the Talent Around You</p>
+      <h1 class="h-hero" data-reveal>Leave with your team <em class="gold-text">on one page</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">The weekly sessions gave you the talent read. This lab is where it lands on paper. You leave the room holding a first talent map of your own team: skills beyond titles, marks you can defend, and the first conversation circled.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Build a one-page talent map of your team: one line per role, capability beyond the job title</li><li>Mark flight-risk and growth signals on the map with evidence beside every mark</li><li>Circle the first conversation the map earns and put a window on it</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Talent Marketplace &amp; Transfer Portal</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Talent Management</span><span class="skillpill">Workforce Planning</span><span class="skillpill">Succession Planning</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The inventory pass</h3><p>One line per role: what each person can do, beyond what the job asks.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The signal pass</h3><p>Mark the map: risk, growth, and the evidence that earns each mark.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The first conversation</h3><p>Read the finished map and circle the conversation it earns first.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The inventory pass">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · Pass One</p>
+      <h2 class="h2" data-reveal>One line per role, written for a <em>stranger</em>.</h2>
+      <p class="lead" data-reveal>Draw the grid: a line for each person on your team, role only, never a name. In each line, what they can do, in the role and beyond it. The test of a good line: a stranger reading it could find that person a stretch project.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The stranger test</span>
+        <p style="margin:.5rem 0 0" class="measure">A map line works when a stranger could act on it. 'Senior analyst, solid' offers nothing. 'Senior analyst: grant budgeting, plain writing, wants facilitation' hands a stranger three moves. Write every line to that standard.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">In the weekly session you practiced the inventory question one person at a time. The lab scales it: every role on your team gets a line, on one page, in the same sitting. The page is the discipline. If a line will not compress into capabilities, you do not yet know that person's skills.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> Which line on your team will be hardest to write, and what does that tell you about where your attention has been going?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">Quick check: which line belongs on your talent map?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Kind words, no capability. Nobody could match this person to a project. Name what they can do, and the map starts working."><span class="mark">A</span><span>Program coordinator: reliable, hardworking, great attitude</span></button><button class="opt" data-correct="1" data-why="Capabilities plus a growth want, in role-only language. A stranger could staff a project, feed the growth, or plan succession from this line."><span class="mark">B</span><span>Program coordinator: event logistics, de-escalation, wants data skills</span></button><button class="opt" data-correct="0" data-why="Tenure and a rating, which the map never carries. The map holds capability; ratings stay in the systems built for them."><span class="mark">C</span><span>Program coordinator: five years in role, meets expectations</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> At your table: read one of your map lines aloud, role only. The table calls it: could a stranger act on this line? Sharpen it together until the answer is yes.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The signal pass">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · Pass Two</p>
+      <h2 class="h2" data-reveal>Mark only what you can <em>evidence</em>.</h2>
+      <p class="lead" data-reveal>Second pass over the map: a risk mark where ownership behavior has changed, a growth mark where someone has asked to build. Every mark needs its evidence written beside it, because marks without evidence turn a map into gossip.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · Mark the line</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> One line of your map is whispering at you. Choose what earns the mark and what you write beside it.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Make the mark</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Table swap: trade one marked line with a neighbor, roles only. They challenge the evidence: is that a pattern change or one bad week? Defend it or downgrade it.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="The first conversation">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · Pass Three</p>
+      <h2 class="h2" data-reveal>The map earns <em>one circle</em>.</h2>
+      <p class="lead" data-reveal>A finished map points at more conversations than one week can hold. The last pass is triage: read every marked line and circle the one that gets the first conversation. The circle is a promise, so it needs a reason and a window.</p>
+      <div class="quiz trainer" id="s-three-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Who gets the circle?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three marked lines from three finished maps. Call what each one earns first.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Around the table, each manager reads their circled line, role only, with the reason in one sentence. Every table mate gets one challenge question: why this one first?</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A talent read becomes management the day it fits on one page you act from.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My map, off the page</p>
+      <h2 class="h2" data-reveal>The map leaves the room <em>working</em>.</h2>
+      <p class="lead" data-reveal>The map in your hands is a draft until it changes a week. Roles only, never names; nothing you write here is collected.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · Your circled line: the role, the mark, and the evidence.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. senior analyst; risk mark; three declined projects this term" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What does the map do first?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="book"><span>The booked conversation</span></button><button class="opt" data-id="finish"><span>The finished map</span></button><button class="opt" data-id="refresh"><span>The standing refresh</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="next11"><span>Before my next 1:1</span></button><button class="opt" data-id="month"><span>By month end</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">One page. One circle. <em>One week.</em></h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You drew the map, defended the marks, and circled the first conversation. That page is the month's teaching made physical: keep it where you plan your week.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Hold the circled conversation</h3>
+        <p>Run it with the opening you built on Monday, and let what you learn update the map. If the mapping habit catches, Don Phin's Talent Management course on LinkedIn Learning walks the same ground; there if you want it, never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Draw the team. Act on the drawing.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Talent Map Lab · Navigator Workshop · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-three-play",
+   "progressWord": "Line",
+   "labels": [
+    "Circle it, conversation this week",
+    "Growth move, feed it soon",
+    "Keep reading, no conversation yet"
+   ],
+   "passAt": 2,
+   "passMsg": "You can triage a map. Risk with evidence gets the circle, growth asks get fed, thin marks get watched.",
+   "failMsg": "Close. The tell: evidence plus cost decides the circle. Strong evidence on someone costly to lose goes first; thin evidence earns watching, never a talk.",
+   "items": [
+    {
+     "q": "Senior analyst: three declined projects, dated; the only person who knows the grant system.",
+     "answer": 0,
+     "why": "Strong evidence and the highest cost on the page. Waiting a month to check this read could cost you the person and the grant system with them."
+    },
+    {
+     "q": "Coordinator: dated growth mark, asked twice about facilitation training, work still strong.",
+     "answer": 1,
+     "why": "No risk pattern, a live ask. Feed it soon: fund it or find them a room to run. Ignored growth asks are how growth marks turn into risk marks."
+    },
+    {
+     "q": "Advisor: one quiet week during the busiest stretch of the term, no other change.",
+     "answer": 2,
+     "why": "One data point in a heavy season. Note the date, watch the baseline, and save the circle for a line with real evidence behind it."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What the map says now",
+   "slots": [
+    {
+     "key": "What earns a risk mark",
+     "opts": [
+      {
+       "t": "A gut feeling that someone seems off lately",
+       "pts": 1,
+       "coach": "Feelings start the look, but a mark needs a pattern you could describe. Marks without evidence make the map unreadable in a month, even to you."
+      },
+      {
+       "t": "One skipped meeting and a quiet week",
+       "pts": 2,
+       "coach": "One data point in a busy season. Watch it, note the date, and mark it only if the pattern holds against their own baseline."
+      },
+      {
+       "t": "Three passed-up projects from someone who used to fight for them",
+       "pts": 3,
+       "coach": "A pattern change around ownership, against their own baseline. That is evidence. Write it beside the mark so future-you knows why it is there."
+      }
+     ]
+    },
+    {
+     "key": "What you write beside a growth mark",
+     "opts": [
+      {
+       "t": "Nothing; you will remember what it meant",
+       "pts": 1,
+       "coach": "You will not. An unlabeled mark is a mystery by next month. The map only outlives the meeting if the evidence travels with it."
+      },
+      {
+       "t": "The word growth and today's date",
+       "pts": 2,
+       "coach": "The date helps. But growth toward what? Name the direction, or the mark can never become a move."
+      },
+      {
+       "t": "The ask, dated: requested the data course, wants analysis work",
+       "pts": 3,
+       "coach": "The ask, the direction, the date. This mark is now a to-do: fund it, find a stretch task, or say honestly why not yet."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "A map you can defend. Every mark carries its evidence, so every mark can become an action.",
+    "mid": "A half-marked map. Some marks will still make sense next month; the rest will be riddles.",
+    "weak": "A mood board. The marks record how you felt today, and nobody, including you, can act on a feeling."
+   },
+   "reactions": {
+    "strong": "A month from now you reread the map and every mark still argues for itself. Two marks have become conversations, and one growth ask is funded. The map is managing with you.",
+    "mid": "A month from now half the marks have gone stale. You remember the strong ones; the vague ones get quietly erased, along with whatever they were trying to tell you.",
+    "weak": "A month from now the map contradicts your memory and you trust neither. The one real signal on the team is still unmarked, and it is getting louder."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What makes a talent map line usable?",
+   "opts": [
+    "It lists tenure and ratings",
+    "A stranger could act on it: capabilities, roles only",
+    "It matches the job description",
+    "It records how hard the person works"
+   ],
+   "correct": 1,
+   "why": "The stranger test. Capability in role-only language turns a page of notes into a map someone can staff, grow, and plan succession from."
+  },
+  {
+   "q": "What does every mark on the map need beside it?",
+   "opts": [
+    "A color code",
+    "Your confidence level",
+    "The evidence and the date",
+    "The person's initials"
+   ],
+   "correct": 2,
+   "why": "Marks decay without evidence. The pattern and the date keep the map readable next month, and initials break the roles-never-names rule."
+  },
+  {
+   "q": "Which marked line gets the first conversation?",
+   "opts": [
+    "The longest one",
+    "The one marked most recently",
+    "Strong evidence plus the highest cost of being wrong",
+    "Whoever you see most often"
+   ],
+   "correct": 2,
+   "why": "Triage runs on evidence and cost. The clearest pattern on the person you can least afford to lose gets the circle and the calendar slot."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The map is drawn and the circle is real. Book the conversation before the ink cools.",
+  "mid": "Solid. Reread the pass you missed, then finish your card.",
+  "low": "Worth one more walk through the three passes before the map leaves the room."
+ },
+ "capstone": {
+  "whoRow": "The circled line",
+  "cardTitle": "My talent map card",
+  "copyTag": "The Talent Map Lab · October 2026 · Anchor's Edge",
+  "goalRow": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "evidenceRow": "Afterward, one line: what did acting on the map show you that drawing it did not?",
+  "practices": [
+   {
+    "id": "book",
+    "chip": "The booked conversation",
+    "name": "The booked conversation",
+    "move": "Put the circled conversation on the calendar before you leave the building, using the opening you built in this month's Monday session."
+   },
+   {
+    "id": "finish",
+    "chip": "The finished map",
+    "name": "The finished map",
+    "move": "Complete the lines you ran out of room for: every role gets a line that passes the stranger test, within the week."
+   },
+   {
+    "id": "refresh",
+    "chip": "The standing refresh",
+    "name": "The standing refresh",
+    "move": "Put a monthly hold on your calendar to rewalk the map: marks re-evidenced, stale ones erased, one new circle."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The map's first move happens this week, booked before Friday."
+   },
+   {
+    "id": "next11",
+    "chip": "Before my next 1:1",
+    "out": "The map's first move happens before your next 1:1, so the meeting shows it."
+   },
+   {
+    "id": "month",
+    "chip": "By month end",
+    "out": "The map's first move happens before the month closes, scheduled today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

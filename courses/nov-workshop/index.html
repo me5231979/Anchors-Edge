@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Profile Clinic | Anchor's Edge | Vanderbilt</title>
+<meta name="description" content="An in-person navigator-led clinic for all Vanderbilt staff: open your own skills profile, rewrite its weakest lines with a partner's eyes on them, explore one real opening in the Transfer Portal, and leave with interest expressed or a barrier named.">
+<link rel="canonical" href="https://me5231979.github.io/Anchors-Edge/courses/nov-workshop/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Profile Clinic | Anchor's Edge | Vanderbilt">
+<meta property="og:description" content="An in-person navigator-led clinic for all Vanderbilt staff: open your own skills profile, rewrite its weakest lines with a partner's eyes on them, explore one real opening in the Transfer Portal, and leave with interest expressed or a barrier named.">
+<meta property="og:url" content="https://me5231979.github.io/Anchors-Edge/courses/nov-workshop/">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../assets/img/favicon-96.png">
+<link rel="apple-touch-icon" href="../../assets/img/favicon-96.png">
+
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="../../assets/css/styles.css?v=1">
+<style>
+  /* skill pills */
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1.25rem; }
+  .skills__label { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); margin-right: .25rem; }
+  .skillpill { display: inline-block; font-family: var(--font-condensed); font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; font-size: .68rem; line-height: 1.3;
+    padding: .3rem .65rem; border-radius: 999px; border: 1px solid rgba(207,174,112,.55);
+    color: rgba(255,255,255,.85); }
+  .skillpill--core { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+  /* goal chip on the hero */
+  .goalchip { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1.4rem;
+    padding: .5rem .9rem; border: 1px solid rgba(207,174,112,.55); border-radius: 5px; }
+  .goalchip b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: .72rem; color: var(--vu-gold-flat); white-space: nowrap; }
+  .goalchip span { font-size: .85rem; color: rgba(255,255,255,.85); }
+  /* goal slide meter */
+  .goalmeter { margin-top: 1.75rem; }
+  .goalmeter__scale { position: relative; height: 14px; border-radius: 999px;
+    background: rgba(255,255,255,.12); overflow: hidden; }
+  .goalmeter__scale > span { display: block; height: 100%; width: 0;
+    background: var(--vu-gold-flat); border-radius: 999px; transition: width 1.2s cubic-bezier(.2,.7,.3,1); }
+  .goalmeter__base { position: absolute; top: -4px; bottom: -4px; width: 2px; background: rgba(255,255,255,.7); }
+  .goalmeter__labels { display: flex; justify-content: space-between; margin-top: .6rem;
+    font-size: .85rem; color: rgba(255,255,255,.75); }
+  .goalmeter__labels b { color: var(--vu-gold-flat); }
+  /* compact mission cards */
+  .mission-grid .card h3 { font-size: 1.02rem; }
+  .mission-grid .card p { font-size: .88rem; line-height: 1.5; }
+  /* ---- VILT compact mode: every slide fits one screen, no scrolling ---- */
+  .slide .h2 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); margin-bottom: .9rem; }
+  .slide .h-hero { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
+  .slide .lead { font-size: clamp(.95rem, 1.2vw, 1.1rem); max-width: 66ch; }
+  .slide .eyebrow { margin-bottom: .6rem; }
+  .slide .why { font-size: .85rem; }
+  .slide .card { padding: 1rem 1.15rem; }
+  .slide .opt { padding: .55rem .85rem; font-size: .92rem; gap: .7rem; }
+  .slide .opt .mark { width: 22px; height: 22px; font-size: .8rem; }
+  .slide .quiz__q { font-size: 1rem; margin-bottom: .6rem; }
+  .slide .quiz__options { gap: .5rem; }
+  .slide .quiz, .slide .lab { padding: 1.1rem 1.25rem; }
+  .slide .lab__slots { gap: .9rem; }
+  .slide .slot h3 { font-size: .95rem; margin-bottom: .5rem; }
+  .slide .agenda li { padding: 1rem 0; }
+  .slide .agenda .num { font-size: 1.9rem; }
+  .slide .agenda p { font-size: .95rem; margin: 0; }
+  .slide .objectives { margin-top: 1.4rem; }
+  .slide .objectives__list li { font-size: .95rem; }
+  .slide .hero__cta { margin-top: 1.4rem; }
+  .slide .vidcard--feature { padding: 1rem 1.25rem; }
+  .slide .vidcard--feature p { font-size: .92rem; }
+  .slide .plan__form { gap: .8rem; }
+  .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
+  .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  /* slim single-row footer inside the closing slide */
+  .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
+  .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
+  .footer--slim a { color: rgba(255,255,255,.75); text-decoration: underline; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#s-agenda">Skip to content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Vanderbilt University, home">
+    <img class="nav__lockup" src="../../assets/img/vu-lockup-white.png" alt="Vanderbilt University" width="250" height="65">
+    <img class="nav__vicon" src="../../assets/img/vu-v-icon-nav.png" alt="Vanderbilt University" width="34" height="25">
+  </a>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <nav class="nav__links" id="navlinks" aria-label="Sections">
+    <a href="#s-one">The Rewrite</a><a href="#s-two">The Walk</a><a href="#s-three">The Exit Ticket</a>
+    <a class="btn" href="#s-recap">Take the Quiz</a>
+  </nav>
+</header>
+
+<!-- bottom navigation bar -->
+<div class="bottombar" role="group" aria-label="Presentation controls">
+  <span class="bottombar__title" id="barTitle"></span>
+  <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
+  <div class="bottombar__ctrl">
+    <span class="bottombar__count" id="deckCount">1 / 12</span>
+    <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+</div>
+<button class="scrollhint" id="scrollHint" type="button" aria-label="Scroll for more on this screen">Scroll for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+
+<main class="deck" id="top">
+
+  <!-- ============ 0 · WELCOME / QR ============ -->
+  <section class="slide on-dark welcome" id="s-welcome" data-title="Scan to join">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-v-icon.png" alt="Vanderbilt V" width="72" height="66" style="margin:0 auto 1.5rem;width:clamp(52px,5vw,72px);height:auto" data-reveal>
+      <p class="eyebrow" data-reveal>Navigator Workshop · November 2026 · Anchor's Edge</p>
+      <h1 class="h2" data-reveal style="max-width:22ch;margin-inline:auto">Welcome. Scan the code to bring this workshop <em class="gold-text">to your seat</em>.</h1>
+      <div class="qr-card" id="qrCard" data-reveal data-url="https://me5231979.github.io/Anchors-Edge/courses/nov-workshop/">
+        <div class="qr-card__code" id="qrBox" role="img" aria-label="QR code linking to this experience"></div>
+        <p class="qr-card__url" id="qrUrl"></p>
+      </div>
+      <div class="hero__meta" data-reveal style="justify-content:center">
+        <div><b>90</b> Minutes, in person</div>
+        <div><b>3</b> Ideas</div>
+        <div><b>1</b> Commitment you leave with</div>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center">
+        <a class="btn" href="#s-mission">We're ready, let's begin</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 · THE MISSION ============ -->
+  <section class="slide on-dark" id="s-mission" data-title="The Chancellor's charge">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The institutional why · Crescere aude</p>
+      <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
+      <p class="lead" data-reveal>Radical Collaboration needs people who can find each other by skill across every boundary in the university. Every profile made legible in this room is another connection the map can make, and another career that can grow without leaving.</p>
+      <div class="grid grid-3 mission-grid" style="margin-top:2rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will build the talent, resources and reputation to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as fuel, Vanderbilt will pursue bold initiatives that extend the reach of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">By modeling the role of an essential research university, Vanderbilt will stimulate change and defend our education and research mission.</p>
+        </div>
+      </div>
+      <p class="why" data-reveal style="margin-top:1.25rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
+    </div>
+  </section>
+
+  <!-- ============ 2 · THE GOAL ============ -->
+  <section class="slide on-dark" id="s-goal" data-title="The goal we're targeting">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>This month targets · Goal 1 of 3</p>
+      <h2 class="h2" data-reveal>Talent Marketplace &amp; Transfer <em>Portal</em>.</h2>
+      <p class="lead" data-reveal>Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+        <span class="tag">Where this session fits</span>
+        <p style="margin:.5rem 0 0" class="measure">Goal 1 promised to connect people to internal opportunity. This clinic is the promise kept in person: your profile, your search, and your raised hand, with a navigator in the room.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · HERO / OBJECTIVES ============ -->
+  <section class="slide on-dark hero" id="s-hero" data-title="Objectives">
+    <canvas class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Navigator Workshop · In person, hands on · The Transfer Portal in Practice</p>
+      <h1 class="h-hero" data-reveal>Walk out with a profile that <em class="gold-text">gets found</em>.</h1>
+      <p class="lead" data-reveal style="margin-top:1.25rem">This is the doing hour. Your profile comes up on your own device, a table partner reads it the way a searcher would, and the Transfer Portal is open in the next tab. You leave with better lines on the map and one real opening explored.</p>
+      <div class="objectives" data-reveal>
+        <p class="objectives__label">By the end of this session, you will be able to</p>
+        <ol class="objectives__list">
+          <li>Rewrite your profile's weakest lines into named capabilities a searcher could find</li><li>Explore one real gig or opening in the Transfer Portal and read it against your profile</li><li>Leave with your hand up on one opportunity, or one barrier named to a navigator</li>
+        </ol>
+      </div>
+      <div class="goalchip" data-reveal><b>Targeting Goal 1</b><span>Talent Marketplace &amp; Transfer Portal</span></div>
+      <div class="skills" data-reveal aria-label="Skills this course builds">
+        <span class="skills__label">Skills you'll build</span>
+        <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Career Ownership</span><span class="skillpill">Internal Mobility</span><span class="skillpill">Skills Articulation</span>
+      </div>
+      <div class="hero__cta" data-reveal>
+        <a class="btn" href="#s-agenda">Begin the session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4 · AGENDA ============ -->
+  <section class="slide on-cream" id="s-agenda" data-title="The plan">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>What we'll cover</p>
+      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
+      <ol class="agenda">
+        <li data-reveal><span class="num">01</span><div><h3>The line rewrite</h3><p>Your profile on your screen, a partner's eyes on it, duties turned into capabilities.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The Portal walk</h3><p>One real gig or opening, explored properly against your own profile.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Hand up or barrier named</h3><p>The exit ticket: interest expressed, or the honest obstacle written down.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 01 ============ -->
+  <section class="slide on-light" id="s-one" data-count data-title="The line rewrite">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 01 · The Rewrite</p>
+      <h2 class="h2" data-reveal>Edit your profile like a <em>searcher</em>.</h2>
+      <p class="lead" data-reveal>Open your profile now; this section happens inside it. First we train the ear: what does a searcher in a hurry actually find? Then your table partner reads your lines cold and marks what they could act on. The lines that fail get rewritten here, together.</p>
+      <div class="quiz trainer" id="s-one-play" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Play · Findable or invisible?</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three lines from real-shaped profiles. Call each one the way a searcher would.</p>
+        <p class="quiz__progress"></p>
+        <p class="quiz__q" style="margin-top:.4rem"></p>
+        <div class="quiz__options" role="group" aria-label="Choices"></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+        <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
+        <div class="trainer__result" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Pair up at your table: swap devices or read lines aloud. Your partner marks each line findable or invisible. Rewrite one invisible line together before swapping back.</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 02 ============ -->
+  <section class="slide on-dark" id="s-two" data-count data-title="The Portal walk">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 02 · The Walk</p>
+      <h2 class="h2" data-reveal>Explore one opening like you <em>mean it</em>.</h2>
+      <p class="lead" data-reveal>Now the Portal, open on your device. Search by a skill you want to use more and pick one gig or opening that pulls at you, even slightly. This section is the craft of exploring it properly: reading it against your profile instead of window-shopping it.</p>
+      <div class="lab" id="s-two-lab" data-reveal style="margin-top:1.75rem">
+        <p class="eyebrow" style="margin-bottom:.5rem">Practice · The proper look</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> You found the one that pulls. Choose how you read it and what you keep from the reading.</p>
+        <div class="lab__slots"></div>
+        <div class="lab__runrow">
+          <button class="btn" disabled>Finish the look</button>
+          <span class="quiz__progress">Choose both steps</span>
+        </div>
+        <div class="lab__outcome" hidden aria-live="polite"></div>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Tell your table partner which opening you picked and why it pulled. The partner asks the two questions: which of your lines matches it, and what is missing?</p>
+    </div>
+  </section>
+  <!-- ============ SECTION 03 ============ -->
+  <section class="slide on-cream" id="s-three" data-count data-title="Hand up or barrier named">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Section 03 · The Exit Ticket</p>
+      <h2 class="h2" data-reveal>Leave with a hand up or a <em>barrier named</em>.</h2>
+      <p class="lead" data-reveal>Two good ways out of this room: interest expressed on something real, or the honest obstacle written down and handed to a navigator. Both move you. The only exit that goes nowhere is a vague intention to look again later.</p>
+      <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
+        <span class="tag">The two-door exit</span>
+        <p style="margin:.5rem 0 0" class="measure">Expressing interest opens a conversation and signs nothing; you can step back at any stage. A named barrier, written and handed to a navigator, is a solvable problem. Both count as motion. A vague later is the only exit that goes nowhere.</p>
+      </div>
+      <div class="card" data-classroom data-reveal style="margin-top:1.25rem">
+        <span class="tag">In the room</span>
+        <p style="margin:.5rem 0 0" class="measure">The weekly session taught the open move; the clinic asks you to make one before you leave. In this room the cost of raising a hand is at its lowest: the navigator who can answer your barrier is standing here, and the manager conversation you are dreading can be rehearsed at your own table first.</p>
+        <p style="margin:.75rem 0 0" class="why"><b>Talk it through:</b> What is the real barrier between you and the opening on your screen: timing, confidence, a skill gap, or a conversation you have not had? Who in this room could move it?</p>
+      </div>
+      <div class="quiz" data-webonly hidden data-quiz data-reveal style="margin-top:1.5rem">
+        <p class="quiz__q">You found a gig you want, and you doubt your manager can spare you this term. Your exit?</p>
+        <div class="quiz__options"><button class="opt" data-correct="0" data-why="Things do not calm down, and postings close. The doubt you feel is a timing question, and timing questions have answers you can go get."><span class="mark">A</span><span>Close the tab and check again when things calm down</span></button><button class="opt" data-correct="0" data-why="Half right: the hand is up. But the doubt is exactly what navigators and sending managers exist for; carried alone it curdles into withdrawing."><span class="mark">B</span><span>Express interest quietly and hope the timing sorts itself out</span></button><button class="opt" data-correct="1" data-why="Either door works. Interest starts the conversation where timing gets negotiated; the named barrier puts a navigator on the problem today."><span class="mark">C</span><span>Express interest, or hand the timing barrier to a navigator in writing</span></button></div>
+        <p class="quiz__feedback" aria-live="polite"></p>
+      </div>
+      <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> Around the table, one sentence each: the opening you explored and which exit you are taking, hand up or barrier named. Navigators are listening for the barriers.</p>
+    </div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The core idea</p>
+      <p>A profile improves the day someone else reads it and the Portal gets to answer.</p>
+    </div>
+  </section>
+
+  <!-- ============ RECAP QUIZ ============ -->
+  <section class="slide on-light" id="s-recap" data-title="Recap quiz">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Check your understanding</p>
+      <h2 class="h2" data-reveal style="margin-bottom:1.5rem">The <em>recap</em>.</h2>
+      <div class="quiz" id="recap" data-reveal>
+        <div id="recapPanel">
+          <p class="quiz__progress" id="recapProgress"></p>
+          <p class="quiz__q" id="recapQ" style="margin-top:.5rem"></p>
+          <div class="quiz__options" id="recapOptions" role="group" aria-label="Answer choices"></div>
+          <p class="quiz__feedback" id="recapFeedback" aria-live="polite"></p>
+          <div class="quiz__nav">
+            <button class="btn btn--dark" id="recapNext" style="visibility:hidden">Next question</button>
+          </div>
+        </div>
+        <div id="recapResult" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPSTONE ============ -->
+  <section class="slide on-dark" id="s-plan" data-title="My commitment">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Capstone · My clinic exit</p>
+      <h2 class="h2" data-reveal>The improvement <em>keeps going</em> after the room.</h2>
+      <p class="lead" data-reveal>The profile got better in here; the card is how it keeps getting better out there. Nothing you write is saved or sent.</p>
+      <div class="plan" id="capstone" data-reveal>
+        <div class="plan__form">
+          <div class="plan__field">
+            <label for="capWho"><b>1 · The opening you explored, and the exit you chose.</b></label>
+            <input type="text" id="capWho" maxlength="140" placeholder="e.g. six-week data gig in enrollment; hand up, told my manager" autocomplete="off">
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>2 · What keeps the momentum?</b></span>
+            <div class="plan__chips" id="capPractice" role="group" aria-label="The move">
+              <button class="opt" data-id="line"><span>The next line</span></button><button class="opt" data-id="nav20"><span>The navigator twenty</span></button><button class="opt" data-id="openword"><span>The open word</span></button>
+            </div>
+          </div>
+          <div class="plan__field">
+            <span class="plan__label"><b>3 · When does it happen?</b></span>
+            <div class="plan__chips" id="capWhen" role="group" aria-label="Commitment window">
+              <button class="opt" data-id="today"><span>Before I leave today</span></button><button class="opt" data-id="week"><span>This week</span></button><button class="opt" data-id="twoweeks"><span>Within two weeks</span></button>
+            </div>
+          </div>
+          <div class="lab__runrow">
+            <button class="btn" id="capBuild" disabled>Build my card</button>
+            <span class="quiz__progress" id="capStatus">Fill in all three parts</span>
+          </div>
+        </div>
+        <div class="lab__outcome" id="capOut" hidden aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="slide on-dark" id="s-close" data-title="Wrap-up">
+    <div class="wrap" style="text-align:center">
+      <img src="../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Found is a thing you <em>choose</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You edited with a searcher's ear, explored one opening properly, and left through one of the two good doors. That is the Portal in practice, which is exactly what this month promised.</p>
+      <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
+        <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
+        <h3>Make the exit real</h3>
+        <p>Run the move on your card while the momentum is warm. This month's weekly sessions carry the same thread, sending managers and internal bridges, and Chris Croft's Building Your Team on LinkedIn Learning is there whenever you want it. Never required.</p>
+      </div>
+      <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
+        <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
+        
+        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+      </div>
+  <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
+<footer class="footer footer--slim" aria-label="Course footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <span class="brandline" style="font-size:.95rem;margin:0">Walk up to the open door.</span>
+      <span>© <span id="year">2026</span> Vanderbilt University</span>
+      <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a>
+      <a href="../../index.html">Anchor's Edge dashboard</a>
+      <span>The Profile Clinic · Navigator Workshop · Anchor's Edge</span>
+    </div>
+  </div>
+</footer>
+    </div>
+  </section>
+
+</main>
+
+<script>
+window.COURSE = {
+ "trainers": [
+  {
+   "rootId": "s-one-play",
+   "progressWord": "Line",
+   "labels": [
+    "Findable, a searcher lands on it",
+    "A duty, name the skill inside",
+    "An adjective, invisible to search"
+   ],
+   "passAt": 2,
+   "passMsg": "Your ear is calibrated. Now turn it on your own lines, and your partner's.",
+   "failMsg": "Close. The tell: searchers type activities. A named capability gets found, a duty needs unpacking, and an adjective matches nothing at all.",
+   "items": [
+    {
+     "q": "Responsible for supporting the office and assisting with various administrative needs.",
+     "answer": 1,
+     "why": "Duties, stacked. Inside are real capabilities: calendar management, records, front-door triage. Split them out and one invisible line becomes three findable ones."
+    },
+    {
+     "q": "Coordinates onboarding for new hires across three departments, about forty a year.",
+     "answer": 0,
+     "why": "A named activity with real scale. Someone staffing an orientation project types onboarding and lands here. This line is doing its job."
+    },
+    {
+     "q": "A dependable, enthusiastic self-starter who goes above and beyond.",
+     "answer": 2,
+     "why": "Every word is kind and none of it is searchable. Nobody types enthusiastic into the Portal. Swap the praise for the activities that earned it."
+    }
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "rootId": "s-two-lab",
+   "outcomeTag": "What you walk away with",
+   "slots": [
+    {
+     "key": "How you read it",
+     "opts": [
+      {
+       "t": "Skim the title, feel the flutter, close the tab",
+       "pts": 1,
+       "coach": "The flutter is data and the skim wastes it. A title tells you almost nothing about the actual days the work is made of."
+      },
+      {
+       "t": "Read the whole posting top to bottom, carefully",
+       "pts": 2,
+       "coach": "Better. But a posting read alone stays a daydream. The reading that matters is comparative: this posting against your actual profile."
+      },
+      {
+       "t": "Read it beside your profile, marking matched skills and missing ones",
+       "pts": 3,
+       "coach": "The proper look. Matches tell you your case; gaps tell you your next skill to build. Ten minutes of this beats a month of wondering."
+      }
+     ]
+    },
+    {
+     "key": "What you keep from it",
+     "opts": [
+      {
+       "t": "Nothing; if it matters it will come back to you",
+       "pts": 1,
+       "coach": "It will not come back. By Tuesday the name of the gig is gone, and the pull you felt goes with it."
+      },
+      {
+       "t": "Save it to your list of maybes",
+       "pts": 2,
+       "coach": "The maybe pile is where pulls go quiet. Better than nothing, and it still leaves the next move undecided."
+      },
+      {
+       "t": "One written line: the match, the gap, and your next move",
+       "pts": 3,
+       "coach": "The keeper. A match you can say, a gap you can close, a move you can make: that line is the whole clinic in your pocket."
+      }
+     ]
+    }
+   ],
+   "heads": {
+    "strong": "You know exactly where you stand with this opening: the case for you, the gap to close, the move to make.",
+    "mid": "You know the opening; you still do not know your fit. The daydream is vivid and unattached to a next step.",
+    "weak": "A flutter, unexamined. Next week you will half-remember there was something interesting once."
+   },
+   "reactions": {
+    "strong": "Whether or not this one works out, you now search this way every time. Two months on, your profile has grown the exact lines the gaps kept pointing at.",
+    "mid": "The posting closes while it sits in your maybes. The next one that pulls gets the same treatment unless the method changes.",
+    "weak": "A colleague mentions they landed that gig. It stings for a minute, and the sting is information: the door was open and nobody walked up."
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A searcher in the Portal finds your profile by...",
+   "opts": [
+    "Your job title",
+    "Your years of service",
+    "The named capabilities on your lines",
+    "Your department"
+   ],
+   "correct": 2,
+   "why": "Search runs on activities and capabilities. Titles, tenure, and org charts describe where you sit; the lines describe what you can do."
+  },
+  {
+   "q": "The proper way to explore an opening that pulls at you is...",
+   "opts": [
+    "Skim it and trust the flutter",
+    "Read it beside your profile: matches and gaps",
+    "Forward it to your manager first",
+    "Wait and see if it is still posted later"
+   ],
+   "correct": 1,
+   "why": "The comparative read turns a daydream into a decision: the case you could make, the gap you could close, the move you could take."
+  },
+  {
+   "q": "The two good exits from the clinic are...",
+   "opts": [
+    "Apply everywhere, or nowhere",
+    "A saved list of maybes, or a bookmark",
+    "Interest expressed, or a barrier named to a navigator",
+    "A better title, or a new resume"
+   ],
+   "correct": 2,
+   "why": "Both are motion. A raised hand starts a conversation; a named barrier becomes a navigator's job. Only the vague later goes nowhere."
+  }
+ ],
+ "recapMsgs": {
+  "high": "Ear calibrated, opening explored, exit chosen. The clinic worked; keep the habit.",
+  "mid": "Solid. Reread the section that wobbled, then finish your card.",
+  "low": "Worth one more pass through the three moves before you pick your exit."
+ },
+ "capstone": {
+  "whoRow": "My opening and my exit",
+  "cardTitle": "My clinic exit card",
+  "copyTag": "The Profile Clinic · November 2026 · Anchor's Edge",
+  "goalRow": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "evidenceRow": "Afterward, one line: what moved because you raised a hand or named the barrier?",
+  "practices": [
+   {
+    "id": "line",
+    "chip": "The next line",
+    "name": "The next line",
+    "move": "Rewrite one more invisible line within the week, using your partner's marks; if none are left, add the capability your explored gap pointed at."
+   },
+   {
+    "id": "nav20",
+    "chip": "The navigator twenty",
+    "name": "The navigator twenty",
+    "move": "Book twenty minutes with a navigator: your barrier if you named one, or how to strengthen your raised hand if you did not."
+   },
+   {
+    "id": "openword",
+    "chip": "The open word",
+    "name": "The open word",
+    "move": "Tell your manager what you explored and what you did about it. Open beats discovered, and the talk is usually easier than the dread."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Before I leave today",
+    "out": "The move happens before you leave the building, while the navigators are still in the room."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ]
+ }
+};
+</script>
+<script src="../../assets/js/qrcode.js?v=1"></script>
+<script src="../../assets/js/deck.js?v=1"></script>
+</body>
+</html>

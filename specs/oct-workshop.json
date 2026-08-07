@@ -1,0 +1,261 @@
+{
+  "slug": "oct-workshop",
+  "format": "workshop",
+  "series": "Navigator Workshop",
+  "month": "October 2026",
+  "monthShort": "Oct",
+  "monthIndex": 1,
+  "theme": "See the Talent Around You",
+  "goal": 1,
+  "title": "The Talent Map Lab",
+  "titleHtml": "Leave with your team <em class=\"gold-text\">on one page</em>.",
+  "tagline": "The Know-Your-Team lab: build your first talent map.",
+  "description": "An in-person navigator-led lab for Vanderbilt managers: build a first talent map of your own team, mark the risk and growth signals you have evidence for, and circle the first conversation the map earns.",
+  "heroLead": "The weekly sessions gave you the talent read. This lab is where it lands on paper. You leave the room holding a first talent map of your own team: skills beyond titles, marks you can defend, and the first conversation circled.",
+  "objectives": [
+    "Build a one-page talent map of your team: one line per role, capability beyond the job title",
+    "Mark flight-risk and growth signals on the map with evidence beside every mark",
+    "Circle the first conversation the map earns and put a window on it"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Talent Management"},
+    {"label": "Workforce Planning"},
+    {"label": "Succession Planning"}
+  ],
+  "missionTie": "A university out to define the century needs every manager to know the talent in the building. The map you draw today is Exceptional Core Operations at table level: one page that helps you retain, grow, and move real people.",
+  "goalLead": "Goal 1 needs managers who can see their teams before any system can. This lab turns the month's talent read into an artifact you keep: your first map, drawn by hand, ready to act on.",
+  "agenda": [
+    {"t": "The inventory pass", "d": "One line per role: what each person can do, beyond what the job asks."},
+    {"t": "The signal pass", "d": "Mark the map: risk, growth, and the evidence that earns each mark."},
+    {"t": "The first conversation", "d": "Read the finished map and circle the conversation it earns first."}
+  ],
+  "manifesto": "A talent read becomes management the day it fits on one page you act from.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Inventory Pass",
+      "dataTitle": "The inventory pass",
+      "eyebrow": "Pass One",
+      "headline": "One line per role, written for a <em>stranger</em>.",
+      "lead": "Draw the grid: a line for each person on your team, role only, never a name. In each line, what they can do, in the role and beyond it. The test of a good line: a stranger reading it could find that person a stretch project.",
+      "group": "At your table: read one of your map lines aloud, role only. The table calls it: could a stranger act on this line? Sharpen it together until the answer is yes.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The stranger test",
+          "text": "A map line works when a stranger could act on it. 'Senior analyst, solid' offers nothing. 'Senior analyst: grant budgeting, plain writing, wants facilitation' hands a stranger three moves. Write every line to that standard."
+        },
+        "q": "Quick check: which line belongs on your talent map?",
+        "opts": [
+          {"t": "Program coordinator: reliable, hardworking, great attitude", "correct": false, "why": "Kind words, no capability. Nobody could match this person to a project. Name what they can do, and the map starts working."},
+          {"t": "Program coordinator: event logistics, de-escalation, wants data skills", "correct": true, "why": "Capabilities plus a growth want, in role-only language. A stranger could staff a project, feed the growth, or plan succession from this line."},
+          {"t": "Program coordinator: five years in role, meets expectations", "correct": false, "why": "Tenure and a rating, which the map never carries. The map holds capability; ratings stay in the systems built for them."}
+        ],
+        "context": "In the weekly session you practiced the inventory question one person at a time. The lab scales it: every role on your team gets a line, on one page, in the same sitting. The page is the discipline. If a line will not compress into capabilities, you do not yet know that person's skills.",
+        "discuss": "Which line on your team will be hardest to write, and what does that tell you about where your attention has been going?"
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Signal Pass",
+      "dataTitle": "The signal pass",
+      "eyebrow": "Pass Two",
+      "headline": "Mark only what you can <em>evidence</em>.",
+      "lead": "Second pass over the map: a risk mark where ownership behavior has changed, a growth mark where someone has asked to build. Every mark needs its evidence written beside it, because marks without evidence turn a map into gossip.",
+      "group": "Table swap: trade one marked line with a neighbor, roles only. They challenge the evidence: is that a pattern change or one bad week? Defend it or downgrade it.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Mark the line",
+        "intro": "One line of your map is whispering at you. Choose what earns the mark and what you write beside it.",
+        "runLabel": "Make the mark",
+        "outcomeTag": "What the map says now",
+        "slots": [
+          {
+            "key": "What earns a risk mark",
+            "opts": [
+              {"t": "A gut feeling that someone seems off lately", "pts": 1, "coach": "Feelings start the look, but a mark needs a pattern you could describe. Marks without evidence make the map unreadable in a month, even to you."},
+              {"t": "One skipped meeting and a quiet week", "pts": 2, "coach": "One data point in a busy season. Watch it, note the date, and mark it only if the pattern holds against their own baseline."},
+              {"t": "Three passed-up projects from someone who used to fight for them", "pts": 3, "coach": "A pattern change around ownership, against their own baseline. That is evidence. Write it beside the mark so future-you knows why it is there."}
+            ]
+          },
+          {
+            "key": "What you write beside a growth mark",
+            "opts": [
+              {"t": "Nothing; you will remember what it meant", "pts": 1, "coach": "You will not. An unlabeled mark is a mystery by next month. The map only outlives the meeting if the evidence travels with it."},
+              {"t": "The word growth and today's date", "pts": 2, "coach": "The date helps. But growth toward what? Name the direction, or the mark can never become a move."},
+              {"t": "The ask, dated: requested the data course, wants analysis work", "pts": 3, "coach": "The ask, the direction, the date. This mark is now a to-do: fund it, find a stretch task, or say honestly why not yet."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A map you can defend. Every mark carries its evidence, so every mark can become an action.",
+          "mid": "A half-marked map. Some marks will still make sense next month; the rest will be riddles.",
+          "weak": "A mood board. The marks record how you felt today, and nobody, including you, can act on a feeling."
+        },
+        "reactions": {
+          "strong": "A month from now you reread the map and every mark still argues for itself. Two marks have become conversations, and one growth ask is funded. The map is managing with you.",
+          "mid": "A month from now half the marks have gone stale. You remember the strong ones; the vague ones get quietly erased, along with whatever they were trying to tell you.",
+          "weak": "A month from now the map contradicts your memory and you trust neither. The one real signal on the team is still unmarked, and it is getting louder."
+        }
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The First Conversation",
+      "dataTitle": "The first conversation",
+      "eyebrow": "Pass Three",
+      "headline": "The map earns <em>one circle</em>.",
+      "lead": "A finished map points at more conversations than one week can hold. The last pass is triage: read every marked line and circle the one that gets the first conversation. The circle is a promise, so it needs a reason and a window.",
+      "group": "Around the table, each manager reads their circled line, role only, with the reason in one sentence. Every table mate gets one challenge question: why this one first?",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Who gets the circle?",
+        "intro": "Three marked lines from three finished maps. Call what each one earns first.",
+        "progressWord": "Line",
+        "labels": ["Circle it, conversation this week", "Growth move, feed it soon", "Keep reading, no conversation yet"],
+        "passAt": 2,
+        "passMsg": "You can triage a map. Risk with evidence gets the circle, growth asks get fed, thin marks get watched.",
+        "failMsg": "Close. The tell: evidence plus cost decides the circle. Strong evidence on someone costly to lose goes first; thin evidence earns watching, never a talk.",
+        "items": [
+          {"q": "Senior analyst: three declined projects, dated; the only person who knows the grant system.", "answer": 0, "why": "Strong evidence and the highest cost on the page. Waiting a month to check this read could cost you the person and the grant system with them."},
+          {"q": "Coordinator: dated growth mark, asked twice about facilitation training, work still strong.", "answer": 1, "why": "No risk pattern, a live ask. Feed it soon: fund it or find them a room to run. Ignored growth asks are how growth marks turn into risk marks."},
+          {"q": "Advisor: one quiet week during the busiest stretch of the term, no other change.", "answer": 2, "why": "One data point in a heavy season. Note the date, watch the baseline, and save the circle for a line with real evidence behind it."}
+        ]
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "What makes a talent map line usable?",
+      "opts": ["It lists tenure and ratings", "A stranger could act on it: capabilities, roles only", "It matches the job description", "It records how hard the person works"],
+      "correct": 1,
+      "why": "The stranger test. Capability in role-only language turns a page of notes into a map someone can staff, grow, and plan succession from."
+    },
+    {
+      "q": "What does every mark on the map need beside it?",
+      "opts": ["A color code", "Your confidence level", "The evidence and the date", "The person's initials"],
+      "correct": 2,
+      "why": "Marks decay without evidence. The pattern and the date keep the map readable next month, and initials break the roles-never-names rule."
+    },
+    {
+      "q": "Which marked line gets the first conversation?",
+      "opts": ["The longest one", "The one marked most recently", "Strong evidence plus the highest cost of being wrong", "Whoever you see most often"],
+      "correct": 2,
+      "why": "Triage runs on evidence and cost. The clearest pattern on the person you can least afford to lose gets the circle and the calendar slot."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The map is drawn and the circle is real. Book the conversation before the ink cools.",
+    "mid": "Solid. Reread the pass you missed, then finish your card.",
+    "low": "Worth one more walk through the three passes before the map leaves the room."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My map, off the page",
+    "headline": "The map leaves the room <em>working</em>.",
+    "lead": "The map in your hands is a draft until it changes a week. Roles only, never names; nothing you write here is collected.",
+    "whoLabel": "Your circled line: the role, the mark, and the evidence.",
+    "whoPlaceholder": "e.g. senior analyst; risk mark; three declined projects this term",
+    "practiceLabel": "What does the map do first?",
+    "whoRow": "The circled line",
+    "practices": [
+      {"id": "book", "chip": "The booked conversation", "name": "The booked conversation", "move": "Put the circled conversation on the calendar before you leave the building, using the opening you built in this month's Monday session."},
+      {"id": "finish", "chip": "The finished map", "name": "The finished map", "move": "Complete the lines you ran out of room for: every role gets a line that passes the stranger test, within the week."},
+      {"id": "refresh", "chip": "The standing refresh", "name": "The standing refresh", "move": "Put a monthly hold on your calendar to rewalk the map: marks re-evidenced, stale ones erased, one new circle."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The map's first move happens this week, booked before Friday."},
+      {"id": "next11", "chip": "Before my next 1:1", "out": "The map's first move happens before your next 1:1, so the meeting shows it."},
+      {"id": "month", "chip": "By month end", "out": "The map's first move happens before the month closes, scheduled today so it cannot slide."}
+    ],
+    "cardTitle": "My talent map card",
+    "evidenceRow": "Afterward, one line: what did acting on the map show you that drawing it did not?"
+  },
+  "closing": {
+    "headline": "One page. One circle. <em>One week.</em>",
+    "lead": "You drew the map, defended the marks, and circled the first conversation. That page is the month's teaching made physical: keep it where you plan your week.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Hold the circled conversation",
+    "nextBody": "Run it with the opening you built on Monday, and let what you learn update the map. If the mapping habit catches, Don Phin's Talent Management course on LinkedIn Learning walks the same ground; there if you want it, never required.",
+    "brandline": "Draw the team. Act on the drawing."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; every exercise runs on paper or the manager's own device. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
+    "pulse": "Seven days out, send the pulse: 'Did the circled conversation happen? What did acting on the map show you that drawing it did not? When is your next map refresh?' Count of held first conversations is the month's Level 3 signal.",
+    "s1": {
+      "title": "The inventory pass",
+      "purpose": "Get every manager's grid drawn: one line per role, capability language, the stranger test as the quality bar.",
+      "say": "This is a working session, so paper up. One line for every person on your team, role only, never a name, and in that line what they can actually do: skills the job uses, skills it ignores, skills they are building. The bar for each line is the stranger test: could someone who has never met your team read the line and find that person a project? We write first and polish after.",
+      "facilitate": [
+        "Hand out the map sheets, or point tables to the template on their devices; the flip chart carries the two rules: roles never names, capabilities never duties.",
+        "Give the room quiet drawing time; walk the tables and read over shoulders for duty-list lines.",
+        "Show the In the room card and run the discussion prompt from the front; two or three voices.",
+        "Run the table exercise: one line read aloud per manager, table sharpens it against the stranger test."
+      ],
+      "ask": {
+        "q": "Which line on your team was hardest to write?",
+        "expect": ["The newest hire, still unknown", "The quiet steady performer", "Often their strongest person: familiarity hides specifics"],
+        "respond": "Name the pattern: hard-to-write lines mark where your attention has not been. That is a finding, and those people get your next 1:1 questions."
+      },
+      "debrief": "Every blank or vague line is a person whose talent the university cannot yet use. The map shows you exactly where to look next.",
+      "watchFor": "Managers writing names or duty lists. Walk the room and catch both early: roles only, capabilities only.",
+      "transition": "The lines say what people can do. The second pass says what is moving.",
+      "coreNote": "Core: cut the read-alouds; each table sharpens one line together instead of one per manager."
+    },
+    "s2": {
+      "title": "The signal pass",
+      "purpose": "Add risk and growth marks with written evidence, and calibrate the evidence bar through a table swap.",
+      "say": "Second pass. Go back over your lines and mark two things: risk, where ownership behavior has changed against that person's own baseline, and growth, where someone has asked to build something. Here is the discipline that makes the map trustworthy: every mark gets its evidence written beside it, with a date. A mark you cannot evidence is a mood, and moods do not belong on a document you will act from.",
+      "facilitate": [
+        "Run Mark the line from the front; managers choose on their own devices, then mark their real maps.",
+        "Walk the room during marking; quietly ask for the evidence behind any mark you see land fast.",
+        "Run the table swap: trade one marked line with a neighbor, challenge the evidence, defend or downgrade."
+      ],
+      "ask": {
+        "q": "What happened when your neighbor challenged your evidence?",
+        "expect": ["Some marks got downgraded to watching", "Some got stronger under questioning", "A few managers realized the evidence was secondhand"],
+        "respond": "All three are the exercise working. A mark that survives a colleague's challenge is one you can act on; a mark that folds just saved you from acting on a hunch."
+      },
+      "debrief": "Evidence beside every mark is what separates a talent map from a rumor page. Dated patterns, their own baseline, roles only.",
+      "watchFor": "Tables slipping into naming or story-swapping about real colleagues. Reset warmly: roles and patterns, never names and anecdotes.",
+      "transition": "A marked map wants more than one week can give. The last pass is choosing.",
+      "coreNote": "Core: skip the table swap; each manager self-challenges their weakest mark instead."
+    },
+    "s3": {
+      "title": "The first conversation",
+      "purpose": "Triage the finished map: one circled line, a reason, and a window.",
+      "say": "Your map now points at four or five conversations, and a list of five is how zero happen. So the last pass is one circle. Read your marked lines and ask two questions: where is the evidence strongest, and where is the cost of being wrong highest? Where those two meet, that is your circle. Monday's session built the conversation itself; today decides who it is for and when.",
+      "facilitate": [
+        "Run Who gets the circle? from the front; the room calls each line aloud before you reveal.",
+        "Quiet minute: everyone circles one line on their own map.",
+        "Run the table round: circled line and one-sentence reason, one challenge question per table mate."
+      ],
+      "ask": {
+        "q": "What made you pick your circle over the runner-up?",
+        "expect": ["Stronger evidence", "The cost of losing that person", "Sometimes honesty: the runner-up talk feels harder"],
+        "respond": "If the real answer is that the other talk feels harder, say so out loud at the table. The uncomfortable circle is usually the right one, and the room is where to admit it."
+      },
+      "debrief": "Evidence times cost picks the circle. One booked conversation beats five intended ones.",
+      "watchFor": "Managers circling the easiest conversation instead of the most needed one. The table challenge question exists to surface this; let peers do the pushing.",
+      "transition": "Cards next: the map's first move goes on paper before the map leaves the room.",
+      "coreNote": "Core: cut the table round to one volunteer per table sharing the circle and reason."
+    },
+    "capstoneSay": "Last build. Your circled line goes on the card: role, mark, evidence, and the first move the map makes this week. Copy it onto your phone or fold it into your bag, and book the conversation before you leave the building if you can. Quiet couple of minutes, then a few read-alouds.",
+    "closeSay": "You walked in with a read and you are walking out with a map. This is what the month's weekly sessions were building toward: Monday gave you the talent read and the conversation, Tuesday put your own skills on the Talent Marketplace, and Thursday gave you the questions that surface what the map needs. Keep the page and refresh it monthly. And if the mapping habit caught, Don Phin's Talent Management course on LinkedIn Learning goes further whenever you want it. Never homework, always there.",
+    "contingencies": [
+      {"if": "The projector or room screen fails", "then": "The lab survives it: everything runs on paper and learner devices. Read the cards aloud from your own screen and keep the passes moving."},
+      {"if": "Tables come out uneven or a manager arrives alone", "then": "Fold singles into a neighboring table as a third voice for the swaps; a trio challenges evidence even better than a pair."},
+      {"if": "Someone names a real colleague while defending a mark", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' Then restate the norm to the room once, without spotlighting the table."},
+      {"if": "A manager finishes the map early and stalls", "then": "Give them the second lap: run the stranger test on every line, then draft the opening sentence for their circled conversation."}
+    ],
+    "toughQuestions": [
+      {"q": "Where should this map live after today? It feels sensitive.", "a": "With you, and only you: a notebook or a private file. It is a manager's working note, never a system record, and nothing about it uploads anywhere. The roles-never-names rule is what keeps it safe to keep, even seen mid-scribble."},
+      {"q": "What if my read is wrong and I mark someone unfairly?", "a": "The map judges nobody; it queues conversations. A wrong risk mark costs one warm check-in that turns out to be unneeded, which is the cheapest mistake in management. That is also why every mark carries evidence and a date: wrong reads get corrected on the next refresh."},
+      {"q": "My team is twelve people. Do I really map everyone?", "a": "Yes, and the hard-to-write lines are the point: they show you where your attention has not been. Spread the finishing over the week if the room runs out. A blank line is more honest than a guessed one, and it tells you what to ask at the next 1:1."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person this month: the Know-Your-Team lab, with your navigator. Bring your team's roster in your head and something to write with; we draw your first talent map in the room. Roles, never names, and nothing you write is collected."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Is the map working? Three lines, reply whenever: 1) Did the circled conversation happen? 2) What did acting on the map show you that drawing it did not? 3) When is your next map refresh?"}
+    ]
+  }
+}

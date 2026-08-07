@@ -1,0 +1,411 @@
+{
+ "slug": "jan-workshop",
+ "format": "workshop",
+ "series": "Navigator Workshop",
+ "month": "January 2027",
+ "monthShort": "Jan",
+ "monthIndex": 4,
+ "theme": "AI at Work: Start Where You Are",
+ "goal": 3,
+ "title": "The Sandbox",
+ "titleHtml": "Your first win ships <em class=\"gold-text\">in this room</em>.",
+ "tagline": "The First-AI-Win sandbox: run one real chore, live, with help in the room.",
+ "description": "An in-person, navigator-led workshop for all Vanderbilt staff: bring one real chore from your week, write the ask, run it live in an approved VU tool with a navigator nearby, and leave with a first AI win you actually shipped.",
+ "heroLead": "Plans do not count as wins. This room does one thing: you pick a real chore from your own week, write the ask, run it in an approved VU tool with a navigator at your elbow, and check what comes back. When you walk out, the work is done and it is yours.",
+ "objectives": [
+  "Pick one green-light chore from your own real week and confirm its light at your table",
+  "Write the ask, run it live in an approved VU tool, and improve the draft with one follow-up",
+  "Check the result like an editor, with a neighbor's eyes on it, and ship it as real work"
+ ],
+ "skills": [
+  {
+   "label": "Personal Effectiveness",
+   "core": true
+  },
+  {
+   "label": "AI Fluency"
+  },
+  {
+   "label": "Attention to Detail"
+  },
+  {
+   "label": "Peer Learning"
+  }
+ ],
+ "missionTie": "The great university of the 21st Century gets built one shipped piece of work at a time. Every staff member who leaves this room with a real first win makes Exceptional Core Operations a little more true, starting this week.",
+ "goalLead": "AI-Enabled Workforce Readiness is measured in people who have actually done it. This workshop turns this month's theme into shipped work: one chore, one ask, one check, with help in the room.",
+ "agenda": [
+  {
+   "t": "Pick and call it",
+   "d": "One real chore from your own week, its light confirmed at the table before anything runs."
+  },
+  {
+   "t": "Run it live",
+   "d": "The ask goes into the tool, the draft comes back, and one follow-up makes it sound like you."
+  },
+  {
+   "t": "Check and ship",
+   "d": "A neighbor checks your draft, you check theirs, and the work leaves the room shipped."
+  }
+ ],
+ "manifesto": "You do not leave with a plan. You leave with a win you shipped.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Pick",
+   "dataTitle": "Pick and call it",
+   "eyebrow": "The Pick",
+   "headline": "The right first chore is <em>small and green</em>.",
+   "lead": "A first win is chore-sized: something you can finish today and check quickly. Then the light gets the final say. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.",
+   "group": "At your table: read your chore aloud and let the table call its light together. Anything mixed gets stripped to its green core before it runs.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Strip it or skip it",
+    "intro": "Real chores arrive mixed, and the most sensitive piece decides the light for the whole task. Call each one before you run anything.",
+    "progressWord": "Chore",
+    "labels": [
+     "Green as it stands: run it",
+     "Yellow inside: approved VU tools only",
+     "Red inside: the private piece never goes in"
+    ],
+    "passAt": 2,
+    "passMsg": "You can call a mixed chore. The most sensitive piece decides the light, and stripping it can change the call.",
+    "failMsg": "Close. The light follows the most sensitive piece: public or generic is green, internal stays inside approved VU tools, and private information about people never goes in.",
+    "items": [
+     {
+      "q": "A welcome blurb for the department's public open house, built from the flyer and your own rough phrasing.",
+      "answer": 0,
+      "why": "Public event, generic wording, your own notes. Nothing sensitive anywhere in it, so this one runs as it stands. A perfect sandbox chore."
+     },
+     {
+      "q": "Turning your notes from an internal planning meeting into a tidy summary for the people who were there.",
+      "answer": 1,
+      "why": "Internal content makes it yellow: fine in the approved VU tool in front of you, off limits in anything else. The venue is the whole ruling."
+     },
+     {
+      "q": "An award nomination for a colleague that includes details about the personal hardship they worked through.",
+      "answer": 2,
+      "why": "The hardship details are private information about a person, and they never go in. Strip them out, run the generic frame, and add the heart back yourself."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Run",
+   "dataTitle": "Run it live",
+   "eyebrow": "The Run",
+   "headline": "The draft is a start. The follow-up makes it <em>yours</em>.",
+   "lead": "Write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then run it, right now, in the approved VU tool in front of you. When the draft returns close but not right, you do not start over. You ask again.",
+   "group": "Run your ask in the tool now, with a navigator nearby if you want one. When the draft lands, tell a neighbor the one thing you would change, then say exactly that to the tool.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "The follow-up",
+    "intro": "The first draft came back stiff and a little generic. Choose what you do next.",
+    "runLabel": "Send the follow-up",
+    "outcomeTag": "The second draft",
+    "slots": [
+     {
+      "key": "What you say next",
+      "opts": [
+       {
+        "t": "Scrap it and retype the whole ask from scratch.",
+        "pts": 1,
+        "coach": "Starting over throws away everything the first draft got right. The tool remembers the conversation; use it."
+       },
+       {
+        "t": "Take the draft and rewrite it yourself by hand.",
+        "pts": 2,
+        "coach": "You will get there, slowly, and the tool learns nothing about what you wanted. The next chore starts from zero again."
+       },
+       {
+        "t": "Tell it what to change, like a colleague: shorter, warmer, lead with the thanks.",
+        "pts": 3,
+        "coach": "One plain sentence of direction. Follow-ups are cheap, and two or three of them usually beat one giant opening ask."
+       }
+      ]
+     },
+     {
+      "key": "How you get your voice",
+      "opts": [
+       {
+        "t": "Ask it to make the draft sound better.",
+        "pts": 1,
+        "coach": "Better is not a direction. The tool will guess at fancier, and fancier is usually further from you."
+       },
+       {
+        "t": "Ask for a friendlier, less formal tone.",
+        "pts": 2,
+        "coach": "A real instruction, and still a guess at what you sound like. Your own writing says it more precisely than any adjective."
+       },
+       {
+        "t": "Paste in a short public thing you wrote and ask it to match that voice.",
+        "pts": 3,
+        "coach": "The tool mirrors what it is shown, and your own writing is the best voice instruction there is. Keep the sample green: public or generic only."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A second draft that sounds like you on a good day. Two small edits and it is ready for the check.",
+     "mid": "Closer, after real effort. The draft improved; the skill of steering the tool stayed unpracticed.",
+     "weak": "A fresh start that landed in the same place. The tool answered the same thin ask a second time."
+    },
+    "reactions": {
+     "strong": "Next week the follow-up move is a habit: you stop accepting first drafts everywhere, and each chore takes one round less than the one before.",
+     "mid": "The chore shipped and the editing stayed heavy. The day you try one plain follow-up sentence, most of that editing disappears.",
+     "weak": "Back at your desk, the first-draft problem repeats and starting over still feels like the only move. The fix was one sentence away the whole time."
+    }
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Ship",
+   "dataTitle": "Check and ship",
+   "eyebrow": "The Ship",
+   "headline": "A win is checked, then <em>shipped</em>.",
+   "lead": "The tool drafts with total confidence and zero guarantee, so the last step never changes: verify every name, date, and number, and make it sound like you. Then do the part most first tries skip. Send it, file it, use it. Shipped is what makes it a win.",
+   "group": "Swap seats with a neighbor and check each other's drafts: facts first, then one sentence that does not sound like the author. Then take your seat back and ship yours.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The ship test",
+     "text": "A first win has three parts: the check (every fact verified, the voice yours), the ship (the work sent, filed, or used), and the story (you can say what the check caught). A perfect draft sitting in a folder is a rehearsal."
+    },
+    "context": "Look around the room: every screen holds a draft that did not exist when you sat down. This is the moment first wins usually die. The draft feels done, the day moves on, and the folder keeps it forever. What comes next is the finishing: check it with a neighbor, then ship it for real.",
+    "discuss": "What did the check catch on your draft or your neighbor's? And where exactly is your draft about to go: sent to whom, filed where, used for what?",
+    "q": "Your draft is checked and it reads well. What makes it a first win?",
+    "opts": [
+     {
+      "t": "It exists; the tool did the job",
+      "correct": false,
+      "why": "A draft in a folder is a rehearsal. Nothing about your work changed until the draft goes where the work goes."
+     },
+      {
+      "t": "It ships: sent, filed, or used as real work today",
+      "correct": true,
+      "why": "Exactly. Shipped work is the whole point of the sandbox, and the time it saved is now yours to spend on work that needs a human."
+     },
+     {
+      "t": "You show it to your manager for approval first",
+      "correct": false,
+      "why": "Green-light chores are yours to ship; the check was the approval. Save the show-and-tell for telling your team what the check caught."
+     }
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A chore mixes public content with one detail about a person's private situation. The call?",
+   "opts": [
+    "Green, because most of it is public",
+    "Yellow, because some of it is internal",
+    "The private piece never goes in; strip it or skip it",
+    "Any light is fine if you check the output"
+   ],
+   "correct": 2,
+   "why": "Private information about people is red, always, and the most sensitive piece decides. Stripped to its generic core, the chore can run green."
+  },
+  {
+   "q": "The first draft comes back close but stiff. The strongest next move?",
+   "opts": [
+    "Start over with a longer ask",
+    "Rewrite it yourself by hand",
+    "Tell the tool what to change, plainly",
+    "Accept it; drafts are drafts"
+   ],
+   "correct": 2,
+   "why": "Follow-ups are the cheapest skill in the room. Say what to change the way you would to a colleague, and the second draft arrives nearly done."
+  },
+  {
+   "q": "What turns today's draft into a first win?",
+   "opts": [
+    "Saving it somewhere safe",
+    "Checking it and shipping it as real work",
+    "Showing it at a team meeting",
+    "Running it in a second tool to compare"
+   ],
+   "correct": 1,
+   "why": "Checked, then shipped: sent, filed, or used. The win is the work leaving your hands, plus the story of what the check caught."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The whole loop is in your hands. The next win is whatever chore lands tomorrow.",
+  "mid": "Solid. Reread the ship test, then build your card.",
+  "low": "Take another look at the three stops before you build your card."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My next win",
+  "headline": "The second win happens <em>back at your desk</em>.",
+  "lead": "You shipped the first one in this room. Name the next green-light chore and when it runs. Nothing you type is saved or sent.",
+  "whoLabel": "The next green-light chore, and the ask you will open with.",
+  "whoPlaceholder": "e.g. tidy my notes from the public planning forum into clean sentences",
+  "practiceLabel": "Which next win do you run?",
+  "whoRow": "The chore and the ask",
+  "practices": [
+   {
+    "id": "repeat",
+    "chip": "The repeat",
+    "name": "The repeat",
+    "move": "Run today's chore again the next time it recurs, follow-up included, and watch it get faster."
+   },
+   {
+    "id": "second",
+    "chip": "The second chore",
+    "name": "The second chore",
+    "move": "Pick a different green-light chore, write the ask cold, and run the whole loop without the room."
+   },
+   {
+    "id": "tell",
+    "chip": "The show and tell",
+    "name": "The show and tell",
+    "move": "Show a colleague your shipped win, what the check caught included, and help them pick their first chore."
+   }
+  ],
+  "whens": [
+   {
+    "id": "tomorrow",
+    "chip": "Tomorrow",
+    "out": "The next win runs tomorrow, while the loop is still fresh in your hands."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The next win runs this week, tied to a real deadline already on your list."
+   },
+   {
+    "id": "recurs",
+    "chip": "When the chore recurs",
+    "out": "The next win runs the next time the chore naturally lands, with the ask already drafted."
+   }
+  ],
+  "cardTitle": "My next-win card",
+  "evidenceRow": "Afterward, one line: what did the check catch, and what did the saved time go to?"
+ },
+ "closing": {
+  "headline": "One win shipped. <em>The habit starts now.</em>",
+  "lead": "You picked, ran, checked, and shipped, with a room around you. The weekly sessions this month carry the same theme to your screen, and the loop you just ran works the same at your desk.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Run the next win on your card",
+  "nextBody": "Same loop, no room needed: the light, the ask, the follow-up, the check, the ship. Tell someone what the check caught; that story is how first wins spread.",
+  "brandline": "Start where you are. Ship what you check."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff, no AI experience assumed; many will run their first tool in this room. In person at tables of four to six, learners on their own devices via the welcome QR, navigators circulating; works from a dozen people to a full room.",
+  "pulse": "Seven days out, send the pulse: 'Did the next win on your card ship? What did the check catch? Who have you shown?' Count of shipped second wins is the Level 3 metric for the workshop.",
+  "s1": {
+   "title": "Pick and call it",
+   "purpose": "Get one real, chore-sized, green task chosen per person, with the light confirmed at the table before anything runs.",
+   "say": "Everything today happens for real: a real chore, a real tool, real shipped work. So the first job is picking well. Chore-sized means you can finish it today and check it before you forget you wrote it. Then the light rules everything: green, public or generic, go. Yellow, internal, approved VU tools only. Red, private information about people, never. Your table is your safety net; nobody runs a chore the table has not called.",
+   "facilitate": [
+    "Tables of four to six, one printed traffic-light card per table; point at it as you teach the light, and leave it face up all day.",
+    "Run Strip it or skip it on learner devices; after the third chore, hold the room for a beat: the kind intention did not change the light.",
+    "Then the table round: each person reads their chore aloud and the table calls the light together. Circulate with the navigators and listen for mixed chores."
+   ],
+   "ask": {
+    "q": "Who has a chore the table could not agree on?",
+    "expect": [
+     "Mixed chores with one sensitive detail",
+     "Whole weeks that feel yellow",
+     "Someone whose chore is really a project"
+    ],
+    "respond": "Perfect material. Strip the sensitive piece and call what is left; shrink the project to its first chore-sized slice. The table plus the light settles almost everything."
+   },
+   "debrief": "Chore-sized, green, and called out loud at the table. That pick is half of today's win.",
+   "watchFor": "People choosing an impressive chore to justify the trip. Shrink it warmly: boring ships, impressive stalls.",
+   "transition": "Chores picked and called. Now they go into the tool.",
+   "coreNote": "Core: run the trainer, then one chore read aloud per table instead of the full round."
+  },
+  "s2": {
+   "title": "Run it live",
+   "purpose": "Every person writes the ask, runs it in the approved VU tool, and practices one real follow-up on the draft that returns.",
+   "say": "Now the part you came for. Open the approved VU tool and write the ask the way you would brief a colleague: the job, the details that matter, the shape you want back. Then send it. When your draft lands, resist the two old reflexes, starting over and rewriting by hand. You are going to practice the move that separates people who use these tools well: the follow-up. Tell it what to change, plainly, and watch the second draft.",
+   "facilitate": [
+    "Give the room the go and let it get quiet; drafting is the session working. Navigators move table to table for login trouble and thin asks.",
+    "When most drafts are back, run The follow-up on learner devices; it names the move everyone is about to make on their own draft.",
+    "Then the neighbor beat: say the one change aloud to a neighbor, then type exactly that to the tool. If a volunteer offers one, read a strong before-and-after to the room."
+   ],
+   "ask": {
+    "q": "What did your follow-up change that your first ask never mentioned?",
+    "expect": [
+     "Tone and length, most often",
+     "The audience it was for",
+     "The shape: a list, a paragraph, a subject line"
+    ],
+    "respond": "Notice the pattern: everything the tool guessed wrong was something the ask never said. The follow-up is how you find out what your asks leave out."
+   },
+   "debrief": "The ask is a brief, the draft is a start, and the follow-up is the skill. Plain sentences, both times.",
+   "watchFor": "Someone quietly pasting internal or personal content to make the chore work better. Redirect warmly, and loudly enough to teach: keep it green today, and yellow work lives in approved VU tools on its own time.",
+   "transition": "Drafts are close. The last stop makes them real.",
+   "coreNote": "Core: skip the neighbor beat; everyone sends one follow-up solo while you narrate the pattern."
+  },
+  "s3": {
+   "title": "Check and ship",
+   "purpose": "Install the editor's check with a partner's eyes, then have every person actually ship the checked work before the capstone.",
+   "say": "Here is the honest warning that keeps you safe: the tool writes with total confidence whether it is right or wrong. So the check never gets skipped. Facts first: every name, date, and number, verified or cut. Then voice: one read for the sentence you would never say. Today you get a luxury you will not have at your desk, a neighbor's eyes. Then the step that makes it a win: ship it. Send it, file it, use it, before we build the cards.",
+   "facilitate": [
+    "Pair neighbors across the table; swap seats or swap devices, author's choice. Facts first, then the voice read.",
+    "Show the ship test card and let the folder line land; the room will recognize it.",
+    "Run the discussion, then call the ship: everyone sends, files, or schedules their work now. Ask for hands as pieces ship; count aloud and let the room hear the number grow."
+   ],
+   "ask": {
+    "q": "What did the check catch on your draft or your neighbor's?",
+    "expect": [
+     "An invented or unverifiable detail",
+     "A wrong name or date",
+     "A sentence that sounded like nobody at the table"
+    ],
+    "respond": "Every catch is the lesson working: errors hide inside polish. The check is quick, and it is what makes the shipping safe."
+   },
+   "debrief": "Checked, shipped, and a story about what the check caught. That is a complete first win, and everyone in the room has one.",
+   "watchFor": "Perfectionists polishing instead of shipping. Name it kindly: a shipped decent draft beats a perfect one in a folder, and the polish can continue after it ships.",
+   "transition": "Everyone shipped. Now the card that makes it a habit.",
+   "coreNote": "Core: pair check runs on facts only; the ship call happens whole-room, hands up as pieces go."
+  },
+  "capstoneSay": "The first win is shipped, which makes this card different from most: it is about your second win. One green-light chore from the week ahead, the ask you will open with, and when it runs. Build the card, then copy it somewhere you will see it back at your desk. Quiet room, go.",
+  "closeSay": "You came in with a chore and you are leaving with shipped work, which is more than most people ever do with a new tool. The weekly sessions carry this month's theme the rest of the way: Manager Monday gives managers the tone-setting side, Take-Off Tuesday runs this same loop on screen for anyone who wants another rep, and Thrive Thursday builds the steadiness for everything these tools keep changing. If the leader's-eye view interests you, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh; a fine companion, not an assignment. Your only real next step is the card in your hand.",
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The deck already lives on learner phones via the welcome QR; narrate from your own device and keep the room moving. Nothing in the session needs the big screen."
+   },
+   {
+    "if": "The venue wifi drops or logins to the tool fail at a table",
+    "then": "Phones on cellular still reach the deck, and navigators carry the login help. Pair anyone still locked out with a neighbor to co-run one chore on one screen; two names on one win is still two wins."
+   },
+   {
+    "if": "Someone reads out a chore full of details about a real person",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names, and the private details stay out of the tool.' Then help them strip it to the green core in front of the table; the save is the teaching."
+   },
+   {
+    "if": "A table finishes early and gets restless",
+    "then": "Hand them the stretch: run the same chore with a differently shaped ask, compare the two drafts, and pick the better opening line to share when the room reconvenes."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Which tool are we using, exactly?",
+    "a": "The approved VU tool set up for this room; navigators have the current list from the Anchor's Edge dashboard. The loop you are learning is portable: the light, the ask, the follow-up, and the check work the same in every approved tool."
+   },
+   {
+    "q": "My whole job is confidential. What is my green chore?",
+    "a": "Every role holds a generic layer: announcements, outlines, plain explainers, tidying your own phrasing. Strip the specifics and the skeleton is green. The navigators love this puzzle; wave one over and you will have a chore before the section ends."
+   },
+   {
+    "q": "Is shipping work the tool drafted honest?",
+    "a": "You read every line, verified every fact, and made it sound like you; the judgment and the responsibility stayed yours. That is how templates and spell-checkers have always worked. What would cross a line is shipping anything you never checked, with or without a tool."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: The First-AI-Win sandbox, in person. Bring a laptop or a phone and one boring chore from your real week: a draft, a summary, notes to tidy. No AI experience needed; you will run your first win in the room with a navigator nearby, and you will leave with it shipped."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the second win ship? Three lines, reply whenever: 1) Did the next-win chore on your card run? 2) What did the check catch? 3) Who have you shown your first win?"
+   }
+  ]
+ }
+}

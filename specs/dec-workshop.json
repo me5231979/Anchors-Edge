@@ -1,0 +1,261 @@
+{
+  "slug": "dec-workshop",
+  "format": "workshop",
+  "series": "Navigator Workshop",
+  "month": "December 2026",
+  "monthShort": "Dec",
+  "monthIndex": 3,
+  "theme": "The Vanderbilt Manager Standard",
+  "goal": 2,
+  "title": "The Standard Walk",
+  "titleHtml": "Walk the standard with <em class=\"gold-text\">evidence in hand</em>.",
+  "tagline": "The Manager Standard walk-through clinic: evidence, commitments, rehearsal.",
+  "description": "An in-person navigator-led clinic for Vanderbilt managers: walk every behavior of the Vanderbilt manager standard against your own evidence, draft one witnessable commitment per gap, and rehearse saying it out loud in pairs.",
+  "heroLead": "Monday's session taught the witness test. This clinic makes you run it, line by line, against your own year: a date and a witness for every behavior, a drafted commitment for every gap, and the words rehearsed out loud before you use them.",
+  "objectives": [
+    "Walk every behavior of the standard with a date and a witness, or an honest blank",
+    "Draft one witnessable commitment per gap: the act, the rhythm, the first instance",
+    "Rehearse the commitment out loud with a partner until it sounds like you"
+  ],
+  "skills": [
+    {"label": "Grows self and others", "core": true},
+    {"label": "Manager Effectiveness"},
+    {"label": "Accountability"},
+    {"label": "Leadership Behaviors"}
+  ],
+  "missionTie": "The great university of the 21st Century will be led by managers whose good behavior is visible, ordinary, and expected. This clinic is Exceptional Core Operations at its most personal: one manager, one standard, evidence on the table.",
+  "goalLead": "Goal 2 measures demonstrated leader behavior, and demonstrated has a paper trail. Today every manager builds theirs: the evidence walk, the commitment, and the language to say it out loud.",
+  "agenda": [
+    {"t": "The evidence walk", "d": "Every line of the standard gets a date and a witness, or an honest blank."},
+    {"t": "The commitment draft", "d": "Each gap becomes one witnessable commitment: the act, the rhythm, the start."},
+    {"t": "The rehearsal", "d": "Say it to a partner until the words survive contact with a real listener."}
+  ],
+  "manifesto": "A commitment your team could witness is the only kind the standard can count.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Evidence Walk",
+      "dataTitle": "The evidence walk",
+      "eyebrow": "Step One",
+      "headline": "Every line gets a date or a <em>blank</em>.",
+      "lead": "Take the printed standard, one line at a time. For each behavior, write the last instance a colleague could point to: a date, plus the witness or the artifact. No instance comes to mind? Leave the line blank. Blanks are the most useful ink in this room.",
+      "group": "At your table: name one line where your evidence surprised you, stronger or weaker than expected. Blanks are findings, never confessions, and every sheet has them.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "What counts as evidence",
+          "text": "Evidence is an instance: a date, plus a witness or an artifact. The 1:1 on the calendar, the written feedback in Oracle, the expectation said in a meeting people remember. A warm impression of yourself is no instance. Dates or blanks."
+        },
+        "q": "Quick check: which of these counts as evidence on your walk sheet?",
+        "opts": [
+          {"t": "I am confident I gave plenty of feedback this fall", "correct": false, "why": "Confidence is self-image, and self-image inflates. If no specific instance with a date surfaces, the honest entry is a blank, and the blank is useful."},
+          {"t": "Written feedback sent after the last project milestone, logged in Oracle", "correct": true, "why": "A date and an artifact any colleague could point to. This is what demonstrated means, and it is the only currency today's walk accepts."},
+          {"t": "My team knows my door is always open", "correct": false, "why": "A state claim: it happens at no time and no place, so nobody could witness it. Convert it to instances, like held office hours, or leave the line blank."}
+        ],
+        "context": "Monday introduced the witness test as an idea. The clinic runs it as an audit, and paper changes the experience: your year, line by line, in your own handwriting, with blanks you cannot scroll past. Most managers find two surprises: evidence they forgot, and a blank they were sure was covered.",
+        "discuss": "Which blank surprised you most, and what was filling that space in your self-image before today?"
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Commitment",
+      "dataTitle": "The commitment draft",
+      "eyebrow": "Step Two",
+      "headline": "A gap becomes a commitment you could <em>witness</em>.",
+      "lead": "Pick your most important blank. The draft that closes it has three parts: the act, named plainly; the rhythm it repeats on; and the first instance, with a date. Anything less is an intention, and your walk sheet just showed you what intentions leave behind.",
+      "group": "Table check: read your draft to the manager beside you. They test all three parts: is the act named, is there a rhythm, is the first instance dated? Fix what fails.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Draft the commitment",
+        "intro": "One gap from your sheet. Choose how you word the commitment and how you anchor it.",
+        "runLabel": "Set the commitment",
+        "outcomeTag": "What the standard sees",
+        "slots": [
+          {
+            "key": "The wording",
+            "opts": [
+              {"t": "I will get better at giving feedback", "pts": 1, "coach": "Sincere and invisible. Better names no act, has no rhythm, and no colleague could ever say whether it happened. This is the wording that produced the blank."},
+              {"t": "I will give more written feedback this quarter", "pts": 2, "coach": "Closer: the act is named. But more cannot be witnessed and quarters end quietly. Give it a rhythm and a first date and it becomes real."},
+              {"t": "Two lines of written feedback per person after each milestone, starting Friday", "pts": 3, "coach": "Act, rhythm, first instance. A colleague could confirm every part. This is standard language: checkable by anyone, startable by Friday."}
+            ]
+          },
+          {
+            "key": "The anchor",
+            "opts": [
+              {"t": "Hold it in your head; you will remember", "pts": 1, "coach": "Your head is where the blank came from. Unanchored commitments lose to the first busy week, every time."},
+              {"t": "Write it in your private planning notes", "pts": 2, "coach": "Written beats remembered. Private is the leak: with no possible witness, the commitment stays conveniently negotiable with yourself."},
+              {"t": "First instance on the calendar, and the commitment said to one colleague", "pts": 3, "coach": "Now it exists outside your head: a calendar entry anyone could see and a person who heard you say it. The standard can finally watch it happen."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "A commitment the standard can count: named, rhythmic, dated, and known to a witness.",
+          "mid": "A real intention wearing commitment's clothes. You mean it, and nobody could tell whether it happened.",
+          "weak": "The gap, restated with feeling. Next month's walk sheet will show the same blank."
+        },
+        "reactions": {
+          "strong": "By the second milestone the feedback lines are just how you close projects. The colleague you told asks how it is going, and for once the answer is a date.",
+          "mid": "Three busy weeks eat the quarter, and more turns out to have meant twice. The intention was real; the wording was where it leaked.",
+          "weak": "Next month you rewalk the standard and the blank is still there, patient as ever. Feelings about a gap have never once filled one."
+        }
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Rehearsal",
+      "dataTitle": "The rehearsal",
+      "eyebrow": "Step Three",
+      "headline": "Say it until it <em>sounds like you</em>.",
+      "lead": "A commitment spoken to your team lands only if the words survive your own mouth. First train the ear on three managers announcing commitments; then rehearse yours in pairs, twice through, with the partner listening for anything a team could never witness.",
+      "group": "Pair rehearsal: say your commitment as you would at the team meeting. The partner listens for anything unwitnessable, then for whether it sounds like you. Two rounds.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Hear the commitment",
+        "intro": "Three managers tell their teams what will change. Call how each one lands.",
+        "progressWord": "Manager",
+        "labels": ["Witnessable, the team can hold them to it", "An intention, nothing to watch for", "A state claim, pick the instance"],
+        "passAt": 2,
+        "passMsg": "Your ear is set. Now aim it at your own draft in the rehearsal; your partner will hear what you cannot.",
+        "failMsg": "Close. The tell: ask what the team could watch for, and when. An act with a rhythm passes; wants and states give them nothing to see.",
+        "items": [
+          {"q": "'I really want to do better at recognizing the work you all put in around here.'", "answer": 1, "why": "A sincere feeling about a gap. Wanting lives in the manager's head; the team hears warmth and can watch for nothing. The act and the rhythm are still missing."},
+          {"q": "'Starting Monday, each of you gets a monthly 1:1 on the calendar. First invites go out today.'", "answer": 0, "why": "An act, a rhythm, and a first instance the team will see land in their inboxes within hours. This is what a witnessable commitment sounds like out loud."},
+          {"q": "'My door is open; I am always here whenever any of you needs anything at all.'", "answer": 2, "why": "A state: generous-sounding, unwitnessable, happening at no time or place. The fix is always the instance: office hours held Tuesdays, replies within a day."}
+        ]
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "On the evidence walk, a behavior with no recallable instance gets...",
+      "opts": ["A generous benefit of the doubt", "An honest blank", "A note to think about it later", "Skipped until next time"],
+      "correct": 1,
+      "why": "Blanks are the walk's most useful output: they show exactly where a commitment is needed. Generosity here just postpones the same blank to next month."
+    },
+    {
+      "q": "A commitment the standard can count has...",
+      "opts": ["Sincerity and effort", "A named act, a rhythm, and a dated first instance", "Your manager's approval", "A quarterly review reminder"],
+      "correct": 1,
+      "why": "Act, rhythm, first instance: each part is checkable by a colleague. That is the difference between a commitment and an intention with good posture."
+    },
+    {
+      "q": "Why rehearse the commitment out loud in pairs?",
+      "opts": ["To memorize it word for word", "Because the standard requires it", "A listener catches unwitnessable words your eyes forgive", "To practice public speaking"],
+      "correct": 2,
+      "why": "Your eyes forgive your own drafts. A partner's ear catches the wants and states, and twice through makes the words yours instead of the worksheet's."
+    }
+  ],
+  "recapMsgs": {
+    "high": "Sheet walked, commitment drafted, words rehearsed. Take it to the team.",
+    "mid": "Solid. Revisit the step that wobbled, then finish your card.",
+    "low": "Worth one more pass through the three steps before the commitment goes on the card."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My witnessed commitment",
+    "headline": "One commitment, made <em>witnessable</em>.",
+    "lead": "The rehearsed commitment goes on the card, then in front of real witnesses. Roles only, never names; nothing you write is collected.",
+    "whoLabel": "Your commitment: the act, the rhythm, the first instance.",
+    "whoPlaceholder": "e.g. written feedback per person after each milestone; first one Friday",
+    "practiceLabel": "Who witnesses it first?",
+    "whoRow": "The commitment",
+    "practices": [
+      {"id": "team", "chip": "The team announcement", "name": "The team announcement", "move": "Say the rehearsed commitment at your next team meeting, exactly as practiced, and let the first instance land on the calendar in front of them."},
+      {"id": "colleague", "chip": "The named witness", "name": "The named witness", "move": "Tell one colleague the commitment and ask them to check in a month: did they actually see it happen? Honest answers only."},
+      {"id": "rewalk", "chip": "The month-end rewalk", "name": "The month-end rewalk", "move": "Keep the walk sheet and rewalk the standard at month end: new dates in, stale evidence out, and the next blank picked."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The witness hears it this week, before the rehearsal fades."},
+      {"id": "meeting", "chip": "At my next team meeting", "out": "The commitment opens your next team meeting, before status updates."},
+      {"id": "month", "chip": "By month end", "out": "The witness hears it before the month closes, scheduled today so it cannot slide."}
+    ],
+    "cardTitle": "My witnessed commitment card",
+    "evidenceRow": "Afterward, one line: what changed once someone else could check?"
+  },
+  "closing": {
+    "headline": "The standard, walked and <em>witnessed</em>.",
+    "lead": "You audited your year, drafted the commitment your biggest blank was waiting for, and rehearsed it until it sounded like you. The walk sheet goes home; the words go to your team.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Put the commitment in front of its witness",
+    "nextBody": "Say it as rehearsed and let the calendar show the first instance. The month's weekly sessions carry the thread, and Todd Dewett's New Manager Foundations on LinkedIn Learning walks the same ground whenever you want it. Never required.",
+    "brandline": "Walk the standard. Let them watch."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; each manager needs a printed standard walk sheet and a pen. Best after the month's Monday session, and it stands alone.",
+    "pulse": "Seven days out, send the pulse: 'Has a witness heard your commitment? Did the first instance happen on its date? What did the evidence walk change?' Count of commitments said to a witness is the month's Goal 2 signal.",
+    "s1": {
+      "title": "The evidence walk",
+      "purpose": "Every manager audits the full standard on paper: a date and a witness per line, or an honest blank.",
+      "say": "Sheets out, pens up. Monday you met the witness test as an idea; today you run it as an audit. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
+      "facilitate": [
+        "Distribute the walk sheets; the flip chart carries the evidence rule: an instance is a date plus a witness or an artifact.",
+        "Give the room long quiet time; walk the tables and gently challenge suspiciously full sheets by asking for the date on one entry.",
+        "Show the In the room card and run the discussion; take two or three voices on the surprising blank.",
+        "Run the table exercise: one surprise per manager, stronger or weaker than expected."
+      ],
+      "ask": {
+        "q": "What did your sheet show you that your self-image had been covering?",
+        "expect": ["A behavior I do constantly and never noticed counts", "A blank where I was sure I was strong", "Evidence all clustered in one good month"],
+        "respond": "The clustering answer is gold: a behavior that happened once in spring is a memory, and a rhythm is what teams actually experience. Dates expose both."
+      },
+      "debrief": "The audit's output is honest: real evidence you can stand on, and blanks that tell you where the commitment goes. Both are wins today.",
+      "watchFor": "Managers grading on intentions or spiraling on blanks. Reset both the same way: blanks are findings, every sheet has them, and the next step is what blanks are for.",
+      "transition": "Pick your most important blank. The next step turns it into something a colleague could watch.",
+      "coreNote": "Core: shorten the quiet time; managers walk the lines they already suspect and mark the rest for their month-end rewalk."
+    },
+    "s2": {
+      "title": "The commitment draft",
+      "purpose": "Turn each manager's chosen blank into a three-part commitment: act, rhythm, dated first instance, anchored outside their head.",
+      "say": "Now the blank earns its keep. A commitment that can close a gap has three parts, and you need all three: the act, named so plainly a new hire could check it; the rhythm it repeats on, monthly or per milestone; and the first instance, with a date inside two weeks. Watch what happens without them: I will get better at feedback has none of the three, and it is exactly the sentence that produced your blank in the first place.",
+      "facilitate": [
+        "Run Draft the commitment from the front; managers make both choices, then draft their real commitment on the walk sheet.",
+        "Walk the room reading drafts; run the three-part test out loud at tables that finish early.",
+        "Run the table check: drafts read aloud to a neighbor, three-part test applied, failures fixed on the spot."
+      ],
+      "ask": {
+        "q": "Which of the three parts was hardest to pin down?",
+        "expect": ["The rhythm: how often is honest", "The date: two weeks feels fast", "The act: naming it small enough"],
+        "respond": "Small enough is the craft. A commitment sized to impress fails by Friday; one sized to repeat becomes the habit the standard was pointing at all along."
+      },
+      "debrief": "Act, rhythm, dated first instance, plus an anchor outside your own head. That is a commitment the standard can count.",
+      "watchFor": "Drafts that commit to everything at once. One gap, one commitment; the month-end rewalk picks the next.",
+      "transition": "The draft reads well on paper. The last step finds out if it survives your own voice.",
+      "coreNote": "Core: skip the front-of-room builder; the three-part test runs directly on real drafts at tables."
+    },
+    "s3": {
+      "title": "The rehearsal",
+      "purpose": "Rehearse the commitment aloud in pairs until it is witnessable language that sounds like the manager who will say it.",
+      "say": "Words behave differently out loud. A draft that reads fine on paper can come out of your mouth as a hedge, and your team will hear the hedge. So we rehearse. First we train the ear on three managers announcing commitments; then pairs: say yours as you will say it at your team meeting. Your partner listens twice, once for anything the team could never witness, once for whether it sounds like you or like a worksheet.",
+      "facilitate": [
+        "Run Hear the commitment from the front; the room calls each announcement before you reveal.",
+        "Run the pair rehearsal, two rounds each; walk the room and listen for hedges like try and hopefully.",
+        "Ask for two volunteers to say their commitment to the whole room; applaud plain language over polish."
+      ],
+      "ask": {
+        "q": "What did your partner catch that you did not?",
+        "expect": ["A hedge word softening the whole thing", "A state claim hiding in the middle", "That it did not sound like me yet"],
+        "respond": "The not-me answer matters most: teams smell borrowed language instantly. Keep the three parts and swap every other word for your own until it lands naturally."
+      },
+      "debrief": "Rehearsed twice with a listener beats polished ten times alone. The words are ready when the act, rhythm, and date survive your own voice.",
+      "watchFor": "Pairs drifting into discussing the gap instead of rehearsing the words. Redirect: this step is mouth practice; the analysis already happened.",
+      "transition": "Cards next: the commitment and its first witness, on paper before you stand up.",
+      "coreNote": "Core: one rehearsal round each instead of two; skip the whole-room volunteers."
+    },
+    "capstoneSay": "Last build. The card gets your commitment in its final rehearsed wording, and the witness who hears it first: your team at its next meeting, or one colleague who will check back in a month. Roles only, never names. Write it, copy it to your phone, and put the first instance on your calendar before you stand up.",
+    "closeSay": "You leave holding the three artifacts this month was about: an honest walk sheet, a three-part commitment, and words you have already said out loud twice. The weekly sessions keep the thread: Monday gave you the witness test, Tuesday showed everyone the Oracle 1:1 and feedback tools where several of these behaviors leave their evidence, and Thursday sharpened the clarity that expectation-setting runs on. If you want a companion, Todd Dewett's New Manager Foundations is this month's LinkedIn Learning pick. There whenever you want it, never an assignment.",
+    "contingencies": [
+      {"if": "The projector or room screen fails", "then": "The clinic survives on paper: the walk sheet, the drafts, and the rehearsals need no screen. Read the interaction rounds aloud from your own device."},
+      {"if": "Odd numbers leave someone without a rehearsal partner", "then": "Make one trio: two listeners catch more than one, and the third voice keeps the feedback honest."},
+      {"if": "A manager gets visibly discouraged by a sheet full of blanks", "then": "Sit with them at the break: a sheet full of blanks usually means honest grading, which is the rarest skill in the room. One commitment is today's whole job; the rest of the sheet is a map, never a verdict."},
+      {"if": "Someone asks whether the walk sheets get collected or reported", "then": "Answer before the worry spreads: the sheet is theirs, nothing is collected, and Goal 2 measurement runs through the formal process their HR partner owns. Today is private practice with witnesses they choose."}
+    ],
+    "toughQuestions": [
+      {"q": "Does anything from this clinic feed my performance review?", "a": "No. The walk sheet stays in your hands, nothing is collected, and the room has no reporting behind it. Goal 2 measurement runs through the formal process your HR partner owns. What changes your review is the behavior itself, visible to your team over months."},
+      {"q": "My biggest gap is a behavior I honestly think does not fit my team's work. What now?", "a": "Say that out loud to your own leader rather than quietly exempting yourself; the standard expects that conversation. Draft the commitment for your second-biggest gap today so the clinic still pays, and bring the fit question to your navigator or HR partner this week."},
+      {"q": "Announcing a commitment to my team feels like admitting I have been failing them.", "a": "Teams already know your gaps; they live with them. What they rarely see is a manager naming one out loud with a date attached, and that move builds more credibility than the gap ever cost. It also models exactly what the standard asks of everyone."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person this month: the Manager Standard walk-through clinic. Bring nothing; walk sheets and pens are in the room. If you can, arrive holding a rough sense of which behavior your Monday self-locate flagged. Nothing you write in the room is collected."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the witness hear it? Three lines, reply whenever: 1) Has a witness heard your commitment? 2) Did the first instance happen on its date? 3) What did the evidence walk change for you?"}
+    ]
+  }
+}

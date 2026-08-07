@@ -1,0 +1,261 @@
+{
+  "slug": "apr-workshop",
+  "format": "workshop",
+  "series": "Navigator Workshop",
+  "month": "April 2027",
+  "monthShort": "Apr",
+  "monthIndex": 7,
+  "theme": "Spot AI-Exposed Work",
+  "goal": 3,
+  "title": "The Team Grid",
+  "titleHtml": "Put your team's work <em class=\"gold-text\">on the wall</em>.",
+  "tagline": "The team AI-exposure mapping workshop: the whole grid, built by hand.",
+  "description": "An in-person navigator-led workshop for Vanderbilt managers: build a physical AI-exposure grid of your team's recurring work, sort every task automate, augment, or leave alone, pressure-test the sort with a partner, and draft the opener that brings the grid to your team.",
+  "heroLead": "The weekly sessions handed you the lens. This room hands you the table: paper, markers, and time to map your team's real work, sort every task, and let another manager poke at the sort before your team ever sees it.",
+  "objectives": [
+    "Build a physical grid of your team's recurring tasks, in task language, tasks never names",
+    "Sort every task automate, augment, or leave alone, and defend each call under a partner's challenge",
+    "Draft and rehearse the opener that brings the grid to your team as shared work"
+  ],
+  "skills": [
+    {"label": "Leads through change", "core": true},
+    {"label": "AI Literacy"},
+    {"label": "Workforce Planning"},
+    {"label": "Team Communication"}
+  ],
+  "missionTie": "The great university of the 21st Century gets redesigned one team at a time, by managers who can see the change on paper. A room full of finished grids is Exceptional Core Operations doing its own forward planning.",
+  "goalLead": "Goal 3 asks managers to identify AI-exposed work and turn the insight into action. This workshop is where the identifying happens at full scale: your whole team's work, mapped and sorted in one sitting.",
+  "agenda": [
+    {"t": "The grid goes up", "d": "Your team's recurring tasks, in task language, on a grid big enough to argue with."},
+    {"t": "The sort and the challenge", "d": "Every task gets a call, and every call gets a partner's honest challenge."},
+    {"t": "The opener", "d": "Draft the words that put the grid in front of your team as an invitation."}
+  ],
+  "manifesto": "A map on a wall gets argued with. A map in a drawer gets feared.",
+  "sections": [
+    {
+      "id": "s-one",
+      "nav": "The Grid",
+      "dataTitle": "The grid goes up",
+      "eyebrow": "The Grid",
+      "headline": "The work looks different <em>on paper</em>.",
+      "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits physically in front of you, the gaps show: the invisible cleanup, the work only one person knows.",
+      "group": "Write the first eight rows of your grid, then trade sheets with a neighbor. They circle any row a stranger couldn't picture doing; you rewrite it on the spot.",
+      "interaction": {
+        "type": "check",
+        "card": {
+          "tag": "The grid rule",
+          "text": "A row is ready when a stranger could picture doing the task: the output, the rhythm, the inputs. Rows about people come off; rows about work stay on. The grid earns its wall space by being arguable, and only tasks can be argued with."
+        },
+        "q": "Quick check: which row is ready for the grid?",
+        "opts": [
+          {"t": "Our coordinator, who might be automated", "correct": false, "why": "That row maps a person, and it poisons the wall. People hold portfolios of tasks; the grid holds the tasks, so the sort never puts anyone on trial."},
+          {"t": "Intake queue triage, daily, from the shared inbox", "correct": true, "why": "Output, rhythm, inputs. A stranger could picture it, a partner can challenge it, and your team can sort it without anyone flinching."},
+          {"t": "Improve our reporting culture", "correct": false, "why": "A wish wearing a row. Name the actual reports, their rhythms, and their inputs, and the wish becomes three sortable tasks."}
+        ],
+        "context": "Every flip chart in this room starts the same way: three easy rows, then a stall. The stall is the good part. Tasks that resist writing are the ones nobody has examined, and unexamined routine is where exposure hides. Here the stall gets company: a whole table hitting the same wall together.",
+        "discuss": "Which row stalled you, and what made it hard to write? Trade stalls at your table and help each other finish the row."
+      }
+    },
+    {
+      "id": "s-two",
+      "nav": "The Challenge",
+      "dataTitle": "The sort and the challenge",
+      "eyebrow": "The Sort",
+      "headline": "A call that survives a <em>challenge</em> is a call you can keep.",
+      "lead": "Every row gets a mark: automate, augment, or leave alone. Then a table partner challenges your calls out loud. The traffic light rides along: green public or generic, go; yellow internal, approved VU tools only; red private information about people, never.",
+      "group": "Pair up across the table and walk your partner down your grid, one call at a time. Their job is one honest challenge per call; yours is to keep, flip, or split, out loud.",
+      "interaction": {
+        "type": "trainer",
+        "playTitle": "Survive the challenge",
+        "intro": "A challenged call has three honest endings. Read each exchange from a table like yours and pick the ending it deserves.",
+        "progressWord": "Exchange",
+        "labels": ["The call stands, keep it", "The call flips, resort it", "Split the task, sort the parts"],
+        "passAt": 2,
+        "passMsg": "You pressure-test like a partner should. Standing calls earn confidence, flipped calls earn honesty, and bundles get split.",
+        "failMsg": "Close. The tells: a call stands when its reason survives restating; it flips when the challenge names judgment or data you missed; it splits when both of you are right about different parts.",
+        "items": [
+          {"q": "Your call: automate the newsletter reformat. The challenge: doesn't someone still catch the wrong dates? You answer: the check stays in the call.", "answer": 0, "why": "Automate always keeps the human check, so the challenge sharpened the call without breaking it. Keep the mark and write the checking step beside it."},
+          {"q": "Your call: leave the monthly data pull alone; it takes real skill. The challenge: the skill is remembering twelve steps, each following a rule.", "answer": 1, "why": "Rule-following that feels like skill is the classic flattery. When a challenge shows the judgment was memory, the call flips toward automate, freed hours named."},
+          {"q": "Your call: automate the weekly team update. The challenge: the update includes a paragraph on how individual people are doing.", "answer": 2, "why": "Both of you are right about different parts. The generic frame can draft in an approved VU tool; the sentences about people stay red, and human. Split the row."}
+        ]
+      }
+    },
+    {
+      "id": "s-three",
+      "nav": "The Opener",
+      "dataTitle": "The opener",
+      "eyebrow": "The Send-Off",
+      "headline": "The grid goes home as a <em>draft</em>.",
+      "lead": "The grid in your hands is a draft, and that is its power. Presented as finished, it reads as a verdict; presented in pencil, it recruits co-authors. Before you leave, draft the words that put it in front of your team, and try them on a person who can wince.",
+      "group": "Draft your opener on the worksheet, then stand and deliver it to someone from another table. They answer as a skeptical team member; you get one revision before you sit down.",
+      "interaction": {
+        "type": "builder",
+        "playTitle": "Bring the grid home",
+        "intro": "Your team meets the grid once. Choose what you carry into the room and what you ask first.",
+        "runLabel": "Run the meeting",
+        "outcomeTag": "How it lands",
+        "slots": [
+          {
+            "key": "What you carry in",
+            "opts": [
+              {"t": "The finished grid, laminated and final", "pts": 1, "coach": "Laminate says decided. A team handed a finished sort has one role left: defendant. Expect quiet agreement in the meeting and loud worry after it."},
+              {"t": "A blank grid, so the team starts from nothing", "pts": 2, "coach": "Generous, and it wastes the work this room just did. A blank page also hands the anxious the job of imagining the worst. Your draft gives the talk a floor."},
+              {"t": "Your draft grid, marked draft, with a marker on the table", "pts": 3, "coach": "A visible draft plus a marker is an invitation with furniture. The team can correct rows, add tasks, and challenge calls, which makes the map theirs by the end."}
+            ]
+          },
+          {
+            "key": "What you ask first",
+            "opts": [
+              {"t": "Any questions about what I've decided?", "pts": 1, "coach": "The word decided ends the conversation it opens. Questions about a decision are appeals, and appeals make defendants of everyone, you included."},
+              {"t": "Does this look right to everyone?", "pts": 2, "coach": "Better, and it invites a polite yes. Whole-grid questions get whole-grid politeness. Aim smaller: one row, one call, one honest challenge."},
+              {"t": "Which row is wrong, and which task did I miss?", "pts": 3, "coach": "You just asked to be corrected, which is the fastest trust move a manager owns. People who fix your rows are co-authoring the redesign."}
+            ]
+          }
+        ],
+        "heads": {
+          "strong": "The grid left the meeting fuller than it arrived: new rows, corrected calls, and a team arguing with paper instead of worrying about people.",
+          "mid": "A polite viewing. The team nodded at the grid and saved the real reactions for the hallway.",
+          "weak": "The wall map became a warning poster. The word automate traveled home with everyone; the word draft stayed in the room."
+        },
+        "reactions": {
+          "strong": "Within a week the grid gains rows in someone else's handwriting, which is the whole victory. When a task later moves to a tool, nobody is surprised, because everybody watched the map say so first.",
+          "mid": "Nothing broke and nothing moved. The grid is accurate and unowned. Reopen it with the smaller ask, one row and one call, and let the first correction start the co-authoring.",
+          "weak": "By Friday a rumor of cuts outruns your redesign story. You spend the next month re-earning the word draft, one 1:1 at a time."
+        }
+      }
+    }
+  ],
+  "recap": [
+    {
+      "q": "A grid row is ready for the wall when...",
+      "opts": ["It names a person and their risk", "A stranger could picture doing the task", "It covers a whole role in one line", "It lists only tasks you would automate"],
+      "correct": 1,
+      "why": "Output, rhythm, inputs, in task language. Rows about work can be sorted in the open; rows about people put someone on trial."
+    },
+    {
+      "q": "A partner's challenge names judgment you missed. The call...",
+      "opts": ["Stands, since it was yours to make", "Flips, and the grid gets more honest", "Comes off the grid entirely", "Waits for leadership to settle it"],
+      "correct": 1,
+      "why": "That is the pressure test working. A challenge that surfaces missed data or judgment flips the call, and a flipped call is a win for the map."
+    },
+    {
+      "q": "How does the grid meet your team?",
+      "opts": ["Finished and final", "As a rumor before the meeting", "As a marked draft, marker on the table", "It stays in your office"],
+      "correct": 2,
+      "why": "A draft plus a marker recruits co-authors. The team corrects rows and adds tasks, and the redesign becomes shared work instead of a verdict."
+    }
+  ],
+  "recapMsgs": {
+    "high": "The grid is built and battle-tested. Now it meets your team.",
+    "mid": "Solid. Reread the challenge tells, then finish your card.",
+    "low": "Worth one more walk through the three builds before the grid leaves the room."
+  },
+  "capstone": {
+    "eyebrow": "Capstone · My grid, home",
+    "headline": "The grid leaves this room <em>with a date</em>.",
+    "lead": "You are holding a physical map of your team's work. Commit to what happens to it next. Tasks and roles only, never a name; nothing you write here is collected.",
+    "whoLabel": "Which rows does your team see first? Name the task cluster.",
+    "whoPlaceholder": "e.g. the weekly reporting rows; intake and scheduling rows",
+    "practiceLabel": "How does the grid meet the team?",
+    "whoRow": "The rows going home",
+    "practices": [
+      {"id": "reveal", "chip": "The draft reveal", "name": "The draft reveal", "move": "Open your next team meeting with the grid marked draft, a marker on the table, and the ask: which row is wrong, which task did I miss?"},
+      {"id": "wall", "chip": "The living wall", "name": "The living wall", "move": "Post the grid where the team works and invite additions in anyone's handwriting before the sort conversation happens."},
+      {"id": "second", "chip": "The second challenge", "name": "The second challenge", "move": "Trade grids with a manager from this room and run the challenge again, so the sort survives two strangers before it meets the team."}
+    ],
+    "whens": [
+      {"id": "week", "chip": "This week", "out": "The grid is in front of the team this week, on the wall or in the meeting, before Friday."},
+      {"id": "teammeet", "chip": "At the next team meeting", "out": "The grid opens your next team meeting, first item, marker on the table."},
+      {"id": "twoweeks", "chip": "Within two weeks", "out": "Reveal and sort conversation both happen within two weeks, dated before you leave this room."}
+    ],
+    "cardTitle": "My team grid card",
+    "evidenceRow": "Afterward, one line: what did the team add that you could never have seen alone?"
+  },
+  "closing": {
+    "headline": "You built it by hand. <em>Now share the pen.</em>",
+    "lead": "You leave with a physical grid, a sort that survived a stranger, and an opener that invites co-authors. The month's weekly sessions keep the lens sharp while the grid does its work.",
+    "nextTag": "Your one next step · This week",
+    "nextTitle": "Get the grid in front of your team",
+    "nextBody": "Run the reveal exactly as rehearsed: the draft framing, the marker, the ask. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, is there whenever you want it, never required.",
+    "brandline": "Map it on paper. Redesign it together."
+  },
+  "facilitator": {
+    "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; every exercise runs on flip charts, the printed grid worksheet, or the manager's own device. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
+    "pulse": "Seven days out, send the pulse: 'Has the team seen the grid? What did they add or flip? When is the sort conversation?' Count of grids that reached a team is the month's Level 3 metric.",
+    "s1": {
+      "title": "The grid goes up",
+      "purpose": "Get every manager's team work physically on paper, in task language, before any sorting starts.",
+      "say": "Everything this month has been building toward the thing on your table: a big blank grid and a marker. Your team's recurring work goes on it today, one row per task, tasks only, never names. Writing by hand is the point. The rows that come slowly are the ones worth having, because work that resists naming has usually never been looked at straight.",
+      "facilitate": [
+        "Hand out markers and sheets; the flip chart at the front carries the two rules: tasks never names, output plus rhythm plus inputs.",
+        "Give the room quiet drawing time; walk the tables and read over shoulders for people-language rows without correcting them aloud yet.",
+        "Show the In the room card when most charts hold five or six rows, and run the discussion on stalls.",
+        "Run the sheet trade at each table: neighbors circle rows a stranger couldn't picture, owners rewrite on the spot."
+      ],
+      "ask": {
+        "q": "Which row stalled you, and why that one?",
+        "expect": ["Work that lives in one person's head", "Cleanup nobody has ever called a task", "Some managers realize they don't know a task's inputs"],
+        "respond": "Name the pattern back: the stalled rows are the exposure blind spots. Not knowing a task's inputs is itself a finding worth writing down."
+      },
+      "debrief": "A grid is honest when a stranger could run the week from it. Every chart in this room just got more honest than the org chart.",
+      "watchFor": "Managers writing role names or people descriptions into rows. Redirect warmly every time: tasks on the grid, people in your care.",
+      "transition": "The grid is up. Now every row gets a call, and every call gets a witness.",
+      "coreNote": "Core: cap the grid at eight rows and skip the sheet trade; circle your own suspect rows as you walk the tables."
+    },
+    "s2": {
+      "title": "The sort and the challenge",
+      "purpose": "Sort every row automate, augment, or leave alone, then pressure-test the calls in pairs, inside the traffic light.",
+      "say": "Three marks, straight from this month's Tuesday session, now applied at team scale. Automate: AI does it and a person checks. Augment: AI helps and a person drives. Leave alone: human all the way. And the light we share all year rides every mark: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never. Mark your rows, then find your partner, because a sort nobody challenged is just a mood.",
+      "facilitate": [
+        "Give the room quiet marking time; sticky dots or marker initials both work fine.",
+        "Run Survive the challenge on learner devices before the pairing, so the three endings are fresh.",
+        "Pair managers across teams, never within one, and let the challenges run; listen for flips and splits to quote at the debrief."
+      ],
+      "ask": {
+        "q": "Who had a call flip, and what did the challenge show you?",
+        "expect": ["Rule-following that had felt like judgment", "A bundle hiding a red thread", "A few will admit they flattered their team's work"],
+        "respond": "Flips are the receipts. A grid that leaves this room unchanged probably wasn't challenged hard enough."
+      },
+      "debrief": "Stands, flips, splits: all three are wins. The only losing call is the one nobody questioned.",
+      "watchFor": "Anyone marking automate on work that touches private information about people. Restate the light on the spot: red, never, whatever the efficiency.",
+      "transition": "Your grid is sorted and it survived a stranger. The harder audience is your team, so the opener comes next.",
+      "coreNote": "Core: mark the top six rows only; run one challenge each way instead of the full grid walk."
+    },
+    "s3": {
+      "title": "The opener",
+      "purpose": "Draft and rehearse the words that bring the grid to the team as a draft and an invitation.",
+      "say": "The grid you are holding can land two ways at home: verdict or draft. The difference is mostly staging: what you physically carry in, and the first sentence out of your mouth. So we draft the opener here, out loud, where the stakes are low and the feedback is free. You will deliver it to a stranger before you ever deliver it to your team.",
+      "facilitate": [
+        "Run Bring the grid home on learner devices; give the room time for both choices.",
+        "Run the cross-table rehearsal: openers delivered standing, to someone from another table playing a skeptical team member.",
+        "Take one strong opener aloud for the whole room and name the pattern: draft framing, marker on the table, the which-row-is-wrong ask."
+      ],
+      "ask": {
+        "q": "What did your skeptical stranger do that you didn't expect?",
+        "expect": ["Asked whose job the automate rows are", "Went quiet, which felt worse than pushback", "Someone will say the rehearsal changed their opener completely"],
+        "respond": "That is why the rehearsal happens here. Every reaction you just survived is one your team can no longer surprise you with."
+      },
+      "debrief": "The opener has a shape: this is a draft, here is the marker, which row is wrong, which task did I miss.",
+      "watchFor": "Openers that lead with leadership pressure or the word efficiency. Steer back to invitation: the team helps decide what fills the freed hours.",
+      "transition": "Recap, then the grid gets its date.",
+      "coreNote": "Core: skip the cross-table round; rehearse once with the sort partner instead."
+    },
+    "capstoneSay": "Last build, and it is the one that matters: the grid needs a date. Pick the rows your team sees first, how the reveal happens, and the window, then write the card. Tasks and roles only, never a name. When you leave, the grid travels rolled, never filed. Quiet writing time, then a few read-alouds.",
+    "closeSay": "Look at these walls: that is the month's theme made physical. Monday's session gave you the mapping lens, Tuesday gave every member of your team the same sort for their own week, and Thursday's hype filter keeps the claims about these tools honest. The grid you are carrying is those three sessions with a marker in hand. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, goes further whenever you want it; there if you want it, never homework. Now go put the grid on a wall your team walks past.",
+    "contingencies": [
+      {"if": "The projector or room screen fails", "then": "The workshop survives it: everything runs on paper and learner devices via the welcome QR. Read the cards aloud from your own screen and keep the builds moving."},
+      {"if": "Flip charts or easels run short", "then": "Tape printed grid worksheets together or use any large paper flat on the table. The lab needs big, shared, writable surfaces, nothing fancier."},
+      {"if": "A manager names a specific employee while sorting or challenging", "then": "Protect them warmly and immediately: 'Hold that. Tasks and roles, never names.' In a shared room the norm matters double, because the walls have more readers than a spreadsheet."},
+      {"if": "A pair finishes the challenge early or a table runs cold", "then": "Send early finishers to a slow table as guest challengers. A fresh stranger reading a grid finds the row its owner stopped seeing."}
+    ],
+    "toughQuestions": [
+      {"q": "What stops this wall of grids from becoming a cut list?", "a": "The unit of the grid is the task, and the promise that travels with it: exposed tasks mean redesign, with the people who do the work deciding what fills the freed hours. Goal 3 is workforce readiness. A team that sorts its own work in the open shapes what changes, and roles and names never touch the wall."},
+      {"q": "My partner and I disagreed on a call and neither budged. Who wins?", "a": "Nobody has to. Write both readings on the row and take the disagreement to the people who actually do the task; they hold the missing evidence. A grid that carries an honest open question is stronger than one that papered over it."},
+      {"q": "Can I photograph my grid and ask an AI tool for a second opinion?", "a": "Run the light first. A grid in task language with no names is internal content: yellow, approved VU tools only. If any row slipped toward people details, rewrite it before any photo. And keep the sort decision human; the tool can question your calls, never make them."}
+    ],
+    "templates": [
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person this month: your team's AI-exposure grid, built by hand with your navigator. Bring a rough list of the tasks your team repeats every week, or just bring the week in your head. Paper, markers, and a table partner provided. Tasks and roles only, never names, and nothing you write is collected."},
+      {"title": "7-day pulse (send one week after)", "body": "Subject: Where is the grid now? Three lines, reply whenever: 1) Has your team seen the grid? 2) What did they add or flip? 3) When is the sort conversation, and what will you ask first?"}
+    ]
+  }
+}

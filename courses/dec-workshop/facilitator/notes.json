@@ -1,0 +1,287 @@
+{
+ "meta": {
+  "program": "The Standard Walk · Navigator Workshop · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 90,
+  "audience": "Vanderbilt people managers and team leads, in person with their navigator. Works for 8 to 30 at tables of 4 to 6; each manager needs a printed standard walk sheet and a pen. Best after the month's Monday session, and it stands alone.",
+  "roomSetup": "In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Has a witness heard your commitment? Did the first instance happen on its date? What did the evidence walk change?' Count of commitments said to a witness is the month's Goal 2 signal.",
+  "paths": {
+   "full": {
+    "minutes": 90,
+    "description": "The full 90-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to 90 including transitions."
+   },
+   "core": {
+    "minutes": 60,
+    "description": "The 60-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The clinic survives on paper: the walk sheet, the drafts, and the rehearsals need no screen. Read the interaction rounds aloud from your own device."
+   },
+   {
+    "if": "Odd numbers leave someone without a rehearsal partner",
+    "then": "Make one trio: two listeners catch more than one, and the third voice keeps the feedback honest."
+   },
+   {
+    "if": "A manager gets visibly discouraged by a sheet full of blanks",
+    "then": "Sit with them at the break: a sheet full of blanks usually means honest grading, which is the rarest skill in the room. One commitment is today's whole job; the rest of the sheet is a map, never a verdict."
+   },
+   {
+    "if": "Someone asks whether the walk sheets get collected or reported",
+    "then": "Answer before the worry spreads: the sheet is theirs, nothing is collected, and Goal 2 measurement runs through the formal process their HR partner owns. Today is private practice with witnesses they choose."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Does anything from this clinic feed my performance review?",
+    "a": "No. The walk sheet stays in your hands, nothing is collected, and the room has no reporting behind it. Goal 2 measurement runs through the formal process your HR partner owns. What changes your review is the behavior itself, visible to your team over months."
+   },
+   {
+    "q": "My biggest gap is a behavior I honestly think does not fit my team's work. What now?",
+    "a": "Say that out loud to your own leader rather than quietly exempting yourself; the standard expects that conversation. Draft the commitment for your second-biggest gap today so the clinic still pays, and bring the fit question to your navigator or HR partner this week."
+   },
+   {
+    "q": "Announcing a commitment to my team feels like admitting I have been failing them.",
+    "a": "Teams already know your gaps; they live with them. What they rarely see is a manager naming one out loud with a date attached, and that move builds more credibility than the gap ever cost. It also models exactly what the standard asks of everyone."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: the Manager Standard walk-through clinic. Bring nothing; walk sheets and pens are in the room. If you can, arrive holding a rough sense of which behavior your Monday self-locate flagged. Nothing you write in the room is collected."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the witness hear it? Three lines, reply whenever: 1) Has a witness heard your commitment? 2) Did the first instance happen on its date? 3) What did the evidence walk change for you?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.",
+   "say": "Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The Manager Standard walk-through clinic: evidence, commitments, rehearsal.",
+   "facilitate": [
+    "Slide projected as people arrive; phones up before you speak.",
+    "State the norm once: type into your own device, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. The great university of the 21st Century will be led by managers whose good behavior is visible, ordinary, and expected. This clinic is Exceptional Core Operations at its most personal: one manager, one standard, evidence on the table.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 measures demonstrated leader behavior, and demonstrated has a paper trail. Today every manager builds theirs: the evidence walk, the commitment, and the language to say it out loud.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 90 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: walk every behavior of the standard with a date and a witness, or an honest blank; draft one witnessable commitment per gap: the act, the rhythm, the first instance; rehearse the commitment out loud with a partner until it sounds like you. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: the evidence walk, the commitment draft, the rehearsal. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "The evidence walk",
+   "purpose": "Every manager audits the full standard on paper: a date and a witness per line, or an honest blank.",
+   "say": "Sheets out, pens up. Monday you met the witness test as an idea; today you run it as an audit. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
+   "facilitate": [
+    "Distribute the walk sheets; the flip chart carries the evidence rule: an instance is a date plus a witness or an artifact.",
+    "Give the room long quiet time; walk the tables and gently challenge suspiciously full sheets by asking for the date on one entry.",
+    "Show the In the room card and run the discussion; take two or three voices on the surprising blank.",
+    "Run the table exercise: one surprise per manager, stronger or weaker than expected."
+   ],
+   "ask": {
+    "q": "What did your sheet show you that your self-image had been covering?",
+    "expect": [
+     "A behavior I do constantly and never noticed counts",
+     "A blank where I was sure I was strong",
+     "Evidence all clustered in one good month"
+    ],
+    "respond": "The clustering answer is gold: a behavior that happened once in spring is a memory, and a rhythm is what teams actually experience. Dates expose both."
+   },
+   "debrief": "The audit's output is honest: real evidence you can stand on, and blanks that tell you where the commitment goes. Both are wins today.",
+   "watchFor": "Managers grading on intentions or spiraling on blanks. Reset both the same way: blanks are findings, every sheet has them, and the next step is what blanks are for.",
+   "transition": "Pick your most important blank. The next step turns it into something a colleague could watch.",
+   "coreNote": "Core: shorten the quiet time; managers walk the lines they already suspect and mark the rest for their month-end rewalk.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The commitment draft",
+   "purpose": "Turn each manager's chosen blank into a three-part commitment: act, rhythm, dated first instance, anchored outside their head.",
+   "say": "Now the blank earns its keep. A commitment that can close a gap has three parts, and you need all three: the act, named so plainly a new hire could check it; the rhythm it repeats on, monthly or per milestone; and the first instance, with a date inside two weeks. Watch what happens without them: I will get better at feedback has none of the three, and it is exactly the sentence that produced your blank in the first place.",
+   "facilitate": [
+    "Run Draft the commitment from the front; managers make both choices, then draft their real commitment on the walk sheet.",
+    "Walk the room reading drafts; run the three-part test out loud at tables that finish early.",
+    "Run the table check: drafts read aloud to a neighbor, three-part test applied, failures fixed on the spot."
+   ],
+   "ask": {
+    "q": "Which of the three parts was hardest to pin down?",
+    "expect": [
+     "The rhythm: how often is honest",
+     "The date: two weeks feels fast",
+     "The act: naming it small enough"
+    ],
+    "respond": "Small enough is the craft. A commitment sized to impress fails by Friday; one sized to repeat becomes the habit the standard was pointing at all along."
+   },
+   "debrief": "Act, rhythm, dated first instance, plus an anchor outside your own head. That is a commitment the standard can count.",
+   "watchFor": "Drafts that commit to everything at once. One gap, one commitment; the month-end rewalk picks the next.",
+   "transition": "The draft reads well on paper. The last step finds out if it survives your own voice.",
+   "coreNote": "Core: skip the front-of-room builder; the three-part test runs directly on real drafts at tables.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "The rehearsal",
+   "purpose": "Rehearse the commitment aloud in pairs until it is witnessable language that sounds like the manager who will say it.",
+   "say": "Words behave differently out loud. A draft that reads fine on paper can come out of your mouth as a hedge, and your team will hear the hedge. So we rehearse. First we train the ear on three managers announcing commitments; then pairs: say yours as you will say it at your team meeting. Your partner listens twice, once for anything the team could never witness, once for whether it sounds like you or like a worksheet.",
+   "facilitate": [
+    "Run Hear the commitment from the front; the room calls each announcement before you reveal.",
+    "Run the pair rehearsal, two rounds each; walk the room and listen for hedges like try and hopefully.",
+    "Ask for two volunteers to say their commitment to the whole room; applaud plain language over polish."
+   ],
+   "ask": {
+    "q": "What did your partner catch that you did not?",
+    "expect": [
+     "A hedge word softening the whole thing",
+     "A state claim hiding in the middle",
+     "That it did not sound like me yet"
+    ],
+    "respond": "The not-me answer matters most: teams smell borrowed language instantly. Keep the three parts and swap every other word for your own until it lands naturally."
+   },
+   "debrief": "Rehearsed twice with a listener beats polished ten times alone. The words are ready when the act, rhythm, and date survive your own voice.",
+   "watchFor": "Pairs drifting into discussing the gap instead of rehearsing the words. Redirect: this step is mouth practice; the analysis already happened.",
+   "transition": "Cards next: the commitment and its first witness, on paper before you stand up.",
+   "coreNote": "Core: one rehearsal round each instead of two; skip the whole-room volunteers.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A commitment your team could witness is the only kind the standard can count.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 5,
+   "coreMinutes": 4,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 6,
+   "coreMinutes": 4,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Last build. The card gets your commitment in its final rehearsed wording, and the witness who hears it first: your team at its next meeting, or one colleague who will check back in a month. Roles only, never names. Write it, copy it to your phone, and put the first instance on your calendar before you stand up.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 2,
+   "coreMinutes": 2,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave holding the three artifacts this month was about: an honest walk sheet, a three-part commitment, and words you have already said out loud twice. The weekly sessions keep the thread: Monday gave you the witness test, Tuesday showed everyone the Oracle 1:1 and feedback tools where several of these behaviors leave their evidence, and Thursday sharpened the clarity that expectation-setting runs on. If you want a companion, Todd Dewett's New Manager Foundations is this month's LinkedIn Learning pick. There whenever you want it, never an assignment.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

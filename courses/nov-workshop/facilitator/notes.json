@@ -1,0 +1,287 @@
+{
+ "meta": {
+  "program": "The Profile Clinic · Navigator Workshop · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 90,
+  "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 10 to 40 at tables of 4 to 6, everyone on their own device with Portal access. Best after the month's Tuesday session, and it stands alone.",
+  "roomSetup": "In person, navigator led: projector plus presenter device, tables that pair easily, learners on their own devices via the welcome-slide QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the move on your exit card happen? What moved because you raised a hand or named a barrier? What line does your profile still need?' Count of expressed interests and named barriers is the month's Goal 1 signal.",
+  "paths": {
+   "full": {
+    "minutes": 90,
+    "description": "The full 90-minute in-person workshop: every exercise runs at tables, debriefs are voices in the room, and the capstone gets read-alouds. The per-section minutes sum to 90 including transitions."
+   },
+   "core": {
+    "minutes": 60,
+    "description": "The 60-minute path: agenda and core-idea slides pass in stride, table time shortens, debriefs shrink to one voice per table. Never cut the exercises or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "The room Wi-Fi or the Portal itself goes down",
+    "then": "Switch to paper: partners review profile lines from memory and printouts, and every exit card gets written anyway. Navigators collect expressed-interest intents and enter them with people once the system is back."
+   },
+   {
+    "if": "Someone arrives without a device or cannot log in",
+    "then": "Pair them with a table partner for the searching, and put a navigator on the login during the walk section. The pair review works fine on one screen."
+   },
+   {
+    "if": "A participant worries aloud that updating a profile signals they want to leave",
+    "then": "Answer plainly: a current profile is the university norm, and managers are being taught to celebrate exactly this. Point at the navigators as living proof the university wants hands raised."
+   },
+   {
+    "if": "Someone's barrier is a story about a manager who blocked a move",
+    "then": "Thank them for the honesty, take the barrier in writing like any other, and route the specific case to HR with a navigator after the session. The room is for norms; cases get careful hands."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Is expressing interest in the room binding? Everyone will see me do it.",
+    "a": "It signs nothing; it opens a conversation you can step back from at any stage. And the room seeing it is the point: raising a hand among colleagues who just did the same is the cheapest it will ever be."
+   },
+   {
+    "q": "My profile is basically empty and I am embarrassed to show a partner.",
+    "a": "Empty is the best starting state in the room: everything your partner suggests is pure gain, and half the room is in the same place. The pair review has no grade; it has a searcher's eye and a rewrite you do together."
+   },
+   {
+    "q": "What actually happens to the barrier I hand in?",
+    "a": "A navigator owns it: they follow up with you one on one, and the fix might be a timing conversation, a skill plan, or help planning the manager talk. Nothing on the paper needs your name if you would rather bring it to the follow-up yourself."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: the Portal walkthrough and profile clinic. Bring a charged device and your Portal login; we work on your real profile in the room. You will leave with it genuinely better, and with one real opening explored."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the exit hold? Three lines, reply whenever: 1) Did the move on your exit card happen? 2) What moved because you raised a hand or named a barrier? 3) What line does your profile still need?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Get everyone into the deck on their own device and set the tone: 90 minutes, in person, hands on.",
+   "say": "Welcome to the Navigator Workshop. Scan the code so this session runs on your device too. 90 minutes, one focus: The Portal walkthrough and skill-profile clinic, live and hands on.",
+   "facilitate": [
+    "Slide projected as people arrive; phones up before you speak.",
+    "State the norm once: type into your own device, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Radical Collaboration needs people who can find each other by skill across every boundary in the university. Every profile made legible in this room is another connection the map can make, and another career that can grow without leaving.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 3,
+   "coreMinutes": 2,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 promised to connect people to internal opportunity. This clinic is the promise kept in person: your profile, your search, and your raised hand, with a navigator in the room.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 90 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: rewrite your profile's weakest lines into named capabilities a searcher could find; explore one real gig or opening in the transfer portal and read it against your profile; leave with your hand up on one opportunity, or one barrier named to a navigator. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: the line rewrite, the portal walk, hand up or barrier named. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "The line rewrite",
+   "purpose": "Calibrate the searcher's ear, then get every profile's weakest line rewritten with a partner's help.",
+   "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. We will train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
+   "facilitate": [
+    "Confirm every device has the profile open before anything else; walk the room and unstick logins with the navigator team.",
+    "Run Findable or invisible? from the front; the room calls each line aloud before you reveal.",
+    "Run the pair review: partners mark lines findable or invisible, then rewrite one together. Walk the tables and read rewrites over shoulders.",
+    "Ask two tables to read a before-and-after aloud; applaud the honest befores."
+   ],
+   "ask": {
+    "q": "What did your partner see in your profile that you could not?",
+    "expect": [
+     "Duties I stopped noticing were duties",
+     "A skill I never thought counted",
+     "How little of my actual work is on there"
+    ],
+    "respond": "That is why the clinic is in person. You cannot proofread your own self-image; a partner reads the words that are actually there."
+   },
+   "debrief": "The searcher's ear is the tool you take home: named activities get found, duties need unpacking, adjectives are invisible.",
+   "watchFor": "People underselling themselves in the rewrite. Send partners after it: ask what colleagues borrow you for, and write that.",
+   "transition": "The profile is the antenna. Now we point it at something real.",
+   "coreNote": "Core: skip the before-and-after read-alouds; pairs rewrite one line instead of trading full reviews.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The Portal walk",
+   "purpose": "Everyone explores one real gig or opening with the comparative read: posting beside profile, matches and gaps marked.",
+   "say": "Now the fun part. Open the Portal and search by a skill you want to use more, and let gigs and short projects into what you look at. Pick the one that pulls at you, even a little. Then do what almost nobody does: read it beside your profile. Two columns, matches and gaps. The matches are your case; the gaps are your curriculum. Ten minutes of this beats a month of wondering whether you would fit.",
+   "facilitate": [
+    "Give the room real search time; walk the tables with the navigators and help the stuck ones pick a skill to search by.",
+    "Run The proper look from the front once people have their opening; they apply it immediately to the real posting.",
+    "Run the pair share: which opening, which matches, which gaps. Partners push on the gap: is it real or is it modesty?"
+   ],
+   "ask": {
+    "q": "Who found something they did not know existed? What was it?",
+    "expect": [
+     "A gig in a department they had never considered",
+     "A short project using their exact skill",
+     "An opening that reads like their profile"
+    ],
+    "respond": "Every one of those existed last month too. The Portal did not change today; the searching did. That is the habit to keep."
+   },
+   "debrief": "Search by skill, include gigs, read comparatively. The pull you feel plus the gap you found is your next move, whichever way you take it.",
+   "watchFor": "Window-shoppers scrolling listings without landing on one. Land them gently: pick the least wrong one and run the read; the method is the lesson.",
+   "transition": "You are holding one real opening. The last section is what you do about it before you leave.",
+   "coreNote": "Core: shorten the search to one navigator-suggested example per table; the comparative read still runs on real profiles.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Hand up or barrier named",
+   "purpose": "Everyone leaves through one of the two doors: interest expressed in the room, or a barrier written and handed to a navigator.",
+   "say": "Here is the exit ticket. Two doors out of this clinic. Door one: express interest on the thing you explored, right now, in the room, remembering it opens a conversation and signs nothing. Door two: if something real is in the way, write the barrier down honestly and hand it to a navigator before you leave. Timing, a skill gap, a conversation you are dreading. Barriers named in this room get worked; barriers carried home just get heavier.",
+   "facilitate": [
+    "Show the two-door card and run the discussion from the front; take voices on what the real barriers are.",
+    "Give quiet time for the choice; navigators circulate for barrier conversations at the tables.",
+    "Run the table round: one sentence each, the opening and the chosen exit. Collect written barriers by hand; no names required on the paper."
+   ],
+   "ask": {
+    "q": "For those naming a barrier: what would have to be true for the hand to go up?",
+    "expect": [
+     "My manager would need to back it",
+     "I would need the skill first",
+     "I would need to know the timing could flex"
+    ],
+    "respond": "Every answer names a solvable problem, and most of them are exactly what navigators and sending managers do. The barrier was never a verdict; it is a to-do list nobody had read yet."
+   },
+   "debrief": "Both doors are motion. The raised hand starts a negotiation; the named barrier assigns the problem to someone equipped for it.",
+   "watchFor": "Quiet people choosing neither door. A navigator sits with them one on one; sometimes the barrier is the room itself.",
+   "transition": "Cards next: the exit goes on paper so next week keeps the promise.",
+   "coreNote": "Core: skip the table round; exits go straight onto capstone cards and barriers straight to navigators.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: A profile improves the day someone else reads it and the Portal gets to answer.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 5,
+   "coreMinutes": 4,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 6,
+   "coreMinutes": 4,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Last two minutes of building. The card holds your opening, your exit, and the move that keeps the momentum: the next line, the navigator twenty, or the open word with your manager. Write it, copy it to your phone, and if your exit was a raised hand, consider making it real before you stand up. The navigators are staying after; barriers welcome.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 2,
+   "coreMinutes": 2,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You came in with a profile and you are leaving with a better one, plus one real opening explored and an exit chosen. That is this month's whole theme done by hand. The weekly sessions carry it on: Monday taught managers to send well, Tuesday walked the Transfer Portal end to end, and Thursday builds the internal bridges that hear about openings early. If you want a deeper companion, Chris Croft's Building Your Team is this month's LinkedIn Learning pick. There when you want it, never an assignment.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}
