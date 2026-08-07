@@ -68,7 +68,7 @@
    },
    "interaction": {
     "type": "check",
-    "context": "Notice the filter runs on your enthusiasms as much as your doubts. The claims most worth testing are the ones you want to be true: the tool that would fix your week, the headline that flatters your skills. Run the three tests fastest exactly there, because from the inside, a wish and a well-evidenced claim feel identical.",
+    "context": "The filter runs on your enthusiasms as much as your doubts. The claims most worth testing are the ones you want to be true: the tool that would fix your week, the headline that flatters your skills. Run the tests fastest there: from the inside, a wish and a well-evidenced claim feel identical.",
     "discuss": "Share one AI claim you half believe right now. Which of the three tests would it wobble on first, and what result would honestly change your mind?",
     "card": {
      "tag": "The filter",
@@ -152,7 +152,7 @@
    "lead": "The filter earns its keep on live decisions: should our team adopt this tool, should I change how I work because of that claim? The answer is rarely yes or no on the spot. It is usually a small, cheap test with the mind-changer named before it runs.",
    "deeper": {
     "title": "A bar you can actually judge",
-    "body": "The weak point of most trials is the missing baseline. Before the tool touches anything, time the task the way you do it now and keep one recent output as the comparison copy. Then write the bar where the whole team can see it, with a number and a quality condition. Decide in advance what a near miss means: a tool that almost clears the bar earns one revision of the test, and only one, or the trial quietly becomes a subscription.",
+    "body": "The weak point of most trials is the missing baseline. Before the tool touches anything, time the task the way you do it now and keep one recent output as the comparison copy. Then write the bar where the team can see it, with a number and a quality condition. Decide in advance what a near miss means: a tool that almost clears the bar earns one revision of the test, and only one, or the trial quietly becomes a subscription.",
     "steps": [
      "Pick the recurring task your team would trial first. Time it once this week and save one output as the baseline copy.",
      "Write the bar as one sentence with a number and a quality condition, and share it before any demo runs."

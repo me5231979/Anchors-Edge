@@ -204,16 +204,16 @@
     "brandline": "Read the signal. Call the move. Set the date."
   },
   "facilitator": {
-    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. Assumes the March AI-exposure sessions; June is the closing month, From Insight to Action.",
+    "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. Assumes the April AI-exposure sessions; June closes the series year with From Insight to Action.",
     "pulse": "Seven days out, send the pulse: 'Did step one of your move happen? Which move did you call, and would you still call it? What does the owner need from you next?' Count of moves with a named owner and date is the Level 3 metric for the month.",
     "s1": {
       "title": "The four moves",
       "purpose": "Install the shared vocabulary: reskill, redeploy, redesign, hire, and the order to try them in.",
-      "say": "In March you built an exposure map: which work on your team AI touches most. Maps are not moves. This month gives the map a verb, and there are only four worth learning: reskill the person, redeploy the strength, redesign the role, hire what you cannot build. Everything we do today hangs off those four.",
+      "say": "In April you built an exposure map: which work on your team AI touches most. Maps are not moves. This month gives the map a verb, and there are only four worth learning: reskill the person, redeploy the strength, redesign the role, hire what you cannot build. Everything we do today hangs off those four.",
       "facilitate": [
         "Walk the four moves once, one line each; resist the urge to lecture.",
-        "Run the knowledge check; let everyone answer on their own screen.",
-        "Run the breakout: which move has your team used most, and which never?"
+        "Read the In the room card aloud; everyone holds one real role in mind and names their instinct move silently.",
+        "Lead the discussion prompt, two or three voices, then run the breakout: which move most, which never?"
       ],
       "ask": {
         "q": "Which of the four moves does your team reach for first, honestly?",
@@ -223,7 +223,7 @@
       "debrief": "Four verbs, tried in order of what you already have. That order is the discipline of this month.",
       "watchFor": "Managers treating the moves as HR paperwork categories. Keep them as verbs a manager can start this week.",
       "transition": "Vocabulary done. Now the skill: matching a real insight to its move.",
-      "coreNote": "Core: skip the breakout; take two answers to the check in chat."
+      "coreNote": "Core: skip the breakout; take two discussion answers in chat."
     },
     "s2": {
       "title": "The match",
@@ -263,8 +263,8 @@
       "transition": "Quick recap, then you build your own move card.",
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
-    "capstoneSay": "Now the real one. Take the sharpest insight from your March map, role only. Call its move, name the owner, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-    "closeSay": "Nine months ago this program started with seeing talent. It ends this month with moving on what you see. Hold step one this week. Tomorrow's Take-Off Tuesday has everyone, your team included, building a personal 90-day AI action plan; point your people at it. Thursday's Thrive Thursday closes the whole year with decisiveness, moving from data to move, which is this exact muscle. And for a longer runway, this month's LinkedIn Learning course, Leading Your Team Through Change, and the navigator-led action-planning lab are built for the move you just wrote.",
+    "capstoneSay": "Now the real one. Take the sharpest insight from your April exposure map, role only. Call its move, name the owner, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "closeSay": "This series year opened with seeing talent. It wraps this month with moving on what you see. Hold step one this week. Tomorrow's Take-Off Tuesday has everyone, your team included, building a personal 90-day AI action plan; point your people at it. Thursday's Thrive Thursday wraps the series year with decisiveness, moving from data to move, which is this exact muscle. And for a longer runway, this month's LinkedIn Learning course, Leading Your Team Through Change, and the navigator-led action-planning lab are built for the move you just wrote.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
       {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
@@ -277,7 +277,7 @@
       {"q": "What if my move needs budget or a requisition I don't control?", "a": "Then step one is the ask, owned and dated like any other step. A specific sentence with a role, a reason, and a date is exactly what gets funded; vague reskilling themes are what get deferred. Bring it to the action-planning lab and your HR consultant with the sentence already written."}
     ],
     "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on turning your AI map into a move. Dust off your March exposure map, or just bring one honest observation about how AI has changed work on your team this year. Roles only, never names. Live and interactive; have the session link open on your own screen."},
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on turning your AI map into a move. Dust off the AI-exposure map you built this spring, or just bring one honest observation about how AI has changed work on your team this year. Roles only, never names. Live and interactive; have the session link open on your own screen."},
       {"title": "7-day pulse (send one week after)", "body": "Subject: Did the move start? Three lines, reply whenever: 1) Did step one of the move on your card happen? 2) Which move did you call, and would you still call it? 3) What does the owner of the next step need from you?"}
     ]
   }

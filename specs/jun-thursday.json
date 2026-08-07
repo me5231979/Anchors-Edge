@@ -9,8 +9,8 @@
   "title": "Enough to Move",
   "titleHtml": "You know <em class=\"gold-text\">enough to move</em>.",
   "tagline": "Decisiveness: moving from data to move.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff, and the finale of Anchor's Edge: learn to decide with enough information, use the 70 percent rule, and give one circling decision a real deadline.",
-  "heroLead": "Every session this year handed you information. The last skill is knowing when you have enough. This finale teaches the 70 percent rule, telling reversible calls from one-way doors, and putting a deadline on the decision you have been circling.",
+  "description": "A 45-minute virtual session for all Vanderbilt staff, and the close of this series year: learn to decide with enough information, use the 70 percent rule, and give one circling decision a real deadline.",
+  "heroLead": "Every session this year handed you information. The last skill is knowing when you have enough. This season closer teaches the 70 percent rule, telling reversible calls from one-way doors, and putting a deadline on the decision you have been circling.",
   "objectives": [
     "Explain why deciding at 70 percent beats waiting for certainty",
     "Tell reversible decisions from one-way doors, and pace each accordingly",
@@ -21,7 +21,7 @@
     {"label": "Judgment"},
     {"label": "Bias for Action"}
   ],
-  "missionTie": "A university that intends to define the century will out-decide its peers, one timely call at a time. Decisiveness is what turns nine months of insight into Exceptional Core Operations, in every office and at every level.",
+  "missionTie": "A university that intends to define the century will out-decide its peers, one timely call at a time. Decisiveness is what turns a year of insight into Exceptional Core Operations, in every office and at every level.",
   "goalLead": "Goal 3 ends where action begins: insights become workforce moves only when someone decides. This closing session builds the deciding muscle itself.",
   "agenda": [
     {"t": "The 70 percent rule", "d": "Decide when you have most of the picture; the last 30 percent arrives by acting."},
@@ -39,12 +39,22 @@
       "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: choosing the status quo while calling it research. Strong deciders move when they have around 70 percent of what they wish they knew, and they learn the rest by moving.",
       "group": "In pairs: name a decision this year you delayed past the useful point. What was the wait actually buying? 90 seconds each way.",
       "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
+      "deeper": {
+        "title": "What counts as 70 percent",
+        "body": "The number is a posture, not a measurement. A practical proxy: you are at 70 when you can name the options, the worst plausible outcome of each, and what you would try first if forced to choose today. What you usually lack at that point is certainty about other people's reactions, and no amount of research supplies that; only moving does. If you cannot name the options yet, you really are below 70: keep gathering. If you can, the gathering is done.",
+        "steps": [
+          "For a live decision of yours, write the options, the worst plausible outcome of each, and your forced-choice pick. Notice what is actually missing.",
+          "Write the one piece of information you are still waiting for and the date it last changed. If you cannot remember, you are past 70."
+        ]
+      },
       "interaction": {
         "type": "check",
         "card": {
           "tag": "The 70 percent rule",
           "text": "Decide when you have about 70 percent of the information you wish you had. Below that, you are guessing; near 100, you are late, and the choice has usually been made for you. Acting generates the information that waiting never will."
         },
+        "context": "In the room: bring back the decision you carried in today, the one you have been circling. As the rule sinks in, weigh that decision honestly: what do you already know, what are you still waiting for, and when did genuinely new information last arrive? For most circling decisions, that was weeks ago.",
+        "discuss": "What was your longest-circled decision this year actually waiting for, and did that thing ever arrive?",
         "q": "Quick check: what does the 70 percent rule actually claim?",
         "opts": [
           {"t": "Most decisions deserve about 70 percent of your effort", "correct": false, "why": "The rule is about information sufficiency; effort is a different dial. Some 70 percent calls deserve your whole attention."},
@@ -62,6 +72,14 @@
       "lead": "The pace of a decision should match its door. Two-way doors open again: you can try, learn, and step back, so they deserve speed. One-way doors are hard to reopen, so they earn the extra data. Treating every door as one-way is where the delay lives.",
       "group": "Breakout pairs: each name one live decision and call its door. Partner argues the other reading for 30 seconds. 90 seconds each way.",
       "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
+      "deeper": {
+        "title": "Doors that look one-way",
+        "body": "Three things weld a reversible door shut in the mind: visibility, because people saw you choose and stepping back feels like failure; sunk effort; and a missing exit plan. The first two are about ego, not the door. The third you can fix in one line: name, before you walk through, what result by what date would send you back. A decision with a written exit condition is more reversible than the same decision without one, because stepping back was part of the plan.",
+        "steps": [
+          "Take a call you have been treating as one-way and write its exit line: what result, by what date, sends you back through the door.",
+          "Ask the second question too: is it yours? If not, draft the two-line recommendation to its real owner today."
+        ]
+      },
       "interaction": {
         "type": "trainer",
         "playTitle": "Call the door",
@@ -85,6 +103,14 @@
       "eyebrow": "The Deadline",
       "headline": "Give the circling a <em>landing time</em>.",
       "lead": "Everyone carries one decision they have been orbiting for months: the tool, the conversation, the move, the ask. Circling has a cost; it just bills quietly. Today it gets a name and a deadline, and you get the altitude back.",
+      "deeper": {
+        "title": "After the landing",
+        "body": "Two things deciders do that circlers skip. First, they write the call down with its date and the top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, the note shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen it only if the exit condition you wrote actually fires. The lightness arrives once the wobble passes, and it is the real payoff.",
+        "steps": [
+          "Prepare your landing note now: the fork, the deadline, and a blank line for the call and its top reason. Keep it where your witness can ask about it.",
+          "Decide in advance what evidence, not what mood, would reopen the decision. Write that one line under the note."
+        ]
+      },
       "interaction": {
         "type": "builder",
         "playTitle": "Land the decision",
@@ -169,15 +195,15 @@
     "evidenceRow": "Afterward, one line: what did deciding free up that more research never would have?"
   },
   "closing": {
-    "headline": "Nine months. One habit: <em>see it, then move</em>.",
-    "lead": "This is the last session of Anchor's Edge. You started in October learning to see talent; you close in June deciding at 70 percent. Everything between was the same lesson at different altitudes: look clearly, then act.",
+    "headline": "One year, one habit: <em>see it, then move</em>.",
+    "lead": "This session wraps the series year. It opened with seeing the talent around you; it closes with deciding at 70 percent. Everything between was the same lesson at different altitudes: look clearly, then act. The habits continue, and the rhythm will be back.",
     "nextTag": "Your one next step · Before the deadline",
     "nextTitle": "Land the decision on your card",
     "nextBody": "Hold the 30 minutes, decide at 70 percent, and write down the call. If the decision is a change you will help others through, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts is a worthy epilogue.",
     "brandline": "Enough information. Enough waiting. Decide."
   },
   "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. This is the final session of the nine-month series; expect some ceremony and leave two extra beats for the close.",
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. This is the last session of the series year; the series returns and grows next year. Expect some ceremony and leave two extra beats for the close.",
     "pulse": "Seven days out, send the pulse: 'Did the decision on your landing card get decided? What did moving at 70 percent teach you? What is circling next?' Count of landed decisions is the Level 3 metric, and the last one of the year.",
     "s1": {
       "title": "The 70 percent rule",
@@ -185,8 +211,8 @@
       "say": "Last session of the year, and it is about the skill underneath every other one we taught: deciding. Here is the quiet truth: waiting for complete information is itself a decision. It chooses the status quo and calls it diligence. The rule we are installing today is simpler and braver: at about 70 percent of what you wish you knew, decide. Acting brings the rest.",
       "facilitate": [
         "Read the rule card once, slowly.",
-        "Run the knowledge check; let everyone answer on their own screen.",
-        "Run the breakout: the decision you delayed past the useful point."
+        "Read the In the room card; give everyone a quiet moment with the decision they carried in.",
+        "Lead the discussion: what was the wait buying? Then run the breakout on the delayed decision."
       ],
       "ask": {
         "q": "What was your delayed decision actually waiting for?",
@@ -237,20 +263,20 @@
       "coreNote": "Core: everyone runs the builder solo; skip the volunteer share."
     },
     "capstoneSay": "Last capstone of the year. The decision you have been circling, one line, roles only if it touches people. Frame the fork, pick how you land it, set the window, build the card. Copy it somewhere you will see it on deadline day. Two minutes, quiet, and make this one count.",
-    "closeSay": "That is the week: Monday your managers learned the four workforce moves, Tuesday you built a 90-day plan, and today you set a deadline. And that is the year. Nine months ago Anchor's Edge opened by asking you to see the talent around you. Since then you have learned to read teams, coach, use AI inside the lines, and now to act on what you see. The series ends here; the habits have no end date. Land the decision on your card, run your 90 days, and if you want one more companion, Leading Your Team Through Change and the navigator-led action-planning lab are open all month. Thank you for nine months of showing up. Go decide something.",
+    "closeSay": "That is the week: Monday your managers learned the four workforce moves, Tuesday you built a 90-day plan, and today you set a deadline. And that is the year. This series opened by asking you to see the talent around you. Since then you have learned to read teams, coach, use AI inside the lines, and now to act on what you see. The season wraps here; the habits have no end date, and the rhythm comes back around with room to grow. Land the decision on your card, run your 90 days, and if you want one more companion, Leading Your Team Through Change and the navigator-led action-planning lab are open all month. Thank you for a year of showing up. Go decide something.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
       {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
       {"if": "The 70 percent rule sparks pushback from compliance-heavy roles", "then": "Agree with them out loud: regulated calls and one-way doors sit outside the rule. Then bring it back: most of what we circle is reversible and unregulated, and that is where the rule lives."},
-      {"if": "Emotions surface as the series closes", "then": "Let it breathe. Invite one-line reflections in chat on the year, read two aloud, and land the close warmly; a finale is allowed to feel like one."}
+      {"if": "Emotions surface as the season closes", "then": "Let it breathe. Invite one-line reflections in chat on the year, read two aloud, and land the close warmly; a season close is allowed to feel like one."}
     ],
     "toughQuestions": [
       {"q": "Isn't deciding at 70 percent risky in a university, where mistakes are visible?", "a": "The rule travels with the door test. One-way, high-visibility calls still earn full diligence. The everyday calls we circle, the tools, drafts, meetings, and asks, are two-way doors, and the visible mistake there is usually the six-month delay, which everyone notices too."},
-      {"q": "Can I use AI to help me decide?", "a": "As an input, yes, inside the light: green for public or generic questions, yellow for internal content in approved VU tools, and red, never, for private information about people. AI can widen your options and pressure test your reasoning; the call itself stays yours. Deciding is the habit we spent nine months protecting."},
-      {"q": "What happens to Anchor's Edge after this session?", "a": "The series ends; the rhythm you keep is up to you. Your 90-day plan from Tuesday carries you to September, the capstone lab and this month's LinkedIn Learning course run through June, and the dashboard stays open for revisits. The habits were always the product."}
+      {"q": "Can I use AI to help me decide?", "a": "As an input, yes, inside the light: green for public or generic questions, yellow for internal content in approved VU tools, and red, never, for private information about people. AI can widen your options and pressure test your reasoning; the call itself stays yours. Deciding is the habit we spent all year protecting."},
+      {"q": "What happens to Anchor's Edge after this session?", "a": "The series year wraps, and Anchor's Edge comes back with room to grow. Your 90-day plan from Tuesday carries you to September, the capstone lab and this month's LinkedIn Learning course run through June, and the dashboard stays open for revisits. The habits were always the product."}
     ],
     "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes, and the finale of Anchor's Edge. Bring the decision you have been circling; you will never be asked to share it. You will leave with a deadline you chose. Live and interactive; have the session link open on your own screen."},
+      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes, and the close of the Anchor's Edge year. Bring the decision you have been circling; you will never be asked to share it. You will leave with a deadline you chose. Live and interactive; have the session link open on your own screen."},
       {"title": "7-day pulse (send one week after)", "body": "Subject: Did it land? Three lines, reply whenever: 1) Did the decision on your landing card get decided? 2) What did moving at 70 percent teach you? 3) What is circling next, and when does it land?"}
     ]
   }

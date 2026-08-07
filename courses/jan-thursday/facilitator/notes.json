@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "Steady in the Fog · Thrive Thursday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January is the AI at Work month, and this session lands even for people who missed Monday and Tuesday.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the move on your card happen? What did it teach you that waiting would have hidden? What is your next small experiment?' Count of completed adaptability moves is the Level 3 metric for the week.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 3, AI-Enabled Workforce Readiness.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "The breakout surfaces a genuinely painful change, like a reorganization in progress",
+    "then": "Acknowledge it plainly and keep the tools pointed at it: the sort and the small step work hardest on real changes. Offer a follow-up conversation offline rather than processing it live."
+   },
+   {
+    "if": "Someone challenges the premise: leadership should just communicate better",
+    "then": "Agree without surrendering the session: better communication and personal adaptability are both real needs. This hour builds the half that is in the room's control."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't this just telling us to cope with poor communication from above?",
+    "a": "Adaptability and good communication are complements, and this session only claims the personal half. The sort even helps you ask better questions upward: a named assumption is a question leadership can actually answer, while general anxiety is much harder to respond to."
+   },
+   {
+    "q": "What if my experiment goes wrong and makes things worse?",
+    "a": "That is what the two design rules protect: chore-sized and reversible. On AI experiments, the traffic light adds the safety rail: green chores only, so the worst case is a draft you discard. An experiment that cannot fail safely is scoped too big; shrink it until it can."
+   },
+   {
+    "q": "How do I steady a colleague when I am worried too?",
+    "a": "Use the shape anyway; honesty is the requirement, and calm is usually the result. Naming the known and the unknown out loud steadies the speaker as much as the listener, and offering a shared step means neither of you waits alone."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on staying steady through change. Bring one workplace change that is genuinely on your mind; you will never be asked to name people. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the move happen? Three lines, reply whenever: 1) Did the adaptability move on your card happen? 2) What did it teach you that waiting would have hidden? 3) What is your next small experiment?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Thrive Thursday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Softskill · Adaptability: leading through ambiguity.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century means working through seasons where the answers are still forming. Staff who stay adaptable keep Exceptional Core Operations moving while the certainty catches up.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. An AI-ready workforce is mostly an adaptable one. Today builds the personal skill underneath this month's theme: moving forward on incomplete information with your footing intact.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: sort a changing situation into known, unknown, and assumption; design one small experiment that buys information while certainty catches up; use grounding language that helps a worried colleague stay steady. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: known, unknown, assumed, the small experiment, steady the room. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Known, unknown, assumed",
+   "purpose": "Teach the three-pile sort that shrinks ambiguity into actionable pieces.",
+   "say": "Here is the shorthand for every change season: the fog is never as big as it feels. Most of what makes ambiguity heavy is that it arrives unsorted. So the first adaptability skill is a sorting move. Three piles: known, meaning confirmed by someone accountable for it; unknown, meaning genuinely undecided; and assumed, which is a guess wearing a fact's clothes. The piles are always smaller than the fog.",
+   "facilitate": [
+    "Read the concept card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
+    "Run the discussion on the colleague's line: which half is known, which half is assumed, and what is the tell?",
+    "Run the breakout: one assumption dressed up as a fact, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "Think of a change on your own plate. What is one assumption you have been treating as a fact?",
+    "expect": [
+     "Job or role fears stated as certainties",
+     "Beliefs about what leadership has decided",
+     "Timelines nobody actually announced"
+    ],
+    "respond": "Notice how each one turns into a question the moment it is named. Assumptions are only dangerous while they stay disguised."
+   },
+   "debrief": "Act on the known, watch the unknown, test the assumed. That single sort is most of what calm people are doing.",
+   "watchFor": "The sort turning into a gripe session about specific leaders or colleagues. Keep it on situations and roles, never names, and steer each pile toward testable statements.",
+   "transition": "The sort tells you where the fog is. The next skill walks into it.",
+   "coreNote": "Core: read the card, run the discussion from chat, ask for one assumption.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "The small experiment",
+   "purpose": "Replace waiting for certainty with one small, reversible, information-buying step.",
+   "say": "Here is the adaptable move nobody teaches: when you cannot get certainty, buy information. A small experiment is one reversible, chore-sized step taken this week: try the new tool on one task, sit in on the new process once, ask the direct question. This month the obvious experiment is an AI one, and Tuesday's traffic light keeps it safe: green chores, public or generic, are the perfect testing ground.",
+   "facilitate": [
+    "Run Design the experiment; two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: a reversible step plus a shared close-out."
+   ],
+   "ask": {
+    "q": "Why does sharing one surprise with your team beat keeping the learning private?",
+    "expect": [
+     "It steadies people who have yet to try",
+     "It makes being mid-learning normal",
+     "Others correct or extend what you found"
+    ],
+    "respond": "All three. One experiment shared is a team's worth of fog cleared, which is why the close-out is half the move."
+   },
+   "debrief": "Small, reversible, this week, then shared. Experiments are how adaptable people wait.",
+   "watchFor": "Experiments scoped too big to be safe or reversible. Shrink them out loud: if it cannot be undone or finished this week, it is a project, and projects need a plan.",
+   "transition": "You can steady yourself now. The last skill steadies the people around you.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Steady the room",
+   "purpose": "Give learners the steadying reply: name the known, admit the unknown, offer one step.",
+   "say": "Every changing workplace has two contagious moods, spiral and steady, and whichever one speaks most confidently spreads. Steadying has a learnable shape: name what is actually known, admit what is genuinely unknown, and offer one small step, ideally together. You are about to hear three replies to the same worried colleague. Call what each one does to the room.",
+   "facilitate": [
+    "Run Steady or spiral? live; everyone plays on their own screen.",
+    "After the dismissive reply, pause: ask why kindness landed as shutdown.",
+    "Close with the shape typed in chat: known, unknown, one step."
+   ],
+   "ask": {
+    "q": "Why does 'you will be fine, just relax' fail even when it is meant kindly?",
+    "expect": [
+     "It skips the person's actual question",
+     "It ends the conversation",
+     "It sounds like the speaker knows something they do not"
+    ],
+    "respond": "Right. Comfort without content reads as dismissal. The steadying reply does more work and takes only one more sentence."
+   },
+   "debrief": "Known, unknown, one step. Honest and specific beats confident and vague, every season.",
+   "watchFor": "The belief that steadying requires having answers. Stress the middle of the shape: admitting the unknown is what makes the known believable.",
+   "transition": "Quick recap, then you build your own card.",
+   "coreNote": "Core: run the trainer, skip the pause, take one voice on the debrief.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Certainty arrives late. Adaptable people learn while they wait.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One change that is actually on your mind, one assumption you need to test, one move from today. Situations and roles, never names. Build the card, pick your window, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "That closes the week of AI at Work. You have Monday's tone, Tuesday's first win, and today's footing for everything the season changes next. Make your move this week and bring what it taught you back to your team. In February the series turns to Retain, Grow, Move, where the Talent Marketplace and the Transfer Portal take center stage, and the AI thread picks back up in April with Spot AI-Exposed Work. Until then, the First-AI-Win sandbox session and the LinkedIn Learning course Generative AI for Business Leaders are open all month. Steady the room you are in.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

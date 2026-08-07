@@ -88,6 +88,14 @@
       "why": "Warm and costless. No advice to act on, no name said where it counts. Kind words become advocacy when they get repeated to someone with a decision to make."
      }
     ]
+   },
+   "deeper": {
+    "title": "Why sponsorship stays invisible",
+    "body": "Sponsorship is hard to learn by watching because it happens where you are absent, so most people conclude it barely exists and over-invest in collecting advice. There is a second confusion: one person can be both. The director who coaches your slides on Tuesday might stake their name on you in Thursday's staffing meeting. The relationship is not the currency; the act is. Track acts and you see who actually spends for whom.",
+    "steps": [
+     "List the three people who have most helped your career, then mark each act of help A for advice or S for sponsorship. Notice the ratio.",
+     "Write down one decision that went your way where you never learned who spoke for you. Someone probably did."
+    ]
    }
   },
   {
@@ -155,6 +163,14 @@
      "mid": "Your would-be sponsor thinks well of you in a general way. When the room asked for names, general goodwill produced a pause, and the pause produced someone else's name.",
      "weak": "Months pass. The work stayed good and stayed invisible. The colleague who walked a director through one finished project is now leading the thing you wanted."
     }
+   },
+   "deeper": {
+    "title": "Choosing the right sponsor",
+    "body": "Not every senior person can sponsor you; the credibility has to be spendable in the rooms you need. Look for someone who has actually seen your finished work, sits in or near the rooms where your kind of chance gets decided, and has a record of saying names other than their own favorites. One well-placed sponsor beats three prestigious ones. And keep the ask bounded to one room and one chance, so their yes is cheap to give.",
+    "steps": [
+     "Name the room where your next chance gets decided, then list who is actually in it. Your sponsor search starts on that list.",
+     "Pick the one person on that list who has seen your finished work. If nobody has, your first move is the showing, not the ask."
+    ]
    }
   },
   {
@@ -172,6 +188,8 @@
      "tag": "The advocacy question",
      "text": "Whose name do you say in rooms they are not in? If the answer is nobody, you are holding credibility and spending none of it. Pick one colleague whose work you have seen, and say their name the next time the room asks who could do this."
     },
+    "context": "Right now, somewhere at Vanderbilt, a staffing conversation is asking who could take this on. The names that get said belong to people whose work someone in the room has seen. Every person on this call is the potential sayer of a name this week, whatever their title.",
+    "discuss": "Whose name do you actually say in rooms they are not in, roles only? If the honest answer is nobody, what would it take to change that this week?",
     "q": "Quick check: what turns a compliment into an act of sponsorship?",
     "opts": [
      {
@@ -189,6 +207,14 @@
       "correct": false,
       "why": "Public praise helps, and it is unaimed. Sponsorship puts a specific name in front of a specific decision."
      }
+    ]
+   },
+   "deeper": {
+    "title": "Sponsorship with a light touch",
+    "body": "Giving advocacy has its own craft: vouch for the work, not the whole person. 'I have seen their process mapping and it was excellent' is spendable and survives a miss; 'they are amazing' is a blank check. Match the size of your claim to what you have actually seen, name the evidence, and let the decision-maker do the rest. Small accurate claims, repeated over time, build more careers than one grand endorsement.",
+    "steps": [
+     "Pick one colleague, role only, and write the one-sentence vouch: the specific work you saw and what it tells a decision-maker.",
+     "Identify the next room or thread where that sentence would count, and decide now that you will say it there."
     ]
    }
   }
@@ -290,7 +316,7 @@
   "brandline": "Say their name where it counts."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session closes the January Retain, Grow, Move week.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session closes the February Retain, Grow, Move week.",
   "pulse": "Seven days out, send the pulse: 'Did the advocacy move on your card happen? What did it cost, and what came back? Whose name do you say in rooms they are not in?' Count of completed advocacy moves is the Level 3 metric for the month.",
   "s1": {
    "title": "Advice versus advocacy",
@@ -344,7 +370,7 @@
    "say": "Here is the part that makes advocacy an everyone skill and never a perk of rank. You sit in rooms other people are absent from every week. When someone asks who could take this on, you have a name you could say and evidence you could attach. Most of us hold that credibility and spend none of it. So the question this section leaves you with is simple: whose name do you say in rooms they are not in?",
    "facilitate": [
     "Read the concept card aloud; let the advocacy question sit for a beat.",
-    "Run the knowledge check; everyone answers on their own screen.",
+    "Show the In the room card, then open the discussion prompt: whose name do you say, roles only? An honest nobody counts; take two or three voices.",
     "Run the breakout: who have you spoken up for lately, roles only; an honest nobody counts."
    ],
    "ask": {
@@ -362,7 +388,7 @@
    "coreNote": "Core: skip the breakout; ask for advocacy question answers in chat, roles only."
   },
   "capstoneSay": "Now make it real. One move: the showing, the ask, or the give. The role and the work, never a name. Build the card, pick the window, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-  "closeSay": "That closes the Retain, Grow, Move week: Monday gave managers the bench, Tuesday made you findable for the Transfer Portal, and today gave everyone the human engine under both, advocacy. Make your move this week. If you want more on what keeps people, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson, with its navigator-led stay-interview practice lab, runs all month. Next week Anchor's Edge rolls into February: a fresh Manager Monday, same rhythm, new theme.",
+  "closeSay": "That closes the Retain, Grow, Move week: Monday gave managers the bench, Tuesday pointed the Talent Marketplace and the Transfer Portal at your own next move, and today gave everyone the human engine under both, advocacy. Make your move this week. If you want more on what keeps people, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson, with its navigator-led stay-interview practice lab, runs all month. Next week Anchor's Edge rolls into March and Coaching as the Core Manager Behavior: a fresh Manager Monday, same rhythm, new theme.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

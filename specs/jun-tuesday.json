@@ -10,7 +10,7 @@
   "titleHtml": "Your next 90 days, <em class=\"gold-text\">on one card</em>.",
   "tagline": "Building a 90-day AI action plan.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: build a personal 90-day AI action plan with one skill to build, one green-light task to hand to AI, and one habit to keep human.",
-  "heroLead": "Nine months of AI learning ends in a plan you can hold: one skill you will build, one green task you will hand to AI, one habit you will keep human. Small enough to finish, dated enough to check, yours enough to matter.",
+  "heroLead": "A year of AI learning lands in a plan you can hold: one skill you will build, one green task you will hand to AI, one habit you will keep human. Small enough to finish, dated enough to check, yours enough to matter.",
   "objectives": [
     "Choose one AI-adjacent skill to build in the next 90 days",
     "Pick one green-light task to hand to AI, cleared through the traffic light",
@@ -39,12 +39,22 @@
       "lead": "The best 90-day skill goal is embarrassingly small. Prompting AI well for your weekly report beats mastering AI. Reading one dashboard beats learning analytics. Small and finished builds more capability than ambitious and abandoned, every time.",
       "group": "In pairs: trade one skill you could realistically build by September. Partner's job: shrink it until it honestly fits 90 days. 90 seconds each way.",
       "solo": "Write one skill you could realistically build by September. Then shrink it until it honestly fits 90 days.",
+      "deeper": {
+        "title": "Shrinking without settling",
+        "body": "The shrink can go too far: a skill so small it was really a task. The test is repetition. A task happens once; a skill changes how a whole category of work goes. Drafting one newsletter with AI is a task; prompting a solid first draft of any recurring update is a skill sized for 90 days. Keep the ambitious version as your direction and let the 90-day version be its first checkable installment. The next installment gets its own 90 days.",
+        "steps": [
+          "Write your skill three ways: the ambitious version, the shrunken version, the too-small version. Mark where the skill stops and the task begins.",
+          "Name the recurring work your shrunken skill upgrades, then put the first practice rep on your calendar this week."
+        ]
+      },
       "interaction": {
         "type": "check",
         "card": {
           "tag": "The 90-day skill test",
           "text": "A good 90-day skill passes three questions: can I name the work I will use it on next week, can someone tell in September whether I built it, and can I practice it inside my actual job? If any answer is no, shrink the skill."
         },
+        "context": "In the room: bring to mind the AI skill you keep meaning to build, in the ambitious form it lives in your head. Run it through the card's three questions: named work, checkable by September, practiced inside your job. Most ambitions fail the second question, and shrinking is what rescues them.",
+        "discuss": "Which of the three questions kills the most skill goals around here: named work, checkable, or inside the job? Why that one?",
         "q": "Quick check: which of these is the strongest 90-day skill goal?",
         "opts": [
           {"t": "Become proficient in artificial intelligence", "correct": false, "why": "Nobody can tell in September whether this happened. It is a direction, and directions make honorable, unfinishable goals."},
@@ -62,6 +72,14 @@
       "lead": "The plan's second line is a task you stop doing by hand. For your plan, pick a green task: public or generic, go. The full light still governs the rest: yellow is internal, approved VU tools only; red is private information about people, never.",
       "group": "Breakout pairs: name the task you want to hand to AI and run it through the light out loud. Partner checks the call. 90 seconds each way.",
       "solo": "Name the task you want to hand to AI and run it through the light. Write the color next to it.",
+      "deeper": {
+        "title": "The light on compound tasks",
+        "body": "Most real tasks are compound, and one red ingredient colors the whole thing. An event write-up is green until the paragraph about a colleague's departure goes in; meeting notes are yellow until they record who struggled with what. So run the light on the task's ingredients, not its title. Often you can split the work: hand AI the generic frame, with an approved VU tool as your default, and keep every sentence about people entirely yours.",
+        "steps": [
+          "List your chosen handoff task's ingredients: each kind of information that goes into it. Color every ingredient, not just the task.",
+          "If any ingredient runs yellow or red, split the task: write the green half as your plan's handoff line and keep the rest by hand."
+        ]
+      },
       "interaction": {
         "type": "trainer",
         "playTitle": "Clear the handoff",
@@ -85,6 +103,14 @@
       "eyebrow": "One Habit",
       "headline": "Choose what stays <em>yours</em>.",
       "lead": "The third line is a quiet promise: one habit you keep doing yourself, on purpose. The thank-you written by hand, the hard message drafted alone, the first read of a colleague's work. Naming what stays human keeps you the one steering.",
+      "deeper": {
+        "title": "Why the habit line holds the plan",
+        "body": "The habit line looks decorative and does the most work. People who cannot say what they keep tend to swing between refusing AI entirely and drifting into handoffs they never chose. A named habit is the anchor that makes every other handoff deliberate. Choose one where the doing changes you: the hard message you draft alone because drafting is how you think, the first read you give a colleague because the attention is the gift. If losing it would cost you nothing, pick a truer one.",
+        "steps": [
+          "Write why your habit stays human in one sentence that names what the doing gives you, not what AI would get wrong.",
+          "Do the habit once this week, then check whether your sentence held up. If it did not, choose a truer habit."
+        ]
+      },
       "interaction": {
         "type": "builder",
         "playTitle": "Assemble the plan",
@@ -170,23 +196,23 @@
   },
   "closing": {
     "headline": "Ninety days is <em>enough</em>.",
-    "lead": "You leave with three dated lines and a review that will actually happen. Thursday closes the whole year with the skill underneath every plan: deciding while the deciding is good.",
+    "lead": "You leave with three dated lines and a review that will actually happen. Thursday wraps the series year with the skill underneath every plan: deciding while the deciding is good.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Date all three lines and book the day-30 review",
     "nextBody": "Put the skill rep, the handoff, and the habit on real days, and send your plan to one colleague. If change is the water you are swimming in, this month's LinkedIn Learning pick, Leading Your Team Through Change, is a good companion.",
     "brandline": "One skill. One handoff. One habit. Dated."
   },
   "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. June is the closing month, From Insight to Action; the traffic light from December and March carries straight in.",
+    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. June closes the series year with From Insight to Action; the traffic light from January and April carries straight in.",
     "pulse": "Seven days out, send the pulse: 'Are your three lines dated? Did the first skill rep or handoff happen? Who holds your day-30 review?' Count of plans with a booked day-30 review is the Level 3 metric for the month.",
     "s1": {
       "title": "One skill to build",
       "purpose": "Shrink skill ambitions into one named, checkable, 90-day goal.",
-      "say": "Nine months of AI learning could end with a shelf of good intentions. It is going to end with a plan instead, and the plan has exactly three lines. Line one is a skill, and the discipline is smallness: a skill you can name the work for, check by September, and practice inside your actual job.",
+      "say": "A year of AI learning could fade into a shelf of good intentions. It is going to land in a plan instead, and the plan has exactly three lines. Line one is a skill, and the discipline is smallness: a skill you can name the work for, check by September, and practice inside your actual job.",
       "facilitate": [
         "Read the 90-day skill test card aloud, all three questions.",
-        "Run the knowledge check; let everyone answer on their own screen.",
-        "Run the breakout: trade skills, then shrink each other's until they fit."
+        "Read the In the room card; everyone runs their own skill through the three questions silently.",
+        "Lead the discussion: which question kills the most goals? Then run the breakout: trade skills and shrink each other's until they fit."
       ],
       "ask": {
         "q": "What is the smallest useful version of the skill you just thought of?",
@@ -237,7 +263,7 @@
       "coreNote": "Core: skip the chat collection; run the builder solo."
     },
     "capstoneSay": "Now write yours. Three lines: the skill, the handoff with its color, the habit. Pick the line you start this week and how the day-30 review happens. Build the card, copy it somewhere permanent, and send it to one colleague today. Two minutes, quiet, go.",
-    "closeSay": "Nine months ago most of us were circling AI at a safe distance. Today you wrote a plan that names what you build, what you hand over, and what you keep. On Thursday, Thrive Thursday closes the whole year with decisiveness, the move from data to decision, and it is a fitting last word; be there for the landing. If you want company for the 90 days, this month's LinkedIn Learning course, Leading Your Team Through Change, and the navigator-led action-planning lab are both open to you.",
+    "closeSay": "When this series year opened, most of us were circling AI at a safe distance. Today you wrote a plan that names what you build, what you hand over, and what you keep. On Thursday, Thrive Thursday wraps the series year with decisiveness, the move from data to decision, and it is a fitting last word; be there for the landing. If you want company for the 90 days, this month's LinkedIn Learning course, Leading Your Team Through Change, and the navigator-led action-planning lab are both open to you.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
       {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},

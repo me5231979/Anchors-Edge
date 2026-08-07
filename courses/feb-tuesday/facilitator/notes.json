@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "Your Next Move · Take-Off Tuesday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. Builds on the Transfer Portal month earlier in the series; February is the Retain, Grow, Move month on succession and internal mobility.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Did the move on your card happen? What direction did you name? What did your profile claim that your title never showed?' Count of started next-move plans is the Level 3 metric for the month.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 1, Talent Marketplace & Transfer Portal.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone asks a Portal or Marketplace mechanics question beyond today's scope",
+    "then": "Park it visibly: 'Good question, logging it for the program team.' Point them to the Transfer Portal month materials in the series library and send parked questions upward with the pulse."
+   },
+   {
+    "if": "A participant says their manager punishes people for looking internally",
+    "then": "Take it seriously and keep it roles-only: 'If that is happening, there are channels for it, and I will point you to them after.' Restate the policy plainly; never litigate a specific manager on the call."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Will my manager be notified if I update my profile or get matched?",
+    "a": "Your profile is yours, and keeping it current is normal professional upkeep, expected of everyone this month. Best practice is to bring your named direction to your manager yourself; a manager who knows your direction can advocate for it."
+   },
+   {
+    "q": "Is this just a way to move people into jobs nobody wants?",
+    "a": "The matching starts from your skills and your named direction, and you can always say no. Surfacing is an offer; nothing about these systems drafts anyone anywhere."
+   },
+   {
+    "q": "I have been in the same role for fifteen years. Is this really for me?",
+    "a": "Especially for you. Long tenure usually means a deep skill set and a thin profile. The skills sweep is where fifteen years of capability finally gets written down, and stretch projects surface for exactly that depth."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes to plan your next move. You know the Transfer Portal; now point it and the Talent Marketplace at your own growth. Bring one open question: what do I want next? Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the next-move plan start? Three lines, reply whenever: 1) Did the move on your card happen? 2) What direction did you name? 3) What did your profile claim that your title never showed?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes talent that keeps growing here. Destination Vanderbilt means people choose to come; a staff member with a real plan for their next internal move is someone who keeps choosing to stay.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 connects employees to internal opportunities across the university. The systems exist and you know them; today is about pointing them at your own growth and your own next move.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: use the talent marketplace and the transfer portal together to plan your own growth and next move; name a specific direction and bring your skills profile current enough to match it; treat an internal move as a normal, encouraged vanderbilt career path. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: the tools, pointed at you, getting findable, moving is normal. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "The tools, pointed at you",
+   "purpose": "Reconnect the room to the two talent systems and turn them from things people know into a personal planning kit.",
+   "say": "You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your growth, your direction, your next move, planned on purpose.",
+   "facilitate": [
+    "Read the concept card once; the two-jobs split is the whole slide.",
+    "Show the In the room card, then open the discussion prompt: what did you privately wonder about your own next move? Take two or three voices.",
+    "Run the breakout: what do you want these systems working on for you this year?"
+   ],
+   "ask": {
+    "q": "What is the difference between watching the Portal and having a plan?",
+    "expect": [
+     "Watching is passive; a plan has a direction",
+     "A plan includes growth before the move",
+     "Honestly nothing, until today"
+    ],
+    "respond": "Right. Watching waits for luck. A plan names a direction, grows toward it in the Marketplace, and lets the Portal handle the last mile."
+   },
+   "debrief": "The systems are one kit: grow where you are, move when you are ready. The whole game is the direction you name, which is where section two goes.",
+   "watchFor": "System how-to questions pulling the session into mechanics. Park them: the Portal month covered the how; today is what you do with it.",
+   "transition": "So the plan runs on your profile and your direction. Time to build both.",
+   "coreNote": "Core: skip the breakout; take answers to the discussion prompt in chat.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Getting findable",
+   "purpose": "Get every person to draft a full skills entry and a specific named direction in the Talent Marketplace.",
+   "say": "Matching engines are honest machines: they can only see what you wrote. A profile that copies your job description makes you findable for the job you already have. The skills sweep and the named direction make you findable for the work you want next. And the skills your current role never uses are exactly where the interesting matches come from.",
+   "facilitate": [
+    "Run Build your findability; two minutes for both choices, then run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: full inventory with evidence, one specific direction."
+   ],
+   "ask": {
+    "q": "Why do people leave the direction field blank?",
+    "expect": [
+     "Fear of seeming disloyal or restless",
+     "Honestly not knowing what they want yet",
+     "Assuming nobody reads it"
+    ],
+    "respond": "That first fear is exactly what section three retires. For the second: name whatever is true this year. A draft direction beats a blank every time."
+   },
+   "debrief": "Findable is a choice: every usable skill with evidence, one specific direction. Blank fields match nothing.",
+   "watchFor": "People underclaiming, especially long-tenured staff writing only current duties. Push the question: what can you do that this role never asks for?",
+   "transition": "Profiles ready. One thing left: believing it is safe to use them.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Moving is normal",
+   "purpose": "Retire the loyalty myths and state internal mobility as a normal, encouraged Vanderbilt career path.",
+   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. A move across the university keeps your talent, your relationships, and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
+   "facilitate": [
+    "Run Myth or normal? live; everyone plays on their own screen.",
+    "After round one, pause: ask who has heard that myth somewhere, show of hands or chat.",
+    "Run the breakout on what people have heard about applying internally."
+   ],
+   "ask": {
+    "q": "What would make you hesitate to make an internal move, honestly?",
+    "expect": [
+     "My manager's reaction",
+     "Feeling disloyal to my team",
+     "Not feeling qualified enough"
+    ],
+    "respond": "Name each one back to the room. The manager fear is the myth we just retired; the qualification fear is why matching runs on skills, never titles."
+   },
+   "debrief": "Myths punish ambition, and they only survive in silence. Vanderbilt is saying the opposite out loud: move, grow, stay.",
+   "watchFor": "Anyone hearing this as a promise of promotions. The commitment is visibility of opportunity and safety to pursue it, never a guaranteed yes.",
+   "transition": "Quick recap, then you build your next-move card.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: You know the tools. Now point them at your own next move.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One direction, in your own words: the kind of work you would say yes to. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave with a plan started; make it real this week. Thursday's Thrive Thursday takes the next step: advocacy, the difference between a mentor who gives you advice and a sponsor who spends their credibility on you. A plan gets you moving; a sponsor gets you chosen. And if you want to go deeper this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab. See you Thursday.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

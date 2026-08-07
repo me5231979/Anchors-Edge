@@ -60,7 +60,7 @@
    "solo": "Name one workplace change on your mind, then write one assumption you have been treating as a fact.",
    "deeper": {
     "title": "Sorting under pressure",
-    "body": "The known pile has a strict entry test: someone accountable for the decision said it, in writing or somewhere they could be quoted. Secondhand certainty stays out. Assumptions are easiest to catch by their connective tissue; words like means, so, and obviously are where a fact quietly picks up a conclusion on the way to you. And the sort is a living list. Re-sort when news lands, so yesterday's unknown becoming known visibly shrinks the fog.",
+    "body": "The known pile has a strict entry test: someone accountable for the decision said it, in writing or somewhere they could be quoted. Secondhand certainty stays out. Assumptions are easiest to catch by their connective tissue; words like means, so, and obviously are where a fact quietly picks up a conclusion. And the sort is a living list. Re-sort when news lands, so yesterday's unknown becoming known visibly shrinks the fog.",
     "steps": [
      "Write the three piles for the change on your mind, applying the entry test: who accountable said each known item?",
      "Circle every means and so in your own version of the worry; each one marks an assumption worth testing."
@@ -72,7 +72,7 @@
      "tag": "The three-pile sort",
      "text": "When change hits, write three lists: known (confirmed by someone accountable for it), unknown (nobody has decided yet), and assumed (a guess wearing a fact's clothes). Act on the first, watch the second, test the third."
     },
-    "context": "The sort works because of how uncertainty behaves. A vague threat stays the same size however long you stare at it; a named question shrinks the moment someone answers it. Sorting turns dread into named questions, and a new year that opens with AI on every agenda supplies plenty of material to practice on.",
+    "context": "The sort works because of how uncertainty behaves. A vague threat stays the same size however long you stare at it; a named question shrinks the moment someone answers it. Sorting turns dread into named questions, and a new year that opens with AI on every agenda supplies plenty to practice on.",
     "discuss": "Take the line 'they are bringing in AI, which means our jobs are going away.' Which half belongs in which pile, and what is the tell?",
     "q": "A colleague says: 'They are bringing in AI, which means our jobs are going away.' Where does that second part belong?",
     "opts": [
@@ -103,7 +103,7 @@
    "lead": "Waiting for certainty feels responsible and costs you the learning season. Adaptable people take one small, reversible step that buys information: try the tool on one chore, sit in on the new process once, ask the direct question. Small steps thin the fog.",
    "deeper": {
     "title": "Design checks for a safe experiment",
-    "body": "A good experiment passes three design checks before you run it. It fits inside a normal week without anyone's sign-off. It leaves no mark if it fails: a discarded draft, a process you observed once, a question that went unanswered. And it aims at your scariest assumption first, because that is where information buys the most calm. For AI trials the traffic light is the safety rail: stay on green chores and the worst outcome is a draft you delete.",
+    "body": "A good experiment passes three design checks. It fits inside a normal week without anyone's sign-off. It leaves no mark if it fails: a discarded draft, a process you observed once, an unanswered question. And it aims at your scariest assumption first, because that is where information buys the most calm. For AI trials the traffic light is the safety rail: stay on green chores and the worst outcome is a draft you delete.",
     "steps": [
      "Write your experiment as one sentence: this week I will take [step] to test [assumption]. If it needs sign-off, shrink it.",
      "Decide in advance what you will watch for, so the trial produces an observation instead of a feeling.",
@@ -181,7 +181,7 @@
    "solo": "Recall a change announcement that rattled your area. What did the steadiest voice around you actually say?",
    "deeper": {
     "title": "Steadying without overpromising",
-    "body": "The steadying voice has one trap: comfort that hardens into a promise. 'Your job is safe' feels kind and stakes your credibility on a decision you do not own; if anything shifts, you become one more voice that was wrong. Steady with what you can personally vouch for: what was said, what you tried, what you will do next. Then close the loop later. Coming back with 'here is what I found out' turns one steadying moment into a reputation for being worth asking.",
+    "body": "The steadying voice has one trap: comfort that hardens into a promise. 'Your job is safe' feels kind and stakes your credibility on a decision you do not own; if things shift, you become one more voice that was wrong. Steady with what you can vouch for: what was said, what you tried, what you will do next. Then close the loop later; 'here is what I found out' turns one steadying moment into a reputation for being worth asking.",
     "steps": [
      "Script a steadying reply for a real colleague: one known you can vouch for, one honest unknown, one step together.",
      "Reread it for promises about decisions you do not own, and swap each one for something you can deliver."
