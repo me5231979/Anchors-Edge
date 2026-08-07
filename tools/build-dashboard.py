@@ -81,10 +81,10 @@ MONTHS = [
 ]
 
 DAYS = [
-    ("monday", "Manager Monday", "For managers"),
-    ("tuesday", "Take-Off Tuesday", "All staff"),
+    ("monday", "Manager Monday", "Managers · virtual, 45 min"),
+    ("tuesday", "Take-Off Tuesday", "All staff · virtual, 45 min"),
     ("wednesday", "Wellness Wednesday", "A light nod"),
-    ("thursday", "Thrive Thursday", "All staff"),
+    ("thursday", "Thrive Thursday", "All staff · virtual, 45 min"),
 ]
 
 
@@ -140,13 +140,13 @@ def workshop_row(m):
     if spec is None:
         return f"""
         <div class="session session--adminonly">
-          <span class="session__day">Navigator Workshop<small>In person · 90 min · admin</small></span>
+          <span class="session__day">Navigator Workshop<small>In person · 90 min · day varies</small></span>
           <div class="session__body"><h4>In build</h4><p>{esc(m["lab"])}</p></div>
           <span class="session__cta"><span class="btn btn--soon">Coming soon</span></span>
         </div>"""
     return f"""
         <div class="session session--adminonly">
-          <span class="session__day">Navigator Workshop<small>In person · 90 min · admin</small></span>
+          <span class="session__day">Navigator Workshop<small>In person · 90 min · day varies</small></span>
           <div class="session__body"><h4>{esc(spec["title"])}</h4><p>{esc(spec["tagline"])}</p></div>
           <span class="session__cta">
             <a class="btn btn--dark" href="courses/{slug}/">Launch</a>
@@ -268,20 +268,21 @@ page = f'''<!DOCTYPE html>
   <!-- ============ THE RHYTHM ============ -->
   <section class="section on-dark" id="rhythm">
     <div class="wrap">
-      <p class="eyebrow" data-reveal>The weekly rhythm</p>
-      <h2 class="h2" data-reveal>Four days. One <em>theme</em>.</h2>
-      <div class="grid3" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <p class="eyebrow" data-reveal>The monthly rhythm</p>
+      <h2 class="h2" data-reveal>Four sessions. One <em>theme</em>.</h2>
+      <p class="lead" data-reveal>Three virtual sessions run every week, 45 minutes each. Once a month a navigator teaches the theme in person, hands on, in a longer workshop.</p>
+      <div class="grid3 rhythm-grid">
         <div class="feature" data-reveal>
-          <span class="feature__num">MON</span>
+          <span class="feature__num">MON · VIRTUAL</span>
           <h3>Manager Monday</h3>
-          <span class="rhythm-aud">For managers</span>
-          <p>The month's theme through the manager lens: the behaviors, reads, and conversations that move the goal on a real team.</p>
+          <span class="rhythm-aud">For managers · 45 min</span>
+          <p>The month's theme through the manager lens: the behaviors, reads, and conversations that move the goal on a real team. Virtual, instructor led.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__num">TUE</span>
+          <span class="feature__num">TUE · VIRTUAL</span>
           <h3>Take-Off Tuesday</h3>
-          <span class="rhythm-aud">All staff</span>
-          <p>Tools and tech, hands on: the systems behind the theme, from the Talent Marketplace to the Transfer Portal to safe AI use.</p>
+          <span class="rhythm-aud">All staff · 45 min</span>
+          <p>Tools and tech, hands on: the systems behind the theme, from the Talent Marketplace to the Transfer Portal to safe AI use. Virtual, instructor led.</p>
         </div>
         <div class="feature" data-reveal>
           <span class="feature__num">WED</span>
@@ -290,10 +291,16 @@ page = f'''<!DOCTYPE html>
           <p>A concept card or five-minute opener, never a full course, so the wellness thread runs through every month without competing for attention.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__num">THU</span>
+          <span class="feature__num">THU · VIRTUAL</span>
           <h3>Thrive Thursday</h3>
-          <span class="rhythm-aud">All staff</span>
-          <p>The soft skill that carries the theme: curiosity, clarity, adaptability, advocacy, empathy, and the rest of the year's toolkit.</p>
+          <span class="rhythm-aud">All staff · 45 min</span>
+          <p>The soft skill that carries the theme: curiosity, clarity, adaptability, advocacy, empathy, and the rest of the year's toolkit. Virtual, instructor led.</p>
+        </div>
+        <div class="feature feature--inperson" data-reveal>
+          <span class="feature__num">DAY VARIES · IN PERSON</span>
+          <h3>Navigator Workshop</h3>
+          <span class="rhythm-aud rhythm-aud--live">In person · 90 min</span>
+          <p>Once a month a navigator runs the theme as a working lab in the room: tables, flip charts, real artifacts you take back to your desk. Watch your invite for the date.</p>
         </div>
       </div>
     </div>

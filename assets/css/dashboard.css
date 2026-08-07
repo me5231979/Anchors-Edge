@@ -358,3 +358,13 @@ body.admin .session--adminonly { display: grid; }
 
 /* sign-up button: public view only (facilitator takes its place in admin view) */
 body.admin .session__signup { display: none; }
+
+/* navigator workshop card in the rhythm row */
+.feature--inperson { border: 1px solid rgba(207,174,112,.4); border-radius: var(--radius);
+  padding: 1.25rem 1.4rem; background: rgba(207,174,112,.06); }
+.rhythm-aud--live { background: var(--vu-gold-flat); border-color: var(--vu-gold-flat); color: var(--vu-black); }
+.rhythm-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+@media (min-width: 760px) { .rhythm-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1180px) { .rhythm-grid { grid-template-columns: repeat(5, 1fr); gap: 1.25rem; } }
+.rhythm-grid .feature p { font-size: .9rem; }
+.rhythm-grid .feature h3 { font-size: 1.25rem; }
