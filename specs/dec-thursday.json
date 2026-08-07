@@ -55,12 +55,22 @@
    "lead": "Make it better. Circle back soon. Own this going forward. Requests like these feel clear in the moment and dissolve by Tuesday. The fix is three questions anyone can ask anyone: what does done look like, when is it actually needed, and who makes the call?",
    "group": "In pairs: name a current task where you could not describe what done looks like. What would you ask, and of whom? 90 seconds each way.",
    "solo": "Name one current task where you cannot describe what done looks like. Write the clarity question you will ask, and to whom.",
+   "deeper": {
+    "title": "When the requester does not know yet",
+    "body": "Sometimes the honest answer to what does done look like is: I do not know yet. That answer is useful too. It tells you the task is exploratory, so agree on a checkpoint instead of a deliverable: I will bring a rough version Thursday and we will look at it together. And when the asker is senior, bundle the three questions into one sentence that reads as momentum: so I aim this right, what does done look like and by when?",
+    "steps": [
+     "Write the bundled one-sentence version of the three questions in your own voice, one you could say to the most senior person you work with.",
+     "Pick one live task with no picture of done. Decide whether it needs the three questions or a checkpoint agreement, then send the ask today."
+    ]
+   },
    "interaction": {
     "type": "check",
     "card": {
      "tag": "The three clarity questions",
      "text": "Before accepting any significant task, get answers to three things: what does done look like, when is it actually needed, and who makes the final call? Asking them is a service to the requester; every one you skip becomes a guess you own."
     },
+    "context": "Requests like make it better and own this going forward feel clear while everyone is nodding. The clarity lives in three answers: what done looks like, when it is really needed, and who makes the call. Asking serves the requester too: most discover their own picture is fuzzy while answering.",
+    "discuss": "Think of a task that went sideways on you this year. Which of the three answers was missing at the start, and what stopped anyone from asking?",
     "q": "Quick check: asking your manager what done looks like is...",
     "opts": [
      {
@@ -90,6 +100,14 @@
    "lead": "Restating an expectation in your own words is the cheapest test it will ever get. If your version matches theirs, you start with confidence. If it differs, you found the gap while it costs minutes. The judgment call: act, say it back, or get it in writing.",
    "group": "Breakout pairs: name a live handoff in your work that nobody has said back yet. What would your restate be? 90 seconds each way.",
    "solo": "Name a live handoff nobody has said back yet. Write your one-sentence restate of it.",
+   "deeper": {
+    "title": "Restating up, down, and sideways",
+    "body": "The restate flexes with the relationship. With a peer it can be casual: so I take the data pull and you take the writeup, right? With someone senior, attach it to your next step so it reads as motion: I will start with the survey data, since done means the summary by Friday. And when a handoff has more than three moving parts, restate in writing; a short list is easier to correct than a paragraph of talk.",
+    "steps": [
+     "Take the live handoff from your solo prompt and write two restates: the casual peer version and the one you would send someone senior.",
+     "Use one of them in the real conversation this week. Whatever correction comes back is rework you just saved."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Clear enough?",
@@ -129,6 +147,14 @@
    "eyebrow": "The Close",
    "headline": "Agreements survive <em>in writing</em>.",
    "lead": "The last move happens after the conversation: a short written line, same day, saying what you heard and what happens next. Ninety seconds of typing is the difference between an agreement and a memory. Build the close you would actually send.",
+   "deeper": {
+    "title": "Anatomy of a close that settles arguments",
+    "body": "A working close reads like this: Thanks for the planning talk. What I heard: full draft to you by the 15th, I own the data section, you own the intro. Flag anything I got off. Notice the last line. The close is a test, and the best result is a correction within the hour, because that reply just saved you the rework. Silence becomes agreement you can point to; a correction is a gap caught while it costs nothing.",
+    "steps": [
+     "Build your reusable three-line close in your notes app: what I heard, what I own, by when, plus the flag-anything line at the end.",
+     "Send one real close today for the most recent agreement you made, even if the conversation was days ago. One late close still beats none."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Write the close",
@@ -295,7 +321,8 @@
    "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, circle back soon, own this going forward. Those requests feel clear for about an hour. Three questions rescue them, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
    "facilitate": [
     "Read the concept card once; let it sit.",
-    "Run the knowledge check; everyone answers on their own screen.",
+    "Walk the In the room context; name the three answers slowly. No quiz in the live room.",
+    "Open the discussion prompt on the sideways task; take two or three voices.",
     "Run the breakout on the task with no picture of done."
    ],
    "ask": {
@@ -359,7 +386,7 @@
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
   "capstoneSay": "Now aim it at something real. One expectation in your week that would fail the done test. Name it, roles only, pick your move and your window, and build the card. Copy it somewhere you will see it tomorrow. Two minutes, quiet, go.",
-  "closeSay": "That closes the manager standard week. Monday named the behaviors, Tuesday put the Oracle tools in your hands, and today you got the clarity moves that make expectations stick from either chair. If you want to keep pulling the thread this month, the LinkedIn Learning course New Manager Foundations with Todd Dewett is open to everyone, and the navigators are running a walk-through clinic on the standard itself. Next week the rhythm continues, and December opens a brand new theme. Go run your clarity card first.",
+  "closeSay": "That closes the manager standard week. Monday named the behaviors, Tuesday put the Oracle tools in your hands, and today you got the clarity moves that make expectations stick from either chair. If you want to keep pulling the thread this month, the LinkedIn Learning course New Manager Foundations with Todd Dewett is open to everyone, and the navigators are running a walk-through clinic on the standard itself. Next week the rhythm continues, and January opens the next theme, AI at Work: Start Where You Are. Go run your clarity card first.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

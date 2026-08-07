@@ -1,0 +1,283 @@
+{
+ "meta": {
+  "program": "Your Own Evidence · Manager Monday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; May is month eight, when the manager standard becomes visible, and measurable.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Is the behavior on your card named to your team and on the calendar? What did your evidence show that surprised you? What will you check next month?' Count of named, scheduled behaviors is the Level 3 metric for the month.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A manager shares a real pulse score and starts defending it to the room",
+    "then": "Protect and redirect: 'That number is yours, and this room is for the read: what behavior would move it?' Keep specifics private; the method is the lesson."
+   },
+   {
+    "if": "Someone says the measurement is surveillance of managers",
+    "then": "Name what is measured: behaviors managers already owe their teams, read in aggregate over time. The standard watches patterns, and any manager can read their own evidence first."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "What if my pulse scores are bad because of things I can't control, like a reorg?",
+    "a": "Context is real, and the standard reads trends, so name the context and still pick a behavior. Teams in hard seasons rate managers on how visible and steady they were, and that part is fully yours."
+   },
+   {
+    "q": "Doesn't making my behavior visible look like performing for the metric?",
+    "a": "Performing a held 1:1 requires holding the 1:1. The standard picks behaviors where the performance and the substance are the same act, which is why visibility is safe to lean into."
+   },
+   {
+    "q": "Where does the LinkedIn Learning course fit? Is it required?",
+    "a": "It is optional and it is good: Giving and Receiving Feedback by Gemma Leigh Roberts, with a navigator-led feedback role-play and a development-plan build. Point managers to it as rehearsal for the conversation where they name their behavior."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Monday, 45 minutes on your own evidence. Bring a private guess: which of your numbers, pulse, 1:1 cadence, or team signals, would surprise you most? You will never be asked to share it. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is the behavior visible yet? Three lines, reply whenever: 1) Is the behavior on your card named to your team and on the calendar? 2) What did your evidence show that surprised you? 3) What will you check next month?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Manager Monday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Evidence of the manager standard: what gets measured.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes leadership you can actually see. Measured leader behavior turns good management into Exceptional Core Operations, one visible habit at a time.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 promised a manager standard that measures demonstrated behavior. This month the measurement is live, and today you learn to read what it says about you.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: name the three evidence streams that measure the manager standard; read your own pulse and cadence data without a defensive story; choose one leader behavior to make more visible this month. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: what gets measured, reading without flinching, one visible behavior. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "What gets measured",
+   "purpose": "Install the three evidence streams: pulse data, 1:1 cadence, and team signals.",
+   "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement. Here is the part that matters: it measures behavior, in three streams your team already generates. How they answer the pulse. Whether your 1:1s actually happen. The signals they send over time with retention and growth. Today is about reading those streams like a professional instead of like a defendant.",
+   "facilitate": [
+    "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
+    "Lead the discussion prompt aloud; take two or three voices, plus a chat vote on the least-checked stream.",
+    "Run the breakout on the least-checked stream, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "Which of the three streams do you trust least, and why?",
+    "expect": [
+     "Pulse, because scores feel noisy or unfair",
+     "Team signals, because they arrive slowly"
+    ],
+    "respond": "Fair. Any one stream alone is noisy; the standard reads all three together, which is what makes the picture honest."
+   },
+   "debrief": "Behavior leaves traces. The standard reads the traces, and so can you.",
+   "watchFor": "Managers debating survey methodology. Redirect: the streams are a mirror, and today's work is reading it; fixing the mirror is somebody else's job.",
+   "transition": "Reading the streams is easy on a good quarter. The skill shows up when the evidence stings.",
+   "coreNote": "Core: skip the breakout; take the least-checked stream as a chat vote only.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Reading without flinching",
+   "purpose": "Teach the evidence read: treating your own data as information about behavior, without defensiveness or overcorrection.",
+   "say": "Here is what happens to most of us when our own numbers dip: we become defense attorneys. The survey timing was bad, the team misread the question, that one person is grumpy. Every one of those might be true, and none of them moves the number. The evidence read is one discipline: when the data stings, ask what behavior would move it. That question keeps you a manager. The other questions turn you into a defendant.",
+   "facilitate": [
+    "Run Call the read live; everyone plays on their own screen.",
+    "After round one, pause: ask who sympathized with the defensive manager and why.",
+    "Run the breakout on feedback they argued with at first."
+   ],
+   "ask": {
+    "q": "What makes the overcorrection in round three feel virtuous?",
+    "expect": [
+     "It looks decisive",
+     "It proves you took the feedback seriously"
+    ],
+    "respond": "Right, and that is the trap. One signal earns one adjustment. Dramatic overhauls are defensiveness wearing a cape."
+   },
+   "debrief": "Defensiveness argues with the data. Overcorrection turns it into a verdict. The evidence read asks for one behavior.",
+   "watchFor": "Anyone spiraling on a real score they got. Normalize warmly: every manager in the room has a dip somewhere, and a dip is a prompt, never a verdict.",
+   "transition": "So your evidence points somewhere. Now you choose the behavior it points at.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "One visible behavior",
+   "purpose": "Convert the evidence read into one named, scheduled, observable behavior for the month.",
+   "say": "The standard cannot measure your intentions, and honestly, neither can your team. So the move this month is almost mechanical: pick one behavior your evidence points at, then make it visible on purpose. Name it to your team. Put it on the calendar. Invite them to catch it slipping. Visibility feels like exposure, and it is actually insurance: a named behavior is one your busiest week cannot quietly delete.",
+   "facilitate": [
+    "Run Make it visible; two minutes to choose both slots and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: named, scheduled, observable."
+   ],
+   "ask": {
+    "q": "Why does naming the behavior to your team feel risky?",
+    "expect": [
+     "What if I slip in front of them",
+     "It sounds like a public promise"
+    ],
+    "respond": "It is a public promise, and that is the design. A team that watches you keep a small promise learns the standard is real."
+   },
+   "debrief": "Visible behavior has three parts: a name, a cadence, and witnesses.",
+   "watchFor": "Managers picking three behaviors. Cut them back to one; the month measures one thing well over three things vaguely.",
+   "transition": "Quick recap, then you build your own card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: You do not get to grade your own leadership anymore. The evidence does.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it real. One behavior your evidence points at, one window to start it. Keep any team references to roles, never names. Build the card, copy it somewhere you will see it, and be ready to name the behavior to your team by Friday. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave knowing how the standard reads you, and with one behavior about to become visible. Tomorrow's Take-Off Tuesday opens the same toolbox for everyone: how the pulse and 360 tooling actually work and how to read your own signal. Thursday's Thrive Thursday goes a layer deeper with self-awareness and closing your blind spots. And if you want practice before you name your behavior, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, has a role-play you can run with its navigator in twenty minutes.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

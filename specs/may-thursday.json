@@ -46,11 +46,21 @@
           "tag": "The blind spot rule",
           "text": "Intent is what you meant; impact is what happened to the other person. You have direct access to only one of these, so your self-view is always missing data. The fix is borrowed eyes: someone who saw the impact and will tell you about it."
         },
+        "context": "Think of the last email you reread before sending. You checked it against your intent, the one thing you cannot ship. The receiver got tone, timing, and a history you never saw. That asymmetry runs both directions all day, in meetings, handoffs, and chat, which is why nobody's self-view is complete.",
+        "discuss": "Where in your work does your intent most often get misread, and who actually saw how it landed?",
         "q": "Why can't you find your own blind spot by reflecting harder?",
         "opts": [
           {"t": "You can, with enough journaling", "correct": false, "why": "Reflection is valuable and it only replays your side: the intent. The missing data lives in other people's experience of you, and solo replay never produces it."},
           {"t": "Blind spots are permanent personality traits", "correct": false, "why": "They are closeable, which is the good news. A blind spot is just missing information, and information can be supplied by anyone who saw the impact."},
           {"t": "The missing data is other people's experience of you", "correct": true, "why": "Exactly. You hold the intent; they hold the impact. Closing the gap always requires at least one other person's honest account."}
+        ]
+      },
+      "deeper": {
+        "title": "Why the gap grows with influence",
+        "body": "The more influence you have, the less unprompted truth you hear: people edit harder for anyone who can affect their week. So blind spots quietly grow at exactly the pace candor shrinks, which is why waiting to be told rarely works. Whatever your role, the people most likely to see your gap clearly are the ones closest to the work and least obliged to flatter you: peers on shared projects, partners in other units.",
+        "steps": [
+          "List three people who see your work's impact up close. Star the one least obliged to flatter you.",
+          "Write one recent moment where their read of you might differ from yours. That moment is raw material for the ask you build in section two."
         ]
       }
     },
@@ -95,6 +105,15 @@
           "mid": "Days later someone almost says the real thing, then thinks better of it. The truth exists in the building; your ask just never made it safe to hand over.",
           "weak": "Everyone stays comfortable, including your blind spot. Six months on, the same pattern costs you something real, and you find out about it the hard way."
         }
+      },
+      "deeper": {
+        "title": "Timing the ask so truth can land",
+        "body": "Even a perfect ask fails at the wrong moment. Truth needs privacy, a little slack, and a fresh memory: ask one on one, a day or two after the moment, never in front of an audience or at the tail end of a brutal week. Priming helps more than people expect. Telling your colleague the day before that you will ask gives an honest person time to find kind words for a true thing, which is when the best answers arrive.",
+        "steps": [
+          "Pick the moment you want the truth about and note when it happened. If it is more than two weeks old, choose a fresher one.",
+          "Schedule the ask: a private ten minutes within two days of the moment or your next shared piece of work.",
+          "Send the priming line the day before: tomorrow I want one honest sentence about how X landed, and brief is fine."
+        ]
       }
     },
     {
@@ -119,6 +138,15 @@
           {"q": "Told her updates run long, a coordinator laughs it off: everyone says that, and the meetings are just packed.", "answer": 1, "why": "The laugh and the instant explanation close the door. The colleague risked honesty and learned it bounces; the blind spot stays exactly where it was."},
           {"q": "Told his emails read as curt, an analyst thanks his colleague, adds one warmer opening line to his template, and moves on with his day.", "answer": 0, "why": "One thank you, one adjustment, one afternoon. He can afford to ask again next quarter, which is the whole point of receiving well."},
           {"q": "Told one handoff was confusing, an advisor apologizes three times, rereads old emails all evening, and wonders if she is bad at her job.", "answer": 2, "why": "The feedback was one sentence about one handoff; the response was a referendum on her worth. Receipts that expensive teach you to stop asking."}
+        ]
+      },
+      "deeper": {
+        "title": "What to do with the wince",
+        "body": "The wince is physiology, not a verdict, and it passes in about ninety seconds if you do not feed it a story. So receive in two beats. In the moment, just thank them; the analysis can wait an hour. Later, write the feedback as one neutral sentence about behavior, never character: my emails read as curt, rather than I am cold. Behavior sentences suggest adjustments; character sentences only suggest shame.",
+        "steps": [
+          "Write down the hardest feedback you remember receiving, phrased the way it felt: as a character verdict.",
+          "Rewrite it as one neutral behavior sentence, then note the single adjustment it points to.",
+          "Rehearse your two-beat script aloud once: thank you, that is useful, let me sit with it."
         ]
       }
     }
@@ -153,7 +181,7 @@
     "headline": "One colleague. One question. <em>One adjustment.</em>",
     "lead": "Pick the person who sees your work up close. Role only, never a name; nothing you type is saved or sent.",
     "whoLabel": "Who do you ask? Role and why you trust their read.",
-    "whoPlaceholder": "e.g. project teammate; has seen every handoff since January",
+    "whoPlaceholder": "e.g. project teammate; has seen every handoff all project long",
     "practiceLabel": "Which ask do you make?",
     "whoRow": "The truth-teller",
     "practices": [
@@ -185,8 +213,8 @@
       "purpose": "Establish that everyone has a gap between intent and impact, invisible from the inside by definition.",
       "say": "Quick thought experiment. Think of the last time someone misread you: your email sounded curt, your question sounded like criticism, your quiet sounded like disapproval. You knew your intent perfectly, and you never felt the impact at all. That asymmetry is the blind spot, and everyone in this room has one, including me. The only unusual people are the ones who know roughly where theirs is.",
       "facilitate": [
-        "Read the lead once, then run the knowledge check on learner screens.",
-        "Ask the room which wrong answer tempted them most.",
+        "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
+        "Lead the discussion prompt aloud and take two or three voices on where intent gets misread.",
         "Run the breakout on words that landed differently than meant."
       ],
       "ask": {
@@ -238,7 +266,7 @@
       "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
     },
     "capstoneSay": "Now make it real. One colleague who sees your work, role only. One specific ask, one window. Build the card and copy it somewhere you will see it before Friday. The wince is the price; the clear look at your own work is what it buys. Two minutes, quiet, go.",
-    "closeSay": "That closes the week. Monday made the manager standard readable, Tuesday opened the feedback tooling, and today gave you the loop that turns all of it into growth: ask small, hear it clean, adjust once. If you want a rehearsal before your ask, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a navigator-led role-play and helps you build a development plan from what you hear. Next week opens June, the final month of the year, where we turn to AI and the future of your own work. Bring your card's one line with you.",
+    "closeSay": "That closes the week. Monday made the manager standard readable, Tuesday opened the feedback tooling, and today gave you the loop that turns all of it into growth: ask small, hear it clean, adjust once. If you want a rehearsal before your ask, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a navigator-led role-play and helps you build a development plan from what you hear. Next week opens June and From Insight to Action, where we turn to AI and the future of your own work. Bring your card's one line with you.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
       {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},

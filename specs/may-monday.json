@@ -46,11 +46,22 @@
           "tag": "The evidence rule",
           "text": "Intentions are invisible; behavior is measurable. The standard tracks what you demonstrably do: the pulse your team answers, the 1:1s that happen or slip, and the signals your team sends with their feet and their growth."
         },
+        "context": "Every manager on this call is already generating all three streams. Your team answered the last pulse. Your calendar holds the record of 1:1s held, moved, or quietly dropped. And over time, retention and growth tell their own story. None of it needs a new tool; it needs a reader.",
+        "discuss": "Which stream would surprise you most if you looked today, and what has kept it the one you check least?",
         "q": "Quick check: which of these counts as evidence of the manager standard?",
         "opts": [
           {"t": "How much you care about your team", "correct": false, "why": "Caring matters, and it stays invisible until it becomes behavior. The standard measures the demonstration, so care has to show up as something a team can experience."},
           {"t": "Your 1:1s happening on cadence, month after month", "correct": true, "why": "Exactly. A held 1:1 is demonstrated behavior: visible, countable, and felt by the person on the other side of it."},
           {"t": "Your own rating of your leadership", "correct": false, "why": "Self-ratings run famously generous. The standard reads the team's experience and the record of what happened, which is why the evidence can surprise you."}
+        ]
+      },
+      "deeper": {
+        "title": "Reading the three streams together",
+        "body": "Any single stream can mislead you for a quarter. A pulse dips during a reorg, cadence slips during a crunch, and a departure can be pure opportunity for the person leaving. The honest read is triangulation: when two streams point the same direction for two cycles running, treat it as signal. One stream, one cycle is a prompt to keep watching, never a conclusion.",
+        "steps": [
+          "In a private note, capture all three streams: your last pulse result, your 1:1 record for the past two months, and any team moves over the past year.",
+          "Mark where two streams agree. That agreement is your strongest signal, and the behavior it points at is your best candidate for this month.",
+          "Put a recurring 15-minute hold on your calendar to reread all three monthly; the read only works as a habit."
         ]
       }
     },
@@ -76,6 +87,15 @@
           {"q": "Pulse dips on 'my manager gives useful feedback.' The manager thinks: the survey ran during crunch, so it does not count.", "answer": 1, "why": "The timing may be real context, and 'it does not count' is the tell. A defensive read closes the question the data just opened."},
           {"q": "The 1:1 record shows the manager cancelled four of the last six. Their read: that is my behavior, and cadence is the fix.", "answer": 0, "why": "That is the evidence read: a countable behavior, owned without drama, answered with one concrete change the team will feel."},
           {"q": "One pulse comment says meetings run long. The manager cancels every recurring meeting and rebuilds the team calendar overnight.", "answer": 2, "why": "One comment earned one adjustment. Rebuilding everything overnight treats a signal as a verdict, and it usually creates the next problem."}
+        ]
+      },
+      "deeper": {
+        "title": "The second draft rule",
+        "body": "The defensive story is not a character flaw; it is the first draft everyone writes when their own numbers sting. The discipline is refusing to act on the first draft. Sit with stinging data for a day, then write the evidence read in one sentence: the behavior this points at is X. If context genuinely explains the number, write the context down too, and still pick a behavior. Context and behavior can both be true.",
+        "steps": [
+          "Find one number or comment from the past year that still annoys you. Write the defensive story you told first, word for word.",
+          "Under it, write the one-sentence evidence read: what behavior would move this?",
+          "Note which draft you actually acted on at the time, and what the second draft would have changed."
         ]
       }
     },
@@ -105,7 +125,7 @@
             "key": "How you make it visible",
             "opts": [
               {"t": "Just do it quietly and let people notice", "pts": 1, "coach": "Quiet virtue is real and unmeasurable. If nobody knows to look, the behavior can vanish for a month before anyone misses it."},
-              {"t": "Mention it once at the next team meeting", "pts": 2, "coach": "Naming it helps. Once is a headline; the standard is looking for a pattern the team could describe by June."},
+              {"t": "Mention it once at the next team meeting", "pts": 2, "coach": "Naming it helps. Once is a headline; the standard is looking for a pattern your team could describe a month from now."},
               {"t": "Name it to the team, calendar it, and ask them to call it if it slips", "pts": 3, "coach": "You just built your own measurement: a named commitment, a visible cadence, and a team deputized to keep you honest."}
             ]
           }
@@ -113,13 +133,22 @@
         "heads": {
           "strong": "A behavior the standard can find. Your team can name it, your calendar can prove it, and May can measure it.",
           "mid": "A real intention with weak visibility. The behavior may happen; the evidence of it is left to luck.",
-          "weak": "A private resolution. By June it reads exactly like doing nothing, because nothing about it can be seen."
+          "weak": "A private resolution. By month end it reads exactly like doing nothing, because nothing about it can be seen."
         },
         "reactions": {
           "strong": "Three weeks in, someone on your team mentions the growth minutes to a colleague without prompting. When the next pulse runs, the feedback question moves, and you know exactly which behavior moved it.",
           "mid": "The team half-remembers the announcement. Some weeks it happens, some it slips, and when the pulse runs you honestly cannot say whether the number reflects the change or the noise.",
           "weak": "You did try, some weeks. Nothing was named and nothing was scheduled, so the effort left no trace, and the next pulse reads it the only way it can: unchanged."
         }
+      },
+      "deeper": {
+        "title": "Designing the witness",
+        "body": "Visibility fails quietly when nobody is assigned to notice. Borrow a trick from good goal design: name the witness, not just the behavior. Tell one specific person what to watch for and when to flag a slip; a deputized witness turns your busiest week from a loophole into a checkpoint. Then park the behavior where evidence already collects, inside the 1:1 or on the shared calendar, so proof accumulates without extra work.",
+        "steps": [
+          "Write your one behavior as a sentence with a time and a place: I will do X at every Y.",
+          "Pick the witness: the team member or peer who will see it most often, and tell them this week what to watch for.",
+          "Check that your calendar could prove it later: recurring holds, agenda lines, anything that leaves a trace."
+        ]
       }
     }
   ],
@@ -183,10 +212,10 @@
     "s1": {
       "title": "What gets measured",
       "purpose": "Install the three evidence streams: pulse data, 1:1 cadence, and team signals.",
-      "say": "Back in the fall, the manager standard was a promise on a slide. This month it is a measurement. Here is the part that matters: it measures behavior, in three streams your team already generates. How they answer the pulse. Whether your 1:1s actually happen. The signals they send over time with retention and growth. Today is about reading those streams like a professional instead of like a defendant.",
+      "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement. Here is the part that matters: it measures behavior, in three streams your team already generates. How they answer the pulse. Whether your 1:1s actually happen. The signals they send over time with retention and growth. Today is about reading those streams like a professional instead of like a defendant.",
       "facilitate": [
-        "Read the lead once, then run the knowledge check on learner screens.",
-        "Ask for a chat vote: which stream do you check least?",
+        "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
+        "Lead the discussion prompt aloud; take two or three voices, plus a chat vote on the least-checked stream.",
         "Run the breakout on the least-checked stream, 90 seconds each way."
       ],
       "ask": {

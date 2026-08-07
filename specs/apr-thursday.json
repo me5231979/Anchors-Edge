@@ -58,8 +58,18 @@
    "lead": "The filter is three questions, asked fast. What is the evidence, and would it survive someone checking? Who benefits from my believing this? And what would change my mind, in either direction? A claim that survives all three has earned some trust.",
    "group": "In pairs: recall one AI claim you heard this month, from anywhere. Run it through the three tests together. One pair shares.",
    "solo": "Recall one AI claim you heard this month and run it through the three tests. Write down where it wobbled.",
+   "deeper": {
+    "title": "The mind-changer, written down",
+    "body": "A mind-changer works best written, and it needs a size. 'Good results' moves nobody; 'drafts a usable first version of the Thursday summary in under ten minutes' is a bar a claim can visibly clear or miss. Write one in each direction: the result that would win you over and the result that would end your enthusiasm. If you can only write one of the two, you have just found the side you are biased toward.",
+    "steps": [
+     "Take one claim about AI and your work that you believe. Write the specific result that would make you drop it.",
+     "Take one claim you dismiss and write the result that would win you over. Notice which sentence was harder."
+    ]
+   },
    "interaction": {
     "type": "check",
+    "context": "Notice the filter runs on your enthusiasms as much as your doubts. The claims most worth testing are the ones you want to be true: the tool that would fix your week, the headline that flatters your skills. Run the three tests fastest exactly there, because from the inside, a wish and a well-evidenced claim feel identical.",
+    "discuss": "Share one AI claim you half believe right now. Which of the three tests would it wobble on first, and what result would honestly change your mind?",
     "card": {
      "tag": "The filter",
      "text": "Three tests, one minute. Evidence: what is it, would it survive checking? Beneficiary: who gains if I believe this? Mind-changer: what result would move me? No possible mind-changer means it is a belief, and beliefs resist evidence."
@@ -93,6 +103,14 @@
    "lead": "Hype repeats itself: giant numbers with no baseline, urgency that never checks out, sellers quoted as judges. Value sounds different: specific tasks, named conditions, results someone could verify. Practice tunes your ear until the accent gives it away.",
    "group": "Breakout pairs: one of you pitches a tool with pure hype, the other runs the filter out loud. 90 seconds, then swap.",
    "solo": "Find one AI claim in your inbox or feed right now. Label it hype, value, or unproven, and note which tell decided it.",
+   "deeper": {
+    "title": "Hype does its best work secondhand",
+    "body": "By the time a vendor's number reaches you through a colleague, the tells have worn off: no byline, no ticking clock, just a trusted voice saying everyone is doing this now. So filter the claim and spare the messenger. Ask where the number started and whether anyone in the chain saw the before and after. Sincere people pass along unfiltered claims every day; the evidence test is how you stay kind and rigorous at the same time.",
+    "steps": [
+     "Recall one claim that reached you through someone you trust. Trace it: where did the number start, and who along the way verified it?",
+     "Rehearse the trace-back line: 'That sounds useful. Where did the number come from?' Practice until it sounds like plain curiosity."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Hype or value?",
@@ -132,6 +150,14 @@
    "eyebrow": "The Move",
    "headline": "Point the filter at a <em>real decision</em>.",
    "lead": "The filter earns its keep on live decisions: should our team adopt this tool, should I change how I work because of that claim? The answer is rarely yes or no on the spot. It is usually a small, cheap test with the mind-changer named before it runs.",
+   "deeper": {
+    "title": "A bar you can actually judge",
+    "body": "The weak point of most trials is the missing baseline. Before the tool touches anything, time the task the way you do it now and keep one recent output as the comparison copy. Then write the bar where the whole team can see it, with a number and a quality condition. Decide in advance what a near miss means: a tool that almost clears the bar earns one revision of the test, and only one, or the trial quietly becomes a subscription.",
+    "steps": [
+     "Pick the recurring task your team would trial first. Time it once this week and save one output as the baseline copy.",
+     "Write the bar as one sentence with a number and a quality condition, and share it before any demo runs."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Design the deciding test",
@@ -283,22 +309,22 @@
  },
  "closing": {
   "headline": "Test the claim. <em>Trust the result.</em>",
-  "lead": "You leave March with a full kit: your manager can map exposure, you can sort your own tasks, and every claim about what AI will do now meets three questions first.",
+  "lead": "You leave April with a full kit: your manager can map exposure, you can sort your own tasks, and every claim about what AI will do now meets three questions first.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the filter on your card",
   "nextBody": "One real claim, three tests, one written verdict. If the claim survives, design the small test. The AI for Leaders course on LinkedIn Learning is a good companion if you want the longer view.",
   "brandline": "Three questions. Then belief."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month, and this session closes the week.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month, and this session closes the week.",
   "pulse": "Seven days out, send the pulse: 'Did the filter run on your claim? What was the verdict, and which test decided it? Which claim is next?' Count of completed filter runs is the Level 3 metric for the month.",
   "s1": {
    "title": "The three tests",
    "purpose": "Install the filter: evidence, beneficiary, mind-changer, one minute per claim.",
    "say": "This week your manager mapped exposure and Tuesday you sorted your own tasks. Today is the quality control for all of it, because every map and every sort rests on claims about what AI can do. Three questions, one minute: what is the evidence, who benefits from my believing this, and what would change my mind?",
    "facilitate": [
-    "Read the three tests slowly, once each, then run the knowledge check.",
-    "Ask which of the three tests people have never consciously asked.",
+    "Read the three tests slowly, once each, then bring up the In the room card.",
+    "Run the discussion prompt: one half-believed claim and the test it wobbles on. Take two or three voices.",
     "Run the breakout: one recent AI claim through all three tests."
    ],
    "ask": {
@@ -362,7 +388,7 @@
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
   "capstoneSay": "Now pick your claim. Something actually circling your work: a tool pitch, a headline, a hallway certainty. Choose how you run the filter, pick the window, build the card, and copy it somewhere you will see it. Two minutes, quiet, go.",
-  "closeSay": "That closes the March week: your manager can map exposure, your week is sorted into tasks, and every claim now meets three questions before it meets your belief. If you want to keep pulling the thread, the LinkedIn Learning course AI for Leaders by Doug Rose is this month's companion, and the navigator-led exposure mapping workshop takes whole teams through Monday's map together. Next week, Anchor's Edge rolls on: same rhythm, next skill. See you Monday.",
+  "closeSay": "That closes the April week: your manager can map exposure, your week is sorted into tasks, and every claim now meets three questions before it meets your belief. If you want to keep pulling the thread, the LinkedIn Learning course AI for Leaders by Doug Rose is this month's companion, and the navigator-led exposure mapping workshop takes whole teams through Monday's map together. Next week the series turns to May's theme, Measured Leader Behavior, where the honest evidence habit you built today keeps right on working. See you Monday.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

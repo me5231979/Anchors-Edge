@@ -58,8 +58,19 @@
    "lead": "A coaching moment is any point where the subject stops being the task and becomes the person: their judgment, their confidence, their stuck. It arrives mid-update, sounds like a small aside, and is gone in ten seconds if you keep driving the task.",
    "group": "In pairs, 90 seconds each: recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
    "solo": "Recall an aside from a recent 1:1 you drove past. What was the person really telling you?",
+   "deeper": {
+    "title": "Steam or door: telling asides apart",
+    "body": "Asides are trial balloons. Saying 'I second-guess every call' straight out feels risky, so people float it sideways and watch what you do with it. Drive past and the test quietly fails; the asides stop coming. One distinction sharpens your ear: steam repeats a complaint about circumstances, a door says something about the person. Steam wants a nod. A door wants one question, and one is usually all you get.",
+    "steps": [
+     "List your 1:1s from the past two weeks and write down every aside about the person you can remember. Roles, never names.",
+     "Mark each one steam or door: circumstances, or something about them? Steam gets a nod; a door gets a question.",
+     "Pick one door and write the exact sentence you will use to reopen it at your next 1:1."
+    ]
+   },
    "interaction": {
     "type": "check",
+    "context": "Picture this morning's 1:1s across Vanderbilt. A coordinator finishes a status update, then adds: 'Honestly, I second-guess every one of these decisions.' In most rooms that aside gets a quick reassurance or a fix, and the door closes politely. The update carried the work; the aside carried the person.",
+    "discuss": "Think of the last aside you drove past in a 1:1. What made it easy to miss, and what was the person really telling you?",
     "card": {
      "tag": "The tell",
      "text": "Listen for the sentence about themselves inside the sentences about the task: 'I never know when to escalate.' 'I hate presenting these.' The update carries the work; the aside carries the person. The aside is the door."
@@ -93,6 +104,14 @@
    "lead": "Telling is fast, and it works once. Asking is slower, and it works from then on, because the thinking happens in their head instead of yours. The craft is a question that is genuinely open: one you do not already know the answer to.",
    "group": "In pairs: take an instruction you gave this week and rewrite it together as one open question. Trade and improve.",
    "solo": "Take an instruction you gave this week and rewrite it as one open question.",
+   "deeper": {
+    "title": "The second question",
+    "body": "The first question opens the thinking; the second decides who keeps it. Whatever they answer, go one layer down before you evaluate anything: 'what makes that the hard part?' or 'what happened when you tried it?' First answers are usually the safe ones; the real material sits underneath. And when their plan is worse than yours, name the gap you see and ask what they would do about it. Graded answers dry up fast.",
+    "steps": [
+     "Put three stems where you run 1:1s: 'What have you tried?' 'What is the hard part?' 'What would you do if I were out this week?'",
+     "In your next stuck conversation, ask one stem, then follow the answer one layer down before you offer anything of your own."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Tell or ask?",

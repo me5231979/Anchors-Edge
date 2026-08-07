@@ -1,0 +1,287 @@
+{
+ "meta": {
+  "program": "The Standard · Manager Monday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December opens the Manager Effectiveness theme after November's Transfer Portal month, and this session introduces the standard itself.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Which behavior did you pick? Has a colleague been able to witness it yet? What did the honest self-locate change?' Count of managers with one behavior visibly underway is the month's Level 3 signal.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "A manager gets defensive about self-locating in a group setting",
+    "then": "Remind the room nothing typed is saved or shared, and self-locates stay private unless someone volunteers. Today is a mirror, nothing more; the standard measures behavior going forward."
+   },
+   {
+    "if": "Someone asks whether their self-locate feeds their performance review",
+    "then": "Be direct: nothing from this session is captured anywhere. Goal 2 measurement runs through the formal process your HR partner owns; today is private practice at looking honestly."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Will my self-locate or anything from this session feed my performance review?",
+    "a": "No. Nothing typed today is saved or sent, and the session has no reporting behind it. Goal 2 measurement runs through the formal process your HR partner owns; today is private practice at looking honestly before anyone else looks."
+   },
+   {
+    "q": "My team is huge and my calendar is brutal. Are these behaviors realistic for me?",
+    "a": "The standard names behaviors, and behaviors scale: a monthly 1:1 exists whether you have three reports or fifteen, even if the shape differs. If a specific line truly cannot fit your context, that is a real conversation to have with your own leader, out loud, rather than a quiet exemption."
+   },
+   {
+    "q": "How is this different from the competency models we have seen before?",
+    "a": "Competencies describe qualities and invite debate about whether you have them. The standard names witnessable behaviors, which ends the debate: either the 1:1 happened or it did not. That is also what makes Goal 2 measurable. The New Manager Foundations course on LinkedIn Learning walks the same ground if you want a deeper pass."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Monday, 45 minutes on the Vanderbilt manager standard. If you have seen the standard, skim it beforehand; if you have not, come as you are and we walk it together. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is the behavior on your calendar? Three lines, reply whenever: 1) Which behavior did you pick? 2) Has a colleague been able to witness it yet? 3) What did the honest self-locate change for you?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Manager Monday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Unpacking the manager standard: the observable behaviors.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes managers who lead well on purpose. A shared, visible standard of leader behavior is Exceptional Core Operations made personal: every team gets a manager who knows what good looks like.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 commits Vanderbilt to a manager standard that measures demonstrated leader behavior. Today you meet the standard itself, so demonstrated stops being an abstraction.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: name the observable behaviors that define the vanderbilt manager standard; tell a demonstrable behavior apart from an intention or a personality trait; locate yourself against the standard with evidence and pick one behavior to grow. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: behaviors, on the record, behavior or intention?, the honest self-locate. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Behaviors, on the record",
+   "purpose": "Establish that every line of the Vanderbilt manager standard is an observable, demonstrable behavior.",
+   "say": "Vanderbilt wrote down what good managing looks like here, and the writing choice matters more than it seems. Every line is a behavior a colleague could watch you do: hold the 1:1, give the written feedback, name the expectation out loud. Nothing on the list asks you to be a certain kind of person. It asks you to do certain visible things, and that difference is the whole month.",
+   "facilitate": [
+    "Read the concept card aloud once, slowly.",
+    "Walk the In the room context: being language versus doing language. No quiz in the live room.",
+    "Open the discussion prompt; take two or three voices before moving on.",
+    "Run the breakout: one line of the standard, and when a colleague last saw you do it."
+   ],
+   "ask": {
+    "q": "Why do you think the standard was written as behaviors instead of qualities?",
+    "expect": [
+     "Behaviors can be measured",
+     "Qualities are arguable, behaviors are checkable",
+     "It tells new managers exactly what to do"
+    ],
+    "respond": "All of it. A quality invites debate; a behavior invites a calendar entry. Goal 2 can only measure what can be witnessed."
+   },
+   "debrief": "If no colleague could witness it, it is not on the list. That single design choice is what makes the standard usable.",
+   "watchFor": "Managers reading the list as an accusation. Frame it as a map: it tells you exactly what good looks like, which most of us were never told.",
+   "transition": "So what counts as a behavior? That line is blurrier than it sounds.",
+   "coreNote": "Core: skip the breakout; ask for one surprising line of the standard in chat instead.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "Behavior or intention?",
+   "purpose": "Train the witness test: separating observable behaviors from intentions and personality traits.",
+   "say": "Here is the trap this section exists to spring: most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am an approachable person. The witness test cuts through all of it with one question: could a colleague have seen it happen? If the answer is no, it may be a lovely quality, and it is invisible to your team.",
+   "facilitate": [
+    "Run Behavior or intention? live; everyone plays on their own screen.",
+    "After round two, pause and ask who chose trait versus intention; the distinction sparks the best discussion.",
+    "Run the breakout on credit that fails the witness test."
+   ],
+   "ask": {
+    "q": "What is something managers commonly claim that fails the witness test?",
+    "expect": [
+     "Having an open door",
+     "Caring about development",
+     "Being available anytime"
+    ],
+    "respond": "Open door is the classic: it describes a state, and reports only experience what happens when they walk through it. The behavior version is scheduled, visible time."
+   },
+   "debrief": "Intentions live in your head, traits live in adjectives, behaviors live on calendars and in records. The standard counts only the third kind.",
+   "watchFor": "Cynicism about box-checking. Acknowledge it: a behavior done emptily is still weak managing. The standard is the floor that makes the rest possible.",
+   "transition": "Which brings us to the uncomfortable part: where do you actually stand on it?",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "The honest self-locate",
+   "purpose": "Teach an evidence-based self-locate against the standard and convert the biggest gap into one visible move.",
+   "say": "Now the mirror. Nobody sees your answers and nothing is saved, so there is no audience to perform for. The only way to waste the next five minutes is to be generous with yourself. For each behavior on the standard, ask one question: when did a colleague last actually see me do this? Then take the gap that matters most and give it a first visible move.",
+   "facilitate": [
+    "Run the builder; give the room two minutes to make both choices and run it.",
+    "Ask one volunteer to share which slot was harder to answer honestly.",
+    "Point at the pattern: evidence over gut feel, one named behavior over a vague vow."
+   ],
+   "ask": {
+    "q": "Why does picking one behavior beat vowing to improve across the board?",
+    "expect": [
+     "One thing actually happens",
+     "Broad vows dissolve by Wednesday",
+     "You can put one thing on a calendar"
+    ],
+    "respond": "Exactly. The standard has many lines; your December needs one. A single visible behavior, repeated, moves your read on the whole list."
+   },
+   "debrief": "Honest self-locates run on evidence: when a colleague last saw it. The output is one behavior with its first instance on the calendar.",
+   "watchFor": "Managers who self-locate low on everything and spiral. Redirect to the one gap that matters most; the standard is a growth map and everyone starts somewhere on it.",
+   "transition": "Quick recap, then you build your own card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the share-out.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: The standard measures what you do where your team can see it.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now make it yours. One behavior from the standard, the honest gap you found, and the first move you will make. Behavior and roles only, never names. Build the card, copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "You leave knowing the standard and where you honestly stand on it. Tomorrow's Take-Off Tuesday is for everyone on your team, you included: the 1:1 templates and feedback tools inside Oracle that make several of these behaviors visible. Thursday's Thrive Thursday works the clarity skill behind expectation-setting. And if you want a companion this month, the LinkedIn Learning course New Manager Foundations by Todd Dewett pairs well with the navigator-led walk-through clinic on the standard. Both optional, both worth your time.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

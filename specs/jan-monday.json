@@ -58,12 +58,22 @@
    "lead": "Ask a team why they avoid AI and you usually hear that the manager never brought it up. People read your tone whether you set it or drift into it, so this month you set it on purpose: clear permission, visible guardrails, and honest curiosity.",
    "group": "In pairs: what tone has your team read from you about AI so far, on purpose or by accident? 90 seconds each way.",
    "solo": "Write one line: what tone has your team read from you about AI so far, on purpose or by accident?",
+   "deeper": {
+    "title": "The three signals, decoded",
+    "body": "Each signal has a telltale question behind it. Permission: has my manager ever said out loud that we may use AI here? Safety: could I state the boundary in one sentence if a new hire asked? Curiosity: when someone mentions an experiment, does the manager lean in or change the subject? Teams answer these from small moments, like what you laughed at, what you ignored, and what you asked about. A tone audit starts there.",
+    "steps": [
+     "Answer the three questions the way your team would, based only on what they have watched you do and say.",
+     "Pick the weakest signal and script one sentence that makes it explicit at your next team meeting."
+    ]
+   },
    "interaction": {
     "type": "check",
     "card": {
      "tag": "The tone rule",
      "text": "A team's AI behavior mirrors its manager's signals. They listen for three things: permission (may we?), safety (what is in bounds?), and curiosity (does trying count?). When all three are clear, safe experiments start."
     },
+    "context": "Research on workplace tool adoption points one way: the local manager outweighs policy, training, and news coverage combined. Where the manager never mentions AI, careful people conclude the topic is off limits while a bold few experiment unguided. Both patterns start from the same silence.",
+    "discuss": "Where did your own read on AI come from: a manager, a policy page, or the news? What does that say about what your team is reading from you right now?",
     "q": "Quick check: a manager has never mentioned AI to the team. What does the team most likely conclude?",
     "opts": [
      {
@@ -93,6 +103,14 @@
    "lead": "The shared traffic light keeps this simple. Green, public or generic information: go. Yellow, internal work: approved VU tools only. Red, private information about people: never. Pick a boring green chore and let your team watch you run it, fixes and all.",
    "group": "In pairs: name one green-light chore from your own week you could model for your team this month. 90 seconds each way.",
    "solo": "Name one green-light chore from your own week you could model for your team this month.",
+   "deeper": {
+    "title": "When the light is hard to call",
+    "body": "Real chores mix information, and the most sensitive piece decides the light for the whole task. A job posting built from the public description is green; paste in notes from the finalist interviews and the same task turns red. That gives you a second move to model: strip the chore. Remove the internal or personal specifics, run the generic skeleton on green, and add the sensitive parts back yourself afterward.",
+    "steps": [
+     "List two chores from your week that feel yellow or red, and find the green skeleton inside each by removing specifics.",
+     "Write the exact input you would give the tool for one of them, then reread it for anything internal or personal."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Green, yellow, or red?",
@@ -132,6 +150,15 @@
    "eyebrow": "The Talk",
    "headline": "Talk about it like a <em>leader</em>.",
    "lead": "Hype earns eye rolls; fear drives experiments underground. The conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Build the version you would actually say at your next team meeting.",
+   "deeper": {
+    "title": "Keeping the conversation alive",
+    "body": "One good conversation sets the tone; a small ritual keeps it. Reserve two minutes of each team meeting for one AI share, with the same beats you modeled: what I tried, what it did well, what I fixed. Expect silence for the first week or two, and fill it with another small use of your own rather than pressing anyone. Once results get shared out loud, checking becomes a habit the team keeps visible for itself.",
+    "steps": [
+     "Add a standing two-minute item called one AI share to your team agenda for the next month.",
+     "Prepare two of your own shares in advance so early silence never stalls the ritual.",
+     "When the first volunteer shares, ask what they fixed; that question keeps the editor habit in view."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Open the AI conversation",
@@ -290,15 +317,15 @@
   "brandline": "Set the tone. Then watch it spread."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December opens the AI at Work theme, and this is many managers' first AI session.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January opens the AI at Work theme with the new calendar year, and this is many managers' first AI session.",
   "pulse": "Seven days out, send the pulse: 'Did you model the chore on your card? What did the team say or try afterward? What is the next green light you will point at?' Count of modeled first uses is the Level 3 metric for the month.",
   "s1": {
    "title": "The tone you set",
    "purpose": "Establish that team AI behavior mirrors the manager's signals: permission, safety, curiosity.",
-   "say": "Here is the finding this month is built on: teams take their AI cue from their manager, and silence is a cue too. Say nothing and the careful people freeze while the bold ones experiment with zero guardrails. The good news is that the tone is yours, so today we set it on purpose.",
+   "say": "New year, new theme. Here is the finding this month is built on: teams take their AI cue from their manager, and silence is a cue too. Say nothing and the careful people freeze while the bold ones experiment with zero guardrails. The good news is that the tone is yours, so today we set it on purpose.",
    "facilitate": [
-    "Read the lead once, then go straight to the knowledge check; everyone answers on their own screen.",
-    "Ask the room which answer they picked before revealing your own take.",
+    "Read the tone rule card aloud, then let the context on screen land; the live room gets the framing, no quiz.",
+    "Run the discussion: where did your own read on AI come from? Take two or three voices before you weigh in.",
     "Run the breakout: what tone has your team read so far, 90 seconds each way."
    ],
    "ask": {

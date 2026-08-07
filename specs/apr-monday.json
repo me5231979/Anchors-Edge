@@ -58,8 +58,19 @@
    "lead": "Nobody's whole job is exposed to AI; pieces of it are. The map starts with a plain list of your team's recurring tasks: the weekly report, the intake queue, the scheduling. Write tasks, hold the people out of it, and the picture gets honest fast.",
    "group": "In pairs: name two recurring tasks your team does every week, in task language, no names attached. One pair shares their list.",
    "solo": "List five recurring tasks your team does every week, in task language, no names attached.",
+   "deeper": {
+    "title": "Write the task like a recipe",
+    "body": "A sortable task line has three parts: the output, the rhythm, and the inputs. 'Board report, monthly, from three spreadsheets' sorts in seconds; 'reporting' never will. The entries worth hunting are the invisible ones: work living in one person's head, or the cleanup nobody calls a task. Unlisted tasks are often the most exposed, because nobody has ever looked at them straight.",
+    "steps": [
+     "Rewrite one recurring task as output, rhythm, inputs. If a colleague could picture doing it from your line, it is ready to sort.",
+     "Add two invisible tasks to your map: work only one person knows, or cleanup nobody names. Write them in the same format.",
+     "Keep the list where you plan your week and add one task line a day until you reach ten."
+    ]
+   },
    "interaction": {
     "type": "check",
+    "context": "Map this work by role and the month becomes a quiet argument about whose job is safe, with honesty as the first casualty. Map it by task and the same team can study the same work in the open. A task on the board puts nobody on trial, so people tell the truth about what the week is made of.",
+    "discuss": "Name one task your team repeats weekly, in task language: output, rhythm, inputs. What gets easier to say once the name is off it?",
     "card": {
      "tag": "The mapping rule",
      "text": "Map the work, never the people. List each recurring task on its own line: what gets produced, how often, from what inputs. A task-level map lets you redesign work without putting anyone's job on trial."
@@ -93,6 +104,15 @@
    "lead": "Two lies wreck an exposure map: everything is exposed, so panic, and nothing is, so relax. The truth is a sort. High exposure means the task could largely run through AI. Partial means AI helps while a person drives. Low means it stays human.",
    "group": "Breakout pairs: pick one task from your list and call its exposure. Does your partner agree? 90 seconds each way.",
    "solo": "Pick one task from your list and call its exposure: high, partial, or low. Write one line on why.",
+   "deeper": {
+    "title": "When a task refuses to sort",
+    "body": "Some tasks resist a single call because they are bundles. The monthly newsletter is drafting from public content, choosing the lead story, and replying to an upset reader, and each piece sorts differently. When a call feels impossible, split the task into steps and sort the steps; the argument usually dissolves. A sort is also a snapshot: tools improve, so a low call today deserves a fresh look next quarter.",
+    "steps": [
+     "Take the task that was hardest to call. Break it into three or four steps and give each step its own exposure call.",
+     "Mark any step touching private information about people. Those stay human, whatever you decide about the rest of the bundle.",
+     "Date the sort and set a reminder to rerun it in a quarter."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Call the exposure",
@@ -132,6 +152,14 @@
    "eyebrow": "The Move",
    "headline": "Bring the map to the <em>team</em>.",
    "lead": "A map you keep in a drawer breeds rumor. Shared early, it becomes a redesign the team helps write: what gets automated, what gets augmented, where the freed hours go. How you open that conversation decides whether it lands as invitation or verdict.",
+   "deeper": {
+    "title": "Keep the map alive after the talk",
+    "body": "The opening meeting is the easy part; the promise gets kept in what happens next. Put the map where the team can see and edit it, and treat every task they add as a gift. Then keep the redesign promise visibly the first time it is tested: when the first task moves to a tool, let the team decide in the open what fills the freed hour. One kept promise buys more trust than a season of reassurance.",
+    "steps": [
+     "Draft the two sentences you will open with: the invitation to sort the map together and the freed-hours promise. Say them aloud once before the meeting.",
+     "Choose where the shared map will live and add a recurring slot on the team agenda to revisit it."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Open the team conversation",
@@ -290,15 +318,15 @@
   "brandline": "Map the work. Then lead the redesign."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month, and this session opens it.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month, and this session opens it.",
   "pulse": "Seven days out, send the pulse: 'Does your ten-task map exist? Which exposure call surprised you? Has the team seen it yet?' Count of completed team maps is the Level 3 metric for the month.",
   "s1": {
    "title": "The task map",
    "purpose": "Install the mapping rule: exposure lives in recurring tasks, never in people or titles.",
-   "say": "March is about seeing what is changing on your team before it changes you. The instinct is to ask which jobs are safe, and that question maps people, which poisons everything downstream. We start smaller and more honest: what tasks does this team repeat every week?",
+   "say": "April is about seeing what is changing on your team before it changes you. The instinct is to ask which jobs are safe, and that question maps people, which poisons everything downstream. We start smaller and more honest: what tasks does this team repeat every week?",
    "facilitate": [
-    "Read the lead once, then run the knowledge check on everyone's own screen.",
-    "Ask who almost picked the whole-office answer and why the task version beats it.",
+    "Read the lead, then bring up the In the room card and let it land for a beat.",
+    "Run the discussion prompt: one recurring task in task language, name off it. Take two or three voices.",
     "Run the breakout: two recurring tasks in task language, no names attached."
    ],
    "ask": {

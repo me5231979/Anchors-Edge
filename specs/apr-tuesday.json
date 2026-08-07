@@ -58,8 +58,18 @@
    "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the queue, drafted the agenda. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
    "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
    "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
+   "deeper": {
+    "title": "The invisible half of your week",
+    "body": "The fastest way past the blur is evidence. Your calendar and your sent folder remember Tuesday better than you do: standing meetings carry prep work, and the sent folder shows the same three replies leaving every week. Most people find a chunk of their week is repeating work they never named. That unnamed work goes to the top of the sort list, because unexamined routine is exactly what AI handles best.",
+    "steps": [
+     "Open last week's calendar and sent folder. List every repeating piece of work you find, written as an output and a rhythm.",
+     "Star the tasks you never think of as tasks: the prep, the formatting, the standard replies. Sort those first."
+    ]
+   },
    "interaction": {
     "type": "check",
+    "context": "When work stays at the altitude of titles and projects, AI talk turns into dread about whole jobs. Nobody automates 'coordinator'; tools meet the Monday summary, the intake queue, the standard reply. Get your week written at that level and the fear turns into decisions you can actually make.",
+    "discuss": "Describe last Tuesday to your neighbor as three tasks. Which one was hardest to name, and why had it gone invisible?",
     "card": {
      "tag": "The decomposition rule",
      "text": "A sortable task names an output and a rhythm: the thing produced and how often. 'Communications' is a job. 'Draft the Thursday newsletter from submitted items' is a task, and a task can be sorted."
@@ -93,6 +103,15 @@
    "lead": "Three calls, made per task. Automate: AI does it, you check the output. Augment: AI helps, you drive. Leave alone: human all the way, because the task runs on trust, judgment, or private information about people. The traffic light rides along on every call.",
    "group": "Breakout pairs: each pick one task from your list and make the call out loud. Partner gets one challenge question. 90 seconds each way.",
    "solo": "Pick one task from your list and make the call: automate, augment, or leave alone. Write one line on why.",
+   "deeper": {
+    "title": "The mixed task and the red thread",
+    "body": "Calls get interesting when one task mixes colors. A weekly update that quotes a colleague's medical situation is an augment task carrying a red thread, and the red thread wins: the private parts come out before any tool sees the rest, or the whole task stays human. The quieter skill is naming your leave-alone pile out loud. That pile is the case for what you uniquely bring, and it belongs in your next career conversation.",
+    "steps": [
+     "Sort ten tasks from your week into the three buckets. Note which bucket filled up and whether that surprised you.",
+     "Find one task with a red thread: sortable overall, private people details inside. Write which parts come out before a tool touches it.",
+     "Write two lines on your leave-alone pile and what it says about the value you bring."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Make the call",
@@ -132,6 +151,14 @@
    "eyebrow": "The Move",
    "headline": "One call earns a <em>test drive</em>.",
    "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.",
+   "deeper": {
+    "title": "Read the test like evidence",
+    "body": "A test deserves a fair reading. Count the whole cost: setup, prompting, and checking time against the old way, because a tool that saves forty minutes and needs thirty of checking earned ten. Keep a note of everything your check caught; that list becomes the permanent checklist for the task. A failed test is a real result too: write one line on why the call was wrong, then re-sort the task. Scale to a second task after two clean runs of the first.",
+    "steps": [
+     "After the test, write three numbers: minutes the old way, minutes with the tool including the check, and errors the check caught.",
+     "Turn what the check caught into a named checklist you run every time the task ships."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Set up the test",
@@ -290,15 +317,15 @@
   "brandline": "Sort the tasks. Keep the wheel."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Spot AI-Exposed Work month.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no management experience assumed. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; April is the Spot AI-Exposed Work month.",
   "pulse": "Seven days out, send the pulse: 'Did the test on your card run? What did it teach you about the call? Which task gets sorted next?' Count of completed tests is the Level 3 metric for the month.",
   "s1": {
    "title": "The decomposition",
    "purpose": "Teach staff to turn the blur of a week into named tasks with outputs and rhythms.",
    "say": "This month is about seeing what is changing in your work before it changes you, and the unit of change is never the job title. It is the task. So before any talk of AI, we do something older: write down what your week is actually made of, the way Tuesday actually went.",
    "facilitate": [
-    "Read the lead once, then run the knowledge check on everyone's own screen.",
-    "Ask what makes the attendance-summary answer sortable and the other two slippery.",
+    "Read the lead, then bring up the In the room card and let it land for a beat.",
+    "Run the discussion prompt: last Tuesday as three tasks. Take two or three voices on what was hardest to name.",
     "Run the breakout: three real tasks, specific enough to picture."
    ],
    "ask": {

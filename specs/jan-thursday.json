@@ -58,12 +58,22 @@
    "lead": "Most change anxiety comes from treating one big fog as one big threat. Sorting breaks the fog into three piles: what is actually known, what is genuinely unknown, and what you have been assuming. The piles are always smaller than the fog.",
    "group": "In pairs: name one workplace change on your mind, then each find one assumption you have been treating as a fact. 90 seconds each way.",
    "solo": "Name one workplace change on your mind, then write one assumption you have been treating as a fact.",
+   "deeper": {
+    "title": "Sorting under pressure",
+    "body": "The known pile has a strict entry test: someone accountable for the decision said it, in writing or somewhere they could be quoted. Secondhand certainty stays out. Assumptions are easiest to catch by their connective tissue; words like means, so, and obviously are where a fact quietly picks up a conclusion on the way to you. And the sort is a living list. Re-sort when news lands, so yesterday's unknown becoming known visibly shrinks the fog.",
+    "steps": [
+     "Write the three piles for the change on your mind, applying the entry test: who accountable said each known item?",
+     "Circle every means and so in your own version of the worry; each one marks an assumption worth testing."
+    ]
+   },
    "interaction": {
     "type": "check",
     "card": {
      "tag": "The three-pile sort",
      "text": "When change hits, write three lists: known (confirmed by someone accountable for it), unknown (nobody has decided yet), and assumed (a guess wearing a fact's clothes). Act on the first, watch the second, test the third."
     },
+    "context": "The sort works because of how uncertainty behaves. A vague threat stays the same size however long you stare at it; a named question shrinks the moment someone answers it. Sorting turns dread into named questions, and a new year that opens with AI on every agenda supplies plenty of material to practice on.",
+    "discuss": "Take the line 'they are bringing in AI, which means our jobs are going away.' Which half belongs in which pile, and what is the tell?",
     "q": "A colleague says: 'They are bringing in AI, which means our jobs are going away.' Where does that second part belong?",
     "opts": [
      {
@@ -91,6 +101,15 @@
    "eyebrow": "The Step",
    "headline": "Trade worry for a <em>small experiment</em>.",
    "lead": "Waiting for certainty feels responsible and costs you the learning season. Adaptable people take one small, reversible step that buys information: try the tool on one chore, sit in on the new process once, ask the direct question. Small steps thin the fog.",
+   "deeper": {
+    "title": "Design checks for a safe experiment",
+    "body": "A good experiment passes three design checks before you run it. It fits inside a normal week without anyone's sign-off. It leaves no mark if it fails: a discarded draft, a process you observed once, a question that went unanswered. And it aims at your scariest assumption first, because that is where information buys the most calm. For AI trials the traffic light is the safety rail: stay on green chores and the worst outcome is a draft you delete.",
+    "steps": [
+     "Write your experiment as one sentence: this week I will take [step] to test [assumption]. If it needs sign-off, shrink it.",
+     "Decide in advance what you will watch for, so the trial produces an observation instead of a feeling.",
+     "Book the close-out now: one surprise and one open question, shared at your next team meeting."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Design the experiment",
@@ -160,6 +179,14 @@
    "lead": "In a season of change, colleagues take their cue from whoever sounds grounded. Grounding has a shape: name the known, be honest about the unknown, point at one next step. Listen to three replies to the same worry and call what each does to the room.",
    "group": "In pairs: recall a change announcement that rattled your area. Which voices steadied people, and what exactly did they say? 90 seconds each way.",
    "solo": "Recall a change announcement that rattled your area. What did the steadiest voice around you actually say?",
+   "deeper": {
+    "title": "Steadying without overpromising",
+    "body": "The steadying voice has one trap: comfort that hardens into a promise. 'Your job is safe' feels kind and stakes your credibility on a decision you do not own; if anything shifts, you become one more voice that was wrong. Steady with what you can personally vouch for: what was said, what you tried, what you will do next. Then close the loop later. Coming back with 'here is what I found out' turns one steadying moment into a reputation for being worth asking.",
+    "steps": [
+     "Script a steadying reply for a real colleague: one known you can vouch for, one honest unknown, one step together.",
+     "Reread it for promises about decisions you do not own, and swap each one for something you can deliver."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Steady or spiral?",
@@ -290,15 +317,15 @@
   "brandline": "Sort the fog. Then take the step."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; December is the AI at Work month, and this session lands even for people who missed Monday and Tuesday.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January is the AI at Work month, and this session lands even for people who missed Monday and Tuesday.",
   "pulse": "Seven days out, send the pulse: 'Did the move on your card happen? What did it teach you that waiting would have hidden? What is your next small experiment?' Count of completed adaptability moves is the Level 3 metric for the week.",
   "s1": {
    "title": "Known, unknown, assumed",
    "purpose": "Teach the three-pile sort that shrinks ambiguity into actionable pieces.",
    "say": "Here is the shorthand for every change season: the fog is never as big as it feels. Most of what makes ambiguity heavy is that it arrives unsorted. So the first adaptability skill is a sorting move. Three piles: known, meaning confirmed by someone accountable for it; unknown, meaning genuinely undecided; and assumed, which is a guess wearing a fact's clothes. The piles are always smaller than the fog.",
    "facilitate": [
-    "Read the concept card aloud, once, slowly.",
-    "Run the knowledge check; ask which answer people picked before revealing.",
+    "Read the concept card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
+    "Run the discussion on the colleague's line: which half is known, which half is assumed, and what is the tell?",
     "Run the breakout: one assumption dressed up as a fact, 90 seconds each way."
    ],
    "ask": {
@@ -313,7 +340,7 @@
    "debrief": "Act on the known, watch the unknown, test the assumed. That single sort is most of what calm people are doing.",
    "watchFor": "The sort turning into a gripe session about specific leaders or colleagues. Keep it on situations and roles, never names, and steer each pile toward testable statements.",
    "transition": "The sort tells you where the fog is. The next skill walks into it.",
-   "coreNote": "Core: read the card, run the check, ask for one assumption in chat."
+   "coreNote": "Core: read the card, run the discussion from chat, ask for one assumption."
   },
   "s2": {
    "title": "The small experiment",
@@ -362,7 +389,7 @@
    "coreNote": "Core: run the trainer, skip the pause, take one voice on the debrief."
   },
   "capstoneSay": "Now make it real. One change that is actually on your mind, one assumption you need to test, one move from today. Situations and roles, never names. Build the card, pick your window, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
-  "closeSay": "That closes the first week of AI at Work. You have Monday's tone, Tuesday's first win, and today's footing for everything the season changes next. Make your move this week and bring what it taught you back to your team. Next week Anchor's Edge rolls on with Manager Monday, and the First-AI-Win sandbox session and the LinkedIn Learning course Generative AI for Business Leaders are there all month whenever you want them. Steady the room you are in.",
+  "closeSay": "That closes the week of AI at Work. You have Monday's tone, Tuesday's first win, and today's footing for everything the season changes next. Make your move this week and bring what it taught you back to your team. In February the series turns to Retain, Grow, Move, where the Talent Marketplace and the Transfer Portal take center stage, and the AI thread picks back up in April with Spot AI-Exposed Work. Until then, the First-AI-Win sandbox session and the LinkedIn Learning course Generative AI for Business Leaders are open all month. Steady the room you are in.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

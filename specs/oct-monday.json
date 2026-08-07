@@ -23,7 +23,7 @@
     {"label": "Retention"}
   ],
   "missionTie": "A university that aims to define the century needs leaders who know exactly what talent they have. Seeing your team clearly is where Exceptional Core Operations starts, one manager at a time.",
-  "goalLead": "Workforce Intelligence only works if managers can read their own teams first. Today builds that habit, one team at a time.",
+  "goalLead": "The Talent Marketplace only works if managers can read their own teams first. Today builds that habit, one team at a time.",
   "agenda": [
     {"t": "The skills you can't see", "d": "Why titles hide talent, and what an inventory actually looks like."},
     {"t": "The flight-risk read", "d": "Signals worth acting on, noise worth ignoring."},
@@ -51,6 +51,17 @@
           {"t": "Their current job description", "correct": false, "why": "That is the role, not the person. The inventory captures what they CAN do, which is always bigger than what the job asks."},
           {"t": "Skills they use anywhere, in or outside the role", "correct": true, "why": "Exactly. The point is the full picture: skills the role uses, skills it ignores, and skills they are building on their own."},
           {"t": "Only skills you have personally observed", "correct": false, "why": "Your observation is one source. Ask them; people know skills they have never had the chance to show you."}
+        ],
+        "context": "Think about the last person you hired. You read a resume full of skills, and then the org chart reduced them to one title. Every team on this call carries skills that came up in interviews and have never been used since. The inventory question recovers what the title erased.",
+        "discuss": "Whose resume surprised you when you first read it? What did they bring that their current role never touches, and what would it take to finally use it?"
+      },
+      "deeper": {
+        "title": "Three sources feed one honest inventory",
+        "body": "Your own observation is the weakest source, because it only samples the skills the current workload happens to exercise. Triangulate three: what you have watched them do, what colleagues borrow them for, and what they say when asked directly. The third source is where the surprises live. Most people carry a skill from a past role or a side interest nobody has asked about, and will name it the first time someone does.",
+        "steps": [
+          "Pick one person on your team and write three lines, one per source: seen, borrowed, self-reported. Leave the third blank until you have actually asked them.",
+          "Reread the resume or Oracle record they were hired with. Note one skill it mentions that the role has never used.",
+          "Bring the inventory line to your next 1:1 and let them correct it; their edits are the most accurate data you will get."
         ]
       }
     },
@@ -76,6 +87,15 @@
           {"q": "Your strongest analyst, who used to fight for projects, has passed on the last three without comment.", "answer": 0, "why": "A pattern change around ownership is the classic early signal. It costs one conversation to check and months to replace them."},
           {"q": "A steady performer is quieter than usual during the two busiest weeks of the semester.", "answer": 1, "why": "Same person, same pattern, heavier season. Watch it, but busy-season quiet on its own is weather, not a warning."},
           {"q": "A coordinator asks whether the department would fund a data course that is not part of their job.", "answer": 2, "why": "That is talent telling you where it wants to grow. Fund it or find an alternative; ignored growth asks become exit interviews."}
+        ]
+      },
+      "deeper": {
+        "title": "Read against their baseline, not the team's",
+        "body": "The common mistake is comparing a person to the rest of the team: your quietest analyst looks fine next to your loudest coordinator. Flight-risk signals only mean anything against a person's own baseline, which is why long-tenured managers miss them; the baseline drifted slowly. The fix is a small discipline: know what normal ownership looks like for each person, then notice departures from that, in either direction.",
+        "steps": [
+          "Write one sentence per team member describing their normal: what they volunteer for, what they own without being asked.",
+          "Flag anyone whose last month departs from their own sentence. That is a watch list, not a verdict.",
+          "For one flagged person, book a light check-in this week. The conversation is how you test the read."
         ]
       }
     },
@@ -120,6 +140,15 @@
           "mid": "The conversation was pleasant and a little forgettable. Nothing broke, and nothing moved either. The signals you noticed are still there, waiting for a sharper question.",
           "weak": "The polite yes you got was the same one every departing employee gives in their last six months. The read was right; the conversation wasted it."
         }
+      },
+      "deeper": {
+        "title": "The follow-through is the retention",
+        "body": "The conversation itself retains nobody; the follow-through does. Whatever you learn creates a small debt: a stretch task to find, a course to fund, a hidden skill to write into your inventory. Pay it visibly within two weeks, even partially, and the person learns that talking to you moves things. Miss it, and your next stay interview earns exactly the polite yes it was designed to avoid.",
+        "steps": [
+          "After the conversation, write one line: the skill or want you heard, and the smallest visible action it points to.",
+          "Take the action within two weeks: forward the course link, propose the stretch task, or update your inventory and say so.",
+          "At the following 1:1, name what you did with what they told you. The closed loop is the retention lever."
+        ]
       }
     }
   ],
@@ -183,15 +212,15 @@
     "s1": {
       "title": "The skills you can't see",
       "purpose": "Install the inventory question: what can each person do beyond what the role requires.",
-      "say": "Here is the uncomfortable truth this month is built on: most of us can describe our team's workload in detail and their skills only vaguely. Titles tell you the job someone was hired for. The talent read starts with what they can actually do, and half of that never shows up in the role.",
+      "say": "Here is the uncomfortable truth this month is built on: most of us can describe our team's workload in detail and their skills only vaguely. Titles tell you the job someone was hired for. The talent read starts with what they can actually do, and half of that never shows up in the role. Think about the last resume you hired from: it was full of skills, and then the org chart shrank that person to a title.",
       "facilitate": [
-        "Read the lead once, then go straight to the knowledge check; let everyone answer on their own screen.",
-        "Ask the room which answer they picked before revealing your own take.",
+        "Read the lead, then put the In the room card on screen and let the resume-to-title idea land for a beat.",
+        "Run the discussion prompt aloud and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.",
         "Run the breakout: one hidden skill per person, 90 seconds each way."
       ],
       "ask": {
-        "q": "Think of your own team. Whose hidden skill did you just think of first?",
-        "expect": ["Usually a story about someone doing something outside their lane", "Sometimes silence, which is itself the point"],
+        "q": "Whose resume surprised you when you first read it, and what did they bring that the role never touches?",
+        "expect": ["Usually a story about a skill mentioned at hire and never used since", "Sometimes silence, which is itself the point"],
         "respond": "If the room goes quiet: that silence is the gap this month closes. If stories flow: notice how fast they came once someone asked."
       },
       "debrief": "The inventory question costs nothing and most managers have never asked it. That is the whole section.",
@@ -238,7 +267,7 @@
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
     "capstoneSay": "Now make it real. One person your read points to, role only. Pick the conversation, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-    "closeSay": "You leave with a read and a conversation. Hold it this week; bring what you learned to next Monday. Tomorrow's Take-Off Tuesday shows you the Workforce Intelligence tool side of the same picture, and Thursday's session sharpens the curiosity that makes these conversations work.",
+    "closeSay": "You leave with a read and a conversation. Hold it this week; bring what you learned to next Monday. Tomorrow's Take-Off Tuesday shows your people the Talent Marketplace, the system side of the same picture, and Thursday's session sharpens the curiosity that makes these conversations work.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
       {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
@@ -248,7 +277,7 @@
     "toughQuestions": [
       {"q": "Isn't watching for flight risk just spying on my team?", "a": "No tools, no monitoring, no message-reading. This is about patterns you already see in the normal course of managing: who volunteers, who owns, who asks about growth. The response to a signal is a conversation, which is the opposite of surveillance."},
       {"q": "What if the stay interview surfaces a problem I can't fix, like pay?", "a": "Name what you control and what you don't, honestly. Most stay research shows people leave over growth, visibility, and manager attention more often than pay alone, and those are yours. For the rest, carry it upward visibly; being advocated for retains people too."},
-      {"q": "What do I do with the skills inventory once I have it?", "a": "Three uses this month: match one hidden skill to one real task, feed one growth ask, and hold one conversation. Later months connect it to Workforce Intelligence and the Transfer Portal, where the inventory becomes the university's map, not just yours."}
+      {"q": "What do I do with the skills inventory once I have it?", "a": "Three uses this month: match one hidden skill to one real task, feed one growth ask, and hold one conversation. Later months connect it to the Talent Marketplace and the Transfer Portal, where the inventory becomes the university's map, not just yours."}
     ],
     "templates": [
       {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Monday, 45 minutes on reading your team. Bring nothing but a quiet thought about one person on your team you would hate to lose. You will never be asked to name them. Live and interactive; have the session link open on your own screen."},

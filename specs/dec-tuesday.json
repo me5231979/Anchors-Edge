@@ -58,12 +58,22 @@
    "lead": "Open your next 1:1 in Oracle and you will find a shared agenda both people can edit. Most of us leave it blank and inherit whatever the meeting becomes. Typing in your two items the day before changes the meeting you get.",
    "group": "In pairs: what item have you been saving for the right moment instead of typing into a 1:1 agenda? 90 seconds each way.",
    "solo": "Write down the one item you have been saving for the right moment. That is your first template entry.",
+   "deeper": {
+    "title": "Wording items your manager can prepare for",
+    "body": "The wording of an item changes what the meeting can do with it. Career development is a topic; time on the grants project rotation and what it would take is an item your manager can prepare an answer for. For a sensitive subject you would rather not spell out in the record, type the headline and hold the detail: ten minutes on team workload. The template needs enough to prepare on, and nothing more.",
+    "steps": [
+     "Draft your two items for your next 1:1: the blocker with the decision it needs, and the growth ask with a concrete next step attached.",
+     "Reread each item as your manager. Could they prepare an answer from the words alone? Sharpen until yes, then type both into Oracle."
+    ]
+   },
    "interaction": {
     "type": "check",
     "card": {
      "tag": "Your two items",
      "text": "Before every 1:1, type two items into the shared template: the blocker you need cleared and the growth topic you want time on. Typed the day before, they shape the agenda; raised in the last five minutes, they get sympathy and no time."
     },
+    "context": "Think about your last three 1:1s: who typed the agenda, if anyone did? Oracle's shared template gives both chairs the same editable page, and the habit that changes the meeting is small. Two items, typed the day before: one blocker you need cleared, one growth topic you want real time on.",
+    "discuss": "Why do so few of us type our own items into a shared agenda, and what would change in your 1:1s if you always did?",
     "q": "Quick check: when does your agenda item do the most work?",
     "opts": [
      {
@@ -93,6 +103,14 @@
    "lead": "Oracle gives you two moves anyone can make: request feedback on your work from people who saw it, and give feedback that lands in a colleague's record. Both work best specific and fresh. The skill is knowing which move a moment calls for.",
    "group": "Breakout pairs: whose recent work deserved recorded feedback from you and got a chat message instead? Roles only. 90 seconds each way.",
    "solo": "Name one colleague, role only, whose recent work deserved recorded feedback from you. That is your first give.",
+   "deeper": {
+    "title": "Specific enough to act on",
+    "body": "Both tools live or die on specificity. A request that asks any feedback on my presentation? invites politeness. One that asks was the budget section clear enough to decide from? gets an answer you can use. Gives work the same way: name the exact work and its effect. Your data cleanup saved the Friday deadline travels further than great job, because anyone reading the record later can see what actually happened.",
+    "steps": [
+     "Draft one feedback request about specific recent work: the piece of work, the person who saw it up close, and the one question you want answered.",
+     "Draft one give, role only for now: the exact thing a colleague did and the effect it had on your work. Send both through Oracle this week."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Pick the move",
@@ -132,6 +150,14 @@
    "eyebrow": "The Record",
    "headline": "Make the record <em>work for you</em>.",
    "lead": "A year from now, the strongest case for your growth is a trail: agendas you set, commitments you closed, feedback you asked for. That trail gets built one meeting at a time, and it starts with how you set up the next one.",
+   "deeper": {
+    "title": "What the trail proves later",
+    "body": "Picture the record after a few months of the habit. Agenda items show what you pushed for and when. Closed commitments show follow-through with dates attached. Requested feedback shows you invited scrutiny before anyone required it. Each entry is small on its own. Together they answer the review conversation before it starts, and they make the same case when a Transfer Portal opportunity gets serious.",
+    "steps": [
+     "Find the one commitment from your last 1:1 that should have made a shared record. Write it as a line with an owner and a date.",
+     "Type it into the template for your next 1:1 as the first check-in item, so your trail starts with something that closes."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Set up your next 1:1",
@@ -298,7 +324,8 @@
    "say": "Quick show of honesty in chat: when your last 1:1 started, whose agenda was it? For most of us the honest answer is my manager's, or nobody's. Oracle now gives that meeting a shared template both people can edit, and the single highest-leverage habit in this session is typing your two items into it the day before: one blocker, one growth topic.",
    "facilitate": [
     "Show the template fields on screen for thirty seconds; keep it to where your items go.",
-    "Run the knowledge check; everyone answers on their own screen.",
+    "Walk the In the room context; let the whose-agenda question sit. No quiz in the live room.",
+    "Open the discussion prompt; take two or three voices before moving on.",
     "Run the breakout on the saved-up item."
    ],
    "ask": {

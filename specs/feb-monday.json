@@ -64,6 +64,8 @@
      "tag": "The reframe",
      "text": "A succession plan answers one question: who is getting ready for bigger work, and what do they need next? Read it that way and the bench stops being about exits. It becomes the most concrete growth plan most people will ever be given."
     },
+    "context": "Somewhere at Vanderbilt, a manager has a succession plan they have never mentioned to the people on it, because the word feels dangerous. The document is identical either way. The framing decides whether it retains someone or quietly terrifies them, and the framing is the manager's choice.",
+    "discuss": "What makes managers keep succession plans secret from the very people on them? Name the fear honestly, then name what the secrecy costs.",
     "q": "Quick check: what does being named to a bench actually mean for the person on it?",
     "opts": [
      {
@@ -81,6 +83,15 @@
       "correct": false,
       "why": "The seat pays off now: stretch projects, new skills, and the confidence of being seen. Waiting for a vacancy wastes the whole point."
      }
+    ]
+   },
+   "deeper": {
+    "title": "When the seat is declined",
+    "body": "Not everyone wants bigger work, and a healthy bench survives a no. The offer still pays: the person learns they are seen, you learn their real direction, and the conversation often surfaces a growth path sideways instead of up. A declined seat only damages trust when it was framed as an expectation. Keep it an invitation with something attached now, whatever they decide about later.",
+    "steps": [
+     "Pick one person who might say no to a bench seat and write the invitation version: the growth you see, with zero pressure attached.",
+     "List two things the seat pays this quarter, stretch work or visibility, that stand even if the bigger role never interests them.",
+     "Draft your reply to a flat no in two sentences, so the conversation ends with the trust intact."
     ]
    }
   },
@@ -122,6 +133,14 @@
       "answer": 2,
       "why": "Warm and weightless. Without a named direction or a next step, encouragement changes nothing and books nothing."
      }
+    ]
+   },
+   "deeper": {
+    "title": "The second sentence matters too",
+    "body": "A strong opening buys you about thirty seconds of trust, and the second sentence decides what you do with it. The trap is over-promising: 'ready for bigger work' slides into 'the next opening is yours' under the warmth of the moment, and a promise you cannot keep costs more than the fear you avoided. Honest succession language has three ingredients: the growth you see, what starts now, and what you cannot promise.",
+    "steps": [
+     "Write your full opening: sentence one names the growth you see, sentence two names what starts now, sentence three names what you cannot promise.",
+     "Read it aloud and cut anything that sounds like a guarantee. Readiness and direction survive; timelines and titles go."
     ]
    }
   },
@@ -190,6 +209,15 @@
      "mid": "The person you told nods politely and quietly wonders about your health and your job search. Growth waits for clarity you have not given yet.",
      "weak": "Six months on, a vacancy shows up somewhere else and the person in your drawer takes it. Benches that pay nothing lose to opportunities that pay now."
     }
+   },
+   "deeper": {
+    "title": "Skills first, on paper",
+    "body": "Most managers can list their tasks and freeze on their skills. Run the deputy test: if you were out for a month, which decisions would wobble? Those decisions are the real skills of your role. Then map people against that list looking for partial overlap plus appetite. Nobody should tick every box; a bench candidate needs a visible growth gap, because the gap is what you will be growing. A finished copy of you is a hire, not a bench.",
+    "steps": [
+     "Run the deputy test: list the five decisions that would wobble if you were out for a month. Those are your role's real skills.",
+     "Map two or three people against that list, looking for partial overlap plus appetite, never a finished copy of you.",
+     "Pick the first stretch handoff for one of them and put a date on the conversation."
+    ]
    }
   }
  ],
@@ -290,7 +318,7 @@
   "brandline": "A bench is a gift. Hand someone a seat."
  },
  "facilitator": {
-  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; January opens the Retain, Grow, Move month on succession and internal mobility.",
+  "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session opens the February Retain, Grow, Move month on succession and internal mobility.",
   "pulse": "Seven days out, send the pulse: 'Did the bench move on your card happen? How did the growth framing land? Who is on the pipeline for your own role now?' Count of opened bench conversations is the Level 3 metric for the month.",
   "s1": {
    "title": "The bench is a gift",
@@ -298,7 +326,7 @@
    "say": "Succession is the word managers whisper, because everyone in earshot hears replacement. Here is the reframe this whole month stands on: a bench is a list of people someone is betting on, and a seat on it is a gift. Growth work, visibility, a named direction. We whisper it, and we should be handing it over like good news.",
    "facilitate": [
     "Read the concept card aloud once, slowly; it carries the reframe.",
-    "Run the knowledge check; everyone answers on their own screen.",
+    "Show the In the room card and let it land, then open the discussion prompt: why do these plans stay secret? Take two or three voices.",
     "Run the breakout: say the bench sentence out loud, gift or threat, 90 seconds each way."
    ],
    "ask": {
@@ -362,7 +390,7 @@
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
   "capstoneSay": "Now make it real. One person whose growth this is about, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
-  "closeSay": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday previews the Transfer Portal, the tool that will surface internal opportunities based on your skills, and Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. Same week, one theme: retain, grow, move, without the fear. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
+  "closeSay": "You leave with a reframe and one bench move on a card. Make it this week. Tomorrow's Take-Off Tuesday points the Talent Marketplace and the Transfer Portal at everyone's own career: planning your growth and your next internal move, on purpose. Thursday's Thrive Thursday teaches advocacy: the difference between a mentor who advises you and a sponsor who spends their credibility on you. Same week, one theme: retain, grow, move, without the fear. And if you want to go deeper on retention this month, the LinkedIn Learning course Retaining Your Best Talent by Roberta Matuson comes with a navigator-led stay-interview practice lab.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

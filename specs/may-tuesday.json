@@ -46,11 +46,22 @@
           "tag": "The protection rule",
           "text": "Three protections stack: names come off responses, results stay hidden below a minimum group size, and leaders see aggregates and themes. Open comments are shared word for word, so write them about the work."
         },
+        "context": "Think back to the last pulse you took. Between your click and any report, three things happened: your name came off, your answers joined a pool, and a report only existed once the pool cleared the minimum size. Small groups roll up a level. The one exception: open comments travel word for word.",
+        "discuss": "What have you heard people say about who can see survey answers, and which of the three protections answers it?",
         "q": "Your team has four people this cycle and the minimum reporting group is five. What happens to your answers?",
         "opts": [
           {"t": "Your manager sees them individually", "correct": false, "why": "The tooling shows no report at all before it shows a group that small. Below the minimum, results roll up to the next level or stay unreported."},
           {"t": "They roll into a larger group or go unreported", "correct": true, "why": "Exactly. The minimum group size exists for this case: your voice still counts upward, and it can never be isolated back to you."},
           {"t": "The survey skips your team entirely", "correct": false, "why": "You still get asked, and your answers still matter. They feed the bigger aggregate even when your small team gets no report of its own."}
+        ]
+      },
+      "deeper": {
+        "title": "What happens to open comments",
+        "body": "Scores get the full anonymization treatment; comments get less, because they travel word for word and writing style can be recognizable. So write comments you would stand behind at their most traceable: about workload, process, and patterns in the work. That is a reason to aim well, never a reason to skip them. Verbatim comments are the most read part of any survey report, which makes one well-aimed comment your loudest voice.",
+        "steps": [
+          "Draft one open comment about your current work: a pattern or a process, one concrete suggestion, no named colleagues.",
+          "Reread it as if your whole department could see it. If it still feels fair and useful, it is survey-ready.",
+          "Save it somewhere you will find it when the next pulse opens, so the honest version is already written."
         ]
       }
     },
@@ -76,6 +87,15 @@
           {"q": "An analyst wants to rate workload honestly but worries their manager will recognize the low score as theirs.", "answer": 1, "why": "The classic myth. Scores arrive as an aggregate with no names attached, and small groups never get their own report. The low score cannot be traced."},
           {"q": "A coordinator drafts an open comment naming a colleague and describing that person's attitude problem in detail.", "answer": 2, "why": "Open comments travel word for word. The real norm: describe the work and the pattern, roles and situations, never a named colleague's character."},
           {"q": "An advisor figures one response cannot change anything, so they plan to click neutral on every question.", "answer": 0, "why": "Neutral clicks are the only truly wasted answers. Aggregates are made of single voices, and a true answer is protected, so spend yours."}
+        ]
+      },
+      "deeper": {
+        "title": "The arithmetic of one voice",
+        "body": "The one-voice myth fails on arithmetic. Aggregates are averages of small pools: on a team of eight, your answer is an eighth of the score, and a theme gets flagged when just a handful of comments rhyme. Softened answers do damage by the same arithmetic. Every inflated score buries the signal a leader needed to see, which is how a quiet problem stays quietly funded for another year.",
+        "steps": [
+          "Recall the last survey answer you softened. Write what the honest score would have been and what it might have surfaced.",
+          "Decide your rule before the next pulse opens: answer as if the plumbing works, because it does.",
+          "Pick the one question you always rush past, and plan to give it an extra thirty seconds next cycle."
         ]
       }
     },
@@ -120,6 +140,15 @@
           "mid": "A month later, the same theme shows up in the next round of feedback, slightly louder. It was signal after all, and it kept broadcasting until someone listened.",
           "weak": "The comment faded, and so did the confidence you spent on it. Nothing about your work changed, so the next summary reads the same, and stings the same."
         }
+      },
+      "deeper": {
+        "title": "The two-week experiment, properly run",
+        "body": "An adjustment without a window becomes a vague resolution, and a window without a review becomes forgetting. The full loop has three parts: name the adjustment in one sentence, run it for two weeks, then spend five minutes asking what changed. Most experiments end there, absorbed into normal habit. When one changes nothing, that is a finding too: the comment was noise, and you can retire it with a clear conscience.",
+        "steps": [
+          "Take one piece of feedback you have received this year and write the one adjustment it suggests.",
+          "Put a 15-minute review on your calendar two weeks out; that appointment is what makes it an experiment.",
+          "At the review, write one line: keep it, adjust it, or retire the comment as noise."
+        ]
       }
     }
   ],
@@ -153,7 +182,7 @@
     "headline": "Honest in. <em>Useful out.</em>",
     "lead": "Pick the next place your signal shows up, giving or receiving. Nothing you type is saved or sent; roles, never names.",
     "whoLabel": "Where does your signal show up next? The survey, tool, or feedback moment.",
-    "whoPlaceholder": "e.g. spring pulse next month; 360 summary due after the project",
+    "whoPlaceholder": "e.g. the next pulse survey; 360 summary due after the project",
     "practiceLabel": "Which move do you commit to?",
     "whoRow": "The moment and the tool",
     "practices": [
@@ -185,9 +214,9 @@
       "purpose": "Demystify the plumbing: anonymization, minimum group sizes, and aggregate reporting.",
       "say": "Here is a thing almost nobody gets shown: what actually happens to a survey answer after you click submit. Your name comes off. Your answer joins a pool. If the pool is too small, no report exists at all. What a leader finally sees is a theme and a number, never a row with your name on it. We are opening the hood today, because people are only as honest as the plumbing lets them feel safe being.",
       "facilitate": [
-        "Read the lead once, then run the knowledge check on learner screens.",
+        "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
         "Walk the three protections slowly: names off, minimum group size, aggregates only.",
-        "Run the breakout on what people have heard about who sees answers."
+        "Lead the discussion prompt for two or three voices, then run the breakout on what people have heard."
       ],
       "ask": {
         "q": "What have you heard people say about who sees the answers?",
