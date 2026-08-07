@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 10</span>
+    <span class="bottombar__count" id="deckCount">1 / 9</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -120,9 +121,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 2 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>A university out to define the century can only see the ambitions its people write down, and every goal on the record strengthens Exceptional Core Operations from the inside.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 2 · Manager Effectiveness at Scale</span>
-        <p style="margin:.5rem 0 0" class="measure">Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Implement a Vanderbilt manager standard that measures demonstrated leader behavior.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -135,7 +153,7 @@
     <div class="wrap">
       <p class="eyebrow" data-reveal>Take-Off Tuesday · Tools and tech, hands on · Coaching as the Core Manager Behavior</p>
       <h1 class="h-hero" data-reveal>Put your growth <em class="gold-text">on the record</em>.</h1>
-      <p class="lead" data-reveal style="margin-top:1.25rem">The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into Oracle, where opportunity can actually find them.</p>
+      <p class="lead" data-reveal style="margin-top:1.25rem">Goals set in good career conversations often stay unwritten. This session shows you how to put them in Oracle, where reviews and project staffing can actually find them.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
         <ol class="objectives__list">
@@ -148,38 +166,28 @@
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Career Development</span><span class="skillpill">Systems Fluency</span><span class="skillpill">Self-Advocacy</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>Why the record matters</h3><p>Who actually reads your record, and what a written goal buys you.</p></div></li><li data-reveal><span class="num">02</span><div><h3>What goes where</h3><p>Oracle, your own notes, or nowhere: the five-second sort.</p></div></li><li data-reveal><span class="num">03</span><div><h3>Write the entry</h3><p>One goal and one conversation note, written so they still work in six months.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="Why the record matters">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Why</p>
-      <h2 class="h2" data-reveal>Invisible goals go <em>unfed</em>.</h2>
+      <h2 class="h2" data-reveal>Write the goal where readers <em>can find it</em>.</h2>
       <p class="lead" data-reveal>When a stretch project or a Transfer Portal opening appears, someone looks at the record to see who is reaching for what, and a goal that lives in your head is invisible to that search. Writing it into Oracle is how you raise your hand in advance.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The visibility rule</span>
-        <p style="margin:.5rem 0 0" class="measure">Your growth record is a standing hand-raise. Managers, mentors, and internal recruiters can only work with what they can see, so a goal in Oracle keeps advocating for you in rooms you are never in.</p>
+        <p style="margin:.5rem 0 0" class="measure">Managers, mentors, and internal recruiters can only work with what they can see. A goal written in Oracle stays visible in the reviews and staffing decisions you are never in the room for; a goal in your head is invisible to all of them.</p>
       </div>
       <div class="quiz" data-webonly data-quiz data-reveal style="margin-top:1.5rem">
         <p class="quiz__q">You want to move toward data work within two years. Where does that ambition do the most for you?</p>
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="By posting day the shortlist is often half-formed. The record works earliest, before the opening exists, when projects and course seats get handed out."><span class="mark">A</span><span>In your head until a data role is actually posted</span></button><button class="opt" data-correct="1" data-why="Right. On the record it can surface in talent reviews, project staffing, and course nominations, whether or not you are in the room."><span class="mark">B</span><span>Written as a development goal in Oracle</span></button><button class="opt" data-correct="0" data-why="A good start with a short shelf life. Spoken goals fade with busy seasons and manager changes; written ones survive both."><span class="mark">C</span><span>Mentioned to your manager once at review time</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://learning.linkedin.com/resources/workplace-learning-report" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">LinkedIn Workplace Learning Report: career goals and retention</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://learning.linkedin.com/resources/workplace-learning-report" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">LinkedIn Workplace Learning Report: career goals and retention</a></p>
       <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?</p>
       <details class="deeper" data-webonly data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
@@ -249,7 +257,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>Opportunity cannot find a goal that lives only in your head.</p>
+      <p>Write your development goal in Oracle: a direction plus a dated first step.</p>
     </div>
   </section>
 
@@ -311,8 +319,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Written down is <em>findable</em>.</h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You sorted what belongs where and built an entry worth saving. Thursday closes the week with the listening skill underneath every good career conversation.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Put the goal in Oracle <em>this week</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">Move the drafted goal from your card into Oracle this week. Thursday closes the week with the listening skill underneath every good career conversation.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Make the Oracle entry real</h3>
@@ -327,7 +335,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Your growth, on the record.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Enter the goal in Oracle this week.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../../index.html">Anchor's Edge dashboard</a>
       <span>The Growth Record · Take-Off Tuesday · Anchor's Edge</span>

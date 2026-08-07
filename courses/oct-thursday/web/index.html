@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 10</span>
+    <span class="bottombar__count" id="deckCount">1 / 9</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -120,9 +121,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 1 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Curiosity is Educating the Whole Human applied to staff; the university grows when its people keep growing.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 1 · Talent Marketplace &amp; Transfer Portal</span>
-        <p style="margin:.5rem 0 0" class="measure">Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -135,7 +153,7 @@
     <div class="wrap">
       <p class="eyebrow" data-reveal>Thrive Thursday · The soft skill that carries it · See the Talent Around You</p>
       <h1 class="h-hero" data-reveal>Curiosity is a <em class="gold-text">career skill</em>.</h1>
-      <p class="lead" data-reveal style="margin-top:1.25rem">Careers stall on unasked questions more often than on lack of talent. Today curiosity becomes a practiced skill: better questions about your path and the work around you.</p>
+      <p class="lead" data-reveal style="margin-top:1.25rem">This session treats curiosity as a practiced skill: asking specific, answerable questions about your own path and about the work of the people around you.</p>
       <div class="objectives" data-reveal>
         <p class="objectives__label">By the end of this session, you will be able to</p>
         <ol class="objectives__list">
@@ -148,27 +166,17 @@
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">Curiosity</span><span class="skillpill">Career Development</span><span class="skillpill">Communication</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>Questions for your own path</h3><p>Trade 'what is next for me' for questions that actually open doors.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Curiosity conversations</h3><p>Ask a colleague about their work in a way that makes talent visible.</p></div></li><li data-reveal><span class="num">03</span><div><h3>From curious to concrete</h3><p>Turn one good answer into one small step with a date on it.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="Questions for your own path">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · Your Path</p>
-      <h2 class="h2" data-reveal>Better questions beat <em>bigger</em> ones.</h2>
+      <h2 class="h2" data-reveal>Ask questions small enough to <em>answer</em>.</h2>
       <p class="lead" data-reveal>Asked in the abstract, 'what is next for me' has no answer. Harvard's Francesca Gino finds curiosity is a skill you can build, and it starts with smaller questions: what work makes me lose track of time, which of my skills do people keep borrowing?</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The better-question test</span>
@@ -179,7 +187,7 @@
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="Nobody can answer it this week, and the answer changes nothing on Monday. It is a mission statement pretending to be a question."><span class="mark">A</span><span>Where do I see myself in five years?</span></button><button class="opt" data-correct="1" data-why="Answerable this week, by you or by asking around, and the answer points at a real move: a skill worth naming, feeding, and putting on your profile."><span class="mark">B</span><span>What skill do colleagues keep coming to me for?</span></button><button class="opt" data-correct="0" data-why="Comparison questions produce anxiety, not information. Aim curiosity at your work and your skills, where the answers are usable."><span class="mark">C</span><span>Am I falling behind my peers?</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://hbr.org/2018/09/the-business-case-for-curiosity" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">The Business Case for Curiosity, Francesca Gino (HBR)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://hbr.org/2018/09/the-business-case-for-curiosity" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">The Business Case for Curiosity, Francesca Gino (HBR)</a></p>
       <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write down the task in your week that makes time move fastest, and what it says about your skills.</p>
       <details class="deeper" data-webonly data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
@@ -199,7 +207,7 @@
       <p class="lead" data-reveal>The fastest way to see the talent around you is to ask about it. A career curiosity conversation is 15 minutes with a colleague about their work, what it actually takes and what nobody sees. One good question makes two people's talent visible.</p>
       <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Door or dead end?</p>
-        <p class="why" style="margin-top:0"><b>Why this matters:</b> Curiosity has a sound, and so do its impostors. Read each moment and call it.</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Read each moment and call it: real curiosity, a dead end, or judgment. A question that is specific, generous, and about the other person is what gets honest answers.</p>
         <p class="quiz__progress"></p>
         <p class="quiz__q" style="margin-top:.4rem"></p>
         <div class="quiz__options" role="group" aria-label="Choices"></div>
@@ -222,8 +230,8 @@
   <section class="slide on-cream" id="s-three" data-count data-title="From curious to concrete">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 03 · The Move</p>
-      <h2 class="h2" data-reveal>Curiosity earns a <em>next step</em>.</h2>
-      <p class="lead" data-reveal>An interesting answer that changes nothing is trivia. Curiosity starts moving your career when the answer turns into a step small enough to actually happen, an hour of shadowing or one doc to read. Build the step you would take.</p>
+      <h2 class="h2" data-reveal>Turn the answer into a <em>next step</em>.</h2>
+      <p class="lead" data-reveal>An answer starts helping your career when it becomes a step small enough to happen: an hour of shadowing or one doc to read. In this lab you build the step you would take and put a date on it.</p>
       <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Practice · Book the next step</p>
         <p class="why" style="margin-top:0"><b>Why this matters:</b> You just had a great career curiosity conversation. Choose what you do with the answer, and when.</p>
@@ -249,7 +257,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>Talent becomes visible the moment somebody asks about it.</p>
+      <p>Ask one specific question about work you are curious about, then act on the answer.</p>
     </div>
   </section>
 
@@ -311,8 +319,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Stay curious. <em>On purpose.</em></h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">Your career questions got smaller and sharper today. You also practiced asking about a colleague's work generously, and putting a date on whatever the answer opens. That is curiosity working as a skill.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Ask the question. Book the <em>step</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You practiced shrinking career questions, asking colleagues about their work, and putting a date on the next step. The move on your card is where the practice reaches your real week.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Make the curiosity move on your card</h3>
@@ -327,7 +335,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Ask the question. See the talent.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Send the invite while the curiosity is fresh.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../../index.html">Anchor's Edge dashboard</a>
       <span>The Better Question · Thrive Thursday · Anchor's Edge</span>
@@ -466,7 +474,7 @@ window.COURSE = {
   }
  ],
  "recapMsgs": {
-  "high": "The questions are loaded. Aim one at a real person this week.",
+  "high": "Strong recall. Pick one real person and build your card.",
   "mid": "Nearly there. Revisit the one that got you, then pick your move.",
   "low": "Walk the three sections once more; the questions get easier the second time."
  },

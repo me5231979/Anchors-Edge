@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -79,7 +80,7 @@
 </style>
 </head>
 <body>
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -103,7 +104,7 @@
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 10</span>
+    <span class="bottombar__count" id="deckCount">1 / 9</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -120,9 +121,26 @@
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Staff who test claims before believing them keep Radical Collaboration honest, with shared decisions built on evidence rather than volume.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -148,27 +166,17 @@
         <span class="skillpill skillpill--core">Thinks critically</span><span class="skillpill">Decision Making</span><span class="skillpill">AI Literacy</span><span class="skillpill">Information Evaluation</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>The three tests</h3><p>What is the evidence, who benefits from my believing it, and what would change my mind.</p></div></li><li data-reveal><span class="num">02</span><div><h3>The hype tells</h3><p>Practice the filter on real-sounding claims and learn the patterns hype repeats.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The live decision</h3><p>Aim the filter at an actual tool-adoption call and design the test that settles it.</p></div></li>
-      </ol>
-    </div>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="The three tests">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Filter</p>
-      <h2 class="h2" data-reveal>Three questions beat a <em>thousand opinions</em>.</h2>
+      <h2 class="h2" data-reveal>Ask three questions of <em>every claim</em>.</h2>
       <p class="lead" data-reveal>The filter is three questions, asked fast. What is the evidence, and would it survive someone checking? Who benefits from my believing this? And what would change my mind, in either direction? A claim that survives all three has earned some trust.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The filter</span>
@@ -194,11 +202,11 @@
   <section class="slide on-dark" id="s-two" data-count data-title="The hype tells">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 02 · The Patterns</p>
-      <h2 class="h2" data-reveal>Hype speaks with an <em>accent</em>.</h2>
-      <p class="lead" data-reveal>Hype repeats itself: a giant number with no baseline, urgency that never survives a second look, a seller quoted as the judge. Value talks about a specific task and invites you to check. Practice tunes your ear until the accent gives it away.</p>
+      <h2 class="h2" data-reveal>Learn the tells <em>hype</em> repeats.</h2>
+      <p class="lead" data-reveal>Hype repeats itself: a giant number with no baseline, urgency that never survives a second look, a seller quoted as the judge. Value talks about a specific task and invites you to check. Practice on real claims until those patterns are quick to spot.</p>
       <div class="quiz trainer" id="s-two-play" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Play · Hype or value?</p>
-        <p class="why" style="margin-top:0"><b>Why this matters:</b> Three claims that could land in your inbox this week. Run the filter on each.</p>
+        <p class="why" style="margin-top:0"><b>Why this matters:</b> Run the filter on each claim and note which tell decides your verdict. Getting the middle case right matters most: unclear claims earn a test, never free belief.</p>
         <p class="quiz__progress"></p>
         <p class="quiz__q" style="margin-top:.4rem"></p>
         <div class="quiz__options" role="group" aria-label="Choices"></div>
@@ -206,7 +214,7 @@
         <div class="quiz__nav"><button class="btn btn--dark" style="visibility:hidden">Next</button></div>
         <div class="trainer__result" hidden aria-live="polite"></div>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://hai.stanford.edu/ai-index" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">The AI Index Report, Stanford HAI</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://hai.stanford.edu/ai-index" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">The AI Index Report, Stanford HAI</a></p>
       <p class="why" data-webonly data-reveal style="margin-top:1.25rem"><b>On your own:</b> Find one AI claim in your inbox or feed right now. Label it hype, value, or unproven, and note which tell decided it.</p>
       <details class="deeper" data-webonly data-reveal>
         <summary><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg> Go deeper</summary>
@@ -249,7 +257,7 @@
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>A claim you never tested is a bet you never noticed placing.</p>
+      <p>Run every AI claim through the three tests before you act on it or repeat it.</p>
     </div>
   </section>
 
@@ -277,7 +285,7 @@
   <section class="slide on-dark" id="s-plan" data-title="My commitment">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Capstone · My claim to test</p>
-      <h2 class="h2" data-reveal>One claim. Three tests. <em>One honest verdict.</em></h2>
+      <h2 class="h2" data-reveal>Pick the claim you <em>test first</em>.</h2>
       <p class="lead" data-reveal>Pick a real claim currently circling your work: a tool pitch, a headline, a hallway certainty. Nothing you type is saved or sent.</p>
       <div class="plan" id="capstone" data-reveal>
         <div class="plan__form">
@@ -311,8 +319,8 @@
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Test the claim. <em>Trust the result.</em></h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">The month's kit is complete once the filter is in your pocket. Aim it first at the claim you most want to be true.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Run the filter on a <em>live claim</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">Run the three tests this week on a real claim, starting with the one you most want to be true. Write the verdict down and let it steer your next tool decision.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Run the filter on your card</h3>
@@ -327,7 +335,7 @@
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Three questions. Then belief.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Ask the three questions before you believe.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../../index.html">Anchor's Edge dashboard</a>
       <span>The Hype Filter · Thrive Thursday · Anchor's Edge</span>

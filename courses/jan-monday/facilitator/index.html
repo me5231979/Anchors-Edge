@@ -72,6 +72,7 @@
   .slide .plan__form { gap: .8rem; }
   .slide .plan__field label, .slide .plan__label { font-size: .92rem; }
   .slide .plan__chips .opt { font-size: .85rem; padding: .5rem .75rem; }
+  .slide .srcline { margin-top: .5rem; font-size: .74rem; opacity: .85; }
   /* slim single-row footer inside the closing slide */
   .slide .footer--slim { margin-top: 1.5rem; padding: .9rem 0; border-top: 1px solid rgba(207,174,112,.25); background: transparent; }
   .footer--slim .footer__row { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: center; font-size: .78rem; color: rgba(255,255,255,.6); }
@@ -156,7 +157,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
 
 </head>
 <body class="fac">
-<a class="skip-link" href="#s-agenda">Skip to content</a>
+<a class="skip-link" href="#s-one">Skip to content</a>
 
 <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
@@ -181,7 +182,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
   <span class="bottombar__title" id="barTitle"></span>
   <div class="dots" id="dots" role="navigation" aria-label="Slide navigation"></div>
   <div class="bottombar__ctrl">
-    <span class="bottombar__count" id="deckCount">1 / 11</span>
+    <span class="bottombar__count" id="deckCount">1 / 10</span>
     <button id="deckPrev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
     <button id="deckNext" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
   </div>
@@ -237,9 +238,26 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       <p class="eyebrow" data-reveal>The institutional why · Crescere aude · Goal 3 of 3</p>
       <h2 class="h2" data-reveal>Vanderbilt will <em>define the great university of the 21st Century</em> and <em>be it.</em></h2>
       <p class="lead" data-reveal>Defining the great university of the 21st Century takes managers who make safe AI use normal on their own teams, and Exceptional Core Operations grows one team at a time as they do.</p>
-      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.5rem">
+      <div class="grid grid-3 mission-grid" style="margin-top:1.5rem">
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 1</span>
+          <h3>Exceptional Core Operations</h3>
+          <p class="muted">With speed, agility and scale, Vanderbilt will distinguish itself with innovative and impactful capabilities to ensure that we have the talent, resources and reputation necessary to deliver on our vision.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 2</span>
+          <h3>Bold Strategic Initiatives</h3>
+          <p class="muted">With exceptional core operations as our fuel, Vanderbilt will pursue increasingly bold initiatives that enable and enhance the reach and impact of our education and research mission.</p>
+        </div>
+        <div class="card" data-reveal>
+          <span class="tag">Areas of Focus · 3</span>
+          <h3>Values Leadership</h3>
+          <p class="muted">Through strategic advocacy efforts and modeling the role of an essential research university, Vanderbilt will stimulate industry change and combat existential threats to our education and research mission.</p>
+        </div>
+      </div>
+      <div class="card" data-reveal style="border-color:rgba(207,174,112,.5);margin-top:1.1rem">
         <span class="tag">This month targets · Goal 3 · AI-Enabled Workforce Readiness</span>
-        <p style="margin:.5rem 0 0" class="measure">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
+        <p style="margin:.4rem 0 0" class="measure" style="font-size:.9rem">Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions.</p>
       </div>
       <p class="why" data-reveal style="margin-top:1.1rem"><b>Source:</b> <a href="https://news.vanderbilt.edu/2022/07/01/daring-to-grow-together-we-are-building-the-great-university-of-the-21st-century/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">&ldquo;Daring to Grow&rdquo;, Chancellor Diermeier, Vanderbilt University (July 2022)</a></p>
     </div>
@@ -266,30 +284,19 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
         <span class="skillpill skillpill--core">Grows self and others</span><span class="skillpill">AI Fluency</span><span class="skillpill">Change Leadership</span><span class="skillpill">Psychological Safety</span>
       </div>
       <div class="hero__cta" data-reveal>
-        <a class="btn" href="#s-agenda">Begin the session</a>
+        <a class="btn" href="#s-one">Begin the session</a>
       </div>
     </div>
-    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in under a minute.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session: name the three signals a team reads from its manager about ai: permission, safety, curiosity; choose one green-light task from your own week and model it for your team; open a team conversation about ai that is honest about limits and free of hype. That is the whole contract.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; do not elaborate yet.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Three stops to get there.&rdquo;</p></div></aside>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 2 min · Core 1</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Set the contract for the session in about a minute; this slide is also the roadmap.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;By the end of this session you will be able to: name the three signals a team reads from its manager about ai: permission, safety, curiosity; choose one green-light task from your own week and model it for your team; open a team conversation about ai that is honest about limits and free of hype. We take them in order, and each one has something to practice.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Read the three objectives briskly; they double as the agenda.</li><li>Point at the goal chip once, then move.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;First objective.&rdquo;</p></div></aside>
   </section>
 
-  <!-- ============ 4 · AGENDA ============ -->
-  <section class="slide on-cream" id="s-agenda" data-title="The plan">
-    <div class="wrap">
-      <p class="eyebrow" data-reveal>What we'll cover</p>
-      <h2 class="h2" data-reveal>Three ideas, in <em>order</em>.</h2>
-      <ol class="agenda">
-        <li data-reveal><span class="num">01</span><div><h3>The tone you set</h3><p>What your team reads from your silence, your hype, and your curiosity.</p></div></li><li data-reveal><span class="num">02</span><div><h3>Model one safe use</h3><p>The traffic light, and picking a first use your team can watch you run.</p></div></li><li data-reveal><span class="num">03</span><div><h3>The team conversation</h3><p>Words that invite experiments and keep the guardrails visible.</p></div></li>
-      </ol>
-    </div>
-    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Show the path so the room can pace itself.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;Three stops: the tone you set, model one safe use, the team conversation. Each one has something to play with, so keep the deck open.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Point once at each stop; ten seconds each.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;Stop one.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: skip the read-through, gesture at the slide in passing.</p></aside>
-  </section>
 
   <!-- ============ SECTION 01 ============ -->
   <section class="slide on-light" id="s-one" data-count data-title="The tone you set">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 01 · The Tone</p>
-      <h2 class="h2" data-reveal>Silence is also a <em>signal</em>.</h2>
-      <p class="lead" data-reveal>Ask a team why they avoid AI and you usually hear that the manager never brought it up. Your tone gets read whether you set it or drift into it. This month you set it on purpose, and you start by saying out loud what is allowed.</p>
+      <h2 class="h2" data-reveal>Your team reads three <em>signals</em> from you.</h2>
+      <p class="lead" data-reveal>Teams read three signals from their manager about AI: permission, safety, and curiosity. They read them from what you say and do, and silence gets read too. This section covers how to set all three on purpose, starting with saying out loud what is allowed.</p>
       <div class="card" data-reveal style="margin-top:1.75rem;border-color:rgba(207,174,112,.5)">
         <span class="tag">The tone rule</span>
         <p style="margin:.5rem 0 0" class="measure">A team's AI behavior mirrors its manager's signals. They listen for three things: permission (may we?), safety (what is in bounds?), and curiosity (does trying count?). When all three are clear, safe experiments start.</p>
@@ -304,7 +311,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
         <div class="quiz__options"><button class="opt" data-correct="0" data-why="Some will quietly assume that, with zero guardrails. Silence produces shadow use by the bold and total avoidance by the careful."><span class="mark">A</span><span>AI is fine here as long as nobody asks</span></button><button class="opt" data-correct="1" data-why="Most people default to caution and wait. Meanwhile a few experiment unguided, which is the riskiest mix a team can have."><span class="mark">B</span><span>The topic is off limits until the manager raises it</span></button><button class="opt" data-correct="0" data-why="Habits form around what the manager permits and models. McKinsey found staff readier than leaders assume, which makes your signal the one they wait on."><span class="mark">C</span><span>Nothing; teams form AI habits on their own</span></button></div>
         <p class="quiz__feedback" aria-live="polite"></p>
       </div>
-      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Superagency in the workplace, McKinsey (2025)</a></p>
+      <p class="why srcline" data-reveal><b>Grounded in:</b> <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Superagency in the workplace, McKinsey (2025)</a></p>
       <p class="why" data-classroom data-reveal style="margin-top:1.25rem"><b>Breakout · 3 min:</b> In pairs: what tone has your team read from you about AI so far, on purpose or by accident? 90 seconds each way.</p>
       <p class="why" data-webonly hidden data-reveal style="margin-top:1.25rem"><b>On your own:</b> Write one line: what tone has your team read from you about AI so far, on purpose or by accident?</p>
       <details class="deeper" data-webonly hidden data-reveal>
@@ -351,8 +358,8 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
   <section class="slide on-cream" id="s-three" data-count data-title="The team conversation">
     <div class="wrap">
       <p class="eyebrow" data-reveal>Section 03 · The Talk</p>
-      <h2 class="h2" data-reveal>Talk about it like a <em>leader</em>.</h2>
-      <p class="lead" data-reveal>Hype earns eye rolls; fear drives experiments underground. The conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Build the version you would actually say at your next team meeting.</p>
+      <h2 class="h2" data-reveal>Say what you tried and <em>what is in bounds</em>.</h2>
+      <p class="lead" data-reveal>The team conversation that works is plain: here is what I tried, here is what is in bounds, and I want to hear what you try. Hype invites eye rolls, and fear drives experiments underground. Build the version you would say at your next team meeting.</p>
       <div class="lab" id="s-three-lab" data-reveal style="margin-top:1.75rem">
         <p class="eyebrow" style="margin-bottom:.5rem">Practice · Open the AI conversation</p>
         <p class="why" style="margin-top:0"><b>Why this matters:</b> Your team meeting, five minutes on the agenda. Choose how you open and what you invite.</p>
@@ -379,9 +386,9 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
   <section class="slide on-cream manifesto" id="s-belief" data-title="One idea">
     <div class="wrap">
       <p class="eyebrow" data-reveal>The core idea</p>
-      <p>Your team will use AI the way they watched you use it.</p>
+      <p>Model one green-light use for your team and say out loud what is in bounds.</p>
     </div>
-    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: Your team will use AI the way they watched you use it.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
+    <aside class="facnote" aria-label="Facilitator notes"><div class="facnote__head"><span>Facilitator script</span><span class="facnote__time">Full 1 min · Core skip</span><button class="facnote__hide" type="button" aria-label="Hide the facilitator script">Hide</button></div><p class="facnote__purpose">Land the one sentence the session exists to install.</p><div class="facnote__blk"><span class="facnote__tag t-say">Say</span><p class="facnote__script">&ldquo;If you keep one sentence from today, this is it. Read it once, out loud: Model one green-light use for your team and say out loud what is in bounds.&rdquo;</p></div><div class="facnote__blk"><span class="facnote__tag t-do">Do</span><ol class="facnote__steps"><li>Pause two beats after reading; the word animation carries it.</li></ol></div><div class="facnote__blk"><span class="facnote__tag t-tra">Transition</span><p class="facnote__script">&ldquo;The recap makes it stick.&rdquo;</p></div><p class="facnote__meta facnote__core"><b>30-min core:</b> Core: pass through in stride; the sentence reads itself.</p></aside>
   </section>
 
   <!-- ============ RECAP QUIZ ============ -->
@@ -444,8 +451,8 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
   <section class="slide on-dark" id="s-close" data-title="Wrap-up">
     <div class="wrap" style="text-align:center">
       <img src="../../../assets/img/vu-centered-white.png" alt="Vanderbilt University" width="120" height="125" style="margin:0 auto 1.5rem;width:clamp(88px,9vw,120px);height:auto" data-reveal>
-      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Go first. <em>They will follow.</em></h2>
-      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You know the signals your team reads, and you leave with a green light picked and the words to open with. Tuesday and Thursday carry the same theme into every staff member's week.</p>
+      <h2 class="h2 gold-text" data-reveal style="max-width:24ch;margin-inline:auto">Model the chore <em>this week</em>.</h2>
+      <p class="lead" data-reveal style="margin:1.25rem auto 0;color:rgba(255,255,255,.82);max-width:56ch">You know the signals your team reads, and you have a green light picked and the words to open with. Tuesday and Thursday carry the same theme to every staff member.</p>
       <div class="vidcard vidcard--feature" data-reveal style="text-align:left;max-width:640px;margin:1.75rem auto 0;cursor:default">
         <div class="vidcard__top"><span class="vidcard__src">Your one next step · This week</span></div>
         <h3>Model the chore on your card</h3>
@@ -460,7 +467,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
 <footer class="footer footer--slim" aria-label="Course footer">
   <div class="wrap">
     <div class="footer__row">
-      <span class="brandline" style="font-size:.95rem;margin:0">Set the tone. Then watch it spread.</span>
+      <span class="brandline" style="font-size:.95rem;margin:0">Model one safe use and say what is in bounds.</span>
       <span>© <span id="year">2026</span> Vanderbilt University</span>
       <a href="../../../index.html">Anchor's Edge dashboard</a>
       <span>Set the Tone · Manager Monday · Anchor's Edge · Facilitator Edition · learner link: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/" style="color:rgba(255,255,255,.7);text-decoration:underline">me5231979.github.io/Anchors-Edge/courses/jan-monday/</a></span>
@@ -600,7 +607,7 @@ window.COURSE = {
   }
  ],
  "recapMsgs": {
-  "high": "The tone is yours to set. Now go model the first green light.",
+  "high": "You have all three pieces. Model the green-light chore this week.",
   "mid": "Solid. Revisit the traffic light, then build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
