@@ -1,260 +1,414 @@
 {
-  "slug": "may-workshop",
-  "format": "workshop",
-  "series": "Navigator Workshop",
-  "month": "May 2027",
-  "monthShort": "May",
-  "monthIndex": 8,
-  "theme": "Measured Leader Behavior",
-  "goal": 2,
-  "title": "The Practice Room",
-  "titleHtml": "Practice on a <em class=\"gold-text\">real face</em>.",
-  "tagline": "The feedback role-play and development-plan build, live and in person.",
-  "description": "An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.",
-  "heroLead": "The weekly sessions taught the reads; this room adds another person. Give feedback to a face, take some back, and leave with a plan built from feedback you actually hold.",
-  "objectives": [
-    "Deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict",
-    "Receive a live round cleanly: one thank you, one clarifying question, no case for the defense",
-    "Build a one-page development plan from real feedback and let a peer pressure-test one commitment"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Feedback Literacy"},
-    {"label": "Self-Awareness"},
-    {"label": "Career Development"}
-  ],
-  "missionTie": "A room practicing how to say the true thing kindly, and hear it without armor, is Exceptional Core Operations rehearsing for the great university of the 21st Century.",
-  "agenda": [
-    {"t": "Camera-true lines", "d": "Rewrite verdicts into behavior a camera would have caught, then say them out loud."},
-    {"t": "The live rounds", "d": "Give and receive in rotating pairs; the face across from you is the lesson."},
-    {"t": "The plan and the pressure test", "d": "Turn feedback you hold into one page, and let a peer lean on your commitment."}
-  ],
-  "manifesto": "Feedback becomes a skill the first time it meets a real face and survives.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "Camera-True",
-      "dataTitle": "Camera-true lines",
-      "eyebrow": "The Line",
-      "headline": "Say what the <em>camera saw</em>.",
-      "lead": "Every line gets the camera test first: would a lens have caught it? No camera films careless. A camera did film two summaries going out with old numbers. CCL has taught the move for decades as SBI, naming the situation, the behavior, and the impact.",
-      "group": "Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.",
-      "source": {"label": "SBI feedback model (Center for Creative Leadership)", "url": "https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/"},
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Camera or character?",
-        "intro": "Three feedback lines about to be delivered. Call each one before it leaves the mouth.",
-        "progressWord": "Line",
-        "labels": ["Camera-true, deliver it", "Character verdict, rewrite it", "Too vague, sharpen it"],
-        "passAt": 2,
-        "passMsg": "Your ear is calibrated. Behavior a lens would catch gets delivered; verdicts get rewritten; fog gets sharpened.",
-        "failMsg": "Close. The test: could a camera have filmed it? Verdicts name character, fog names nothing, and camera-true lines name behavior with a when.",
-        "items": [
-          {"q": "In yesterday's review you read from your screen the whole time, and the client asked twice whether you could hear them.", "answer": 0, "why": "Two filmable facts and a consequence. The receiver can check it, picture it, and change it, which is everything a feedback line owes them."},
-          {"q": "Honestly, you're just not a details person, and everyone has noticed.", "answer": 1, "why": "No camera films 'a details person', and 'everyone' is an anonymous jury. Rewrite it: which document, which details, which date."},
-          {"q": "Your presentations could maybe be a bit tighter, in general, sometimes.", "answer": 2, "why": "Nothing to check, picture, or fix. Sharpen the fog: which presentation, which section, what ran past its welcome."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Rounds",
-      "dataTitle": "The live rounds",
-      "eyebrow": "The Rounds",
-      "headline": "The face is the <em>curriculum</em>.",
-      "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.",
-      "group": "Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The room rule",
-          "text": "Live feedback is a duet. The giver keeps the line camera-true and stops talking when it lands. The receiver offers one thank you and one clarifying question, no case for the defense. Both jobs take practice, and today both get it."
-        },
-        "q": "Quick check: mid-round, your receiver starts explaining why it happened. What is the duet move?",
-        "opts": [
-          {"t": "Repeat the line louder until they accept it", "correct": false, "why": "Volume turns a duet into a verdict reading. The line was delivered; drilling it in trades the relationship for the point."},
-          {"t": "Let the line sit, then ask what they'd like to do with it", "correct": true, "why": "The giver's job ended when the line landed. Silence plus one open question hands the receiver room to move from defense to use."},
-          {"t": "Withdraw the feedback to keep things comfortable", "correct": false, "why": "Retraction teaches the room that discomfort erases truth. The line was camera-true; it deserves to stay on the table, gently."}
-        ],
-        "context": "Watch what happens in this room during the rounds: givers softening lines mid-sentence when a face tightens, receivers rehearsing rebuttals instead of listening. Every wobble is the real skill announcing where it lives. The weekly sessions describe these moments; a room puts you inside one.",
-        "discuss": "Which was harder just now, giving or receiving? What did your body do that surprised you, and what will you try in the next round?"
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Plan",
-      "dataTitle": "The plan and the pressure test",
-      "eyebrow": "The Build",
-      "headline": "Feedback you hold becomes a <em>plan you keep</em>.",
-      "lead": "Everyone in this room holds real feedback: a 360 line, a pulse theme, something a colleague finally said. The one-page plan turns the sharpest piece into one commitment with a first rep and a date. Then a peer leans on it, because untested commitments bend.",
-      "group": "Trade plans with a table peer. Their job is one honest pressure test of your commitment: what would we see you doing differently, and by when? Revise on the spot.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Build the page",
-        "intro": "One page, one commitment. Choose how the commitment reads and what the pressure test asks.",
-        "runLabel": "Run the plan",
-        "outcomeTag": "A month from now",
-        "slots": [
-          {
-            "key": "The commitment you write",
-            "opts": [
-              {"t": "Work on my communication style this year", "pts": 1, "coach": "A direction, and nobody can catch you doing it. A plan the next round of feedback can't check is a wish with a header."},
-              {"t": "Be less defensive when feedback arrives", "pts": 2, "coach": "A real target with no handle. Defensiveness is a feeling; the plan needs the behavior that replaces it, somewhere a witness could stand."},
-              {"t": "In every review this month, ask one clarifying question before I answer any point", "pts": 3, "coach": "Filmable, dated, and repeated. The camera test works on commitments too, and this one passes it every single week."}
-            ]
-          },
-          {
-            "key": "The pressure test you invite",
-            "opts": [
-              {"t": "Looks great, good luck with it", "pts": 1, "coach": "That is applause, and applause tests nothing. A peer who only cheers has quietly declined the job you handed them."},
-              {"t": "Is this realistic with your workload?", "pts": 2, "coach": "A fair question aimed at comfort. It shrinks plans instead of sharpening them; the best pressure test asks about evidence."},
-              {"t": "What would we see you doing differently, and by when?", "pts": 3, "coach": "The camera question, aimed forward. If your plan can answer it, the commitment is real; if it can't, better to find out at this table."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A page that survives contact. The commitment is filmable, the date is real, and a peer already failed to bend it.",
-          "mid": "A sincere page with soft spots. It reads well today; the first busy week will negotiate with it.",
-          "weak": "A tidy page of intentions. It will feel finished right up until the next feedback round asks what changed."
-        },
-        "reactions": {
-          "strong": "The peer who tested you asks about the commitment when you cross paths later, and you have an answer with a date in it. The next feedback you receive lands on someone visibly in motion.",
-          "mid": "The page resurfaces during a desk clean, still sincere. One camera-true rewrite of the commitment would revive the whole plan, and it is one sentence away.",
-          "weak": "Next feedback season the same theme arrives in the same words. The plan changed nothing because nothing in it could be seen, and the year quietly graded it."
-        }
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "A feedback line is camera-true when...",
-      "opts": ["It is honest about their character", "A lens could have caught the behavior it names", "It is softened enough to be kind", "Everyone in the room agrees with it"],
-      "correct": 1,
-      "why": "Checkable behavior with a when. Verdicts judge people; camera-true lines describe moments, and moments can change."
-    },
-    {
-      "q": "The clean receive in a live round is...",
-      "opts": ["A point-by-point response", "Silence until it blows over", "One thank you and one clarifying question", "An immediate apology"],
-      "correct": 2,
-      "why": "The receiver's craft is small on purpose: thank the risk, ask one question, build no defense. Cheap receipts keep truth affordable."
-    },
-    {
-      "q": "What makes a development-plan commitment real?",
-      "opts": ["Ambition worthy of the feedback", "A peer could see the behavior, by a date", "Keeping it private until it works", "Listing several goals at once"],
-      "correct": 1,
-      "why": "The camera question decides it: what would we see you doing differently, and by when? Plans that answer it get kept."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The lines, the receipt, and the page all held up. Take them to real rooms.",
-    "mid": "Solid. Reread the camera test, then finish the page.",
-    "low": "Worth one more walk through the rounds before the plan goes home."
+ "slug": "may-workshop",
+ "format": "workshop",
+ "series": "Navigator Workshop",
+ "month": "May 2027",
+ "monthShort": "May",
+ "monthIndex": 8,
+ "theme": "Measured Leader Behavior",
+ "goal": 2,
+ "title": "The Practice Room",
+ "titleHtml": "Practice on a <em class=\"gold-text\">real face</em>.",
+ "tagline": "The feedback role-play and development-plan build, live and in person.",
+ "description": "An in-person navigator-led workshop for all Vanderbilt staff: practice giving and receiving feedback in live rounds, keep every line camera-true, then turn feedback you actually hold into a one-page development plan your peers pressure-test before you leave.",
+ "heroLead": "The weekly sessions taught the reads; this room adds another person. Give feedback to a face, take some back, and leave with a plan built from feedback you actually hold.",
+ "objectives": [
+  "Deliver feedback that is camera-true: behavior a lens would have caught, never a character verdict",
+  "Receive a live round cleanly: one thank you, one clarifying question, no case for the defense",
+  "Build a one-page development plan from real feedback and let a peer pressure-test one commitment"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My development plan",
-    "headline": "One page, one commitment, <em>one witness</em>.",
-    "lead": "Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.",
-    "whoLabel": "The feedback your plan is built on, in one line, your words.",
-    "whoPlaceholder": "e.g. my project updates bury the decision people need",
-    "practiceLabel": "What is the commitment?",
-    "whoRow": "The feedback I hold",
-    "practices": [
-      {"id": "rep", "chip": "The weekly rep", "name": "The weekly rep", "move": "Name the one behavior, run it at a set moment every week, and mark each rep somewhere a peer could check."},
-      {"id": "return", "chip": "The return visit", "name": "The return visit", "move": "Take the plan back to the person who gave the feedback and ask them to watch for the one behavior."},
-      {"id": "trade", "chip": "The plan trade", "name": "The plan trade", "move": "Trade pages with today's table peer and hold each other's date; each of you asks about the other's rep when it comes due."}
-    ],
-    "whens": [
-      {"id": "week", "chip": "This week", "out": "The first rep runs this week, on the calendar before you leave the building."},
-      {"id": "next11", "chip": "At my next 1:1", "out": "The plan opens your next 1:1, and the commitment gets said out loud."},
-      {"id": "month", "chip": "All month", "out": "The rep runs all month, with the peer check landing near the end of it."}
-    ],
-    "cardTitle": "My development plan card",
-    "evidenceRow": "Afterward, one line: what did the next round of feedback say that the last one couldn't?"
+  {
+   "label": "Feedback Literacy"
   },
-  "closing": {
-    "headline": "Practiced people <em>hear more truth</em>.",
-    "lead": "You gave feedback to a face, received it cleanly, and left one page heavier. The month's weekly sessions keep working the same muscle: the evidence, the signal, the blind spot.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Run the first rep on your plan",
-    "nextBody": "One behavior, one set moment, one mark a peer could check. When you want another rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there whenever you want it, never required.",
-    "brandline": "Say what the camera saw, and keep the page."
+  {
+   "label": "Self-Awareness"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 8 to 30 at tables of 4 to 6, with printed scenario cards and the one-page plan worksheet on every table. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
-    "pulse": "Seven days out, send the pulse: 'Did the first rep on your plan run? What did the pressure test change? Who holds your date?' Count of plans with a completed first rep is the month's Level 3 signal.",
-    "s1": {
-      "title": "Camera-true lines",
-      "purpose": "Install the camera test and get every participant rewriting verdicts into filmable behavior.",
-      "say": "Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. The Center for Creative Leadership has taught this for decades as SBI, situation, behavior, impact, and the camera test is the same discipline with a lens on it. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.",
-      "facilitate": [
-        "Run Camera or character? on learner devices first, so the test is shared before anyone writes.",
-        "Run the pass-left rewrite at each table; walk the room and listen for a strong before-and-after.",
-        "Read one verdict-to-camera rewrite aloud for the room and name what changed: a when, a what, a consequence."
-      ],
-      "ask": {
-        "q": "What gets lost when the verdict becomes a camera line?",
-        "expect": ["The sting, mostly", "Some say the bigger pattern goes missing", "A few worry it feels nitpicky"],
-        "respond": "The pattern isn't lost; it's earned. Three camera-true lines make a pattern nobody can argue with. One verdict makes an argument nobody can win."
-      },
-      "debrief": "The camera test travels: it works on feedback you give, feedback you receive, and, later today, the commitment you write.",
-      "watchFor": "Tables writing polished insults and calling them honest. Camera-true includes kind: behavior, a when, and no adjectives about the person.",
-      "transition": "Lines drafted. Now they meet faces.",
-      "coreNote": "Core: run the trainer, then one rewrite per table instead of the full pass-left round."
-    },
-    "s2": {
-      "title": "The live rounds",
-      "purpose": "Run rotating give-and-receive rounds with scenario cards, and debrief the duet live.",
-      "say": "This is the part no virtual session can do. You will give a camera-true line to a person who reacts, and receive one from a person watching your face while they say it. Use the scenario cards, roles never names. Receivers, your whole job is one thank you and one clarifying question. Givers, when the line lands, stop talking. The silence after a true sentence is where the work happens; don't rescue anyone from it.",
-      "facilitate": [
-        "Pair people across tables for the first round so nobody practices on a close colleague.",
-        "Run two rounds with a swap, then rotate pairs for a third; walk the room and listen for defense-building.",
-        "Show the room rule card and run the discussion prompt between rounds; take voices on what bodies did."
-      ],
-      "ask": {
-        "q": "Receivers: what did your hands, face, or breath do when the line landed?",
-        "expect": ["Laughed or smiled to soften it", "Started composing a reply mid-line", "A few felt genuine relief at a clean, specific line"],
-        "respond": "All human, and all visible from the other chair. Naming the reflex out loud is what gives you a choice about it next time."
-      },
-      "debrief": "The duet holds when both jobs stay small: a true line delivered once, a receipt of thanks and one question.",
-      "watchFor": "Pairs drifting into real grievances about real colleagues. Re-anchor warmly to the scenario cards: this room practices the skill, never the case.",
-      "transition": "You have given and received. Now the feedback you actually hold gets its page.",
-      "coreNote": "Core: two rounds instead of three; debrief once, at the end of the second."
-    },
-    "s3": {
-      "title": "The plan and the pressure test",
-      "purpose": "Convert real feedback into a one-page plan with one filmable commitment, pressure-tested by a peer.",
-      "say": "Last build. Think of the sharpest real feedback you hold from this year: a 360 line, a pulse theme, the sentence a colleague finally said. It goes at the top of the page in your own words. Under it, one commitment that passes the camera test, one first rep, one date. Then you trade pages, and your peer asks the only pressure-test question that matters: what would we see you doing differently, and by when?",
-      "facilitate": [
-        "Run Build the page on learner devices before the writing, so the strong pattern is loaded.",
-        "Quiet writing time on the worksheet; walk the room and nudge vague commitments toward filmable ones.",
-        "Run the page trade and pressure test in pairs; revisions happen at the table, out loud."
-      ],
-      "ask": {
-        "q": "What did the pressure test do to your commitment?",
-        "expect": ["Shrank it to something checkable", "Added the date it was avoiding", "One or two will say it survived intact"],
-        "respond": "Surviving intact counts, if the peer really leaned. A commitment that answers the camera question at this table will answer it anywhere."
-      },
-      "debrief": "One page: the feedback in your words, one filmable commitment, one rep, one date, one peer who knows all four.",
-      "watchFor": "Plans built on feedback the person disputes. Redirect to feedback they own; a plan argues best from evidence its writer believes.",
-      "transition": "Recap, then the page becomes a card and goes home.",
-      "coreNote": "Core: skip the builder walkthrough; go straight to the page and the trade."
-    },
-    "capstoneSay": "Finish the card: the feedback in one line, your own words, roles never names. Then the commitment, the first rep, the window, and who holds the date. Copy it onto your phone or fold the page into your bag; the peer who tested it knows to ask. Quiet writing time, then we close.",
-    "closeSay": "This room just did what the whole month is about: behavior you can see. Monday showed managers how the standard reads their own evidence, Tuesday opened the tooling that protects everyone's signal, and Thursday works the blind spot that a room like this one closes. Your page is those sessions with a date on it. When you want a rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there; optional, never homework. Go run the first rep, and let the next feedback season find you already moving.",
-    "contingencies": [
-      {"if": "The projector or room screen fails", "then": "The workshop survives it: the rounds, the cards, and the page are all paper and voices. Read the interactions aloud from your own device via the welcome QR and keep the rounds moving."},
-      {"if": "The room count is odd and a pair can't form", "then": "Make one trio: two givers take turns, one receiver, then rotate the odd role each round. Trios also give shy participants a softer first round."},
-      {"if": "Someone uses a round to relitigate real feedback about a real colleague", "then": "Protect the room warmly: 'Hold that one for a private conversation. In here, scenario cards and roles, never names.' Then restart the round on the card."},
-      {"if": "A live round lands hard and a participant goes quiet", "then": "Offer the exit ramp: sit out one rotation as an observer with a job, noticing duet moves to report back. Check in privately at the next transition."}
-    ],
-    "toughQuestions": [
-      {"q": "Isn't role-play artificial? Real feedback is messier.", "a": "It is, and that is the design. Musicians rehearse slower than the concert. The camera test, the clean receipt, and the pressure question are exactly the parts that survive contact with mess, and this room is where they become reflex instead of theory."},
-      {"q": "I'm not a manager. Whose behavior is this month measuring, if not mine?", "a": "The measurement reads managers; the muscle belongs to everyone. Every career runs on feedback given and received well, and a development plan is how anyone, at any level, turns a true sentence into a visible change. The room was full for a reason."},
-      {"q": "Can I use an AI tool to tidy up my development plan?", "a": "Run the light. A plan about your own behavior in generic terms is fine in an approved VU tool. The moment it quotes feedback about identifiable colleagues, that part is private information about people: red, never. And keep the commitment in your own voice; your peer pressure-tested those words, and the next feedback round will too."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person this month: feedback, practiced on real faces, with your navigator. Bring one piece of real feedback you have received this year, held privately; you will never be asked to read it aloud. Scenario cards, worksheets, and brave company provided. Nothing you write is collected."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the first rep run? Three lines, reply whenever: 1) Did the first rep on your plan happen? 2) What did the pressure test change before you left? 3) Who holds your date, and have they asked yet?"}
-    ]
+  {
+   "label": "Career Development"
   }
+ ],
+ "missionTie": "A room practicing how to say the true thing kindly, and hear it without armor, is Exceptional Core Operations rehearsing for the great university of the 21st Century.",
+ "agenda": [
+  {
+   "t": "Camera-true lines",
+   "d": "Rewrite verdicts into behavior a camera would have caught, then say them out loud."
+  },
+  {
+   "t": "The live rounds",
+   "d": "Give and receive in rotating pairs; the face across from you is the lesson."
+  },
+  {
+   "t": "The plan and the pressure test",
+   "d": "Turn feedback you hold into one page, and let a peer lean on your commitment."
+  }
+ ],
+ "manifesto": "Feedback becomes a skill the first time it meets a real face and survives.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "Camera-True",
+   "dataTitle": "Camera-true lines",
+   "eyebrow": "The Line",
+   "headline": "Say what the <em>camera saw</em>.",
+   "lead": "Every line gets the camera test first: would a lens have caught it? No camera films careless; one did film two summaries going out with old numbers. CCL has taught this move for decades as SBI.",
+   "group": "Write one character verdict you have heard at work, real or typical, then pass it left. Rewrite the verdict you receive as a camera-true line; read both versions aloud.",
+   "source": {
+    "label": "SBI feedback model (Center for Creative Leadership)",
+    "url": "https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/"
+   },
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Camera or character?",
+    "intro": "Three feedback lines about to be delivered. Call each one before it leaves the mouth.",
+    "progressWord": "Line",
+    "labels": [
+     "Camera-true, deliver it",
+     "Character verdict, rewrite it",
+     "Too vague, sharpen it"
+    ],
+    "passAt": 2,
+    "passMsg": "Your ear is calibrated. Behavior a lens would catch gets delivered; verdicts get rewritten; fog gets sharpened.",
+    "failMsg": "Close. The test: could a camera have filmed it? Verdicts name character, fog names nothing, and camera-true lines name behavior with a when.",
+    "items": [
+     {
+      "q": "In yesterday's review you read from your screen the whole time, and the client asked twice whether you could hear them.",
+      "answer": 0,
+      "why": "Two filmable facts and a consequence. The receiver can check it, picture it, and change it, which is everything a feedback line owes them."
+     },
+     {
+      "q": "Honestly, you're just not a details person, and everyone has noticed.",
+      "answer": 1,
+      "why": "No camera films 'a details person', and 'everyone' is an anonymous jury. Rewrite it: which document, which details, which date."
+     },
+     {
+      "q": "Your presentations could maybe be a bit tighter, in general, sometimes.",
+      "answer": 2,
+      "why": "Nothing to check, picture, or fix. Sharpen the fog: which presentation, which section, what ran past its welcome."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Rounds",
+   "dataTitle": "The live rounds",
+   "eyebrow": "The Rounds",
+   "headline": "The face is the <em>curriculum</em>.",
+   "lead": "Now the rounds. In pairs, with the printed scenario cards: one gives, one receives, then swap. The words you drafted will change the moment a real face reacts, and that change is the lesson no screen can teach. Receive it cleanly: thanks, one question.",
+   "group": "Run the round with your scenario card, roles never names. Then debrief as a pair: the receiver names what landed, the giver names what the face across from them changed.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The room rule",
+     "text": "Live feedback is a duet. The giver keeps the line camera-true and stops talking when it lands. The receiver offers one thank you and one clarifying question, no case for the defense. Both jobs take practice, and today both get it."
+    },
+    "q": "Quick check: mid-round, your receiver starts explaining why it happened. What is the duet move?",
+    "opts": [
+     {
+      "t": "Repeat the line louder until they accept it",
+      "correct": false,
+      "why": "Volume turns a duet into a verdict reading. The line was delivered; drilling it in trades the relationship for the point."
+     },
+     {
+      "t": "Let the line sit, then ask what they'd like to do with it",
+      "correct": true,
+      "why": "The giver's job ended when the line landed. Silence plus one open question hands the receiver room to move from defense to use."
+     },
+     {
+      "t": "Withdraw the feedback to keep things comfortable",
+      "correct": false,
+      "why": "Retraction teaches the room that discomfort erases truth. The line was camera-true; it deserves to stay on the table, gently."
+     }
+    ],
+    "context": "Watch what happens in this room during the rounds: givers softening lines mid-sentence when a face tightens, receivers rehearsing rebuttals instead of listening. Every wobble is the real skill announcing where it lives. The weekly sessions describe these moments; a room puts you inside one.",
+    "discuss": "Which was harder just now, giving or receiving? What did your body do that surprised you, and what will you try in the next round?"
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Plan",
+   "dataTitle": "The plan and the pressure test",
+   "eyebrow": "The Build",
+   "headline": "Feedback you hold becomes a <em>plan you keep</em>.",
+   "lead": "Everyone in this room holds real feedback: a 360 line, a pulse theme, something a colleague finally said. The one-page plan turns the sharpest piece into one commitment with a first rep and a date. Then a peer leans on it, because untested commitments bend.",
+   "group": "Trade plans with a table peer. Their job is one honest pressure test of your commitment: what would we see you doing differently, and by when? Revise on the spot.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Build the page",
+    "intro": "One page, one commitment. Choose how the commitment reads and what the pressure test asks.",
+    "runLabel": "Run the plan",
+    "outcomeTag": "A month from now",
+    "slots": [
+     {
+      "key": "The commitment you write",
+      "opts": [
+       {
+        "t": "Work on my communication style this year",
+        "pts": 1,
+        "coach": "A direction, and nobody can catch you doing it. A plan the next round of feedback can't check is a wish with a header."
+       },
+       {
+        "t": "Be less defensive when feedback arrives",
+        "pts": 2,
+        "coach": "A real target with no handle. Defensiveness is a feeling; the plan needs the behavior that replaces it, somewhere a witness could stand."
+       },
+       {
+        "t": "In every review this month, ask one clarifying question before I answer any point",
+        "pts": 3,
+        "coach": "Filmable, dated, and repeated. The camera test works on commitments too, and this one passes it every single week."
+       }
+      ]
+     },
+     {
+      "key": "The pressure test you invite",
+      "opts": [
+       {
+        "t": "Looks great, good luck with it",
+        "pts": 1,
+        "coach": "That is applause, and applause tests nothing. A peer who only cheers has quietly declined the job you handed them."
+       },
+       {
+        "t": "Is this realistic with your workload?",
+        "pts": 2,
+        "coach": "A fair question aimed at comfort. It shrinks plans instead of sharpening them; the best pressure test asks about evidence."
+       },
+       {
+        "t": "What would we see you doing differently, and by when?",
+        "pts": 3,
+        "coach": "The camera question, aimed forward. If your plan can answer it, the commitment is real; if it can't, better to find out at this table."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A page that survives contact. The commitment is filmable, the date is real, and a peer already failed to bend it.",
+     "mid": "A sincere page with soft spots. It reads well today; the first busy week will negotiate with it.",
+     "weak": "A tidy page of intentions. It will feel finished right up until the next feedback round asks what changed."
+    },
+    "reactions": {
+     "strong": "The peer who tested you asks about the commitment when you cross paths later, and you have an answer with a date in it. The next feedback you receive lands on someone visibly in motion.",
+     "mid": "The page resurfaces during a desk clean, still sincere. One camera-true rewrite of the commitment would revive the whole plan, and it is one sentence away.",
+     "weak": "Next feedback season the same theme arrives in the same words. The plan changed nothing because nothing in it could be seen, and the year quietly graded it."
+    }
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A feedback line is camera-true when...",
+   "opts": [
+    "It is honest about their character",
+    "A lens could have caught the behavior it names",
+    "It is softened enough to be kind",
+    "Everyone in the room agrees with it"
+   ],
+   "correct": 1,
+   "why": "Checkable behavior with a when. Verdicts judge people; camera-true lines describe moments, and moments can change."
+  },
+  {
+   "q": "The clean receive in a live round is...",
+   "opts": [
+    "A point-by-point response",
+    "Silence until it blows over",
+    "One thank you and one clarifying question",
+    "An immediate apology"
+   ],
+   "correct": 2,
+   "why": "The receiver's craft is small on purpose: thank the risk, ask one question, build no defense. Cheap receipts keep truth affordable."
+  },
+  {
+   "q": "What makes a development-plan commitment real?",
+   "opts": [
+    "Ambition worthy of the feedback",
+    "A peer could see the behavior, by a date",
+    "Keeping it private until it works",
+    "Listing several goals at once"
+   ],
+   "correct": 1,
+   "why": "The camera question decides it: what would we see you doing differently, and by when? Plans that answer it get kept."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The lines, the receipt, and the page all held up. Take them to real rooms.",
+  "mid": "Solid. Reread the camera test, then finish the page.",
+  "low": "Worth one more walk through the rounds before the plan goes home."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My development plan",
+  "headline": "One page, one commitment, <em>one witness</em>.",
+  "lead": "Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.",
+  "whoLabel": "The feedback your plan is built on, in one line, your words.",
+  "whoPlaceholder": "e.g. my project updates bury the decision people need",
+  "practiceLabel": "What is the commitment?",
+  "whoRow": "The feedback I hold",
+  "practices": [
+   {
+    "id": "rep",
+    "chip": "The weekly rep",
+    "name": "The weekly rep",
+    "move": "Name the one behavior, run it at a set moment every week, and mark each rep somewhere a peer could check."
+   },
+   {
+    "id": "return",
+    "chip": "The return visit",
+    "name": "The return visit",
+    "move": "Take the plan back to the person who gave the feedback and ask them to watch for the one behavior."
+   },
+   {
+    "id": "trade",
+    "chip": "The plan trade",
+    "name": "The plan trade",
+    "move": "Trade pages with today's table peer and hold each other's date; each of you asks about the other's rep when it comes due."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The first rep runs this week, on the calendar before you leave the building."
+   },
+   {
+    "id": "next11",
+    "chip": "At my next 1:1",
+    "out": "The plan opens your next 1:1, and the commitment gets said out loud."
+   },
+   {
+    "id": "month",
+    "chip": "All month",
+    "out": "The rep runs all month, with the peer check landing near the end of it."
+   }
+  ],
+  "cardTitle": "My development plan card",
+  "evidenceRow": "Afterward, one line: what did the next round of feedback say that the last one couldn't?"
+ },
+ "closing": {
+  "headline": "Practiced people <em>hear more truth</em>.",
+  "lead": "You gave feedback to a face, received it cleanly, and left one page heavier. The month's weekly sessions keep working the same muscle: the evidence, the signal, the blind spot.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Run the first rep on your plan",
+  "nextBody": "One behavior, one set moment, one mark a peer could check. When you want another rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there whenever you want it, never required.",
+  "brandline": "Say what the camera saw, and keep the page."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 8 to 30 at tables of 4 to 6, with printed scenario cards and the one-page plan worksheet on every table. Best after the month's weekly sessions, and it stands alone for anyone who missed them.",
+  "pulse": "Seven days out, send the pulse: 'Did the first rep on your plan run? What did the pressure test change? Who holds your date?' Count of plans with a completed first rep is the month's Level 3 signal.",
+  "s1": {
+   "title": "Camera-true lines",
+   "purpose": "Install the camera test and get every participant rewriting verdicts into filmable behavior.",
+   "say": "Every feedback disaster you have ever watched started as a character verdict: you're careless, you're negative, you're not strategic. Nobody can fix a verdict. So the first skill today is a rewrite. The Center for Creative Leadership has taught this for decades as SBI, situation, behavior, impact, and the camera test is the same discipline with a lens on it. If a camera in the corner couldn't have filmed it, it isn't ready to say. We calibrate on three lines together, then you rewrite real ones at your table.",
+   "facilitate": [
+    "Run Camera or character? on learner devices first, so the test is shared before anyone writes.",
+    "Run the pass-left rewrite at each table; walk the room and listen for a strong before-and-after.",
+    "Read one verdict-to-camera rewrite aloud for the room and name what changed: a when, a what, a consequence."
+   ],
+   "ask": {
+    "q": "What gets lost when the verdict becomes a camera line?",
+    "expect": [
+     "The sting, mostly",
+     "Some say the bigger pattern goes missing",
+     "A few worry it feels nitpicky"
+    ],
+    "respond": "The pattern isn't lost; it's earned. Three camera-true lines make a pattern nobody can argue with. One verdict makes an argument nobody can win."
+   },
+   "debrief": "The camera test travels: it works on feedback you give, feedback you receive, and, later today, the commitment you write.",
+   "watchFor": "Tables writing polished insults and calling them honest. Camera-true includes kind: behavior, a when, and no adjectives about the person.",
+   "transition": "Lines drafted. Now they meet faces.",
+   "coreNote": "Core: run the trainer, then one rewrite per table instead of the full pass-left round."
+  },
+  "s2": {
+   "title": "The live rounds",
+   "purpose": "Run rotating give-and-receive rounds with scenario cards, and debrief the duet live.",
+   "say": "This is the part no virtual session can do. You will give a camera-true line to a person who reacts, and receive one from a person watching your face while they say it. Use the scenario cards, roles never names. Receivers, your whole job is one thank you and one clarifying question. Givers, when the line lands, stop talking. The silence after a true sentence is where the work happens; don't rescue anyone from it.",
+   "facilitate": [
+    "Pair people across tables for the first round so nobody practices on a close colleague.",
+    "Run two rounds with a swap, then rotate pairs for a third; walk the room and listen for defense-building.",
+    "Show the room rule card and run the discussion prompt between rounds; take voices on what bodies did."
+   ],
+   "ask": {
+    "q": "Receivers: what did your hands, face, or breath do when the line landed?",
+    "expect": [
+     "Laughed or smiled to soften it",
+     "Started composing a reply mid-line",
+     "A few felt genuine relief at a clean, specific line"
+    ],
+    "respond": "All human, and all visible from the other chair. Naming the reflex out loud is what gives you a choice about it next time."
+   },
+   "debrief": "The duet holds when both jobs stay small: a true line delivered once, a receipt of thanks and one question.",
+   "watchFor": "Pairs drifting into real grievances about real colleagues. Re-anchor warmly to the scenario cards: this room practices the skill, never the case.",
+   "transition": "You have given and received. Now the feedback you actually hold gets its page.",
+   "coreNote": "Core: two rounds instead of three; debrief once, at the end of the second."
+  },
+  "s3": {
+   "title": "The plan and the pressure test",
+   "purpose": "Convert real feedback into a one-page plan with one filmable commitment, pressure-tested by a peer.",
+   "say": "Last build. Think of the sharpest real feedback you hold from this year: a 360 line, a pulse theme, the sentence a colleague finally said. It goes at the top of the page in your own words. Under it, one commitment that passes the camera test, one first rep, one date. Then you trade pages, and your peer asks the only pressure-test question that matters: what would we see you doing differently, and by when?",
+   "facilitate": [
+    "Run Build the page on learner devices before the writing, so the strong pattern is loaded.",
+    "Quiet writing time on the worksheet; walk the room and nudge vague commitments toward filmable ones.",
+    "Run the page trade and pressure test in pairs; revisions happen at the table, out loud."
+   ],
+   "ask": {
+    "q": "What did the pressure test do to your commitment?",
+    "expect": [
+     "Shrank it to something checkable",
+     "Added the date it was avoiding",
+     "One or two will say it survived intact"
+    ],
+    "respond": "Surviving intact counts, if the peer really leaned. A commitment that answers the camera question at this table will answer it anywhere."
+   },
+   "debrief": "One page: the feedback in your words, one filmable commitment, one rep, one date, one peer who knows all four.",
+   "watchFor": "Plans built on feedback the person disputes. Redirect to feedback they own; a plan argues best from evidence its writer believes.",
+   "transition": "Recap, then the page becomes a card and goes home.",
+   "coreNote": "Core: skip the builder walkthrough; go straight to the page and the trade."
+  },
+  "capstoneSay": "Finish the card: the feedback in one line, your own words, roles never names. Then the commitment, the first rep, the window, and who holds the date. Copy it onto your phone or fold the page into your bag; the peer who tested it knows to ask. Quiet writing time, then we close.",
+  "closeSay": "This room just did what the whole month is about: behavior you can see. Monday showed managers how the standard reads their own evidence, Tuesday opened the tooling that protects everyone's signal, and Thursday works the blind spot that a room like this one closes. Your page is those sessions with a date on it. When you want a rehearsal between real rounds, this month's LinkedIn Learning course, Giving and Receiving Feedback, is there; optional, never homework. Go run the first rep, and let the next feedback season find you already moving.",
+  "contingencies": [
+   {
+    "if": "The projector or room screen fails",
+    "then": "The workshop survives it: the rounds, the cards, and the page are all paper and voices. Read the interactions aloud from your own device via the welcome QR and keep the rounds moving."
+   },
+   {
+    "if": "The room count is odd and a pair can't form",
+    "then": "Make one trio: two givers take turns, one receiver, then rotate the odd role each round. Trios also give shy participants a softer first round."
+   },
+   {
+    "if": "Someone uses a round to relitigate real feedback about a real colleague",
+    "then": "Protect the room warmly: 'Hold that one for a private conversation. In here, scenario cards and roles, never names.' Then restart the round on the card."
+   },
+   {
+    "if": "A live round lands hard and a participant goes quiet",
+    "then": "Offer the exit ramp: sit out one rotation as an observer with a job, noticing duet moves to report back. Check in privately at the next transition."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Isn't role-play artificial? Real feedback is messier.",
+    "a": "It is, and that is the design. Musicians rehearse slower than the concert. The camera test, the clean receipt, and the pressure question are exactly the parts that survive contact with mess, and this room is where they become reflex instead of theory."
+   },
+   {
+    "q": "I'm not a manager. Whose behavior is this month measuring, if not mine?",
+    "a": "The measurement reads managers; the muscle belongs to everyone. Every career runs on feedback given and received well, and a development plan is how anyone, at any level, turns a true sentence into a visible change. The room was full for a reason."
+   },
+   {
+    "q": "Can I use an AI tool to tidy up my development plan?",
+    "a": "Run the light. A plan about your own behavior in generic terms is fine in an approved VU tool. The moment it quotes feedback about identifiable colleagues, that part is private information about people: red, never. And keep the commitment in your own voice; your peer pressure-tested those words, and the next feedback round will too."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: feedback, practiced on real faces, with your navigator. Bring one piece of real feedback you have received this year, held privately; you will never be asked to read it aloud. Scenario cards, worksheets, and brave company provided. Nothing you write is collected."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the first rep run? Three lines, reply whenever: 1) Did the first rep on your plan happen? 2) What did the pressure test change before you left? 3) Who holds your date, and have they asked yet?"
+   }
+  ]
+ }
 }

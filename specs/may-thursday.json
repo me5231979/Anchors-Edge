@@ -1,287 +1,441 @@
 {
-  "slug": "may-thursday",
-  "series": "Thrive Thursday",
-  "month": "May 2027",
-  "monthShort": "May",
-  "monthIndex": 8,
-  "theme": "Measured Leader Behavior",
-  "goal": 2,
-  "title": "The Blind Spot",
-  "titleHtml": "Close one <em class=\"gold-text\">blind spot</em>.",
-  "tagline": "Self-awareness: closing your blind spots.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: the gap between intent and impact, how to get one trusted colleague to tell you the truth, and how to receive it without spending a week recovering.",
-  "heroLead": "Everyone has a blind spot; the word guarantees it. This hour covers the gap between what you intend and what lands, and the smallest reliable way to close it.",
-  "objectives": [
-    "Describe the gap between intent and impact in your own work",
-    "Make one small, specific ask that gets a colleague to tell you the truth",
-    "Receive an honest answer without depleting yourself: thank, adjust, stop"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Self-Awareness"},
-    {"label": "Feedback Literacy"},
-    {"label": "Resilience"}
-  ],
-  "missionTie": "The great university of the 21st Century gets built by people who can see themselves clearly, and fewer blind spots means fewer surprises in Exceptional Core Operations.",
-  "agenda": [
-    {"t": "The intent-impact gap", "d": "Why everyone has one, and why you are the last person able to see yours."},
-    {"t": "One trusted truth-teller", "d": "The small, specific ask that gets a colleague to be honest with you."},
-    {"t": "Receiving without depleting", "d": "One thank you, one adjustment, and no week-long spiral."}
-  ],
-  "manifesto": "You cannot see your own blind spot. Someone you trust can, if you ask well.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Gap",
-      "dataTitle": "The intent-impact gap",
-      "eyebrow": "The Gap",
-      "headline": "You are the last to see <em>your own gap</em>.",
-      "lead": "Nobody experiences your intentions; they experience your impact, and the distance between the two hides from you by definition. Tasha Eurich's research puts it plainly: 95 percent of us believe we see ourselves clearly, and only 10 to 15 percent actually do.",
-      "group": "In pairs: recall a time your words landed differently than you meant. What did the gap turn out to be? 90 seconds each way.",
-      "solo": "Recall one time your words landed differently than you meant. Write what the gap turned out to be.",
-      "source": {"label": "Tasha Eurich, What Self-Awareness Really Is (HBR)", "url": "https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it"},
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The blind spot rule",
-          "text": "Intent is what you meant; impact is what happened to the other person. You have direct access to only one of these, so your self-view is always missing data. The fix is borrowed eyes: someone who saw the impact and will tell you about it."
-        },
-        "context": "Think of the last email you reread before sending. You checked it against your intent, the one thing you cannot ship. The receiver got tone, timing, and a history you never saw. That asymmetry runs both directions all day, in meetings, handoffs, and chat, which is why nobody's self-view is complete.",
-        "discuss": "Where in your work does your intent most often get misread, and who actually saw how it landed?",
-        "q": "Why can't you find your own blind spot by reflecting harder?",
-        "opts": [
-          {"t": "You can, with enough journaling", "correct": false, "why": "Eurich found introspection alone rarely improves self-awareness. Solo replay produces your side, the intent; the missing data is other people's experience of you."},
-          {"t": "Blind spots are permanent personality traits", "correct": false, "why": "They are closeable, which is the good news. A blind spot is just missing information, and information can be supplied by anyone who saw the impact."},
-          {"t": "The missing data is other people's experience of you", "correct": true, "why": "Exactly. You hold the intent; they hold the impact. Closing the gap always requires at least one other person's honest account."}
-        ]
-      },
-      "deeper": {
-        "title": "Why the gap grows with influence",
-        "body": "Eurich's team found that experience and power hinder self-awareness: the more senior people get, the less unprompted truth they hear, since everyone edits harder for someone who can affect their week. Blind spots grow at the pace candor shrinks, so waiting to be told rarely works. The likeliest people to see your gap are the ones least obliged to flatter you: peers on shared projects, partners in other units.",
-        "steps": [
-          "List three people who see your work's impact up close. Star the one least obliged to flatter you.",
-          "Write one recent moment where their read of you might differ from yours. That moment is raw material for the ask you build in section two."
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Ask",
-      "dataTitle": "One trusted truth-teller",
-      "eyebrow": "The Ask",
-      "headline": "Truth arrives when the ask is <em>small</em>.",
-      "lead": "Ask a colleague 'do you have any feedback for me?' and you will get kindness and nothing. Truth comes from a different shape of ask: one trusted person, one specific situation, one honest question, and a clear sign you can take the answer.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Build the ask",
-        "intro": "One colleague sees your work up close. Choose who you ask and how you ask, and see what truth comes back.",
-        "runLabel": "Make the ask",
-        "outcomeTag": "What comes back",
-        "slots": [
-          {
-            "key": "Who you ask",
-            "opts": [
-              {"t": "The colleague who always says nice things", "pts": 1, "coach": "Comfort is their gift, and it is the wrong tool here. You need someone who has watched you work and will risk a little friction on your behalf."},
-              {"t": "Everyone at once, in a group email asking for feedback", "pts": 2, "coach": "Wide nets return politeness. Diffuse asks let everyone assume someone else will say the hard thing, and nobody does."},
-              {"t": "One colleague who sees your work up close and has been straight with you before", "pts": 3, "coach": "What Eurich calls a loving critic: someone who watched the impact happen, wants you to succeed, and has shown they will tell you the truth kindly."}
-            ]
-          },
-          {
-            "key": "How you ask",
-            "opts": [
-              {"t": "Any feedback for me? Anything at all?", "pts": 1, "coach": "Unlimited scope, undefined ask. The kind answer is 'you are doing great,' and that is exactly what you will get."},
-              {"t": "Be brutally honest with me about everything", "pts": 2, "coach": "It sounds brave and it hands them an impossible job. Brutal invitations still get soft answers, just more awkwardly."},
-              {"t": "In yesterday's meeting, how did my pushback land? One honest sentence is plenty.", "pts": 3, "coach": "One situation, one question, and permission to be brief. Small asks are answerable, and answerable asks get the truth."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A real answer. Specific, kind, and slightly uncomfortable, which is how truth usually dresses.",
-          "mid": "Warmth came back, and the blind spot stayed. The ask was too big to answer honestly.",
-          "weak": "Reassurance all around. Pleasant, forgettable, and exactly zero new information about your impact."
-        },
-        "reactions": {
-          "strong": "They tell you one true thing you half-suspected and never confirmed. It costs you a wince and buys the clearest look at your own work you have had all year. The colleague respects you more for asking, and says so later.",
-          "mid": "Days later someone almost says the real thing, then thinks better of it. The truth exists in the building; your ask just never made it safe to hand over.",
-          "weak": "Everyone stays comfortable, including your blind spot. Six months on, the same pattern costs you something real, and you find out about it the hard way."
-        }
-      },
-      "deeper": {
-        "title": "Timing the ask so truth can land",
-        "body": "Even a perfect ask fails at the wrong moment. Truth needs privacy, a little slack, and a fresh memory: ask one on one, a day or two after the moment, never in front of an audience or at the tail end of a brutal week. Priming helps more than people expect. Telling your colleague the day before that you will ask gives an honest person time to find kind words for a true thing, which is when the best answers arrive.",
-        "steps": [
-          "Pick the moment you want the truth about and note when it happened. If it is more than two weeks old, choose a fresher one.",
-          "Schedule the ask: a private ten minutes within two days of the moment or your next shared piece of work.",
-          "Send the priming line the day before: tomorrow I want one honest sentence about how X landed, and brief is fine."
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Receipt",
-      "dataTitle": "Receiving without depleting",
-      "eyebrow": "The Receipt",
-      "headline": "Receive it like data, at <em>arm's length</em>.",
-      "lead": "In Thanks for the Feedback, Stone and Heen name what makes honesty expensive: the identity trigger, when one sentence about a handoff starts reading as a verdict on who you are. The sustainable receipt stays small. Thank them, adjust once, stop.",
-      "group": "Pairs: what does your version of the spiral look like after hard feedback, and what would the full stop look like? 90 seconds each way.",
-      "solo": "Describe your version of the spiral after hard feedback, then write what the full stop would look like instead.",
-      "source": {"label": "Thanks for the Feedback, Douglas Stone and Sheila Heen (Harvard Negotiation Project)", "url": "https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/"},
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Call the receipt",
-        "intro": "Three colleagues hear one honest sentence about their impact. Call each response: a clean receipt, a deflection, or a spiral.",
-        "progressWord": "Call",
-        "labels": ["Clean receipt, sustainable", "Deflection, gap stays open", "Spiral, too expensive"],
-        "passAt": 2,
-        "passMsg": "You can tell them apart. The clean receipt is one thank you, one adjustment, and a full stop, which is why it is repeatable.",
-        "failMsg": "Nearly. Deflection protects you from the truth and the spiral overpays for it; the clean receipt takes the sentence at its actual size.",
-        "items": [
-          {"q": "Told her updates run long, a coordinator laughs it off: everyone says that, and the meetings are just packed.", "answer": 1, "why": "The laugh and the instant explanation close the door. The colleague risked honesty and learned it bounces; the blind spot stays exactly where it was."},
-          {"q": "Told his emails read as curt, an analyst thanks his colleague, adds one warmer opening line to his template, and moves on with his day.", "answer": 0, "why": "One thank you, one adjustment, one afternoon. He can afford to ask again next quarter, which is the whole point of receiving well."},
-          {"q": "Told one handoff was confusing, an advisor apologizes three times, rereads old emails all evening, and wonders if she is bad at her job.", "answer": 2, "why": "The feedback was one sentence about one handoff; the response was a referendum on her worth. Receipts that expensive teach you to stop asking."}
-        ]
-      },
-      "deeper": {
-        "title": "What to do with the wince",
-        "body": "The wince is physiology, not a verdict, and it passes in about ninety seconds if you do not feed it a story. So receive in two beats. In the moment, just thank them; the analysis can wait an hour. Later, write the feedback as one neutral sentence about behavior, never character: my emails read as curt, rather than I am cold. Behavior sentences suggest adjustments; character sentences only suggest shame.",
-        "steps": [
-          "Write down the hardest feedback you remember receiving, phrased the way it felt: as a character verdict.",
-          "Rewrite it as one neutral behavior sentence, then note the single adjustment it points to.",
-          "Rehearse your two-beat script aloud once: thank you, that is useful, let me sit with it."
-        ]
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "Why does everyone have a blind spot?",
-      "opts": ["Only unreflective people have them", "You experience your intent; others experience your impact", "Blind spots come from bad training", "They only affect managers"],
-      "correct": 1,
-      "why": "The gap between intent and impact hides from you by definition. The missing data lives in other people's experience, so borrowed eyes are required."
-    },
-    {
-      "q": "Which ask is most likely to get you the truth?",
-      "opts": ["Any feedback for me?", "Be brutally honest about everything", "One specific moment, one honest question, to one trusted colleague", "An anonymous group poll"],
-      "correct": 2,
-      "why": "Small and specific is answerable. One situation, one question, and permission to be brief makes honesty cheap enough for a colleague to hand over."
-    },
-    {
-      "q": "The clean receipt for hard feedback is...",
-      "opts": ["Explaining your intent in detail", "A thank you, one adjustment, and a full stop", "Apologizing until it feels resolved", "A week of quiet self-review"],
-      "correct": 1,
-      "why": "Small receipts are repeatable. Thank them, make one adjustment, and stop; that keeps the price of truth low enough that you will ask again."
-    }
-  ],
-  "recapMsgs": {
-    "high": "The loop is yours: ask small, receive clean, adjust once. Now pick your colleague.",
-    "mid": "Good. Look back at the section you missed, then pick your colleague.",
-    "low": "Walk the loop once more before you decide who to ask."
+ "slug": "may-thursday",
+ "series": "Thrive Thursday",
+ "month": "May 2027",
+ "monthShort": "May",
+ "monthIndex": 8,
+ "theme": "Measured Leader Behavior",
+ "goal": 2,
+ "title": "The Blind Spot",
+ "titleHtml": "Close one <em class=\"gold-text\">blind spot</em>.",
+ "tagline": "Self-awareness: closing your blind spots.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: the gap between intent and impact, how to get one trusted colleague to tell you the truth, and how to receive it without spending a week recovering.",
+ "heroLead": "Everyone has a blind spot; the word guarantees it. This hour covers the gap between what you intend and what lands, and the smallest reliable way to close it.",
+ "objectives": [
+  "Describe the gap between intent and impact in your own work",
+  "Make one small, specific ask that gets a colleague to tell you the truth",
+  "Receive an honest answer without depleting yourself: thank, adjust, stop"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My truth ask",
-    "headline": "One colleague. One question. <em>One adjustment.</em>",
-    "lead": "Pick the person who sees your work up close. Role only, never a name; nothing you type is saved or sent.",
-    "whoLabel": "Who do you ask? Role and why you trust their read.",
-    "whoPlaceholder": "e.g. project teammate; has seen every handoff all project long",
-    "practiceLabel": "Which ask do you make?",
-    "whoRow": "The truth-teller",
-    "practices": [
-      {"id": "moment", "chip": "The moment ask", "name": "The moment ask", "move": "Pick one recent moment and ask how it landed: one situation, one honest sentence, permission to be brief."},
-      {"id": "pattern", "chip": "The pattern ask", "name": "The pattern ask", "move": "Ask what one habit of yours they would adjust if they were you, and take the answer at face value."},
-      {"id": "followup", "chip": "The follow-up ask", "name": "The follow-up ask", "move": "Return to feedback you once brushed off and ask them to say the honest version again, this time to a ready listener."}
-    ],
-    "whens": [
-      {"id": "week", "chip": "This week", "out": "The ask happens this week, in person or on a call, before Friday."},
-      {"id": "handoff", "chip": "After our next handoff", "out": "The ask follows your next shared piece of work, while the impact is fresh."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The ask happens within two weeks, with the moment already chosen today."}
-    ],
-    "cardTitle": "My truth ask card",
-    "evidenceRow": "Afterward, one line: what did they see that you could not?"
+  {
+   "label": "Self-Awareness"
   },
-  "closing": {
-    "headline": "Borrowed eyes make you <em>better</em>.",
-    "lead": "You leave with a map of the gap, a small ask that gets truth, and a receipt that will not wreck your week. That loop, run a few times a year, is what self-awareness actually is.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the ask on your card",
-    "nextBody": "One colleague, one specific question, one honest sentence back. For a dress rehearsal, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts includes a navigator role-play and a development plan you can build from the answer you get.",
-    "brandline": "One honest sentence beats a year of guessing."
+  {
+   "label": "Feedback Literacy"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so examples stay on a person's own work and collaborations. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",
-    "pulse": "Seven days out, send the pulse: 'Did the ask on your card happen? What did your colleague see that you could not? What one adjustment did you make?' Count of completed asks is the Level 3 signal for the month.",
-    "s1": {
-      "title": "The intent-impact gap",
-      "purpose": "Establish that everyone has a gap between intent and impact, invisible from the inside by definition.",
-      "say": "Quick thought experiment. Think of the last time someone misread you: your email sounded curt, your question sounded like criticism, your quiet sounded like disapproval. You knew your intent perfectly, and you never felt the impact at all. That asymmetry is the blind spot, and everyone in this room has one, including me. The only unusual people are the ones who know roughly where theirs is.",
-      "facilitate": [
-        "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
-        "Lead the discussion prompt aloud and take two or three voices on where intent gets misread.",
-        "Run the breakout on words that landed differently than meant."
-      ],
-      "ask": {
-        "q": "Why does more self-reflection alone fail to find the blind spot?",
-        "expect": ["You just replay your own intent", "You end up grading your own homework"],
-        "respond": "Exactly. Reflection replays the only footage you have, and it is footage of the intent. The impact was filmed from other people's seats."
-      },
-      "debrief": "You hold the intent; others hold the impact. Closing the gap requires at least one borrowed pair of eyes.",
-      "watchFor": "Learners treating blind spots as character flaws. Reframe: a blind spot is missing information, and information is fixable.",
-      "transition": "So the data lives in other people. Next: how to actually get it out of them.",
-      "coreNote": "Core: skip the breakout; take one example in chat instead."
-    },
-    "s2": {
-      "title": "One trusted truth-teller",
-      "purpose": "Teach the small, specific ask that makes honesty cheap enough for a colleague to give.",
-      "say": "Here is why most of us have gotten so little useful feedback in our careers: the asks were too big. 'Any feedback for me?' asks a colleague to gamble the relationship on an essay. The ask that works is small: one trusted person who has seen your work, one specific moment, one honest sentence with permission to be brief. Tasha Eurich calls the right person a loving critic, someone who will tell you the truth and wants you to win. You are making truth cheap for that person to give, and that is the entire trick.",
-      "facilitate": [
-        "Run Build the ask; two minutes to make both choices and run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Name the pattern: witnessed impact, small scope, permission to be brief."
-      ],
-      "ask": {
-        "q": "What makes 'be brutally honest with me' fail?",
-        "expect": ["It is too big to answer", "Nobody quite believes you mean it"],
-        "respond": "Both. Brutal invitations still get soft answers because the job is impossible. Shrink the ask and the honesty shows up on its own."
-      },
-      "debrief": "Truth-tellers need two credentials: they saw the impact, and they have been straight with you before. The ask needs one moment and permission to be brief.",
-      "watchFor": "Learners choosing their closest work friend by default. Warmth is lovely; the credential is honesty plus proximity to the work.",
-      "transition": "The ask will work. Which means you are about to hear something true, so let us prepare the landing.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "s3": {
-      "title": "Receiving without depleting",
-      "purpose": "Install the clean receipt: one thank you, one adjustment, a full stop, so asking stays affordable.",
-      "say": "Last piece, and it is the one that keeps the loop alive. The reason most of us quietly stop asking for truth is that hearing it costs too much. Stone and Heen, in Thanks for the Feedback, call the expensive part the identity trigger: a comment about one handoff starts to feel like a ruling on who you are. The clean receipt is deliberately small. Thank them once, because they took a risk for you. Make one adjustment, because that is what the sentence was for. Then full stop. If the receipt is cheap, you will ask again, and asking again is the whole game.",
-      "facilitate": [
-        "Run Call the receipt live on learner screens.",
-        "After round three, pause on the spiral: ask why over-absorbing feels virtuous.",
-        "Run the breakout on spirals and full stops."
-      ],
-      "ask": {
-        "q": "Why does the spiral feel like taking feedback seriously?",
-        "expect": ["Suffering feels like accountability", "It proves we care about the work"],
-        "respond": "Right, and it is counterfeit accountability. The colleague offered one adjustment; the spiral delivers a crisis instead and quietly punishes them for honesty."
-      },
-      "debrief": "Deflection underpays for truth, the spiral overpays, and the clean receipt pays exactly what it costs: thanks, one adjustment, done.",
-      "watchFor": "Anyone processing real, raw feedback live. Offer the frame gently and follow up after; the room stays a skills session.",
-      "transition": "Quick recap, then you build your ask.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
-    },
-    "capstoneSay": "Now make it real. One colleague who sees your work, role only. One specific ask, one window. Build the card and copy it somewhere you will see it before Friday. The wince is the price; the clear look at your own work is what it buys. Take the full two minutes.",
-    "closeSay": "That closes the week. Monday made the manager standard readable, Tuesday opened the feedback tooling, and today gave you the loop that turns all of it into growth: ask small, hear it clean, adjust once. If you want a rehearsal before your ask, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a navigator-led role-play and helps you build a development plan from what you hear. Next week opens June and From Insight to Action, where we turn to AI and the future of your own work. Bring your card's one line with you.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "Someone names a real colleague while describing feedback that hurt", "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The skill works on patterns and asks, never on individual reputations in a group call."},
-      {"if": "A learner shares something raw and the room goes heavy", "then": "Honor it briefly, thank them for the trust, and offer a follow-up after the session. Then return the room to the skill; depth belongs in a 1:1, and the session keeps its pace."}
-    ],
-    "toughQuestions": [
-      {"q": "What if the honest answer I get is wrong about me?", "a": "It can be, and it is still data: it is how you landed for that person in that moment. You owe it a weighing, never an overhaul. Keep the fraction that rings true, and remember one report of impact is one angle, never a census."},
-      {"q": "Isn't asking for feedback like this just fishing for compliments?", "a": "The shape prevents that. A compliment-fisher asks vague questions in public; this ask is private, specific, and explicitly invites the uncomfortable answer. Colleagues can tell the difference immediately, and they respect the real version."},
-      {"q": "I'm not a manager, so isn't this month's measurement about other people?", "a": "The measurement applies to managers; the muscle applies to everyone. Careers at every level run on impact, and people who can collect honest signal about theirs grow faster, whatever their title. Your blind spot does not care about your org chart."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Thursday, 45 minutes on your blind spot. Everyone has a gap between what they intend and what lands; this session is the smallest reliable way to close yours. Nothing personal shared aloud. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the ask happen? Three lines, reply whenever: 1) Did the truth ask on your card happen? 2) What did your colleague see that you could not? 3) What one adjustment did you make?"}
-    ]
+  {
+   "label": "Resilience"
   }
+ ],
+ "missionTie": "The great university of the 21st Century gets built by people who can see themselves clearly, and fewer blind spots means fewer surprises in Exceptional Core Operations.",
+ "agenda": [
+  {
+   "t": "The intent-impact gap",
+   "d": "Why everyone has one, and why you are the last person able to see yours."
+  },
+  {
+   "t": "One trusted truth-teller",
+   "d": "The small, specific ask that gets a colleague to be honest with you."
+  },
+  {
+   "t": "Receiving without depleting",
+   "d": "One thank you, one adjustment, and no week-long spiral."
+  }
+ ],
+ "manifesto": "You cannot see your own blind spot. Someone you trust can, if you ask well.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Gap",
+   "dataTitle": "The intent-impact gap",
+   "eyebrow": "The Gap",
+   "headline": "You are the last to see <em>your own gap</em>.",
+   "lead": "Nobody experiences your intentions; they experience your impact, and the distance between the two hides from you by definition. Tasha Eurich's research puts it plainly: 95 percent of us believe we see ourselves clearly, and only 10 to 15 percent actually do.",
+   "group": "In pairs: recall a time your words landed differently than you meant. What did the gap turn out to be? 90 seconds each way.",
+   "solo": "Recall one time your words landed differently than you meant. Write what the gap turned out to be.",
+   "source": {
+    "label": "Tasha Eurich, What Self-Awareness Really Is (HBR)",
+    "url": "https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it"
+   },
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The blind spot rule",
+     "text": "Intent is what you meant; impact is what happened to the other person. You have direct access to only one of these, so your self-view is always missing data. The fix is borrowed eyes: someone who saw the impact and will tell you about it."
+    },
+    "context": "Think of the last email you reread before sending. You checked it against your intent, the one thing you cannot ship. The receiver got tone, timing, and a history you never saw. That asymmetry runs both directions all day, in meetings, handoffs, and chat, which is why nobody's self-view is complete.",
+    "discuss": "Where in your work does your intent most often get misread, and who actually saw how it landed?",
+    "q": "Why can't you find your own blind spot by reflecting harder?",
+    "opts": [
+     {
+      "t": "You can, with enough journaling",
+      "correct": false,
+      "why": "Eurich found introspection alone rarely improves self-awareness. Solo replay produces your side, the intent; the missing data is other people's experience of you."
+     },
+     {
+      "t": "Blind spots are permanent personality traits",
+      "correct": false,
+      "why": "They are closeable, which is the good news. A blind spot is just missing information, and information can be supplied by anyone who saw the impact."
+     },
+     {
+      "t": "The missing data is other people's experience of you",
+      "correct": true,
+      "why": "Exactly. You hold the intent; they hold the impact. Closing the gap always requires at least one other person's honest account."
+     }
+    ]
+   },
+   "deeper": {
+    "title": "Why the gap grows with influence",
+    "body": "Eurich's team found that experience and power hinder self-awareness: the more senior people get, the less unprompted truth they hear, since everyone edits harder for someone who can affect their week. Blind spots grow at the pace candor shrinks, so waiting to be told rarely works. The likeliest people to see your gap are the ones least obliged to flatter you: peers on shared projects, partners in other units.",
+    "steps": [
+     "List three people who see your work's impact up close. Star the one least obliged to flatter you.",
+     "Write one recent moment where their read of you might differ from yours. That moment is raw material for the ask you build in section two."
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Ask",
+   "dataTitle": "One trusted truth-teller",
+   "eyebrow": "The Ask",
+   "headline": "Truth arrives when the ask is <em>small</em>.",
+   "lead": "Ask a colleague 'do you have any feedback for me?' and you will get kindness and nothing. Truth comes from a different shape of ask: one trusted person, one specific situation, one honest question, and a clear sign you can take the answer.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Build the ask",
+    "intro": "One colleague sees your work up close. Choose who you ask and how you ask, and see what truth comes back.",
+    "runLabel": "Make the ask",
+    "outcomeTag": "What comes back",
+    "slots": [
+     {
+      "key": "Who you ask",
+      "opts": [
+       {
+        "t": "The colleague who always says nice things",
+        "pts": 1,
+        "coach": "Comfort is their gift, and it is the wrong tool here. You need someone who has watched you work and will risk a little friction on your behalf."
+       },
+       {
+        "t": "Everyone at once, in a group email asking for feedback",
+        "pts": 2,
+        "coach": "Wide nets return politeness. Diffuse asks let everyone assume someone else will say the hard thing, and nobody does."
+       },
+       {
+        "t": "One colleague who sees your work up close and has been straight with you before",
+        "pts": 3,
+        "coach": "What Eurich calls a loving critic: someone who watched the impact happen, wants you to succeed, and has shown they will tell you the truth kindly."
+       }
+      ]
+     },
+     {
+      "key": "How you ask",
+      "opts": [
+       {
+        "t": "Any feedback for me? Anything at all?",
+        "pts": 1,
+        "coach": "Unlimited scope, undefined ask. The kind answer is 'you are doing great,' and that is exactly what you will get."
+       },
+       {
+        "t": "Be brutally honest with me about everything",
+        "pts": 2,
+        "coach": "It sounds brave and it hands them an impossible job. Brutal invitations still get soft answers, just more awkwardly."
+       },
+       {
+        "t": "In yesterday's meeting, how did my pushback land? One honest sentence is plenty.",
+        "pts": 3,
+        "coach": "One situation, one question, and permission to be brief. Small asks are answerable, and answerable asks get the truth."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A real answer. Specific, kind, and slightly uncomfortable, which is how truth usually dresses.",
+     "mid": "Warmth came back, and the blind spot stayed. The ask was too big to answer honestly.",
+     "weak": "Reassurance all around. Pleasant, forgettable, and exactly zero new information about your impact."
+    },
+    "reactions": {
+     "strong": "They tell you one true thing you half-suspected and never confirmed. It costs you a wince and buys the clearest look at your own work you have had all year. The colleague respects you more for asking, and says so later.",
+     "mid": "Days later someone almost says the real thing, then thinks better of it. The truth exists in the building; your ask just never made it safe to hand over.",
+     "weak": "Everyone stays comfortable, including your blind spot. Six months on, the same pattern costs you something real, and you find out about it the hard way."
+    }
+   },
+   "deeper": {
+    "title": "Timing the ask so truth can land",
+    "body": "Even a perfect ask fails at the wrong moment. Truth needs privacy, a little slack, and a fresh memory: ask one on one, a day or two after the moment, never in front of an audience or at the tail end of a brutal week. Priming helps more than people expect. Telling your colleague the day before that you will ask gives an honest person time to find kind words for a true thing, which is when the best answers arrive.",
+    "steps": [
+     "Pick the moment you want the truth about and note when it happened. If it is more than two weeks old, choose a fresher one.",
+     "Schedule the ask: a private ten minutes within two days of the moment or your next shared piece of work.",
+     "Send the priming line the day before: tomorrow I want one honest sentence about how X landed, and brief is fine."
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Receipt",
+   "dataTitle": "Receiving without depleting",
+   "eyebrow": "The Receipt",
+   "headline": "Receive it like data, at <em>arm's length</em>.",
+   "lead": "Stone and Heen name what makes honesty expensive: the identity trigger, when one sentence about a handoff starts reading as a verdict on who you are. The sustainable receipt stays small. Thank them, adjust once, stop.",
+   "group": "Pairs: what does your version of the spiral look like after hard feedback, and what would the full stop look like? 90 seconds each way.",
+   "solo": "Describe your version of the spiral after hard feedback, then write what the full stop would look like instead.",
+   "source": {
+    "label": "Thanks for the Feedback, Douglas Stone and Sheila Heen (Harvard Negotiation Project)",
+    "url": "https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/"
+   },
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Call the receipt",
+    "intro": "Three colleagues hear one honest sentence about their impact. Call each response: a clean receipt, a deflection, or a spiral.",
+    "progressWord": "Call",
+    "labels": [
+     "Clean receipt, sustainable",
+     "Deflection, gap stays open",
+     "Spiral, too expensive"
+    ],
+    "passAt": 2,
+    "passMsg": "You can tell them apart. The clean receipt is one thank you, one adjustment, and a full stop, which is why it is repeatable.",
+    "failMsg": "Nearly. Deflection protects you from the truth and the spiral overpays for it; the clean receipt takes the sentence at its actual size.",
+    "items": [
+     {
+      "q": "Told her updates run long, a coordinator laughs it off: everyone says that, and the meetings are just packed.",
+      "answer": 1,
+      "why": "The laugh and the instant explanation close the door. The colleague risked honesty and learned it bounces; the blind spot stays exactly where it was."
+     },
+     {
+      "q": "Told his emails read as curt, an analyst thanks his colleague, adds one warmer opening line to his template, and moves on with his day.",
+      "answer": 0,
+      "why": "One thank you, one adjustment, one afternoon. He can afford to ask again next quarter, which is the whole point of receiving well."
+     },
+     {
+      "q": "Told one handoff was confusing, an advisor apologizes three times, rereads old emails all evening, and wonders if she is bad at her job.",
+      "answer": 2,
+      "why": "The feedback was one sentence about one handoff; the response was a referendum on her worth. Receipts that expensive teach you to stop asking."
+     }
+    ]
+   },
+   "deeper": {
+    "title": "What to do with the wince",
+    "body": "The wince is physiology, not a verdict, and it passes in about ninety seconds if you do not feed it a story. So receive in two beats. In the moment, just thank them; the analysis can wait an hour. Later, write the feedback as one neutral sentence about behavior, never character: my emails read as curt, rather than I am cold. Behavior sentences suggest adjustments; character sentences only suggest shame.",
+    "steps": [
+     "Write down the hardest feedback you remember receiving, phrased the way it felt: as a character verdict.",
+     "Rewrite it as one neutral behavior sentence, then note the single adjustment it points to.",
+     "Rehearse your two-beat script aloud once: thank you, that is useful, let me sit with it."
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "Why does everyone have a blind spot?",
+   "opts": [
+    "Only unreflective people have them",
+    "You experience your intent; others experience your impact",
+    "Blind spots come from bad training",
+    "They only affect managers"
+   ],
+   "correct": 1,
+   "why": "The gap between intent and impact hides from you by definition. The missing data lives in other people's experience, so borrowed eyes are required."
+  },
+  {
+   "q": "Which ask is most likely to get you the truth?",
+   "opts": [
+    "Any feedback for me?",
+    "Be brutally honest about everything",
+    "One specific moment, one honest question, to one trusted colleague",
+    "An anonymous group poll"
+   ],
+   "correct": 2,
+   "why": "Small and specific is answerable. One situation, one question, and permission to be brief makes honesty cheap enough for a colleague to hand over."
+  },
+  {
+   "q": "The clean receipt for hard feedback is...",
+   "opts": [
+    "Explaining your intent in detail",
+    "A thank you, one adjustment, and a full stop",
+    "Apologizing until it feels resolved",
+    "A week of quiet self-review"
+   ],
+   "correct": 1,
+   "why": "Small receipts are repeatable. Thank them, make one adjustment, and stop; that keeps the price of truth low enough that you will ask again."
+  }
+ ],
+ "recapMsgs": {
+  "high": "The loop is yours: ask small, receive clean, adjust once. Now pick your colleague.",
+  "mid": "Good. Look back at the section you missed, then pick your colleague.",
+  "low": "Walk the loop once more before you decide who to ask."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My truth ask",
+  "headline": "One colleague. One question. <em>One adjustment.</em>",
+  "lead": "Pick the person who sees your work up close. Role only, never a name; nothing you type is saved or sent.",
+  "whoLabel": "Who do you ask? Role and why you trust their read.",
+  "whoPlaceholder": "e.g. project teammate; has seen every handoff all project long",
+  "practiceLabel": "Which ask do you make?",
+  "whoRow": "The truth-teller",
+  "practices": [
+   {
+    "id": "moment",
+    "chip": "The moment ask",
+    "name": "The moment ask",
+    "move": "Pick one recent moment and ask how it landed: one situation, one honest sentence, permission to be brief."
+   },
+   {
+    "id": "pattern",
+    "chip": "The pattern ask",
+    "name": "The pattern ask",
+    "move": "Ask what one habit of yours they would adjust if they were you, and take the answer at face value."
+   },
+   {
+    "id": "followup",
+    "chip": "The follow-up ask",
+    "name": "The follow-up ask",
+    "move": "Return to feedback you once brushed off and ask them to say the honest version again, this time to a ready listener."
+   }
+  ],
+  "whens": [
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The ask happens this week, in person or on a call, before Friday."
+   },
+   {
+    "id": "handoff",
+    "chip": "After our next handoff",
+    "out": "The ask follows your next shared piece of work, while the impact is fresh."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The ask happens within two weeks, with the moment already chosen today."
+   }
+  ],
+  "cardTitle": "My truth ask card",
+  "evidenceRow": "Afterward, one line: what did they see that you could not?"
+ },
+ "closing": {
+  "headline": "Borrowed eyes make you <em>better</em>.",
+  "lead": "You leave with a map of the gap, a small ask that gets truth, and a receipt that will not wreck your week. That loop, run a few times a year, is what self-awareness actually is.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the ask on your card",
+  "nextBody": "One colleague, one specific question, one honest sentence back. For a dress rehearsal, the LinkedIn Learning course Giving and Receiving Feedback by Gemma Leigh Roberts includes a navigator role-play and a development plan you can build from the answer you get.",
+  "brandline": "One honest sentence beats a year of guessing."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; many attendees manage nobody, so examples stay on a person's own work and collaborations. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites.",
+  "pulse": "Seven days out, send the pulse: 'Did the ask on your card happen? What did your colleague see that you could not? What one adjustment did you make?' Count of completed asks is the Level 3 signal for the month.",
+  "s1": {
+   "title": "The intent-impact gap",
+   "purpose": "Establish that everyone has a gap between intent and impact, invisible from the inside by definition.",
+   "say": "Quick thought experiment. Think of the last time someone misread you: your email sounded curt, your question sounded like criticism, your quiet sounded like disapproval. You knew your intent perfectly, and you never felt the impact at all. That asymmetry is the blind spot, and everyone in this room has one, including me. The only unusual people are the ones who know roughly where theirs is.",
+   "facilitate": [
+    "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
+    "Lead the discussion prompt aloud and take two or three voices on where intent gets misread.",
+    "Run the breakout on words that landed differently than meant."
+   ],
+   "ask": {
+    "q": "Why does more self-reflection alone fail to find the blind spot?",
+    "expect": [
+     "You just replay your own intent",
+     "You end up grading your own homework"
+    ],
+    "respond": "Exactly. Reflection replays the only footage you have, and it is footage of the intent. The impact was filmed from other people's seats."
+   },
+   "debrief": "You hold the intent; others hold the impact. Closing the gap requires at least one borrowed pair of eyes.",
+   "watchFor": "Learners treating blind spots as character flaws. Reframe: a blind spot is missing information, and information is fixable.",
+   "transition": "So the data lives in other people. Next: how to actually get it out of them.",
+   "coreNote": "Core: skip the breakout; take one example in chat instead."
+  },
+  "s2": {
+   "title": "One trusted truth-teller",
+   "purpose": "Teach the small, specific ask that makes honesty cheap enough for a colleague to give.",
+   "say": "Here is why most of us have gotten so little useful feedback in our careers: the asks were too big. 'Any feedback for me?' asks a colleague to gamble the relationship on an essay. The ask that works is small: one trusted person who has seen your work, one specific moment, one honest sentence with permission to be brief. Tasha Eurich calls the right person a loving critic, someone who will tell you the truth and wants you to win. You are making truth cheap for that person to give, and that is the entire trick.",
+   "facilitate": [
+    "Run Build the ask; two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Name the pattern: witnessed impact, small scope, permission to be brief."
+   ],
+   "ask": {
+    "q": "What makes 'be brutally honest with me' fail?",
+    "expect": [
+     "It is too big to answer",
+     "Nobody quite believes you mean it"
+    ],
+    "respond": "Both. Brutal invitations still get soft answers because the job is impossible. Shrink the ask and the honesty shows up on its own."
+   },
+   "debrief": "Truth-tellers need two credentials: they saw the impact, and they have been straight with you before. The ask needs one moment and permission to be brief.",
+   "watchFor": "Learners choosing their closest work friend by default. Warmth is lovely; the credential is honesty plus proximity to the work.",
+   "transition": "The ask will work. Which means you are about to hear something true, so let us prepare the landing.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "s3": {
+   "title": "Receiving without depleting",
+   "purpose": "Install the clean receipt: one thank you, one adjustment, a full stop, so asking stays affordable.",
+   "say": "Last piece, and it is the one that keeps the loop alive. The reason most of us quietly stop asking for truth is that hearing it costs too much. Stone and Heen, in Thanks for the Feedback, call the expensive part the identity trigger: a comment about one handoff starts to feel like a ruling on who you are. The clean receipt is deliberately small. Thank them once, because they took a risk for you. Make one adjustment, because that is what the sentence was for. Then full stop. If the receipt is cheap, you will ask again, and asking again is the whole game.",
+   "facilitate": [
+    "Run Call the receipt live on learner screens.",
+    "After round three, pause on the spiral: ask why over-absorbing feels virtuous.",
+    "Run the breakout on spirals and full stops."
+   ],
+   "ask": {
+    "q": "Why does the spiral feel like taking feedback seriously?",
+    "expect": [
+     "Suffering feels like accountability",
+     "It proves we care about the work"
+    ],
+    "respond": "Right, and it is counterfeit accountability. The colleague offered one adjustment; the spiral delivers a crisis instead and quietly punishes them for honesty."
+   },
+   "debrief": "Deflection underpays for truth, the spiral overpays, and the clean receipt pays exactly what it costs: thanks, one adjustment, done.",
+   "watchFor": "Anyone processing real, raw feedback live. Offer the frame gently and follow up after; the room stays a skills session.",
+   "transition": "Quick recap, then you build your ask.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "capstoneSay": "Now make it real. One colleague who sees your work, role only. One specific ask, one window. Build the card and copy it somewhere you will see it before Friday. The wince is the price; the clear look at your own work is what it buys. Take the full two minutes.",
+  "closeSay": "That closes the week. Monday made the manager standard readable, Tuesday opened the feedback tooling, and today gave you the loop that turns all of it into growth: ask small, hear it clean, adjust once. If you want a rehearsal before your ask, this month's LinkedIn Learning course, Giving and Receiving Feedback with Gemma Leigh Roberts, runs a navigator-led role-play and helps you build a development plan from what you hear. Next week opens June and From Insight to Action, where we turn to AI and the future of your own work. Bring your card's one line with you.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone names a real colleague while describing feedback that hurt",
+    "then": "Protect them warmly and immediately: 'Hold that. Roles, never names.' The skill works on patterns and asks, never on individual reputations in a group call."
+   },
+   {
+    "if": "A learner shares something raw and the room goes heavy",
+    "then": "Honor it briefly, thank them for the trust, and offer a follow-up after the session. Then return the room to the skill; depth belongs in a 1:1, and the session keeps its pace."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "What if the honest answer I get is wrong about me?",
+    "a": "It can be, and it is still data: it is how you landed for that person in that moment. You owe it a weighing, never an overhaul. Keep the fraction that rings true, and remember one report of impact is one angle, never a census."
+   },
+   {
+    "q": "Isn't asking for feedback like this just fishing for compliments?",
+    "a": "The shape prevents that. A compliment-fisher asks vague questions in public; this ask is private, specific, and explicitly invites the uncomfortable answer. Colleagues can tell the difference immediately, and they respect the real version."
+   },
+   {
+    "q": "I'm not a manager, so isn't this month's measurement about other people?",
+    "a": "The measurement applies to managers; the muscle applies to everyone. Careers at every level run on impact, and people who can collect honest signal about theirs grow faster, whatever their title. Your blind spot does not care about your org chart."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Thursday, 45 minutes on your blind spot. Everyone has a gap between what they intend and what lands; this session is the smallest reliable way to close yours. Nothing personal shared aloud. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the ask happen? Three lines, reply whenever: 1) Did the truth ask on your card happen? 2) What did your colleague see that you could not? 3) What one adjustment did you make?"
+   }
+  ]
+ }
 }

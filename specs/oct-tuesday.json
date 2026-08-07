@@ -1,285 +1,440 @@
 {
-  "slug": "oct-tuesday",
-  "series": "Take-Off Tuesday",
-  "month": "October 2026",
-  "monthShort": "Oct",
-  "monthIndex": 1,
-  "theme": "See the Talent Around You",
-  "goal": 1,
-  "title": "On the Map",
-  "titleHtml": "Put your skills <em class=\"gold-text\">on the map</em>.",
-  "tagline": "The Talent Marketplace: what it shows and how to use it.",
-  "description": "A 45-minute virtual session for all Vanderbilt staff: what the Talent Marketplace shows, what a current skills profile does for you, and how to write your skills so opportunities can find them.",
-  "heroLead": "The Talent Marketplace matches visible skills to work that needs them. Learn what it sees, what a current profile buys you, and how to write yours so it gets found.",
-  "objectives": [
-    "Explain what the Talent Marketplace shows: skills, needs, and opportunities across the university",
-    "Describe what a current skills profile does for you, and what a stale one quietly costs",
-    "Rewrite one duty from your job into a named, searchable skill on your profile"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Career Ownership"},
-    {"label": "Skills Articulation"},
-    {"label": "Internal Mobility"}
-  ],
-  "missionTie": "Exceptional Core Operations depends on the university knowing what its people can do, and that knowledge starts with your profile.",
-  "agenda": [
-    {"t": "What the system sees", "d": "What the Talent Marketplace is, and what talent visibility means for you."},
-    {"t": "What you gain", "d": "A visible skills profile, and internal opportunities that find you first."},
-    {"t": "Make your skills legible", "d": "Name skills instead of duties, and keep the profile current."}
-  ],
-  "manifesto": "A skill the university cannot see is a skill it cannot use, grow, or promote.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The System",
-      "dataTitle": "What the system sees",
-      "eyebrow": "The System",
-      "headline": "The university is learning to <em>see talent</em>.",
-      "lead": "Deloitte calls it the skills-based organization: work built around what people can do rather than the boxes they sit in. The Talent Marketplace is Vanderbilt's version. It watches nothing and grades nobody; it reads what you choose to share, and it matches.",
-      "group": "In pairs: what is one skill you have that nobody outside your own team knows about? 90 seconds each way.",
-      "solo": "Write down one skill you have that nobody outside your own team knows about.",
-      "source": {"label": "The skills-based organization (Deloitte)", "url": "https://www.deloitte.com/global/en/issues/work/skills-based-organizations.html"},
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "What it actually is",
-          "text": "The Talent Marketplace is a talent map. Input: the skills profile you keep. Output: matches between what you can do and what the university needs, from short projects to open roles. The map is only as true as the profiles that feed it."
-        },
-        "q": "Quick check: what does the Talent Marketplace actually read?",
-        "opts": [
-          {"t": "Your email and calendar, to infer what you do", "correct": false, "why": "It reads nothing behind your back. The system works from the skills profile you choose to keep, which is exactly why keeping it is worth your ten minutes."},
-          {"t": "The skills profile you keep and choose to share", "correct": true, "why": "Right. The map is built from what people make visible. Your profile is your side of the deal, and it stays entirely in your hands."},
-          {"t": "Your performance reviews and ratings", "correct": false, "why": "It is not an evaluation tool. Reviews judge past work; the profile describes capability, which is a different and much friendlier question."}
-        ],
-        "context": "Most workplace systems read you without asking: badge swipes, ticket queues, calendars. The Talent Marketplace is built the other way. It knows only what you tell it, so your profile is the whole of your presence on the map. The honest question for this room is what yours says right now.",
-        "discuss": "When you last touched your skills profile, what was true about your job? What has changed since then that the Marketplace still cannot see?"
-      },
-      "deeper": {
-        "title": "Where the Marketplace ends and other systems begin",
-        "body": "The Marketplace sits alongside systems you already know, and the division of labor matters. Oracle holds the record of your job: title, goals, reviews. The Marketplace holds your capability: what you can do and at what scale, whether or not the job asks for it. Nothing flows from reviews into the map. When a match grows into a real move, the Transfer Portal takes over; that side gets its own month later in the series.",
-        "steps": [
-          "Open your skills profile next to your Oracle job record. Mark every profile line that just restates the job record; those are your rewrite targets.",
-          "Write down two skills you use that appear in neither place. That gap is exactly what this week's update should close."
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Payoff",
-      "dataTitle": "What you gain",
-      "eyebrow": "The Payoff",
-      "headline": "Opportunities start <em>finding you</em>.",
-      "lead": "Internal moves mostly go to whoever happened to hear about them. A current profile flips the search, so work that needs your skill can find you. LinkedIn's Workplace Learning Report keeps finding that people stay far longer where moving inside is normal.",
-      "group": "Pairs: name one internal opportunity you heard about too late. What skill of yours would have matched it?",
-      "solo": "Recall one internal opportunity you heard about too late. What skill of yours would have matched it?",
-      "source": {"label": "Internal mobility and retention, LinkedIn Workplace Learning Report", "url": "https://learning.linkedin.com/resources/workplace-learning-report"},
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "What just happened?",
-        "intro": "Three small moments with the system. Read each one and call what it is.",
-        "progressWord": "Moment",
-        "labels": ["Your skills becoming visible", "An opportunity finding you", "A gap only you can close"],
-        "passAt": 2,
-        "passMsg": "You can read the system. Keep the profile current and the matching does the rest; going stale is the only real way to lose.",
-        "failMsg": "Close. The system gives back what profiles put in. A current profile keeps you findable, and a stale one quietly takes you off the map.",
-        "items": [
-          {"q": "A financial analyst adds grant budgeting to their profile after finishing a course last month.", "answer": 0, "why": "A real skill, named while it is fresh. From today, anyone at the university with a grant problem can search for it and find them."},
-          {"q": "A program coordinator gets a note about a short project: a symposium team needs exactly the event logistics skill their profile lists.", "answer": 1, "why": "Nobody browsed listings here; the profile did the searching. This is the return on keeping it current."},
-          {"q": "An advisor's profile still matches their 2022 job description, three responsibilities and two systems ago.", "answer": 2, "why": "Three years of new skills are missing from the map. Ten minutes of updating puts them back, and the matches follow."}
-        ]
-      },
-      "deeper": {
-        "title": "How a match actually finds you",
-        "body": "A match starts as a search someone runs under pressure: a symposium is short a logistics lead, a grant needs a budget review by Friday. Searches like that use plain, concrete words, and they reward specificity and recency. 'Event logistics, groups of 200 plus, updated last month' surfaces; a bare 'communications' sinks in a pile of similar profiles. Write for the person searching in a hurry, not for a careers page.",
-        "steps": [
-          "Imagine the search you would most like to be found by. Write down the exact words that searcher would type.",
-          "Check whether those words, or close cousins, appear anywhere on your profile today. If not, that is your first new line."
-        ]
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "Legible Skills",
-      "dataTitle": "Make your skills legible",
-      "eyebrow": "The Craft",
-      "headline": "Name the <em>skill</em>, not the duty.",
-      "lead": "The map can only match what it can read. 'Supports departmental events' is a duty; 'event logistics for groups of 200 plus' is a skill someone can search for. This section is the craft of writing yourself legibly, and the small habit that keeps it true.",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "Write yourself onto the map",
-        "intro": "Take one thing you are genuinely good at. Choose how you write it, and how you keep the line alive.",
-        "runLabel": "Publish the line",
-        "outcomeTag": "What the map shows",
-        "slots": [
-          {
-            "key": "The line you write",
-            "opts": [
-              {"t": "Hardworking team player with a can-do attitude", "pts": 1, "coach": "Nobody searches for can-do attitude. Adjectives are invisible to a matching system; only named skills get found."},
-              {"t": "Responsible for scheduling and department communications", "pts": 2, "coach": "That is the duty list, copied over. Closer, but it describes the job. Name what YOU can do: the skill inside the duty."},
-              {"t": "Project scheduling; plain-language writing for a 3,000-reader newsletter", "pts": 3, "coach": "Named skills with real scale. A person or a system reading this knows exactly what to bring you, and what to match you to."}
-            ]
-          },
-          {
-            "key": "How you keep it current",
-            "opts": [
-              {"t": "Set it once and trust it holds", "pts": 1, "coach": "Profiles age faster than jobs do. A set-and-forget profile is a snapshot of this month that will quietly misrepresent you by spring."},
-              {"t": "Update it whenever HR sends a reminder", "pts": 2, "coach": "Better than never, but the reminder owns your visibility. Tie the update to your own finished work, not someone else's calendar."},
-              {"t": "Ten minutes after anything ships: new skill, new line", "pts": 3, "coach": "The habit that keeps the map true. Finish something, name the skill it proved, add the line while it is fresh."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "A profile the system can work with. Your skills are named, current, and searchable by anyone with a need.",
-          "mid": "You are on the map, blurrily. The system sees your job, roughly, and matches you to less than you deserve.",
-          "weak": "Technically enrolled, practically invisible. The map shows a name and an adjective, and matches neither."
-        },
-        "reactions": {
-          "strong": "Three weeks later a short cross-department project lands in your inbox, matched to the exact line you wrote. You never applied. The profile did the applying.",
-          "mid": "A month on, a search for your actual strongest skill returns other people. The skill is yours; the words on the map are not, and words are all the map can see.",
-          "weak": "The system hums along without you. Opportunities keep going to whoever happened to hear about them, which is the old world this system was built to end."
-        }
-      },
-      "deeper": {
-        "title": "The anatomy of a line the map can match",
-        "body": "A legible line has three parts: the named skill, the scale it runs at, and a hint of evidence. 'Plain-language writing' is a skill; 'for a 3,000-reader newsletter' is scale; 'monthly since 2024' is evidence it is current. You rarely need all three, but skill plus one other beats skill alone every time. When you doubt whether something counts, run the borrow test: if a colleague would borrow you for it, it earns a line.",
-        "steps": [
-          "Grade your three strongest profile lines: skill named? scale shown? evidence hinted? Rewrite the weakest one now.",
-          "Run the borrow test on your last two weeks: what did anyone borrow you for? Add the best answer as a new line."
-        ]
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "What does the Talent Marketplace build its talent map from?",
-      "opts": ["Performance reviews", "The skills profiles people keep and share", "Email and calendar activity", "Managers' opinions"],
-      "correct": 1,
-      "why": "The map is made of what people make visible. Your profile is your input, and it stays in your hands."
-    },
-    {
-      "q": "What does a current skills profile do for you?",
-      "opts": ["Guarantees a promotion", "Replaces your resume", "Lets internal opportunities find you", "Raises your performance rating"],
-      "correct": 2,
-      "why": "The payoff is matching: projects, stretch roles, and internal moves can search for your skill and reach you first."
-    },
-    {
-      "q": "Which profile line can the system actually match?",
-      "opts": ["Dedicated and detail-oriented", "Supports the office", "Handles various duties as assigned", "Grant budgeting for federal awards"],
-      "correct": 3,
-      "why": "Named skills get matched. Adjectives and duty lists are invisible to anyone searching for what you can actually do."
-    }
-  ],
-  "recapMsgs": {
-    "high": "You can read the system and write for it. Now go update the real profile.",
-    "mid": "Close. Glance back at the section you missed, then make your move.",
-    "low": "Run the three sections once more; the real profile can wait ten minutes."
+ "slug": "oct-tuesday",
+ "series": "Take-Off Tuesday",
+ "month": "October 2026",
+ "monthShort": "Oct",
+ "monthIndex": 1,
+ "theme": "See the Talent Around You",
+ "goal": 1,
+ "title": "On the Map",
+ "titleHtml": "Put your skills <em class=\"gold-text\">on the map</em>.",
+ "tagline": "The Talent Marketplace: what it shows and how to use it.",
+ "description": "A 45-minute virtual session for all Vanderbilt staff: what the Talent Marketplace shows, what a current skills profile does for you, and how to write your skills so opportunities can find them.",
+ "heroLead": "The Talent Marketplace matches visible skills to work that needs them. Learn what it sees, what a current profile buys you, and how to write yours so it gets found.",
+ "objectives": [
+  "Explain what the Talent Marketplace shows: skills, needs, and opportunities across the university",
+  "Describe what a current skills profile does for you, and what a stale one quietly costs",
+  "Rewrite one duty from your job into a named, searchable skill on your profile"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My profile move",
-    "headline": "One skill, named and <em>on the map</em>.",
-    "lead": "Pick the skill you will make visible first. Nothing you type here is saved or sent; the real update happens in the system this week.",
-    "whoLabel": "Which skill goes on the map? Name it the legible way.",
-    "whoPlaceholder": "e.g. event logistics for groups of 200 plus",
-    "practiceLabel": "Which move do you make?",
-    "whoRow": "The skill I am making visible",
-    "practices": [
-      {"id": "refresh", "chip": "The profile refresh", "name": "The profile refresh", "move": "Open your skills profile, retire the lines that read like a job description, and rewrite them as named, searchable skills."},
-      {"id": "newskill", "chip": "The new-skill add", "name": "The new-skill add", "move": "Add one skill you built recently that the profile has never heard of, with enough detail to be matched."},
-      {"id": "habit", "chip": "The ten-minute habit", "name": "The ten-minute habit", "move": "Put a monthly ten-minute hold on your calendar: whatever shipped, name the skill it proved and add the line."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Today", "out": "The update happens today, before the session's momentum fades."},
-      {"id": "week", "chip": "This week", "out": "The update happens this week, on your calendar by Friday."},
-      {"id": "monthly", "chip": "Monthly, starting now", "out": "The first update happens this week, and a monthly ten-minute hold keeps the map true."}
-    ],
-    "cardTitle": "My profile move card",
-    "evidenceRow": "Afterward, one line: what skill is visible now that was invisible this morning?"
+  {
+   "label": "Career Ownership"
   },
-  "closing": {
-    "headline": "Be findable. <em>Be found.</em>",
-    "lead": "You know what the system sees, what a current profile buys you, and how to write skills the map can read. The update itself takes ten minutes.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the profile move on your card",
-    "nextBody": "Legible words, current skills, ten minutes. If you want to go deeper this month, Don Phin's Talent Management course on LinkedIn Learning pairs well with the update; it is there if you want it, never homework.",
-    "brandline": "Name the skill. The map does the rest."
+  {
+   "label": "Skills Articulation"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
-    "pulse": "Seven days out, send the pulse: 'Did the profile move on your card happen? What skill is visible now that was not before? What line will you add next?' Count of completed profile updates feeds the month's Goal 1 story.",
-    "s1": {
-      "title": "What the system sees",
-      "purpose": "Establish what the Talent Marketplace is: a talent map built from skills profiles, never a surveillance or evaluation tool.",
-      "say": "Vanderbilt did not invent this idea. Deloitte has spent years documenting what it calls the skills-based organization, where decisions run on what people can do instead of the job boxes they sit in. Our version is the Talent Marketplace. Before it can do anything for you, let's clear the air, because any system that maps people has earned a little suspicion. It does not read your email and it does not grade you. It reads one thing, the skills profile you keep. Most systems at work read you without asking; this one knows only what you tell it.",
-      "facilitate": [
-        "Put the In the room card on screen and read it aloud; let the 'it knows only what you tell it' idea land.",
-        "Run the discussion prompt and take two or three voices on what their profile says right now; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.",
-        "Run the breakout: one skill nobody outside your team knows about, 90 seconds each way."
-      ],
-      "ask": {
-        "q": "What was your honest first reaction to hearing Vanderbilt has a Talent Marketplace?",
-        "expect": ["Suspicion about monitoring", "Curiosity about what it shows", "Assumption it is a tool for managers or HR only"],
-        "respond": "Take the suspicion seriously and answer it plainly: profile in, matching out, nothing else. The 'for managers' assumption is the one to break; the profile is the staff member's asset first."
-      },
-      "debrief": "One idea to carry out of this section: the system sees exactly what you show it, which puts your visibility in your own hands.",
-      "watchFor": "Anyone treating this as a managers-only topic. Keep every example on the learner's own skills and career.",
-      "transition": "So what do you actually get for keeping it current? Stop two.",
-      "coreNote": "Core: skip the breakout; ask for one invisible skill in chat instead."
-    },
-    "s2": {
-      "title": "What you gain",
-      "purpose": "Show the payoff of a current profile: visibility, and internal opportunities that find you.",
-      "say": "The trade works like this. You keep an honest, current profile; in return, searches start running toward you instead of past you. LinkedIn's workplace learning research shows why it matters: people stay far longer at organizations where internal movement is normal, because the next chapter stops requiring an exit. Right now internal projects go to whoever heard about them in a hallway. A current profile means they can find you on merit, whoever you know.",
-      "facilitate": [
-        "Run What just happened? live; everyone plays on their own screen.",
-        "After round two, pause: ask who has ever missed an internal opportunity they only heard about later.",
-        "Run the breakout on the opportunity that got away."
-      ],
-      "ask": {
-        "q": "Why do internal opportunities so often go to whoever happened to hear about them?",
-        "expect": ["Word of mouth travels through networks", "Nobody can search for skills they cannot see"],
-        "respond": "Both right, and that is the fairness case for the profile: a searchable skill beats a lucky hallway conversation. Visibility is how the playing field levels."
-      },
-      "debrief": "The system gives back what profiles put in. Current profile, working map. Stale profile, invisible you.",
-      "watchFor": "Cynicism that nothing ever comes of systems like this. Do not overpromise; anchor on the ten-minute cost against the missed-opportunity cost.",
-      "transition": "The catch: the map can only match what it can read. Stop three is the writing.",
-      "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
-    },
-    "s3": {
-      "title": "Make your skills legible",
-      "purpose": "Teach the craft of naming skills instead of duties, and the habit that keeps a profile current.",
-      "say": "Most profiles fail quietly for one reason: they are written like job descriptions. 'Supports departmental events' tells the map nothing. 'Event logistics for groups of 200 plus' is a skill someone can search for and find. We are going to write one line the legible way, then set the habit that keeps it true.",
-      "facilitate": [
-        "Run Write yourself onto the map; give the room two minutes to make both choices and run it.",
-        "Ask one volunteer to read their outcome aloud, weak or strong.",
-        "Point at the pattern: named skill, real scale, fresh update."
-      ],
-      "ask": {
-        "q": "Why do adjectives like dedicated or detail-oriented do nothing on a profile?",
-        "expect": ["Everyone claims them", "There is nothing to search or match on"],
-        "respond": "Both right. A matching system, and honestly a busy human too, can only work with named skills. Kind words about yourself are not data."
-      },
-      "debrief": "Legible means named, specific, and current: the skill inside the duty, in words someone would actually search.",
-      "watchFor": "People underselling themselves. If someone says they have no skills worth listing, ask what colleagues come to them for; that answer is the profile line.",
-      "transition": "Quick recap, then you build your card.",
-      "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
-    },
-    "capstoneSay": "Your turn. Name the skill you are making visible, the legible way, then pick the move and the window. Build the card and copy it wherever you keep the things you actually do. Two minutes, then we close.",
-    "closeSay": "You leave with a profile move and ten minutes of work between you and being findable. Make the update this week. Thursday's Thrive session takes on curiosity, the skill that makes all of this month's talent conversations work; come with one role at Vanderbilt you have quietly wondered about. And if you want more this month, the navigator-led Know-Your-Team lab runs in person and Don Phin's Talent Management course is on LinkedIn Learning, both optional, both good.",
-    "contingencies": [
-      {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
-      {"if": "Breakout rooms are unavailable", "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."},
-      {"if": "Someone worries the profile data will be used against them", "then": "Answer plainly and without hedging: the profile is not a performance tool and reviews never read it. It matches skills to opportunities. Skills and roles, never ratings."},
-      {"if": "Someone says their job has no skills worth listing", "then": "Ask the room what that person's colleagues come to them for. Every role carries named skills; that question usually surfaces two inside a minute."}
-    ],
-    "toughQuestions": [
-      {"q": "Is this system going to be used to cut jobs or monitor productivity?", "a": "No. The Talent Marketplace reads the skills profile you keep, nothing else: not email, not activity, not output. Its purpose under Goal 1 is retention and internal mobility, which is the opposite of a cut list. A visible skill makes you harder to overlook, not easier to replace."},
-      {"q": "If I make my skills visible, will my manager think I am trying to leave?", "a": "A current profile is the university norm, not a leaving signal; this month's Manager Monday session asks managers to make talent visible on their own teams for the same reason. Internal mobility keeps people at Vanderbilt. The riskier move is staying invisible."},
-      {"q": "I am not sure what counts as a skill worth listing. Where do I start?", "a": "Start with what people come to you for. If colleagues bring you their scheduling messes or their unreadable drafts, those are named skills. The Know-Your-Team lab and the Talent Management course on LinkedIn Learning both help you name more, if you want the extra rep."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: Tuesday, 45 minutes on the system that makes your skills visible. Bring nothing but one thing you are good at that your job title does not mention. Live and interactive; have the session link open on your own screen."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Is the skill on the map? Three lines, reply whenever: 1) Did the profile move on your card happen? 2) What skill is visible now that was not before? 3) What line will you add next?"}
-    ]
+  {
+   "label": "Internal Mobility"
   }
+ ],
+ "missionTie": "Exceptional Core Operations depends on the university knowing what its people can do, and that knowledge starts with your profile.",
+ "agenda": [
+  {
+   "t": "What the system sees",
+   "d": "What the Talent Marketplace is, and what talent visibility means for you."
+  },
+  {
+   "t": "What you gain",
+   "d": "A visible skills profile, and internal opportunities that find you first."
+  },
+  {
+   "t": "Make your skills legible",
+   "d": "Name skills instead of duties, and keep the profile current."
+  }
+ ],
+ "manifesto": "A skill the university cannot see is a skill it cannot use, grow, or promote.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The System",
+   "dataTitle": "What the system sees",
+   "eyebrow": "The System",
+   "headline": "The university is learning to <em>see talent</em>.",
+   "lead": "Deloitte calls it the skills-based organization: work built around what people can do rather than the boxes they sit in. The Talent Marketplace is Vanderbilt's version. It watches nothing and grades nobody; it reads what you choose to share, and it matches.",
+   "group": "In pairs: what is one skill you have that nobody outside your own team knows about? 90 seconds each way.",
+   "solo": "Write down one skill you have that nobody outside your own team knows about.",
+   "source": {
+    "label": "The skills-based organization (Deloitte)",
+    "url": "https://www.deloitte.com/global/en/issues/work/skills-based-organizations.html"
+   },
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "What it actually is",
+     "text": "The Talent Marketplace is a talent map. Input: the skills profile you keep. Output: matches between what you can do and what the university needs, from short projects to open roles. The map is only as true as the profiles that feed it."
+    },
+    "q": "Quick check: what does the Talent Marketplace actually read?",
+    "opts": [
+     {
+      "t": "Your email and calendar, to infer what you do",
+      "correct": false,
+      "why": "It reads nothing behind your back. The system works from the skills profile you choose to keep, which is exactly why keeping it is worth your ten minutes."
+     },
+     {
+      "t": "The skills profile you keep and choose to share",
+      "correct": true,
+      "why": "Right. The map is built from what people make visible. Your profile is your side of the deal, and it stays entirely in your hands."
+     },
+     {
+      "t": "Your performance reviews and ratings",
+      "correct": false,
+      "why": "It is not an evaluation tool. Reviews judge past work; the profile describes capability, which is a different and much friendlier question."
+     }
+    ],
+    "context": "Most workplace systems read you without asking: badge swipes, ticket queues, calendars. The Talent Marketplace is built the other way. It knows only what you tell it, so your profile is the whole of your presence on the map. The honest question for this room is what yours says right now.",
+    "discuss": "When you last touched your skills profile, what was true about your job? What has changed since then that the Marketplace still cannot see?"
+   },
+   "deeper": {
+    "title": "Where the Marketplace ends and other systems begin",
+    "body": "The Marketplace sits alongside systems you already know, and the division of labor matters. Oracle holds the record of your job: title, goals, reviews. The Marketplace holds your capability: what you can do and at what scale, whether or not the job asks for it. Nothing flows from reviews into the map. When a match grows into a real move, the Transfer Portal takes over; that side gets its own month later in the series.",
+    "steps": [
+     "Open your skills profile next to your Oracle job record. Mark every profile line that just restates the job record; those are your rewrite targets.",
+     "Write down two skills you use that appear in neither place. That gap is exactly what this week's update should close."
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Payoff",
+   "dataTitle": "What you gain",
+   "eyebrow": "The Payoff",
+   "headline": "Opportunities start <em>finding you</em>.",
+   "lead": "Internal moves mostly go to whoever heard about them first. A current profile flips the search, so work that needs your skill can find you. LinkedIn's research keeps finding people stay far longer where moving inside is normal.",
+   "group": "Pairs: name one internal opportunity you heard about too late. What skill of yours would have matched it?",
+   "solo": "Recall one internal opportunity you heard about too late. What skill of yours would have matched it?",
+   "source": {
+    "label": "Internal mobility and retention, LinkedIn Workplace Learning Report",
+    "url": "https://learning.linkedin.com/resources/workplace-learning-report"
+   },
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "What just happened?",
+    "intro": "Three small moments with the system. Read each one and call what it is.",
+    "progressWord": "Moment",
+    "labels": [
+     "Your skills becoming visible",
+     "An opportunity finding you",
+     "A gap only you can close"
+    ],
+    "passAt": 2,
+    "passMsg": "You can read the system. Keep the profile current and the matching does the rest; going stale is the only real way to lose.",
+    "failMsg": "Close. The system gives back what profiles put in. A current profile keeps you findable, and a stale one quietly takes you off the map.",
+    "items": [
+     {
+      "q": "A financial analyst adds grant budgeting to their profile after finishing a course last month.",
+      "answer": 0,
+      "why": "A real skill, named while it is fresh. From today, anyone at the university with a grant problem can search for it and find them."
+     },
+     {
+      "q": "A program coordinator gets a note about a short project: a symposium team needs exactly the event logistics skill their profile lists.",
+      "answer": 1,
+      "why": "Nobody browsed listings here; the profile did the searching. This is the return on keeping it current."
+     },
+     {
+      "q": "An advisor's profile still matches their 2022 job description, three responsibilities and two systems ago.",
+      "answer": 2,
+      "why": "Three years of new skills are missing from the map. Ten minutes of updating puts them back, and the matches follow."
+     }
+    ]
+   },
+   "deeper": {
+    "title": "How a match actually finds you",
+    "body": "A match starts as a search someone runs under pressure: a symposium is short a logistics lead, a grant needs a budget review by Friday. Searches like that use plain, concrete words, and they reward specificity and recency. 'Event logistics, groups of 200 plus, updated last month' surfaces; a bare 'communications' sinks in a pile of similar profiles. Write for the person searching in a hurry, not for a careers page.",
+    "steps": [
+     "Imagine the search you would most like to be found by. Write down the exact words that searcher would type.",
+     "Check whether those words, or close cousins, appear anywhere on your profile today. If not, that is your first new line."
+    ]
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "Legible Skills",
+   "dataTitle": "Make your skills legible",
+   "eyebrow": "The Craft",
+   "headline": "Name the <em>skill</em>, not the duty.",
+   "lead": "The map can only match what it can read. 'Supports departmental events' is a duty; 'event logistics for groups of 200 plus' is a skill someone can search for. This section is the craft of writing yourself legibly, and the small habit that keeps it true.",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "Write yourself onto the map",
+    "intro": "Take one thing you are genuinely good at. Choose how you write it, and how you keep the line alive.",
+    "runLabel": "Publish the line",
+    "outcomeTag": "What the map shows",
+    "slots": [
+     {
+      "key": "The line you write",
+      "opts": [
+       {
+        "t": "Hardworking team player with a can-do attitude",
+        "pts": 1,
+        "coach": "Nobody searches for can-do attitude. Adjectives are invisible to a matching system; only named skills get found."
+       },
+       {
+        "t": "Responsible for scheduling and department communications",
+        "pts": 2,
+        "coach": "That is the duty list, copied over. Closer, but it describes the job. Name what YOU can do: the skill inside the duty."
+       },
+       {
+        "t": "Project scheduling; plain-language writing for a 3,000-reader newsletter",
+        "pts": 3,
+        "coach": "Named skills with real scale. A person or a system reading this knows exactly what to bring you, and what to match you to."
+       }
+      ]
+     },
+     {
+      "key": "How you keep it current",
+      "opts": [
+       {
+        "t": "Set it once and trust it holds",
+        "pts": 1,
+        "coach": "Profiles age faster than jobs do. A set-and-forget profile is a snapshot of this month that will quietly misrepresent you by spring."
+       },
+       {
+        "t": "Update it whenever HR sends a reminder",
+        "pts": 2,
+        "coach": "Better than never, but the reminder owns your visibility. Tie the update to your own finished work, not someone else's calendar."
+       },
+       {
+        "t": "Ten minutes after anything ships: new skill, new line",
+        "pts": 3,
+        "coach": "The habit that keeps the map true. Finish something, name the skill it proved, add the line while it is fresh."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "A profile the system can work with. Your skills are named, current, and searchable by anyone with a need.",
+     "mid": "You are on the map, blurrily. The system sees your job, roughly, and matches you to less than you deserve.",
+     "weak": "Technically enrolled, practically invisible. The map shows a name and an adjective, and matches neither."
+    },
+    "reactions": {
+     "strong": "Three weeks later a short cross-department project lands in your inbox, matched to the exact line you wrote. You never applied. The profile did the applying.",
+     "mid": "A month on, a search for your actual strongest skill returns other people. The skill is yours; the words on the map are not, and words are all the map can see.",
+     "weak": "The system hums along without you. Opportunities keep going to whoever happened to hear about them, which is the old world this system was built to end."
+    }
+   },
+   "deeper": {
+    "title": "The anatomy of a line the map can match",
+    "body": "A legible line has three parts: the named skill, the scale it runs at, and a hint of evidence. 'Plain-language writing' is a skill; 'for a 3,000-reader newsletter' is scale; 'monthly since 2024' is evidence it is current. You rarely need all three, but skill plus one other beats skill alone every time. When you doubt whether something counts, run the borrow test: if a colleague would borrow you for it, it earns a line.",
+    "steps": [
+     "Grade your three strongest profile lines: skill named? scale shown? evidence hinted? Rewrite the weakest one now.",
+     "Run the borrow test on your last two weeks: what did anyone borrow you for? Add the best answer as a new line."
+    ]
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "What does the Talent Marketplace build its talent map from?",
+   "opts": [
+    "Performance reviews",
+    "The skills profiles people keep and share",
+    "Email and calendar activity",
+    "Managers' opinions"
+   ],
+   "correct": 1,
+   "why": "The map is made of what people make visible. Your profile is your input, and it stays in your hands."
+  },
+  {
+   "q": "What does a current skills profile do for you?",
+   "opts": [
+    "Guarantees a promotion",
+    "Replaces your resume",
+    "Lets internal opportunities find you",
+    "Raises your performance rating"
+   ],
+   "correct": 2,
+   "why": "The payoff is matching: projects, stretch roles, and internal moves can search for your skill and reach you first."
+  },
+  {
+   "q": "Which profile line can the system actually match?",
+   "opts": [
+    "Dedicated and detail-oriented",
+    "Supports the office",
+    "Handles various duties as assigned",
+    "Grant budgeting for federal awards"
+   ],
+   "correct": 3,
+   "why": "Named skills get matched. Adjectives and duty lists are invisible to anyone searching for what you can actually do."
+  }
+ ],
+ "recapMsgs": {
+  "high": "You can read the system and write for it. Now go update the real profile.",
+  "mid": "Close. Glance back at the section you missed, then make your move.",
+  "low": "Run the three sections once more; the real profile can wait ten minutes."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My profile move",
+  "headline": "One skill, named and <em>on the map</em>.",
+  "lead": "Pick the skill you will make visible first. Nothing you type here is saved or sent; the real update happens in the system this week.",
+  "whoLabel": "Which skill goes on the map? Name it the legible way.",
+  "whoPlaceholder": "e.g. event logistics for groups of 200 plus",
+  "practiceLabel": "Which move do you make?",
+  "whoRow": "The skill I am making visible",
+  "practices": [
+   {
+    "id": "refresh",
+    "chip": "The profile refresh",
+    "name": "The profile refresh",
+    "move": "Open your skills profile, retire the lines that read like a job description, and rewrite them as named, searchable skills."
+   },
+   {
+    "id": "newskill",
+    "chip": "The new-skill add",
+    "name": "The new-skill add",
+    "move": "Add one skill you built recently that the profile has never heard of, with enough detail to be matched."
+   },
+   {
+    "id": "habit",
+    "chip": "The ten-minute habit",
+    "name": "The ten-minute habit",
+    "move": "Put a monthly ten-minute hold on your calendar: whatever shipped, name the skill it proved and add the line."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Today",
+    "out": "The update happens today, before the session's momentum fades."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The update happens this week, on your calendar by Friday."
+   },
+   {
+    "id": "monthly",
+    "chip": "Monthly, starting now",
+    "out": "The first update happens this week, and a monthly ten-minute hold keeps the map true."
+   }
+  ],
+  "cardTitle": "My profile move card",
+  "evidenceRow": "Afterward, one line: what skill is visible now that was invisible this morning?"
+ },
+ "closing": {
+  "headline": "Be findable. <em>Be found.</em>",
+  "lead": "You know what the system sees, what a current profile buys you, and how to write skills the map can read. The update itself takes ten minutes.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the profile move on your card",
+  "nextBody": "Legible words, current skills, ten minutes. If you want to go deeper this month, Don Phin's Talent Management course on LinkedIn Learning pairs well with the update; it is there if you want it, never homework.",
+  "brandline": "Name the skill. The map does the rest."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; nobody is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; October is the opening month of the See the Talent Around You theme.",
+  "pulse": "Seven days out, send the pulse: 'Did the profile move on your card happen? What skill is visible now that was not before? What line will you add next?' Count of completed profile updates feeds the month's Goal 1 story.",
+  "s1": {
+   "title": "What the system sees",
+   "purpose": "Establish what the Talent Marketplace is: a talent map built from skills profiles, never a surveillance or evaluation tool.",
+   "say": "Vanderbilt did not invent this idea. Deloitte has spent years documenting what it calls the skills-based organization, where decisions run on what people can do instead of the job boxes they sit in. Our version is the Talent Marketplace. Before it can do anything for you, let's clear the air, because any system that maps people has earned a little suspicion. It does not read your email and it does not grade you. It reads one thing, the skills profile you keep. Most systems at work read you without asking; this one knows only what you tell it.",
+   "facilitate": [
+    "Put the In the room card on screen and read it aloud; let the 'it knows only what you tell it' idea land.",
+    "Run the discussion prompt and take two or three voices on what their profile says right now; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.",
+    "Run the breakout: one skill nobody outside your team knows about, 90 seconds each way."
+   ],
+   "ask": {
+    "q": "What was your honest first reaction to hearing Vanderbilt has a Talent Marketplace?",
+    "expect": [
+     "Suspicion about monitoring",
+     "Curiosity about what it shows",
+     "Assumption it is a tool for managers or HR only"
+    ],
+    "respond": "Take the suspicion seriously and answer it plainly: profile in, matching out, nothing else. The 'for managers' assumption is the one to break; the profile is the staff member's asset first."
+   },
+   "debrief": "One idea to carry out of this section: the system sees exactly what you show it, which puts your visibility in your own hands.",
+   "watchFor": "Anyone treating this as a managers-only topic. Keep every example on the learner's own skills and career.",
+   "transition": "So what do you actually get for keeping it current? Stop two.",
+   "coreNote": "Core: skip the breakout; ask for one invisible skill in chat instead."
+  },
+  "s2": {
+   "title": "What you gain",
+   "purpose": "Show the payoff of a current profile: visibility, and internal opportunities that find you.",
+   "say": "The trade works like this. You keep an honest, current profile; in return, searches start running toward you instead of past you. LinkedIn's workplace learning research shows why it matters: people stay far longer at organizations where internal movement is normal, because the next chapter stops requiring an exit. Right now internal projects go to whoever heard about them in a hallway. A current profile means they can find you on merit, whoever you know.",
+   "facilitate": [
+    "Run What just happened? live; everyone plays on their own screen.",
+    "After round two, pause: ask who has ever missed an internal opportunity they only heard about later.",
+    "Run the breakout on the opportunity that got away."
+   ],
+   "ask": {
+    "q": "Why do internal opportunities so often go to whoever happened to hear about them?",
+    "expect": [
+     "Word of mouth travels through networks",
+     "Nobody can search for skills they cannot see"
+    ],
+    "respond": "Both right, and that is the fairness case for the profile: a searchable skill beats a lucky hallway conversation. Visibility is how the playing field levels."
+   },
+   "debrief": "The system gives back what profiles put in. Current profile, working map. Stale profile, invisible you.",
+   "watchFor": "Cynicism that nothing ever comes of systems like this. Do not overpromise; anchor on the ten-minute cost against the missed-opportunity cost.",
+   "transition": "The catch: the map can only match what it can read. Stop three is the writing.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
+  },
+  "s3": {
+   "title": "Make your skills legible",
+   "purpose": "Teach the craft of naming skills instead of duties, and the habit that keeps a profile current.",
+   "say": "Most profiles fail quietly for one reason: they are written like job descriptions. 'Supports departmental events' tells the map nothing. 'Event logistics for groups of 200 plus' is a skill someone can search for and find. We are going to write one line the legible way, then set the habit that keeps it true.",
+   "facilitate": [
+    "Run Write yourself onto the map; give the room two minutes to make both choices and run it.",
+    "Ask one volunteer to read their outcome aloud, weak or strong.",
+    "Point at the pattern: named skill, real scale, fresh update."
+   ],
+   "ask": {
+    "q": "Why do adjectives like dedicated or detail-oriented do nothing on a profile?",
+    "expect": [
+     "Everyone claims them",
+     "There is nothing to search or match on"
+    ],
+    "respond": "Both right. A matching system, and honestly a busy human too, can only work with named skills. Kind words about yourself are not data."
+   },
+   "debrief": "Legible means named, specific, and current: the skill inside the duty, in words someone would actually search.",
+   "watchFor": "People underselling themselves. If someone says they have no skills worth listing, ask what colleagues come to them for; that answer is the profile line.",
+   "transition": "Quick recap, then you build your card.",
+   "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
+  },
+  "capstoneSay": "Your turn. Name the skill you are making visible, the legible way, then pick the move and the window. Build the card and copy it wherever you keep the things you actually do. Two minutes, then we close.",
+  "closeSay": "You leave with a profile move and ten minutes of work between you and being findable. Make the update this week. Thursday's Thrive session takes on curiosity, the skill that makes all of this month's talent conversations work; come with one role at Vanderbilt you have quietly wondered about. And if you want more this month, the navigator-led Know-Your-Team lab runs in person and Don Phin's Talent Management course is on LinkedIn Learning, both optional, both good.",
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone worries the profile data will be used against them",
+    "then": "Answer plainly and without hedging: the profile is not a performance tool and reviews never read it. It matches skills to opportunities. Skills and roles, never ratings."
+   },
+   {
+    "if": "Someone says their job has no skills worth listing",
+    "then": "Ask the room what that person's colleagues come to them for. Every role carries named skills; that question usually surfaces two inside a minute."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Is this system going to be used to cut jobs or monitor productivity?",
+    "a": "No. The Talent Marketplace reads the skills profile you keep, nothing else: not email, not activity, not output. Its purpose under Goal 1 is retention and internal mobility, which is the opposite of a cut list. A visible skill makes you harder to overlook, not easier to replace."
+   },
+   {
+    "q": "If I make my skills visible, will my manager think I am trying to leave?",
+    "a": "A current profile is the university norm, not a leaving signal; this month's Manager Monday session asks managers to make talent visible on their own teams for the same reason. Internal mobility keeps people at Vanderbilt. The riskier move is staying invisible."
+   },
+   {
+    "q": "I am not sure what counts as a skill worth listing. Where do I start?",
+    "a": "Start with what people come to you for. If colleagues bring you their scheduling messes or their unreadable drafts, those are named skills. The Know-Your-Team lab and the Talent Management course on LinkedIn Learning both help you name more, if you want the extra rep."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes on the system that makes your skills visible. Bring nothing but one thing you are good at that your job title does not mention. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is the skill on the map? Three lines, reply whenever: 1) Did the profile move on your card happen? 2) What skill is visible now that was not before? 3) What line will you add next?"
+   }
+  ]
+ }
 }

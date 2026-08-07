@@ -1,264 +1,415 @@
 {
-  "slug": "nov-workshop",
-  "format": "workshop",
-  "series": "Navigator Workshop",
-  "month": "November 2026",
-  "monthShort": "Nov",
-  "monthIndex": 2,
-  "theme": "The Transfer Portal in Practice",
-  "goal": 1,
-  "title": "The Profile Clinic",
-  "titleHtml": "Walk out with a profile that <em class=\"gold-text\">gets found</em>.",
-  "tagline": "The Portal walkthrough and skill-profile clinic, live and hands on.",
-  "description": "An in-person navigator-led clinic for all Vanderbilt staff: open your own skills profile, rewrite its weakest lines with a partner's eyes on them, explore one real opening in the Transfer Portal, and leave with interest expressed or a barrier named.",
-  "heroLead": "This is the doing hour. Your profile comes up on your own device and a partner reads it the way a searcher would. You leave with one real opening explored.",
-  "objectives": [
-    "Rewrite your profile's weakest lines into named capabilities a searcher could find",
-    "Explore one real gig or opening in the Transfer Portal and read it against your profile",
-    "Leave with your hand up on one opportunity, or one barrier named to a navigator"
-  ],
-  "skills": [
-    {"label": "Grows self and others", "core": true},
-    {"label": "Career Ownership"},
-    {"label": "Internal Mobility"},
-    {"label": "Skills Articulation"}
-  ],
-  "missionTie": "Radical Collaboration needs people who can find each other by skill across every boundary in the university, and every profile made legible in this room is another connection the map can make.",
-  "agenda": [
-    {"t": "The line rewrite", "d": "Your profile on your screen, a partner's eyes on it, duties turned into capabilities."},
-    {"t": "The Portal walk", "d": "One real gig or opening, explored properly against your own profile."},
-    {"t": "Hand up or barrier named", "d": "The exit ticket: interest expressed, or the honest obstacle written down."}
-  ],
-  "manifesto": "A profile improves the day someone else reads it and the Portal gets to answer.",
-  "sections": [
-    {
-      "id": "s-one",
-      "nav": "The Rewrite",
-      "dataTitle": "The line rewrite",
-      "eyebrow": "The Rewrite",
-      "headline": "Edit your profile like a <em>searcher</em>.",
-      "lead": "Open your profile now; this section happens inside it. Deloitte's internal-talent-marketplace research is blunt: the matching is only as good as the skills people write down. A partner reads your lines cold, and the invisible ones get rewritten here.",
-      "source": {
-        "label": "Activating the internal talent marketplace (Deloitte Insights)",
-        "url": "https://www.deloitte.com/us/en/insights/topics/talent/internal-talent-marketplace.html"
-      },
-      "group": "Pair up at your table: swap devices or read lines aloud. Your partner marks each line findable or invisible. Rewrite one invisible line together before swapping back.",
-      "interaction": {
-        "type": "trainer",
-        "playTitle": "Findable or invisible?",
-        "intro": "Three lines from real-shaped profiles. Call each one the way a searcher would.",
-        "progressWord": "Line",
-        "labels": ["Findable, a searcher lands on it", "A duty, name the skill inside", "An adjective, invisible to search"],
-        "passAt": 2,
-        "passMsg": "Your ear is calibrated. Now turn it on your own lines, and your partner's.",
-        "failMsg": "Close. The tell: searchers type activities. A named capability gets found, a duty needs unpacking, and an adjective matches nothing at all.",
-        "items": [
-          {"q": "Responsible for supporting the office and assisting with various administrative needs.", "answer": 1, "why": "Duties, stacked. Inside are real capabilities: calendar management, records, front-door triage. Split them out and one invisible line becomes three findable ones."},
-          {"q": "Coordinates onboarding for new hires across three departments, about forty a year.", "answer": 0, "why": "A named activity with real scale. Someone staffing an orientation project types onboarding and lands here. This line is doing its job."},
-          {"q": "A dependable, enthusiastic self-starter who goes above and beyond.", "answer": 2, "why": "Every word is kind and none of it is searchable. Nobody types enthusiastic into the Portal. Swap the praise for the activities that earned it."}
-        ]
-      }
-    },
-    {
-      "id": "s-two",
-      "nav": "The Walk",
-      "dataTitle": "The Portal walk",
-      "eyebrow": "The Walk",
-      "headline": "Explore one opening like you <em>mean it</em>.",
-      "lead": "Now the Portal, open on your device. Search by a skill you want to use more and pick one gig or opening that pulls at you, even slightly. This section is the craft of exploring it properly: reading it against your profile instead of window-shopping it.",
-      "group": "Tell your table partner which opening you picked and why it pulled. The partner asks the two questions: which of your lines matches it, and what is missing?",
-      "interaction": {
-        "type": "builder",
-        "playTitle": "The proper look",
-        "intro": "You found the one that pulls. Choose how you read it and what you keep from the reading.",
-        "runLabel": "Finish the look",
-        "outcomeTag": "What you walk away with",
-        "slots": [
-          {
-            "key": "How you read it",
-            "opts": [
-              {"t": "Skim the title, feel the flutter, close the tab", "pts": 1, "coach": "The flutter is data and the skim wastes it. A title tells you almost nothing about the actual days the work is made of."},
-              {"t": "Read the whole posting top to bottom, carefully", "pts": 2, "coach": "Better. But a posting read alone stays a daydream. The reading that matters is comparative: this posting against your actual profile."},
-              {"t": "Read it beside your profile, marking matched skills and missing ones", "pts": 3, "coach": "The proper look. Matches tell you the case you can make, and gaps tell you what to build next. Ten minutes of this beats a month of wondering."}
-            ]
-          },
-          {
-            "key": "What you keep from it",
-            "opts": [
-              {"t": "Nothing; if it matters it will come back to you", "pts": 1, "coach": "It will not come back. By Tuesday the name of the gig is gone, and the pull you felt goes with it."},
-              {"t": "Save it to your list of maybes", "pts": 2, "coach": "The maybe pile is where pulls go quiet. Better than nothing, and it still leaves the next move undecided."},
-              {"t": "One written line: the match, the gap, and your next move", "pts": 3, "coach": "The keeper. That single line survives the week, and it tells you exactly what to do once the memory of this room has faded."}
-            ]
-          }
-        ],
-        "heads": {
-          "strong": "You know exactly where you stand with this opening, and what to do about it next.",
-          "mid": "You know the opening; you still do not know your fit. The daydream is vivid and unattached to a next step.",
-          "weak": "A flutter, unexamined. Next week you will half-remember there was something interesting once."
-        },
-        "reactions": {
-          "strong": "Whether or not this one works out, you now search this way every time. Two months on, your profile has grown the exact lines the gaps kept pointing at.",
-          "mid": "The posting closes while it sits in your maybes. The next one that pulls gets the same treatment unless the method changes.",
-          "weak": "A colleague mentions they landed that gig. It stings for a minute, and the sting is information: the door was open and nobody walked up."
-        }
-      }
-    },
-    {
-      "id": "s-three",
-      "nav": "The Exit Ticket",
-      "dataTitle": "Hand up or barrier named",
-      "eyebrow": "The Exit Ticket",
-      "headline": "Leave with a hand up or a <em>barrier named</em>.",
-      "lead": "Two good ways out of this room: interest expressed on something real, or the honest obstacle written down and handed to a navigator. Both move you. The only exit that goes nowhere is a vague intention to look again later.",
-      "group": "Around the table, one sentence each: the opening you explored and which exit you are taking, hand up or barrier named. Navigators are listening for the barriers.",
-      "interaction": {
-        "type": "check",
-        "card": {
-          "tag": "The two-door exit",
-          "text": "Expressing interest opens a conversation and signs nothing; you can step back at any stage. A named barrier, written and handed to a navigator, is a solvable problem. Both count as motion. A vague later is the only exit that goes nowhere."
-        },
-        "q": "You found a gig you want, and you doubt your manager can spare you this term. Your exit?",
-        "opts": [
-          {"t": "Close the tab and check again when things calm down", "correct": false, "why": "Things do not calm down, and postings close. The doubt you feel is a timing question, and timing questions have answers you can go get."},
-          {"t": "Express interest quietly and hope the timing sorts itself out", "correct": false, "why": "Half right: the hand is up. But the doubt is exactly what navigators and sending managers exist for; carried alone it curdles into withdrawing."},
-          {"t": "Express interest, or hand the timing barrier to a navigator in writing", "correct": true, "why": "Either door works. Interest starts the conversation where timing gets negotiated; the named barrier puts a navigator on the problem today."}
-        ],
-        "context": "The weekly session taught the open move; the clinic asks you to make one before you leave. In this room the cost of raising a hand is at its lowest: the navigator who can answer your barrier is standing here, and the manager conversation you are dreading can be rehearsed at your own table first.",
-        "discuss": "What is the real barrier between you and the opening on your screen: timing, confidence, a skill gap, or a conversation you have not had? Who in this room could move it?"
-      }
-    }
-  ],
-  "recap": [
-    {
-      "q": "A searcher in the Portal finds your profile by...",
-      "opts": ["Your job title", "Your years of service", "The named capabilities on your lines", "Your department"],
-      "correct": 2,
-      "why": "Search runs on activities and capabilities. Titles, tenure, and org charts describe where you sit; the lines describe what you can do."
-    },
-    {
-      "q": "The proper way to explore an opening that pulls at you is...",
-      "opts": ["Skim it and trust the flutter", "Read it beside your profile: matches and gaps", "Forward it to your manager first", "Wait and see if it is still posted later"],
-      "correct": 1,
-      "why": "The comparative read turns a daydream into a decision: you can see your actual case and the gap you would need to close."
-    },
-    {
-      "q": "The two good exits from the clinic are...",
-      "opts": ["Apply everywhere, or nowhere", "A saved list of maybes, or a bookmark", "Interest expressed, or a barrier named to a navigator", "A better title, or a new resume"],
-      "correct": 2,
-      "why": "Both are motion. A raised hand starts a conversation; a named barrier becomes a navigator's job. Only the vague later goes nowhere."
-    }
-  ],
-  "recapMsgs": {
-    "high": "Ear calibrated, opening explored, exit chosen. The clinic worked; keep the habit.",
-    "mid": "Solid. Reread the section that wobbled, then finish your card.",
-    "low": "Worth one more pass through the three moves before you pick your exit."
+ "slug": "nov-workshop",
+ "format": "workshop",
+ "series": "Navigator Workshop",
+ "month": "November 2026",
+ "monthShort": "Nov",
+ "monthIndex": 2,
+ "theme": "The Transfer Portal in Practice",
+ "goal": 1,
+ "title": "The Profile Clinic",
+ "titleHtml": "Walk out with a profile that <em class=\"gold-text\">gets found</em>.",
+ "tagline": "The Portal walkthrough and skill-profile clinic, live and hands on.",
+ "description": "An in-person navigator-led clinic for all Vanderbilt staff: open your own skills profile, rewrite its weakest lines with a partner's eyes on them, explore one real opening in the Transfer Portal, and leave with interest expressed or a barrier named.",
+ "heroLead": "This is the doing hour. Your profile comes up on your own device and a partner reads it the way a searcher would. You leave with one real opening explored.",
+ "objectives": [
+  "Rewrite your profile's weakest lines into named capabilities a searcher could find",
+  "Explore one real gig or opening in the Transfer Portal and read it against your profile",
+  "Leave with your hand up on one opportunity, or one barrier named to a navigator"
+ ],
+ "skills": [
+  {
+   "label": "Grows self and others",
+   "core": true
   },
-  "capstone": {
-    "eyebrow": "Capstone · My clinic exit",
-    "headline": "The improvement <em>keeps going</em> after the room.",
-    "lead": "The profile got better in here; the card is how it keeps getting better out there. Nothing you write is saved or sent.",
-    "whoLabel": "The opening you explored, and the exit you chose.",
-    "whoPlaceholder": "e.g. six-week data gig in enrollment; hand up, told my manager",
-    "practiceLabel": "What keeps the momentum?",
-    "whoRow": "My opening and my exit",
-    "practices": [
-      {"id": "line", "chip": "The next line", "name": "The next line", "move": "Rewrite one more invisible line within the week, using your partner's marks; if none are left, add the capability your explored gap pointed at."},
-      {"id": "nav20", "chip": "The navigator twenty", "name": "The navigator twenty", "move": "Book twenty minutes with a navigator: your barrier if you named one, or how to strengthen your raised hand if you did not."},
-      {"id": "openword", "chip": "The open word", "name": "The open word", "move": "Tell your manager what you explored and what you did about it. Open beats discovered, and the talk is usually easier than the dread."}
-    ],
-    "whens": [
-      {"id": "today", "chip": "Before I leave today", "out": "The move happens before you leave the building, while the navigators are still in the room."},
-      {"id": "week", "chip": "This week", "out": "The move happens this week, on the calendar by Friday."},
-      {"id": "twoweeks", "chip": "Within two weeks", "out": "The move happens within two weeks, booked today so it cannot slide."}
-    ],
-    "cardTitle": "My clinic exit card",
-    "evidenceRow": "Afterward, one line: what moved because you raised a hand or named the barrier?"
+  {
+   "label": "Career Ownership"
   },
-  "closing": {
-    "headline": "Found is a thing you <em>choose</em>.",
-    "lead": "You leave with a searcher's ear and one opening properly explored, through whichever of the two good doors you chose. That is the Portal in practice, which is exactly what this month promised.",
-    "nextTag": "Your one next step · This week",
-    "nextTitle": "Make the exit real",
-    "nextBody": "Run the move on your card while the momentum is warm. This month's weekly sessions carry the same thread, sending managers and internal bridges, and Chris Croft's Building Your Team on LinkedIn Learning is there whenever you want it. Never required.",
-    "brandline": "Walk up to the open door."
+  {
+   "label": "Internal Mobility"
   },
-  "facilitator": {
-    "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 10 to 40 at tables of 4 to 6, everyone on their own device with Portal access. Best after the month's Tuesday session, and it stands alone.",
-    "pulse": "Seven days out, send the pulse: 'Did the move on your exit card happen? What moved because you raised a hand or named a barrier? What line does your profile still need?' Count of expressed interests and named barriers is the month's Goal 1 signal.",
-    "s1": {
-      "title": "The line rewrite",
-      "purpose": "Calibrate the searcher's ear, then get every profile's weakest line rewritten with a partner's help.",
-      "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. Deloitte's research on internal talent marketplaces says the whole machine runs on the skills data people volunteer, so today we make yours worth running on. We train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
-      "facilitate": [
-        "Confirm every device has the profile open before anything else; walk the room and unstick logins with the navigator team.",
-        "Run Findable or invisible? from the front; the room calls each line aloud before you reveal.",
-        "Run the pair review: partners mark lines findable or invisible, then rewrite one together. Walk the tables and read rewrites over shoulders.",
-        "Ask two tables to read a before-and-after aloud; applaud the honest befores."
-      ],
-      "ask": {
-        "q": "What did your partner see in your profile that you could not?",
-        "expect": ["Duties I stopped noticing were duties", "A skill I never thought counted", "How little of my actual work is on there"],
-        "respond": "That is why the clinic is in person. You cannot proofread your own self-image; a partner reads the words that are actually there."
-      },
-      "debrief": "The searcher's ear is the tool you take home. If a line names a real activity it gets found; praise words never do.",
-      "watchFor": "People underselling themselves in the rewrite. Send partners after it: ask what colleagues borrow you for, and write that.",
-      "transition": "The profile is the antenna. Now we point it at something real.",
-      "coreNote": "Core: skip the before-and-after read-alouds; pairs rewrite one line instead of trading full reviews."
-    },
-    "s2": {
-      "title": "The Portal walk",
-      "purpose": "Everyone explores one real gig or opening with the comparative read: posting beside profile, matches and gaps marked.",
-      "say": "Now the fun part. Open the Portal and search by a skill you want to use more, and let gigs and short projects into what you look at. Pick the one that pulls at you, even a little. Then do what almost nobody does: read it beside your profile. Two columns, matches and gaps. The matches are your case; the gaps are your curriculum. Ten minutes of this beats a month of wondering whether you would fit.",
-      "facilitate": [
-        "Give the room real search time; walk the tables with the navigators and help the stuck ones pick a skill to search by.",
-        "Run The proper look from the front once people have their opening; they apply it immediately to the real posting.",
-        "Run the pair share: which opening, which matches, which gaps. Partners push on the gap: is it real or is it modesty?"
-      ],
-      "ask": {
-        "q": "Who found something they did not know existed? What was it?",
-        "expect": ["A gig in a department they had never considered", "A short project using their exact skill", "An opening that reads like their profile"],
-        "respond": "Every one of those existed last month too. The Portal did not change today; the searching did. That is the habit to keep."
-      },
-      "debrief": "Search by skill, include gigs, read comparatively. The pull you feel plus the gap you found is your next move, whichever way you take it.",
-      "watchFor": "Window-shoppers scrolling listings without landing on one. Land them gently: pick the least wrong one and run the read; the method is the lesson.",
-      "transition": "You are holding one real opening. The last section is what you do about it before you leave.",
-      "coreNote": "Core: shorten the search to one navigator-suggested example per table; the comparative read still runs on real profiles."
-    },
-    "s3": {
-      "title": "Hand up or barrier named",
-      "purpose": "Everyone leaves through one of the two doors: interest expressed in the room, or a barrier written and handed to a navigator.",
-      "say": "Here is the exit ticket. Two doors out of this clinic. Door one: express interest on the thing you explored, right now, in the room, remembering it opens a conversation and signs nothing. Door two: if something real is in the way, write the barrier down honestly and hand it to a navigator before you leave. Timing, a skill gap, a conversation you are dreading. Barriers named in this room get worked; barriers carried home just get heavier.",
-      "facilitate": [
-        "Show the two-door card and run the discussion from the front; take voices on what the real barriers are.",
-        "Give quiet time for the choice; navigators circulate for barrier conversations at the tables.",
-        "Run the table round: one sentence each, the opening and the chosen exit. Collect written barriers by hand; no names required on the paper."
-      ],
-      "ask": {
-        "q": "For those naming a barrier: what would have to be true for the hand to go up?",
-        "expect": ["My manager would need to back it", "I would need the skill first", "I would need to know the timing could flex"],
-        "respond": "Every answer names a solvable problem, and most of them are exactly what navigators and sending managers do. The barrier was never a verdict; it is a to-do list nobody had read yet."
-      },
-      "debrief": "Both doors are motion. The raised hand starts a negotiation; the named barrier assigns the problem to someone equipped for it.",
-      "watchFor": "Quiet people choosing neither door. A navigator sits with them one on one; sometimes the barrier is the room itself.",
-      "transition": "Cards next: the exit goes on paper so next week keeps the promise.",
-      "coreNote": "Core: skip the table round; exits go straight onto capstone cards and barriers straight to navigators."
-    },
-    "capstoneSay": "Last two minutes of building. The card holds your opening, your exit, and the move that keeps the momentum: the next line, the navigator twenty, or the open word with your manager. Write it, copy it to your phone, and if your exit was a raised hand, consider making it real before you stand up. The navigators are staying after; barriers welcome.",
-    "closeSay": "You came in with a profile and you are leaving with a better one, plus one real opening explored and an exit chosen. That is this month's whole theme done by hand. The weekly sessions carry it on: Monday taught managers to send well, Tuesday walked the Transfer Portal end to end, and Thursday builds the internal bridges that hear about openings early. If you want a deeper companion, Chris Croft's Building Your Team is this month's LinkedIn Learning pick. There when you want it, never an assignment.",
-    "contingencies": [
-      {"if": "The room Wi-Fi or the Portal itself goes down", "then": "Switch to paper: partners review profile lines from memory and printouts, and every exit card gets written anyway. Navigators collect expressed-interest intents and enter them with people once the system is back."},
-      {"if": "Someone arrives without a device or cannot log in", "then": "Pair them with a table partner for the searching, and put a navigator on the login during the walk section. The pair review works fine on one screen."},
-      {"if": "A participant worries aloud that updating a profile signals they want to leave", "then": "Answer plainly: a current profile is the university norm, and managers are being taught to celebrate exactly this. Point at the navigators as living proof the university wants hands raised."},
-      {"if": "Someone's barrier is a story about a manager who blocked a move", "then": "Thank them for the honesty, take the barrier in writing like any other, and route the specific case to HR with a navigator after the session. The room is for norms; cases get careful hands."}
-    ],
-    "toughQuestions": [
-      {"q": "Is expressing interest in the room binding? Everyone will see me do it.", "a": "It signs nothing; it opens a conversation you can step back from at any stage. And the room seeing it is the point: raising a hand among colleagues who just did the same is the cheapest it will ever be."},
-      {"q": "My profile is basically empty and I am embarrassed to show a partner.", "a": "Empty is the best starting state in the room: everything your partner suggests is pure gain, and half the room is in the same place. The pair review has no grade; it has a searcher's eye and a rewrite you do together."},
-      {"q": "What actually happens to the barrier I hand in?", "a": "A navigator owns it: they follow up with you one on one, and the fix might be a timing conversation, a skill plan, or help planning the manager talk. Nothing on the paper needs your name if you would rather bring it to the follow-up yourself."}
-    ],
-    "templates": [
-      {"title": "Pre-work invite (paste into the calendar invite)", "body": "Subject: In person this month: the Portal walkthrough and profile clinic. Bring a charged device and your Portal login; we work on your real profile in the room. You will leave with it genuinely better, and with one real opening explored."},
-      {"title": "7-day pulse (send one week after)", "body": "Subject: Did the exit hold? Three lines, reply whenever: 1) Did the move on your exit card happen? 2) What moved because you raised a hand or named a barrier? 3) What line does your profile still need?"}
-    ]
+  {
+   "label": "Skills Articulation"
   }
+ ],
+ "missionTie": "Radical Collaboration needs people who can find each other by skill across every boundary in the university, and every profile made legible in this room is another connection the map can make.",
+ "agenda": [
+  {
+   "t": "The line rewrite",
+   "d": "Your profile on your screen, a partner's eyes on it, duties turned into capabilities."
+  },
+  {
+   "t": "The Portal walk",
+   "d": "One real gig or opening, explored properly against your own profile."
+  },
+  {
+   "t": "Hand up or barrier named",
+   "d": "The exit ticket: interest expressed, or the honest obstacle written down."
+  }
+ ],
+ "manifesto": "A profile improves the day someone else reads it and the Portal gets to answer.",
+ "sections": [
+  {
+   "id": "s-one",
+   "nav": "The Rewrite",
+   "dataTitle": "The line rewrite",
+   "eyebrow": "The Rewrite",
+   "headline": "Edit your profile like a <em>searcher</em>.",
+   "lead": "Open your profile now; this section happens inside it. Deloitte's marketplace research is blunt: the matching is only as good as the skills people write down. A partner reads your lines cold here.",
+   "source": {
+    "label": "Activating the internal talent marketplace (Deloitte Insights)",
+    "url": "https://www.deloitte.com/us/en/insights/topics/talent/internal-talent-marketplace.html"
+   },
+   "group": "Pair up at your table: swap devices or read lines aloud. Your partner marks each line findable or invisible. Rewrite one invisible line together before swapping back.",
+   "interaction": {
+    "type": "trainer",
+    "playTitle": "Findable or invisible?",
+    "intro": "Three lines from real-shaped profiles. Call each one the way a searcher would.",
+    "progressWord": "Line",
+    "labels": [
+     "Findable, a searcher lands on it",
+     "A duty, name the skill inside",
+     "An adjective, invisible to search"
+    ],
+    "passAt": 2,
+    "passMsg": "Your ear is calibrated. Now turn it on your own lines, and your partner's.",
+    "failMsg": "Close. The tell: searchers type activities. A named capability gets found, a duty needs unpacking, and an adjective matches nothing at all.",
+    "items": [
+     {
+      "q": "Responsible for supporting the office and assisting with various administrative needs.",
+      "answer": 1,
+      "why": "Duties, stacked. Inside are real capabilities: calendar management, records, front-door triage. Split them out and one invisible line becomes three findable ones."
+     },
+     {
+      "q": "Coordinates onboarding for new hires across three departments, about forty a year.",
+      "answer": 0,
+      "why": "A named activity with real scale. Someone staffing an orientation project types onboarding and lands here. This line is doing its job."
+     },
+     {
+      "q": "A dependable, enthusiastic self-starter who goes above and beyond.",
+      "answer": 2,
+      "why": "Every word is kind and none of it is searchable. Nobody types enthusiastic into the Portal. Swap the praise for the activities that earned it."
+     }
+    ]
+   }
+  },
+  {
+   "id": "s-two",
+   "nav": "The Walk",
+   "dataTitle": "The Portal walk",
+   "eyebrow": "The Walk",
+   "headline": "Explore one opening like you <em>mean it</em>.",
+   "lead": "Now the Portal, open on your device. Search by a skill you want to use more and pick one gig or opening that pulls at you, even slightly. This section is the craft of exploring it properly: reading it against your profile instead of window-shopping it.",
+   "group": "Tell your table partner which opening you picked and why it pulled. The partner asks the two questions: which of your lines matches it, and what is missing?",
+   "interaction": {
+    "type": "builder",
+    "playTitle": "The proper look",
+    "intro": "You found the one that pulls. Choose how you read it and what you keep from the reading.",
+    "runLabel": "Finish the look",
+    "outcomeTag": "What you walk away with",
+    "slots": [
+     {
+      "key": "How you read it",
+      "opts": [
+       {
+        "t": "Skim the title, feel the flutter, close the tab",
+        "pts": 1,
+        "coach": "The flutter is data and the skim wastes it. A title tells you almost nothing about the actual days the work is made of."
+       },
+       {
+        "t": "Read the whole posting top to bottom, carefully",
+        "pts": 2,
+        "coach": "Better. But a posting read alone stays a daydream. The reading that matters is comparative: this posting against your actual profile."
+       },
+       {
+        "t": "Read it beside your profile, marking matched skills and missing ones",
+        "pts": 3,
+        "coach": "The proper look. Matches tell you the case you can make, and gaps tell you what to build next. Ten minutes of this beats a month of wondering."
+       }
+      ]
+     },
+     {
+      "key": "What you keep from it",
+      "opts": [
+       {
+        "t": "Nothing; if it matters it will come back to you",
+        "pts": 1,
+        "coach": "It will not come back. By Tuesday the name of the gig is gone, and the pull you felt goes with it."
+       },
+       {
+        "t": "Save it to your list of maybes",
+        "pts": 2,
+        "coach": "The maybe pile is where pulls go quiet. Better than nothing, and it still leaves the next move undecided."
+       },
+       {
+        "t": "One written line: the match, the gap, and your next move",
+        "pts": 3,
+        "coach": "The keeper. That single line survives the week, and it tells you exactly what to do once the memory of this room has faded."
+       }
+      ]
+     }
+    ],
+    "heads": {
+     "strong": "You know exactly where you stand with this opening, and what to do about it next.",
+     "mid": "You know the opening; you still do not know your fit. The daydream is vivid and unattached to a next step.",
+     "weak": "A flutter, unexamined. Next week you will half-remember there was something interesting once."
+    },
+    "reactions": {
+     "strong": "Whether or not this one works out, you now search this way every time. Two months on, your profile has grown the exact lines the gaps kept pointing at.",
+     "mid": "The posting closes while it sits in your maybes. The next one that pulls gets the same treatment unless the method changes.",
+     "weak": "A colleague mentions they landed that gig. It stings for a minute, and the sting is information: the door was open and nobody walked up."
+    }
+   }
+  },
+  {
+   "id": "s-three",
+   "nav": "The Exit Ticket",
+   "dataTitle": "Hand up or barrier named",
+   "eyebrow": "The Exit Ticket",
+   "headline": "Leave with a hand up or a <em>barrier named</em>.",
+   "lead": "Two good ways out of this room: interest expressed on something real, or the honest obstacle written down and handed to a navigator. Both move you. The only exit that goes nowhere is a vague intention to look again later.",
+   "group": "Around the table, one sentence each: the opening you explored and which exit you are taking, hand up or barrier named. Navigators are listening for the barriers.",
+   "interaction": {
+    "type": "check",
+    "card": {
+     "tag": "The two-door exit",
+     "text": "Expressing interest opens a conversation and signs nothing; you can step back at any stage. A named barrier, written and handed to a navigator, is a solvable problem. Both count as motion. A vague later is the only exit that goes nowhere."
+    },
+    "q": "You found a gig you want, and you doubt your manager can spare you this term. Your exit?",
+    "opts": [
+     {
+      "t": "Close the tab and check again when things calm down",
+      "correct": false,
+      "why": "Things do not calm down, and postings close. The doubt you feel is a timing question, and timing questions have answers you can go get."
+     },
+     {
+      "t": "Express interest quietly and hope the timing sorts itself out",
+      "correct": false,
+      "why": "Half right: the hand is up. But the doubt is exactly what navigators and sending managers exist for; carried alone it curdles into withdrawing."
+     },
+     {
+      "t": "Express interest, or hand the timing barrier to a navigator in writing",
+      "correct": true,
+      "why": "Either door works. Interest starts the conversation where timing gets negotiated; the named barrier puts a navigator on the problem today."
+     }
+    ],
+    "context": "The weekly session taught the open move; the clinic asks you to make one before you leave. In this room the cost of raising a hand is at its lowest: the navigator who can answer your barrier is standing here, and the manager conversation you are dreading can be rehearsed at your own table first.",
+    "discuss": "What is the real barrier between you and the opening on your screen: timing, confidence, a skill gap, or a conversation you have not had? Who in this room could move it?"
+   }
+  }
+ ],
+ "recap": [
+  {
+   "q": "A searcher in the Portal finds your profile by...",
+   "opts": [
+    "Your job title",
+    "Your years of service",
+    "The named capabilities on your lines",
+    "Your department"
+   ],
+   "correct": 2,
+   "why": "Search runs on activities and capabilities. Titles, tenure, and org charts describe where you sit; the lines describe what you can do."
+  },
+  {
+   "q": "The proper way to explore an opening that pulls at you is...",
+   "opts": [
+    "Skim it and trust the flutter",
+    "Read it beside your profile: matches and gaps",
+    "Forward it to your manager first",
+    "Wait and see if it is still posted later"
+   ],
+   "correct": 1,
+   "why": "The comparative read turns a daydream into a decision: you can see your actual case and the gap you would need to close."
+  },
+  {
+   "q": "The two good exits from the clinic are...",
+   "opts": [
+    "Apply everywhere, or nowhere",
+    "A saved list of maybes, or a bookmark",
+    "Interest expressed, or a barrier named to a navigator",
+    "A better title, or a new resume"
+   ],
+   "correct": 2,
+   "why": "Both are motion. A raised hand starts a conversation; a named barrier becomes a navigator's job. Only the vague later goes nowhere."
+  }
+ ],
+ "recapMsgs": {
+  "high": "Ear calibrated, opening explored, exit chosen. The clinic worked; keep the habit.",
+  "mid": "Solid. Reread the section that wobbled, then finish your card.",
+  "low": "Worth one more pass through the three moves before you pick your exit."
+ },
+ "capstone": {
+  "eyebrow": "Capstone · My clinic exit",
+  "headline": "The improvement <em>keeps going</em> after the room.",
+  "lead": "The profile got better in here; the card is how it keeps getting better out there. Nothing you write is saved or sent.",
+  "whoLabel": "The opening you explored, and the exit you chose.",
+  "whoPlaceholder": "e.g. six-week data gig in enrollment; hand up, told my manager",
+  "practiceLabel": "What keeps the momentum?",
+  "whoRow": "My opening and my exit",
+  "practices": [
+   {
+    "id": "line",
+    "chip": "The next line",
+    "name": "The next line",
+    "move": "Rewrite one more invisible line within the week, using your partner's marks; if none are left, add the capability your explored gap pointed at."
+   },
+   {
+    "id": "nav20",
+    "chip": "The navigator twenty",
+    "name": "The navigator twenty",
+    "move": "Book twenty minutes with a navigator: your barrier if you named one, or how to strengthen your raised hand if you did not."
+   },
+   {
+    "id": "openword",
+    "chip": "The open word",
+    "name": "The open word",
+    "move": "Tell your manager what you explored and what you did about it. Open beats discovered, and the talk is usually easier than the dread."
+   }
+  ],
+  "whens": [
+   {
+    "id": "today",
+    "chip": "Before I leave today",
+    "out": "The move happens before you leave the building, while the navigators are still in the room."
+   },
+   {
+    "id": "week",
+    "chip": "This week",
+    "out": "The move happens this week, on the calendar by Friday."
+   },
+   {
+    "id": "twoweeks",
+    "chip": "Within two weeks",
+    "out": "The move happens within two weeks, booked today so it cannot slide."
+   }
+  ],
+  "cardTitle": "My clinic exit card",
+  "evidenceRow": "Afterward, one line: what moved because you raised a hand or named the barrier?"
+ },
+ "closing": {
+  "headline": "Found is a thing you <em>choose</em>.",
+  "lead": "You leave with a searcher's ear and one opening properly explored, through whichever of the two good doors you chose. That is the Portal in practice, which is exactly what this month promised.",
+  "nextTag": "Your one next step · This week",
+  "nextTitle": "Make the exit real",
+  "nextBody": "Run the move on your card while the momentum is warm. This month's weekly sessions carry the same thread, sending managers and internal bridges, and Chris Croft's Building Your Team on LinkedIn Learning is there whenever you want it. Never required.",
+  "brandline": "Walk up to the open door."
+ },
+ "facilitator": {
+  "audience": "All Vanderbilt staff, in person with their navigator; nobody is assumed to manage anyone. Works for 10 to 40 at tables of 4 to 6, everyone on their own device with Portal access. Best after the month's Tuesday session, and it stands alone.",
+  "pulse": "Seven days out, send the pulse: 'Did the move on your exit card happen? What moved because you raised a hand or named a barrier? What line does your profile still need?' Count of expressed interests and named barriers is the month's Goal 1 signal.",
+  "s1": {
+   "title": "The line rewrite",
+   "purpose": "Calibrate the searcher's ear, then get every profile's weakest line rewritten with a partner's help.",
+   "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. Deloitte's research on internal talent marketplaces says the whole machine runs on the skills data people volunteer, so today we make yours worth running on. We train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
+   "facilitate": [
+    "Confirm every device has the profile open before anything else; walk the room and unstick logins with the navigator team.",
+    "Run Findable or invisible? from the front; the room calls each line aloud before you reveal.",
+    "Run the pair review: partners mark lines findable or invisible, then rewrite one together. Walk the tables and read rewrites over shoulders.",
+    "Ask two tables to read a before-and-after aloud; applaud the honest befores."
+   ],
+   "ask": {
+    "q": "What did your partner see in your profile that you could not?",
+    "expect": [
+     "Duties I stopped noticing were duties",
+     "A skill I never thought counted",
+     "How little of my actual work is on there"
+    ],
+    "respond": "That is why the clinic is in person. You cannot proofread your own self-image; a partner reads the words that are actually there."
+   },
+   "debrief": "The searcher's ear is the tool you take home. If a line names a real activity it gets found; praise words never do.",
+   "watchFor": "People underselling themselves in the rewrite. Send partners after it: ask what colleagues borrow you for, and write that.",
+   "transition": "The profile is the antenna. Now we point it at something real.",
+   "coreNote": "Core: skip the before-and-after read-alouds; pairs rewrite one line instead of trading full reviews."
+  },
+  "s2": {
+   "title": "The Portal walk",
+   "purpose": "Everyone explores one real gig or opening with the comparative read: posting beside profile, matches and gaps marked.",
+   "say": "Now the fun part. Open the Portal and search by a skill you want to use more, and let gigs and short projects into what you look at. Pick the one that pulls at you, even a little. Then do what almost nobody does: read it beside your profile. Two columns, matches and gaps. The matches are your case; the gaps are your curriculum. Ten minutes of this beats a month of wondering whether you would fit.",
+   "facilitate": [
+    "Give the room real search time; walk the tables with the navigators and help the stuck ones pick a skill to search by.",
+    "Run The proper look from the front once people have their opening; they apply it immediately to the real posting.",
+    "Run the pair share: which opening, which matches, which gaps. Partners push on the gap: is it real or is it modesty?"
+   ],
+   "ask": {
+    "q": "Who found something they did not know existed? What was it?",
+    "expect": [
+     "A gig in a department they had never considered",
+     "A short project using their exact skill",
+     "An opening that reads like their profile"
+    ],
+    "respond": "Every one of those existed last month too. The Portal did not change today; the searching did. That is the habit to keep."
+   },
+   "debrief": "Search by skill, include gigs, read comparatively. The pull you feel plus the gap you found is your next move, whichever way you take it.",
+   "watchFor": "Window-shoppers scrolling listings without landing on one. Land them gently: pick the least wrong one and run the read; the method is the lesson.",
+   "transition": "You are holding one real opening. The last section is what you do about it before you leave.",
+   "coreNote": "Core: shorten the search to one navigator-suggested example per table; the comparative read still runs on real profiles."
+  },
+  "s3": {
+   "title": "Hand up or barrier named",
+   "purpose": "Everyone leaves through one of the two doors: interest expressed in the room, or a barrier written and handed to a navigator.",
+   "say": "Here is the exit ticket. Two doors out of this clinic. Door one: express interest on the thing you explored, right now, in the room, remembering it opens a conversation and signs nothing. Door two: if something real is in the way, write the barrier down honestly and hand it to a navigator before you leave. Timing, a skill gap, a conversation you are dreading. Barriers named in this room get worked; barriers carried home just get heavier.",
+   "facilitate": [
+    "Show the two-door card and run the discussion from the front; take voices on what the real barriers are.",
+    "Give quiet time for the choice; navigators circulate for barrier conversations at the tables.",
+    "Run the table round: one sentence each, the opening and the chosen exit. Collect written barriers by hand; no names required on the paper."
+   ],
+   "ask": {
+    "q": "For those naming a barrier: what would have to be true for the hand to go up?",
+    "expect": [
+     "My manager would need to back it",
+     "I would need the skill first",
+     "I would need to know the timing could flex"
+    ],
+    "respond": "Every answer names a solvable problem, and most of them are exactly what navigators and sending managers do. The barrier was never a verdict; it is a to-do list nobody had read yet."
+   },
+   "debrief": "Both doors are motion. The raised hand starts a negotiation; the named barrier assigns the problem to someone equipped for it.",
+   "watchFor": "Quiet people choosing neither door. A navigator sits with them one on one; sometimes the barrier is the room itself.",
+   "transition": "Cards next: the exit goes on paper so next week keeps the promise.",
+   "coreNote": "Core: skip the table round; exits go straight onto capstone cards and barriers straight to navigators."
+  },
+  "capstoneSay": "Last two minutes of building. The card holds your opening, your exit, and the move that keeps the momentum: the next line, the navigator twenty, or the open word with your manager. Write it, copy it to your phone, and if your exit was a raised hand, consider making it real before you stand up. The navigators are staying after; barriers welcome.",
+  "closeSay": "You came in with a profile and you are leaving with a better one, plus one real opening explored and an exit chosen. That is this month's whole theme done by hand. The weekly sessions carry it on: Monday taught managers to send well, Tuesday walked the Transfer Portal end to end, and Thursday builds the internal bridges that hear about openings early. If you want a deeper companion, Chris Croft's Building Your Team is this month's LinkedIn Learning pick. There when you want it, never an assignment.",
+  "contingencies": [
+   {
+    "if": "The room Wi-Fi or the Portal itself goes down",
+    "then": "Switch to paper: partners review profile lines from memory and printouts, and every exit card gets written anyway. Navigators collect expressed-interest intents and enter them with people once the system is back."
+   },
+   {
+    "if": "Someone arrives without a device or cannot log in",
+    "then": "Pair them with a table partner for the searching, and put a navigator on the login during the walk section. The pair review works fine on one screen."
+   },
+   {
+    "if": "A participant worries aloud that updating a profile signals they want to leave",
+    "then": "Answer plainly: a current profile is the university norm, and managers are being taught to celebrate exactly this. Point at the navigators as living proof the university wants hands raised."
+   },
+   {
+    "if": "Someone's barrier is a story about a manager who blocked a move",
+    "then": "Thank them for the honesty, take the barrier in writing like any other, and route the specific case to HR with a navigator after the session. The room is for norms; cases get careful hands."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Is expressing interest in the room binding? Everyone will see me do it.",
+    "a": "It signs nothing; it opens a conversation you can step back from at any stage. And the room seeing it is the point: raising a hand among colleagues who just did the same is the cheapest it will ever be."
+   },
+   {
+    "q": "My profile is basically empty and I am embarrassed to show a partner.",
+    "a": "Empty is the best starting state in the room: everything your partner suggests is pure gain, and half the room is in the same place. The pair review has no grade; it has a searcher's eye and a rewrite you do together."
+   },
+   {
+    "q": "What actually happens to the barrier I hand in?",
+    "a": "A navigator owns it: they follow up with you one on one, and the fix might be a timing conversation, a skill plan, or help planning the manager talk. Nothing on the paper needs your name if you would rather bring it to the follow-up yourself."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: In person this month: the Portal walkthrough and profile clinic. Bring a charged device and your Portal login; we work on your real profile in the room. You will leave with it genuinely better, and with one real opening explored."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Did the exit hold? Three lines, reply whenever: 1) Did the move on your exit card happen? 2) What moved because you raised a hand or named a barrier? 3) What line does your profile still need?"
+   }
+  ]
+ }
 }

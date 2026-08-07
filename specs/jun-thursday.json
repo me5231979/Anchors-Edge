@@ -54,7 +54,10 @@
    "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: the status quo, renamed research. Jeff Bezos told Amazon shareholders most decisions should be made with about 70 percent of what you wish you knew. Acting teaches the rest.",
    "group": "In pairs: name a decision this year you delayed past the useful point. What was the wait actually buying? 90 seconds each way.",
    "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
-   "source": {"label": "The 70 percent rule, Jeff Bezos, 2016 Amazon shareholder letter", "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"},
+   "source": {
+    "label": "The 70 percent rule, Jeff Bezos, 2016 Amazon shareholder letter",
+    "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"
+   },
    "deeper": {
     "title": "What counts as 70 percent",
     "body": "The number is a posture, not a measurement. A practical proxy: you are at 70 when you can name the options, the worst plausible outcome of each, and what you would try first if forced to choose today. What you usually lack is certainty about other people's reactions, and no amount of research supplies that; only moving does. If you cannot name the options yet, you are below 70: gather. If you can, the gathering is done.",
@@ -97,10 +100,13 @@
    "dataTitle": "Doors and speed",
    "eyebrow": "Doors and Speed",
    "headline": "Most doors <em>swing both ways</em>.",
-   "lead": "Match the pace to the door. The image is Bezos's too: two-way doors open again, so walk through and step back if it disappoints. One-way doors are hard to reopen and earn the extra data. Treating every door as one-way is where the delay lives.",
-   "group": "Breakout pairs: each name one live decision and call its door. Partner argues the other reading for 30 seconds. 90 seconds each way.",
+   "lead": "Match the pace to the door. The image is Bezos's: two-way doors open again, so walk through and step back if it disappoints. One-way doors are hard to reopen, and they earn the extra data.",
+   "group": "Pairs: name one live decision and call its door. 60 seconds each.",
    "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
-   "source": {"label": "One-way and two-way doors, Jeff Bezos, 2015 Amazon shareholder letter", "url": "https://www.aboutamazon.com/news/company-news/2015-letter-to-shareholders"},
+   "source": {
+    "label": "Two-way doors, Bezos 2015 shareholder letter",
+    "url": "https://www.aboutamazon.com/news/company-news/2015-letter-to-shareholders"
+   },
    "deeper": {
     "title": "Doors that look one-way",
     "body": "Three things weld a reversible door shut in the mind: visibility, since people saw you choose and stepping back feels like failure; sunk effort; and a missing exit plan. The first two are about ego, not the door. The third is fixed in one line: name, before you walk through, what result by what date would send you back. A written exit condition makes any door easier to reopen, because stepping back was part of the plan.",
@@ -112,7 +118,7 @@
    "interaction": {
     "type": "trainer",
     "playTitle": "Call the door",
-    "intro": "Three decisions people circled this year. Call each one: move now, earn more data, or route it to its real owner.",
+    "intro": "Three live decisions. Call each door before you pick a speed.",
     "progressWord": "Decision",
     "labels": [
      "Two-way door: decide now",

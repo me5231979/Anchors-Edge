@@ -285,7 +285,7 @@ def section_html(sec, num):
     source = ""
     if sec.get("source"):
         src = sec["source"]
-        source = ('\n      <p class="why" data-reveal style="margin-top:1.1rem"><b>Grounded in:</b> '
+        source = ('\n      <p class="why srcline" data-reveal><b>Grounded in:</b> '
                   '<a href="%s" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">%s</a></p>'
                   % (esc(src["url"]), esc(src["label"])))
     deeper = ""
