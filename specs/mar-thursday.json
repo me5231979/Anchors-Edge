@@ -58,8 +58,18 @@
    "lead": "Every conversation runs on two channels: the words, and everything around them. When a chatty teammate answers in one line, or a steady voice speeds up, the second channel is broadcasting. The skill starts with noticing the change from that person's normal.",
    "group": "In pairs: what is one 'tell' you have learned to read in a colleague, a shift in tone, pace, or energy? Roles, never names.",
    "solo": "Name one 'tell' you have learned to read in a colleague: a shift in tone, pace, or energy. Roles, never names.",
+   "deeper": {
+    "title": "Baselines in a hybrid week",
+    "body": "A baseline is built from the small details of one person's normal: message length, response speed, camera habits, how often they joke, whether they push back. In hybrid work you hold a few baselines per person, one per channel. A shift in one channel while the others hold steady usually means workload. A shift across every channel at once earns a check-in. Either way it is a signal, never a diagnosis; the meaning stays theirs.",
+    "steps": [
+     "Write a one-line 'normal' for two colleagues you work with weekly: tone, pace, camera, chat style. Roles, never names.",
+     "For one week, log shifts against those lines instead of guessing moods. Note what the baseline changed about your read."
+    ]
+   },
    "interaction": {
     "type": "check",
+    "context": "Set the scene for the room: a teammate who usually fills every call writes 'fine, whatever works' about a plan they built themselves. Nobody reacts, because the words are agreeable. But from this person, flatness is the loudest part of the message, and it is the part most threads never answer.",
+    "discuss": "Whose 'fine' have you learned to distrust, and what taught you? Roles, never names. And when has your own second channel said more than your words did?",
     "card": {
      "tag": "The baseline rule",
      "text": "Shifts only mean something against a baseline. Quiet is no signal from a quiet person; it is a loud one from a talker. Read the change from this person's normal, and hold your first guess about what it means loosely."
@@ -93,6 +103,14 @@
    "lead": "A noticed shift is a hypothesis. Guessing turns it into a verdict ('you're clearly upset') and ignoring lets it harden on its own. The move in between is a light, private, open check-in that lets the person tell you what is true, including 'all good'.",
    "group": "In pairs: say a check-in line out loud that you could actually use tomorrow. Trade lines and keep the better one.",
    "solo": "Write one check-in line you could actually use tomorrow, in your own voice.",
+   "deeper": {
+    "title": "Timing, channel, and the second ask",
+    "body": "Two quiet choices decide whether a check-in lands: where and when. Private, always; an audience turns care into a spotlight. Soon beats perfect; within a day reads as attention, three weeks late reads as an audit. Move up a channel too: a shift noticed in chat untangles better in a call. If 'all good' comes back while the shift continues, offer the door once more a few days later; twice is care, a campaign is pressure.",
+    "steps": [
+     "Write two check-in lines in your own voice: one for chat, one for the start of a call. Light, private, easy to decline.",
+     "Recall a check-in that landed badly on you. Name what was off: the channel, the timing, or a guess dressed as a question."
+    ]
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Assume, ignore, or check in?",
@@ -132,6 +150,14 @@
    "eyebrow": "The Response",
    "headline": "Answer the feeling, then the <em>facts</em>.",
    "lead": "When a message arrives carrying frustration, most of us answer the content and skip the feeling, and the sender hears half a reply. Answering the feeling takes one plain sentence, and it is the sentence that makes the rest of your answer land as help.",
+   "deeper": {
+    "title": "Acknowledge without diagnosing",
+    "body": "There is a line between answering a feeling and assigning one. 'Three asks with Friday looming? Genuinely frustrating' answers; 'you are angry' assigns. Keep the sentence about the situation: three asks and a deadline would frustrate anyone, and saying so labels nobody. When a message runs hot, let the content wait a beat: acknowledge, then offer a call. Keep it to one sentence; a paragraph of validation reads as performance.",
+    "steps": [
+     "Find a charged message you answered facts-first. Rewrite the reply: one plain sentence for the feeling, then help with a time on it.",
+     "Draft two reusable feeling-first openers about situations: one for a delay, one for being overruled in a meeting."
+    ]
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Answer the whole message",
@@ -290,7 +316,7 @@
   "brandline": "Listen to the whole message."
  },
  "facilitator": {
-  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session closes the week in February's Coaching as the Core Manager Behavior month.",
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; this session closes the week in March's Coaching as the Core Manager Behavior month.",
   "pulse": "Seven days out, send the pulse: 'Did the check-in on your card happen? What did you learn that the words never said? Whose baseline are you learning now?' Share-backs feed the month's story bank for the coaching theme.",
   "s1": {
    "title": "The second channel",
@@ -298,8 +324,8 @@
    "say": "Think about the last time a colleague said 'fine' and you knew it was anything but. You were reading the second channel: tone, pace, energy, everything around the words. Everyone broadcasts on it, and most of us only listen when it gets loud. The skill starts smaller than that: knowing a person's normal well enough to notice when it changes.",
    "facilitate": [
     "Read the baseline rule from the card; it reframes quiet colleagues immediately.",
-    "Run the knowledge check; everyone answers on their own screen.",
-    "Run the breakout on the 'tell' they have learned to read, roles only."
+    "Share the In the room card; let the 'fine, whatever works' moment land before you say anything.",
+    "Run the discussion prompt, then the breakout on the 'tell' they have learned to read, roles only."
    ],
    "ask": {
     "q": "Whose baseline do you know best, and what is their tell?",
@@ -361,7 +387,7 @@
    "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
   },
   "capstoneSay": "Now make it real. One colleague whose second channel has shifted, role only, never a name. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
-  "closeSay": "That closes the coaching week. Monday gave managers the coaching moment, Tuesday put growth on the record for everyone, and today built the listening underneath both. Run the check-in on your card, and bring what the second channel taught you into next week's sessions. If you want to keep pulling the thread, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, and the navigator-led GROW practicum is a friendly place to practice this kind of listening out loud. Same rhythm next week; a new month and a new goal arrive in March.",
+  "closeSay": "That closes the coaching week. Monday gave managers the coaching moment, Tuesday put growth on the record for everyone, and today built the listening underneath both. Run the check-in on your card, and bring what the second channel taught you into next week's sessions. If you want to keep pulling the thread, Sara Canaday's Coaching Skills for Leaders and Managers is this month's LinkedIn Learning pick, and the navigator-led GROW practicum is a friendly place to practice this kind of listening out loud. Same rhythm next week, still inside the coaching month; then April opens a new goal with Spot AI-Exposed Work.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

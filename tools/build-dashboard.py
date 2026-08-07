@@ -128,15 +128,21 @@ def session_row(m, day, label, aud):
         </div>'''
 
 
+AVAIL = {1: "2026-10-01", 2: "2026-11-01", 3: "2026-12-01", 4: "2027-01-01",
+         5: "2027-02-01", 6: "2027-03-01", 7: "2027-04-01", 8: "2027-05-01",
+         9: "2027-06-01"}
+
+
 def month_card(m):
     g = GOALS[m["goal"]]
     rows = "".join(session_row(m, d, lbl, aud) for d, lbl, aud in DAYS)
     return f'''
-      <article class="month" data-goal="{m["goal"]}" data-reveal id="m{m["n"]}">
+      <article class="month" data-goal="{m["goal"]}" data-avail="{AVAIL[m["n"]]}" data-reveal id="m{m["n"]}">
         <div class="month__head">
           <span class="month__num">M{m["n"]}</span>
           <span class="month__date">{esc(m["date"])}</span>
           <span class="month__goal">Goal {m["goal"]} · {esc(g["short"])}</span>
+          <span class="month__release">Releases {esc(m["date"])}</span>
         </div>
         <h3>{esc(m["theme"])}</h3>
         <p class="month__tagline">{esc(m["tagline"])}</p>
@@ -247,7 +253,7 @@ page = f'''<!DOCTYPE html>
           <span class="feature__num">TUE</span>
           <h3>Take-Off Tuesday</h3>
           <span class="rhythm-aud">All staff</span>
-          <p>Tools and tech, hands on: the systems behind the theme, from Workforce Intelligence to the Transfer Portal to safe AI use.</p>
+          <p>Tools and tech, hands on: the systems behind the theme, from the Talent Marketplace to the Transfer Portal to safe AI use.</p>
         </div>
         <div class="feature" data-reveal>
           <span class="feature__num">WED</span>
@@ -273,7 +279,7 @@ page = f'''<!DOCTYPE html>
       <p class="lead" data-reveal>Every session is a live, interactive course site: the facilitator shares it on the call, learners work every exercise on their own screens, and the link from class is the reference they keep. Each ships with a scripted facilitator edition and a self-paced edition for catch-up.</p>
       <div class="filterbar" id="filterbar" data-reveal role="group" aria-label="Filter months by goal">
         <button class="filterchip" data-goal="all" aria-pressed="true">All months</button>
-        <button class="filterchip" data-goal="1" aria-pressed="false">Goal 1 · Workforce Intelligence</button>
+        <button class="filterchip" data-goal="1" aria-pressed="false">Goal 1 · Talent Marketplace</button>
         <button class="filterchip" data-goal="2" aria-pressed="false">Goal 2 · Manager Effectiveness</button>
         <button class="filterchip" data-goal="3" aria-pressed="false">Goal 3 · AI Readiness</button>
       </div>
@@ -320,7 +326,7 @@ page = f'''<!DOCTYPE html>
       <div>
         <h4>The goals</h4>
         <ul>
-          <li><a href="#goals">Goal 1 · Workforce Intelligence &amp; Transfer Portal</a></li>
+          <li><a href="#goals">Goal 1 · Talent Marketplace Goal 1 · Talent Marketplace &amp; Transfer Portalamp; Transfer Portal</a></li>
           <li><a href="#goals">Goal 2 · Manager Effectiveness at Scale</a></li>
           <li><a href="#goals">Goal 3 · AI-Enabled Workforce Readiness</a></li>
         </ul>
@@ -337,10 +343,18 @@ page = f'''<!DOCTYPE html>
     </div>
     <div class="footer__legal">
       <span>© <span id="year">2026</span> Vanderbilt University. Anchor's Edge · The Apply arm of CHART.</span>
-      <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a> · Futures Learning Hub</span>
+      <span>Questions? <a href="mailto:chart@vanderbilt.edu">chart@vanderbilt.edu</a> · Futures Learning Hub <button class="admindot" id="adminDot" type="button" aria-label="Toggle admin view">&#9875;</button></span>
     </div>
   </div>
 </footer>
+
+<div class="adminbar" id="adminBar" role="region" aria-label="Admin view">
+  <b>Admin view</b>
+  <span>All months unlocked</span>
+  <a class="btn" href="comms/" target="_blank" rel="noopener">Comms package</a>
+  <a class="btn btn--ghost" href="comms/anchors-edge-comms-package.pdf" target="_blank" rel="noopener">PDF</a>
+  <button class="btn btn--ghost" id="adminExit" type="button">Exit</button>
+</div>
 
 <script>
 (function () {{
@@ -379,6 +393,41 @@ page = f'''<!DOCTYPE html>
       }});
     }});
   }});
+  /* ---- month release gating + hidden admin view ---- */
+  var KEY = 'aeAdmin';
+  function isAdmin() {{
+    try {{ return localStorage.getItem(KEY) === '1'; }} catch (e) {{ return false; }}
+  }}
+  function applyLocks() {{
+    var admin = isAdmin();
+    document.body.classList.toggle('admin', admin);
+    var now = new Date();
+    $$('.month').forEach(function (mo, i) {{
+      var avail = new Date(mo.getAttribute('data-avail') + 'T00:00:00');
+      var locked = !admin && i > 0 && now < avail;
+      mo.classList.toggle('month--locked', locked);
+      $$('.session__cta a', mo).forEach(function (a) {{
+        if (locked) {{ a.setAttribute('aria-disabled', 'true'); a.setAttribute('tabindex', '-1'); }}
+        else {{ a.removeAttribute('aria-disabled'); a.removeAttribute('tabindex'); }}
+      }});
+    }});
+  }}
+  document.addEventListener('click', function (e) {{
+    var a = e.target.closest && e.target.closest('.month--locked .session__cta a');
+    if (a) {{ e.preventDefault(); }}
+  }}, true);
+  var dot = document.getElementById('adminDot');
+  if (dot) dot.addEventListener('click', function () {{
+    try {{ localStorage.setItem(KEY, isAdmin() ? '0' : '1'); }} catch (e) {{}}
+    applyLocks();
+  }});
+  var exitB = document.getElementById('adminExit');
+  if (exitB) exitB.addEventListener('click', function () {{
+    try {{ localStorage.setItem(KEY, '0'); }} catch (e) {{}}
+    applyLocks();
+  }});
+  applyLocks();
+
   document.getElementById('year').textContent = new Date().getFullYear();
 }})();
 </script>

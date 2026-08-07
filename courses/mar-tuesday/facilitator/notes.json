@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "program": "The Growth Record · Take-Off Tuesday · Anchor's Edge · Vanderbilt",
+  "totalMinutes": 45,
+  "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage people. Works for 6 to 40 on a call; breakouts run in pairs. No prerequisites; March is the Coaching as the Core Manager Behavior month, and this session gives every staff member the record side of it.",
+  "roomSetup": "Virtual, instructor led: camera on, deck link in chat, breakouts of 2 available. Learners follow on their own screens via the welcome-slide link or QR. Nothing typed into the deck is saved or sent.",
+  "postSession": "Seven days out, send the pulse: 'Is your development goal in Oracle? Did you note your last career conversation? What did writing it down make clearer?' Count of new Oracle goals is the month's adoption signal for the record.",
+  "paths": {
+   "full": {
+    "minutes": 45,
+    "description": "The full 45-minute virtual session: every interaction runs live, breakouts run in pairs, and the capstone gets read-alouds. The per-section minutes on each slide sum to 45 including transitions."
+   },
+   "core": {
+    "minutes": 30,
+    "description": "The 30-minute slot: agenda and core-idea slides pass in stride, breakouts become solo passes with chat share-outs, debriefs shrink to one voice. Never cut the section interactions or the capstone."
+   }
+  },
+  "framework": "ATD facilitator-guide structure: per module SAY / DO / ASK (with anticipated responses) / DEBRIEF / TRANSITION, plus preparation checklists, materials, contingencies, and a tough-questions bank.",
+  "goal": "Goal 2, Manager Effectiveness at Scale.",
+  "materials": [
+   "Meeting platform with screen share and breakout rooms; deck link ready to paste in chat",
+   "Facilitator machine with the facilitator edition open; notifications off",
+   "Learners on their own devices with the learner link",
+   "Chat open for share-outs; the capstone copy button pastes there cleanly"
+  ],
+  "prep": {
+   "weekBefore": [
+    "Run the learner edition start to finish and do every interaction honestly; you will demo at least one live.",
+    "Read this month's theme page on the Anchor's Edge dashboard so the goal tie-in is fluent.",
+    "Send the invite with the learner link and one line on what to bring."
+   ],
+   "dayBefore": [
+    "Test screen share with the facilitator edition; confirm the notes rail is readable.",
+    "Open the learner link on a second device; the QR must land there.",
+    "Run the section interactions once so you can drive them without reading."
+   ],
+   "thirtyMinBefore": [
+    "Welcome slide up as people join; link pasted in chat.",
+    "Close every other tab; silence the machine.",
+    "Breakout rooms pre-configured in pairs."
+   ]
+  },
+  "contingencies": [
+   {
+    "if": "Screen share or the site fails mid-session",
+    "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."
+   },
+   {
+    "if": "Breakout rooms are unavailable",
+    "then": "Run the breakout prompts as 60-second chat storms: everyone types their answer at once, you read the best three aloud."
+   },
+   {
+    "if": "Someone says their manager never looks at Oracle",
+    "then": "True sometimes, and the record still works: talent reviews, project staffing, and internal recruiters search it whether or not one manager does. Write for the readers you cannot see."
+   },
+   {
+    "if": "Someone starts typing a real colleague's private situation into chat as an example",
+    "then": "Redirect immediately and warmly: 'Roles, never names, and other people's private business stays unwritten, here included.' Then restate the three-shelf sort."
+   }
+  ],
+  "toughQuestions": [
+   {
+    "q": "Who can actually see what I enter in Oracle?",
+    "a": "Your manager and the talent teams who run reviews and staffing; each field shows its visibility if you are unsure. The working rule keeps you safe either way: write every visible entry as if a future hiring manager will read it, because the useful ones will."
+   },
+   {
+    "q": "What if my goal is to move away from my current team?",
+    "a": "Mobility goals are legitimate; internal movement is exactly what the record and the Transfer Portal support. Frame the direction rather than the departure: 'grow toward project leadership' works on the record, and the specifics stay in conversations you choose to have."
+   },
+   {
+    "q": "I'm not a manager, so is the coaching month really for me?",
+    "a": "Yes. Coaching is two-sided: managers are learning to ask this month, and a visible record gives them something real to ask about. Written goals make you easy to coach and easy to advocate for, whoever you report to."
+   }
+  ],
+  "templates": [
+   {
+    "title": "Pre-work invite (paste into the calendar invite)",
+    "body": "Subject: Tuesday, 45 minutes to put your growth on the record. Bring one career goal you have never written down, and your Oracle login if you have it handy. Live and interactive; have the session link open on your own screen."
+   },
+   {
+    "title": "7-day pulse (send one week after)",
+    "body": "Subject: Is it in Oracle? Three lines, reply whenever: 1) Is your development goal in Oracle? 2) Did you note your last career conversation? 3) What did writing it down make clearer?"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "s-welcome",
+   "title": "Welcome / QR",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Get everyone into the deck on their own screen and set the tone: 45 minutes, live, hands on.",
+   "say": "Welcome to Take-Off Tuesday. Scan the code or click the link in chat so this session runs on your screen too. Forty-five minutes, one focus: Capturing your development goals and career-conversation notes in Oracle.",
+   "facilitate": [
+    "Slide up as people join; link pasted in chat every few minutes.",
+    "State the norm once: type into your own screen, nothing you enter is saved or sent."
+   ],
+   "watchFor": "People lurking without the deck open. The interactions only land if the deck is on their screen.",
+   "transition": "Before the topic, thirty seconds on why Vanderbilt is asking for this hour."
+  },
+  {
+   "id": "s-mission",
+   "title": "The mission",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
+   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university out to define the century needs to see the ambitions of its people, and it can only see what is written down. Every goal you put on the record strengthens Exceptional Core Operations from the inside: real data about real growth.",
+   "facilitate": [
+    "Read the mission line slowly, once.",
+    "Point at the tie-in line and let it sit; no discussion needed here."
+   ],
+   "transition": "That is the why. Here is the number we are moving."
+  },
+  {
+   "id": "s-goal",
+   "title": "The goal we are targeting",
+   "minutes": 2,
+   "coreMinutes": 1,
+   "purpose": "Name the enterprise goal this month serves.",
+   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Manager Effectiveness at Scale has a second half: staff whose goals are visible enough to coach toward. Today you build your side of the record, whoever you report to.",
+   "facilitate": [
+    "Read the goal once, plainly.",
+    "One line, not a lecture: this session is one of the moves that serves it."
+   ],
+   "transition": "Here is what you will be able to do in 45 minutes."
+  },
+  {
+   "id": "s-hero",
+   "title": "Objectives",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "Set the contract for the session in under a minute.",
+   "say": "By the end of this session: enter one real development goal in oracle, written so a reader can act on it; keep a short, useful note after any career conversation you are part of; sort what belongs on your visible record, in private notes, or nowhere at all. That is the whole contract.",
+   "facilitate": [
+    "Read the three objectives briskly; do not elaborate yet."
+   ],
+   "transition": "Three stops to get there."
+  },
+  {
+   "id": "s-agenda",
+   "title": "Agenda",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Show the path so the room can pace itself.",
+   "say": "Three stops: why the record matters, what goes where, write the entry. Each one has something to play with, so keep the deck open.",
+   "facilitate": [
+    "Point once at each stop; ten seconds each."
+   ],
+   "coreNote": "Core: skip the read-through, gesture at the slide in passing.",
+   "transition": "Stop one."
+  },
+  {
+   "title": "Why the record matters",
+   "purpose": "Establish visibility as the point: goals in Oracle keep working when you are out of the room.",
+   "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects, course seats, and internal openings get decided, someone is looking at a record. If your goal lives in your head, you are invisible to that search. Writing it down is how you raise your hand in rooms you are not in.",
+   "facilitate": [
+    "Run the chat show of hands first; the count of unwritten goals is the hook.",
+    "Read the visibility rule from the card, then share the In the room card and let the count sink in.",
+    "Run the discussion prompt, then the breakout on the goal that exists nowhere in writing."
+   ],
+   "ask": {
+    "q": "What has kept your goal out of Oracle so far?",
+    "expect": [
+     "Never thought of Oracle as mine to use",
+     "Feels presumptuous or too exposed",
+     "It reads like HR paperwork, so it never felt urgent"
+    ],
+    "respond": "All common. Today reframes the record as a tool you point at your own future, and the sort in the next section handles the exposure worry directly."
+   },
+   "debrief": "Visible goals get fed; invisible ones wait. The record is a standing hand-raise.",
+   "watchFor": "Staff who assume this is a managers-only tool. Say it plainly: every field in this session is yours, whoever you report to.",
+   "transition": "So some things go on the record. The next skill is knowing what does.",
+   "coreNote": "Core: skip the breakout; take the unwritten-goal count from chat and move.",
+   "id": "s-one",
+   "minutes": 8,
+   "coreMinutes": 6
+  },
+  {
+   "title": "What goes where",
+   "purpose": "Install the three-shelf sort: visible record, private notes, or never written.",
+   "say": "You will be in career conversations all year, your own and other people's. The sort has three shelves. Your goals and agreed actions go in Oracle, visible. Your raw self-observations go in your private notes, because honesty needs a little privacy while it is fresh. And other people's private business goes nowhere, ever. Five seconds of sorting protects you and everyone around you.",
+   "facilitate": [
+    "Run System, notes, or nowhere? live; everyone sorts on their own screen.",
+    "Pause after round three; let the 'write nothing' answer breathe before you move.",
+    "Run the breakout: one thing for the visible record, one for private notes."
+   ],
+   "ask": {
+    "q": "Why does round three, the colleague's health situation, get 'write nothing' rather than private notes?",
+    "expect": [
+     "It is theirs to tell, never mine to store",
+     "Notes get seen, forwarded, or found",
+     "Writing it down would change how I treat them"
+    ],
+    "respond": "All of it. Your private notes are for your own growth. Other people's disclosures are held in trust, and trust does not have a text field."
+   },
+   "debrief": "Yours and agreed goes visible. Yours and raw stays private. Theirs and private goes unwritten.",
+   "watchFor": "The quiet worry that the visible record gets used against people. Name it: the record is for growth and mobility, and section three shows how to write entries you would be glad to have read.",
+   "transition": "You know what goes in. Now we make what goes in worth reading.",
+   "coreNote": "Core: run the trainer, skip the breakout, take one sort question from chat.",
+   "id": "s-two",
+   "minutes": 10,
+   "coreMinutes": 7
+  },
+  {
+   "title": "Write the entry",
+   "purpose": "Turn goals and notes into entries a future reader can act on: direction, date, agreement, follow-up.",
+   "say": "Oracle rewards a particular kind of writing, and it is teachable in one line: write so a reader can act. 'Improve communication' gives a reader nothing. 'Present to a leadership audience twice this year, first rep at the May ops review' gives them everything: what you want, when it starts, how to help. Same with notes. Date, agreement, follow-up, and the note runs your next conversation for you.",
+   "facilitate": [
+    "Run Build your entry; two minutes for both fields, then save it.",
+    "Ask one volunteer to read their six-months-later outcome aloud.",
+    "Point at the pattern: direction plus dated step for goals; date plus agreement plus follow-up for notes."
+   ],
+   "ask": {
+    "q": "What makes 'improve my communication skills' so common and so useless?",
+    "expect": [
+     "It is safe and cannot be wrong",
+     "It came off a review form, never from a real want",
+     "Nobody ever taught goal-writing"
+    ],
+    "respond": "Safe is the problem: it is a goal nothing can respond to. Specific goals feel exposed for a week and get fed for a year."
+   },
+   "debrief": "Write for the reader who wants to help you. A direction, a dated first step, and notes that hold the agreement.",
+   "watchFor": "Perfectionism stalling the entry. A rough goal in Oracle beats a polished one in your head, and it can be edited forever.",
+   "transition": "Quick recap, then you draft the real entry.",
+   "coreNote": "Core: everyone builds solo; skip the read-aloud.",
+   "id": "s-three",
+   "minutes": 9,
+   "coreMinutes": 6
+  },
+  {
+   "id": "s-belief",
+   "title": "The core idea",
+   "minutes": 1,
+   "coreMinutes": 0,
+   "purpose": "Land the one sentence the session exists to install.",
+   "say": "If you keep one sentence from today, this is it. Read it once, out loud: Opportunity cannot find a goal that lives only in your head.",
+   "facilitate": [
+    "Pause two beats after reading; the word animation carries it."
+   ],
+   "coreNote": "Core: pass through in stride; the sentence reads itself.",
+   "transition": "The recap makes it stick."
+  },
+  {
+   "id": "s-recap",
+   "title": "Recap quiz",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Score the learning while it is fresh; wrong answers are teaching moments, not failures.",
+   "say": "Three questions, on your own screen. Answer honestly; the explanations are where the learning sticks.",
+   "facilitate": [
+    "Give the room 90 seconds to run it individually.",
+    "Ask for a show of results in chat: how many got 3 of 3?",
+    "Read out the explanation for whichever question drew the most misses."
+   ],
+   "watchFor": "Rushing past the why lines. The explanations carry the teaching.",
+   "transition": "Now point it at your real week."
+  },
+  {
+   "id": "s-plan",
+   "title": "Capstone commitment",
+   "minutes": 4,
+   "coreMinutes": 3,
+   "purpose": "Convert the session into one named, dated action per person.",
+   "say": "Now draft the real thing. One development goal, written so a reader could act on it, and pick when it goes into Oracle. The card is your draft; the Oracle entry this week is the actual capstone. Two minutes, quiet, go.",
+   "facilitate": [
+    "Two quiet minutes; everyone builds their own card.",
+    "Invite two or three volunteers to read their card aloud or paste it in chat.",
+    "Remind: copy the card somewhere you will see it this week."
+   ],
+   "watchFor": "Vague entries. Nudge for a name-able situation and a real date.",
+   "transition": "Last slide."
+  },
+  {
+   "id": "s-close",
+   "title": "Closing",
+   "minutes": 1,
+   "coreMinutes": 1,
+   "purpose": "End with the next step and where this thread continues.",
+   "say": "Your card is a draft; the entry in Oracle is the real finish line, so get it there this week. Thursday's Thrive Thursday closes the coaching week with the skill underneath every conversation you will ever capture: empathy, hearing what isn't said. And if you are working through this month's LinkedIn Learning pick, Sara Canaday's Coaching Skills for Leaders and Managers, the note habit you built today is exactly where the navigator-led GROW practicum conversations belong.",
+   "facilitate": [
+    "Point at the next-step card; one sentence.",
+    "Name the rest of the week's rhythm: the other sessions echo this month's theme."
+   ]
+  }
+ ]
+}

@@ -41,7 +41,7 @@
       "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
       "deeper": {
         "title": "What counts as 70 percent",
-        "body": "The number is a posture, not a measurement. A practical proxy: you are at 70 when you can name the options, the worst plausible outcome of each, and what you would try first if forced to choose today. What you usually lack at that point is certainty about other people's reactions, and no amount of research supplies that; only moving does. If you cannot name the options yet, you really are below 70: keep gathering. If you can, the gathering is done.",
+        "body": "The number is a posture, not a measurement. A practical proxy: you are at 70 when you can name the options, the worst plausible outcome of each, and what you would try first if forced to choose today. What you usually lack is certainty about other people's reactions, and no amount of research supplies that; only moving does. If you cannot name the options yet, you are below 70: gather. If you can, the gathering is done.",
         "steps": [
           "For a live decision of yours, write the options, the worst plausible outcome of each, and your forced-choice pick. Notice what is actually missing.",
           "Write the one piece of information you are still waiting for and the date it last changed. If you cannot remember, you are past 70."
@@ -53,7 +53,7 @@
           "tag": "The 70 percent rule",
           "text": "Decide when you have about 70 percent of the information you wish you had. Below that, you are guessing; near 100, you are late, and the choice has usually been made for you. Acting generates the information that waiting never will."
         },
-        "context": "In the room: bring back the decision you carried in today, the one you have been circling. As the rule sinks in, weigh that decision honestly: what do you already know, what are you still waiting for, and when did genuinely new information last arrive? For most circling decisions, that was weeks ago.",
+        "context": "In the room: bring back the decision you carried in today, the one you have been circling. As the rule sinks in, weigh that decision honestly: what do you already know, what are you still waiting for, and when did truly new information last arrive? For most circling decisions, that was weeks ago.",
         "discuss": "What was your longest-circled decision this year actually waiting for, and did that thing ever arrive?",
         "q": "Quick check: what does the 70 percent rule actually claim?",
         "opts": [
@@ -74,7 +74,7 @@
       "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
       "deeper": {
         "title": "Doors that look one-way",
-        "body": "Three things weld a reversible door shut in the mind: visibility, because people saw you choose and stepping back feels like failure; sunk effort; and a missing exit plan. The first two are about ego, not the door. The third you can fix in one line: name, before you walk through, what result by what date would send you back. A decision with a written exit condition is more reversible than the same decision without one, because stepping back was part of the plan.",
+        "body": "Three things weld a reversible door shut in the mind: visibility, since people saw you choose and stepping back feels like failure; sunk effort; and a missing exit plan. The first two are about ego, not the door. The third is fixed in one line: name, before you walk through, what result by what date would send you back. A written exit condition makes any door easier to reopen, because stepping back was part of the plan.",
         "steps": [
           "Take a call you have been treating as one-way and write its exit line: what result, by what date, sends you back through the door.",
           "Ask the second question too: is it yours? If not, draft the two-line recommendation to its real owner today."
@@ -105,7 +105,7 @@
       "lead": "Everyone carries one decision they have been orbiting for months: the tool, the conversation, the move, the ask. Circling has a cost; it just bills quietly. Today it gets a name and a deadline, and you get the altitude back.",
       "deeper": {
         "title": "After the landing",
-        "body": "Two things deciders do that circlers skip. First, they write the call down with its date and the top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, the note shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen it only if the exit condition you wrote actually fires. The lightness arrives once the wobble passes, and it is the real payoff.",
+        "body": "Two things deciders do that circlers skip. First, they write the call down with the date and top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, it shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen only if your written exit condition fires. The lightness after the wobble passes is the real payoff.",
         "steps": [
           "Prepare your landing note now: the fork, the deadline, and a blank line for the call and its top reason. Keep it where your witness can ask about it.",
           "Decide in advance what evidence, not what mood, would reopen the decision. Write that one line under the note."
@@ -143,7 +143,7 @@
         "reactions": {
           "strong": "Deadline day takes half an hour. Whichever way you chose, the lightness afterward tells you what the circling was costing. Your colleague asks what you will land next.",
           "mid": "The reminder fires on a busy day and gets snoozed twice. The decision lands a week late, still at 70 percent, which it turns out was always enough.",
-          "weak": "In November you notice the same decision in the same orbit, one option now gone. The data you were waiting for never arrived; the deadline you never set would have."
+          "weak": "Months from now you notice the same decision in the same orbit, one option gone. The data you were waiting for never arrived; the deadline you never set would have."
         }
       }
     }

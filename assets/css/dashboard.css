@@ -323,3 +323,25 @@ a { color: inherit; }
 .month__extras { margin-top: 1rem; padding-top: .9rem; border-top: 1px solid var(--line);
   display: flex; gap: .5rem 2rem; flex-wrap: wrap; font-size: .84rem; color: var(--ink-soft); }
 .month__extras b { color: var(--vu-black); font-weight: 600; }
+
+/* ---------- month release gating + admin view ---------- */
+.month--locked { border-left-color: rgba(28,28,28,.2); }
+.month--locked .sessions, .month--locked .month__extras { opacity: .45; }
+.month--locked .session__cta .btn { pointer-events: none; background: transparent;
+  color: var(--ink-soft); border: 1px dashed rgba(28,28,28,.3); }
+.month__release { display: none; font-family: var(--font-condensed); font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em; font-size: .68rem; color: var(--ink-soft);
+  border: 1px dashed rgba(28,28,28,.35); border-radius: 4px; padding: .3rem .6rem; }
+.month--locked .month__release { display: inline-block; }
+.admindot { background: none; border: 0; color: rgba(255,255,255,.18); font-size: 1rem;
+  cursor: pointer; padding: .2rem .5rem; line-height: 1; }
+.admindot:hover { color: rgba(255,255,255,.45); }
+.adminbar { position: fixed; left: 50%; transform: translateX(-50%); bottom: 18px; z-index: 60;
+  display: none; align-items: center; gap: .9rem; background: rgba(20,20,20,.96);
+  border: 1px solid var(--vu-gold-flat); border-radius: 6px; padding: .6rem 1rem;
+  color: #fff; font-size: .85rem; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+body.admin .adminbar { display: inline-flex; }
+.adminbar b { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; font-size: .7rem; color: var(--vu-gold-flat); }
+.adminbar .btn { padding: .4rem .8rem; font-size: .78rem; }
+.adminbar a.btn--ghost { color: #fff; }

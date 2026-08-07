@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anchor's Edge · Comms Package</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: 'Libre Caslon Display'; font-weight: 400;
+    src: url('../assets/fonts/libre-caslon-display-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400;
+    src: url('../assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600;
+    src: url('../assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Antonio'; font-weight: 700;
+    src: url('../assets/fonts/antonio-latin-700-normal.woff2') format('woff2'); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', Arial, sans-serif; color: #1C1C1C; background: #fff;
+    font-size: 13px; line-height: 1.55; }
+  .sheet { max-width: 860px; margin: 0 auto; padding: 28px 32px; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    border-bottom: 2px solid #CFAE70; padding-bottom: 14px; margin-bottom: 18px; }
+  header img { width: 150px; }
+  h1 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 26px; margin: 0; }
+  h1 em { font-style: italic; color: #946E24; }
+  .eyebrow { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; color: #946E24; margin: 0 0 6px; }
+  h2 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 19px;
+    margin: 26px 0 10px; padding-top: 14px; border-top: 1px solid #E4E4E4;
+    display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .mnum { font-family: 'Antonio', Impact, sans-serif; color: #CFAE70; font-size: 17px; }
+  .goalpill { font-family: 'Antonio', Impact, sans-serif; text-transform: uppercase; letter-spacing: .07em;
+    font-size: 10px; color: #1C1C1C; background: rgba(207,174,112,.28); border: 1px solid rgba(148,110,36,.35);
+    border-radius: 4px; padding: 3px 7px; }
+  h3 { font-family: 'Libre Caslon Display', serif; font-weight: 400; font-size: 15.5px; margin: 16px 0 2px; }
+  .sess { border: 1px solid #E4E4E4; border-left: 3px solid #CFAE70; border-radius: 4px;
+    padding: 10px 16px 14px; margin-bottom: 12px; break-inside: avoid; }
+  .tagline { font-family: 'Antonio', Impact, sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; font-size: 10px; margin: 12px 0 4px; color: #1C1C1C;
+    background: #CFAE70; display: inline-block; padding: 2px 7px; border-radius: 2px; }
+  .tagline.teams { background: #B3C9CD; }
+  .msg { border: 1px solid #E4E4E4; border-radius: 4px; padding: 10px 14px; background: #FAFAF8; }
+  .msg p { margin: 0 0 8px; }
+  .msg p:last-child { margin-bottom: 0; }
+  .msg ul { margin: 0 0 8px; padding-left: 20px; }
+  .subj { border-bottom: 1px dashed #E4E4E4; padding-bottom: 6px; }
+  .mini { color: #555; margin: 0 0 4px; }
+  a { color: #946E24; }
+  .printbtn { position: fixed; right: 18px; top: 18px; background: #CFAE70; border: 0; border-radius: 4px;
+    padding: 9px 16px; font-family: Inter, Arial, sans-serif; font-weight: 600; font-size: 13px; cursor: pointer; }
+  @media print { .printbtn { display: none; } .sheet { padding: 0; max-width: none; } }
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Print / Save as PDF</button>
+<div class="sheet">
+  <header>
+    <div>
+      <p class="eyebrow">Vanderbilt · Futures Learning Hub · Anchor's Edge · admin</p>
+      <h1>The comms <em>package</em>.</h1>
+      <p class="mini" style="margin-top:6px">One ready-to-send email and one Teams post per session, grouped by month. Copy, swap anything in brackets, send. A compiled PDF of this page ships alongside it.</p>
+    </div>
+    <img src="../assets/img/vu-lockup-black.png" alt="Vanderbilt University">
+  </header>
+  
+  <section class="monthblock">
+    <h2><span class="mnum">M1</span> October 2026 · See the Talent Around You <span class="goalpill">Goal 1 · Talent Marketplace &amp; Transfer Portal</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Talent Read</h3>
+    <p class="mini">Reading your team's skills, gaps, and flight risk.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Talent Read</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>See the Talent Around You</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Manager Monday session is <b>The Talent Read</b>: Reading your team's skills, gaps, and flight risk.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Inventory the skills on your team beyond current job titles</li><li>Distinguish real flight-risk signals from everyday noise</li><li>Choose one talent conversation to hold this week</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/">me5231979.github.io/Anchors-Edge/courses/oct-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/web/">me5231979.github.io/Anchors-Edge/courses/oct-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Talent Read</b> · Managers · 45 min, live and hands-on. Reading your team's skills, gaps, and flight risk. This month's theme: See the Talent Around You (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/">me5231979.github.io/Anchors-Edge/courses/oct-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-monday/web/">me5231979.github.io/Anchors-Edge/courses/oct-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · On the Map</h3>
+    <p class="mini">The Talent Marketplace: what it shows and how to use it.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: On the Map</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>See the Talent Around You</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Take-Off Tuesday session is <b>On the Map</b>: The Talent Marketplace: what it shows and how to use it.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Explain what the Talent Marketplace shows: skills, needs, and opportunities across the university</li><li>Describe what a current skills profile does for you, and what a stale one quietly costs</li><li>Rewrite one duty from your job into a named, searchable skill on your profile</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-tuesday/">me5231979.github.io/Anchors-Edge/courses/oct-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/oct-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · On the Map</b> · All staff · 45 min, live and hands-on. The Talent Marketplace: what it shows and how to use it. This month's theme: See the Talent Around You (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-tuesday/">me5231979.github.io/Anchors-Edge/courses/oct-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/oct-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · The Better Question</h3>
+    <p class="mini">Softskill · Curiosity: asking better career questions.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: The Better Question</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>See the Talent Around You</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Thrive Thursday session is <b>The Better Question</b>: Softskill · Curiosity: asking better career questions.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Trade vague career wondering for questions specific enough to answer this week</li><li>Open a career curiosity conversation with a colleague and keep it generous</li><li>Turn one curiosity into one small, dated next step</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-thursday/">me5231979.github.io/Anchors-Edge/courses/oct-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-thursday/web/">me5231979.github.io/Anchors-Edge/courses/oct-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · The Better Question</b> · All staff · 45 min, live and hands-on. Softskill · Curiosity: asking better career questions. This month's theme: See the Talent Around You (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-thursday/">me5231979.github.io/Anchors-Edge/courses/oct-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/oct-thursday/web/">me5231979.github.io/Anchors-Edge/courses/oct-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M2</span> November 2026 · The Transfer Portal in Practice <span class="goalpill">Goal 1 · Talent Marketplace &amp; Transfer Portal</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Sending Manager</h3>
+    <p class="mini">Being a sending manager: releasing talent well.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Sending Manager</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>The Transfer Portal in Practice</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Manager Monday session is <b>The Sending Manager</b>: Being a sending manager: releasing talent well.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Reframe an internal move as a retention win for Vanderbilt, and hoarding as the real leak</li><li>Respond well in the moment someone tells you they applied internally</li><li>Choose one move that builds a reputation for sending talent well</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/">me5231979.github.io/Anchors-Edge/courses/nov-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/web/">me5231979.github.io/Anchors-Edge/courses/nov-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Sending Manager</b> · Managers · 45 min, live and hands-on. Being a sending manager: releasing talent well. This month's theme: The Transfer Portal in Practice (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/">me5231979.github.io/Anchors-Edge/courses/nov-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-monday/web/">me5231979.github.io/Anchors-Edge/courses/nov-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · The Open Door</h3>
+    <p class="mini">Navigating the Transfer Portal, end to end.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: The Open Door</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>The Transfer Portal in Practice</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Take-Off Tuesday session is <b>The Open Door</b>: Navigating the Transfer Portal, end to end.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Build a Portal profile that shows your full skills, beyond your current title</li><li>Find internal roles, projects, and gigs by the skills you want to use</li><li>Express interest in the open, and know what happens next</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-tuesday/">me5231979.github.io/Anchors-Edge/courses/nov-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/nov-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · The Open Door</b> · All staff · 45 min, live and hands-on. Navigating the Transfer Portal, end to end. This month's theme: The Transfer Portal in Practice (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-tuesday/">me5231979.github.io/Anchors-Edge/courses/nov-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/nov-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · Internal Bridges</h3>
+    <p class="mini">Networking without the ick: building internal bridges.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: Internal Bridges</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>The Transfer Portal in Practice</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Thrive Thursday session is <b>Internal Bridges</b>: Networking without the ick: building internal bridges.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Swap transactional networking for curiosity-based connecting across departments</li><li>Run a 20-minute virtual coffee, from the invite to the thank-you</li><li>Keep a bridge warm with small, genuine follow-ups that take two minutes</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-thursday/">me5231979.github.io/Anchors-Edge/courses/nov-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-thursday/web/">me5231979.github.io/Anchors-Edge/courses/nov-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · Internal Bridges</b> · All staff · 45 min, live and hands-on. Networking without the ick: building internal bridges. This month's theme: The Transfer Portal in Practice (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-thursday/">me5231979.github.io/Anchors-Edge/courses/nov-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/nov-thursday/web/">me5231979.github.io/Anchors-Edge/courses/nov-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M3</span> December 2026 · The Vanderbilt Manager Standard <span class="goalpill">Goal 2 · Manager Effectiveness at Scale</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Standard</h3>
+    <p class="mini">Unpacking the manager standard: the observable behaviors.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Standard</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>The Vanderbilt Manager Standard</b> (Goal 2: Manager Effectiveness at Scale), and this week's Manager Monday session is <b>The Standard</b>: Unpacking the manager standard: the observable behaviors.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Name the observable behaviors that define the Vanderbilt manager standard</li><li>Tell a demonstrable behavior apart from an intention or a personality trait</li><li>Locate yourself against the standard with evidence and pick one behavior to grow</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-monday/">me5231979.github.io/Anchors-Edge/courses/dec-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-monday/web/">me5231979.github.io/Anchors-Edge/courses/dec-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Standard</b> · Managers · 45 min, live and hands-on. Unpacking the manager standard: the observable behaviors. This month's theme: The Vanderbilt Manager Standard (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-monday/">me5231979.github.io/Anchors-Edge/courses/dec-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-monday/web/">me5231979.github.io/Anchors-Edge/courses/dec-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · Own Your 1:1</h3>
+    <p class="mini">The 1:1 templates and feedback tools inside Oracle, from your side of the table.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: Own Your 1:1</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>The Vanderbilt Manager Standard</b> (Goal 2: Manager Effectiveness at Scale), and this week's Take-Off Tuesday session is <b>Own Your 1:1</b>: The 1:1 templates and feedback tools inside Oracle, from your side of the table.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Load your own agenda items into the Oracle 1:1 template before the meeting</li><li>Give and request feedback through the Oracle tools with specifics that help</li><li>Capture commitments in the shared record and make it argue for your growth</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/">me5231979.github.io/Anchors-Edge/courses/dec-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/dec-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · Own Your 1:1</b> · All staff · 45 min, live and hands-on. The 1:1 templates and feedback tools inside Oracle, from your side of the table. This month's theme: The Vanderbilt Manager Standard (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/">me5231979.github.io/Anchors-Edge/courses/dec-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/dec-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · Clarity That Sticks</h3>
+    <p class="mini">Clarity as a two-way skill: ask, restate, and close the loop in writing.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: Clarity That Sticks</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>The Vanderbilt Manager Standard</b> (Goal 2: Manager Effectiveness at Scale), and this week's Thrive Thursday session is <b>Clarity That Sticks</b>: Clarity as a two-way skill: ask, restate, and close the loop in writing.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Ask the three clarity questions before accepting any significant task</li><li>Restate an expectation in your own words and surface the gaps early</li><li>Close the loop in writing the same day so the agreement survives</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-thursday/">me5231979.github.io/Anchors-Edge/courses/dec-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-thursday/web/">me5231979.github.io/Anchors-Edge/courses/dec-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · Clarity That Sticks</b> · All staff · 45 min, live and hands-on. Clarity as a two-way skill: ask, restate, and close the loop in writing. This month's theme: The Vanderbilt Manager Standard (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-thursday/">me5231979.github.io/Anchors-Edge/courses/dec-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/dec-thursday/web/">me5231979.github.io/Anchors-Edge/courses/dec-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M4</span> January 2027 · AI at Work: Start Where You Are <span class="goalpill">Goal 3 · AI-Enabled Workforce Readiness</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · Set the Tone</h3>
+    <p class="mini">Framing AI as a leadership responsibility.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: Set the Tone</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>AI at Work: Start Where You Are</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Manager Monday session is <b>Set the Tone</b>: Framing AI as a leadership responsibility.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Name the three signals a team reads from its manager about AI: permission, safety, curiosity</li><li>Choose one green-light task from your own week and model it for your team</li><li>Open a team conversation about AI that is honest about limits and free of hype</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/">me5231979.github.io/Anchors-Edge/courses/jan-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/web/">me5231979.github.io/Anchors-Edge/courses/jan-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · Set the Tone</b> · Managers · 45 min, live and hands-on. Framing AI as a leadership responsibility. This month's theme: AI at Work: Start Where You Are (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/">me5231979.github.io/Anchors-Edge/courses/jan-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-monday/web/">me5231979.github.io/Anchors-Edge/courses/jan-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · Your First Win</h3>
+    <p class="mini">Hands-on: one safe AI use case for your daily work.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: Your First Win</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>AI at Work: Start Where You Are</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Take-Off Tuesday session is <b>Your First Win</b>: Hands-on: one safe AI use case for your daily work.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Pick one green-light chore from your own week that AI can safely draft</li><li>Write a plain-English ask that gives the tool the job, the details, and the shape you want</li><li>Check the result for accuracy and voice before anything leaves your hands</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/">me5231979.github.io/Anchors-Edge/courses/jan-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/jan-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · Your First Win</b> · All staff · 45 min, live and hands-on. Hands-on: one safe AI use case for your daily work. This month's theme: AI at Work: Start Where You Are (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/">me5231979.github.io/Anchors-Edge/courses/jan-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/jan-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · Steady in the Fog</h3>
+    <p class="mini">Softskill · Adaptability: leading through ambiguity.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: Steady in the Fog</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>AI at Work: Start Where You Are</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Thrive Thursday session is <b>Steady in the Fog</b>: Softskill · Adaptability: leading through ambiguity.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Sort a changing situation into known, unknown, and assumption</li><li>Design one small experiment that buys information while certainty catches up</li><li>Use grounding language that helps a worried colleague stay steady</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/">me5231979.github.io/Anchors-Edge/courses/jan-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/web/">me5231979.github.io/Anchors-Edge/courses/jan-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · Steady in the Fog</b> · All staff · 45 min, live and hands-on. Softskill · Adaptability: leading through ambiguity. This month's theme: AI at Work: Start Where You Are (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/">me5231979.github.io/Anchors-Edge/courses/jan-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jan-thursday/web/">me5231979.github.io/Anchors-Edge/courses/jan-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M5</span> February 2027 · Retain, Grow, Move <span class="goalpill">Goal 1 · Talent Marketplace &amp; Transfer Portal</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Bench</h3>
+    <p class="mini">Succession conversations that don't scare people.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Bench</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>Retain, Grow, Move</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Manager Monday session is <b>The Bench</b>: Succession conversations that don't scare people.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Reframe succession planning as growth planning for the people on the bench</li><li>Open a succession conversation without triggering replacement fear</li><li>Name the start of a successor pipeline for your own role</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-monday/">me5231979.github.io/Anchors-Edge/courses/feb-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-monday/web/">me5231979.github.io/Anchors-Edge/courses/feb-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Bench</b> · Managers · 45 min, live and hands-on. Succession conversations that don't scare people. This month's theme: Retain, Grow, Move (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-monday/">me5231979.github.io/Anchors-Edge/courses/feb-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-monday/web/">me5231979.github.io/Anchors-Edge/courses/feb-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · Your Next Move</h3>
+    <p class="mini">Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: Your Next Move</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Retain, Grow, Move</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Take-Off Tuesday session is <b>Your Next Move</b>: Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Use the Talent Marketplace and the Transfer Portal together to plan your own growth and next move</li><li>Name a specific direction and bring your skills profile current enough to match it</li><li>Treat an internal move as a normal, encouraged Vanderbilt career path</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/">me5231979.github.io/Anchors-Edge/courses/feb-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/feb-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · Your Next Move</b> · All staff · 45 min, live and hands-on. Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move. This month's theme: Retain, Grow, Move (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/">me5231979.github.io/Anchors-Edge/courses/feb-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/feb-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · The Sponsor</h3>
+    <p class="mini">Advocacy: mentors give you advice, sponsors spend their credibility on you.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: The Sponsor</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Retain, Grow, Move</b> (Goal 1: Talent Marketplace &amp; Transfer Portal), and this week's Thrive Thursday session is <b>The Sponsor</b>: Advocacy: mentors give you advice, sponsors spend their credibility on you.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Tell mentoring (advice given to you) apart from sponsorship (credibility spent on you)</li><li>Earn and ask for advocacy with work a sponsor can safely stake their name on</li><li>Name one person whose work you will speak up for in rooms they are not in</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-thursday/">me5231979.github.io/Anchors-Edge/courses/feb-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-thursday/web/">me5231979.github.io/Anchors-Edge/courses/feb-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · The Sponsor</b> · All staff · 45 min, live and hands-on. Advocacy: mentors give you advice, sponsors spend their credibility on you. This month's theme: Retain, Grow, Move (Goal 1, Talent Marketplace &amp; Transfer Portal). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-thursday/">me5231979.github.io/Anchors-Edge/courses/feb-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/feb-thursday/web/">me5231979.github.io/Anchors-Edge/courses/feb-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M6</span> March 2027 · Coaching as the Core Manager Behavior <span class="goalpill">Goal 2 · Manager Effectiveness at Scale</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Coaching Moment</h3>
+    <p class="mini">Spotting the coaching moment hiding inside the status conversation.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Coaching Moment</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>Coaching as the Core Manager Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Manager Monday session is <b>The Coaching Moment</b>: Spotting the coaching moment hiding inside the status conversation.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Recognize a coaching moment inside an ordinary status conversation</li><li>Trade instructions for one good question that puts the thinking in their head</li><li>Run a ten-minute coaching talk with a simple four-beat shape</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-monday/">me5231979.github.io/Anchors-Edge/courses/mar-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-monday/web/">me5231979.github.io/Anchors-Edge/courses/mar-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Coaching Moment</b> · Managers · 45 min, live and hands-on. Spotting the coaching moment hiding inside the status conversation. This month's theme: Coaching as the Core Manager Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-monday/">me5231979.github.io/Anchors-Edge/courses/mar-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-monday/web/">me5231979.github.io/Anchors-Edge/courses/mar-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · The Growth Record</h3>
+    <p class="mini">Capturing your development goals and career-conversation notes in Oracle.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: The Growth Record</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Coaching as the Core Manager Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Take-Off Tuesday session is <b>The Growth Record</b>: Capturing your development goals and career-conversation notes in Oracle.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Enter one real development goal in Oracle, written so a reader can act on it</li><li>Keep a short, useful note after any career conversation you are part of</li><li>Sort what belongs on your visible record, in private notes, or nowhere at all</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/">me5231979.github.io/Anchors-Edge/courses/mar-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/mar-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · The Growth Record</b> · All staff · 45 min, live and hands-on. Capturing your development goals and career-conversation notes in Oracle. This month's theme: Coaching as the Core Manager Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/">me5231979.github.io/Anchors-Edge/courses/mar-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/mar-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · The Second Channel</h3>
+    <p class="mini">Empathy at work: hearing what isn't said.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: The Second Channel</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Coaching as the Core Manager Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Thrive Thursday session is <b>The Second Channel</b>: Empathy at work: hearing what isn't said.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Notice tone and energy shifts that carry more information than the words</li><li>Check in with a light, open question instead of assuming what a shift means</li><li>Answer the feeling in a message before answering its content</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/">me5231979.github.io/Anchors-Edge/courses/mar-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/web/">me5231979.github.io/Anchors-Edge/courses/mar-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · The Second Channel</b> · All staff · 45 min, live and hands-on. Empathy at work: hearing what isn't said. This month's theme: Coaching as the Core Manager Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/">me5231979.github.io/Anchors-Edge/courses/mar-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/mar-thursday/web/">me5231979.github.io/Anchors-Edge/courses/mar-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M7</span> April 2027 · Spot AI-Exposed Work <span class="goalpill">Goal 3 · AI-Enabled Workforce Readiness</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Exposure Map</h3>
+    <p class="mini">Walking your team's work through an AI-exposure lens.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Exposure Map</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>Spot AI-Exposed Work</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Manager Monday session is <b>The Exposure Map</b>: Walking your team's work through an AI-exposure lens.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Map your team's recurring work as tasks, separate from the people who hold them</li><li>Sort each task honestly by AI exposure: high, partial, or low</li><li>Open one team conversation that frames exposure as redesign the team helps write</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/">me5231979.github.io/Anchors-Edge/courses/apr-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/web/">me5231979.github.io/Anchors-Edge/courses/apr-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Exposure Map</b> · Managers · 45 min, live and hands-on. Walking your team's work through an AI-exposure lens. This month's theme: Spot AI-Exposed Work (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/">me5231979.github.io/Anchors-Edge/courses/apr-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-monday/web/">me5231979.github.io/Anchors-Edge/courses/apr-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · The Task Sort</h3>
+    <p class="mini">Task-decomposition: automate, augment, or leave alone.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: The Task Sort</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Spot AI-Exposed Work</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Take-Off Tuesday session is <b>The Task Sort</b>: Task-decomposition: automate, augment, or leave alone.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Break your working week into specific, repeatable tasks with outputs and rhythms</li><li>Sort each task into automate, augment, or leave alone, and know the tells for each</li><li>Test one sort call this week in an approved VU tool, checking step included</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-tuesday/">me5231979.github.io/Anchors-Edge/courses/apr-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/apr-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · The Task Sort</b> · All staff · 45 min, live and hands-on. Task-decomposition: automate, augment, or leave alone. This month's theme: Spot AI-Exposed Work (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-tuesday/">me5231979.github.io/Anchors-Edge/courses/apr-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/apr-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · The Hype Filter</h3>
+    <p class="mini">Softskill · Critical thinking: sorting hype from value.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: The Hype Filter</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Spot AI-Exposed Work</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Thrive Thursday session is <b>The Hype Filter</b>: Softskill · Critical thinking: sorting hype from value.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Run any claim through three tests: the evidence, the beneficiary, and the mind-changer</li><li>Spot the hype tells: big numbers, no baseline, urgency, and a seller in the byline</li><li>Apply the filter to one real tool-adoption decision this week</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/">me5231979.github.io/Anchors-Edge/courses/apr-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/web/">me5231979.github.io/Anchors-Edge/courses/apr-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · The Hype Filter</b> · All staff · 45 min, live and hands-on. Softskill · Critical thinking: sorting hype from value. This month's theme: Spot AI-Exposed Work (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/">me5231979.github.io/Anchors-Edge/courses/apr-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/web/">me5231979.github.io/Anchors-Edge/courses/apr-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M8</span> May 2027 · Measured Leader Behavior <span class="goalpill">Goal 2 · Manager Effectiveness at Scale</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · Your Own Evidence</h3>
+    <p class="mini">Evidence of the manager standard: what gets measured.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: Your Own Evidence</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>Measured Leader Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Manager Monday session is <b>Your Own Evidence</b>: Evidence of the manager standard: what gets measured.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Name the three evidence streams that measure the manager standard</li><li>Read your own pulse and cadence data without a defensive story</li><li>Choose one leader behavior to make more visible this month</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/may-monday/">me5231979.github.io/Anchors-Edge/courses/may-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-monday/web/">me5231979.github.io/Anchors-Edge/courses/may-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · Your Own Evidence</b> · Managers · 45 min, live and hands-on. Evidence of the manager standard: what gets measured. This month's theme: Measured Leader Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-monday/">me5231979.github.io/Anchors-Edge/courses/may-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-monday/web/">me5231979.github.io/Anchors-Edge/courses/may-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · Your Own Signal</h3>
+    <p class="mini">Pulse and 360 tooling: reading your own signal.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: Your Own Signal</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Measured Leader Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Take-Off Tuesday session is <b>Your Own Signal</b>: Pulse and 360 tooling: reading your own signal.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Explain how anonymization and aggregate reporting protect your answers</li><li>Take surveys honestly, knowing what is protected and what is shared</li><li>Read feedback you receive as signal to use rather than a verdict on you</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/may-tuesday/">me5231979.github.io/Anchors-Edge/courses/may-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/may-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · Your Own Signal</b> · All staff · 45 min, live and hands-on. Pulse and 360 tooling: reading your own signal. This month's theme: Measured Leader Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-tuesday/">me5231979.github.io/Anchors-Edge/courses/may-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/may-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · The Blind Spot</h3>
+    <p class="mini">Self-awareness: closing your blind spots.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: The Blind Spot</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>Measured Leader Behavior</b> (Goal 2: Manager Effectiveness at Scale), and this week's Thrive Thursday session is <b>The Blind Spot</b>: Self-awareness: closing your blind spots.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Describe the gap between intent and impact in your own work</li><li>Make one small, specific ask that gets a colleague to tell you the truth</li><li>Receive an honest answer without depleting yourself: thank, adjust, stop</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/may-thursday/">me5231979.github.io/Anchors-Edge/courses/may-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-thursday/web/">me5231979.github.io/Anchors-Edge/courses/may-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · The Blind Spot</b> · All staff · 45 min, live and hands-on. Self-awareness: closing your blind spots. This month's theme: Measured Leader Behavior (Goal 2, Manager Effectiveness at Scale). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-thursday/">me5231979.github.io/Anchors-Edge/courses/may-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/may-thursday/web/">me5231979.github.io/Anchors-Edge/courses/may-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <section class="monthblock">
+    <h2><span class="mnum">M9</span> June 2027 · From Insight to Action <span class="goalpill">Goal 3 · AI-Enabled Workforce Readiness</span></h2>
+    
+  <div class="sess">
+    <h3>Manager Monday · The Four Moves</h3>
+    <p class="mini">Translating AI insights into workforce moves.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Manager Monday this week: The Four Moves</p><p>Hi managers,</p>
+<p>This month Anchor's Edge is on <b>From Insight to Action</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Manager Monday session is <b>The Four Moves</b>: Translating AI insights into workforce moves.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Name the four workforce moves: reskill, redeploy, redesign, and hire</li><li>Match one AI-exposure insight from your team to the move it calls for</li><li>Commit to one move with a named owner and a real date</li></ul>
+<p><b>When:</b> Manager Monday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> Vanderbilt people managers<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-monday/">me5231979.github.io/Anchors-Edge/courses/jun-monday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-monday/web/">me5231979.github.io/Anchors-Edge/courses/jun-monday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Manager Monday · The Four Moves</b> · Managers · 45 min, live and hands-on. Translating AI insights into workforce moves. This month's theme: From Insight to Action (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-monday/">me5231979.github.io/Anchors-Edge/courses/jun-monday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-monday/web/">me5231979.github.io/Anchors-Edge/courses/jun-monday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Take-Off Tuesday · The 90-Day Plan</h3>
+    <p class="mini">Building a 90-day AI action plan.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Take-Off Tuesday this week: The 90-Day Plan</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>From Insight to Action</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Take-Off Tuesday session is <b>The 90-Day Plan</b>: Building a 90-day AI action plan.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Choose one AI-adjacent skill to build in the next 90 days</li><li>Pick one green-light task to hand to AI, cleared through the traffic light</li><li>Name one habit you will deliberately keep human, with a review date</li></ul>
+<p><b>When:</b> Take-Off Tuesday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/">me5231979.github.io/Anchors-Edge/courses/jun-tuesday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/jun-tuesday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Take-Off Tuesday · The 90-Day Plan</b> · All staff · 45 min, live and hands-on. Building a 90-day AI action plan. This month's theme: From Insight to Action (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/">me5231979.github.io/Anchors-Edge/courses/jun-tuesday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-tuesday/web/">me5231979.github.io/Anchors-Edge/courses/jun-tuesday/web/</a>)</div>
+  </div>
+  <div class="sess">
+    <h3>Thrive Thursday · Enough to Move</h3>
+    <p class="mini">Decisiveness: moving from data to move.</p>
+    <p class="tagline">Email</p>
+    <div class="msg"><p class="subj"><b>Subject:</b> [Anchor's Edge] Thrive Thursday this week: Enough to Move</p><p>Hi everyone,</p>
+<p>This month Anchor's Edge is on <b>From Insight to Action</b> (Goal 3: AI-Enabled Workforce Readiness), and this week's Thrive Thursday session is <b>Enough to Move</b>: Decisiveness: moving from data to move.</p>
+<p>In 45 live minutes you will:</p>
+<ul><li>Explain why deciding at 70 percent beats waiting for certainty</li><li>Tell reversible decisions from one-way doors, and pace each accordingly</li><li>Name one decision you have been circling and give it a deadline</li></ul>
+<p><b>When:</b> Thrive Thursday, 45 minutes, virtual (calendar invite to follow)<br>
+<b>Who:</b> all Vanderbilt staff<br>
+<b>Join:</b> open the session on your own screen at <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-thursday/">me5231979.github.io/Anchors-Edge/courses/jun-thursday/</a> when the class starts. Everything you type stays on your screen.</p>
+<p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-thursday/web/">me5231979.github.io/Anchors-Edge/courses/jun-thursday/web/</a></p>
+<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p></div>
+    <p class="tagline teams">Teams post</p>
+    <div class="msg"><b>Thrive Thursday · Enough to Move</b> · All staff · 45 min, live and hands-on. Decisiveness: moving from data to move. This month's theme: From Insight to Action (Goal 3, AI-Enabled Workforce Readiness). Bring the deck to your own screen: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-thursday/">me5231979.github.io/Anchors-Edge/courses/jun-thursday/</a> (missed it? self-paced: <a href="https://me5231979.github.io/Anchors-Edge/courses/jun-thursday/web/">me5231979.github.io/Anchors-Edge/courses/jun-thursday/web/</a>)</div>
+  </div>
+  </section>
+  <p class="mini" style="margin-top:16px;color:#777">Generated from the course specs by tools/build-comms.py. Regenerate after any title or tagline change.</p>
+</div>
+</body>
+</html>

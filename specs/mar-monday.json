@@ -69,7 +69,7 @@
    },
    "interaction": {
     "type": "check",
-    "context": "Picture this morning's 1:1s across Vanderbilt. A coordinator finishes a status update, then adds: 'Honestly, I second-guess every one of these decisions.' In most rooms that aside gets a quick reassurance or a fix, and the door closes politely. The update carried the work; the aside carried the person.",
+    "context": "Picture this morning's 1:1s across Vanderbilt. A coordinator finishes an update, then adds: 'Honestly, I second-guess every one of these decisions.' In most rooms that aside gets quick reassurance or a fix, and the door closes politely. The update carried the work; the aside carried the person.",
     "discuss": "Think of the last aside you drove past in a 1:1. What made it easy to miss, and what was the person really telling you?",
     "card": {
      "tag": "The tell",
