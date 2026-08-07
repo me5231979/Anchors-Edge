@@ -50,14 +50,14 @@
         "discuss": "Where in your work does your intent most often get misread, and who actually saw how it landed?",
         "q": "Why can't you find your own blind spot by reflecting harder?",
         "opts": [
-          {"t": "You can, with enough journaling", "correct": false, "why": "Eurich's studies found introspection alone rarely improves self-awareness. Solo replay only produces your side, the intent; the missing data lives in other people's experience of you."},
+          {"t": "You can, with enough journaling", "correct": false, "why": "Eurich found introspection alone rarely improves self-awareness. Solo replay produces your side, the intent; the missing data is other people's experience of you."},
           {"t": "Blind spots are permanent personality traits", "correct": false, "why": "They are closeable, which is the good news. A blind spot is just missing information, and information can be supplied by anyone who saw the impact."},
           {"t": "The missing data is other people's experience of you", "correct": true, "why": "Exactly. You hold the intent; they hold the impact. Closing the gap always requires at least one other person's honest account."}
         ]
       },
       "deeper": {
         "title": "Why the gap grows with influence",
-        "body": "Eurich's team found that experience and power hinder self-awareness: the more senior people get, the less unprompted truth they hear, since everyone edits harder for someone who can affect their week. Blind spots grow at the pace candor shrinks, which is why waiting to be told rarely works. The likeliest people to see your gap are the ones closest to the work and least obliged to flatter you: peers on shared projects, partners in other units.",
+        "body": "Eurich's team found that experience and power hinder self-awareness: the more senior people get, the less unprompted truth they hear, since everyone edits harder for someone who can affect their week. Blind spots grow at the pace candor shrinks, so waiting to be told rarely works. The likeliest people to see your gap are the ones least obliged to flatter you: peers on shared projects, partners in other units.",
         "steps": [
           "List three people who see your work's impact up close. Star the one least obliged to flatter you.",
           "Write one recent moment where their read of you might differ from yours. That moment is raw material for the ask you build in section two."
