@@ -129,9 +129,12 @@ def session_row(m, day, label, aud):
         </div>'''
 
 
-AVAIL = {1: "2026-10-01", 2: "2026-11-01", 3: "2026-12-01", 4: "2027-01-01",
-         5: "2027-02-01", 6: "2027-03-01", 7: "2027-04-01", 8: "2027-05-01",
-         9: "2027-06-01"}
+# Each month opens one month before it runs, so next month is always browsable.
+AVAIL = {1: "2026-01-01", 2: "2026-10-01", 3: "2026-11-01", 4: "2026-12-01",
+         5: "2027-01-01", 6: "2027-02-01", 7: "2027-03-01", 8: "2027-04-01",
+         9: "2027-05-01"}
+OPENS = {1: "", 2: "Oct 1", 3: "Nov 1", 4: "Dec 1",
+         5: "Jan 1", 6: "Feb 1", 7: "Mar 1", 8: "Apr 1", 9: "May 1"}
 
 
 def workshop_row(m):
@@ -165,7 +168,7 @@ def month_card(m):
           <span class="month__num">M{m["n"]}</span>
           <span class="month__date">{esc(m["date"])}</span>
           <span class="month__goal">Goal {m["goal"]} · {esc(g["short"])}</span>
-          <span class="month__release">Releases {esc(m["date"])}</span>
+          <span class="month__release">Opens {OPENS[m["n"]]}</span>
         </div>
         <h3>{esc(m["theme"])}</h3>
         <p class="month__tagline">{esc(m["tagline"])}</p>

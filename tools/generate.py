@@ -346,6 +346,61 @@ def section_html(sec, num):
                    "deeper": deeper, "source": source}
 
 
+def printsheet_html(spec):
+    """The one thing a learner should get from Ctrl+P: the takeaway, not the deck."""
+    g = GOALS[spec["goal"]]
+    objectives = "".join("<li>%s</li>" % esc(o) for o in spec["objectives"])
+    rows = ""
+    for i, sec in enumerate(spec["sections"], start=1):
+        it = sec["interaction"]
+        if it["type"] == "check":
+            take = it["card"]["text"]
+        elif it["type"] == "trainer":
+            take = it["passMsg"]
+        else:
+            take = it["heads"]["strong"]
+        src = ""
+        if sec.get("source"):
+            src = ('<p class="ps__src">Grounded in: <a href="%s">%s</a></p>'
+                   % (esc(sec["source"]["url"]), esc(sec["source"]["label"])))
+        rows += ('<div class="ps__sec"><h3>%d &middot; %s</h3><p>%s</p>%s</div>'
+                 % (i, esc(strip_tags(sec["headline"])), esc(take), src))
+    cap = spec["capstone"]
+    moves = "".join("<li><b>%s.</b> %s</li>" % (esc(pr["name"]), esc(pr["move"]))
+                    for pr in cap["practices"])
+    deeper = ""
+    for sec in spec["sections"]:
+        d = sec.get("deeper")
+        if d:
+            steps = "".join("<li>%s</li>" % esc(x) for x in d["steps"])
+            deeper += ('<div class="ps__sec"><h3>%s</h3><ol>%s</ol></div>'
+                       % (esc(d["title"]), steps))
+    deeper_block = ("<h2>Practise it on your own</h2>" + deeper) if deeper else ""
+    parts = [
+        '\n  <section class="printsheet" aria-label="Takeaway sheet">',
+        '    <header class="ps__head">',
+        '      <p class="ps__eyebrow">Anchor&#39;s Edge &middot; %s &middot; %s</p>' % (esc(spec["series"]), esc(spec["month"])),
+        '      <h1>%s</h1>' % esc(spec["title"]),
+        '      <p class="ps__tagline">%s</p>' % esc(spec["tagline"]),
+        '      <p class="ps__goal">Goal %d &middot; %s</p>' % (spec["goal"], esc(g["short"])),
+        '    </header>',
+        '    <h2>What this session builds</h2>',
+        '    <ol class="ps__obj">%s</ol>' % objectives,
+        '    <h2>The rule to remember</h2>',
+        '    <p class="ps__manifesto">%s</p>' % esc(spec["manifesto"]),
+        '    <h2>What each part taught</h2>',
+        '    %s' % rows,
+        '    <h2>Your commitment</h2>',
+        '    <p>%s</p>' % esc(cap["lead"]),
+        '    <ul class="ps__moves">%s</ul>' % moves,
+        '    <p class="ps__write"><b>Mine:</b> ' + ('.' * 46) + ' &nbsp; <b>By when:</b> ' + ('.' * 14) + '</p>',
+        '    %s' % deeper_block,
+        '    <p class="ps__foot">%s</p>' % (SITE + "courses/" + spec["slug"] + "/"),
+        '  </section>\n',
+    ]
+    return "\n".join(parts)
+
+
 def course_config_js(spec):
     trainers, labs = [], []
     for sec in spec["sections"]:
@@ -421,6 +476,7 @@ def build_course(spec):
         "nextTag": esc(closing["nextTag"]), "nextTitle": esc(closing["nextTitle"]),
         "nextBody": esc(closing["nextBody"]), "brandline": esc(closing["brandline"]),
         "footerSections": footer_sections,
+        "printsheet": printsheet_html(spec),
         "config": course_config_js(spec),
         "slideCount": "12",
     }
@@ -611,8 +667,23 @@ def run(slug):
     print("built courses/%s (index.html + facilitator/notes.json)" % slug)
 
 
+def prune():
+    """Remove generated course folders whose spec no longer exists."""
+    import shutil
+    specs = {f[:-5] for f in os.listdir(os.path.join(ROOT, "specs")) if f.endswith(".json")}
+    cdir = os.path.join(ROOT, "courses")
+    if not os.path.isdir(cdir):
+        return
+    for d in sorted(os.listdir(cdir)):
+        if d not in specs and os.path.isdir(os.path.join(cdir, d)):
+            shutil.rmtree(os.path.join(cdir, d))
+            print("pruned orphaned courses/%s (no spec)" % d)
+
+
 if __name__ == "__main__":
-    slugs = sys.argv[1:]
+    slugs = [a for a in sys.argv[1:] if not a.startswith("-")]
+    if "--prune" in sys.argv or not slugs:
+        prune()
     if not slugs:
         slugs = sorted(f[:-5] for f in os.listdir(os.path.join(ROOT, "specs"))
                        if f.endswith(".json"))

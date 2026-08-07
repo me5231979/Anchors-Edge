@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def is_workshop(slug):
     p = os.path.join(ROOT, 'specs', slug + '.json')
     if not os.path.exists(p):
-        return False
+        raise SystemExit('%s: no spec; run tools/generate.py --prune to clear orphans' % slug)
     return json.load(open(p)).get('format') == 'workshop'
 
 
