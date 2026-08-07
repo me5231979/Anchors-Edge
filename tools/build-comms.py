@@ -61,7 +61,7 @@ def email_for(spec, m, day_label):
 <b>Who:</b> {aud}<br>
 <b>Join:</b> open the session on your own screen at <a href="{url}">{url.replace("https://", "")}</a> when the class starts. Everything you type stays on your screen.</p>
 <p>Can't make it live? The self-paced edition covers the same ground with extra practice: <a href="{url}web/">{url.replace("https://", "")}web/</a></p>
-<p>See you there,<br>The Futures Learning Hub team<br>chart@vanderbilt.edu</p>"""
+<p>See you there,<br>The Futures Learning Hub team</p>"""
     return subject, body
 
 
