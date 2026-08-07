@@ -122,9 +122,10 @@
       "dataTitle": "Receiving without depleting",
       "eyebrow": "The Receipt",
       "headline": "Receive it like data, at <em>arm's length</em>.",
-      "lead": "The reason people stop asking for truth is the cost of hearing it. The sustainable receipt is small on purpose: one thank you, one adjustment, and a full stop, with no week-long spiral attached. Cheap receipts are what make asking again possible.",
+      "lead": "In Thanks for the Feedback, Stone and Heen name what makes honesty expensive: the identity trigger, when one sentence about a handoff starts reading as a verdict on who you are. The sustainable receipt stays small. Thank them, adjust once, stop.",
       "group": "Pairs: what does your version of the spiral look like after hard feedback, and what would the full stop look like? 90 seconds each way.",
       "solo": "Describe your version of the spiral after hard feedback, then write what the full stop would look like instead.",
+      "source": {"label": "Thanks for the Feedback, Douglas Stone and Sheila Heen (Harvard Negotiation Project)", "url": "https://www.penguinrandomhouse.com/books/313485/thanks-for-the-feedback-by-douglas-stone-and-sheila-heen/"},
       "interaction": {
         "type": "trainer",
         "playTitle": "Call the receipt",
@@ -133,7 +134,7 @@
         "labels": ["Clean receipt, sustainable", "Deflection, gap stays open", "Spiral, too expensive"],
         "passAt": 2,
         "passMsg": "You can tell them apart. The clean receipt is one thank you, one adjustment, and a full stop, which is why it is repeatable.",
-        "failMsg": "Close. The tell: deflection protects you from the truth, the spiral overpays for it, and the clean receipt takes it at actual size.",
+        "failMsg": "Nearly. Deflection protects you from the truth and the spiral overpays for it; the clean receipt takes the sentence at its actual size.",
         "items": [
           {"q": "Told her updates run long, a coordinator laughs it off: everyone says that, and the meetings are just packed.", "answer": 1, "why": "The laugh and the instant explanation close the door. The colleague risked honesty and learned it bounces; the blind spot stays exactly where it was."},
           {"q": "Told his emails read as curt, an analyst thanks his colleague, adds one warmer opening line to his template, and moves on with his day.", "answer": 0, "why": "One thank you, one adjustment, one afternoon. He can afford to ask again next quarter, which is the whole point of receiving well."},
@@ -173,8 +174,8 @@
   ],
   "recapMsgs": {
     "high": "The loop is yours: ask small, receive clean, adjust once. Now pick your colleague.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Good. Look back at the section you missed, then pick your colleague.",
+    "low": "Walk the loop once more before you decide who to ask."
   },
   "capstone": {
     "eyebrow": "Capstone · My truth ask",
@@ -249,7 +250,7 @@
     "s3": {
       "title": "Receiving without depleting",
       "purpose": "Install the clean receipt: one thank you, one adjustment, a full stop, so asking stays affordable.",
-      "say": "Last piece, and it is the one that keeps the loop alive. The reason most of us quietly stop asking for truth is that hearing it costs too much: the deflection costs the relationship, and the spiral costs the week. The clean receipt is deliberately small. Thank them once, because they took a risk for you. Make one adjustment, because that is what the sentence was for. Then full stop. If the receipt is cheap, you will ask again, and asking again is the whole game.",
+      "say": "Last piece, and it is the one that keeps the loop alive. The reason most of us quietly stop asking for truth is that hearing it costs too much. Stone and Heen, in Thanks for the Feedback, call the expensive part the identity trigger: a comment about one handoff starts to feel like a ruling on who you are. The clean receipt is deliberately small. Thank them once, because they took a risk for you. Make one adjustment, because that is what the sentence was for. Then full stop. If the receipt is cheap, you will ask again, and asking again is the whole game.",
       "facilitate": [
         "Run Call the receipt live on learner screens.",
         "After round three, pause on the spiral: ask why over-absorbing feels virtuous.",

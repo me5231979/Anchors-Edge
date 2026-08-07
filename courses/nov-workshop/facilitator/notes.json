@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
-   "minutes": 3,
+   "title": "Why we're here",
+   "minutes": 4,
    "coreMinutes": 2,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Radical Collaboration needs people who can find each other by skill across every boundary in the university. Every profile made legible in this room is another connection the map can make, and another career that can grow without leaving.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Radical Collaboration needs people who can find each other by skill across every boundary in the university, and every profile made legible in this room is another connection the map can make. This month serves Goal 1, Talent Marketplace & Transfer Portal.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 3,
-   "coreMinutes": 2,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 1, Talent Marketplace & Transfer Portal: Launch the Talent Marketplace and the Transfer Portal: helping leaders see talent needs, retain top talent, strengthen succession, and connecting employees to internal opportunities across the university. Goal 1 promised to connect people to internal opportunity. This clinic is the promise kept in person: your profile, your search, and your raised hand, with a navigator in the room.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 90 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "The line rewrite",
    "purpose": "Calibrate the searcher's ear, then get every profile's weakest line rewritten with a partner's help.",
-   "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. We will train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
+   "say": "Devices out, profiles open; this hour is a working clinic. Before we edit, we calibrate. A searcher in a hurry types activities: onboarding, grant budgeting, event logistics. Whatever those words land on gets found; everything else is invisible. Deloitte's research on internal talent marketplaces says the whole machine runs on the skills data people volunteer, so today we make yours worth running on. We train your ear on three lines, then your table partner reads yours the way a searcher would, and the invisible ones get rewritten right here, where help is cheap.",
    "facilitate": [
     "Confirm every device has the profile open before anything else; walk the room and unstick logins with the navigator team.",
     "Run Findable or invisible? from the front; the room calls each line aloud before you reveal.",
@@ -168,12 +155,12 @@
     ],
     "respond": "That is why the clinic is in person. You cannot proofread your own self-image; a partner reads the words that are actually there."
    },
-   "debrief": "The searcher's ear is the tool you take home: named activities get found, duties need unpacking, adjectives are invisible.",
+   "debrief": "The searcher's ear is the tool you take home. If a line names a real activity it gets found; praise words never do.",
    "watchFor": "People underselling themselves in the rewrite. Send partners after it: ask what colleagues borrow you for, and write that.",
    "transition": "The profile is the antenna. Now we point it at something real.",
    "coreNote": "Core: skip the before-and-after read-alouds; pairs rewrite one line instead of trading full reviews.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -199,8 +186,8 @@
    "transition": "You are holding one real opening. The last section is what you do about it before you leave.",
    "coreNote": "Core: shorten the search to one navigator-suggested example per table; the comparative read still runs on real profiles.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Hand up or barrier named",
@@ -259,8 +246,8 @@
   {
    "id": "s-plan",
    "title": "Capstone commitment",
-   "minutes": 6,
-   "coreMinutes": 4,
+   "minutes": 5,
+   "coreMinutes": 3,
    "purpose": "Convert the session into one named, dated action per person.",
    "say": "Last two minutes of building. The card holds your opening, your exit, and the move that keeps the momentum: the next line, the navigator twenty, or the open word with your manager. Write it, copy it to your phone, and if your exit was a raised hand, consider making it real before you stand up. The navigators are staying after; barriers welcome.",
    "facilitate": [
