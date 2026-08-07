@@ -10,7 +10,7 @@
  "titleHtml": "Your next move, <em class=\"gold-text\">planned on purpose</em>.",
  "tagline": "Using the Talent Marketplace and the Transfer Portal to plan your own growth and next internal move.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: point the talent systems you already know at your own career, name the direction you want next, and treat an internal move as a career path the university wants you to take.",
- "heroLead": "You learned the Transfer Portal earlier in the series. This session points it, and the Talent Marketplace, at the career that matters most to you: your own. Name a direction, make your profile match it, and plan the move you would say yes to.",
+ "heroLead": "You already know the tools. Today you point the Talent Marketplace and the Transfer Portal at your own career: a named direction and a move you would say yes to.",
  "objectives": [
   "Use the Talent Marketplace and the Transfer Portal together to plan your own growth and next move",
   "Name a specific direction and bring your skills profile current enough to match it",
@@ -31,8 +31,7 @@
    "label": "Workforce Agility"
   }
  ],
- "missionTie": "Defining the great university of the 21st Century takes talent that keeps growing here. Destination Vanderbilt means people choose to come; a staff member with a real plan for their next internal move is someone who keeps choosing to stay.",
- "goalLead": "Goal 1 connects employees to internal opportunities across the university. The systems exist and you know them; today is about pointing them at your own growth and your own next move.",
+ "missionTie": "Destination Vanderbilt means people choose to come here, and a staff member with a real plan for their next internal move keeps choosing to stay.",
  "agenda": [
   {
    "t": "The tools, pointed at you",
@@ -62,7 +61,7 @@
     "type": "check",
     "card": {
      "tag": "The planning kit",
-     "text": "Read the two systems as one kit. The Talent Marketplace grows you where you are: skills profile, stretch projects, growth work. The Transfer Portal moves you when you are ready: internal roles across Vanderbilt. A real plan uses both."
+     "text": "Read the two systems as one kit. The Talent Marketplace grows you where you are, through your skills profile and stretch work. The Transfer Portal carries the move once you are ready. A real plan uses both, in that order."
     },
     "context": "Everyone in this room already knows the Transfer Portal; the series taught it in depth. What most people have never done is sit down with the Marketplace and the Portal open and ask the selfish question: what is my plan? Today is that hour, with the university's explicit blessing.",
     "discuss": "When you learned the Portal earlier in the series, what did you privately wonder about your own next move? Say the honest version out loud.",
@@ -177,7 +176,11 @@
    "dataTitle": "Moving is normal",
    "eyebrow": "The Culture",
    "headline": "An internal move is a <em>career path</em>.",
-   "lead": "The systems only work if people believe using them is safe. So hear the policy out loud: internal mobility is a normal, encouraged career path at Vanderbilt. Keeping talent inside the university is the point of Goal 1. Some old myths need retiring first.",
+   "lead": "Hear the policy plainly: internal mobility is a normal, encouraged career path at Vanderbilt. LinkedIn's research finds organizations good at internal mobility keep people nearly twice as long. The old myths saying otherwise need retiring.",
+   "source": {
+    "label": "Internal mobility and retention, LinkedIn Workplace Learning research",
+    "url": "https://learning.linkedin.com/resources/internal-mobility/internal-mobility-best-practices"
+   },
    "group": "In pairs: what have you heard, in any workplace, about what happens to people who apply internally? Myth or real, 90 seconds each way.",
    "solo": "Write down one thing you have believed about applying internally. After this section, decide: myth or real?",
    "interaction": {
@@ -192,7 +195,7 @@
     ],
     "passAt": 2,
     "passMsg": "You can hear the difference. Retire the myths out loud; they only survive in silence.",
-    "failMsg": "Close. The tell: myths punish ambition, normal moves grow careers inside Vanderbilt, and readiness gaps are just profiles waiting to be written.",
+    "failMsg": "Close. The tell: a myth punishes ambition. A normal move grows a career inside Vanderbilt, and a readiness gap is just a profile nobody wrote yet.",
     "items": [
      {
       "q": "'Don't let your manager see you looking at internal postings. They'll take it personally.'",
@@ -258,7 +261,7 @@
  ],
  "recapMsgs": {
   "high": "The plan is in reach. Now write the profile and the direction down for real.",
-  "mid": "Solid. Take another look at the findability section, then build your card.",
+  "mid": "Close. The findability section is worth one more look before you build your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
  "capstone": {
@@ -311,7 +314,7 @@
  },
  "closing": {
   "headline": "Plan the growth. <em>Make the move.</em>",
-  "lead": "You pointed the tools at your own career, built a findable profile, and retired the old myths. Thursday deepens the same theme with the skill that moves careers fastest: advocacy.",
+  "lead": "Your plan has a direction now, and the tools know what to do with it. Thursday adds the skill that moves careers fastest: someone willing to back you out loud.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the move on your card",
   "nextBody": "Run it as built: one honest hour, one named direction, or one deliberate Portal scan. Curious what makes people stay and grow? This month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.",
@@ -323,7 +326,7 @@
   "s1": {
    "title": "The tools, pointed at you",
    "purpose": "Reconnect the room to the two talent systems and turn them from things people know into a personal planning kit.",
-   "say": "You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your growth, your direction, your next move, planned on purpose.",
+   "say": "You already know the Transfer Portal; the series spent a whole month on it. Today we get selfish with it. The Talent Marketplace holds your skills and surfaces growth work; the Portal carries the internal moves. Most people learn tools like these and never once point them at their own career. That is the whole agenda today: your own growth, planned on purpose.",
    "facilitate": [
     "Read the concept card once; the two-jobs split is the whole slide.",
     "Show the In the room card, then open the discussion prompt: what did you privately wonder about your own next move? Take two or three voices.",
@@ -369,7 +372,7 @@
   "s3": {
    "title": "Moving is normal",
    "purpose": "Retire the loyalty myths and state internal mobility as a normal, encouraged Vanderbilt career path.",
-   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. A move across the university keeps your talent, your relationships, and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
+   "say": "None of the tooling matters if people believe using it is dangerous. So hear it stated plainly: internal mobility is a normal, encouraged career path at Vanderbilt. LinkedIn's workplace research backs it with numbers; organizations good at internal mobility keep their people nearly twice as long. A move across the university keeps your skills and your institutional knowledge here. The alternative to an internal move is usually an external one, and everybody loses that trade.",
    "facilitate": [
     "Run Myth or normal? live; everyone plays on their own screen.",
     "After round one, pause: ask who has heard that myth somewhere, show of hands or chat.",
@@ -384,7 +387,7 @@
     ],
     "respond": "Name each one back to the room. The manager fear is the myth we just retired; the qualification fear is why matching runs on skills, never titles."
    },
-   "debrief": "Myths punish ambition, and they only survive in silence. Vanderbilt is saying the opposite out loud: move, grow, stay.",
+   "debrief": "Myths only survive in silence, and Vanderbilt is saying the opposite out loud. The numbers agree: people who can move inside an organization stay with it.",
    "watchFor": "Anyone hearing this as a promise of promotions. The commitment is visibility of opportunity and safety to pursue it, never a guaranteed yes.",
    "transition": "Quick recap, then you build your next-move card.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question."

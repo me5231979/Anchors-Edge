@@ -11,7 +11,7 @@
   "titleHtml": "Walk the standard with <em class=\"gold-text\">evidence in hand</em>.",
   "tagline": "The Manager Standard walk-through clinic: evidence, commitments, rehearsal.",
   "description": "An in-person navigator-led clinic for Vanderbilt managers: walk every behavior of the Vanderbilt manager standard against your own evidence, draft one witnessable commitment per gap, and rehearse saying it out loud in pairs.",
-  "heroLead": "Monday's session taught the witness test. This clinic makes you run it, line by line, against your own year: a date and a witness for every behavior, a drafted commitment for every gap, and the words rehearsed out loud before you use them.",
+  "heroLead": "Monday taught the witness test. This clinic runs it against your whole year: a date and a witness for every behavior, and a drafted commitment for every gap.",
   "objectives": [
     "Walk every behavior of the standard with a date and a witness, or an honest blank",
     "Draft one witnessable commitment per gap: the act, the rhythm, the first instance",
@@ -23,8 +23,7 @@
     {"label": "Accountability"},
     {"label": "Leadership Behaviors"}
   ],
-  "missionTie": "The great university of the 21st Century will be led by managers whose good behavior is visible, ordinary, and expected. This clinic is Exceptional Core Operations at its most personal: one manager, one standard, evidence on the table.",
-  "goalLead": "Goal 2 measures demonstrated leader behavior, and demonstrated has a paper trail. Today every manager builds theirs: the evidence walk, the commitment, and the language to say it out loud.",
+  "missionTie": "The great university of the 21st Century will be led by managers whose good behavior is visible and ordinary, which makes this clinic Exceptional Core Operations at its most personal.",
   "agenda": [
     {"t": "The evidence walk", "d": "Every line of the standard gets a date and a witness, or an honest blank."},
     {"t": "The commitment draft", "d": "Each gap becomes one witnessable commitment: the act, the rhythm, the start."},
@@ -38,13 +37,17 @@
       "dataTitle": "The evidence walk",
       "eyebrow": "Step One",
       "headline": "Every line gets a date or a <em>blank</em>.",
-      "lead": "Take the printed standard, one line at a time. For each behavior, write the last instance a colleague could point to: a date, plus the witness or the artifact. No instance comes to mind? Leave the line blank. Blanks are the most useful ink in this room.",
+      "lead": "Gallup traces about 70 percent of a team's engagement to its manager, so this audit has earned its hour. Walk the printed standard and date each line's last instance, witness or artifact attached, or leave it blank. Blanks are the most useful ink in this room.",
+      "source": {
+        "label": "Gallup: managers account for 70 percent of the variance in team engagement",
+        "url": "https://news.gallup.com/businessjournal/182792/managers-account-variance-employee-engagement.aspx"
+      },
       "group": "At your table: name one line where your evidence surprised you, stronger or weaker than expected. Blanks are findings, never confessions, and every sheet has them.",
       "interaction": {
         "type": "check",
         "card": {
           "tag": "What counts as evidence",
-          "text": "Evidence is an instance: a date, plus a witness or an artifact. The 1:1 on the calendar, the written feedback in Oracle, the expectation said in a meeting people remember. A warm impression of yourself is no instance. Dates or blanks."
+          "text": "Evidence is an instance: a date, plus a witness or an artifact. The 1:1 on the calendar counts, and so does written feedback logged in Oracle. A warm impression of yourself is no instance. Dates or blanks."
         },
         "q": "Quick check: which of these counts as evidence on your walk sheet?",
         "opts": [
@@ -52,7 +55,7 @@
           {"t": "Written feedback sent after the last project milestone, logged in Oracle", "correct": true, "why": "A date and an artifact any colleague could point to. This is what demonstrated means, and it is the only currency today's walk accepts."},
           {"t": "My team knows my door is always open", "correct": false, "why": "A state claim: it happens at no time and no place, so nobody could witness it. Convert it to instances, like held office hours, or leave the line blank."}
         ],
-        "context": "Monday introduced the witness test as an idea. The clinic runs it as an audit, and paper changes the experience: your year, line by line, in your own handwriting, with blanks you cannot scroll past. Most managers find two surprises: evidence they forgot, and a blank they were sure was covered.",
+        "context": "Monday introduced the witness test as an idea. The clinic runs it as an audit, and paper changes the experience: your year in your own handwriting, with blanks you cannot scroll past. Most managers find two surprises, evidence they forgot and a blank they were sure was covered.",
         "discuss": "Which blank surprised you most, and what was filling that space in your self-image before today?"
       }
     },
@@ -185,7 +188,7 @@
     "s1": {
       "title": "The evidence walk",
       "purpose": "Every manager audits the full standard on paper: a date and a witness per line, or an honest blank.",
-      "say": "Sheets out, pens up. Monday you met the witness test as an idea; today you run it as an audit. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
+      "say": "Sheets out, pens up. One number before you start. Gallup has studied millions of workers and puts about 70 percent of the difference in team engagement down to a single variable, the manager. That is why this hour goes to paper and honesty. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
       "facilitate": [
         "Distribute the walk sheets; the flip chart carries the evidence rule: an instance is a date plus a witness or an artifact.",
         "Give the room long quiet time; walk the tables and gently challenge suspiciously full sheets by asking for the date on one entry.",

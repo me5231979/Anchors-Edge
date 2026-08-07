@@ -10,7 +10,7 @@
   "titleHtml": "Your next 90 days, <em class=\"gold-text\">on one card</em>.",
   "tagline": "Building a 90-day AI action plan.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: build a personal 90-day AI action plan with one skill to build, one green-light task to hand to AI, and one habit to keep human.",
-  "heroLead": "A year of AI learning lands in a plan you can hold: one skill you will build, one green task you will hand to AI, one habit you will keep human. Small enough to finish, dated enough to check, yours enough to matter.",
+  "heroLead": "A year of AI learning lands in a plan with three lines: a skill to build, a task to hand to AI, a habit to keep human. Small enough to actually finish in 90 days.",
   "objectives": [
     "Choose one AI-adjacent skill to build in the next 90 days",
     "Pick one green-light task to hand to AI, cleared through the traffic light",
@@ -21,14 +21,13 @@
     {"label": "Planning and Prioritization"},
     {"label": "Adaptability"}
   ],
-  "missionTie": "Defining the great university of the 21st Century is the work of thousands of individual plans, yours included. Exceptional Core Operations happens when every staff member knows what AI takes, what they keep, and what they build next.",
-  "goalLead": "Goal 3 measures whether AI insight becomes practical action. Your 90-day plan is the smallest complete unit of that action: personal, dated, reviewable.",
+  "missionTie": "Defining the great university of the 21st Century happens one personal plan at a time, and Exceptional Core Operations runs on staff who know their own next step with AI.",
   "agenda": [
     {"t": "One skill to build", "d": "Pick a skill that is small, near your real work, and finishable in 90 days."},
     {"t": "One task for AI", "d": "Choose a green task to hand over, and run it through the traffic light first."},
     {"t": "One habit to keep human", "d": "Name the thing you keep doing yourself, on purpose, and date the review."}
   ],
-  "manifesto": "A 90-day plan beats a someday intention: one skill, one task, one habit, all dated.",
+  "manifesto": "A dated 90-day plan beats a someday intention, and it only takes three lines.",
   "sections": [
     {
       "id": "s-one",
@@ -36,7 +35,7 @@
       "dataTitle": "One skill to build",
       "eyebrow": "One Skill",
       "headline": "Pick a skill you can <em>finish</em>.",
-      "lead": "The best 90-day skill goal is embarrassingly small. Prompting AI well for your weekly report beats mastering AI. Reading one dashboard beats learning analytics. Small and finished builds more capability than ambitious and abandoned, every time.",
+      "lead": "The best 90-day skill goal is embarrassingly small. Prompting a solid first draft of your weekly report beats mastering AI, because you will actually finish it. Ambitious and abandoned builds nothing.",
       "group": "In pairs: trade one skill you could realistically build by September. Partner's job: shrink it until it honestly fits 90 days. 90 seconds each way.",
       "solo": "Write one skill you could realistically build by September. Then shrink it until it honestly fits 90 days.",
       "deeper": {
@@ -102,7 +101,8 @@
       "dataTitle": "One habit to keep human",
       "eyebrow": "One Habit",
       "headline": "Choose what stays <em>yours</em>.",
-      "lead": "The third line is a quiet promise: one habit you keep doing yourself, on purpose. The thank-you written by hand, the hard message drafted alone, the first read of a colleague's work. Naming what stays human keeps you the one steering.",
+      "lead": "The third line is a quiet promise: one habit you keep doing yourself, on purpose. Maybe it is the hard message you draft alone, because drafting is how you think. Naming what stays human keeps you the one steering.",
+      "source": {"label": "If-then planning, Heidi Grant, Harvard Business Review (2014)", "url": "https://hbr.org/2014/05/get-your-team-to-do-what-it-says-its-going-to-do"},
       "deeper": {
         "title": "Why the habit line holds the plan",
         "body": "The habit line looks decorative and does the most work. People who cannot say what they keep swing between refusing AI entirely and drifting into handoffs they never chose. A named habit is the anchor that makes every other handoff deliberate. Choose one where the doing changes you, like the hard message you draft alone because drafting is how you think. If losing the habit would cost you nothing, pick a truer one.",
@@ -123,7 +123,7 @@
             "opts": [
               {"t": "Three good intentions, kept in your head where they feel safe.", "pts": 1, "coach": "Heads are where plans go to feel finished. By August the three lines will have quietly become zero."},
               {"t": "Three lines in a note on your desktop, no dates attached.", "pts": 2, "coach": "Written beats remembered. But undated lines read as suggestions, and suggestions lose to any busy week."},
-              {"t": "Three dated lines: the skill, the handoff, the habit, each with a when.", "pts": 3, "coach": "Dates turn lines into appointments. The plan now argues for itself every time you open your calendar."}
+              {"t": "Three dated lines: the skill, the handoff, the habit, each with a when.", "pts": 3, "coach": "Dates turn lines into appointments. Heidi Grant's if-then research found that naming the when makes follow-through far more likely."}
             ]
           },
           {
@@ -165,7 +165,7 @@
       "q": "What is the strongest way to keep a 90-day plan alive?",
       "opts": ["Willpower and good intentions", "A day-90 reminder", "A day-30 review with a colleague who has your plan", "Adding more goals"],
       "correct": 2,
-      "why": "An early checkpoint plus a witness. A review at the end is an autopsy; day 30 is where a live plan gets fixed."
+      "why": "An early checkpoint plus a witness catches a stalled plan while there is still time to restart it."
     }
   ],
   "recapMsgs": {
@@ -175,7 +175,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My 90-day plan",
-    "headline": "Three lines. Ninety days. <em>Starts today.</em>",
+    "headline": "Three lines, and the clock <em>starts today</em>.",
     "lead": "Write your three lines: the skill, the green-light handoff, the human habit. Keep everything task level, no names, no private details. Nothing you type is saved or sent.",
     "whoLabel": "Your three lines: one skill, one green task for AI, one habit kept human.",
     "whoPlaceholder": "e.g. prompt drafts for weekly report; hand over public event blurbs; keep thank-yous handwritten",
@@ -200,7 +200,7 @@
     "nextTag": "Your one next step · This week",
     "nextTitle": "Date all three lines and book the day-30 review",
     "nextBody": "Put the skill rep, the handoff, and the habit on real days, and send your plan to one colleague. If change is the water you are swimming in, this month's LinkedIn Learning pick, Leading Your Team Through Change, is a good companion.",
-    "brandline": "One skill. One handoff. One habit. Dated."
+    "brandline": "Write the three lines, then date them."
   },
   "facilitator": {
     "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. June closes the series year with From Insight to Action; the traffic light from January and April carries straight in.",
@@ -246,7 +246,7 @@
     "s3": {
       "title": "One habit to keep human",
       "purpose": "Name a deliberate human habit and assemble the dated, reviewable plan.",
-      "say": "The third line is different: it is the thing you keep doing yourself, on purpose. Everyone has work where the doing is the point: the hard message, the handwritten thanks, the first read of a colleague's draft. Naming yours keeps the plan honest. Then we assemble all three lines into something with dates and a witness.",
+      "say": "The third line is different: it is the thing you keep doing yourself, on purpose. Everyone has work where the doing is the point; for a lot of us it is the hard message we need to draft alone. Naming yours keeps the plan honest. Then we assemble all three lines into something with dates and a witness, and the dates are not decoration. Heidi Grant's if-then planning research in HBR found that people who decide in advance when and where they will act follow through at far higher rates. A dated line is an if-then in disguise.",
       "facilitate": [
         "Ask for human-habit examples in chat before the builder; read two aloud.",
         "Run Assemble the plan; two minutes for both choices.",

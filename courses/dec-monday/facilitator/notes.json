@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes managers who lead well on purpose. A shared, visible standard of leader behavior is Exceptional Core Operations made personal: every team gets a manager who knows what good looks like.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes managers who lead well on purpose, and a visible standard makes Exceptional Core Operations personal: every team gets a manager who knows what good looks like. This month serves Goal 2, Manager Effectiveness at Scale.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Goal 2 commits Vanderbilt to a manager standard that measures demonstrated leader behavior. Today you meet the standard itself, so demonstrated stops being an abstraction.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "Behaviors, on the record",
    "purpose": "Establish that every line of the Vanderbilt manager standard is an observable, demonstrable behavior.",
-   "say": "Vanderbilt wrote down what good managing looks like here, and the writing choice matters more than it seems. Every line is a behavior a colleague could watch you do: hold the 1:1, give the written feedback, name the expectation out loud. Nothing on the list asks you to be a certain kind of person. It asks you to do certain visible things, and that difference is the whole month.",
+   "say": "Vanderbilt wrote down what good managing looks like here, and the writing choice matters more than it seems. Google did the same exercise years ago. Project Oxygen set out to learn what made its best managers good, and the answer came back as a list of teachable behaviors rather than personality types. Our standard works the same way: every line is something a colleague could watch you do. Nothing on it asks you to be a certain kind of person.",
    "facilitate": [
     "Read the concept card aloud once, slowly.",
     "Walk the In the room context: being language versus doing language. No quiz in the live room.",
@@ -173,13 +160,13 @@
    "transition": "So what counts as a behavior? That line is blurrier than it sounds.",
    "coreNote": "Core: skip the breakout; ask for one surprising line of the standard in chat instead.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Behavior or intention?",
    "purpose": "Train the witness test: separating observable behaviors from intentions and personality traits.",
-   "say": "Here is the trap this section exists to spring: most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am an approachable person. The witness test cuts through all of it with one question: could a colleague have seen it happen? If the answer is no, it may be a lovely quality, and it is invisible to your team.",
+   "say": "Most of us grade ourselves on intentions and grade everyone else on behavior. I meant to give feedback. I am an approachable person. The witness test asks one question of every claim: could a colleague have seen it happen? If the answer is no, it may be a lovely quality, and your team has never met it.",
    "facilitate": [
     "Run Behavior or intention? live; everyone plays on their own screen.",
     "After round two, pause and ask who chose trait versus intention; the distinction sparks the best discussion.",
@@ -194,13 +181,13 @@
     ],
     "respond": "Open door is the classic: it describes a state, and reports only experience what happens when they walk through it. The behavior version is scheduled, visible time."
    },
-   "debrief": "Intentions live in your head, traits live in adjectives, behaviors live on calendars and in records. The standard counts only the third kind.",
+   "debrief": "Behaviors leave tracks on calendars and in records. Intentions and traits stay in your head, and the standard cannot count what stays there.",
    "watchFor": "Cynicism about box-checking. Acknowledge it: a behavior done emptily is still weak managing. The standard is the floor that makes the rest possible.",
    "transition": "Which brings us to the uncomfortable part: where do you actually stand on it?",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "The honest self-locate",

@@ -11,7 +11,7 @@
  "titleHtml": "Put your team's work <em class=\"gold-text\">on the wall</em>.",
  "tagline": "The team AI-exposure mapping workshop: the whole grid, built by hand.",
  "description": "An in-person navigator-led workshop for Vanderbilt managers: build a physical AI-exposure grid of your team's recurring work, sort every task automate, augment, or leave alone, pressure-test the sort with a partner, and draft the opener that brings the grid to your team.",
- "heroLead": "The weekly sessions handed you the lens. This room hands you the table: paper, markers, and time to map your team's real work, sort every task, and let another manager poke at the sort before your team ever sees it.",
+ "heroLead": "The weekly sessions handed you the lens. This room hands you the table: paper, markers, and time to map and sort your team's real work before your team ever sees it.",
  "objectives": [
   "Build a physical grid of your team's recurring tasks, in task language, tasks never names",
   "Sort every task automate, augment, or leave alone, and defend each call under a partner's challenge",
@@ -32,8 +32,7 @@
    "label": "Team Communication"
   }
  ],
- "missionTie": "The great university of the 21st Century gets redesigned one team at a time, by managers who can see the change on paper. A room full of finished grids is Exceptional Core Operations doing its own forward planning.",
- "goalLead": "Goal 3 asks managers to identify AI-exposed work and turn the insight into action. This workshop is where the identifying happens at full scale: your whole team's work, mapped and sorted in one sitting.",
+ "missionTie": "A room full of finished grids is Exceptional Core Operations doing its own forward planning, one team at a time.",
  "agenda": [
   {
    "t": "The grid goes up",
@@ -48,7 +47,7 @@
    "d": "Draft the words that put the grid in front of your team as an invitation."
   }
  ],
- "manifesto": "A map on a wall gets argued with. A map in a drawer gets feared.",
+ "manifesto": "A map your team can argue with beats one they only hear rumors about.",
  "sections": [
   {
    "id": "s-one",
@@ -56,7 +55,7 @@
    "dataTitle": "The grid goes up",
    "eyebrow": "The Grid",
    "headline": "The work looks different <em>on paper</em>.",
-   "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits physically in front of you, the gaps show: the invisible cleanup, the work only one person knows.",
+   "lead": "Start with a flip chart and a marker. One row per recurring task: what gets produced, how often, from what inputs. Tasks only, never names. Once the work sits in front of you, the gaps show, like the invisible cleanup and the work only one person knows.",
    "group": "Write the first eight rows of your grid, then trade sheets with a neighbor. They circle any row a stranger couldn't picture doing; you rewrite it on the spot.",
    "interaction": {
     "type": "check",
@@ -92,8 +91,12 @@
    "dataTitle": "The sort and the challenge",
    "eyebrow": "The Sort",
    "headline": "A call that survives a <em>challenge</em> is a call you can keep.",
-   "lead": "Every row gets a mark: automate, augment, or leave alone. Then a table partner challenges your calls out loud. The traffic light rides along: green public or generic, go; yellow internal, approved VU tools only; red private information about people, never.",
+   "lead": "Every row gets a mark, automate, augment, or leave alone. Then a table partner challenges your calls out loud. The traffic light rides along: green public or generic, go; yellow internal, approved VU tools only; red private information about people, never.",
    "group": "Pair up across the table and walk your partner down your grid, one call at a time. Their job is one honest challenge per call; yours is to keep, flip, or split, out loud.",
+   "source": {
+    "label": "Future of Jobs Report, World Economic Forum",
+    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+   },
    "interaction": {
     "type": "trainer",
     "playTitle": "Survive the challenge",
@@ -321,7 +324,7 @@
   "s2": {
    "title": "The sort and the challenge",
    "purpose": "Sort every row automate, augment, or leave alone, then pressure-test the calls in pairs, inside the traffic light.",
-   "say": "Three marks, straight from this month's Tuesday session, now applied at team scale. Automate: AI does it and a person checks. Augment: AI helps and a person drives. Leave alone: human all the way. And the light we share all year rides every mark: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never. Mark your rows, then find your partner, because a sort nobody challenged is just a mood.",
+   "say": "Three marks, straight from this month's Tuesday session, now applied at team scale. Automate: AI does it and a person checks. Augment: AI helps and a person drives. Leave alone: human all the way. This is the same rebalancing the World Economic Forum's Future of Jobs survey finds employers planning everywhere, task by task between people and tools; your grid does it locally, with the people who know the work. And the light we share all year rides every mark: green is public or generic, go. Yellow is internal, approved VU tools only. Red is private information about people, never. Mark your rows, then find your partner, because a sort nobody challenged is just a mood.",
    "facilitate": [
     "Give the room quiet marking time; sticky dots or marker initials both work fine.",
     "Run Survive the challenge on learner devices before the pairing, so the three endings are fresh.",
@@ -365,7 +368,7 @@
    "coreNote": "Core: skip the cross-table round; rehearse once with the sort partner instead."
   },
   "capstoneSay": "Last build, and it is the one that matters: the grid needs a date. Pick the rows your team sees first, how the reveal happens, and the window, then write the card. Tasks and roles only, never a name. When you leave, the grid travels rolled, never filed. Quiet writing time, then a few read-alouds.",
-  "closeSay": "Look at these walls: that is the month's theme made physical. Monday's session gave you the mapping lens, Tuesday gave every member of your team the same sort for their own week, and Thursday's hype filter keeps the claims about these tools honest. The grid you are carrying is those three sessions with a marker in hand. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, goes further whenever you want it; there if you want it, never homework. Now go put the grid on a wall your team walks past.",
+  "closeSay": "Look at these walls: that is the month's theme made physical. Monday's session gave you the mapping lens, Tuesday gave every member of your team the same sort for their own week, and Thursday's hype filter keeps the claims about these tools honest. The grid you are carrying is those three sessions with a marker in hand. For the longer view of where workflows are heading, this month's LinkedIn Learning course, AI and the Future of Work: Workflows and Modern Tools for Tech Leaders, is there whenever you want it. Now go put the grid on a wall your team walks past.",
   "contingencies": [
    {
     "if": "The projector or room screen fails",

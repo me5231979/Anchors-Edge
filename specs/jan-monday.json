@@ -10,7 +10,7 @@
  "titleHtml": "Your team's AI use starts with <em class=\"gold-text\">your tone</em>.",
  "tagline": "Framing AI as a leadership responsibility.",
  "description": "A 45-minute virtual session for Vanderbilt managers: learn why safe AI adoption on a team is led, how to model one safe first use, and how to talk about AI with your team in a way that invites curiosity.",
- "heroLead": "Teams take their cue on AI from their manager. Stay silent and the careful people freeze while the bold ones experiment without guardrails. This session makes tone-setting deliberate: permission, safety, and curiosity, starting with one use you model.",
+ "heroLead": "Teams take their AI cue from their manager, and silence reads as an answer. Today you set the tone on purpose, starting with one safe use you model yourself.",
  "objectives": [
   "Name the three signals a team reads from its manager about AI: permission, safety, curiosity",
   "Choose one green-light task from your own week and model it for your team",
@@ -31,8 +31,7 @@
    "label": "Psychological Safety"
   }
  ],
- "missionTie": "A university out to define the 21st Century will use AI well because its leaders taught their teams how. Exceptional Core Operations depends on managers who make safe experimentation normal, one team at a time.",
- "goalLead": "AI-Enabled Workforce Readiness starts with managers who treat adoption as part of the job. Today you set the tone and model the first safe use your team will copy.",
+ "missionTie": "Defining the great university of the 21st Century takes managers who make safe AI use normal on their own teams, and Exceptional Core Operations grows one team at a time as they do.",
  "agenda": [
   {
    "t": "The tone you set",
@@ -55,9 +54,13 @@
    "dataTitle": "The tone you set",
    "eyebrow": "The Tone",
    "headline": "Silence is also a <em>signal</em>.",
-   "lead": "Ask a team why they avoid AI and you usually hear that the manager never brought it up. People read your tone whether you set it or drift into it, so this month you set it on purpose: clear permission, visible guardrails, and honest curiosity.",
+   "lead": "Ask a team why they avoid AI and you usually hear that the manager never brought it up. Your tone gets read whether you set it or drift into it. This month you set it on purpose, and you start by saying out loud what is allowed.",
    "group": "In pairs: what tone has your team read from you about AI so far, on purpose or by accident? 90 seconds each way.",
    "solo": "Write one line: what tone has your team read from you about AI so far, on purpose or by accident?",
+   "source": {
+    "label": "Superagency in the workplace, McKinsey (2025)",
+    "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work"
+   },
    "deeper": {
     "title": "The three signals, decoded",
     "body": "Each signal has a telltale question behind it. Permission: has my manager ever said out loud that we may use AI here? Safety: could I state the boundary in one sentence if a new hire asked? Curiosity: when someone mentions an experiment, does the manager lean in or change the subject? Teams answer these from small moments, like what you laughed at, what you ignored, and what you asked about. A tone audit starts there.",
@@ -72,7 +75,7 @@
      "tag": "The tone rule",
      "text": "A team's AI behavior mirrors its manager's signals. They listen for three things: permission (may we?), safety (what is in bounds?), and curiosity (does trying count?). When all three are clear, safe experiments start."
     },
-    "context": "Research on workplace tool adoption points one way: the local manager outweighs policy, training, and news coverage combined. Where the manager never mentions AI, careful people conclude the topic is off limits while a bold few experiment unguided. Both patterns start from the same silence.",
+    "context": "McKinsey's Superagency research found employees readier for AI than their leaders assume; the pace of adoption is set higher up. Your team is probably not waiting on training or news coverage. They are waiting to hear from you what is allowed and what is smart.",
     "discuss": "Where did your own read on AI come from: a manager, a policy page, or the news? What does that say about what your team is reading from you right now?",
     "q": "Quick check: a manager has never mentioned AI to the team. What does the team most likely conclude?",
     "opts": [
@@ -89,7 +92,7 @@
      {
       "t": "Nothing; teams form AI habits on their own",
       "correct": false,
-      "why": "Habits form around what leaders permit and model. In workplace tool adoption, the local manager is the strongest signal there is."
+      "why": "Habits form around what the manager permits and models. McKinsey found staff readier than leaders assume, which makes your signal the one they wait on."
      }
     ]
    }
@@ -230,7 +233,7 @@
     "What other departments are doing"
    ],
    "correct": 1,
-   "why": "Policy sets the outer boundary, but daily behavior mirrors the local manager. Your signals are the ones the team actually acts on."
+   "why": "Policy sets the outer boundary; daily behavior forms around the local manager. Your signals are the ones the team actually acts on."
   },
   {
    "q": "An analyst wants to summarize an internal planning doc with AI. Your call?",
@@ -252,7 +255,7 @@
     "It stays private until perfected"
    ],
    "correct": 1,
-   "why": "A visible, low-stakes use with its flaws shown grants permission and teaches checking in one move. Impressive demos mostly create distance."
+   "why": "A visible, low-stakes use with its flaws shown gives the team permission and the checking habit together. Impressive demos mostly create distance."
   }
  ],
  "recapMsgs": {
@@ -310,7 +313,7 @@
  },
  "closing": {
   "headline": "Go first. <em>They will follow.</em>",
-  "lead": "You named the signals your team reads, picked a green light to model, and built the conversation. Tuesday and Thursday carry the same theme into every staff member's week.",
+  "lead": "You know the signals your team reads, and you leave with a green light picked and the words to open with. Tuesday and Thursday carry the same theme into every staff member's week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Model the chore on your card",
   "nextBody": "Run it, show the result, and say what you fixed. If you want the wider leader's view first, this month's LinkedIn Learning pick is Generative AI for Business Leaders with Kian Katanforoosh.",
@@ -322,7 +325,7 @@
   "s1": {
    "title": "The tone you set",
    "purpose": "Establish that team AI behavior mirrors the manager's signals: permission, safety, curiosity.",
-   "say": "New year, new theme. Here is the finding this month is built on: teams take their AI cue from their manager, and silence is a cue too. Say nothing and the careful people freeze while the bold ones experiment with zero guardrails. The good news is that the tone is yours, so today we set it on purpose.",
+   "say": "New year, new theme. McKinsey went looking for what holds AI back at work and found it was rarely the employees; most are readier than their leaders assume. The pace gets set by the person in front of the team, which is you, and silence sets it too. Say nothing and the careful people freeze while the bold ones experiment with zero guardrails. So today we set the tone on purpose.",
    "facilitate": [
     "Read the tone rule card aloud, then let the context on screen land; the live room gets the framing, no quiz.",
     "Run the discussion: where did your own read on AI come from? Take two or three voices before you weigh in.",
@@ -367,7 +370,7 @@
   "s3": {
    "title": "The team conversation",
    "purpose": "Build an opening and an invitation that grant permission with the guardrails visible.",
-   "say": "Two tones kill this conversation: hype and fear. Hype gets eye rolls, fear gets hidden experiments, and hidden experiments are where the real risk lives. The version that works is plain: here is what I tried, here is the traffic light, and I want to hear what you try. Let's build yours.",
+   "say": "Last piece: the words. Oversell this and people tune out. Scare them and the experiments go underground, which is where the real risk lives. What works is plain talk: what I tried, what is in bounds, what I want to hear back. Let's build yours.",
    "facilitate": [
     "Run Open the AI conversation; two minutes to make both choices and run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

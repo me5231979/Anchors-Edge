@@ -10,7 +10,7 @@
  "titleHtml": "Advice helps. <em class=\"gold-text\">Advocacy</em> moves you.",
  "tagline": "Advocacy: mentors give you advice, sponsors spend their credibility on you.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: learn the difference between mentoring and sponsorship, how to earn and ask for real advocacy, and how to give it by naming who you speak up for.",
- "heroLead": "Most careers get plenty of advice and very little advocacy. A mentor talks with you; a sponsor talks about you, in rooms you are never in. This session teaches you to tell the two apart, to earn real backing, and to give it.",
+ "heroLead": "Advice is easy to find; backing is rarer, someone saying your name with evidence in a room you are not in. Today you learn to earn that and to give it.",
  "objectives": [
   "Tell mentoring (advice given to you) apart from sponsorship (credibility spent on you)",
   "Earn and ask for advocacy with work a sponsor can safely stake their name on",
@@ -31,8 +31,7 @@
    "label": "Relationship Building"
   }
  ],
- "missionTie": "Great universities run on trust that travels: people vouching for people across schools and units. Advocacy is Exceptional Core Operations at the human scale, and every staff member can practice it.",
- "goalLead": "Retention and internal mobility both run on advocacy: sponsors are how talent gets seen, moved, and kept. Today makes that skill teachable.",
+ "missionTie": "Great universities run on trust that travels, and people vouching for people across schools and units is Exceptional Core Operations at the human scale.",
  "agenda": [
   {
    "t": "Advice versus advocacy",
@@ -55,7 +54,11 @@
    "dataTitle": "Advice versus advocacy",
    "eyebrow": "The Difference",
    "headline": "Mentors advise. Sponsors <em>spend</em>.",
-   "lead": "Mentoring is advice given to you: guidance, feedback, a listening ear. Sponsorship is someone spending their credibility on you: naming you for a project, backing your move in a room you are not in. Both matter; careers stall with only the first.",
+   "lead": "Sylvia Ann Hewlett has spent years studying why some careers move and others stall. Her line is simple: mentors advise you, sponsors spend their credibility on you, naming you for real work in rooms you never see. Careers stall on the first alone.",
+   "source": {
+    "label": "Sponsorship vs. mentorship, Sylvia Ann Hewlett, The Sponsor Effect (Harvard Business Review Press)",
+    "url": "https://store.hbr.org/product/the-sponsor-effect-how-to-be-a-better-leader-by-investing-in-others/10194"
+   },
    "group": "In pairs: think of the last real help your career got. Was it advice or advocacy? 90 seconds each way.",
    "solo": "Think of the last real help your career got. Write down whether it was advice or advocacy.",
    "interaction": {
@@ -91,7 +94,7 @@
    },
    "deeper": {
     "title": "Why sponsorship stays invisible",
-    "body": "Sponsorship is hard to learn by watching because it happens where you are absent, so most people conclude it barely exists and over-invest in collecting advice. There is a second confusion: one person can be both. The director who coaches your slides on Tuesday might stake their name on you in Thursday's staffing meeting. The relationship is not the currency; the act is. Track acts and you see who actually spends for whom.",
+    "body": "Sponsorship is hard to learn by watching because it happens where you are absent, so most people conclude it barely exists and over-invest in collecting advice. There is a second confusion: one person can be both. The director who coaches your slides on Tuesday might stake their name on you in Thursday's staffing meeting. The currency lives in the act, whoever performs it. Track acts and you see who actually spends for whom.",
     "steps": [
      "List the three people who have most helped your career, then mark each act of help A for advice or S for sponsorship. Notice the ratio.",
      "Write down one decision that went your way where you never learned who spoke for you. Someone probably did."
@@ -104,7 +107,11 @@
    "dataTitle": "Earning and asking",
    "eyebrow": "The Ask",
    "headline": "Sponsorship is earned, then <em>asked for</em>.",
-   "lead": "Sponsors risk their reputation, so they back work they have seen and trust. That gives you two levers: make your work visible enough to stake a name on, and ask for the backing directly. Vague hoping does neither. Build both moves.",
+   "lead": "Sponsors back work they have seen; their reputation rides on it. In the research behind HBR's The Real Benefit of Finding a Sponsor, people with sponsors were far likelier to ask for stretch work and raises, and to get them. Your levers: be seen, then ask.",
+   "source": {
+    "label": "The Real Benefit of Finding a Sponsor, Sylvia Ann Hewlett (Harvard Business Review)",
+    "url": "https://hbr.org/2011/01/the-real-benefit-of-finding-a"
+   },
    "interaction": {
     "type": "builder",
     "playTitle": "Build the ask",
@@ -256,7 +263,7 @@
  ],
  "recapMsgs": {
   "high": "You know the currency. Now spend a little of it on someone.",
-  "mid": "Solid. Reread the ask you built in section two, then make your card.",
+  "mid": "Nearly there. Look again at the ask you built, then make your card.",
   "low": "Worth a second pass through the three sections before you commit."
  },
  "capstone": {
@@ -309,7 +316,7 @@
  },
  "closing": {
   "headline": "Advice is free. <em>Back somebody.</em>",
-  "lead": "You can tell the currencies apart, you built a real ask, and the advocacy question is yours now. That closes the Retain, Grow, Move week: the same theme, from bench to Portal to backing.",
+  "lead": "You can tell the currencies apart now, and your ask has a room attached. That closes the Retain, Grow, Move week; the advocacy question travels home with you.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the advocacy move on your card",
   "nextBody": "Run it as built: the showing, the ask, or the give. For a longer look at why being backed keeps people, this month's LinkedIn Learning pick, Retaining Your Best Talent by Roberta Matuson, comes with a navigator-led stay-interview practice lab.",
@@ -321,7 +328,7 @@
   "s1": {
    "title": "Advice versus advocacy",
    "purpose": "Install the distinction: mentoring is advice given to you, sponsorship is credibility spent on you.",
-   "say": "Think about the best career help you ever got. For most of us it was advice: a mentor, a coach, someone generous with guidance. Advice matters, and careers rarely move on advice alone. They move when somebody says your name in a room you are not in and stakes a little of their own reputation on it. That second thing has a name: sponsorship. People who cannot tell the two apart keep asking for advice when what they need is backing.",
+   "say": "Think about the best career help you ever got. For most of us it was advice: a mentor, a coach, someone generous with guidance. Advice matters, and careers rarely move on advice alone. They move when somebody says your name in a room you are not in and stakes a little of their own reputation on it. That second thing has a name, sponsorship, and the economist Sylvia Ann Hewlett has studied it for over a decade. Her distinction is the one we use all session: a mentor gives you advice; a sponsor spends credibility on you. People who cannot tell the two apart keep asking for advice when what they need is backing.",
    "facilitate": [
     "Run Advice or advocacy? live; everyone plays on their own screen.",
     "After round two, pause on the cost: what does the director risk that the helpful analyst does not?",
@@ -336,7 +343,7 @@
     ],
     "respond": "Right, and nothing traveled. The test is always the same: did the words reach someone with a decision to make, and did they cost the speaker anything?"
    },
-   "debrief": "Advice is words to you. Advocacy is risk taken for you, somewhere you are not. Both are gifts; only one moves careers on its own.",
+   "debrief": "Advice is words to you; advocacy is risk taken for you somewhere you are not. Hewlett's research says careers rarely move on the first alone.",
    "watchFor": "People concluding mentors are worthless. Keep both currencies valuable: advice builds the work, advocacy moves it.",
    "transition": "So how do you get sponsored? You earn it, then you ask. That is next.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the ask question."

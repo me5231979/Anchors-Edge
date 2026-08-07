@@ -65,7 +65,7 @@
    },
    {
     "q": "Isn't GROW just another corporate acronym?",
-    "a": "Treat it as an order, never a script: what they want, what is true, what they could try, what they will do. You can run all four beats without ever saying the word GROW. The acronym is a bookmark; the order is the tool."
+    "a": "It has better roots than most: Sir John Whitmore built it in the 1980s and it remains the backbone of professional coaching. Treat it as an order, never a script: what they want, what is true, what they could try, what they will do. You can run all four beats without ever saying the word GROW."
    },
    {
     "q": "What if the aside is really a performance problem?",
@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Managers who coach build the people a century-defining university runs on. Every status update you turn into a growth conversation is Exceptional Core Operations at the smallest scale: one manager, one person, ten minutes.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Managers who coach grow the people a century-defining university runs on, which makes every coached 1:1 a small act of Exceptional Core Operations. This month serves Goal 2, Manager Effectiveness at Scale.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. Manager Effectiveness at Scale is measured in demonstrated behavior, and coaching sits at the center of the Vanderbilt manager standard. Today makes it something you do on purpose.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -166,18 +153,18 @@
     ],
     "respond": "Both answers teach. If asides come easily, the ear exists and needs aiming. If none surface, the task has been drowning out the person, and this week is for listening differently."
    },
-   "debrief": "Coaching moments are handed to you mid-task. The aside about themselves is the door, and it stays open about one question long.",
+   "debrief": "Coaching moments are handed to you mid-task, as an aside about the person, and you usually get one question in before the door swings shut.",
    "watchFor": "Managers who hear 'coach everything.' Be plain: most of the 1:1 stays task, and that is right. The skill is catching the one moment that is about the person.",
    "transition": "You caught the moment. What you say next decides who does the thinking.",
    "coreNote": "Core: skip the breakout; ask for one remembered aside in chat instead.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "Ask before you tell",
    "purpose": "Replace the instruction reflex with one genuinely open question that transfers the thinking.",
-   "say": "So the door is open, and the reflex now is to be useful: three instructions, problem handled, next agenda item. Telling works, once. The reason we ask instead is where the thinking happens. Your instruction runs in your head. A real question runs in theirs, and what runs in their head is what they own. One honest question you cannot answer for them beats three instructions you can.",
+   "say": "So the door is open, and the reflex now is to be useful: three instructions, problem handled, next agenda item. Herminia Ibarra and Anne Scoular wrote about this shift in HBR as The Leader as Coach. Their argument is that no manager has all the answers anymore, so the job becomes asking questions that draw insight out of the person in front of you. What a good question starts in someone's head stays theirs afterward. That is worth more than your three instructions.",
    "facilitate": [
     "Run Tell or ask? live; everyone plays on their own screen.",
     "After round three, pause on the fake question; ask the room where they have heard one this month.",
@@ -197,13 +184,13 @@
    "transition": "One question opens the thinking. A light shape keeps it moving.",
    "coreNote": "Core: run the trainer, skip the breakout, take one rewrite aloud.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "A shape for the talk",
    "purpose": "Give the coaching talk a four-beat shape in plain words: goal, reality, options, will.",
-   "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Coaching books call it GROW; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
+   "say": "A coaching talk with no shape wanders and dies at the next calendar alert. Here is a shape in plain words: where are they trying to get, what is actually going on, what could they try, what will they do. Sir John Whitmore named it GROW decades ago and serious coaching still runs on it; you need the order, and the last beat needs a date. If you want deeper reps, this month's LinkedIn Learning pick is Sara Canaday's Coaching Skills for Leaders and Managers, and the navigator-led GROW practicum runs alongside it. Optional, and worth it.",
    "facilitate": [
     "Run Coach the moment; two minutes for both choices, then run it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",

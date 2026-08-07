@@ -10,7 +10,7 @@
   "titleHtml": "Put your skills <em class=\"gold-text\">on the map</em>.",
   "tagline": "The Talent Marketplace: what it shows and how to use it.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: what the Talent Marketplace shows, what a current skills profile does for you, and how to write your skills so opportunities can find them.",
-  "heroLead": "The Talent Marketplace makes talent visible across Vanderbilt: skills profiles on one side, needs and internal opportunities on the other. This session shows you what it sees, what you gain from being in it, and how to make your skills impossible to miss.",
+  "heroLead": "The Talent Marketplace matches visible skills to work that needs them. Learn what it sees, what a current profile buys you, and how to write yours so it gets found.",
   "objectives": [
     "Explain what the Talent Marketplace shows: skills, needs, and opportunities across the university",
     "Describe what a current skills profile does for you, and what a stale one quietly costs",
@@ -22,8 +22,7 @@
     {"label": "Skills Articulation"},
     {"label": "Internal Mobility"}
   ],
-  "missionTie": "A university that intends to define the century cannot let talent stay invisible inside it. The Talent Marketplace makes skills part of Exceptional Core Operations, and your profile is where the university's map of talent begins.",
-  "goalLead": "The Talent Marketplace can only see the skills people make visible. Today is about putting yours on the map, one legible line at a time.",
+  "missionTie": "Exceptional Core Operations depends on the university knowing what its people can do, and that knowledge starts with your profile.",
   "agenda": [
     {"t": "What the system sees", "d": "What the Talent Marketplace is, and what talent visibility means for you."},
     {"t": "What you gain", "d": "A visible skills profile, and internal opportunities that find you first."},
@@ -37,9 +36,10 @@
       "dataTitle": "What the system sees",
       "eyebrow": "The System",
       "headline": "The university is learning to <em>see talent</em>.",
-      "lead": "The Talent Marketplace is Vanderbilt's internal talent map: skills profiles on one side, university needs and internal opportunities on the other. It watches nothing and grades nobody. It reads what you choose to share, and it matches.",
+      "lead": "Deloitte calls it the skills-based organization: work built around what people can do rather than the boxes they sit in. The Talent Marketplace is Vanderbilt's version. It watches nothing and grades nobody; it reads what you choose to share, and it matches.",
       "group": "In pairs: what is one skill you have that nobody outside your own team knows about? 90 seconds each way.",
       "solo": "Write down one skill you have that nobody outside your own team knows about.",
+      "source": {"label": "The skills-based organization (Deloitte)", "url": "https://www.deloitte.com/global/en/issues/work/skills-based-organizations.html"},
       "interaction": {
         "type": "check",
         "card": {
@@ -70,9 +70,10 @@
       "dataTitle": "What you gain",
       "eyebrow": "The Payoff",
       "headline": "Opportunities start <em>finding you</em>.",
-      "lead": "Today, internal moves mostly go to whoever happened to hear about them. With a current profile, the search runs the other way: a project, a stretch role, or a committee that needs your skill can find you, whether or not you know the right people.",
+      "lead": "Internal moves mostly go to whoever happened to hear about them. A current profile flips the search, so work that needs your skill can find you. LinkedIn's Workplace Learning Report keeps finding that people stay far longer where moving inside is normal.",
       "group": "Pairs: name one internal opportunity you heard about too late. What skill of yours would have matched it?",
       "solo": "Recall one internal opportunity you heard about too late. What skill of yours would have matched it?",
+      "source": {"label": "Internal mobility and retention, LinkedIn Workplace Learning Report", "url": "https://learning.linkedin.com/resources/workplace-learning-report"},
       "interaction": {
         "type": "trainer",
         "playTitle": "What just happened?",
@@ -80,12 +81,12 @@
         "progressWord": "Moment",
         "labels": ["Your skills becoming visible", "An opportunity finding you", "A gap only you can close"],
         "passAt": 2,
-        "passMsg": "You can read the system. Visibility is your input, opportunity is the return, and a stale profile is the only real failure mode.",
-        "failMsg": "Close. The tell: the system gives back exactly what profiles put in. Current profile, working map. Stale profile, invisible you.",
+        "passMsg": "You can read the system. Keep the profile current and the matching does the rest; going stale is the only real way to lose.",
+        "failMsg": "Close. The system gives back what profiles put in. A current profile keeps you findable, and a stale one quietly takes you off the map.",
         "items": [
-          {"q": "A financial analyst adds grant budgeting to their profile after finishing a course last month.", "answer": 0, "why": "The input side: a real skill, named while it is fresh. From today the university can search it, count it, and match it."},
-          {"q": "A program coordinator gets a note about a short project: a symposium team needs exactly the event logistics skill their profile lists.", "answer": 1, "why": "The return side. Nobody browsed listings; the profile did the searching. This is what a current profile buys you."},
-          {"q": "An advisor's profile still matches their 2022 job description, three responsibilities and two systems ago.", "answer": 2, "why": "The failure mode. The system is not wrong, it is starved. Ten minutes of updating puts three years of new skills back on the map."}
+          {"q": "A financial analyst adds grant budgeting to their profile after finishing a course last month.", "answer": 0, "why": "A real skill, named while it is fresh. From today, anyone at the university with a grant problem can search for it and find them."},
+          {"q": "A program coordinator gets a note about a short project: a symposium team needs exactly the event logistics skill their profile lists.", "answer": 1, "why": "Nobody browsed listings here; the profile did the searching. This is the return on keeping it current."},
+          {"q": "An advisor's profile still matches their 2022 job description, three responsibilities and two systems ago.", "answer": 2, "why": "Three years of new skills are missing from the map. Ten minutes of updating puts them back, and the matches follow."}
         ]
       },
       "deeper": {
@@ -171,8 +172,8 @@
   ],
   "recapMsgs": {
     "high": "You can read the system and write for it. Now go update the real profile.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Close. Glance back at the section you missed, then make your move.",
+    "low": "Run the three sections once more; the real profile can wait ten minutes."
   },
   "capstone": {
     "eyebrow": "Capstone · My profile move",
@@ -209,7 +210,7 @@
     "s1": {
       "title": "What the system sees",
       "purpose": "Establish what the Talent Marketplace is: a talent map built from skills profiles, never a surveillance or evaluation tool.",
-      "say": "Let's clear the air first, because any system that maps people has earned a little suspicion. The Talent Marketplace does not read your email and it does not grade you. It reads one thing: the skills profile you keep. Most systems at work read you without asking; this one knows only what you tell it. So the only question that matters today is whether you are on the map accurately.",
+      "say": "Vanderbilt did not invent this idea. Deloitte has spent years documenting what it calls the skills-based organization, where decisions run on what people can do instead of the job boxes they sit in. Our version is the Talent Marketplace. Before it can do anything for you, let's clear the air, because any system that maps people has earned a little suspicion. It does not read your email and it does not grade you. It reads one thing, the skills profile you keep. Most systems at work read you without asking; this one knows only what you tell it.",
       "facilitate": [
         "Put the In the room card on screen and read it aloud; let the 'it knows only what you tell it' idea land.",
         "Run the discussion prompt and take two or three voices on what their profile says right now; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.",
@@ -220,7 +221,7 @@
         "expect": ["Suspicion about monitoring", "Curiosity about what it shows", "Assumption it is a tool for managers or HR only"],
         "respond": "Take the suspicion seriously and answer it plainly: profile in, matching out, nothing else. The 'for managers' assumption is the one to break; the profile is the staff member's asset first."
       },
-      "debrief": "One idea to carry out of this section: the system sees exactly what you show it. That makes your profile a lever, not a form.",
+      "debrief": "One idea to carry out of this section: the system sees exactly what you show it, which puts your visibility in your own hands.",
       "watchFor": "Anyone treating this as a managers-only topic. Keep every example on the learner's own skills and career.",
       "transition": "So what do you actually get for keeping it current? Stop two.",
       "coreNote": "Core: skip the breakout; ask for one invisible skill in chat instead."
@@ -228,7 +229,7 @@
     "s2": {
       "title": "What you gain",
       "purpose": "Show the payoff of a current profile: visibility, and internal opportunities that find you.",
-      "say": "Here is the trade the system offers. You keep an honest, current profile; in return, opportunity searches start running toward you instead of past you. Internal projects, stretch roles, committees: today they go to whoever heard about them in a hallway. A current profile means they can find you on merit, whoever you know.",
+      "say": "The trade works like this. You keep an honest, current profile; in return, searches start running toward you instead of past you. LinkedIn's workplace learning research shows why it matters: people stay far longer at organizations where internal movement is normal, because the next chapter stops requiring an exit. Right now internal projects go to whoever heard about them in a hallway. A current profile means they can find you on merit, whoever you know.",
       "facilitate": [
         "Run What just happened? live; everyone plays on their own screen.",
         "After round two, pause: ask who has ever missed an internal opportunity they only heard about later.",
@@ -263,7 +264,7 @@
       "transition": "Quick recap, then you build your card.",
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
-    "capstoneSay": "Now make it real. One skill you will make visible, named the legible way. Pick the move, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "capstoneSay": "Your turn. Name the skill you are making visible, the legible way, then pick the move and the window. Build the card and copy it wherever you keep the things you actually do. Two minutes, then we close.",
     "closeSay": "You leave with a profile move and ten minutes of work between you and being findable. Make the update this week. Thursday's Thrive session takes on curiosity, the skill that makes all of this month's talent conversations work; come with one role at Vanderbilt you have quietly wondered about. And if you want more this month, the navigator-led Know-Your-Team lab runs in person and Don Phin's Talent Management course is on LinkedIn Learning, both optional, both good.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},

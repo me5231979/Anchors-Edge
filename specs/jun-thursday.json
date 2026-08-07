@@ -10,7 +10,7 @@
  "titleHtml": "You know <em class=\"gold-text\">enough to move</em>.",
  "tagline": "Decisiveness: moving from data to move.",
  "description": "A 45-minute virtual session for all Vanderbilt staff, and the close of this series year: learn to decide with enough information, use the 70 percent rule, and give one circling decision a real deadline.",
- "heroLead": "Every session this year handed you information. The last skill is knowing when you have enough. This season closer teaches the 70 percent rule, telling reversible calls from one-way doors, and putting a deadline on the decision you have been circling.",
+ "heroLead": "A year of sessions handed you information. The last skill is knowing when you have enough: decide at about 70 percent, and give the decision you keep circling a deadline.",
  "objectives": [
   "Explain why deciding at 70 percent beats waiting for certainty",
   "Tell reversible decisions from one-way doors, and pace each accordingly",
@@ -28,8 +28,7 @@
    "label": "Bias for Action"
   }
  ],
- "missionTie": "A university that intends to define the century will out-decide its peers, one timely call at a time. Decisiveness is what turns a year of insight into Exceptional Core Operations, in every office and at every level.",
- "goalLead": "Goal 3 ends where action begins: insights become workforce moves only when someone decides. This closing session builds the deciding muscle itself.",
+ "missionTie": "Timely deciding, in every office and at every level, is what turns a year of insight into Exceptional Core Operations.",
  "agenda": [
   {
    "t": "The 70 percent rule",
@@ -52,9 +51,10 @@
    "dataTitle": "The 70 percent rule",
    "eyebrow": "The 70 Percent Rule",
    "headline": "Certainty arrives <em>after the deadline</em>.",
-   "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: choosing the status quo while calling it research. Strong deciders move when they have around 70 percent of what they wish they knew, and they learn the rest by moving.",
+   "lead": "Waiting for full information feels responsible. It is usually a decision in disguise: the status quo, renamed research. Jeff Bezos told Amazon shareholders that most decisions should be made with about 70 percent of what you wish you knew. Acting teaches the rest.",
    "group": "In pairs: name a decision this year you delayed past the useful point. What was the wait actually buying? 90 seconds each way.",
    "solo": "Name a decision this year you delayed past the useful point. What was the wait actually buying?",
+   "source": {"label": "The 70 percent rule, Jeff Bezos, 2016 Amazon shareholder letter", "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"},
    "deeper": {
     "title": "What counts as 70 percent",
     "body": "The number is a posture, not a measurement. A practical proxy: you are at 70 when you can name the options, the worst plausible outcome of each, and what you would try first if forced to choose today. What you usually lack is certainty about other people's reactions, and no amount of research supplies that; only moving does. If you cannot name the options yet, you are below 70: gather. If you can, the gathering is done.",
@@ -97,9 +97,10 @@
    "dataTitle": "Doors and speed",
    "eyebrow": "Doors and Speed",
    "headline": "Most doors <em>swing both ways</em>.",
-   "lead": "The pace of a decision should match its door. Two-way doors open again: you can try, learn, and step back, so they deserve speed. One-way doors are hard to reopen, so they earn the extra data. Treating every door as one-way is where the delay lives.",
+   "lead": "Match the pace to the door. The image is Bezos's too: two-way doors open again, so walk through and step back if it disappoints. One-way doors are hard to reopen and earn the extra data. Treating every door as one-way is where the delay lives.",
    "group": "Breakout pairs: each name one live decision and call its door. Partner argues the other reading for 30 seconds. 90 seconds each way.",
    "solo": "Name one live decision of yours and call its door. Then argue the other reading for a moment, honestly.",
+   "source": {"label": "One-way and two-way doors, Jeff Bezos, 2015 Amazon shareholder letter", "url": "https://www.aboutamazon.com/news/company-news/2015-letter-to-shareholders"},
    "deeper": {
     "title": "Doors that look one-way",
     "body": "Three things weld a reversible door shut in the mind: visibility, since people saw you choose and stepping back feels like failure; sunk effort; and a missing exit plan. The first two are about ego, not the door. The third is fixed in one line: name, before you walk through, what result by what date would send you back. A written exit condition makes any door easier to reopen, because stepping back was part of the plan.",
@@ -146,7 +147,7 @@
    "dataTitle": "The circling decision",
    "eyebrow": "The Deadline",
    "headline": "Give the circling a <em>landing time</em>.",
-   "lead": "Everyone carries one decision they have been orbiting for months: the tool, the conversation, the move, the ask. Circling has a cost; it just bills quietly. Today it gets a name and a deadline, and you get the altitude back.",
+   "lead": "Everyone carries one decision they have been orbiting for months, a posting or a conversation or an ask. Circling has a cost; it just bills quietly. Today the decision gets a name and a deadline, and you get the altitude back.",
    "deeper": {
     "title": "After the landing",
     "body": "Two things deciders do that circlers skip. First, they write the call down with the date and top reason; when doubt returns weeks later, the note answers it, and if the world truly changed, it shows that too. Second, they expect the wobble: a decided fork keeps arguing for a day or two. Do not reopen it on feeling alone; reopen only if your written exit condition fires. The lightness after the wobble passes is the real payoff.",
@@ -310,7 +311,7 @@
   "nextTag": "Your one next step · Before the deadline",
   "nextTitle": "Land the decision on your card",
   "nextBody": "Hold the 30 minutes, decide at 70 percent, and write down the call. If the decision is a change you will help others through, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts is a worthy epilogue.",
-  "brandline": "Enough information. Enough waiting. Decide."
+  "brandline": "You know enough. Decide."
  },
  "facilitator": {
   "audience": "All Vanderbilt staff in the Anchor's Edge weekly rhythm; no one is assumed to manage anyone. Works for 6 to 40 on a call; breakouts run in pairs. This is the last session of the series year; the series returns and grows next year. Expect some ceremony and leave two extra beats for the close.",
@@ -318,7 +319,7 @@
   "s1": {
    "title": "The 70 percent rule",
    "purpose": "Reframe waiting as a decision with costs, and install deciding at sufficiency.",
-   "say": "Last session of the year, and it is about the skill underneath every other one we taught: deciding. Here is the quiet truth: waiting for complete information is itself a decision. It chooses the status quo and calls it diligence. The rule we are installing today is simpler and braver: at about 70 percent of what you wish you knew, decide. Acting brings the rest.",
+   "say": "Last session of the year, and it is about the skill underneath every other one we taught: deciding. Waiting for complete information is itself a decision; it chooses the status quo and calls it diligence. Jeff Bezos put a number on the alternative in his 2016 letter to Amazon shareholders: most decisions should be made with around 70 percent of the information you wish you had, and waiting for 90 usually just means you are slow. So that is the rule we are installing. At about 70, decide. Acting brings the rest.",
    "facilitate": [
     "Read the rule card once, slowly.",
     "Read the In the room card; give everyone a quiet moment with the decision they carried in.",

@@ -10,7 +10,7 @@
  "titleHtml": "Sort the week, <em class=\"gold-text\">one task at a time</em>.",
  "tagline": "Task-decomposition: automate, augment, or leave alone.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: break your week into real tasks and sort each one into automate, augment, or leave alone, with the traffic light rules built in.",
- "heroLead": "Your job will never fit in one AI bucket, and it was never meant to. This session teaches the sort that works: break the week into tasks, then call each one. AI does it and you check, AI helps and you drive, or it stays yours entirely.",
+ "heroLead": "No job fits in one AI bucket. The sort that works runs task by task: AI does it and you check, AI helps and you drive, or the task stays yours entirely.",
  "objectives": [
   "Break your working week into specific, repeatable tasks with outputs and rhythms",
   "Sort each task into automate, augment, or leave alone, and know the tells for each",
@@ -31,8 +31,7 @@
    "label": "Productivity"
   }
  ],
- "missionTie": "Defining the great university of the 21st Century takes staff who redesign their own work instead of waiting for it to be redesigned. Every well-sorted week feeds Discovery and Innovation with hours that used to go to formatting.",
- "goalLead": "Goal 3 counts on every staff member knowing which parts of their own work are AI-exposed. The task sort is how that knowledge gets made, one week at a time.",
+ "missionTie": "Staff who redesign their own work, instead of waiting for it to be redesigned, feed Discovery and Innovation with hours that used to go to formatting.",
  "agenda": [
   {
    "t": "The decomposition",
@@ -55,7 +54,7 @@
    "dataTitle": "The decomposition",
    "eyebrow": "The Breakdown",
    "headline": "A week is just <em>tasks</em> wearing a blur.",
-   "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the queue, drafted the agenda. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
+   "lead": "Asked what you do, you say your title. Asked what you did Tuesday, you list tasks: compiled the report, answered the intake queue. The sort only works at that second level, so the first skill is writing your week the way Tuesday actually went.",
    "group": "In pairs: turn 'my job' into three real tasks from this week, specific enough that someone else could picture doing them. Swap lists.",
    "solo": "Write three real tasks from this week, specific enough that someone else could picture doing them.",
    "deeper": {
@@ -68,7 +67,7 @@
    },
    "interaction": {
     "type": "check",
-    "context": "When work stays at the altitude of titles and projects, AI talk turns into dread about whole jobs. Nobody automates 'coordinator'; tools meet the Monday summary, the intake queue, the standard reply. Get your week written at that level and the fear turns into decisions you can actually make.",
+    "context": "When work stays at the altitude of titles and projects, AI talk turns into dread about whole jobs. Nobody automates 'coordinator'; tools meet the Monday summary and the standard reply. Get your week written at that level and the fear turns into decisions you can actually make.",
     "discuss": "Describe last Tuesday to your neighbor as three tasks. Which one was hardest to name, and why had it gone invisible?",
     "card": {
      "tag": "The decomposition rule",
@@ -103,13 +102,17 @@
    "lead": "Three calls, made per task. Automate: AI does it, you check the output. Augment: AI helps, you drive. Leave alone: human all the way, because the task runs on trust, judgment, or private information about people. The traffic light rides along on every call.",
    "group": "Breakout pairs: each pick one task from your list and make the call out loud. Partner gets one challenge question. 90 seconds each way.",
    "solo": "Pick one task from your list and make the call: automate, augment, or leave alone. Write one line on why.",
+   "source": {
+    "label": "Centaurs and cyborgs, Ethan Mollick, One Useful Thing",
+    "url": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged"
+   },
    "deeper": {
-    "title": "The mixed task and the red thread",
-    "body": "Calls get interesting when one task mixes colors. A weekly update that quotes a colleague's medical situation is an augment task carrying a red thread, and the red thread wins: the private parts come out before any tool sees the rest, or the whole task stays human. The quieter skill is naming your leave-alone pile out loud. That pile is the case for what you uniquely bring, and it belongs in your next career conversation.",
+    "title": "Centaur work, cyborg work, red thread",
+    "body": "Ethan Mollick, who studies AI at Wharton, describes two ways to run an augment task. Centaurs draw a line down the middle: the tool drafts, the person decides. Cyborgs pass the work back and forth all day. Start centaur, because the line makes checking easy. And watch for the red thread, a task with private details about a person woven in. Those parts come out before any tool sees the rest, or the whole task stays human.",
     "steps": [
      "Sort ten tasks from your week into the three buckets. Note which bucket filled up and whether that surprised you.",
-     "Find one task with a red thread: sortable overall, private people details inside. Write which parts come out before a tool touches it.",
-     "Write two lines on your leave-alone pile and what it says about the value you bring."
+     "Run one augment task centaur style: the tool drafts, you decide, and you note where the line sat. Move the line next time if it sat wrong.",
+     "Find one task with a red thread and write which parts come out before a tool touches it."
     ]
    },
    "interaction": {
@@ -123,7 +126,7 @@
      "Leave alone: human all the way"
     ],
     "passAt": 2,
-    "passMsg": "You make the call cleanly. Per task, with the traffic light in view: that is the whole skill.",
+    "passMsg": "You make the call cleanly, per task, with the traffic light in view.",
     "failMsg": "Close. The tells: fixed format on public content leans automate; internal drafting leans augment in approved VU tools; anything private about people stays human.",
     "items": [
      {
@@ -150,7 +153,7 @@
    "dataTitle": "The first test",
    "eyebrow": "The Move",
    "headline": "One call earns a <em>test drive</em>.",
-   "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. The test either saves you an hour or teaches you why it can't yet.",
+   "lead": "A sort that stays theoretical changes nothing. Pick one automate or augment call and run it once this week: one task, one date, one approved VU tool, and a checking step you actually perform. Either result is real, an hour saved or a call you know was wrong.",
    "deeper": {
     "title": "Read the test like evidence",
     "body": "A test deserves a fair reading. Count the whole cost: setup, prompting, and checking time against the old way, because a tool that saves forty minutes and needs thirty of checking earned ten. What your check caught becomes the permanent checklist for the task. A failed test is a real result too: write one line on why the call was wrong, then re-sort the task. Scale to a second task after two clean runs of the first.",
@@ -310,7 +313,7 @@
  },
  "closing": {
   "headline": "Your job is a mix. <em>Now you hold the recipe.</em>",
-  "lead": "You broke the week into tasks, learned the three calls, and set up one honest test. Thursday sharpens the thinking that keeps every one of those calls honest.",
+  "lead": "The week is broken into tasks and one call has a test date. Thursday sharpens the thinking that keeps every one of those calls honest.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the test on your card",
   "nextBody": "One task, one call, one checking step, in an approved VU tool. Bring what it taught you to Thursday's session on sorting AI hype from real value.",
@@ -345,7 +348,7 @@
   "s2": {
    "title": "The three buckets",
    "purpose": "Install the three calls and their tells, with the traffic light riding along on every sort.",
-   "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
+   "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Wharton's Ethan Mollick calls that pairing centaur work, a clear line with the tool on one side and your judgment on the other. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
    "facilitate": [
     "Run Make the call live; everyone plays on their own screen.",
     "After the health-situation task, pause: ask why leave alone is the only call there.",

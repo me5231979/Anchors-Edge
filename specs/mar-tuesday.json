@@ -10,7 +10,7 @@
  "titleHtml": "Put your growth <em class=\"gold-text\">on the record</em>.",
  "tagline": "Capturing your development goals and career-conversation notes in Oracle.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: put your development goals into Oracle, keep useful notes from the career conversations you are part of, and make your growth visible enough for opportunity to find it.",
- "heroLead": "Your growth has a paper trail problem. The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into Oracle, where they survive busy seasons and where opportunity can actually find them.",
+ "heroLead": "The goals you set in a good career conversation live in your head, a notebook, or nowhere. This session moves them into Oracle, where opportunity can actually find them.",
  "objectives": [
   "Enter one real development goal in Oracle, written so a reader can act on it",
   "Keep a short, useful note after any career conversation you are part of",
@@ -31,12 +31,11 @@
    "label": "Self-Advocacy"
   }
  ],
- "missionTie": "A university out to define the century needs to see the ambitions of its people, and it can only see what is written down. Every goal you put on the record strengthens Exceptional Core Operations from the inside: real data about real growth.",
- "goalLead": "Manager Effectiveness at Scale has a second half: staff whose goals are visible enough to coach toward. Today you build your side of the record, whoever you report to.",
+ "missionTie": "A university out to define the century can only see the ambitions its people write down, and every goal on the record strengthens Exceptional Core Operations from the inside.",
  "agenda": [
   {
    "t": "Why the record matters",
-   "d": "Invisible goals go unfed. What visibility actually buys you."
+   "d": "Who actually reads your record, and what a written goal buys you."
   },
   {
    "t": "What goes where",
@@ -55,12 +54,16 @@
    "dataTitle": "Why the record matters",
    "eyebrow": "The Why",
    "headline": "Invisible goals go <em>unfed</em>.",
-   "lead": "When a stretch project, a course seat, or a Transfer Portal opening appears, someone looks at the record to see who is reaching for what. A goal that lives in your head is invisible to that search. Writing it into Oracle is how you raise your hand in advance.",
+   "lead": "When a stretch project or a Transfer Portal opening appears, someone looks at the record to see who is reaching for what, and a goal that lives in your head is invisible to that search. Writing it into Oracle is how you raise your hand in advance.",
+   "source": {
+    "label": "LinkedIn Workplace Learning Report: career goals and retention",
+    "url": "https://learning.linkedin.com/resources/workplace-learning-report"
+   },
    "group": "In pairs: name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
    "solo": "Name a goal you are carrying that exists nowhere in writing. What would change if the right person could see it?",
    "deeper": {
     "title": "The readers you never meet",
-    "body": "Your record has more readers than your manager. Talent reviews scan for who is reaching toward what before any role exists. Project leads staffing a stretch assignment search for matching goals. Course seats and nominations go to visible reachers first. And when an opening lands in the Transfer Portal, a written goal in Oracle is the difference between being found and being missed. Write for readers you have not met.",
+    "body": "Your record has more readers than your manager: talent reviews, project leads staffing a stretch assignment, whoever hands out course seats. LinkedIn's Workplace Learning Report found that people who set career goals engage with learning about four times as much, and that development is now the first retention move organizations reach for. A written goal is what lets that machinery find you. Write for readers you have not met.",
     "steps": [
      "Open your Oracle profile and read it as a stranger would. Note what a project lead could actually act on; it is usually less than you think.",
      "Draft one goal for a reader you have never met: the direction you want, plus a first step with a date."
@@ -68,7 +71,7 @@
    },
    "interaction": {
     "type": "check",
-    "context": "Take a quick chat poll before any teaching: how many of you carry a career goal that exists nowhere in writing? Every quiet hand is a goal no talent review, staffing search, or course nomination can find. The readers who decide those things can only see what is written down.",
+    "context": "Take a quick chat poll before any teaching: how many of you carry a career goal that exists nowhere in writing? Every quiet hand is a goal no talent review or staffing search can find. The readers who decide those things can only see what is written down.",
     "discuss": "What has kept your goals unwritten so far? And who is one reader, named by role, you would actually want to find them?",
     "card": {
      "tag": "The visibility rule",
@@ -229,7 +232,7 @@
     "Mentioned once at annual review"
    ],
    "correct": 1,
-   "why": "The record is a standing hand-raise. Visible goals surface in staffing, nominations, and reviews you are never in the room for."
+   "why": "Visible goals surface in staffing, nominations, and reviews you are never in the room for. The other three wait to be asked."
   },
   {
    "q": "A colleague shares a private struggle in a mentoring chat. You should...",
@@ -321,7 +324,7 @@
   "s1": {
    "title": "Why the record matters",
    "purpose": "Establish visibility as the point: goals in Oracle keep working when you are out of the room.",
-   "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects, course seats, and internal openings get decided, someone is looking at a record. If your goal lives in your head, you are invisible to that search. Writing it down is how you raise your hand in rooms you are not in.",
+   "say": "Quick show of hands in chat: how many of you have a career goal that exists nowhere in writing? That is normal, and it has a cost. When stretch projects and internal openings get decided, someone is looking at a record, and a goal that lives in your head is invisible to that search. LinkedIn's Workplace Learning Report backs the habit we build today: people who write their career goals down engage with their own development about four times as much. Writing it down is how you raise your hand in rooms you are not in.",
    "facilitate": [
     "Run the chat show of hands first; the count of unwritten goals is the hook.",
     "Read the visibility rule from the card, then share the In the room card and let the count sink in.",
@@ -336,7 +339,7 @@
     ],
     "respond": "All common. Today reframes the record as a tool you point at your own future, and the sort in the next section handles the exposure worry directly."
    },
-   "debrief": "Visible goals get fed; invisible ones wait. The record is a standing hand-raise.",
+   "debrief": "Visible goals get fed; invisible ones wait, and nobody knows they are waiting.",
    "watchFor": "Staff who assume this is a managers-only tool. Say it plainly: every field in this session is yours, whoever you report to.",
    "transition": "So some things go on the record. The next skill is knowing what does.",
    "coreNote": "Core: skip the breakout; take the unwritten-goal count from chat and move."
@@ -344,7 +347,7 @@
   "s2": {
    "title": "What goes where",
    "purpose": "Install the three-shelf sort: visible record, private notes, or never written.",
-   "say": "You will be in career conversations all year, your own and other people's. The sort has three shelves. Your goals and agreed actions go in Oracle, visible. Your raw self-observations go in your private notes, because honesty needs a little privacy while it is fresh. And other people's private business goes nowhere, ever. Five seconds of sorting protects you and everyone around you.",
+   "say": "You will be in career conversations all year, your own and other people's. The sort has three shelves. Goals and agreed actions go in Oracle, visible. Raw self-observations belong in your private notes, because honesty needs a little privacy while it is fresh. Other people's private business goes nowhere, ever. Five seconds of sorting protects you and everyone around you.",
    "facilitate": [
     "Run System, notes, or nowhere? live; everyone sorts on their own screen.",
     "Pause after round three; let the 'write nothing' answer breathe before you move.",
@@ -359,7 +362,7 @@
     ],
     "respond": "All of it. Your private notes are for your own growth. Other people's disclosures are held in trust, and trust does not have a text field."
    },
-   "debrief": "Yours and agreed goes visible. Yours and raw stays private. Theirs and private goes unwritten.",
+   "debrief": "Yours and agreed goes visible; yours and raw stays private. Other people's private business is never yours to write.",
    "watchFor": "The quiet worry that the visible record gets used against people. Name it: the record is for growth and mobility, and section three shows how to write entries you would be glad to have read.",
    "transition": "You know what goes in. Now we make what goes in worth reading.",
    "coreNote": "Core: run the trainer, skip the breakout, take one sort question from chat."

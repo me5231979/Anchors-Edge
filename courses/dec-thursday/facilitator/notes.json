@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. A university out to define the century loses more hours to fuzzy expectations than to hard problems. Every person who asks, restates, and closes the loop in writing is Exceptional Core Operations happening one handoff at a time.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. A university out to define the century loses more hours to fuzzy expectations than to hard problems, and every clean handoff is Exceptional Core Operations in miniature. This month serves Goal 2, Manager Effectiveness at Scale.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 2, Manager Effectiveness at Scale: Implement a Vanderbilt manager standard that measures demonstrated leader behavior. The manager standard leans hard on expectation-setting, and that skill has two chairs. Clarity is the half everyone owns, whichever chair you sit in today.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -152,7 +139,7 @@
   {
    "title": "The clarity ask",
    "purpose": "Install the three clarity questions as a reflex before accepting significant work.",
-   "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, circle back soon, own this going forward. Those requests feel clear for about an hour. Three questions rescue them, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
+   "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, own this going forward. Those requests feel clear for about an hour. Gallup has measured engagement with the same twelve questions for decades, and the first one is simply, I know what is expected of me at work. Everything downstream depends on it. Three questions get you there, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
    "facilitate": [
     "Read the concept card once; let it sit.",
     "Walk the In the room context; name the three answers slowly. No quiz in the live room.",
@@ -173,7 +160,7 @@
    "transition": "Asking is half the skill. The other half is proving you heard it right.",
    "coreNote": "Core: skip the breakout; ask for one fuzzy task in chat instead.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
@@ -194,13 +181,13 @@
     ],
     "respond": "Right, so the skill includes knowing when to just start. Restate when done, deadline, or decider is missing; act when all three are on the table."
    },
-   "debrief": "Look for done, deadline, decider. Missing any, say it back in your own words. All present, start working.",
+   "debrief": "When done, the deadline, or the decider is missing, say it back in your own words. When all three are on the table, just start.",
    "watchFor": "Word-for-word parroting in the examples. Push for own words: parroting proves listening, restating proves understanding.",
    "transition": "One move left: making the agreement survive the week.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "Close the loop",

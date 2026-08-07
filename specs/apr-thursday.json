@@ -10,7 +10,7 @@
  "titleHtml": "Run every claim through <em class=\"gold-text\">the filter</em>.",
  "tagline": "Softskill · Critical thinking: sorting hype from value.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: three quick tests that sort AI hype from real value, built for tool decisions and sturdy enough for any workplace claim.",
- "heroLead": "Every week brings a new claim: this tool will save you ten hours, this skill is obsolete, this feature changes everything. This session installs a three-question filter that sorts hype from value in about a minute, on AI claims and everything else.",
+ "heroLead": "Every week brings another AI claim: ten hours saved, a skill obsolete. This session installs a three-question filter that sorts hype from value in about a minute.",
  "objectives": [
   "Run any claim through three tests: the evidence, the beneficiary, and the mind-changer",
   "Spot the hype tells: big numbers, no baseline, urgency, and a seller in the byline",
@@ -31,8 +31,7 @@
    "label": "Information Evaluation"
   }
  ],
- "missionTie": "A university that will define the century cannot run on borrowed hype. Staff who test claims before believing them keep Radical Collaboration honest: shared decisions built on evidence rather than volume.",
- "goalLead": "Goal 3 turns AI insight into practical workforce action, and every action starts with believing the right claims. The filter is quality control for the whole month.",
+ "missionTie": "Staff who test claims before believing them keep Radical Collaboration honest, with shared decisions built on evidence rather than volume.",
  "agenda": [
   {
    "t": "The three tests",
@@ -100,12 +99,16 @@
    "dataTitle": "The hype tells",
    "eyebrow": "The Patterns",
    "headline": "Hype speaks with an <em>accent</em>.",
-   "lead": "Hype repeats itself: giant numbers with no baseline, urgency that never checks out, sellers quoted as judges. Value sounds different: specific tasks, named conditions, results someone could verify. Practice tunes your ear until the accent gives it away.",
+   "lead": "Hype repeats itself: a giant number with no baseline, urgency that never survives a second look, a seller quoted as the judge. Value talks about a specific task and invites you to check. Practice tunes your ear until the accent gives it away.",
    "group": "Breakout pairs: one of you pitches a tool with pure hype, the other runs the filter out loud. 90 seconds, then swap.",
    "solo": "Find one AI claim in your inbox or feed right now. Label it hype, value, or unproven, and note which tell decided it.",
+   "source": {
+    "label": "The AI Index Report, Stanford HAI",
+    "url": "https://hai.stanford.edu/ai-index"
+   },
    "deeper": {
     "title": "Hype does its best work secondhand",
-    "body": "By the time a vendor's number reaches you through a colleague, the tells have worn off: no byline, no ticking clock, just a trusted voice saying everyone is doing this now. So filter the claim and spare the messenger. Ask where the number started and whether anyone in the chain saw the before and after. Sincere people pass along unfiltered claims every day; the evidence test is how you stay kind and rigorous at the same time.",
+    "body": "By the time a vendor's number reaches you through a colleague, the tells have worn off: no byline, no ticking clock, just a trusted voice saying everyone is doing this now. So filter the claim and spare the messenger. Ask where the number started and whether anyone in the chain saw the before and after. For claims about what AI can actually do, Stanford's yearly AI Index is a scoreboard with no product behind it.",
     "steps": [
      "Recall one claim that reached you through someone you trust. Trace it: where did the number start, and who along the way verified it?",
      "Rehearse the trace-back line: 'That sounds useful. Where did the number come from?' Practice until it sounds like plain curiosity."
@@ -309,7 +312,7 @@
  },
  "closing": {
   "headline": "Test the claim. <em>Trust the result.</em>",
-  "lead": "You leave April with a full kit: your manager can map exposure, you can sort your own tasks, and every claim about what AI will do now meets three questions first.",
+  "lead": "The month's kit is complete once the filter is in your pocket. Aim it first at the claim you most want to be true.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run the filter on your card",
   "nextBody": "One real claim, three tests, one written verdict. If the claim survives, design the small test. The AI for Leaders course on LinkedIn Learning is a good companion if you want the longer view.",
@@ -336,7 +339,7 @@
     ],
     "respond": "The mind-changer is the one that separates reasoning from believing, and it is the cheapest: one honest sentence before you decide."
    },
-   "debrief": "The filter is a habit, and habits need to be fast. One minute, three questions, any claim, in either direction: enthusiasm and dismissal both get filtered.",
+   "debrief": "The filter is a habit, and habits need to be fast: three questions before a claim gets your belief, whichever direction it leans. Enthusiasm and dismissal both get filtered.",
    "watchFor": "People aiming the filter only at claims they already dislike. The tests work on your favorite claims too, and that is where they earn the most.",
    "transition": "The tests are simple. Hearing when to reach for them takes a tuned ear.",
    "coreNote": "Core: skip the breakout; ask for one recent claim in chat instead."
@@ -344,7 +347,7 @@
   "s2": {
    "title": "The hype tells",
    "purpose": "Tune learners' ears to the recurring patterns of hype and the sound of checkable value.",
-   "say": "Hype is lazy; it repeats itself. Giant numbers with no baseline. Urgency that evaporates when you check the calendar. Sellers quoted as judges of their own product. Value sounds different: a named task, a real number with a before and after, and an invitation to check. Let's tune your ear on three claims.",
+   "say": "Hype is lazy; it repeats itself. Giant numbers with no baseline. Urgency that evaporates when you check the calendar. Sellers quoted as judges of their own product. Value sounds different: a named task, a real number with a before and after, and an invitation to check. And when the claim is about what AI can do at all, there is an independent scoreboard: Stanford publishes the AI Index every year, measuring capability and adoption with nothing to sell. Let's tune your ear on three claims.",
    "facilitate": [
     "Run Hype or value? live; everyone plays on their own screen.",
     "After the colleague claim, pause: ask what makes it so much more credible than the vendor's.",

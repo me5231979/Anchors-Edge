@@ -10,7 +10,7 @@
  "titleHtml": "Clarity that <em class=\"gold-text\">sticks</em>.",
  "tagline": "Clarity as a two-way skill: ask, restate, and close the loop in writing.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: ask for clear expectations, restate them in your own words, and close the loop in writing so agreements survive the week.",
- "heroLead": "Most dropped balls were never caught to begin with: two people left the same conversation carrying two different versions of it. Clarity is a skill with three moves anyone can run: ask, say it back, close the loop in writing. Today you learn all three.",
+ "heroLead": "Most dropped balls were never caught to begin with: two people left the same conversation carrying different versions of it. Clarity is a skill, and it has three moves.",
  "objectives": [
   "Ask the three clarity questions before accepting any significant task",
   "Restate an expectation in your own words and surface the gaps early",
@@ -28,8 +28,7 @@
    "label": "Collaboration"
   }
  ],
- "missionTie": "A university out to define the century loses more hours to fuzzy expectations than to hard problems. Every person who asks, restates, and closes the loop in writing is Exceptional Core Operations happening one handoff at a time.",
- "goalLead": "The manager standard leans hard on expectation-setting, and that skill has two chairs. Clarity is the half everyone owns, whichever chair you sit in today.",
+ "missionTie": "A university out to define the century loses more hours to fuzzy expectations than to hard problems, and every clean handoff is Exceptional Core Operations in miniature.",
  "agenda": [
   {
    "t": "The clarity ask",
@@ -52,7 +51,11 @@
    "dataTitle": "The clarity ask",
    "eyebrow": "The Ask",
    "headline": "Vague requests deserve <em>better questions</em>.",
-   "lead": "Make it better. Circle back soon. Own this going forward. Requests like these feel clear in the moment and dissolve by Tuesday. The fix is three questions anyone can ask anyone: what does done look like, when is it actually needed, and who makes the call?",
+   "lead": "Make it better. Own this going forward. Requests like that dissolve by Tuesday. Gallup calls knowing what is expected of you the most basic employee need, and three questions secure it: what does done look like, when is it needed, and who makes the call?",
+   "source": {
+    "label": "Gallup Q12: knowing what is expected of you is the first engagement element",
+    "url": "https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx"
+   },
    "group": "In pairs: name a current task where you could not describe what done looks like. What would you ask, and of whom? 90 seconds each way.",
    "solo": "Name one current task where you cannot describe what done looks like. Write the clarity question you will ask, and to whom.",
    "deeper": {
@@ -69,7 +72,7 @@
      "tag": "The three clarity questions",
      "text": "Before accepting any significant task, get answers to three things: what does done look like, when is it actually needed, and who makes the final call? Asking them is a service to the requester; every one you skip becomes a guess you own."
     },
-    "context": "Requests like make it better and own this going forward feel clear while everyone is nodding. The clarity lives in three answers: what done looks like, when it is really needed, and who makes the call. Asking serves the requester too: most discover their own picture is fuzzy while answering.",
+    "context": "Requests like make it better feel clear while everyone is nodding. Gallup's Q12 engagement survey opens with the most basic employee need, I know what is expected of me at work, because nothing else engages until that does. The three clarity questions are how you claim it on any task, from anyone.",
     "discuss": "Think of a task that went sideways on you this year. Which of the three answers was missing at the start, and what stopped anyone from asking?",
     "q": "Quick check: asking your manager what done looks like is...",
     "opts": [
@@ -97,7 +100,7 @@
    "dataTitle": "Say it back",
    "eyebrow": "The Restate",
    "headline": "The restate finds gaps while they are <em>cheap</em>.",
-   "lead": "Restating an expectation in your own words is the cheapest test it will ever get. If your version matches theirs, you start with confidence. If it differs, you found the gap while it costs minutes. The judgment call: act, say it back, or get it in writing.",
+   "lead": "Restating an expectation in your own words is the cheapest test it will ever get. A match buys you confidence, and a mismatch finds the gap while fixing it still costs minutes. The judgment call is knowing which handoffs need it.",
    "group": "Breakout pairs: name a live handoff in your work that nobody has said back yet. What would your restate be? 90 seconds each way.",
    "solo": "Name a live handoff nobody has said back yet. Write your one-sentence restate of it.",
    "deeper": {
@@ -193,7 +196,7 @@
        {
         "t": "A recap message sometime next week, when things calm down.",
         "pts": 2,
-        "coach": "Right move, late clock. By next week you are writing what you remember instead of what was said. Same day is the whole trick."
+        "coach": "Right move, late clock. By next week you are writing what you remember instead of what was said, and the two drift apart fast."
        },
        {
         "t": "A three-line message the same day: what I heard, what I own, by when.",
@@ -306,7 +309,7 @@
  },
  "closing": {
   "headline": "Clear is a <em>kindness</em>.",
-  "lead": "You have the ask, the say-back, and the written close: three small moves that spare everyone the expensive kind of surprise. That wraps the manager standard week.",
+  "lead": "The ask, the say-back, and the written close spare everyone the expensive kind of surprise. That wraps the manager standard week.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Run your clarity card",
   "nextBody": "Ask, restate, or close the loop on the expectation you named. Notice what the move surfaces; that gap was headed for your calendar anyway.",
@@ -318,7 +321,7 @@
   "s1": {
    "title": "The clarity ask",
    "purpose": "Install the three clarity questions as a reflex before accepting significant work.",
-   "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, circle back soon, own this going forward. Those requests feel clear for about an hour. Three questions rescue them, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
+   "say": "Think of the last task that went sideways on you. Odds are it was never clear to begin with: make it better, own this going forward. Those requests feel clear for about an hour. Gallup has measured engagement with the same twelve questions for decades, and the first one is simply, I know what is expected of me at work. Everything downstream depends on it. Three questions get you there, and anyone can ask them of anyone: what does done look like, when is it actually needed, and who makes the call?",
    "facilitate": [
     "Read the concept card once; let it sit.",
     "Walk the In the room context; name the three answers slowly. No quiz in the live room.",
@@ -357,7 +360,7 @@
     ],
     "respond": "Right, so the skill includes knowing when to just start. Restate when done, deadline, or decider is missing; act when all three are on the table."
    },
-   "debrief": "Look for done, deadline, decider. Missing any, say it back in your own words. All present, start working.",
+   "debrief": "When done, the deadline, or the decider is missing, say it back in your own words. When all three are on the table, just start.",
    "watchFor": "Word-for-word parroting in the examples. Push for own words: parroting proves listening, restating proves understanding.",
    "transition": "One move left: making the agreement survive the week.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."

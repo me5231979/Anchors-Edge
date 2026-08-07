@@ -100,27 +100,14 @@
   },
   {
    "id": "s-mission",
-   "title": "The mission",
+   "title": "Why we're here",
    "minutes": 2,
    "coreMinutes": 1,
-   "purpose": "Anchor the session in the Chancellor's charge so the next 40 minutes read as mission work, not admin.",
-   "say": "This year of learning hangs off one sentence from the Chancellor: Vanderbilt will define the great university of the 21st Century and be it. Defining the great university of the 21st Century takes staff who redesign their own work instead of waiting for it to be redesigned. Every well-sorted week feeds Discovery and Innovation with hours that used to go to formatting.",
+   "purpose": "Anchor the session in the Chancellor's charge and name the goal this month serves, inside one minute.",
+   "say": "One sentence from the Chancellor sits over everything we do: Vanderbilt will define the great university of the 21st Century and be it. Staff who redesign their own work, instead of waiting for it to be redesigned, feed Discovery and Innovation with hours that used to go to formatting. This month serves Goal 3, AI-Enabled Workforce Readiness.",
    "facilitate": [
-    "Read the mission line slowly, once.",
-    "Point at the tie-in line and let it sit; no discussion needed here."
-   ],
-   "transition": "That is the why. Here is the number we are moving."
-  },
-  {
-   "id": "s-goal",
-   "title": "The goal we are targeting",
-   "minutes": 2,
-   "coreMinutes": 1,
-   "purpose": "Name the enterprise goal this month serves.",
-   "say": "Every month of Anchor's Edge lands on one of three enterprise goals. This month is Goal 3, AI-Enabled Workforce Readiness: Equip managers to identify AI-exposed work, critical skills, and emerging talent needs on their teams, and translate those insights into practical workforce actions. Goal 3 counts on every staff member knowing which parts of their own work are AI-exposed. The task sort is how that knowledge gets made, one week at a time.",
-   "facilitate": [
-    "Read the goal once, plainly.",
-    "One line, not a lecture: this session is one of the moves that serves it."
+    "Read the mission line slowly, once; name the goal, once.",
+    "No discussion here; the whole slide is under a minute."
    ],
    "transition": "Here is what you will be able to do in 45 minutes."
   },
@@ -172,13 +159,13 @@
    "transition": "Tasks on the table. Now each one gets a call.",
    "coreNote": "Core: skip the breakout; ask for one real task in chat instead.",
    "id": "s-one",
-   "minutes": 8,
+   "minutes": 9,
    "coreMinutes": 6
   },
   {
    "title": "The three buckets",
    "purpose": "Install the three calls and their tells, with the traffic light riding along on every sort.",
-   "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
+   "say": "Three calls, and you make them per task, never per job. Automate: AI does it and you check every output. Augment: AI helps and you drive. Wharton's Ethan Mollick calls that pairing centaur work, a clear line with the tool on one side and your judgment on the other. Leave alone: human all the way. And every call rides the traffic light we share all year: green is public or generic, go; yellow is internal, approved VU tools only; red is private information about people, never.",
    "facilitate": [
     "Run Make the call live; everyone plays on their own screen.",
     "After the health-situation task, pause: ask why leave alone is the only call there.",
@@ -198,8 +185,8 @@
    "transition": "Calls made in your head are cheap. One of them earns a test.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question.",
    "id": "s-two",
-   "minutes": 10,
-   "coreMinutes": 7
+   "minutes": 11,
+   "coreMinutes": 8
   },
   {
    "title": "The first test",

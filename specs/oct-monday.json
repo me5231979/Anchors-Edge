@@ -10,7 +10,7 @@
   "titleHtml": "Read the talent <em class=\"gold-text\">around you</em>.",
   "tagline": "Reading your team's skills, gaps, and flight risk.",
   "description": "A 45-minute virtual session for Vanderbilt managers: learn to read your team's skills, spot the gaps that matter, and catch flight risk while there is still time to act.",
-  "heroLead": "Most managers can name their busiest person faster than their most skilled one. This session gives you a working read of your team: what people can do, where the gaps are, and who might be halfway out the door.",
+  "heroLead": "Most managers can name their busiest person faster than their most skilled one. Today you build a working read: skills, gaps, and who might be halfway out the door.",
   "objectives": [
     "Inventory the skills on your team beyond current job titles",
     "Distinguish real flight-risk signals from everyday noise",
@@ -22,8 +22,7 @@
     {"label": "Workforce Planning"},
     {"label": "Retention"}
   ],
-  "missionTie": "A university that aims to define the century needs leaders who know exactly what talent they have. Seeing your team clearly is where Exceptional Core Operations starts, one manager at a time.",
-  "goalLead": "The Talent Marketplace only works if managers can read their own teams first. Today builds that habit, one team at a time.",
+  "missionTie": "Exceptional Core Operations starts with leaders who know exactly what talent they have, one team at a time.",
   "agenda": [
     {"t": "The skills you can't see", "d": "Why titles hide talent, and what an inventory actually looks like."},
     {"t": "The flight-risk read", "d": "Signals worth acting on, noise worth ignoring."},
@@ -37,7 +36,7 @@
       "dataTitle": "The skills you can't see",
       "eyebrow": "The Inventory",
       "headline": "Titles tell you the job. Not the <em>talent</em>.",
-      "lead": "Every team carries skills that never appear on an org chart: the analyst who writes beautifully, the coordinator who de-escalates anyone. A talent read starts by listing what people can do, not what they were hired to do.",
+      "lead": "Every team carries skills the org chart never picked up: an analyst who writes beautifully, a coordinator who can calm anyone down. The read starts with what each person can actually do, which is always more than the job asks.",
       "group": "In pairs: name one hidden skill someone on your team has that their job never uses. One pair shares.",
       "solo": "Write down one hidden skill someone on your team has that their job never uses.",
       "interaction": {
@@ -49,7 +48,7 @@
         "q": "Quick check: which of these belongs in a skills inventory?",
         "opts": [
           {"t": "Their current job description", "correct": false, "why": "That is the role, not the person. The inventory captures what they CAN do, which is always bigger than what the job asks."},
-          {"t": "Skills they use anywhere, in or outside the role", "correct": true, "why": "Exactly. The point is the full picture: skills the role uses, skills it ignores, and skills they are building on their own."},
+          {"t": "Skills they use anywhere, in or outside the role", "correct": true, "why": "Exactly. You want the full picture, including the skills the role ignores and the ones they are building on their own time."},
           {"t": "Only skills you have personally observed", "correct": false, "why": "Your observation is one source. Ask them; people know skills they have never had the chance to show you."}
         ],
         "context": "Think about the last person you hired. You read a resume full of skills, and then the org chart reduced them to one title. Every team on this call carries skills that came up in interviews and have never been used since. The inventory question recovers what the title erased.",
@@ -71,9 +70,10 @@
       "dataTitle": "The flight-risk read",
       "eyebrow": "The Signals",
       "headline": "Flight risk has a <em>sound</em>.",
-      "lead": "People rarely announce they are leaving. They go quiet in meetings they used to own, stop volunteering, or ask questions about growth and get no good answer. The skill is telling those signals apart from ordinary busy-season noise.",
+      "lead": "Gallup finds 42 percent of people who quit say their manager could have done something, and nearly half heard no question about their future in their last three months. The signals were there. This section trains your ear for them.",
       "group": "Breakout pairs: which signal on your team have you been calling noise? 90 seconds each way.",
       "solo": "Name one signal on your own team you may have been calling noise.",
+      "source": {"label": "Preventable turnover research (Gallup, 2024)", "url": "https://www.gallup.com/workplace/646538/employee-turnover-preventable-often-ignored.aspx"},
       "interaction": {
         "type": "trainer",
         "playTitle": "Signal or noise?",
@@ -81,8 +81,8 @@
         "progressWord": "Read",
         "labels": ["Flight-risk signal, act", "Noise, let it be", "Growth signal, feed it"],
         "passAt": 2,
-        "passMsg": "You can hear the difference. Signals get a conversation this week; noise gets patience; growth gets fuel.",
-        "failMsg": "Close. The tell: signals are changes in pattern around ownership and growth. Noise is workload weather. Growth asks are gifts.",
+        "passMsg": "You can hear the difference. A signal earns a conversation this week. Noise mostly needs patience, and a growth ask deserves an answer.",
+        "failMsg": "Close. Watch for pattern changes around ownership; that is the signal. Busy-season weather passes on its own, and a growth ask is good news waiting on an answer.",
         "items": [
           {"q": "Your strongest analyst, who used to fight for projects, has passed on the last three without comment.", "answer": 0, "why": "A pattern change around ownership is the classic early signal. It costs one conversation to check and months to replace them."},
           {"q": "A steady performer is quieter than usual during the two busiest weeks of the semester.", "answer": 1, "why": "Same person, same pattern, heavier season. Watch it, but busy-season quiet on its own is weather, not a warning."},
@@ -94,7 +94,7 @@
         "body": "The common mistake is comparing a person to the rest of the team: your quietest analyst looks fine next to your loudest coordinator. Flight-risk signals only mean anything against a person's own baseline, which is why long-tenured managers miss them; the baseline drifted slowly. The fix is a small discipline: know what normal ownership looks like for each person, then notice departures from that, in either direction.",
         "steps": [
           "Write one sentence per team member describing their normal: what they volunteer for, what they own without being asked.",
-          "Flag anyone whose last month departs from their own sentence. That is a watch list, not a verdict.",
+          "Flag anyone whose last month departs from their own sentence; treat the flags as things to check, never verdicts.",
           "For one flagged person, book a light check-in this week. The conversation is how you test the read."
         ]
       }
@@ -105,7 +105,8 @@
       "dataTitle": "One conversation",
       "eyebrow": "The Move",
       "headline": "The read earns a <em>conversation</em>.",
-      "lead": "A talent read that stays in your head changes nothing. It becomes retention the moment you hold the conversation: a stay interview, a growth check-in, or a skills ask. Build the opening you would actually use.",
+      "lead": "The read starts paying off when somebody hears it. SHRM's stay interview guidance runs on five questions and one discipline: ask, listen, then act on what you heard. Build the opening and the question you would actually use.",
+      "source": {"label": "How to conduct stay interviews: five key questions (SHRM)", "url": "https://www.shrm.org/topics-tools/news/employee-relations/how-to-conduct-stay-interviews-5-key-questions"},
       "interaction": {
         "type": "builder",
         "playTitle": "Build the conversation",
@@ -126,7 +127,7 @@
             "opts": [
               {"t": "Nothing planned; let the conversation flow.", "pts": 1, "coach": "Unstructured goodwill fades fast. Without one real question, the talk stays pleasant and changes nothing."},
               {"t": "What would make you leave?", "pts": 2, "coach": "Better than nothing, but it puts the person on the spot and invites a rehearsed answer. Ask toward growth, not exits."},
-              {"t": "What skill do you have that this role never uses, and what would you like to build next?", "pts": 3, "coach": "The inventory question, aimed forward. It surfaces hidden skills and growth wants in one pass, and both are retention levers."}
+              {"t": "What skill do you have that this role never uses, and what would you like to build next?", "pts": 3, "coach": "The inventory question, aimed forward. You hear a hidden skill and a growth want in one pass, and acting on either one keeps people."}
             ]
           }
         ],
@@ -143,11 +144,11 @@
       },
       "deeper": {
         "title": "The follow-through is the retention",
-        "body": "The conversation itself retains nobody; the follow-through does. Whatever you learn creates a small debt: a stretch task to find, a course to fund, a hidden skill to write into your inventory. Pay it visibly within two weeks, even partially, and the person learns that talking to you moves things. Miss it, and your next stay interview earns exactly the polite yes it was designed to avoid.",
+        "body": "The conversation itself retains nobody; the follow-through does. Whatever you learn creates a small debt, a stretch task to find or a course to fund. Pay it visibly within two weeks, even partially, and the person learns that talking to you moves things. Miss it, and your next stay interview earns exactly the polite yes it was designed to avoid.",
         "steps": [
           "After the conversation, write one line: the skill or want you heard, and the smallest visible action it points to.",
           "Take the action within two weeks: forward the course link, propose the stretch task, or update your inventory and say so.",
-          "At the following 1:1, name what you did with what they told you. The closed loop is the retention lever."
+          "At the following 1:1, name what you did with what they told you. Closing that loop is what makes the next conversation honest."
         ]
       }
     }
@@ -169,13 +170,13 @@
       "q": "What turns a talent read into retention?",
       "opts": ["Recording it in a spreadsheet", "Holding the conversation it points to", "Waiting for the annual review", "Sharing it with HR"],
       "correct": 1,
-      "why": "The read only changes anything when the person hears it: a stay interview, a growth check-in, or a skills ask, this week."
+      "why": "The read only changes anything when the person hears it, in a stay interview or a growth check-in held this week."
     }
   ],
   "recapMsgs": {
     "high": "The read is loaded. Now aim it at one real person on your team.",
-    "mid": "Solid. Revisit the section you missed, then build your card.",
-    "low": "Worth a second pass through the three sections before you commit."
+    "mid": "Solid. Reread the section that got you, then build the card.",
+    "low": "Take one more pass through the three sections before you commit to a card."
   },
   "capstone": {
     "eyebrow": "Capstone · My talent conversation",
@@ -200,7 +201,7 @@
   },
   "closing": {
     "headline": "See them clearly. <em>Keep them longer.</em>",
-    "lead": "You built an inventory question, a flight-risk ear, and one real conversation. The rest of this week's sessions deepen the same theme: seeing the talent around you.",
+    "lead": "The inventory question and the flight-risk read point at the same move, one conversation this week. The rest of the week works the theme from other angles.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Hold the conversation on your card",
     "nextBody": "Run it exactly as built: the opening, the question, and one line afterward about what you learned. Bring that line to next Monday's session.",
@@ -212,7 +213,7 @@
     "s1": {
       "title": "The skills you can't see",
       "purpose": "Install the inventory question: what can each person do beyond what the role requires.",
-      "say": "Here is the uncomfortable truth this month is built on: most of us can describe our team's workload in detail and their skills only vaguely. Titles tell you the job someone was hired for. The talent read starts with what they can actually do, and half of that never shows up in the role. Think about the last resume you hired from: it was full of skills, and then the org chart shrank that person to a title.",
+      "say": "Most of us can describe our team's workload in detail and their skills only vaguely. That gap is what this month works on. Titles tell you the job someone was hired for; half of what they can do never shows up in the role. Think about the last resume you hired from. It was full of skills, and the org chart shrank that person to a title.",
       "facilitate": [
         "Read the lead, then put the In the room card on screen and let the resume-to-title idea land for a beat.",
         "Run the discussion prompt aloud and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only.",
@@ -223,7 +224,7 @@
         "expect": ["Usually a story about a skill mentioned at hire and never used since", "Sometimes silence, which is itself the point"],
         "respond": "If the room goes quiet: that silence is the gap this month closes. If stories flow: notice how fast they came once someone asked."
       },
-      "debrief": "The inventory question costs nothing and most managers have never asked it. That is the whole section.",
+      "debrief": "The inventory question costs nothing and most managers have never asked it. Ask it this month and see what surfaces.",
       "watchFor": "Managers listing job duties instead of skills. Redirect: what could this person do that the job never asks for?",
       "transition": "Skills are half the read. The other half is knowing who might leave.",
       "coreNote": "Core: skip the breakout; ask for one hidden skill in chat instead."
@@ -231,7 +232,7 @@
     "s2": {
       "title": "The flight-risk read",
       "purpose": "Teach the difference between actionable flight-risk signals, ordinary noise, and growth asks.",
-      "say": "Nobody resigns out of nowhere. They resign after months of signals that were easy to read as something else. The skill is not surveillance; it is pattern literacy: noticing when ownership behavior changes, and telling that apart from busy-season weather.",
+      "say": "Gallup asked people who had just quit whether it had to happen. Forty-two percent said their manager could have done something, and nearly half said nobody raised their future with them in the final three months. The signals exist; they get read as something else. So today we practice telling a real signal from busy-season weather. None of this is surveillance, by the way. It is patterns you already see in the normal course of managing.",
       "facilitate": [
         "Run Signal or noise? live; everyone plays on their own screen.",
         "After round two, pause: ask who called it noise and why. The disagreement is the teaching.",
@@ -250,7 +251,7 @@
     "s3": {
       "title": "One conversation",
       "purpose": "Convert the read into a specific conversation with a strong opening and one real question.",
-      "say": "A talent read that stays in your head is trivia. It becomes retention the moment someone hears it. The difference between a box-checking stay interview and one that actually retains is the opening line and the question, so we are going to build both.",
+      "say": "A talent read that never leaves your head retains nobody. SHRM's stay interview guidance keeps the format simple, five questions and the discipline to act on the answers, but the whole thing lives or dies on how you open and what you ask. So that is what we build.",
       "facilitate": [
         "Run Build the conversation; give the room two minutes to make both choices and run it.",
         "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -266,7 +267,7 @@
       "transition": "Quick recap, then you build your own card.",
       "coreNote": "Core: everyone runs the builder solo; skip the read-aloud."
     },
-    "capstoneSay": "Now make it real. One person your read points to, role only. Pick the conversation, pick the window, build the card, and copy it somewhere you will see it before Friday. Two minutes, quiet, go.",
+    "capstoneSay": "Time to commit. One person your read points to, role only. Pick the conversation and the window, build the card, and copy it somewhere it will nag you before Friday. Two quiet minutes, go.",
     "closeSay": "You leave with a read and a conversation. Hold it this week; bring what you learned to next Monday. Tomorrow's Take-Off Tuesday shows your people the Talent Marketplace, the system side of the same picture, and Thursday's session sharpens the curiosity that makes these conversations work.",
     "contingencies": [
       {"if": "Screen share or the site fails mid-session", "then": "Paste the learner link in chat and narrate from your own browser; every interaction runs on learner devices without the share."},
@@ -276,7 +277,7 @@
     ],
     "toughQuestions": [
       {"q": "Isn't watching for flight risk just spying on my team?", "a": "No tools, no monitoring, no message-reading. This is about patterns you already see in the normal course of managing: who volunteers, who owns, who asks about growth. The response to a signal is a conversation, which is the opposite of surveillance."},
-      {"q": "What if the stay interview surfaces a problem I can't fix, like pay?", "a": "Name what you control and what you don't, honestly. Most stay research shows people leave over growth, visibility, and manager attention more often than pay alone, and those are yours. For the rest, carry it upward visibly; being advocated for retains people too."},
+      {"q": "What if the stay interview surfaces a problem I can't fix, like pay?", "a": "Name what you control and what you don't, honestly. In Gallup's exit research, manager attention and growth drive plenty of preventable departures, and both of those are yours. For the rest, carry it upward visibly; being advocated for retains people too."},
       {"q": "What do I do with the skills inventory once I have it?", "a": "Three uses this month: match one hidden skill to one real task, feed one growth ask, and hold one conversation. Later months connect it to the Talent Marketplace and the Transfer Portal, where the inventory becomes the university's map, not just yours."}
     ],
     "templates": [

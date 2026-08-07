@@ -10,7 +10,7 @@
  "titleHtml": "Walk through the <em class=\"gold-text\">open door</em>.",
  "tagline": "Navigating the Transfer Portal, end to end.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: set up your Transfer Portal profile, find internal roles and gigs, raise your hand in the open, and know exactly what happens next.",
- "heroLead": "The Transfer Portal is Vanderbilt's front door to internal opportunity: roles, projects, and gigs across the university. Today you walk it end to end on your own screen: your profile, your search, raising your hand, and what happens after you do.",
+ "heroLead": "The Transfer Portal is Vanderbilt's front door to internal roles, projects, and gigs. Today you walk it end to end on your own screen, profile to raised hand.",
  "objectives": [
   "Build a Portal profile that shows your full skills, beyond your current title",
   "Find internal roles, projects, and gigs by the skills you want to use",
@@ -31,8 +31,7 @@
    "label": "Digital Fluency"
   }
  ],
- "missionTie": "A university that will define the century cannot let opportunity depend on who you happen to know. The Portal makes internal mobility part of Exceptional Core Operations: visible, open, and one profile away for every staff member.",
- "goalLead": "Goal 1 promises to connect employees to internal opportunity. Today is that promise at ground level: your profile, your search, your raised hand.",
+ "missionTie": "Opportunity at a great university cannot depend on who you happen to know; the Portal makes it visible to every staff member, and that is Exceptional Core Operations in practice.",
  "agenda": [
   {
    "t": "Your profile is the signal",
@@ -55,14 +54,18 @@
    "dataTitle": "Your profile is the signal",
    "eyebrow": "The Profile",
    "headline": "Your profile is how opportunity <em>finds you</em>.",
-   "lead": "The Portal matches people to opportunities through skills. A profile that only repeats your job title hides most of what you can do. The ten minutes you spend listing real skills is the highest-leverage career move in this whole session.",
+   "lead": "The Portal matches people to opportunity through skills. A profile that only repeats your job title keeps most of your range invisible, and ten minutes of honest listing fixes that.",
+   "source": {
+    "label": "Internal mobility and retention, LinkedIn Workplace Learning Report (2022)",
+    "url": "https://learning.linkedin.com/resources/workplace-learning-report-2022"
+   },
    "group": "In pairs: name one skill you use every week that your job title would never suggest. One pair shares.",
    "solo": "Write down one skill you use every week that your job title would never suggest.",
    "interaction": {
     "type": "check",
     "card": {
      "tag": "The profile rule",
-     "text": "List what you can do, wherever you learned it: skills your role uses, skills it ignores, and skills you are building on your own. The Portal matches on skills, so every one you leave off is a door that stays shut."
+     "text": "List what you can do, wherever you learned it, including the skills your current role never asks for. The Portal matches on skills, so every one you leave off is a door that stays shut. What you want to build next belongs on there too."
     },
     "q": "Which profile gets found by the right opportunities?",
     "opts": [
@@ -82,7 +85,7 @@
       "why": "Certificates help and are welcome, and most real skills have no paper. If you have done it, list it; the conversation later is where depth gets shown."
      }
     ],
-    "context": "Last month's theme was seeing the talent around you. Your profile is the other half of that: it is how your talent gets seen. The Portal matches people to opportunity through skills, so a profile that only repeats your title hides most of what you can do, wherever you learned to do it.",
+    "context": "Last month's theme was seeing the talent around you; your profile is how your talent gets seen. The stakes run past any single posting, too. LinkedIn's Workplace Learning Report found people stay nearly twice as long at organizations that do internal mobility well, and mobility starts at the profile.",
     "discuss": "Why do so many of our strongest skills never make it into a job description? What would change for you if the rest of the university could see yours?"
    },
    "deeper": {
@@ -189,8 +192,8 @@
      "Ask a navigator"
     ],
     "passAt": 2,
-    "passMsg": "You have the rhythm: move in the open, use the people built to help, and treat silence as a question to ask.",
-    "failMsg": "Close. The tell: secrecy is old habit, open moves are the design, and a navigator is the answer whenever you cannot see the next step.",
+    "passMsg": "You have the rhythm. Move in the open, and treat silence as a question for a navigator.",
+    "failMsg": "Close. The tell: secrecy is a habit from external job searches. Here the open move is the designed one, and a navigator can always show you the next step.",
     "items": [
      {
       "q": "You found a great role in another school and plan to tell your manager only if you get an offer.",
@@ -240,7 +243,7 @@
     "Ask HR to put in a word"
    ],
    "correct": 1,
-   "why": "Working in the open puts three forces behind you: the system, a sending manager, and a navigator who knows the process."
+   "why": "Working in the open means the system has your hand up and the people who can actually help know to help."
   },
   {
    "q": "Two weeks of silence after expressing interest means...",
@@ -251,7 +254,7 @@
     "You should withdraw and reapply"
    ],
    "correct": 2,
-   "why": "Silence is a question, and navigators exist to answer it: the stage, the timeline, and how to strengthen your profile."
+   "why": "Navigators exist for exactly this. They can tell you the stage, the timeline, and what would strengthen your profile."
   }
  ],
  "recapMsgs": {
@@ -309,7 +312,7 @@
  },
  "closing": {
   "headline": "The door is open. <em>Walk through it.</em>",
-  "lead": "You built a profile rule, a skill-first search, and an open way to raise your hand. Thursday's session builds the human side of the same map: the internal bridges that carry news of opportunity.",
+  "lead": "Your profile is the antenna and the open hand is the method. Thursday's session builds the human side of the same map: the internal bridges that carry news of opportunity.",
   "nextTag": "Your one next step · This week",
   "nextTitle": "Make the Portal move on your card",
   "nextBody": "Run it as built. If you want company, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
@@ -321,7 +324,7 @@
   "s1": {
    "title": "Your profile is the signal",
    "purpose": "Get every profile past the title-only trap: skills from anywhere, plus what they want to build.",
-   "say": "Here is how the Portal actually works: it matches people to opportunity through skills. Which means your profile is an antenna. If it only repeats your job title, it can only pick up your current job. Most of what you can do never made it into a job description, and today's first move is getting it into your profile.",
+   "say": "Here is how the Portal actually works: it matches people to opportunity through skills. Which means your profile is an antenna. If it only repeats your job title, it can only pick up your current job. And this matters beyond any one posting. LinkedIn's Workplace Learning Report found that people stay nearly twice as long at organizations that are good at internal mobility, 5.4 years against 2.9 on average. Most of what you can do never made it into a job description, and today's first move is getting it into your profile.",
    "facilitate": [
     "Read the profile rule card aloud once.",
     "Show the in-the-room card in place of the quiz; ask in chat who has updated their profile this year.",
@@ -358,7 +361,7 @@
      "A way to test a direction",
      "A way to be seen by another team"
     ],
-    "respond": "All three. A gig is a working interview in both directions, and it builds the exact evidence your profile needs for the bigger move later."
+    "respond": "A gig is a working interview in both directions, and it builds the exact evidence your profile needs for the bigger move later."
    },
    "debrief": "Search by skill, include gigs, raise your hand where people can see it. That is the whole method.",
    "watchFor": "Anyone treating express-interest as a binding commitment. It opens a conversation; it signs nothing.",
@@ -381,15 +384,15 @@
      "There are stages you can ask about",
      "A navigator can tell you where it stands"
     ],
-    "respond": "Right, and that last one is the habit to build: silence in the process is a question, and navigators are the people built to answer it."
+    "respond": "Right, and that last one is the habit to build. When the process goes quiet, asking a navigator is the move."
    },
    "debrief": "Secrecy is an old habit from external searches. Here, the open move is the strong move, and navigators are the map.",
    "watchFor": "Skeptics with a story about a manager who punished a move. Take it seriously: sending managers are this month's Monday session, and specifics belong with HR rather than a debate in the room.",
    "transition": "Quick recap, then you pick your own Portal move.",
    "coreNote": "Core: run the trainer, skip the breakout, take one voice on the debrief question."
   },
-  "capstoneSay": "Now make it yours. One Portal move: the profile refresh, the open search, or the raised hand. Pick the move, pick the window, build the card, and copy it somewhere you will see it this week. Two minutes, quiet, go.",
-  "closeSay": "You leave with an antenna, a search method, and an open hand. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
+  "capstoneSay": "Now make it yours. One Portal move: the profile refresh, the open search, or the raised hand. Pick the move and the window, build the card, and copy it somewhere you will see it this week. Take two quiet minutes.",
+  "closeSay": "You leave with the antenna up and a way of searching that finds more than your own job title. Thursday's Thrive session builds the human side of this: networking across departments, the internal bridges that carry news of opportunity before any posting goes up. And if you want company on your first pass, the navigators run a live Portal walkthrough and a skill-profile clinic this month, and the LinkedIn Learning pick is Building Your Team by Chris Croft.",
   "contingencies": [
    {
     "if": "Screen share or the site fails mid-session",

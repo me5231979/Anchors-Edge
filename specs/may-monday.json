@@ -10,7 +10,7 @@
   "titleHtml": "The standard shows up in <em class=\"gold-text\">your evidence</em>.",
   "tagline": "Evidence of the manager standard: what gets measured.",
   "description": "A 45-minute virtual session for Vanderbilt managers: see how the manager standard is measured through demonstrated behavior, read your own pulse and cadence evidence without flinching, and choose one behavior to make more visible this month.",
-  "heroLead": "The manager standard stopped being a poster this year. It is measured now, through what pulse data, 1:1 cadence, and team signals actually show. This session teaches you to read your own evidence calmly and pick one behavior to make more visible.",
+  "heroLead": "The manager standard is measured now, through pulse data, 1:1 cadence, and team signals. Today you read your own evidence and pick one behavior to make visible.",
   "objectives": [
     "Name the three evidence streams that measure the manager standard",
     "Read your own pulse and cadence data without a defensive story",
@@ -22,8 +22,7 @@
     {"label": "Data Literacy"},
     {"label": "Self-Awareness"}
   ],
-  "missionTie": "Defining the great university of the 21st Century takes leadership you can actually see. Measured leader behavior turns good management into Exceptional Core Operations, one visible habit at a time.",
-  "goalLead": "Goal 2 promised a manager standard that measures demonstrated behavior. This month the measurement is live, and today you learn to read what it says about you.",
+  "missionTie": "The great university of the 21st Century needs leadership you can actually see, and measured manager behavior is Exceptional Core Operations made visible.",
   "agenda": [
     {"t": "What gets measured", "d": "The three evidence streams: pulse data, 1:1 cadence, and team signals."},
     {"t": "Reading without flinching", "d": "Your evidence is information about behavior. Defensiveness turns it into an argument."},
@@ -37,16 +36,17 @@
       "dataTitle": "What gets measured",
       "eyebrow": "The Streams",
       "headline": "The standard is measured in <em>behavior</em>.",
-      "lead": "The manager standard is a list of behaviors, and behaviors leave traces. Pulse scores show how your team experiences you. 1:1 cadence shows whether the conversations happen. Team signals, like retention and growth, show what it all adds up to.",
+      "lead": "The manager standard is a list of behaviors, and behaviors leave traces. Your pulse carries how the team experiences you. The calendar keeps the record of 1:1s held, moved, or quietly dropped, and a year of retention and growth tells the rest.",
       "group": "In pairs: which of the three streams do you check least, and what might it be saying right now? 90 seconds each way.",
       "solo": "Name the evidence stream you check least, and write one guess at what it says right now.",
+      "source": {"label": "Gallup Q12 employee engagement research", "url": "https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx"},
       "interaction": {
         "type": "check",
         "card": {
           "tag": "The evidence rule",
           "text": "Intentions are invisible; behavior is measurable. The standard tracks what you demonstrably do: the pulse your team answers, the 1:1s that happen or slip, and the signals your team sends with their feet and their growth."
         },
-        "context": "Every manager on this call is already generating all three streams. Your team answered the last pulse. Your calendar holds the record of 1:1s held, moved, or quietly dropped. And over time, retention and growth tell their own story. None of it needs a new tool; it needs a reader.",
+        "context": "Every manager on this call is already generating all three streams: a pulse the team just answered, a calendar that remembers which conversations happened, and a slower story told by who stays and who grows. Nothing new to install. The work is learning to read what is already there.",
         "discuss": "Which stream would surprise you most if you looked today, and what has kept it the one you check least?",
         "q": "Quick check: which of these counts as evidence of the manager standard?",
         "opts": [
@@ -57,7 +57,7 @@
       },
       "deeper": {
         "title": "Reading the three streams together",
-        "body": "Any single stream can mislead you for a quarter. A pulse dips during a reorg, cadence slips during a crunch, and a departure can be pure opportunity for the person leaving. The honest read is triangulation: when two streams point the same direction for two cycles running, treat it as signal. One stream, one cycle is a prompt to keep watching, never a conclusion.",
+        "body": "Pulse questions look soft until you know their pedigree. Gallup's Q12 research has tracked short team-experience questions against hard outcomes for decades, and it keeps finding that the manager moves those answers more than anything else does. Even so, any single stream can mislead you for a quarter: a pulse dips during a reorg, cadence slips during a crunch. The honest read is triangulation. When two streams agree for two cycles running, treat it as signal.",
         "steps": [
           "In a private note, capture all three streams: your last pulse result, your 1:1 record for the past two months, and any team moves over the past year.",
           "Mark where two streams agree. That agreement is your strongest signal, and the behavior it points at is your best candidate for this month.",
@@ -71,9 +71,10 @@
       "dataTitle": "Reading without flinching",
       "eyebrow": "The Read",
       "headline": "Evidence is information, once you stop <em>arguing with it</em>.",
-      "lead": "A dip in your pulse score is a data point about how the team experienced the quarter. The defensive move explains it away; the overcorrection turns it into a verdict on you. The evidence read asks one question: what behavior would move this number?",
+      "lead": "A pulse dip is a data point about how the team experienced the quarter. Tasha Eurich's self-awareness research supplies the useful move here: swap why for what. Why is my score low invites a defense brief; what behavior would move it points somewhere you can act.",
       "group": "Pairs: name one piece of manager feedback you argued with at first. What was the evidence read? 90 seconds each way.",
       "solo": "Recall one piece of feedback you argued with at first. Write the evidence read you could have made instead.",
+      "source": {"label": "Tasha Eurich, What Self-Awareness Really Is (HBR)", "url": "https://hbr.org/2018/01/what-self-awareness-really-is-and-how-to-cultivate-it"},
       "interaction": {
         "type": "trainer",
         "playTitle": "Call the read",
@@ -82,7 +83,7 @@
         "labels": ["Evidence read, act on it", "Defensive read, drop it", "Overcorrection, ease off"],
         "passAt": 2,
         "passMsg": "You can hear the difference. Evidence earns one behavior change; defensiveness gets dropped; overcorrection gets perspective.",
-        "failMsg": "Close. The tell: an evidence read asks what behavior would move the number. Defensiveness argues with the data; overcorrection makes it a verdict.",
+        "failMsg": "Almost. An evidence read asks what behavior would move the number; defensiveness argues with the data, and overcorrection turns one signal into a verdict.",
         "items": [
           {"q": "Pulse dips on 'my manager gives useful feedback.' The manager thinks: the survey ran during crunch, so it does not count.", "answer": 1, "why": "The timing may be real context, and 'it does not count' is the tell. A defensive read closes the question the data just opened."},
           {"q": "The 1:1 record shows the manager cancelled four of the last six. Their read: that is my behavior, and cadence is the fix.", "answer": 0, "why": "That is the evidence read: a countable behavior, owned without drama, answered with one concrete change the team will feel."},
@@ -91,7 +92,7 @@
       },
       "deeper": {
         "title": "The second draft rule",
-        "body": "The defensive story is not a character flaw; it is the first draft everyone writes when their own numbers sting. The discipline is refusing to act on the first draft. Sit with stinging data for a day, then write the evidence read in one sentence: the behavior this points at is X. If context genuinely explains the number, write the context down too, and still pick a behavior. Context and behavior can both be true.",
+        "body": "Everyone writes the defensive story first when their own numbers sting; treat it as a draft, never a character flaw. The discipline is refusing to act on it. Sit with stinging data for a day, then write the evidence read in one sentence: the behavior this points at is X. If context genuinely explains the number, write the context down too, and still pick a behavior. Context and behavior can both be true.",
         "steps": [
           "Find one number or comment from the past year that still annoys you. Write the defensive story you told first, word for word.",
           "Under it, write the one-sentence evidence read: what behavior would move this?",
@@ -105,7 +106,7 @@
       "dataTitle": "One visible behavior",
       "eyebrow": "The Move",
       "headline": "Pick one behavior. Make it <em>easy to see</em>.",
-      "lead": "The standard rewards behavior a team can actually observe. So choose one behavior your evidence points at, then make it visible on purpose: named to your team, put on the calendar, and easy to catch you doing.",
+      "lead": "The standard rewards behavior a team can actually observe. So pick the one behavior your evidence points at and stop keeping it private. Tell the team. Put it on the calendar, and ask them to flag the week it slips.",
       "interaction": {
         "type": "builder",
         "playTitle": "Make it visible",
@@ -212,7 +213,7 @@
     "s1": {
       "title": "What gets measured",
       "purpose": "Install the three evidence streams: pulse data, 1:1 cadence, and team signals.",
-      "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement. Here is the part that matters: it measures behavior, in three streams your team already generates. How they answer the pulse. Whether your 1:1s actually happen. The signals they send over time with retention and growth. Today is about reading those streams like a professional instead of like a defendant.",
+      "say": "When this series first introduced the manager standard, it was a promise on a slide. This month it is a measurement, and what it measures is behavior, in three streams your team already generates: how they answer the pulse, whether your 1:1s actually happen, and what retention and growth say over time. Take the pulse stream seriously. It descends from Gallup's engagement research, which keeps finding that the manager moves a team's engagement more than any other factor. Today is about reading your streams like a professional instead of like a defendant.",
       "facilitate": [
         "Read the lead once, then walk the concept card and the In the room card together; no quiz in the live room.",
         "Lead the discussion prompt aloud; take two or three voices, plus a chat vote on the least-checked stream.",

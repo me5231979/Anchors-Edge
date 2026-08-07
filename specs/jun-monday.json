@@ -10,7 +10,7 @@
   "titleHtml": "Turn the insight into <em class=\"gold-text\">a move</em>.",
   "tagline": "Translating AI insights into workforce moves.",
   "description": "A 45-minute virtual session for Vanderbilt managers: learn the four workforce moves, match one AI-exposure insight from your team to the move it calls for, and commit to it with an owner and a date.",
-  "heroLead": "This spring you mapped which work on your team AI touches most. That map has been waiting for a verb. This session gives you four: reskill, redeploy, redesign, hire, and shows you how to turn one insight into one move with an owner and a date.",
+  "heroLead": "You mapped the work AI touches most on your team. That map has been waiting for a verb; today it gets one of four, plus an owner and a date.",
   "objectives": [
     "Name the four workforce moves: reskill, redeploy, redesign, and hire",
     "Match one AI-exposure insight from your team to the move it calls for",
@@ -22,14 +22,13 @@
     {"label": "AI Literacy"},
     {"label": "Decision Making"}
   ],
-  "missionTie": "A university that intends to define the century cannot let AI insights sit in slide decks. Managers who turn signals into moves are how Exceptional Core Operations stays exceptional while the work itself changes.",
-  "goalLead": "Goal 3 asks managers to translate AI insights into practical workforce actions. This session is that translation step: the vocabulary, the match, and the commitment.",
+  "missionTie": "Managers who turn AI signals into real staffing moves are how Exceptional Core Operations keeps its footing while the work itself changes.",
   "agenda": [
     {"t": "The four moves", "d": "Reskill, redeploy, redesign, hire: the whole vocabulary for acting on an AI insight."},
     {"t": "The match", "d": "Read a real team insight and call the move it asks for."},
-    {"t": "Owner and date", "d": "Make the move real: one sentence, one owner, one date on the calendar."}
+    {"t": "Owner and date", "d": "Make the move real with an owner and a date on the calendar."}
   ],
-  "manifesto": "An insight without a move is a slide. Pick the move, name the owner, set the date.",
+  "manifesto": "An insight without a move is just a slide. Give it a verb and a date.",
   "sections": [
     {
       "id": "s-one",
@@ -37,12 +36,13 @@
       "dataTitle": "The four moves",
       "eyebrow": "The Vocabulary",
       "headline": "Every AI insight answers to <em>four verbs</em>.",
-      "lead": "When AI changes work on your team, you have four moves. Reskill: teach the person the new version of the work. Redeploy: point their strength at different work. Redesign: rebuild the role around what stays human. Hire: bring in what you cannot build.",
+      "lead": "When AI changes work on your team, you have four moves. Reskill teaches the person the new version of the work. Redeploy points their strength at work that needs it. Redesign rebuilds the role around what stays human, and hire buys what you cannot build.",
       "group": "In pairs: which of the four moves has your team used most in the last year, and which never? 90 seconds each way.",
       "solo": "Which of the four moves has your team used most in the last year, and which never? Write both down.",
+      "source": {"label": "Beyond hiring: how companies reskill to close talent gaps, McKinsey (2020)", "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/beyond-hiring-how-companies-are-reskilling-to-address-talent-gaps"},
       "deeper": {
         "title": "When the order breaks",
-        "body": "The order is a default, not a law. Reskill assumes the person wants the bigger work; some honestly do not, and that answer points you to redeploy. Redeploy assumes the receiving work lives on your team; when it lives elsewhere, the Transfer Portal is the same move told honestly. And a redesign that quietly doubles a role's scope is a hire wearing a disguise. Test each move against what the person and the work can really carry.",
+        "body": "The order is a default, not a law. Reskill assumes the person wants the bigger work; some honestly do not, and that answer points you to redeploy. When the receiving work lives on another team, the Transfer Portal is the same move told honestly. A redesign that quietly doubles a role's scope is a hire in disguise. The order itself has evidence behind it: McKinsey's skill-gap surveys found reskilling usually beats hiring on cost and on fit.",
         "steps": [
           "Pick one role where AI changed the routine work. Write all four moves as one line each, even the two that feel wrong for this case.",
           "Cross out the moves the person or the budget truly cannot carry, then write one sentence on why the surviving move wins."
@@ -88,7 +88,7 @@
         "progressWord": "Insight",
         "labels": ["Reskill", "Redeploy", "Redesign"],
         "passAt": 2,
-        "passMsg": "You can read a signal and call its move. That match is the whole skill of this month.",
+        "passMsg": "Good reading. The match between signal and move is exactly what your own exposure map needs next.",
         "failMsg": "Close. The tell: reskill when the person should grow with the work, redeploy when a strength needs new work, redesign when the role itself changed shape.",
         "items": [
           {"q": "AI now handles first-pass data cleaning. Your analyst is strong and curious, and the team's real gap is interpretation and storytelling with data.", "answer": 0, "why": "The person is right; the work moved up a level. Reskilling toward interpretation turns AI's takeover of the routine into a promotion of the human work."},
@@ -103,7 +103,7 @@
       "dataTitle": "Owner and date",
       "eyebrow": "The Commit",
       "headline": "A move needs an <em>owner and a date</em>.",
-      "lead": "A matched move is still just a better slide. It becomes a workforce action when one sentence says what changes, one person owns the next step, and one date puts it on a calendar. Build that sentence now.",
+      "lead": "A matched move is still just a better slide. It becomes a workforce action when somebody owns the next step and the step has a date. Build the sentence now, specific enough that anyone could check later whether it happened.",
       "deeper": {
         "title": "The second sentence",
         "body": "Your move sentence needs a companion most managers skip: the sentence you say to the person whose work is changing. Announced early, a move reads as investment; discovered late, the same move reads as verdict. Draft it in the week you date the move: what you saw change in the work, what you want to grow in them, and what stays theirs. The Oracle 1:1 template holds it well, and that conversation is usually step one anyway.",
@@ -166,7 +166,7 @@
       "q": "What turns a matched move into a workforce action?",
       "opts": ["Adding it to the team slide deck", "An owner and a date", "HR approval", "A reorg announcement"],
       "correct": 1,
-      "why": "One sentence naming the move, one person owning step one, one date on a calendar. Everything else is documentation."
+      "why": "Name the move, give step one an owner, and put a date on the calendar. Everything else is documentation."
     }
   ],
   "recapMsgs": {
@@ -176,7 +176,7 @@
   },
   "capstone": {
     "eyebrow": "Capstone · My workforce move",
-    "headline": "One insight. One move. <em>One date.</em>",
+    "headline": "Match the insight, then <em>date the move</em>.",
     "lead": "Take the sharpest AI insight from your team, role only, never a name. Match it to its move and give it an owner and a date. If none of the three fits, the move is hire; take that one to your HR consultant. Nothing you type is saved or sent.",
     "whoLabel": "The insight: role and what AI changed about the work.",
     "whoPlaceholder": "e.g. program coordinator; AI now drafts most routine correspondence",
@@ -197,11 +197,11 @@
   },
   "closing": {
     "headline": "Stop admiring the insight. <em>Make the move.</em>",
-    "lead": "You leave with four verbs, one match, and a move that has an owner and a date. The rest of this week helps every person on your team build their own version of the same discipline.",
+    "lead": "You leave with four verbs and a move that has an owner and a date. The rest of this week helps everyone on your team build the same discipline for themselves.",
     "nextTag": "Your one next step · This week",
     "nextTitle": "Put step one of your move on the calendar",
     "nextBody": "Book the first conversation your move requires before Friday. For a longer runway, the LinkedIn Learning course Leading Your Team Through Change by Gemma Leigh Roberts pairs well with this month.",
-    "brandline": "Read the signal. Call the move. Set the date."
+    "brandline": "Read the signal, then move on it."
   },
   "facilitator": {
     "audience": "Vanderbilt people managers and team leads in the Anchor's Edge weekly rhythm. Works for 6 to 40 on a call; breakouts run in pairs. Assumes the April AI-exposure sessions; June closes the series year with From Insight to Action.",
@@ -209,7 +209,7 @@
     "s1": {
       "title": "The four moves",
       "purpose": "Install the shared vocabulary: reskill, redeploy, redesign, hire, and the order to try them in.",
-      "say": "In April you built an exposure map: which work on your team AI touches most. Maps are not moves. This month gives the map a verb, and there are only four worth learning: reskill the person, redeploy the strength, redesign the role, hire what you cannot build. Everything we do today hangs off those four.",
+      "say": "In April you built an exposure map: which work on your team AI touches most. Maps are not moves. This month gives the map a verb, and there are only four worth learning: reskill the person, redeploy the strength, redesign the role, hire what you cannot build. The order matters as much as the list. When McKinsey surveyed companies closing skill gaps, reskilling the people they already had usually beat hiring on both cost and fit, which is why hire sits last today.",
       "facilitate": [
         "Walk the four moves once, one line each; resist the urge to lecture.",
         "Read the In the room card aloud; everyone holds one real role in mind and names their instinct move silently.",

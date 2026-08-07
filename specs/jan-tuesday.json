@@ -10,7 +10,7 @@
  "titleHtml": "Your first AI win is <em class=\"gold-text\">one chore away</em>.",
  "tagline": "Hands-on: one safe AI use case for your daily work.",
  "description": "A 45-minute hands-on virtual session for all Vanderbilt staff: pick one safe chore from your own week, write a plain-English ask, and check the result before you use it. No AI experience needed.",
- "heroLead": "This hour assumes you have never opened an AI tool. Bring one chore from your regular week; you will learn the traffic light that keeps it safe, ask for help in plain English, and check the result like an editor. That is a complete first win.",
+ "heroLead": "This hour assumes you have never opened an AI tool. Bring one chore from your week; you will run it safely, in plain English, and check the result like an editor.",
  "objectives": [
   "Pick one green-light chore from your own week that AI can safely draft",
   "Write a plain-English ask that gives the tool the job, the details, and the shape you want",
@@ -31,8 +31,7 @@
    "label": "Attention to Detail"
   }
  ],
- "missionTie": "The great university of the 21st Century gets built in ordinary workweeks. Every staff member who hands a chore to AI safely puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.",
- "goalLead": "Goal 3 measures a workforce that is ready for AI, and readiness starts with one real use each. Today you run yours: one chore, one ask, one check.",
+ "missionTie": "The great university of the 21st Century gets built in ordinary workweeks: every chore handed safely to a tool puts an hour back into work that needs a human, and Exceptional Core Operations grows by exactly that much.",
  "agenda": [
   {
    "t": "Pick the chore",
@@ -55,7 +54,7 @@
    "dataTitle": "Pick the chore",
    "eyebrow": "The Green Light",
    "headline": "Your week is full of <em>green lights</em>.",
-   "lead": "AI is at its best on chores: first drafts, tidy summaries, notes turned into clean sentences. The traffic light decides what is safe. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.",
+   "lead": "AI is at its best on chores, the first drafts and tidy summaries of a normal week. The traffic light decides what is safe. Green, public or generic: go. Yellow, internal work: approved VU tools only. Red, private information about people: never.",
    "group": "In pairs: each name one chore from your own week and call its light. 90 seconds each way.",
    "solo": "Name one chore from your own week and call its light: green, yellow, or red.",
    "deeper": {
@@ -181,12 +180,16 @@
    "dataTitle": "Check before you use",
    "eyebrow": "The Check",
    "headline": "You are the <em>editor</em>.",
-   "lead": "AI drafts with total confidence and zero guarantee. Sometimes it invents a detail, gets a name wrong, or strikes a tone you would never use. The rule that keeps you safe is simple: the draft ships after you have read every line and can stand behind every fact.",
+   "lead": "AI drafts with total confidence and zero guarantee. Sometimes it invents a detail or strikes a tone you would never use. The rule that keeps you safe is simple: the draft ships after you have read every line and can stand behind every fact.",
    "group": "In pairs: tell each other about a time a confident-sounding document turned out to be wrong. What would have caught it? 90 seconds each way.",
    "solo": "Recall a time a confident-sounding document turned out to be wrong. What would have caught it?",
+   "source": {
+    "label": "The jagged frontier study, Dell'Acqua, Mollick and colleagues (Harvard Business School)",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+   },
    "deeper": {
     "title": "The two-pass check",
-    "body": "Make the check a routine and it stays quick. Pass one is facts: touch every name, date, number, and claim, and confirm each against a source you trust; anything you cannot verify gets cut or confirmed by you. Pass two is fit and voice: read the draft aloud once, because your ear catches the sentence you would never say faster than your eye does. On a chore-sized draft the whole routine takes about two minutes.",
+    "body": "Make the check a routine and it stays quick. Pass one is facts: touch every name, date, and number, and confirm each against a source you trust; anything you cannot verify gets cut or confirmed by you. Pass two is voice: read the draft aloud once; your ear catches the sentence you would never say faster than your eye does. In the Harvard consultant study, the people who slipped took a confident draft at face value.",
     "steps": [
      "Run both passes on your first-win draft and keep a tally of what pass one caught.",
      "Read the final version aloud and rewrite any sentence that does not sound like you."
@@ -198,7 +201,7 @@
      "tag": "The editor's rule",
      "text": "Before an AI draft goes anywhere, check facts (every name, date, and number), fit (is this what you meant to say?), and voice (does it sound like you?). If you cannot verify a detail, cut it or confirm it yourself."
     },
-    "context": "AI tools write by predicting what sounds right, and they sound just as confident when they are wrong. The failure has a pattern: an invented detail, a plausible name or number, a tone slightly off from yours. The editor's rule exists because errors hide inside polish, where a skim never finds them.",
+    "context": "Harvard Business School ran a field experiment with hundreds of consultants. AI help made their work faster and better on tasks the tool handled well, and worse on lookalike tasks it quietly could not, since it sounded equally sure both times. The editor's rule exists for that edge.",
     "discuss": "Where in your own work would one invented detail do the most damage? What would your two-minute check look like for catching it?",
     "q": "The tool's draft includes a detail you did not provide and cannot verify. What do you do?",
     "opts": [
@@ -346,7 +349,7 @@
   "s2": {
    "title": "Write the ask",
    "purpose": "Prove that plain English works: the job, the details that matter, and the shape you want back.",
-   "say": "Here is the best news of the month: talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague. Here is the job, here are the details that matter, here is the shape I want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
+   "say": "The best news of the month is that talking to an AI tool takes no special language. You brief it the way you would brief a helpful colleague: the job, the details that matter, the shape you want back. The clearer the ask, the closer the draft comes back to done. Let's build one together.",
    "facilitate": [
     "Run Build the ask; two minutes to make both choices and send it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
@@ -369,7 +372,7 @@
   "s3": {
    "title": "Check before you use",
    "purpose": "Install the editor's rule: verify facts, fit, and voice before any draft leaves your hands.",
-   "say": "One honest warning and you are ready. The tool writes with total confidence whether it is right or wrong. Sometimes it invents a detail or misses your meaning, so the last step of every use is the check: every fact verified, the message actually yours, the voice actually you. Two minutes of editing keeps your name safe on everything you send.",
+   "say": "One honest warning before you run anything for real. Harvard Business School tested this with hundreds of consultants, and the tool made their work faster and better on tasks it was good at, then worse on tasks it only looked good at, because it sounds identical either way. So the last step of every use is the check: every fact verified, the voice actually yours. Two minutes of editing keeps your name safe on everything you send.",
    "facilitate": [
     "Read the editor's rule card aloud, once, slowly, then let the context on screen land; the live room gets the framing, no quiz.",
     "Run the discussion: where would one invented detail do the most damage in your work? Take two or three voices.",

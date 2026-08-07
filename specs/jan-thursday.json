@@ -10,7 +10,7 @@
  "titleHtml": "Stay steady <em class=\"gold-text\">before the fog lifts</em>.",
  "tagline": "Softskill · Adaptability: leading through ambiguity.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: build adaptability for seasons of change by sorting known from unknown, running small experiments while certainty catches up, and helping colleagues stay steady.",
- "heroLead": "Workplaces change faster than answers arrive, and this year AI is the loudest example. Adaptability is a skill you can practice: sort what is known from what is guessed, take one small step that buys information, and be the steady voice a colleague needs.",
+ "heroLead": "Change lands faster than answers, and AI is this year's loudest example. Adaptability is a practice: sort what you know from what you guess, then take one small step.",
  "objectives": [
   "Sort a changing situation into known, unknown, and assumption",
   "Design one small experiment that buys information while certainty catches up",
@@ -31,8 +31,7 @@
    "label": "Peer Support"
   }
  ],
- "missionTie": "Defining the great university of the 21st Century means working through seasons where the answers are still forming. Staff who stay adaptable keep Exceptional Core Operations moving while the certainty catches up.",
- "goalLead": "An AI-ready workforce is mostly an adaptable one. Today builds the personal skill underneath this month's theme: moving forward on incomplete information with your footing intact.",
+ "missionTie": "Defining the great university of the 21st Century means working through seasons where the answers are still forming, and adaptable staff keep Exceptional Core Operations moving in the meantime.",
  "agenda": [
   {
    "t": "Known, unknown, assumed",
@@ -100,10 +99,14 @@
    "dataTitle": "The small experiment",
    "eyebrow": "The Step",
    "headline": "Trade worry for a <em>small experiment</em>.",
-   "lead": "Waiting for certainty feels responsible and costs you the learning season. Adaptable people take one small, reversible step that buys information: try the tool on one chore, sit in on the new process once, ask the direct question. Small steps thin the fog.",
+   "lead": "Waiting for certainty feels responsible and costs you the learning season. In Co-Intelligence, Ethan Mollick says to assume today's tool is the worst you will ever use; the ground keeps moving, so take one small, reversible step and learn while it moves.",
+   "source": {
+    "label": "Co-Intelligence, Ethan Mollick (Penguin Random House)",
+    "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/"
+   },
    "deeper": {
     "title": "Design checks for a safe experiment",
-    "body": "A good experiment passes three design checks. It fits inside a normal week without anyone's sign-off. It leaves no mark if it fails: a discarded draft, a process you observed once, an unanswered question. And it aims at your scariest assumption first, because that is where information buys the most calm. For AI trials the traffic light is the safety rail: stay on green chores and the worst outcome is a draft you delete.",
+    "body": "A good experiment passes three design checks. It fits inside a normal week without anyone's sign-off. If it fails, it leaves no mark: a discarded draft, a process you observed once. And aim it at your scariest assumption first, because that is where information buys the most calm. For AI trials the traffic light is the safety rail: stay on green chores and the worst outcome is a draft you delete.",
     "steps": [
      "Write your experiment as one sentence: this week I will take [step] to test [assumption]. If it needs sign-off, shrink it.",
      "Decide in advance what you will watch for, so the trial produces an observation instead of a feeling.",

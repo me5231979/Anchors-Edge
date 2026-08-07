@@ -10,7 +10,7 @@
   "titleHtml": "Curiosity is a <em class=\"gold-text\">career skill</em>.",
   "tagline": "Softskill · Curiosity: asking better career questions.",
   "description": "A 45-minute virtual session for all Vanderbilt staff: practice curiosity as a career skill by asking better questions about your own path, opening career curiosity conversations with colleagues, and turning good answers into concrete next steps.",
-  "heroLead": "Careers rarely stall from lack of talent. They stall from unasked questions: about your own path, about the work happening two desks away, about what could come next. This session makes curiosity a practiced skill instead of a personality trait.",
+  "heroLead": "Careers stall on unasked questions more often than on lack of talent. Today curiosity becomes a practiced skill: better questions about your path and the work around you.",
   "objectives": [
     "Trade vague career wondering for questions specific enough to answer this week",
     "Open a career curiosity conversation with a colleague and keep it generous",
@@ -22,8 +22,7 @@
     {"label": "Career Development"},
     {"label": "Communication"}
   ],
-  "missionTie": "Defining the great university of the 21st Century takes people who keep asking what their work could become. Curiosity is Educating the Whole Human applied to staff: the university grows when its people keep growing.",
-  "goalLead": "The Talent Marketplace maps the talent; curiosity is what surfaces it. Goal 1 needs people asking about skills and paths out loud, and that starts with better questions.",
+  "missionTie": "Curiosity is Educating the Whole Human applied to staff; the university grows when its people keep growing.",
   "agenda": [
     {"t": "Questions for your own path", "d": "Trade 'what is next for me' for questions that actually open doors."},
     {"t": "Curiosity conversations", "d": "Ask a colleague about their work in a way that makes talent visible."},
@@ -37,9 +36,10 @@
       "dataTitle": "Questions for your own path",
       "eyebrow": "Your Path",
       "headline": "Better questions beat <em>bigger</em> ones.",
-      "lead": "Asked in the abstract, 'what is next for me' has no answer and produces career fog. Better questions are small and answerable: what work makes me lose track of time, which of my skills do people keep borrowing? Curiosity as a skill starts at home.",
+      "lead": "Asked in the abstract, 'what is next for me' has no answer. Harvard's Francesca Gino finds curiosity is a skill you can build, and it starts with smaller questions: what work makes me lose track of time, which of my skills do people keep borrowing?",
       "group": "In pairs: which task in your week makes time move fastest? What does that say about your skills? 90 seconds each way.",
       "solo": "Write down the task in your week that makes time move fastest, and what it says about your skills.",
+      "source": {"label": "The Business Case for Curiosity, Francesca Gino (HBR)", "url": "https://hbr.org/2018/09/the-business-case-for-curiosity"},
       "interaction": {
         "type": "check",
         "card": {
@@ -70,7 +70,7 @@
       "dataTitle": "Curiosity conversations",
       "eyebrow": "The Conversations",
       "headline": "Ask about work you <em>don't do</em>.",
-      "lead": "The fastest way to see the talent around you is to ask about it. A career curiosity conversation is 15 minutes with a colleague about their work: what it takes, what it teaches, what nobody sees. It costs one question and makes two people's talent visible.",
+      "lead": "The fastest way to see the talent around you is to ask about it. A career curiosity conversation is 15 minutes with a colleague about their work, what it actually takes and what nobody sees. One good question makes two people's talent visible.",
       "group": "Pairs: whose work at Vanderbilt are you quietly curious about? Say the role and the question you would open with.",
       "solo": "Name a role at Vanderbilt you are quietly curious about, and write the question you would open with.",
       "interaction": {
@@ -81,7 +81,7 @@
         "labels": ["Real curiosity, opens the door", "A dead end, rework it", "Judgment dressed as a question"],
         "passAt": 2,
         "passMsg": "You can hear the difference. Real curiosity is specific, generous, and about them, and it opens doors in both directions.",
-        "failMsg": "Close. The tell: real curiosity asks about their work on its own terms. Dead ends fish for reassurance; judgment closes the door it knocks on.",
+        "failMsg": "Close. Real curiosity asks about their work on its own terms. Fishing for reassurance is a dead end, and a verdict with a question mark on it is still a verdict.",
         "items": [
           {"q": "At a cross-team meeting, an analyst asks a facilities planner: what is the hardest part of your job that nobody sees?", "answer": 0, "why": "Specific, generous, about them. Questions like this get real answers, and the asker learns what that path actually takes."},
           {"q": "In a career chat, a coordinator asks their supervisor: do you think I am doing okay?", "answer": 1, "why": "A yes-or-no that invites reassurance instead of information. Rework it: which of my skills would you borrow for another team, and why?"},
@@ -103,7 +103,7 @@
       "dataTitle": "From curious to concrete",
       "eyebrow": "The Move",
       "headline": "Curiosity earns a <em>next step</em>.",
-      "lead": "An interesting answer that changes nothing is trivia. Curiosity becomes career fuel when the answer turns into a step small enough to actually happen: an hour of shadowing, one doc to read, one skill to try in your own work. Build the step you would take.",
+      "lead": "An interesting answer that changes nothing is trivia. Curiosity starts moving your career when the answer turns into a step small enough to actually happen, an hour of shadowing or one doc to read. Build the step you would take.",
       "interaction": {
         "type": "builder",
         "playTitle": "Book the next step",
@@ -116,7 +116,7 @@
             "opts": [
               {"t": "File it away as good to know", "pts": 1, "coach": "Interesting-and-filed is where curiosity goes to die. Unacted answers evaporate in about a week."},
               {"t": "Tell them how fascinating their work sounds", "pts": 2, "coach": "Kind, and they will remember it warmly. But admiration is a feeling, and you leave with a feeling instead of a foothold."},
-              {"t": "Ask for the smallest real taste: an hour shadowing, or one doc to read", "pts": 3, "coach": "The move. Small asks get yes. An hour inside real work teaches more than a month of wondering, and it costs them almost nothing."}
+              {"t": "Ask for the smallest real taste: an hour shadowing, or one doc to read", "pts": 3, "coach": "Small asks get yes. An hour inside real work teaches more than a month of wondering, and it costs them almost nothing."}
             ]
           },
           {
@@ -209,7 +209,7 @@
     "s1": {
       "title": "Questions for your own path",
       "purpose": "Replace vague career wondering with specific, answerable questions about the learner's own skills and path.",
-      "say": "We treat curiosity like a personality trait: some people have it, some don't. Today we treat it as a skill, and skills start with technique. The technique is the better question: specific enough that someone could answer it this week, honest enough that the answer would change what you do. We start by aiming it at your own career.",
+      "say": "We tend to treat curiosity as a personality trait that you either have or you don't. The research disagrees. Francesca Gino at Harvard, in a piece called The Business Case for Curiosity, found it behaves like a skill: it can be built, and people who exercise it make fewer bad calls and collaborate with less friction. She also found leaders praise it and then quietly stifle it. So today we practice the technique, starting with the question you aim at your own career: specific enough to answer this week, honest enough that the answer changes what you do.",
       "facilitate": [
         "Put the In the room card on screen and read it aloud; let the two-part test land for a beat.",
         "Run the discussion prompt and take two or three voices; this is a conversation, not a quiz. The knowledge check lives in the self-paced edition only. Ask who has caught themselves asking the five-year question.",

@@ -10,7 +10,7 @@
  "titleHtml": "Hear what <em class=\"gold-text\">isn't said</em>.",
  "tagline": "Empathy at work: hearing what isn't said.",
  "description": "A 45-minute virtual session for all Vanderbilt staff: notice the tone and energy shifts colleagues actually communicate with, check in instead of assuming, and answer the feeling in a message before its content.",
- "heroLead": "Colleagues rarely say the important thing straight out. It arrives as a flat 'fine', a camera that stays off, a joke with an edge. This session trains your ear for those shifts, and the small check-in that answers them.",
+ "heroLead": "Colleagues rarely say the important thing straight out; it arrives as a flat 'fine' or a camera that stays off. This session trains you to catch the shift and check in.",
  "objectives": [
   "Notice tone and energy shifts that carry more information than the words",
   "Check in with a light, open question instead of assuming what a shift means",
@@ -31,8 +31,7 @@
    "label": "Collaboration"
   }
  ],
- "missionTie": "A century-defining university is built on thousands of working relationships, and empathy is what keeps them working. Hearing colleagues well is everyday culture work, the human layer of Exceptional Core Operations.",
- "goalLead": "The manager standard runs on coaching, and coaching runs on listening. This session builds the listening for everyone, because every colleague shapes how heard people feel at work.",
+ "missionTie": "A century-defining university runs on thousands of working relationships, and hearing colleagues well is the human layer of Exceptional Core Operations.",
  "agenda": [
   {
    "t": "The second channel",
@@ -103,6 +102,10 @@
    "lead": "A noticed shift is a hypothesis. Guessing turns it into a verdict ('you're clearly upset') and ignoring lets it harden on its own. The move in between is a light, private, open check-in that lets the person tell you what is true, including 'all good'.",
    "group": "In pairs: say a check-in line out loud that you could actually use tomorrow. Trade lines and keep the better one.",
    "solo": "Write one check-in line you could actually use tomorrow, in your own voice.",
+   "source": {
+    "label": "What Great Listeners Actually Do, Jack Zenger and Joseph Folkman (HBR, 2016)",
+    "url": "https://hbr.org/2016/07/what-great-listeners-actually-do"
+   },
    "deeper": {
     "title": "Timing, channel, and the second ask",
     "body": "Two quiet choices decide whether a check-in lands: where and when. Private, always; an audience turns care into a spotlight. Soon beats perfect; within a day reads as attention, three weeks late reads as an audit. Move up a channel too: a shift noticed in chat untangles better in a call. If 'all good' comes back while the shift continues, offer the door once more a few days later; twice is care, a campaign is pressure.",
@@ -150,6 +153,10 @@
    "eyebrow": "The Response",
    "headline": "Answer the feeling, then the <em>facts</em>.",
    "lead": "When a message arrives carrying frustration, most of us answer the content and skip the feeling, and the sender hears half a reply. Answering the feeling takes one plain sentence, and it is the sentence that makes the rest of your answer land as help.",
+   "source": {
+    "label": "Active listening research, Center for Creative Leadership",
+    "url": "https://www.ccl.org/articles/leading-effectively-articles/coaching-others-use-active-listening-skills/"
+   },
    "deeper": {
     "title": "Acknowledge without diagnosing",
     "body": "There is a line between answering a feeling and assigning one. 'Three asks with Friday looming? Genuinely frustrating' answers; 'you are angry' assigns. Keep the sentence about the situation: three asks and a deadline would frustrate anyone, and saying so labels nobody. When a message runs hot, let the content wait a beat: acknowledge, then offer a call. Keep it to one sentence; a paragraph of validation reads as performance.",
@@ -343,7 +350,7 @@
   "s2": {
    "title": "The check-in",
    "purpose": "Replace assuming and ignoring with the light, private, open check-in.",
-   "say": "A noticed shift puts three moves on the table. You can assume, which is a guess wearing certainty. You can ignore, which the person reads as an answer anyway. Or you can check in: private, light, open, easy to decline. 'You went quiet back there, anything you'd add?' costs thirty seconds, and it is the difference between guessing at people and asking them.",
+   "say": "A noticed shift puts three moves on the table: assume, ignore, or ask. Assuming is a guess wearing certainty, and people read your silence as an answer anyway if you ignore it. The check-in is the third move, and it matches what Jack Zenger and Joseph Folkman found when they studied thousands of leaders for HBR: the best listeners are not silent nodders, they ask questions. 'You went quiet back there, anything you'd add?' costs thirty seconds and asks instead of guessing.",
    "facilitate": [
     "Run Assume, ignore, or check in? live on everyone's screens.",
     "After round one, linger: the guess was private and kind and still a guess.",
@@ -358,7 +365,7 @@
     ],
     "respond": "Right. An exit ramp makes honesty cheaper. Half the value of a check-in lands even when the answer is 'all good.'"
    },
-   "debrief": "Private, light, open, easy to decline. The check-in hands the meaning back to the person instead of guessing it for them.",
+   "debrief": "A real check-in is private and easy to decline, and it hands the meaning back to the person instead of guessing it for them.",
    "watchFor": "Scripted-sounding lines in the breakout. Push for their own voice; a borrowed phrase reads as a technique, and techniques get polite answers.",
    "transition": "Check-ins cover the shifts you see. The last section covers the feelings that arrive in writing.",
    "coreNote": "Core: run the trainer, skip the breakout, take one line from chat."
@@ -366,7 +373,7 @@
   "s3": {
    "title": "Feeling before content",
    "purpose": "Train the feeling-first reply: one plain sentence answering the emotion before any facts or fixes.",
-   "say": "Sometimes the second channel arrives in writing: capital letters in the middle of a message and a 'whatever, I'll figure it out' at the end. The reflex is to answer the content, because the content has an answer. A frustrated message is two messages, though, and if you only answer the facts, the person heard you ignore the other one. One plain sentence for the feeling first. Then the facts land as help.",
+   "say": "Sometimes the second channel arrives in writing: capital letters in the middle of a message and a 'whatever, I'll figure it out' at the end. The reflex is to answer the content, because the content has an answer. A frustrated message is two messages, though, and if you only answer the facts, the person heard you ignore the other one. The Center for Creative Leadership teaches this move as reflecting: mirror back the feeling you heard before you touch the problem. One plain sentence does it, and then the facts land as help.",
    "facilitate": [
     "Run Answer the whole message; two minutes for both lines, then send it.",
     "Ask one volunteer to read their outcome aloud, weak or strong.",
