@@ -44,10 +44,11 @@ lab), and check (concept card + one question).
 
 ## Fixed session shape (45 full / 30 core)
 
-welcome(QR, classroom only) > mission (Chancellor's charge, trimmed) >
-goal (this month's target with baseline/Q4 meter) > hero (objectives +
-goal chip) > agenda > three teaching sections (one interaction each) >
+welcome(QR, classroom only) > why (Chancellor's charge + this month's
+goal, one slide) > hero (objectives + goal chip) > agenda > three
+teaching sections (one interaction each, optional Grounded-in citation) >
 manifesto > recap quiz (3 Q) > capstone commitment card > closing.
+Workshops (format: workshop) run 90/60 with no self-paced edition.
 Timing per section is fixed in `tools/generate.py` (FULL_MIN/CORE_MIN)
 and sums exactly to 45 and 30.
 
