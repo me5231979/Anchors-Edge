@@ -105,7 +105,9 @@ def session_row(m, day, label, aud):
         <div class="session session--nod">
           <span class="session__day">Wellness Wednesday<small>{esc(aud)} · no course</small></span>
           <div class="session__body"><p>{esc(m["nod"])} A concept card or five-minute opener, woven through the week.</p></div>
-          <span></span>
+          <span class="session__cta">
+            <a class="btn btn--ghost-dark session__fac" href="wellness/#m{m["n"]}">Talking points</a>
+          </span>
         </div>'''
     slug = m["slug"] + "-" + day
     spec = load_spec(slug)
@@ -392,6 +394,8 @@ page = f'''<!DOCTYPE html>
   <span>All months unlocked</span>
   <a class="btn" href="comms/" target="_blank" rel="noopener">Comms package</a>
   <a class="btn btn--ghost" href="comms/anchors-edge-comms-package.pdf" target="_blank" rel="noopener">PDF</a>
+  <a class="btn" href="wellness/" target="_blank" rel="noopener">Wellness talking points</a>
+  <a class="btn btn--ghost" href="wellness/anchors-edge-wellness-talking-points.pdf" target="_blank" rel="noopener">PDF</a>
   <button class="btn btn--ghost" id="adminExit" type="button">Exit</button>
 </div>
 

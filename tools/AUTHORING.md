@@ -60,6 +60,12 @@ must feel different:
 - **Take-Off Tuesday** and **Thrive Thursday**: ALL Vanderbilt staff.
   Never assume the learner manages anyone. Frame examples around a
   person's own work, career, and collaborations.
+- **Wellness Wednesday**: never a course. It is a five-minute nod, and
+  its talking points live in `tools/build-wellness.py` (one page per
+  month: the idea, one thing to try, a recap of Monday and Tuesday
+  pulled live from the specs, and the Thursday plus workshop tease). If
+  you rename a course or rewrite its tagline, rerun that builder so the
+  talking points still quote the real thing.
 
 ## Hard rules (the generator enforces most of them)
 
@@ -167,6 +173,10 @@ In practice:
   not tease it.
 - The manifesto slide carries the course's one takeaway rule, stated as
   an instruction a learner could act on.
+- Printing a course prints the takeaway sheet only, never the deck. The
+  sheet is assembled from fields you already wrote (objectives,
+  manifesto, per-section takeaway plus citation, capstone moves, deeper
+  steps), so those lines have to stand on their own off the screen.
 
 ## Humanizer rules (kill the AI tells)
 

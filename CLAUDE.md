@@ -7,7 +7,9 @@ Pages site at https://me5231979.github.io/Anchors-Edge/.
 
 Slugs are `<mon>-<day>`: `oct-monday` ... `jun-thursday`. Manager Monday
 is for managers; Take-Off Tuesday and Thrive Thursday are for all staff;
-Wellness Wednesday is a nod line on the dashboard, never a course.
+Wellness Wednesday is a nod line on the dashboard, never a course; its
+talking points live in `tools/build-wellness.py` and publish to
+`wellness/` (admin view only).
 
 ## Content lives in specs/
 
@@ -26,10 +28,14 @@ python3 tools/build-facilitator.py [slug ...]# -> facilitator/index.html + guide
 python3 -m http.server 8931 &                # needed by shoot + qa
 python3 tools/shoot.py [slug ...]            # -> facilitator/img/<slide>.jpg for the guide
 python3 tools/build-dashboard.py             # -> index.html (reads all specs)
+python3 tools/build-comms.py [--pdf]         # -> comms/ (admin email + Teams copy per session)
+python3 tools/build-wellness.py [--pdf]      # -> wellness/ (Wednesday talking points, reads specs)
 python3 tools/qa.py --all --dashboard        # Playwright: fit, interactions, console
+python3 tools/audit.py --all                 # Playwright: contrast, focus, targets, no-JS, zoom
 ```
 
-Regenerate web + facilitator + dashboard after ANY spec change; re-shoot
+Regenerate web + facilitator + dashboard + wellness after ANY spec change
+(the wellness page quotes each month's titles and taglines); re-shoot
 after any visual change.
 
 ## Shared engine

@@ -191,7 +191,8 @@ NAMES_JS = r"""() => {
 STRUCT_JS = r"""() => {
   const hs = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6')].filter(h => {
     const cs = getComputedStyle(h);
-    return cs.display !== 'none' && cs.visibility !== 'hidden';
+    if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+    return h.getClientRects().length > 0;   // catches a display:none ancestor
   }).map(h => ({ level: +h.tagName[1], text: h.textContent.trim().slice(0, 40) }));
   const skips = [];
   for (let i = 1; i < hs.length; i++) {
@@ -490,7 +491,8 @@ def main():
     if not all_courses:
         slugs = ['oct-monday', 'oct-workshop', 'jan-tuesday']
 
-    targets = [(BASE + '/index.html', 'dashboard'), (BASE + '/comms/', 'comms')]
+    targets = [(BASE + '/index.html', 'dashboard'), (BASE + '/comms/', 'comms'),
+               (BASE + '/wellness/', 'wellness')]
     for s in slugs:
         targets.append((BASE + '/courses/%s/' % s, s + ':class'))
         if os.path.exists(os.path.join(ROOT, 'courses', s, 'web', 'index.html')):
@@ -503,7 +505,7 @@ def main():
         for url, label in targets:
             base_text = audit_page(browser, url, label, findings)
             # variant checks are expensive; run them on one page per kind
-            if label in ('dashboard', 'oct-monday:class', 'oct-monday:web', 'oct-workshop:class', 'comms'):
+            if label in ('dashboard', 'oct-monday:class', 'oct-monday:web', 'oct-workshop:class', 'comms', 'wellness'):
                 audit_variants(browser, url, label, findings, base_text)
             print('audited', label, flush=True)
         browser.close()

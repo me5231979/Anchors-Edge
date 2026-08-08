@@ -377,7 +377,7 @@ def printsheet_html(spec):
                        % (esc(d["title"]), steps))
     deeper_block = ("<h2>Practise it on your own</h2>" + deeper) if deeper else ""
     parts = [
-        '\n  <section class="printsheet" aria-label="Takeaway sheet">',
+        '\n  <section class="printsheet" aria-hidden="true">',
         '    <header class="ps__head">',
         '      <p class="ps__eyebrow">Anchor&#39;s Edge &middot; %s &middot; %s</p>' % (esc(spec["series"]), esc(spec["month"])),
         '      <h1>%s</h1>' % esc(spec["title"]),
