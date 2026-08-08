@@ -33,7 +33,7 @@ def find_chromium():
     raise SystemExit('no chromium found')
 
 
-def check_page(page, url, label, interactions=True, strict_fit=True):
+def check_page(page, url, label, interactions=True, strict_fit=True, takeaway=True):
     errors = []
     console = []
     page.on('console', lambda m: console.append(m) if m.type in ('error', 'warning') else None)
@@ -116,15 +116,17 @@ def check_page(page, url, label, interactions=True, strict_fit=True):
             else:
                 errors.append('%s: capstone build stayed disabled' % label)
 
-    # every edition prints the takeaway sheet, and it carries the resources
-    if not page.query_selector('.printsheet'):
-        errors.append('%s: no takeaway sheet' % label)
-    if not page.query_selector('#printSheet'):
-        errors.append('%s: no print button on the closing slide' % label)
-    if len(page.query_selector_all('.printsheet a[href*="ecsr.fa.us2.oraclecloud.com"]')) < 2:
-        errors.append('%s: takeaway sheet needs two Oracle Learning resources' % label)
-    if len(page.query_selector_all('.ps__res--url a')) < 2:
-        errors.append('%s: takeaway sheet needs two free outside resources' % label)
+    # every course edition prints the takeaway sheet, and it carries the
+    # resources; the dashboard is not a course and has neither
+    if takeaway:
+        if not page.query_selector('.printsheet'):
+            errors.append('%s: no takeaway sheet' % label)
+        if not page.query_selector('#printSheet'):
+            errors.append('%s: no print button on the closing slide' % label)
+        if len(page.query_selector_all('.printsheet a[href*="ecsr.fa.us2.oraclecloud.com"]')) < 2:
+            errors.append('%s: takeaway sheet needs two Oracle Learning resources' % label)
+        if len(page.query_selector_all('.ps__res--url a')) < 2:
+            errors.append('%s: takeaway sheet needs two free outside resources' % label)
 
     for m in console:
         txt = m.text
@@ -150,7 +152,7 @@ def main():
                                      args=['--no-sandbox'])
         page = browser.new_page(viewport={'width': VW, 'height': VH})
         if do_dash:
-            all_errors += check_page(page, BASE + '/index.html', 'dashboard', interactions=False)
+            all_errors += check_page(page, BASE + '/index.html', 'dashboard', interactions=False, takeaway=False)
         for slug in slugs:
             all_errors += check_page(page, BASE + '/courses/%s/' % slug, slug + ':class')
             if os.path.exists(os.path.join(ROOT, 'courses', slug, 'web', 'index.html')):
