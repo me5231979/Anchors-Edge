@@ -25,10 +25,6 @@ def build(slug):
     s = s.replace('"../../assets/', '"../../../assets/')
     s = s.replace('href="../../index.html', 'href="../../../index.html')
     # self-paced links are relative to the course root, not facilitator/
-    s = s.replace('<a class="btn btn--ghost" href="web/">Self-paced edition</a>',
-                  '<a class="btn btn--ghost" href="../web/">Self-paced edition</a>')
-    s = s.replace('<li><a href="web/">Self-paced version</a></li>',
-                  '<li><a href="../web/">Self-paced version</a></li>')
     assert 'href="web/"' not in s, slug + ': a self-paced link still points inside facilitator/'
 
     # ---- 2. head: title, noindex, no canonical ----

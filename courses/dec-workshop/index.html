@@ -331,8 +331,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -363,11 +362,15 @@
     <p class="ps__manifesto">Commit in three parts: the act, the rhythm, and a dated first instance.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Every line gets a date or a blank.</h3><p>Evidence is an instance: a date, plus a witness or an artifact. The 1:1 on the calendar counts, and so does written feedback logged in Oracle. A warm impression of yourself is no instance. Dates or blanks.</p><p class="ps__src">Grounded in: <a href="https://news.gallup.com/businessjournal/182792/managers-account-variance-employee-engagement.aspx">Gallup: managers drive 70 percent of engagement variance</a></p></div><div class="ps__sec"><h3>2 &middot; Draft the commitment in three parts.</h3><p>A commitment the standard can count: named, rhythmic, dated, and known to a witness.</p></div><div class="ps__sec"><h3>3 &middot; Say it until it sounds like you.</h3><p>Your ear is set. Now aim it at your own draft in the rehearsal; your partner will hear what you cannot.</p><p class="ps__src">Grounded in: <a href="https://www.td.org/magazines/td-magazine/strategic-techniques-to-enhance-training-transfer">Techniques that make training transfer to the job (ATD)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; On the evidence walk, a behavior with no recallable instance gets...</h3><p><b>Answer:</b> An honest blank</p><p>Blanks are the walk&#39;s most useful output: they show exactly where a commitment is needed. Generosity here just postpones the same blank to next month.</p></div><div class="ps__sec"><h3>2 &middot; A commitment the standard can count has...</h3><p><b>Answer:</b> A named act, a rhythm, and a dated first instance</p><p>Act, rhythm, first instance: each part is checkable by a colleague. That is the difference between a commitment and an intention with good posture.</p></div><div class="ps__sec"><h3>3 &middot; Why rehearse the commitment out loud in pairs?</h3><p><b>Answer:</b> A listener catches unwitnessable words your eyes forgive</p><p>Your eyes forgive your own drafts. A partner&#39;s ear catches the wants and states, and twice through makes the words yours instead of the worksheet&#39;s.</p></div>
     <h2>Your commitment</h2>
     <p>The rehearsed commitment goes on the card, then in front of real witnesses. Roles only, never names; nothing you write is collected.</p>
     <ul class="ps__moves"><li><b>The team announcement.</b> Say the rehearsed commitment at your next team meeting, exactly as practiced, and let the first instance land on the calendar in front of them.</li><li><b>The named witness.</b> Tell one colleague the commitment and ask them to check in a month: did they actually see it happen? Honest answers only.</li><li><b>The month-end rewalk.</b> Keep the walk sheet and rewalk the standard at month end: new dates in, stale evidence out, and the next blank picked.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856848459">Demonstrating Accountability as a Leader</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856480391">Building Accountability into Your Culture</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.manager-tools.com/manager-tools-basics">Manager Tools: the manager basics (free podcast series)</a></li><li><a href="https://www.youtube.com/watch?v=LhoLuui9gX8">Amy Edmondson: Building a psychologically safe workplace (TEDxHGSE, 12 min)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/dec-workshop/</p>
   </section>
 
@@ -377,6 +380,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Hear the commitment",
    "progressWord": "Manager",
    "labels": [
     "Witnessable, the team can hold them to it",

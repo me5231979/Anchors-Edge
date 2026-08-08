@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Show your work to someone senior, then ask them to say your name in a specific room.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Mentors advise. Sponsors spend.</h3><p>You can tell the currencies apart. Advice is words to you; advocacy is risk taken for you.</p><p class="ps__src">Grounded in: <a href="https://store.hbr.org/product/the-sponsor-effect-how-to-be-a-better-leader-by-investing-in-others/10194">The Sponsor Effect, Sylvia Ann Hewlett (HBR Press)</a></p></div><div class="ps__sec"><h3>2 &middot; Sponsorship is earned, then asked for.</h3><p>An ask a sponsor can act on. They have seen the work, they know the room, and saying your name got easy.</p></div><div class="ps__sec"><h3>3 &middot; Advocacy is also a skill you give.</h3><p>Whose name do you say in rooms they are not in? If the answer is nobody, you are holding credibility and spending none of it. Pick one colleague whose work you have seen, and say their name the next time the room asks who could do this.</p><p class="ps__src">Grounded in: <a href="https://www.shrm.org/topics-tools/news/linkage/mentorship-sponsorship-core-tools-talent-growth">Mentorship and Sponsorship: Core Tools for Talent Growth (SHRM)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What separates sponsorship from mentoring?</h3><p><b>Answer:</b> A sponsor spends their credibility on you where you are absent</p><p>Mentoring is advice given to you. Sponsorship costs the sponsor something: their name staked on your work in rooms you never see.</p></div><div class="ps__sec"><h3>2 &middot; What makes someone able to sponsor you safely?</h3><p><b>Answer:</b> Having seen your finished work up close</p><p>Sponsors stake reputation on evidence. Show one finished piece of work and how you did it; that is what a sponsor can repeat in a room.</p></div><div class="ps__sec"><h3>3 &middot; You want to give advocacy this month. What is the move?</h3><p><b>Answer:</b> Say their name, with evidence, where a decision is being made</p><p>The name plus the work you have seen, in front of someone who decides. Every staff member has rooms where that sentence is theirs to say.</p></div>
     <h2>Your commitment</h2>
     <p>Pick one advocacy move: an ask for yourself or a give for a colleague. Roles only, never names; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The showing.</b> Walk someone senior through one finished piece of your work and how you did it, so backing you gets easy.</li><li><b>The direct ask.</b> Name the room: ask someone who has seen your work to put your name forward when a specific chance opens.</li><li><b>The give.</b> Say a colleague&#39;s name, with the work you have seen, in the next room where a decision needs one.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Why sponsorship stays invisible</h3><ol><li>List the three people who have most helped your career, then mark each act of help A for advice or S for sponsorship. Notice the ratio.</li><li>Write down one decision that went your way where you never learned who spoke for you. Someone probably did.</li></ol></div><div class="ps__sec"><h3>Choosing the right sponsor</h3><ol><li>Name the room where your next chance gets decided, then list who is actually in it. Your sponsor search starts on that list.</li><li>Pick the one person on that list who has seen your finished work. If nobody has, your first move is the showing, not the ask.</li></ol></div><div class="ps__sec"><h3>Sponsorship with a light touch</h3><ol><li>Pick one colleague, role only, and write the one-sentence vouch: the specific work you saw and what it tells a decision-maker.</li><li>Identify the next room or thread where that sentence would count, and decide now that you will say it there.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856559880">Mentorship, Sponsorship, and Lifting Others as You Climb</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002900901365">Nano Tips for Effective Sponsorship as a Leader with India Gary-Martin</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.td.org/content/atd-blog/do-your-employees-need-coaching-or-mentoring">ATD: Do your employees need coaching or mentoring? (free article)</a></li><li><a href="https://www.ted.com/talks/adam_grant_are_you_a_giver_or_a_taker">Adam Grant: Are you a giver or a taker? (TED, 13 min)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/feb-thursday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-one-play",
+   "title": "Advice or advocacy?",
    "progressWord": "Call",
    "labels": [
     "Mentoring: advice given to you",

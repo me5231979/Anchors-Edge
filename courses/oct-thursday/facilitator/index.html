@@ -462,8 +462,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -495,11 +494,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Ask one specific question about work you are curious about, then act on the answer.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Ask questions small enough to answer.</h3><p>A better career question passes two tests: someone could answer it this week, and the answer would change what you do. &#39;Which of my skills do people keep borrowing?&#39; passes both. &#39;What is next for me?&#39; fails both, gracefully, forever.</p><p class="ps__src">Grounded in: <a href="https://hbr.org/2018/05/the-surprising-power-of-questions">The Surprising Power of Questions (Brooks and John, HBR)</a></p></div><div class="ps__sec"><h3>2 &middot; Ask about work you don&#39;t do.</h3><p>You can hear the difference. Real curiosity is specific, generous, and about them, and it opens doors in both directions.</p></div><div class="ps__sec"><h3>3 &middot; Turn the answer into a next step.</h3><p>A curiosity with a date on it. You leave the conversation holding a foothold in work you want to understand.</p><p class="ps__src">Grounded in: <a href="https://www.td.org/insights/practical-learning-transfer-techniques-to-bridge-learning-to-performance">Practical learning transfer techniques (ATD)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What makes a career question a better question?</h3><p><b>Answer:</b> Answerable this week, and the answer changes what you do</p><p>Specific and actionable beats grand. If nobody can answer it this week, it is a mood, not a question.</p></div><div class="ps__sec"><h3>2 &middot; A coordinator asks their supervisor: do you think I am doing okay? That question is...</h3><p><b>Answer:</b> A dead end that invites reassurance</p><p>Yes-or-no questions about worth produce comfort, not information. Rework toward specifics: which skills, borrowed for what, and why.</p></div><div class="ps__sec"><h3>3 &middot; What turns curiosity into career fuel?</h3><p><b>Answer:</b> A small step with a date on it</p><p>An hour of shadowing on the calendar beats a year of wondering. Small and dated is what makes it real.</p></div>
     <h2>Your commitment</h2>
     <p>Pick where your curiosity points first. Role only, never a name; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The self question.</b> Answer one better question about your own path this week: which skill do people keep borrowing from you? Write the answer down.</li><li><b>The curiosity conversation.</b> Invite one colleague to fifteen minutes about their work. Open with what nobody sees about it, and mostly listen.</li><li><b>The small taste.</b> Ask for the smallest real taste of work you are curious about: an hour of shadowing, one meeting, one doc.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Shrinking a question until it can answer you</h3><ol><li>Write your current career question, however foggy. Shrink it twice: once by time frame, once by naming a person who could answer it.</li><li>Answer the smallest version this week, then note what it tells you about the bigger one.</li></ol></div><div class="ps__sec"><h3>The second question is where the door opens</h3><ol><li>In your next conversation about anyone&#39;s work, ask one planned question, then only follow-ups for five minutes. Notice where it goes.</li><li>Afterward, write down the one thing you learned that a scripted list of questions would have missed.</li></ol></div><div class="ps__sec"><h3>Why small asks get yes</h3><ol><li>Draft the one-message ask for your curiosity: one hour, one meeting, or one doc. Cut it until it fits in three sentences.</li><li>Send it, and put a placeholder hold on your own calendar so the yes has somewhere to land.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857664663">Applied Curiosity</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856548322">Lose Your Fear of Asking Questions at Work</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">Celeste Headlee: 10 ways to have a better conversation (TED, 12 min)</a></li><li><a href="https://www.ted.com/podcasts/worklife">WorkLife with Adam Grant (free TED podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/oct-thursday/</p>
   </section>
 
@@ -509,6 +512,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Door or dead end?",
    "progressWord": "Moment",
    "labels": [
     "Real curiosity, opens the door",

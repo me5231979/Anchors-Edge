@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Model one green-light use for your team and say out loud what is in bounds.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Your team reads three signals from you.</h3><p>A team&#39;s AI behavior mirrors its manager&#39;s signals. They listen for three things: permission (may we?), safety (what is in bounds?), and curiosity (does trying count?). When all three are clear, safe experiments start.</p><p class="ps__src">Grounded in: <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work">Superagency in the workplace, McKinsey (2025)</a></p></div><div class="ps__sec"><h3>2 &middot; Model the first green light.</h3><p>You can call the light. Model green ones openly, route yellow through approved VU tools, and hold the red line every time.</p><p class="ps__src">Grounded in: <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2026/06/05/leaders-need-to-set-the-tone-for-ai-at-work-heres-how/">Leaders set the tone for AI at work, Dennis Kozak (Forbes)</a></p></div><div class="ps__sec"><h3>3 &middot; Say what you tried and what is in bounds.</h3><p>A tone that travels. The team saw a real use, heard real limits, and got a specific invitation to try.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What do teams read most closely to decide how they will use AI?</h3><p><b>Answer:</b> Their manager&#39;s signals: permission, safety, curiosity</p><p>Policy sets the outer boundary; daily behavior forms around the local manager. Your signals are the ones the team actually acts on.</p></div><div class="ps__sec"><h3>2 &middot; An analyst wants to summarize an internal planning doc with AI. Your call?</h3><p><b>Answer:</b> Yellow: approved VU tools only</p><p>Internal content is yellow: fine inside approved VU tools, off limits everywhere else. The information decides the light every time.</p></div><div class="ps__sec"><h3>3 &middot; What makes a manager&#39;s first modeled AI use land with the team?</h3><p><b>Answer:</b> It is a boring green chore shown honestly, fixes included</p><p>A visible, low-stakes use with its flaws shown gives the team permission and the checking habit together. Impressive demos mostly create distance.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the chore you will model and the moment the team hears about it. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>Model it live.</b> Run one green-light chore with AI, then show the team what it produced and what you fixed.</li><li><b>Teach the traffic light.</b> Walk the team through green, yellow, and red with one real example of each from your own work.</li><li><b>The open invitation.</b> Invite everyone to try one green-light chore and bring what happened to the next team meeting.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>The three signals, decoded</h3><ol><li>Answer the three questions the way your team would, based only on what they have watched you do and say.</li><li>Pick the weakest signal and script one sentence that makes it explicit at your next team meeting.</li></ol></div><div class="ps__sec"><h3>When the light is hard to call</h3><ol><li>List two chores from your week that feel yellow or red, and find the green skeleton inside each by removing specifics.</li><li>Write the exact input you would give the tool for one of them, then reread it for anything internal or personal.</li></ol></div><div class="ps__sec"><h3>Keeping the conversation alive</h3><ol><li>Add a standing two-minute item called one AI share to your team agenda for the next month.</li><li>Prepare two of your own shares in advance so early silence never stalls the ritual.</li><li>When the first volunteer shares, ask what they fixed; that question keeps the editor habit in view.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002868826154">Responsible AI for Managers</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003003089513">Foundations of Responsible AI</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.oneusefulthing.org/">Ethan Mollick, One Useful Thing (free newsletter on AI at work)</a></li><li><a href="https://sloanreview.mit.edu/audio-series/me-myself-and-ai/">MIT Sloan Management Review: Me, Myself, and AI (free podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/jan-monday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Green, yellow, or red?",
    "progressWord": "Case",
    "labels": [
     "Green: public or generic, go",

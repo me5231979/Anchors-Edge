@@ -438,8 +438,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -471,11 +470,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Hold the stay interview: ask why they stay, listen, and follow through visibly.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Write it for one real person.</h3><p>The urge to fix each issue mid-interview is the classic mistake. Fixing turns the conversation into your to-do list and stops the telling. Keep asking, write down what you hear, and save the follow-through for the days after.</p><p class="ps__src">Grounded in: <a href="https://www.penguinrandomhouse.com/books/580390/hello-stay-interviews-goodbye-talent-loss-by-beverly-kaye-and-sharon-jordan-evans/">Stay interviews, Kaye and Jordan-Evans (Hello Stay Interviews)</a></p></div><div class="ps__sec"><h3>2 &middot; Say it out loud before it counts.</h3><p>A round that sounded like a real conversation. The employee said something true, and you stayed in the listening.</p><p class="ps__src">Grounded in: <a href="https://www.td.org/magazines/td-magazine/design-tactics-for-training-transfer">Design Tactics for Training Transfer, TD Magazine (ATD)</a></p></div><div class="ps__sec"><h3>3 &middot; The answers are a to-do list.</h3><p>You can sort what you hear. Act on yours, carry the rest upward out loud, and never let a warning wait.</p><p class="ps__src">Grounded in: <a href="https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx">Gallup, This Fixable Problem Costs U.S. Businesses $1 Trillion</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What is a stay interview, run well?</h3><p><b>Answer:</b> A listening conversation about why they stay</p><p>You ask, you listen, you capture. The fixing comes afterward, visibly, which is what makes the listening believable next time.</p></div><div class="ps__sec"><h3>2 &middot; They go quiet after your best question. You should...</h3><p><b>Answer:</b> Let the silence sit, then invite more</p><p>Held silence is the answer forming. What gets said after it is usually the truest sentence of the whole interview.</p></div><div class="ps__sec"><h3>3 &middot; They name pay, which you do not control. The strong move?</h3><p><b>Answer:</b> Name your limits, advocate upward, ask what else</p><p>Honesty about your limits keeps trust, and visible advocacy is itself a retention lever. Then keep asking; pay is rarely the whole story.</p></div>
     <h2>Your commitment</h2>
     <p>You practiced it out loud. Now commit to the real conversation: the person, role only, and the window. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The rehearsed interview.</b> Run the opening and questions exactly as drafted and practiced today, and stay in the listening.</li><li><b>The listen-back.</b> Close the real interview by reading back what you heard and naming the one thing you will act on first.</li><li><b>The follow-through.</b> Within two weeks of the interview, act visibly on one thing they told you, and tell them you did.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003102002595">Building Employee Engagement</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856596215">Storytelling for Recruiting and Employee Retention</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.shrm.org/topics-tools/tools/forms/stay-interview-questions">SHRM: Stay interview questions (free tool)</a></li><li><a href="https://coachingforleaders.com/podcast/">Coaching for Leaders (free weekly podcast, Dave Stachowiak)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/feb-workshop/</p>
   </section>
 
@@ -485,6 +488,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Sort the answer",
    "progressWord": "Answer",
    "labels": [
     "Yours: act on it soon",

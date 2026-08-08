@@ -93,6 +93,33 @@
     }
   }
 
+  /* ---------- Takeaway sheet: mirror what the learner entered ----------
+     The sheet is the only thing that prints, so anything a learner types or
+     picks has to reach it. Records are keyed by label so a rerun overwrites
+     rather than duplicates; rank keeps the printed order sensible whatever
+     order they worked in. */
+  var psEntered = $('#psEntered'), psWrite = $('#psWrite'), psRows = [];
+  function psEsc(t) {
+    return String(t == null ? '' : t)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function psRecord(rank, label, value) {
+    if (!psEntered) return;
+    var found = null;
+    for (var i = 0; i < psRows.length; i++) if (psRows[i].label === label) found = psRows[i];
+    if (found) found.value = value;
+    else psRows.push({ rank: rank, label: label, value: value });
+    var html = '<h3>What you entered</h3>';
+    psRows.slice().sort(function (a, b) { return a.rank - b.rank; }).forEach(function (r) {
+      html += '<div class="ps__row"><b>' + psEsc(r.label) + '</b><span>' + psEsc(r.value) + '</span></div>';
+    });
+    psEntered.innerHTML = html;
+    psEntered.hidden = false;
+  }
+
+  var printBtn = $('#printSheet');
+  if (printBtn) printBtn.addEventListener('click', function () { window.print(); });
+
   /* ---------- Hero ambient particles ---------- */
   var canvas = $('.hero__canvas');
   if (canvas && !reduce && !isTouch) {
@@ -208,6 +235,8 @@
         navEl.style.display = 'none';
         qEl.textContent = ''; optEl.innerHTML = ''; progEl.textContent = ''; fbEl.textContent = '';
         resEl.hidden = false;
+        psRecord(10, cfg.title || 'Practice round', score + ' of ' + cfg.items.length +
+          (score >= cfg.passAt ? ', passed' : ', worth another run'));
         resEl.innerHTML = '<div class="quiz__score gold-text">' + score + ' / ' + cfg.items.length + '</div>' +
           '<p style="margin-top:.75rem;color:var(--ink-soft,#555)">' +
           (score >= cfg.passAt ? cfg.passMsg : cfg.failMsg) +
@@ -259,6 +288,9 @@
       var coach = picks.map(function (p, i) {
         return '<div><b>' + cfg.slots[i].key + ':</b> ' + cfg.slots[i].opts[p].coach + '</div>';
       }).join('');
+      psRecord(11, cfg.outcomeTag, picks.map(function (p, i) {
+        return cfg.slots[i].key + ': ' + cfg.slots[i].opts[p].t;
+      }).join('; ') + ' (' + score + ' of ' + maxPts + ')');
       outEl.innerHTML = '<span class="tag">' + cfg.outcomeTag + ' · ' + score + ' / ' + maxPts + '</span>' +
         '<div class="lab__meter"><span style="width:0"></span></div>' +
         '<p style="margin:0;color:#fff;font-weight:500">' + cfg.heads[tier] + '</p>' +
@@ -316,6 +348,10 @@
           '<div class="row"><b>The window</b><span>' + w.out + '</span></div>' +
           '<div class="row"><b>The goal it serves</b><span>' + cap.goalRow + '</span></div>' +
           '<div class="row"><b>The evidence</b><span>' + cap.evidenceRow + '</span></div>';
+        psRecord(30, cap.whoRow, who);
+        psRecord(31, 'The move', p.name + '. ' + p.move);
+        psRecord(32, 'The window', w.out);
+        if (psWrite) psWrite.hidden = true;
         outEl2.innerHTML = '<span class="tag">' + cap.cardTitle + '</span>' +
           '<div class="plan__out-grid">' + rows + '</div>' +
           '<div class="lab__runrow" style="margin-top:1.25rem">' +
@@ -388,6 +424,7 @@
           var msg = pct >= 75 ? (C.recapMsgs && C.recapMsgs.high) || 'Loaded. The capstone makes it real.' :
                     pct >= 50 ? (C.recapMsgs && C.recapMsgs.mid) || 'Solid. Revisit the section you missed.' :
                                 (C.recapMsgs && C.recapMsgs.low) || 'Worth another pass through the deck.';
+          psRecord(20, 'Recap quiz', rScore + ' of ' + QUESTIONS.length);
           rresultEl.innerHTML = '<span class="eyebrow">Your result</span>' +
             '<div class="quiz__score gold-text">' + rScore + ' / ' + QUESTIONS.length + '</div>' +
             '<p class="lead" style="margin-top:1rem">' + msg + '</p>' +

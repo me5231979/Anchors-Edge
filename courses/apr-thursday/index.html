@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Run every AI claim through the three tests before you act on it or repeat it.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Ask three questions of every claim.</h3><p>Three tests, one minute. Evidence: what is it, would it survive checking? Beneficiary: who gains if I believe this? Mind-changer: what result would move me? No possible mind-changer means it is a belief, and beliefs resist evidence.</p></div><div class="ps__sec"><h3>2 &middot; Learn the tells hype repeats.</h3><p>Your ear is tuned. Big and vague fails fast; specific and checkable earns a look; unclear earns a small test.</p><p class="ps__src">Grounded in: <a href="https://hai.stanford.edu/ai-index">The AI Index Report, Stanford HAI</a></p></div><div class="ps__sec"><h3>3 &middot; Point the filter at a real decision.</h3><p>A decision the whole team can trust. The test was real, the bar was public, and the result settled it either way.</p><p class="ps__src">Grounded in: <a href="https://www.forbes.com/sites/andreahill/2025/08/21/why-95-of-ai-pilots-fail-and-what-business-leaders-should-do-instead/">Why 95 percent of AI pilots fail, Andrea Hill (Forbes)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; The three tests of the filter are...</h3><p><b>Answer:</b> Evidence, beneficiary, and mind-changer</p><p>What is the evidence, who benefits from my believing it, and what would change my mind. One minute, any claim, in either direction.</p></div><div class="ps__sec"><h3>2 &middot; A claim pairs a giant number with a ticking clock and a seller as the source. That is...</h3><p><b>Answer:</b> Hype: the tells are stacked</p><p>Big number, no baseline, urgency, interested source: the classic stack. The filter fails it on evidence and beneficiary in seconds.</p></div><div class="ps__sec"><h3>3 &middot; What makes a tool trial actually settle a decision?</h3><p><b>Answer:</b> A mind-changer named before it runs</p><p>The bar set in advance turns a trial into evidence. Without it, fans and skeptics read the same result as proof of what they already thought.</p></div>
     <h2>Your commitment</h2>
     <p>Pick a real claim currently circling your work: a tool pitch, a headline, a hallway certainty. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The one-minute filter.</b> Run the three tests on paper: the evidence, the beneficiary, the mind-changer. Keep the verdict where you will see it.</li><li><b>The small test.</b> Design the cheapest real test: one recurring task, an approved VU tool, output checked against how you do it now.</li><li><b>The filter out loud.</b> Bring the claim to one colleague and run the tests together. A second head catches the beneficiary you missed.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>The mind-changer, written down</h3><ol><li>Take one claim about AI and your work that you believe. Write the specific result that would make you drop it.</li><li>Take one claim you dismiss and write the result that would win you over. Notice which sentence was harder.</li></ol></div><div class="ps__sec"><h3>Hype does its best work secondhand</h3><ol><li>Recall one claim that reached you through someone you trust. Trace it: where did the number start, and who along the way verified it?</li><li>Rehearse the trace-back line: &#39;That sounds useful. Where did the number come from?&#39; Practice until it sounds like plain curiosity.</li></ol></div><div class="ps__sec"><h3>A bar you can actually judge</h3><ol><li>Pick the recurring task your team would trial first. Time it once this week and save one output as the baseline copy.</li><li>Write the bar as one sentence with a number and a quality condition, and share it before any demo runs.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857213040">Critical Thinking</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856960858">Spotting Misinformation Online</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/dan_gilbert_why_we_make_bad_decisions">Dan Gilbert: Why we make bad decisions (TED, 34 min)</a></li><li><a href="https://www.oneusefulthing.org/">Ethan Mollick, One Useful Thing (free newsletter on AI at work)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/apr-thursday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Hype or value?",
    "progressWord": "Claim",
    "labels": [
     "Hype: big claim, thin evidence",

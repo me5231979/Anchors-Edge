@@ -15,6 +15,9 @@ build.
 """
 import json, os, re, sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import resources
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://me5231979.github.io/Anchors-Edge/"
 
@@ -376,6 +379,28 @@ def printsheet_html(spec):
             deeper += ('<div class="ps__sec"><h3>%s</h3><ol>%s</ol></div>'
                        % (esc(d["title"]), steps))
     deeper_block = ("<h2>Practise it on your own</h2>" + deeper) if deeper else ""
+
+    # The recap questions, with the answer spelled out: a real content recap
+    # for someone reading this a month later without the deck in front of them.
+    quiz = ""
+    for qi, q in enumerate(spec["recap"], start=1):
+        quiz += ('<div class="ps__sec"><h3>%d &middot; %s</h3>'
+                 '<p><b>Answer:</b> %s</p><p>%s</p></div>'
+                 % (qi, esc(q["q"]), esc(q["opts"][q["correct"]]), esc(q["why"])))
+
+    oracle, free = resources.for_slug(spec["slug"])
+    res = ""
+    if oracle:
+        # The Oracle deep links run past 140 characters, so paper gets the
+        # course title and the one instruction that actually works: search it.
+        res += ('<div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res">%s</ul>'
+                '<p class="ps__src">On paper, search these titles in Oracle Learning.</p></div>'
+                % "".join('<li><a href="%s">%s</a></li>' % (esc(u), esc(l)) for l, u in oracle))
+    if free:
+        res += ('<div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url">%s</ul></div>'
+                % "".join('<li><a href="%s">%s</a></li>' % (esc(u), esc(l)) for l, u in free))
+    res_block = ("<h2>Where to go next</h2>" + res) if res else ""
+
     parts = [
         '\n  <section class="printsheet" aria-hidden="true">',
         '    <header class="ps__head">',
@@ -390,11 +415,17 @@ def printsheet_html(spec):
         '    <p class="ps__manifesto">%s</p>' % esc(spec["manifesto"]),
         '    <h2>What each part taught</h2>',
         '    %s' % rows,
+        '    <h2>The recap, with the answers</h2>',
+        '    %s' % quiz,
         '    <h2>Your commitment</h2>',
         '    <p>%s</p>' % esc(cap["lead"]),
         '    <ul class="ps__moves">%s</ul>' % moves,
-        '    <p class="ps__write"><b>Mine:</b> ' + ('.' * 46) + ' &nbsp; <b>By when:</b> ' + ('.' * 14) + '</p>',
+        # Filled in by deck.js when the learner builds their card; the ruled
+        # lines below are what prints if they did not, or printed in advance.
+        '    <div class="ps__entered" id="psEntered" hidden></div>',
+        '    <p class="ps__write" id="psWrite"><b>Mine:</b> ' + ('.' * 46) + ' &nbsp; <b>By when:</b> ' + ('.' * 14) + '</p>',
         '    %s' % deeper_block,
+        '    %s' % res_block,
         '    <p class="ps__foot">%s</p>' % (SITE + "courses/" + spec["slug"] + "/"),
         '  </section>\n',
     ]
@@ -407,7 +438,8 @@ def course_config_js(spec):
         it = sec["interaction"]
         if it["type"] == "trainer":
             trainers.append({
-                "rootId": sec["id"] + "-play", "progressWord": it.get("progressWord", "Round"),
+                "rootId": sec["id"] + "-play", "title": it["playTitle"],
+                "progressWord": it.get("progressWord", "Round"),
                 "labels": it["labels"], "passAt": it["passAt"],
                 "passMsg": it["passMsg"], "failMsg": it["failMsg"], "items": it["items"]})
         elif it["type"] == "builder":
@@ -486,7 +518,6 @@ def build_course(spec):
     values["fmtModeLabel"] = "Minutes, in person" if ws else "Minutes, live"
     values["welcomeH1"] = ("Welcome. Scan the code to bring this workshop <em class=\"gold-text\">to your seat</em>." if ws else
                            "Welcome. Scan or click the chat link to bring this <em class=\"gold-text\">to your screen</em>.")
-    values["selfPacedBtn"] = "" if ws else '<a class="btn btn--ghost" href="web/">Self-paced edition</a>'
 
     html = COURSE_TEMPLATE
     for k, v in values.items():

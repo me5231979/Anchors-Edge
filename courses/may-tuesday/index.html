@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Answer the next survey honestly, then read what comes back as usable signal.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Know the three protections.</h3><p>Three protections stack: names come off responses, results stay hidden below a minimum group size, and leaders see aggregates and themes. Open comments are shared word for word, so write them about the work.</p><p class="ps__src">Grounded in: <a href="https://www.shrm.org/topics-tools/news/employee-relations/how-anonymous-employee-satisfaction-survey">How anonymous is that employee satisfaction survey? (SHRM)</a></p></div><div class="ps__sec"><h3>2 &middot; Separate the myths from the one real norm.</h3><p>You know the plumbing. Honest answers are protected, myths lose their grip, and the one real norm keeps comments about the work.</p></div><div class="ps__sec"><h3>3 &middot; Read feedback at its actual size.</h3><p>Signal received. The comment stayed its real size and bought you one experiment worth running.</p><p class="ps__src">Grounded in: <a href="https://hbr.org/2014/01/find-the-coaching-in-criticism">Find the Coaching in Criticism, Sheila Heen and Douglas Stone (HBR)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; Below the minimum reporting group size, your survey answers...</h3><p><b>Answer:</b> Roll into a larger aggregate or stay unreported</p><p>Small groups never get their own report. Your answers still count upward, and they can never be isolated back to you.</p></div><div class="ps__sec"><h3>2 &middot; What is the one real norm for open survey comments?</h3><p><b>Answer:</b> Describe the work and the pattern, never a named colleague</p><p>Comments travel word for word. Honesty is protected; the norm is aim: describe patterns and situations, and leave named colleagues out of it.</p></div><div class="ps__sec"><h3>3 &middot; A stinging comment in your 360 summary is best read as...</h3><p><b>Answer:</b> One data point suggesting one adjustment</p><p>The signal read keeps feedback its actual size: information from one angle, worth one honest look and maybe one two-week experiment.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the next place your signal shows up, giving or receiving. Nothing you type is saved or sent; roles, never names.</p>
     <ul class="ps__moves"><li><b>The honest answer.</b> Take the next pulse with zero softened answers, knowing exactly what the plumbing protects.</li><li><b>The useful comment.</b> Write one open comment about the work: a pattern, a situation, a suggestion, no named colleagues.</li><li><b>The signal read.</b> When feedback lands, ask what it points at, pick one adjustment, and give it a two-week trial.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>What happens to open comments</h3><ol><li>Draft one open comment about your current work: a pattern or a process, one concrete suggestion, no named colleagues.</li><li>Reread it as if your whole department could see it. If it still feels fair and useful, it is survey-ready.</li><li>Save it somewhere you will find it when the next pulse opens, so the honest version is already written.</li></ol></div><div class="ps__sec"><h3>The arithmetic of one voice</h3><ol><li>Recall the last survey answer you softened. Write what the honest score would have been and what it might have surfaced.</li><li>Decide your rule before the next pulse opens: answer as if the plumbing works, because it does.</li><li>Pick the one question you always rush past, and plan to give it an extra thirty seconds next cycle.</li></ol></div><div class="ps__sec"><h3>The two-week experiment, properly run</h3><ol><li>Take one piece of feedback you have received this year and write the one adjustment it suggests.</li><li>Put a 15-minute review on your calendar two weeks out; that appointment is what makes it an experiment.</li><li>At the review, write one line: keep it, adjust it, or retire the comment as noise.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002733071337">Receiving Feedback with an Open Mind</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003102009960">Employee Engagement Essentials</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/tasha_eurich_increase_your_self_awareness_with_one_simple_fix">Tasha Eurich: Increase your self-awareness with one simple fix (TED, 17 min)</a></li><li><a href="https://hbr.org/podcasts">HBR IdeaCast (free weekly management podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/may-tuesday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Myth or norm?",
    "progressWord": "Call",
    "labels": [
     "Protected, answer honestly",

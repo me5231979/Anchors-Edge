@@ -331,8 +331,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -363,11 +362,15 @@
     <p class="ps__manifesto">Practice the line out loud, receive it cleanly, and leave with one filmable commitment.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Say what the camera saw.</h3><p>Your ear is calibrated. Behavior a lens would catch gets delivered; verdicts get rewritten; fog gets sharpened.</p><p class="ps__src">Grounded in: <a href="https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/">SBI feedback model (Center for Creative Leadership)</a></p></div><div class="ps__sec"><h3>2 &middot; Give the line, then receive one.</h3><p>Live feedback is a duet. The giver keeps the line camera-true and stops talking when it lands. The receiver offers one thank you and one clarifying question, no case for the defense. Both jobs take practice, and today both get it.</p><p class="ps__src">Grounded in: <a href="https://www.td.org/magazines/td-magazine/design-tactics-for-training-transfer">Active practice, design tactics for training transfer (ATD)</a></p></div><div class="ps__sec"><h3>3 &middot; Feedback you hold becomes a plan you keep.</h3><p>A page that survives contact. The commitment is filmable, the date is real, and a peer already failed to bend it.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; A feedback line is camera-true when...</h3><p><b>Answer:</b> A lens could have caught the behavior it names</p><p>Checkable behavior with a when. Verdicts judge people; camera-true lines describe moments, and moments can change.</p></div><div class="ps__sec"><h3>2 &middot; The clean receive in a live round is...</h3><p><b>Answer:</b> One thank you and one clarifying question</p><p>The receiver&#39;s craft is small on purpose: thank the risk, ask one question, build no defense. Cheap receipts keep truth affordable.</p></div><div class="ps__sec"><h3>3 &middot; What makes a development-plan commitment real?</h3><p><b>Answer:</b> A peer could see the behavior, by a date</p><p>The camera question decides it: what would we see you doing differently, and by when? Plans that answer it get kept.</p></div>
     <h2>Your commitment</h2>
     <p>Finish the page you started. The feedback in your own words, roles never names; nothing you write here is collected.</p>
     <ul class="ps__moves"><li><b>The weekly rep.</b> Name the one behavior, run it at a set moment every week, and mark each rep somewhere a peer could check.</li><li><b>The return visit.</b> Take the plan back to the person who gave the feedback and ask them to watch for the one behavior.</li><li><b>The plan trade.</b> Trade pages with today&#39;s table peer and hold each other&#39;s date; each of you asks about the other&#39;s rep when it comes due.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857628178">Having Difficult Conversations</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300001747867709">HRVU: Managing Difficult Conversations</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.manager-tools.com/manager-tools-basics">Manager Tools: the manager basics (free podcast series)</a></li><li><a href="https://coachingforleaders.com/podcast/">Coaching for Leaders (free weekly podcast, Dave Stachowiak)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/may-workshop/</p>
   </section>
 
@@ -377,6 +380,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-one-play",
+   "title": "Camera or character?",
    "progressWord": "Line",
    "labels": [
     "Camera-true, deliver it",

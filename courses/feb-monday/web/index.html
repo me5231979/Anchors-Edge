@@ -330,8 +330,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../">Classroom edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -362,11 +361,15 @@
     <p class="ps__manifesto">Tell people they are on the bench, and name the growth that starts now.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Succession planning is growth planning.</h3><p>A succession plan answers one question: who is getting ready for bigger work, and what do they need next? Read that way, the bench stops being about exits and becomes a concrete growth plan for the people on it.</p><p class="ps__src">Grounded in: <a href="https://hbr.org/2016/12/succession-planning-what-the-research-says">Succession Planning: What the Research Says, Harrell (HBR)</a></p></div><div class="ps__sec"><h3>2 &middot; Open it so they hear investment.</h3><p>You can hear it. Lead with their growth, name what they get now, and the fear never gets a foothold.</p><p class="ps__src">Grounded in: <a href="https://www.cupahr.org/resource/higher-ed-employee-retention-survey-findings-september-2025/">2025 Higher Education Employee Retention Survey (CUPA-HR)</a></p></div><div class="ps__sec"><h3>3 &middot; Your role needs a pipeline too.</h3><p>A pipeline that grows people. Your bench knows they are being invested in, and your role stops being a single point of failure.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What is a succession plan, read the way this session reads it?</h3><p><b>Answer:</b> A growth plan for the people on the bench</p><p>A bench names who is being grown toward bigger work and what they need next. Exits are a side effect; growth is the point.</p></div><div class="ps__sec"><h3>2 &middot; Which opening line keeps replacement fear out of a succession conversation?</h3><p><b>Answer:</b> &#39;I think you&#39;re ready for bigger work; let&#39;s plan it together&#39;</p><p>Openings that start with the person&#39;s growth earn the conversation. Org-chart and coverage framings put the fear in the room first.</p></div><div class="ps__sec"><h3>3 &middot; What makes a bench for your own role actually work?</h3><p><b>Answer:</b> Skills first, several people, and telling them now</p><p>Skills before names, and more than one of them. A secret bench grows nobody; the development has to start now, out loud.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the succession move you will actually make. Role only, never a name; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The gift conversation.</b> Open with the growth you see, name the bigger work, and build the plan with them in the room.</li><li><b>My own pipeline.</b> List the skills your role needs, name two or three people growing toward them, and tell one of them this week.</li><li><b>The stretch handoff.</b> Hand a bench member one piece of work you usually keep, with the why attached: this grows you toward bigger things.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>When the seat is declined</h3><ol><li>Pick one person who might say no to a bench seat and write the invitation version: the growth you see, with zero pressure attached.</li><li>List two things the seat pays this quarter, stretch work or visibility, that stand even if the bigger role never interests them.</li><li>Draft your reply to a flat no in two sentences, so the conversation ends with the trust intact.</li></ol></div><div class="ps__sec"><h3>The second sentence matters too</h3><ol><li>Write your full opening: sentence one names the growth you see, sentence two names what starts now, sentence three names what you cannot promise.</li><li>Read it aloud and cut anything that sounds like a guarantee. Readiness and direction survive; timelines and titles go.</li></ol></div><div class="ps__sec"><h3>Skills first, on paper</h3><ol><li>Run the deputy test: list the five decisions that would wobble if you were out for a month. Those are your role&#39;s real skills.</li><li>Map two or three people against that list, looking for partial overlap plus appetite, never a finished copy of you.</li><li>Pick the first stretch handoff for one of them and put a date on the conversation.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857590895">Succession Planning</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002804335701">Developing Talent through Succession Planning</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.shrm.org/topics-tools/tools/forms/stay-interview-questions">SHRM: Stay interview questions (free tool)</a></li><li><a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html">Deloitte Global Human Capital Trends (free report)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/feb-monday/</p>
   </section>
 
@@ -376,6 +379,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Gift or threat?",
    "progressWord": "Opening",
    "labels": [
     "Lands as investment",

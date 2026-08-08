@@ -48,10 +48,6 @@ def build(slug):
     s = re.sub(r'(rel="canonical" href="[^"]+?)/?"', r'\1/web/"', s, count=1)
     s = s.replace('"../../assets/', '"../../../assets/')
     s = s.replace('href="../../index.html', 'href="../../../index.html')
-    s = s.replace('<a class="btn btn--ghost" href="web/">Self-paced edition</a>',
-                  '<a class="btn btn--ghost" href="../">Classroom edition</a>')  # no-op for workshops
-    s = s.replace('<li><a href="web/">Self-paced version</a></li>',
-                  '<li><a href="../">Classroom edition (for facilitators)</a></li>')
 
     # ---- 4. slide counter ----
     n = len(re.findall(r'<section class="slide', s))

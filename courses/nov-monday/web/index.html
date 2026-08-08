@@ -330,8 +330,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../">Classroom edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -362,11 +361,15 @@
     <p class="ps__manifesto">When someone applies internally, thank them and back the move out loud.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; An internal move is a retention win.</h3><p>Hold someone past their growth and their next move is usually out the front door. Send them to another Vanderbilt role and the university keeps them. Hoarding feels like retention; in practice it drives people out.</p><p class="ps__src">Grounded in: <a href="https://www.gartner.com/en/newsroom/press-releases/2024-09-18-gartner-hr-research-finds-orgs-current-talent-management-efforts-inhibit-optimal-employee-and-org-performance">Talent hoarding research, Gartner HR (2024)</a></p></div><div class="ps__sec"><h3>2 &middot; Rehearse the first sixty seconds.</h3><p>You can hear the difference. Back the move out loud and keep the whole thing in the open; that is the reply people retell.</p><p class="ps__src">Grounded in: <a href="https://www.shrm.org/topics-tools/news/talent-acquisition/career-development-gaps-frequently-drive-employee-turnover">Career development gaps and turnover research (SHRM)</a></p></div><div class="ps__sec"><h3>3 &middot; Send-offs are recruiting.</h3><p>A send-off that recruits. The mover became your advocate, and your team just watched growth get celebrated.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; Someone on your team takes a role in another Vanderbilt department. For the university, that is...</h3><p><b>Answer:</b> A retention win</p><p>Goal 1 counts internal moves as retention. The realistic alternative to a move inside was usually a move out.</p></div><div class="ps__sec"><h3>2 &middot; Someone tells you they applied internally. The strongest first response is...</h3><p><b>Answer:</b> Thank them, ask about the role, offer to help</p><p>The sending reply starts with thanks and stays in the open. Anything that slows or hides the move reads as hoarding.</p></div><div class="ps__sec"><h3>3 &middot; What makes a send-off part of your recruiting?</h3><p><b>Answer:</b> Everyone deciding where to grow next is watching</p><p>People join teams they have watched celebrate growth. Every good send-off is an ad for working with you.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the move that makes your sending stance visible this week. Roles, never names; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The open-door line.</b> Tell your team, at your next meeting, that internal moves are encouraged here and applying is never a secret to keep from you.</li><li><b>The champion call.</b> Back one live internal application out loud: offer the reference, brief the hiring manager, help them land it.</li><li><b>The send-off standard.</b> Write the three things every departure from your team gets: the public congratulations, the real handoff, the open door.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>The hard case: the person you cannot spare</h3><ol><li>List who on your team is ready for more than their role offers. Roles on paper, never names.</li><li>For each, note the internal move that would keep them at Vanderbilt if it opened tomorrow.</li><li>Write the one handoff risk you would need to plan for, so your timing talk stays honest.</li></ol></div><div class="ps__sec"><h3>Two harder cousins of the moment</h3><ol><li>Write your opening sentence for each cousin: the day you hear it secondhand, and the week after a miss.</li><li>Say both out loud once. Your mouth finds the stiff phrases faster than your eyes do.</li></ol></div><div class="ps__sec"><h3>The alumni ledger</h3><ol><li>List everyone who left your team in recent years and where they landed. Departments and roles, never names.</li><li>Mark the ones you could comfortably call today. That count is your sending reputation so far.</li><li>For one bridge gone cold, draft the two-minute message that reopens the door.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857296981">Driving Internal Mobility as a People Manager</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856580693">Promoting Internal Mobility as a Manager</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://hbr.org/podcasts">HBR IdeaCast (free weekly management podcast)</a></li><li><a href="https://coachingforleaders.com/podcast/">Coaching for Leaders (free weekly podcast, Dave Stachowiak)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/nov-monday/</p>
   </section>
 
@@ -376,6 +379,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Call the response",
    "progressWord": "Reply",
    "labels": [
     "A sending response",

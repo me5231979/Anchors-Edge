@@ -923,6 +923,10 @@ body { overflow: hidden; }
    ===================================================================== */
 .printsheet { display: none; }
 
+/* Printing needs a script, so the button only appears once JS is running. */
+.jsonly { display: none; }
+.js .jsonly { display: inline-flex; }
+
 @media print {
   @page { margin: 14mm; }
   .nav, .bottombar, .dots, .scrollhint, .progress, .deck, .facnote,
@@ -952,6 +956,19 @@ body { overflow: hidden; }
   .ps__obj li, .ps__moves li { margin-bottom: 3px; }
   .ps__write { border: 1px dashed #999; border-radius: 3px; padding: 9px 12px; margin-top: 9px;
     break-inside: avoid; }
+  .ps__entered { border: 1px solid #CFAE70; background: rgba(207,174,112,.09); border-radius: 3px;
+    padding: 9px 12px; margin-top: 9px; break-inside: avoid; }
+  .ps__entered h3 { font-family: var(--font-condensed); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; font-size: 10px; color: #8A6520; margin: 0 0 5px; }
+  .ps__row { display: grid; grid-template-columns: 10.5rem 1fr; gap: 8px; padding: 2px 0;
+    border-top: 1px solid rgba(0,0,0,.08); }
+  .ps__row:first-of-type { border-top: 0; }
+  .ps__row b { font-weight: 600; }
+  .ps__res { padding-left: 17px; margin: 0; }
+  .ps__res li { margin-bottom: 3px; }
+  /* A link on paper is only useful if the address is on the paper. */
+  .ps__res--url a::after { content: " " attr(href); font-size: 9px; color: #777;
+    word-break: break-all; }
   .ps__foot { margin-top: 12px; padding-top: 7px; border-top: 1px solid #E4E4E4;
     font-size: 9.5px; color: #777; }
 }

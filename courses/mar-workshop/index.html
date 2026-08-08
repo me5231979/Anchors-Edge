@@ -331,8 +331,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -363,11 +362,15 @@
     <p class="ps__manifesto">Find the beat where your coaching stalls, and practice that beat first.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Three seats, three jobs.</h3><p>Track the beats, not the problem. Note the moment the coach told instead of asked, the beat that got skipped or rushed, and the exact question that moved something. The topic is a prop; the coaching is the work.</p><p class="ps__src">Grounded in: <a href="https://www.ccl.org/articles/leading-effectively-articles/how-to-have-a-coaching-conversation/">Coaching conversation research, Center for Creative Leadership</a></p></div><div class="ps__sec"><h3>2 &middot; Run the beats on a real topic.</h3><p>Your ear is calibrated. Whatever your observer says next, you will recognize the stall they name.</p><p class="ps__src">Grounded in: <a href="https://www.performanceconsultants.com/resources/the-grow-model/">The GROW model, Sir John Whitmore (Performance Consultants)</a></p></div><div class="ps__sec"><h3>3 &middot; Name the beat that stalled.</h3><p>The stall broke and the thinking stayed theirs. That is the whole craft, witnessed.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; The observer&#39;s job during a live round is...</h3><p><b>Answer:</b> Tracking beats, tells, and questions</p><p>Beats, not the problem. The written moments, told or asked, skipped or held, are what make the debrief a mirror instead of a critique.</p></div><div class="ps__sec"><h3>2 &middot; The talk jumps straight from the want to a list of fixes. What got skipped?</h3><p><b>Answer:</b> Reality: what is true and already tried</p><p>Options built before reality are guesses. What have you tried, what happened, what is in the way: that ground is what makes options worth choosing between.</p></div><div class="ps__sec"><h3>3 &middot; A coaching talk ends with &#39;let&#39;s keep talking about this.&#39; What is missing?</h3><p><b>Answer:</b> A named action with a date</p><p>The will beat is the part that survives the meeting. Which one will you do, and by when, said in their words, is what makes the talk a change.</p></div>
     <h2>Your commitment</h2>
     <p>Name the beat your observer caught and the question that unsticks it. Role only for anyone you mention; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The stalled-beat rep.</b> Open your next 1:1 with the question you wrote for your stalled beat, and let the silence do its work.</li><li><b>The full round.</b> Run all four beats on the next real stuck a team member brings: goal, reality, options, will, their words, their date.</li><li><b>The triad rematch.</b> Reconvene your triad from today for one more round each, new topics, same observer discipline.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002889351882">Powerful Questions to Build Team Trust, Engagement, and Psychological Safety</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002696622540">The Coaching Lab - A 3-Part Series for Building Coaching Skills</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://coachingforleaders.com/podcast/">Coaching for Leaders (free weekly podcast, Dave Stachowiak)</a></li><li><a href="https://www.td.org/content/atd-blog/do-your-employees-need-coaching-or-mentoring">ATD: Do your employees need coaching or mentoring? (free article)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/mar-workshop/</p>
   </section>
 
@@ -377,6 +380,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Call the stall",
    "progressWord": "Round",
    "labels": [
     "Goal stall: a fuzzy want, accepted",

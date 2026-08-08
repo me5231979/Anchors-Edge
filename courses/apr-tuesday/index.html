@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Sort your week per task: automate, augment, or leave alone, and check what ships.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Break the week into sortable tasks.</h3><p>A sortable task names an output and a rhythm: the thing produced and how often. &#39;Communications&#39; is a job. &#39;Draft the Thursday newsletter from submitted items&#39; is a task, and a task can be sorted.</p><p class="ps__src">Grounded in: <a href="https://www.hbs.edu/faculty/Pages/item.aspx?num=64700">The jagged technological frontier, Dell&#39;Acqua et al. (HBS)</a></p></div><div class="ps__sec"><h3>2 &middot; Automate, augment, or leave alone.</h3><p>You make the call cleanly, per task, with the traffic light in view.</p><p class="ps__src">Grounded in: <a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged">Centaurs and cyborgs, Ethan Mollick, One Useful Thing</a></p></div><div class="ps__sec"><h3>3 &middot; Test one call this week.</h3><p>A real result by Friday. You know exactly what the tool saved you and exactly what your check caught.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; The sort is always made...</h3><p><b>Answer:</b> Per task, one call at a time</p><p>Jobs never sort cleanly; tasks do. Every job is a mix of automate, augment, and leave alone, and that mix is the honest picture.</p></div><div class="ps__sec"><h3>2 &middot; A first draft built from internal meeting notes is best sorted as...</h3><p><b>Answer:</b> Augment, in approved VU tools</p><p>Internal content is yellow light: approved VU tools only, with you driving. AI speeds the draft; your judgment makes it right.</p></div><div class="ps__sec"><h3>3 &middot; What makes an automate call safe?</h3><p><b>Answer:</b> A named checking step you actually run</p><p>Automate means AI does it AND you check. Names, numbers, and dates against the source: the check is half of the call, every time.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the task your sort points to first. Task language only, no names of people; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The automate test.</b> Run the task through an approved VU tool once, then check names, numbers, and dates against the source before anything ships.</li><li><b>The augment test.</b> Use an approved VU tool for the first draft only, keep every decision yours, and note what the draft got wrong.</li><li><b>The leave-alone case.</b> Write two lines on why this task stays human: the trust, judgment, or people data at its center. Naming that case is a skill too.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>The invisible half of your week</h3><ol><li>Open last week&#39;s calendar and sent folder. List every repeating piece of work you find, written as an output and a rhythm.</li><li>Star the tasks you never think of as tasks: the prep, the formatting, the standard replies. Sort those first.</li></ol></div><div class="ps__sec"><h3>Centaur work, cyborg work, red thread</h3><ol><li>Sort ten tasks from your week into the three buckets. Note which bucket filled up and whether that surprised you.</li><li>Run one augment task centaur style: the tool drafts, you decide, and you note where the line sat. Move the line next time if it sat wrong.</li><li>Find one task with a red thread and write which parts come out before a tool touches it.</li></ol></div><div class="ps__sec"><h3>Read the test like evidence</h3><ol><li>After the test, write three numbers: minutes the old way, minutes with the tool including the check, and errors the check caught.</li><li>Turn what the check caught into a named checklist you run every time the task ships.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857668358">Business Process Improvement</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002978567564">Systems Thinking and Process Improvement</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.oneusefulthing.org/">Ethan Mollick, One Useful Thing (free newsletter on AI at work)</a></li><li><a href="https://sloanreview.mit.edu/audio-series/me-myself-and-ai/">MIT Sloan Management Review: Me, Myself, and AI (free podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/apr-tuesday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Make the call",
    "progressWord": "Task",
    "labels": [
     "Automate: AI does it, you check",

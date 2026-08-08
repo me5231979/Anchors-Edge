@@ -54,6 +54,10 @@ welcome(QR, classroom only) > why (Chancellor's charge + this month's
 goal, one slide) > hero (objectives + goal chip) > agenda > three
 teaching sections (one interaction each, optional Grounded-in citation) >
 manifesto > recap quiz (3 Q) > capstone commitment card > closing.
+The closing slide offers exactly two things: back to the dashboard, and
+print your takeaway sheet. Printing any edition prints that sheet only
+(recap, resources from `tools/resources.py`, and whatever the learner
+typed or picked, mirrored in by `assets/js/deck.js`).
 Workshops (format: workshop) run 90/60 with no self-paced edition.
 Timing per section is fixed in `tools/generate.py` (FULL_MIN/CORE_MIN)
 and sums exactly to 45 and 30.

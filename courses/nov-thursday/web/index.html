@@ -330,8 +330,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../">Classroom edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -362,11 +361,15 @@
     <p class="ps__manifesto">Invite with a real question, and follow up with something that asks for nothing.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Lead with a real question.</h3><p>Before reaching out, find the question you actually want answered about their work. If you have one, the outreach will feel natural to send and to receive. If you cannot find one, you picked the wrong person, and no script will fix it.</p></div><div class="ps__sec"><h3>2 &middot; Run the 20-minute coffee.</h3><p>A coffee they would take again. You left with real insight and they left feeling interesting, which is rarer.</p><p class="ps__src">Grounded in: <a href="https://news.stanford.edu/stories/2022/09/real-strength-weak-ties">The real strength of weak ties (Stanford Report)</a></p></div><div class="ps__sec"><h3>3 &middot; Follow up small and specific.</h3><p>You have the touch. A good follow-up is specific to them, asks for nothing, and arrives because something genuinely reminded you.</p><p class="ps__src">Grounded in: <a href="https://sloanreview.mit.edu/article/the-power-of-reconnection-how-dormant-ties-can-surprise-you/">The power of reconnection, dormant ties (MIT Sloan Review)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What takes the ick out of internal networking?</h3><p><b>Answer:</b> Leading with genuine curiosity about their work</p><p>Curiosity makes outreach honest. If you have a question you truly want answered, the connection carries itself.</p></div><div class="ps__sec"><h3>2 &middot; What makes a virtual-coffee invite easy to say yes to?</h3><p><b>Answer:</b> A specific reason about their work, capped at 20 minutes</p><p>Specific plus bounded gets the yes. &#39;Pick your brain sometime&#39; is vague, unbounded, and all about you.</p></div><div class="ps__sec"><h3>3 &middot; A month after a good coffee, the best bridge-warming move is...</h3><p><b>Answer:</b> A specific two-minute follow-up that asks for nothing</p><p>Specific and generous keeps the bridge warm; an ask arriving after months of silence reads as extraction.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the bridge move you will actually make. Teams and roles, never names; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The curiosity coffee.</b> Send one specific, bounded invite to someone in another department: their work, your genuine question, 20 minutes.</li><li><b>The warm follow-up.</b> Send one two-minute follow-up to a contact you already have: a link, a congratulations, or a thank-you with a specific detail.</li><li><b>The bridge map.</b> List three teams your work touches but you have never met, and the one person you would ask for a coffee in each.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>When the curiosity will not come</h3><ol><li>Write down three Vanderbilt processes that genuinely mystify you, and the team that owns each one.</li><li>For one of them, draft the question you would ask even if the coffee never led anywhere else.</li></ol></div><div class="ps__sec"><h3>Three questions that carry the meeting</h3><ol><li>Draft the three questions for the coffee on your capstone card. Test each one: is it about their work?</li><li>Plan the close: the thank-you plus the one specific detail you want to remember from their answers.</li></ol></div><div class="ps__sec"><h3>A cadence you will actually keep</h3><ol><li>List the internal contacts you would call bridges today, and note when each one last heard from you.</li><li>Pick the coldest bridge still worth keeping and send its two-minute reopener before you close this tab.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300001635002672">Building Your Professional Network</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856819272">Managing Your Professional Network</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/david_burkus_how_to_hack_networking">David Burkus: How to hack networking (TEDx, 11 min)</a></li><li><a href="https://www.ted.com/talks/worklife_with_adam_grant_networking_for_people_who_hate_networking">WorkLife: Networking for people who hate networking (TED podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/nov-thursday/</p>
   </section>
 
@@ -376,6 +379,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Call the follow-up",
    "progressWord": "Move",
    "labels": [
     "Warm, send it",

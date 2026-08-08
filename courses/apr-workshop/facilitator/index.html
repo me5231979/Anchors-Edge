@@ -437,8 +437,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -470,11 +469,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Build the grid by hand, challenge every call, and bring it to your team as a draft.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Write one row per recurring task.</h3><p>A row is ready when a stranger could picture doing the task: the output, the rhythm, the inputs. Rows about people come off; rows about work stay on. The grid earns its wall space by being arguable, and only tasks can be argued with.</p><p class="ps__src">Grounded in: <a href="https://sloanreview.mit.edu/article/want-ai-driven-productivity-redesign-work/">Want AI-driven productivity? Redesign work (MIT SMR)</a></p></div><div class="ps__sec"><h3>2 &middot; Challenge every call out loud.</h3><p>You pressure-test like a partner should. Standing calls earn confidence, flipped calls earn honesty, and bundles get split.</p><p class="ps__src">Grounded in: <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">Future of Jobs Report, World Economic Forum</a></p></div><div class="ps__sec"><h3>3 &middot; The grid goes home as a draft.</h3><p>The grid left the meeting fuller than it arrived: new rows, corrected calls, and a team arguing with paper instead of worrying about people.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; A grid row is ready for the wall when...</h3><p><b>Answer:</b> A stranger could picture doing the task</p><p>Output, rhythm, inputs, in task language. Rows about work can be sorted in the open; rows about people put someone on trial.</p></div><div class="ps__sec"><h3>2 &middot; A partner&#39;s challenge names judgment you missed. The call...</h3><p><b>Answer:</b> Flips, and the grid gets more honest</p><p>That is the pressure test working. A challenge that surfaces missed data or judgment flips the call, and a flipped call is a win for the map.</p></div><div class="ps__sec"><h3>3 &middot; How does the grid meet your team?</h3><p><b>Answer:</b> As a marked draft, marker on the table</p><p>A draft plus a marker recruits co-authors. The team corrects rows and adds tasks, and the redesign becomes shared work instead of a verdict.</p></div>
     <h2>Your commitment</h2>
     <p>You are holding a physical map of your team&#39;s work. Commit to what happens to it next. Tasks and roles only, never a name; nothing you write here is collected.</p>
     <ul class="ps__moves"><li><b>The draft reveal.</b> Open your next team meeting with the grid marked draft, a marker on the table, and the ask: which row is wrong, which task did I miss?</li><li><b>The living wall.</b> Post the grid where the team works and invite additions in anyone&#39;s handwriting before the sort conversation happens.</li><li><b>The second challenge.</b> Trade grids with a manager from this room and run the challenge again, so the sort survives two strangers before it meets the team.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857133092">Building a Data-Driven Skills-First Workforce Strategy</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002967757630">Human Resources: Strategic Workforce Planning</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li><li><a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html">Deloitte Global Human Capital Trends (free report)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/apr-workshop/</p>
   </section>
 
@@ -484,6 +487,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Survive the challenge",
    "progressWord": "Exchange",
    "labels": [
     "The call stands, keep it",

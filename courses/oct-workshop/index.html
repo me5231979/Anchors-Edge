@@ -331,8 +331,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -363,11 +362,15 @@
     <p class="ps__manifesto">Put evidence beside every mark, and act on the one line you circle.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; One line per role, written for a stranger.</h3><p>A map line works when a stranger could act on it. &#39;Senior analyst, solid&#39; offers nothing. &#39;Senior analyst: grant budgeting, plain writing, wants facilitation&#39; hands a stranger three moves. Write every line to that standard.</p><p class="ps__src">Grounded in: <a href="https://www.gallup.com/workplace/236561/employees-strengths-outperform-don.aspx">Strengths and engagement research (Gallup)</a></p></div><div class="ps__sec"><h3>2 &middot; Mark only what you can evidence.</h3><p>A map you can defend. Every mark carries its evidence, so every mark can become an action.</p></div><div class="ps__sec"><h3>3 &middot; Circle one conversation.</h3><p>You can triage a map. Risk with evidence gets the circle, growth asks get fed, thin marks get watched.</p><p class="ps__src">Grounded in: <a href="https://www.cupahr.org/resource/higher-ed-employee-retention-survey-findings-september-2025/">CUPA-HR 2025 Higher Education Employee Retention Survey</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What makes a talent map line usable?</h3><p><b>Answer:</b> A stranger could act on it: capabilities, roles only</p><p>The stranger test. Capability in role-only language turns a page of notes into a map someone could actually staff and plan from.</p></div><div class="ps__sec"><h3>2 &middot; What does every mark on the map need beside it?</h3><p><b>Answer:</b> The evidence and the date</p><p>Marks decay without evidence. The pattern and the date keep the map readable next month, and initials break the roles-never-names rule.</p></div><div class="ps__sec"><h3>3 &middot; Which marked line gets the first conversation?</h3><p><b>Answer:</b> Strong evidence plus the highest cost of being wrong</p><p>Triage runs on evidence and cost. The clearest pattern on the person you can least afford to lose gets the circle and the calendar slot.</p></div>
     <h2>Your commitment</h2>
     <p>Choose the map&#39;s first move and put a window on it. Roles only, never names; nothing you write here is collected.</p>
     <ul class="ps__moves"><li><b>The booked conversation.</b> Put the circled conversation on the calendar before you leave the building, using the opening you built in this month&#39;s Monday session.</li><li><b>The finished map.</b> Complete the lines you ran out of room for: every role gets a line that passes the stranger test, within the week.</li><li><b>The standing refresh.</b> Put a monthly hold on your calendar to rewalk the map: marks re-evidenced, stale ones erased, one new circle.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002967757630">Human Resources: Strategic Workforce Planning</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003069406051">Manager Monday - Talent Marketplace</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness">Google re:Work: Understand team effectiveness (free guide)</a></li><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/oct-workshop/</p>
   </section>
 
@@ -377,6 +380,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Who gets the circle?",
    "progressWord": "Line",
    "labels": [
     "Circle it, conversation this week",

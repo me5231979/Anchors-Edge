@@ -437,8 +437,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -470,11 +469,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Write two plan lines with owners and dates, and book the first conversation today.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Lay both maps side by side.</h3><p>An action-ready insight has two coordinates: a task whose shape is changing, and a strength or gap on the team it points at. One coordinate makes a slide. Two make a move you can hand an owner.</p><p class="ps__src">Grounded in: <a href="https://www.deloitte.com/us/en/insights/topics/talent/organizational-skill-based-hiring.html">The skills-based organization, a new model for work (Deloitte)</a></p></div><div class="ps__sec"><h3>2 &middot; Write the moves you can check.</h3><p>You can grade a plan line at a glance, which means you can write one. Owners, dates, and checkable verbs travel.</p></div><div class="ps__sec"><h3>3 &middot; Test the plan out loud.</h3><p>A plan in motion before the room empties. The right person hears it first, and the dates have defenders.</p><p class="ps__src">Grounded in: <a href="https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail">Leading change: why transformation efforts fail, John Kotter (HBR)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; An insight is action-ready when it has...</h3><p><b>Answer:</b> A changing task and a strength or gap it points at</p><p>Two coordinates: the changing task and the team strength or gap it points at. With both, the line is an owner and a date away from a move.</p></div><div class="ps__sec"><h3>2 &middot; A plan line holds when...</h3><p><b>Answer:</b> Someone could verify later that it happened</p><p>Owner, date, checkable verb. A role and a skill anyone can check in a month is a move; anything less is still an insight.</p></div><div class="ps__sec"><h3>3 &middot; Who should hear the plan first?</h3><p><b>Answer:</b> The person whose work changes</p><p>Hearing it early, from you, framed as growth, is what makes the move land as investment. The order of conversations is itself a message.</p></div>
     <h2>Your commitment</h2>
     <p>Write the plan card the year has been earning. Roles only, never names; nothing you write here is collected.</p>
     <ul class="ps__moves"><li><b>The investment conversation.</b> Hold the first conversation with the person whose work changes: what you saw, what you want to grow, what stays theirs.</li><li><b>The wider move.</b> If the redeploy points beyond your team, open the Talent Marketplace and the Transfer Portal and walk the move through the university&#39;s own doors.</li><li><b>The peer check-in.</b> Book the check-in with a manager from this table and trade one line each: what moved, what needs help.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003080794351">Strategic Planning Foundations</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002897794772">Change Management</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li><li><a href="https://hbr.org/podcasts">HBR IdeaCast (free weekly management podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/jun-workshop/</p>
   </section>
 
@@ -484,6 +487,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Grade the line",
    "progressWord": "Line",
    "labels": [
     "Holds: owner, date, checkable",

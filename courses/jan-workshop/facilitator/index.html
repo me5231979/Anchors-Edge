@@ -437,8 +437,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -470,11 +469,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Run one real chore, check every fact, and ship it before you leave the room.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; The right first chore is small and green.</h3><p>You can call a mixed chore. The most sensitive piece decides the light, and stripping it can change the call.</p></div><div class="ps__sec"><h3>2 &middot; Improve the draft with one follow-up.</h3><p>A second draft you would actually sign. Two small edits and it is ready for the check.</p><p class="ps__src">Grounded in: <a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged">Centaurs and cyborgs on the jagged frontier (One Useful Thing)</a></p></div><div class="ps__sec"><h3>3 &middot; A win is checked, then shipped.</h3><p>A first win has three parts: the check (every fact verified, the voice yours), the ship (the work sent, filed, or used), and the story (you can say what the check caught). A perfect draft sitting in a folder is a rehearsal.</p><p class="ps__src">Grounded in: <a href="https://sloanreview.mit.edu/article/a-three-minute-protocol-to-reduce-ai-manipulation-risk/">Think first, verify always (MIT Sloan Management Review)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; A chore mixes public content with one detail about a person&#39;s private situation. The call?</h3><p><b>Answer:</b> The private piece never goes in; strip it or skip it</p><p>Private information about people is red, always, and the most sensitive piece decides. Stripped to its generic core, the chore can run green.</p></div><div class="ps__sec"><h3>2 &middot; The first draft comes back close but stiff. The strongest next move?</h3><p><b>Answer:</b> Tell the tool what to change, plainly</p><p>Follow-ups are the cheapest skill in the room. Say what to change the way you would to a colleague, and the second draft arrives nearly done.</p></div><div class="ps__sec"><h3>3 &middot; What turns today&#39;s draft into a first win?</h3><p><b>Answer:</b> Checking it and shipping it as real work</p><p>Checked, then shipped: sent, filed, or used. The win is the work leaving your hands, plus the story of what the check caught.</p></div>
     <h2>Your commitment</h2>
     <p>You shipped the first one in this room. Name the next green-light chore and when it runs. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The repeat.</b> Run today&#39;s chore again the next time it recurs, follow-up included, and watch it get faster.</li><li><b>The second chore.</b> Pick a different green-light chore, write the ask cold, and run the whole loop without the room.</li><li><b>The show and tell.</b> Show a colleague your shipped win, what the check caught included, and help them pick their first chore.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857373384">Prompt Engineering with ChatGPT</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857362271">AI Productivity Hacks to Reimagine Your Workday and Career</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://sloanreview.mit.edu/audio-series/me-myself-and-ai/">MIT Sloan Management Review: Me, Myself, and AI (free podcast)</a></li><li><a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html">Deloitte Global Human Capital Trends (free report)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/jan-workshop/</p>
   </section>
 
@@ -484,6 +487,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-one-play",
+   "title": "Strip it or skip it",
    "progressWord": "Chore",
    "labels": [
     "Green as it stands: run it",

@@ -330,8 +330,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../">Classroom edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -362,11 +361,15 @@
     <p class="ps__manifesto">Inventory your team&#39;s skills before you decide who to retain, grow, or move.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Inventory skills, not titles.</h3><p>For each person, ask: what do they do well that the role does not require? Answers to that question are where succession plans, stretch projects, and internal moves come from.</p></div><div class="ps__sec"><h3>2 &middot; Sort flight-risk signals from noise.</h3><p>You can hear the difference. A signal earns a conversation this week. Noise mostly needs patience, and a growth ask deserves an answer.</p><p class="ps__src">Grounded in: <a href="https://www.gallup.com/workplace/646538/employee-turnover-preventable-often-ignored.aspx">Preventable turnover research (Gallup, 2024)</a></p></div><div class="ps__sec"><h3>3 &middot; Turn the read into a conversation.</h3><p>A conversation that retains. They left feeling seen, and you left with a talent read you can act on.</p><p class="ps__src">Grounded in: <a href="https://www.shrm.org/topics-tools/news/employee-relations/how-to-conduct-stay-interviews-5-key-questions">How to conduct stay interviews: five key questions (SHRM)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What belongs in a team skills inventory?</h3><p><b>Answer:</b> What each person can do, in role or beyond it</p><p>The inventory captures capability, not paperwork. Hidden skills are where succession and internal mobility come from.</p></div><div class="ps__sec"><h3>2 &middot; Your best performer stops volunteering for projects they used to fight for. That is most likely...</h3><p><b>Answer:</b> A flight-risk signal worth one conversation</p><p>A pattern change around ownership is the classic early flight-risk signal, and it costs one conversation to check.</p></div><div class="ps__sec"><h3>3 &middot; What turns a talent read into retention?</h3><p><b>Answer:</b> Holding the conversation it points to</p><p>The read only changes anything when the person hears it, in a stay interview or a growth check-in held this week.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the person your read points to first. Role only, never a name; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The stay interview.</b> Open with what they are great at, then ask what would make the next year worth staying for.</li><li><b>The growth check-in.</b> Ask what skill they want to build next and find one real way the team can feed it.</li><li><b>The skills ask.</b> Ask what they can do that the role never uses, and write the answer into your team inventory.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Three sources feed one honest inventory</h3><ol><li>Pick one person on your team and write three lines, one per source: seen, borrowed, self-reported. Leave the third blank until you have actually asked them.</li><li>Reread the resume or Oracle record they were hired with. Note one skill it mentions that the role has never used.</li><li>Bring the inventory line to your next 1:1 and let them correct it; their edits are the most accurate data you will get.</li></ol></div><div class="ps__sec"><h3>Read against their baseline, not the team&#39;s</h3><ol><li>Write one sentence per team member describing their normal: what they volunteer for, what they own without being asked.</li><li>Flag anyone whose last month departs from their own sentence; treat the flags as things to check, never verdicts.</li><li>For one flagged person, book a light check-in this week. The conversation is how you test the read.</li></ol></div><div class="ps__sec"><h3>The follow-through is the retention</h3><ol><li>After the conversation, write one line: the skill or want you heard, and the smallest visible action it points to.</li><li>Take the action within two weeks: forward the course link, propose the stretch task, or update your inventory and say so.</li><li>At the following 1:1, name what you did with what they told you. Closing that loop is what makes the next conversation honest.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857337579">Skills-First Talent Management</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857069154">Considering Transferable Skills in Talent Acquisition and Retention</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness">Google re:Work: Understand team effectiveness (free guide)</a></li><li><a href="https://www.shrm.org/topics-tools/tools/forms/stay-interview-questions">SHRM: Stay interview questions (free tool)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/oct-monday/</p>
   </section>
 
@@ -376,6 +379,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Signal or noise?",
    "progressWord": "Read",
    "labels": [
     "Flight-risk signal, act",

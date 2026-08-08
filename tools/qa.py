@@ -107,8 +107,24 @@ def check_page(page, url, label, interactions=True, strict_fit=True):
                 out = page.query_selector('#capOut')
                 if not out or out.get_attribute('hidden') is not None:
                     errors.append('%s: capstone card did not build' % label)
+                # the sheet is the only thing that prints, so it has to catch this
+                ps = page.query_selector('#psEntered')
+                if not ps or ps.get_attribute('hidden') is not None:
+                    errors.append('%s: takeaway sheet did not record the commitment' % label)
+                elif 'senior coordinator' not in (ps.inner_text() or ''):
+                    errors.append('%s: takeaway sheet missing the typed commitment' % label)
             else:
                 errors.append('%s: capstone build stayed disabled' % label)
+
+    # every edition prints the takeaway sheet, and it carries the resources
+    if not page.query_selector('.printsheet'):
+        errors.append('%s: no takeaway sheet' % label)
+    if not page.query_selector('#printSheet'):
+        errors.append('%s: no print button on the closing slide' % label)
+    if len(page.query_selector_all('.printsheet a[href*="ecsr.fa.us2.oraclecloud.com"]')) < 2:
+        errors.append('%s: takeaway sheet needs two Oracle Learning resources' % label)
+    if len(page.query_selector_all('.ps__res--url a')) < 2:
+        errors.append('%s: takeaway sheet needs two free outside resources' % label)
 
     for m in console:
         txt = m.text

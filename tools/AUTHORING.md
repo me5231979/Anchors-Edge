@@ -173,10 +173,18 @@ In practice:
   not tease it.
 - The manifesto slide carries the course's one takeaway rule, stated as
   an instruction a learner could act on.
-- Printing a course prints the takeaway sheet only, never the deck. The
-  sheet is assembled from fields you already wrote (objectives,
-  manifesto, per-section takeaway plus citation, capstone moves, deeper
-  steps), so those lines have to stand on their own off the screen.
+- Printing a course prints the takeaway sheet only, never the deck. Every
+  edition has it (classroom, self-paced, facilitator, workshop), reached
+  from the closing slide. The sheet is assembled from fields you already
+  wrote (objectives, manifesto, per-section takeaway plus citation, the
+  recap questions with their answers, capstone moves, deeper steps), so
+  those lines have to stand on their own off the screen. It also carries
+  whatever the learner typed or picked, and the resource list from
+  `tools/resources.py`.
+- Resources are two Oracle Learning courses and two free outside sources
+  per course, in `tools/resources.py`. Free means free: TED, open
+  podcasts, public reports. Never list anything paywalled, and never
+  repeat that month's Course of the Month from the dashboard.
 
 ## Humanizer rules (kill the AI tells)
 

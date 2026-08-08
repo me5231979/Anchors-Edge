@@ -462,8 +462,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -495,11 +494,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">When the aside is about the person, ask one open question before you offer anything.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Status updates hide coaching moments.</h3><p>Listen for the sentence about themselves inside the sentences about the task: &#39;I never know when to escalate.&#39; &#39;I hate presenting these.&#39; The update carries the work; the aside carries the person. The aside is the door.</p></div><div class="ps__sec"><h3>2 &middot; One question beats three instructions.</h3><p>You can hear the difference. Real questions hand the thinking over; disguised instructions just soften the telling.</p><p class="ps__src">Grounded in: <a href="https://hbr.org/2019/11/the-leader-as-coach">The Leader as Coach, Ibarra and Scoular (HBR, 2019)</a></p></div><div class="ps__sec"><h3>3 &middot; Four beats keep the talk moving.</h3><p>A ten-minute talk that grew someone. They left with their own plan and a date, and you left knowing what they actually want.</p><p class="ps__src">Grounded in: <a href="https://www.performanceconsultants.com/resources/the-grow-model/">The GROW model, Sir John Whitmore (Performance Consultants)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; Mid-update, a team member adds: &#39;I always freeze when leadership pushes back.&#39; That is...</h3><p><b>Answer:</b> A coaching moment: the subject just became them</p><p>The sentence about the person inside the sentences about the task is what a coaching moment sounds like, and it rarely comes twice.</p></div><div class="ps__sec"><h3>2 &middot; Why does one good question beat three instructions?</h3><p><b>Answer:</b> The thinking happens in their head and stays there</p><p>Telling works once. A real question builds the judgment they will use when you are nowhere near the problem.</p></div><div class="ps__sec"><h3>3 &middot; The four beats of a simple coaching talk, in order...</h3><p><b>Answer:</b> Goal, reality, options, will</p><p>Where they are headed, what is true now, what they could try, what they will do. Their words at every beat, and the will beat gets a date.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the person whose aside you have been driving past. Role only, never a name; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>Reopen the door.</b> Bring the aside back: &#39;Last week you mentioned second-guessing those calls. Say more?&#39; Then stay quiet.</li><li><b>The one question.</b> At the next stuck, trade your instruction for one open question you do not know the answer to.</li><li><b>The ten-minute talk.</b> Run the four beats end to end: goal, reality, options, will, and let them name the date.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Steam or door: telling asides apart</h3><ol><li>List your 1:1s from the past two weeks and write down every aside about the person you can remember. Roles, never names.</li><li>Mark each one steam or door: circumstances, or something about them? Steam gets a nod; a door gets a question.</li><li>Pick one door and write the exact sentence you will use to reopen it at your next 1:1.</li></ol></div><div class="ps__sec"><h3>The second question</h3><ol><li>Put three stems where you run 1:1s: &#39;What have you tried?&#39; &#39;What is the hard part?&#39; &#39;What would you do if I were out this week?&#39;</li><li>In your next stuck conversation, ask one stem, then follow the answer one layer down before you offer anything of your own.</li></ol></div><div class="ps__sec"><h3>Where the four beats stall</h3><ol><li>Pick a real stuck on your team and write one question per beat before the next 1:1. Four lines, plain words.</li><li>Run the talk, then note which beat stalled. That beat is your rep to practice next time.</li><li>Start the Canaday course on LinkedIn Learning or book a navigator-led GROW practicum slot this week.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002696622540">The Coaching Lab - A 3-Part Series for Building Coaching Skills</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857564343">Coaching Employees through Difficult Situations</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.td.org/insights/the-atd-talent-development-framework-coaching">ATD Talent Development Framework: Coaching (free article)</a></li><li><a href="https://coachingforleaders.com/podcast/">Coaching for Leaders (free weekly podcast, Dave Stachowiak)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/mar-monday/</p>
   </section>
 
@@ -509,6 +512,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Tell or ask?",
    "progressWord": "Round",
    "labels": [
     "Telling: the manager keeps the thinking",

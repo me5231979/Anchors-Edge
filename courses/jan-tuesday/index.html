@@ -358,8 +358,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -390,11 +389,15 @@
     <p class="ps__manifesto">Pick one green-light chore, write a plain ask, and check the result before it ships.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Pick a chore and call its light.</h3><p>You can call the light. Green chores are your starting lane; yellow waits for approved VU tools; red stays out, every time.</p></div><div class="ps__sec"><h3>2 &middot; Ask like you would ask a colleague.</h3><p>A draft you would nearly send. Two small edits and it sounds like you on a good day.</p><p class="ps__src">Grounded in: <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report/economy">The AI Index 2025, economy chapter (Stanford HAI)</a></p></div><div class="ps__sec"><h3>3 &middot; You are the editor.</h3><p>Before an AI draft goes anywhere, check facts (every name, date, and number), fit (is this what you meant to say?), and voice (does it sound like you?). If you cannot verify a detail, cut it or confirm it yourself.</p><p class="ps__src">Grounded in: <a href="https://www.hbs.edu/faculty/Pages/item.aspx?num=64700">The jagged frontier study, Dell&#39;Acqua and Mollick (HBS)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; Which chore is a green light for your first AI use?</h3><p><b>Answer:</b> Drafting a note about a public campus event</p><p>The light follows the information. Public or generic goes; internal waits for approved VU tools; private information about people never goes in.</p></div><div class="ps__sec"><h3>2 &middot; What belongs in a good plain-English ask?</h3><p><b>Answer:</b> The job, the details that matter, and the shape you want</p><p>The same brief you would give a helpful colleague. Specific asks come back close to done; vague asks come back vague.</p></div><div class="ps__sec"><h3>3 &middot; What must happen before an AI draft leaves your hands?</h3><p><b>Answer:</b> You verify every fact and make it sound like you</p><p>The green light covers what goes in; the editor&#39;s rule covers what comes out. Facts verified, voice yours, then it ships.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the chore from your own week and the moment you will run it. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The first draft.</b> Hand the tool one green-light writing chore with a specific ask, then edit the draft into your own voice.</li><li><b>The tidy-up.</b> Give the tool your rough notes on something public or generic and ask for clean, short sentences.</li><li><b>The plain explainer.</b> Ask the tool to explain a public topic you need to understand, then verify the pieces you plan to use.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Green inside a yellow week</h3><ol><li>List five recurring chores from your calendar and inbox, and mark each one green, yellow, or red.</li><li>Take one yellow chore and write its green version: the same task with the specifics stripped out.</li></ol></div><div class="ps__sec"><h3>The second ask</h3><ol><li>Run your capstone chore, then send one follow-up that changes a single thing: tone, length, or the opening.</li><li>Paste in a paragraph of your own writing, ask for the draft in that voice, and compare the two results.</li></ol></div><div class="ps__sec"><h3>The two-pass check</h3><ol><li>Run both passes on your first-win draft and keep a tally of what pass one caught.</li><li>Read the final version aloud and rewrite any sentence that does not sound like you.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857283770">What Is Generative AI?</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002934576075">Top Ten AI Prompts</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.oneusefulthing.org/">Ethan Mollick, One Useful Thing (free newsletter on AI at work)</a></li><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/jan-tuesday/</p>
   </section>
 
@@ -404,6 +407,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-one-play",
+   "title": "Call the light",
    "progressWord": "Chore",
    "labels": [
     "Green: public or generic, go",

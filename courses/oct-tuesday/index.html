@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Write every real skill onto your profile, in words a searcher would type.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Know what the Marketplace reads.</h3><p>The Talent Marketplace is a talent map. Input: the skills profile you keep. Output: matches between what you can do and what the university needs, from short projects to open roles. The map is only as true as the profiles that feed it.</p><p class="ps__src">Grounded in: <a href="https://www.deloitte.com/global/en/issues/work/skills-based-organizations.html">The skills-based organization (Deloitte)</a></p></div><div class="ps__sec"><h3>2 &middot; A current profile gets found.</h3><p>You can read the system. Keep the profile current and the matching does the rest; going stale is the only real way to lose.</p><p class="ps__src">Grounded in: <a href="https://learning.linkedin.com/resources/workplace-learning-report">Internal mobility and retention, LinkedIn Workplace Learning Report</a></p></div><div class="ps__sec"><h3>3 &middot; Name the skill, not the duty.</h3><p>A profile the system can work with. Your skills are named, current, and searchable by anyone with a need.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What does the Talent Marketplace build its talent map from?</h3><p><b>Answer:</b> The skills profiles people keep and share</p><p>The map is made of what people make visible. Your profile is your input, and it stays in your hands.</p></div><div class="ps__sec"><h3>2 &middot; What does a current skills profile do for you?</h3><p><b>Answer:</b> Lets internal opportunities find you</p><p>The payoff is matching: projects, stretch roles, and internal moves can search for your skill and reach you first.</p></div><div class="ps__sec"><h3>3 &middot; Which profile line can the system actually match?</h3><p><b>Answer:</b> Grant budgeting for federal awards</p><p>Named skills get matched. Adjectives and duty lists are invisible to anyone searching for what you can actually do.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the skill you will make visible first. Nothing you type here is saved or sent; the real update happens in the system this week.</p>
     <ul class="ps__moves"><li><b>The profile refresh.</b> Open your skills profile, retire the lines that read like a job description, and rewrite them as named, searchable skills.</li><li><b>The new-skill add.</b> Add one skill you built recently that the profile has never heard of, with enough detail to be matched.</li><li><b>The ten-minute habit.</b> Put a monthly ten-minute hold on your calendar: whatever shipped, name the skill it proved and add the line.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Where the Marketplace ends and other systems begin</h3><ol><li>Open your skills profile next to your Oracle job record. Mark every profile line that just restates the job record; those are your rewrite targets.</li><li>Write down two skills you use that appear in neither place. That gap is exactly what this week&#39;s update should close.</li></ol></div><div class="ps__sec"><h3>How a match actually finds you</h3><ol><li>Imagine the search you would most like to be found by. Write down the exact words that searcher would type.</li><li>Check whether those words, or close cousins, appear anywhere on your profile today. If not, that is your first new line.</li></ol></div><div class="ps__sec"><h3>The anatomy of a line the map can match</h3><ol><li>Grade your three strongest profile lines: skill named? scale shown? evidence hinted? Rewrite the weakest one now.</li><li>Run the borrow test on your last two weeks: what did anyone borrow you for? Add the best answer as a new line.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300003063355965">Navigate: Using the Talent Marketplace for Career Growth at Vanderbilt</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857338453">Skills and the Internal Talent Marketplace</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li><li><a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html">Deloitte Global Human Capital Trends (free report)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/oct-tuesday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "What just happened?",
    "progressWord": "Moment",
    "labels": [
     "Your skills becoming visible",

@@ -464,7 +464,7 @@ def check_links(findings):
     import glob
     pages = ['index.html'] + glob.glob('courses/*/index.html') + \
             glob.glob('courses/*/web/index.html') + glob.glob('courses/*/facilitator/index.html') + \
-            ['comms/index.html']
+            ['comms/index.html', 'wellness/index.html']
     for rel in pages:
         path = os.path.join(ROOT, rel)
         if not os.path.exists(path):

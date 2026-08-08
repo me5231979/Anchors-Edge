@@ -462,8 +462,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -495,11 +494,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Update your profile beyond your title, and raise your hand in the open.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Your profile is how opportunity finds you.</h3><p>List what you can do, wherever you learned it, including the skills your current role never asks for. The Portal matches on skills, so every one you leave off is a door that stays shut. What you want to build next belongs on there too.</p><p class="ps__src">Grounded in: <a href="https://learning.linkedin.com/resources/workplace-learning-report-2022">Internal mobility and retention (LinkedIn Workplace Learning)</a></p></div><div class="ps__sec"><h3>2 &middot; Search by the skills you want to use.</h3><p>A real first pass. Your hand is up, in the open, with people positioned to help it succeed.</p><p class="ps__src">Grounded in: <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/">Future of Jobs Report 2025, skills outlook (WEF)</a></p></div><div class="ps__sec"><h3>3 &middot; No secrecy required.</h3><p>You have the rhythm. Move in the open, and treat silence as a question for a navigator.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; What does the Portal use to match you with opportunities?</h3><p><b>Answer:</b> Your skills profile</p><p>Matching runs on skills. A profile that lists everything you can do, in role or beyond it, opens doors your title never will.</p></div><div class="ps__sec"><h3>2 &middot; The strongest way to raise your hand for an internal role is...</h3><p><b>Answer:</b> Express interest, tell your manager, see a navigator</p><p>Working in the open means the system has your hand up and the people who can actually help know to help.</p></div><div class="ps__sec"><h3>3 &middot; Two weeks of silence after expressing interest means...</h3><p><b>Answer:</b> Time to ask a navigator where it stands</p><p>Navigators exist for exactly this. They can tell you the stage, the timeline, and what would strengthen your profile.</p></div>
     <h2>Your commitment</h2>
     <p>Pick your first Portal move and put a window on it. Nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The profile refresh.</b> Ten minutes in your Portal profile: add the skills your title hides and one skill you want to build next.</li><li><b>The open search.</b> Fifteen minutes searching by skill, including gigs and projects, and save the three that pull at you.</li><li><b>The raised hand.</b> Express interest in one role, project, or gig, tell your manager, and book 20 minutes with a navigator.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Writing skills the Portal can match</h3><ol><li>Draft ten skills as activities: what you do, for whom, with what. The hidden ones show up after the first five.</li><li>Pick two skills you want to grow next and add them to your profile as the direction you are building.</li></ol></div><div class="ps__sec"><h3>The case for a six-week gig</h3><ol><li>Run one skill-first search filtered to gigs and short projects. Save anything that pulls at you, even slightly.</li><li>For your favorite, write the question a navigator could answer about fitting the time alongside your current role.</li></ol></div><div class="ps__sec"><h3>What happens after you raise your hand</h3><ol><li>Book 20 minutes with a navigator this month, even without a live application. Ask what strong first moves look like.</li><li>Write the sentence you would use to tell your manager you expressed interest, and say it out loud once.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857046731">Navigating Internal Mobility as an Employee</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857307403">Creating Your Internal Mobility Career Plan</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://ideas.ted.com/how-to-find-your-next-job-talk-to-the-people-you-already-know/">TED Ideas: Talk to the people you already know (free article)</a></li><li><a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html">Deloitte Global Human Capital Trends (free report)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/nov-tuesday/</p>
   </section>
 
@@ -509,6 +512,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Call the move",
    "progressWord": "Situation",
    "labels": [
     "Open move, keep going",

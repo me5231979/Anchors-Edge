@@ -462,8 +462,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -495,11 +494,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">You know the tools. Now point them at your own next move.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Point the tools at your own career.</h3><p>Read the two systems as one kit. The Talent Marketplace grows you where you are, through your skills profile and stretch work. The Transfer Portal carries the move once you are ready. A real plan uses both, in that order.</p><p class="ps__src">Grounded in: <a href="https://www.deloitte.com/us/en/insights/topics/talent/internal-talent-marketplace.html">Activating the internal talent marketplace (Deloitte)</a></p></div><div class="ps__sec"><h3>2 &middot; Write a profile the matching can read.</h3><p>Findable. Your profile gives the matching real material, and the surfaced fits will look like you on your best day.</p></div><div class="ps__sec"><h3>3 &middot; An internal move is a career path.</h3><p>You can hear the difference. Retire the myths out loud; they only survive in silence.</p><p class="ps__src">Grounded in: <a href="https://learning.linkedin.com/resources/internal-mobility/internal-mobility-best-practices">Internal mobility and retention, LinkedIn Workplace Learning research</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; How do the Talent Marketplace and the Transfer Portal fit together in your plan?</h3><p><b>Answer:</b> The Marketplace grows you; the Portal carries the move when you are ready</p><p>One kit, two jobs: grow where you are through the Marketplace, move when ready through the Portal. A plan uses both, and starts with the growing.</p></div><div class="ps__sec"><h3>2 &middot; What makes a skills profile genuinely findable?</h3><p><b>Answer:</b> All your usable skills, any role, with how you used them</p><p>Full inventory plus evidence, past roles included. The interesting matches usually come from the skills your current job never uses.</p></div><div class="ps__sec"><h3>3 &middot; A colleague applies for an internal role in another school. What is that at Vanderbilt?</h3><p><b>Answer:</b> A normal, encouraged career path</p><p>Internal mobility keeps talent inside the university, which is the point of Goal 1. Managers coach the move; they never gate the application.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the move that starts your plan. Your own words, your own career; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The skills sweep.</b> Spend one honest hour bringing your Talent Marketplace profile current: every usable skill, any role, one evidence line each.</li><li><b>The named direction.</b> Write the direction you would say yes to: the kind of work, the skills you want to grow. Then bring it to your manager.</li><li><b>The Portal scan.</b> Browse the Transfer Portal once, on purpose, and note one role or project that rhymes with your direction and why.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Growth first, move second</h3><ol><li>Write your direction as one sentence: the kind of work, not a job title. Test it: would three different real roles fit inside it?</li><li>List the two skills that direction runs on which you cannot evidence yet. Those are your Marketplace growth targets.</li><li>Open the Transfer Portal once this week and note which current openings rhyme with your direction, even ones you are not ready for.</li></ol></div><div class="ps__sec"><h3>The evidence line</h3><ol><li>Take your three strongest skills and write the three-part evidence line for each: the thing, the stakes, the result.</li><li>Add one skill from a past role or outside work that your current job never uses, with its own evidence line.</li><li>Read each line as a stranger. If it could describe anyone with your title, sharpen it until it could only describe you.</li></ol></div><div class="ps__sec"><h3>The manager conversation, scripted</h3><ol><li>Draft the three beats for your own manager conversation: direction, timing, continuity. Two sentences each.</li><li>Say the direction beat out loud once. If it sounds like an apology, rewrite it until it sounds like a plan.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857219110">Creating a Career Plan</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857307403">Creating Your Internal Mobility Career Plan</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve">Carol Dweck: The power of believing that you can improve (TED, 10 min)</a></li><li><a href="https://ideas.ted.com/how-to-find-your-next-job-talk-to-the-people-you-already-know/">TED Ideas: Talk to the people you already know (free article)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/feb-tuesday/</p>
   </section>
 
@@ -509,6 +512,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-three-play",
+   "title": "Myth or normal?",
    "progressWord": "Call",
    "labels": [
     "An old myth, retire it",

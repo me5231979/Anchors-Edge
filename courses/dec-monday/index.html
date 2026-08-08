@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Rate yourself on witnessed behavior, then put one gap&#39;s first instance on the calendar.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; The standard is a list of observable behaviors.</h3><p>Every line of the Vanderbilt manager standard passes one test: a colleague could watch you do it. Holding the 1:1 counts, and so does written feedback. If nobody could witness it, it is not on the list.</p><p class="ps__src">Grounded in: <a href="https://rework.withgoogle.com/intl/en/guides/following-the-data-the-research-behind-great-managers">Project Oxygen manager research, Google re:Work</a></p></div><div class="ps__sec"><h3>2 &middot; Telling a behavior from an intention.</h3><p>You have the witness test. If a colleague could have seen it, it counts; everything else is intention or adjective.</p><p class="ps__src">Grounded in: <a href="https://www.ccl.org/articles/leading-effectively-articles/sbi-feedback-model-a-quick-win-to-improve-talent-conversations-development/">The SBI model: behavior is what was observed (CCL)</a></p></div><div class="ps__sec"><h3>3 &middot; Rate each behavior against evidence.</h3><p>An honest read and a visible first move. The gap you found is now a calendar entry.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; The Vanderbilt manager standard is a list of...</h3><p><b>Answer:</b> Observable behaviors a colleague could witness</p><p>Every line passes the witness test: it can be seen, checked, and started tomorrow. That is what makes the standard usable and measurable.</p></div><div class="ps__sec"><h3>2 &middot; Which of these passes the witness test?</h3><p><b>Answer:</b> I hold a monthly 1:1 with each report</p><p>A colleague could watch it happen and a calendar could confirm it. The other three options never leave the speaker&#39;s head.</p></div><div class="ps__sec"><h3>3 &middot; An honest self-locate asks, for each behavior...</h3><p><b>Answer:</b> When did a colleague last see me do it?</p><p>Evidence over impression. Dates and witnessed instances tell you where you actually stand, which is the only useful starting point.</p></div>
     <h2>Your commitment</h2>
     <p>Pick the behavior your honest self-locate points to first. Roles only, never names; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The witness pass.</b> Walk the standard line by line and mark each one: when did a colleague last see me do this? Honest dates only.</li><li><b>The first instance.</b> Take your biggest-gap behavior and schedule its first visible instance before Friday.</li><li><b>The mirror ask.</b> Ask one trusted colleague which behavior on the standard they see from you least. Listen, thank them, skip the defense.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Witnessed in person, or proven by an artifact</h3><ol><li>Walk the standard and mark each line P or A: witnessed in person, or provable by an artifact like a calendar entry or a written feedback note.</li><li>Pick one line you marked A and go find last month&#39;s artifact. If the search comes up empty, you have found your first honest gap.</li></ol></div><div class="ps__sec"><h3>The gray zone: claims that describe a state</h3><ol><li>Write three claims you would make about your own managing this year. Label each one: behavior, intention, trait, or state.</li><li>Convert your weakest claim into an instance a colleague could see: a named action at a named time. Put its first occurrence on your calendar.</li></ol></div><div class="ps__sec"><h3>Evidence has a shelf life</h3><ol><li>Take the behavior you rated yourself highest on and list its last three instances with dates. If the dates take real digging, lower the rating.</li><li>Give your chosen gap behavior a rhythm before you schedule it: monthly, or after each milestone. The rhythm is what makes the habit checkable.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002856838381">Avoiding New Manager Mistakes</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300001205002309">Oracle Cloud: Training for Vanderbilt Managers</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.manager-tools.com/manager-tools-basics">Manager Tools: the manager basics (free podcast series)</a></li><li><a href="https://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe">Simon Sinek: Why good leaders make you feel safe (TED, 12 min)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/dec-monday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Behavior or intention?",
    "progressWord": "Claim",
    "labels": [
     "Behavior, a colleague could see it",

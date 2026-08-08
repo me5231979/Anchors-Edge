@@ -356,8 +356,7 @@
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -388,11 +387,15 @@
     <p class="ps__manifesto">Write the agreement down the same day: what you heard, what you own, by when.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Ask the three clarity questions.</h3><p>Before accepting any significant task, get answers to three things: what does done look like, when is it actually needed, and who makes the final call? Asking them is a service to the requester; every one you skip becomes a guess you own.</p><p class="ps__src">Grounded in: <a href="https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx">Gallup Q12: clarity of expectations</a></p></div><div class="ps__sec"><h3>2 &middot; The restate finds gaps while they are cheap.</h3><p>You can hear the difference. Clear gets action, fuzzy gets a restate, and every verbal agreement gets a written shadow.</p><p class="ps__src">Grounded in: <a href="https://www.shrm.org/topics-tools/news/managing-smart/don-t-blame-the-messenger">Repeat back what you heard to catch gaps early (SHRM)</a></p></div><div class="ps__sec"><h3>3 &middot; Agreements survive in writing.</h3><p>An agreement with a paper trail. Everyone can point at the same words all month.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; Before accepting a significant task, you should know...</h3><p><b>Answer:</b> Done, deadline, and who decides</p><p>Those three answers turn a request into an expectation. Every one you skip becomes a guess you own later.</p></div><div class="ps__sec"><h3>2 &middot; The best restate is...</h3><p><b>Answer:</b> Your own words, plus an invitation to correct</p><p>Your own words test understanding, and the invitation makes correcting you cheap. Gaps found now cost minutes.</p></div><div class="ps__sec"><h3>3 &middot; A verbal agreement becomes durable when...</h3><p><b>Answer:</b> You write it down the same day</p><p>Same-day writing captures what was said instead of what got remembered. Ninety seconds now beats an argument later.</p></div>
     <h2>Your commitment</h2>
     <p>Pick a real expectation in your week that would fail the done test. Roles only, never names; nothing you type is saved or sent.</p>
     <ul class="ps__moves"><li><b>The clarity ask.</b> Ask the three questions out loud: what does done look like, when is it actually needed, who decides?</li><li><b>The say-back.</b> Restate the expectation in your own words and end with: am I missing anything?</li><li><b>The written close.</b> Send a three-line same-day message: what I heard, what I own, by when.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>When the requester does not know yet</h3><ol><li>Write the bundled one-sentence version of the three questions in your own voice, one you could say to the most senior person you work with.</li><li>Pick one live task with no picture of done. Decide whether it needs the three questions or a checkpoint agreement, then send the ask today.</li></ol></div><div class="ps__sec"><h3>Restating up, down, and sideways</h3><ol><li>Take the live handoff from your solo prompt and write two restates: the casual peer version and the one you would send someone senior.</li><li>Use one of them in the real conversation this week. Whatever correction comes back is rework you just saved.</li></ol></div><div class="ps__sec"><h3>Anatomy of a close that settles arguments</h3><ol><li>Build your reusable three-line close in your notes app: what I heard, what I own, by when, plus the flag-anything line at the end.</li><li>Send one real close today for the most recent agreement you made, even if the conversation was days ago. One late close still beats none.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857301175">Communicating with Clarity as a Manager</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300001635276452">Using Active Listening in Workplace Situations</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.ted.com/talks/julian_treasure_5_ways_to_listen_better">Julian Treasure: 5 ways to listen better (TED, 8 min)</a></li><li><a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">Celeste Headlee: 10 ways to have a better conversation (TED, 12 min)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/dec-thursday/</p>
   </section>
 
@@ -402,6 +405,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Clear enough?",
    "progressWord": "Handoff",
    "labels": [
     "Clear, start working",

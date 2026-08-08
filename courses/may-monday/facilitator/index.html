@@ -462,8 +462,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        <a class="btn btn--ghost" href="../web/">Self-paced edition</a>
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -495,11 +494,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Read your own evidence monthly and make one leader behavior visible to your team.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; The standard is measured in behavior.</h3><p>Intentions are invisible; behavior is measurable. The standard tracks what you demonstrably do: the pulse your team answers, the 1:1s that happen or slip, and the signals your team sends with their feet and their growth.</p><p class="ps__src">Grounded in: <a href="https://www.gallup.com/workplace/356063/gallup-q12-employee-engagement-survey.aspx">Gallup Q12 employee engagement research</a></p></div><div class="ps__sec"><h3>2 &middot; Ask what would move the number.</h3><p>You can hear the difference. Evidence earns one behavior change; defensiveness gets dropped; overcorrection gets perspective.</p><p class="ps__src">Grounded in: <a href="https://www.penguinrandomhouse.com/books/545088/insight-by-tasha-eurich/">Insight, Tasha Eurich&#39;s self-awareness research (Crown)</a></p></div><div class="ps__sec"><h3>3 &middot; Pick one behavior. Make it easy to see.</h3><p>A behavior the standard can find. Your team can name it, your calendar can prove it, and May can measure it.</p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; How is the Vanderbilt manager standard measured?</h3><p><b>Answer:</b> Through demonstrated behavior: pulse, cadence, team signals</p><p>The standard tracks what managers demonstrably do and what teams experience: pulse data, held 1:1s, and the signals a team sends over time.</p></div><div class="ps__sec"><h3>2 &middot; Your pulse score dips. The evidence read asks...</h3><p><b>Answer:</b> What behavior would move this number?</p><p>Evidence is information about behavior. The productive question aims at one behavior change, without the defensive story or the overnight overcorrection.</p></div><div class="ps__sec"><h3>3 &middot; What makes a chosen behavior count toward the standard?</h3><p><b>Answer:</b> It is visible: named, scheduled, observable</p><p>The standard reads what can be seen. Naming the behavior, putting it on a cadence, and letting the team observe it turns intent into evidence.</p></div>
     <h2>Your commitment</h2>
     <p>Choose the behavior your evidence points at. Nothing you type is saved or sent; keep any team references to roles, never names.</p>
     <ul class="ps__moves"><li><b>The held 1:1.</b> Protect every 1:1 on the calendar this month; if one must move, it gets rebooked in the same week, never dropped.</li><li><b>The feedback opener.</b> Open each 1:1 with ten minutes of real feedback and growth talk before any status updates.</li><li><b>The named commitment.</b> Tell the team the one behavior you are working on and ask them to call it when it slips.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     <h2>Practise it on your own</h2><div class="ps__sec"><h3>Reading the three streams together</h3><ol><li>In a private note, capture all three streams: your last pulse result, your 1:1 record for the past two months, and any team moves over the past year.</li><li>Mark where two streams agree. That agreement is your strongest signal, and the behavior it points at is your best candidate for this month.</li><li>Put a recurring 15-minute hold on your calendar to reread all three monthly; the read only works as a habit.</li></ol></div><div class="ps__sec"><h3>The second draft rule</h3><ol><li>Find one number or comment from the past year that still annoys you. Write the defensive story you told first, word for word.</li><li>Under it, write the one-sentence evidence read: what behavior would move this?</li><li>Note which draft you actually acted on at the time, and what the second draft would have changed.</li></ol></div><div class="ps__sec"><h3>Designing the witness</h3><ol><li>Write your one behavior as a sentence with a time and a place: I will do X at every Y.</li><li>Pick the witness: the team member or peer who will see it most often, and tell them this week what to watch for.</li><li>Check that your calendar could prove it later: recurring holds, agenda lines, anything that leaves a trace.</li></ol></div>
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002987328913">Performance Management Foundations</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857511183">Measuring Team Performance</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.manager-tools.com/manager-tools-basics">Manager Tools: the manager basics (free podcast series)</a></li><li><a href="https://hbr.org/podcasts">HBR IdeaCast (free weekly management podcast)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/may-monday/</p>
   </section>
 
@@ -509,6 +512,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-two-play",
+   "title": "Call the read",
    "progressWord": "Read",
    "labels": [
     "Evidence read, act on it",

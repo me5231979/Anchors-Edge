@@ -437,8 +437,7 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
       </div>
       <div class="hero__cta" data-reveal style="justify-content:center;margin-top:1.5rem">
         <a class="btn" href="../../../index.html#months">Back to the Anchor's Edge dashboard</a>
-        
-        <a class="btn btn--ghost" href="#s-recap">Retake the quiz</a>
+        <button class="btn btn--ghost jsonly" type="button" id="printSheet">Print your takeaway sheet</button>
       </div>
   <!-- ============ FOOTER (slim, fits the closing slide) ============ -->
 <footer class="footer footer--slim" aria-label="Course footer">
@@ -470,11 +469,15 @@ body.fac #s-close .vidcard--feature p { font-size: .85rem; }
     <p class="ps__manifesto">Have someone else read your profile, then explore one real opening before you leave.</p>
     <h2>What each part taught</h2>
     <div class="ps__sec"><h3>1 &middot; Edit your profile like a searcher.</h3><p>Your ear is calibrated. Now turn it on your own lines, and your partner&#39;s.</p><p class="ps__src">Grounded in: <a href="https://www.deloitte.com/us/en/insights/topics/talent/internal-talent-marketplace.html">Activating the internal talent marketplace (Deloitte Insights)</a></p></div><div class="ps__sec"><h3>2 &middot; Read the posting beside your profile.</h3><p>You know exactly where you stand with this opening, and what to do about it next.</p></div><div class="ps__sec"><h3>3 &middot; Leave with a hand up or a barrier named.</h3><p>Expressing interest opens a conversation and signs nothing; you can step back at any stage. A named barrier, written and handed to a navigator, is a solvable problem. Both count as motion. A vague later is the only exit that goes nowhere.</p><p class="ps__src">Grounded in: <a href="https://www.td.org/insights/straight-talk-about-learning-transfer">Straight talk about learning transfer, Emma Weber (ATD)</a></p></div>
+    <h2>The recap, with the answers</h2>
+    <div class="ps__sec"><h3>1 &middot; A searcher in the Portal finds your profile by...</h3><p><b>Answer:</b> The named capabilities on your lines</p><p>Search runs on activities and capabilities. Titles, tenure, and org charts describe where you sit; the lines describe what you can do.</p></div><div class="ps__sec"><h3>2 &middot; The proper way to explore an opening that pulls at you is...</h3><p><b>Answer:</b> Read it beside your profile: matches and gaps</p><p>The comparative read turns a daydream into a decision: you can see your actual case and the gap you would need to close.</p></div><div class="ps__sec"><h3>3 &middot; The two good exits from the clinic are...</h3><p><b>Answer:</b> Interest expressed, or a barrier named to a navigator</p><p>Both are motion. A raised hand starts a conversation; a named barrier becomes a navigator&#39;s job. Only the vague later goes nowhere.</p></div>
     <h2>Your commitment</h2>
     <p>Choose the move that keeps the work going after today. Nothing you write is saved or sent.</p>
     <ul class="ps__moves"><li><b>The next line.</b> Rewrite one more invisible line within the week, using your partner&#39;s marks; if none are left, add the capability your explored gap pointed at.</li><li><b>The navigator twenty.</b> Book twenty minutes with a navigator: your barrier if you named one, or how to strengthen your raised hand if you did not.</li><li><b>The open word.</b> Tell your manager what you explored and what you did about it. Open beats discovered, and the talk is usually easier than the dread.</li></ul>
-    <p class="ps__write"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
+    <div class="ps__entered" id="psEntered" hidden></div>
+    <p class="ps__write" id="psWrite"><b>Mine:</b> .............................................. &nbsp; <b>By when:</b> ..............</p>
     
+    <h2>Where to go next</h2><div class="ps__sec"><h3>In Oracle Learning</h3><ul class="ps__res"><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002958309506">Rock Your LinkedIn Profile</a></li><li><a href="https://ecsr.fa.us2.oraclecloud.com/fscmUI/redwood/learner/learn/redirect?learningItemType=ORA_COURSE&amp;learningItemId=300002857187823">Creating Your Personal Brand</a></li></ul><p class="ps__src">On paper, search these titles in Oracle Learning.</p></div><div class="ps__sec"><h3>Free, outside Vanderbilt</h3><ul class="ps__res ps__res--url"><li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">World Economic Forum: Future of Jobs Report 2025 (free)</a></li><li><a href="https://www.ted.com/talks/adam_grant_are_you_a_giver_or_a_taker">Adam Grant: Are you a giver or a taker? (TED, 13 min)</a></li></ul></div>
     <p class="ps__foot">https://me5231979.github.io/Anchors-Edge/courses/nov-workshop/</p>
   </section>
 
@@ -484,6 +487,7 @@ window.COURSE = {
  "trainers": [
   {
    "rootId": "s-one-play",
+   "title": "Findable or invisible?",
    "progressWord": "Line",
    "labels": [
     "Findable, a searcher lands on it",
