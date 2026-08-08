@@ -55,10 +55,10 @@
    "dataTitle": "The evidence walk",
    "eyebrow": "Step One",
    "headline": "Every line gets a date or a <em>blank</em>.",
-   "lead": "Gallup traces about 70 percent of a team's engagement to its manager, so this audit has earned its hour. Date each line's last instance, witness or artifact attached, or leave it blank.",
+   "lead": "Leader behavior predicts team performance across 89 samples, task-focused and person-focused alike, which is why this audit is behavioral. Date each line's last instance, witness or artifact attached, or leave it blank.",
    "source": {
-    "label": "Gallup: managers drive 70 percent of engagement variance",
-    "url": "https://news.gallup.com/businessjournal/182792/managers-account-variance-employee-engagement.aspx"
+    "label": "Leader behavior and team performance, meta-analysis of 89 samples",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S105348221630064X"
    },
    "group": "At your table: name one line where your evidence surprised you. Blanks are findings, never confessions.",
    "interaction": {
@@ -304,7 +304,7 @@
   "s1": {
    "title": "The evidence walk",
    "purpose": "Every manager audits the full standard on paper: a date and a witness per line, or an honest blank.",
-   "say": "Sheets out, pens up. One number before you start. Gallup has studied millions of workers and puts about 70 percent of the difference in team engagement down to a single variable, the manager. That is why this hour goes to paper and honesty. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
+   "say": "Sheets out, pens up. One finding before you start. Across 89 studies, what a manager actually does, the task side and the person side both, tracks how the team performs. Behavior is the lever, which is why this hour goes to paper and honesty. For every line of the standard, write the last instance a colleague could point to: the date, plus the witness or the artifact, like the calendar entry or the written feedback in Oracle. If nothing comes, leave it blank and move on. Nobody collects this sheet. The blanks are for you, and they are the most valuable thing you will write today.",
    "facilitate": [
     "Distribute the walk sheets; the flip chart carries the evidence rule: an instance is a date plus a witness or an artifact.",
     "Give the room long quiet time; walk the tables and gently challenge suspiciously full sheets by asking for the date on one entry.",
